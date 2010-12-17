@@ -1,0 +1,428 @@
+<html>
+<head>
+<title>Seattle Parks and Recreation: Cheslahud Lake Union Loop</title>
+<meta name="Title" content="Seattle Parks and Recreation: Cheslahud Lake Union Loop">
+<meta NAME="DESCRIPTION" CONTENT="Lake Union Park - Cheslahud Lake Union Loop">
+<meta NAME="KEYWORDS" CONTENT="Seattle, Parks, Recreation, Cheslahud, Cheshiahud, Lake, Union, Loop, Trail, Park">
+<link REL="stylesheet" HREF="/parks/_styles/parks_nav.css" TYPE="text/css"/>
+<script language="javascript">
+<!--
+TOP_LOC = "tn_parks"
+SUB_LOC = ""
+//-->
+</script>
+<script language="javascript" src="/parks/js/navigation.js"></script>
+</head>
+<body>
+<noindex>
+<script language="javascript">
+function changeFilter(whichCol){
+ if(whichCol == "Dept"){
+   document.forms[0].site.value = whichDept;
+   document.forms[0].proxystylesheet.value = whichStyle;
+ }else{
+   document.forms[0].site.value = "default_collection";
+   document.forms[0].proxystylesheet.value = "cos_frontend";
+ }
+}
+</script> 
+<style>
+image:focus {-moz-outline-style: none;}
+</style>
+<div align="center">
+<div style="display:block;position:relative;margin:0px auto;width:775px;height:70px;background-repeat:no-repeat;background-image: url(/common/images/header_background.png);background-color:#fff">
+  <div id="cityNav" style="width:765px;position:absolute;top:0px;left:0px;text-align:right;"><a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/departments/">Departments</a> | <a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/services/">Services</a> | <a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/directory/">Staff Directory</a></div>
+  <div id="cityBrand" style="width:320px;position:absolute;top:0px;left:0px;"><a href="/default.htm"><img onmouseover="this.src='/common/images/SeattleGovLogo.png'" onmouseout="this.src='/common/images/SeattleGovLogoHome.png'" src="/common/images/SeattleGovLogoHome.png" alt="Seattle.gov Home Page" border="0" width="320" height="70" /></a></div>
+  <div id="citySearch" style="width:300px;position:absolute;top:24px;left:470px;">
+		<form id="googleSearch" style="margin:0px;padding:-10px;" method="get" action="http://find.seattle.gov/search">
+		<input type="text" style="vertical-align:top;margin:0px;padding-top:5px;padding:0px;height:22px;line-height:20px;border:2px solid #d5d5d5;width:250px;" name="q" size="18" maxlength="255" value="" />
+		<input style="vertical-align:top;margin-top:0px;border:0px;height:25px;-moz-outline-style: none;" type="image" src="/common/images/go_button.png" name="btnG" value="Go" onclick="document.forms['googleSearch'].submit()"/>
+		<input type="hidden" name="site" value="default_collection"/>
+		<input type="hidden" name="client" value="cos_frontend"/>
+		<input type="hidden" name="proxystylesheet" value="cos_frontend"/>
+		<input type="hidden" name="output" value="xml_no_dtd"/>
+		</form> 
+  	<div style="font-family: Arial, Helvetica; font-size:12px !important;color:#999;width:250px;position:absolute;top:22px;left:25px;">
+      <form name="toggle" style="margin: 0px;"><input type="radio" value="main" name="searchToggle" checked="" onclick="changeFilter('Seattle')">Seattle.gov <input type="radio" value="dept" name="searchToggle" onclick="changeFilter('Dept')">This Department</form>
+    </div>
+  </div>
+</div>  
+</div>
+<script language="javascript">
+whichDept="";
+whichStyle="";
+</script>
+
+</noindex>
+
+<div align="center"> 
+  <table width="775" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+<tr>
+  <td width="488"><A href="/parks/"><img src="/parks/images/dept_title.gif" alt="Seattle Parks and Recreation" width="488" height="29" border="0"></a></td>
+  <td width="95"><A href="/parks/"><img src="/parks/images/top_home.gif" width="95" height="29" alt="Seattle Parks and Recreation Home Page" border="0"></a></td>
+  <td width="86"><A href="/parks/aboutus.htm"><img src="/parks/images/top_about.gif" alt="Seattle Parks and Recreation - About Us" width="86" height="29" border="0"></a></td>
+  <td width="106"><A href="/parks/contact/default.htm"><img src="/parks/images/top_contact.gif" alt="Seattle Parks and Recreation - Contact Us" width="106" height="29" border="0"></a></td>
+</tr>
+<tr>
+  <td colspan="4"><img src="/parks/images/top_tagline.gif" width="775" height="29" alt="Christopher Williams, Acting Superintendent." border="0"></td>
+</tr>
+</table>
+<table width="775" cellpadding="5" cellspacing="0" border="0" bgcolor="#ffffff"> 
+<tr>
+  <td onmouseover="hoverSTATE(this)" onmouseout="hoverSTATE(this)" class="topNAV" id="tn_parks">&nbsp; <a href="/parks/parkspaces/index.htm">Parks</a> &nbsp;</td>
+  <td onmouseover="hoverSTATE(this)" onmouseout="hoverSTATE(this)" class="topNAV" id="tn_centers"><a href="/parks/centers/default.htm">Centers & Pools</a></td>
+  <td onmouseover="hoverSTATE(this)" onmouseout="hoverSTATE(this)" class="topNAV" id="tn_activities"><a href="/parks/activities/default.htm">Activities</a></td>
+  <td onmouseover="hoverSTATE(this)" onmouseout="hoverSTATE(this)" class="topNAV" id="tn_permits"><a href="/parks/reservations/default.htm">Reservations & Permits</a></td>
+  <td onmouseover="hoverSTATE(this)" onmouseout="hoverSTATE(this)" class="topNAV" id="tn_projects"><a href="/parks/projects/default.htm">Projects & Planning</a></td>
+  <td onmouseover="hoverSTATE(this)" onmouseout="hoverSTATE(this)" class="topNAV" id="tn_index"><a href="/parks/a_zdir.htm">A - Z Index</a></td>
+</tr>
+</table>
+<script language="javascript">
+whichDept = "Parks"; 
+whichStyle = "parks_frontend";
+</script>
+
+  <table bgcolor="#FFFFFF" width="775" align="center" cellpadding="0" cellspacing="0">
+    <tr> 
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="185" valign="top"> 
+        <table width="185" cellpadding="0" cellspacing="0" border="0">
+          <tr> 
+            <td> 
+              
+<div class="navtitle">Projects & Planning</div>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr id="projects_strategicbusinessplan"> 
+    <td class="TIERTWO"><a href="/parks/Publications/ParksActionPlan.htm">Strategic 
+      Action Plan</a> </td>
+  </tr>
+
+  <tr id="projects_board"> 
+    <td class="TIERTWO"><a href="/parks/parkboard/default.asp">Board of Park Commissioners</a></td>
+  </tr>
+    <tr id="projects_levy"> 
+    <td class="TIERTWO"><a href="/parks/levy/default.htm">Parks and Green Spaces Levy</a></td>
+  </tr>
+  <tr id="projects_proparks"> 
+    <td class="TIERTWO"><a href="/parks/proparks/default.htm">Pro Parks Levy</a></td>
+  </tr>
+  <tr id="projects_commcenterlevy"> 
+    <td class="TIERTWO"><a href="/parks/Centers/comcenlevyprog99.htm">Community 
+      Center Levy</a></td>
+  </tr>
+  <tr id="projects_maintenance"> 
+    <td class="TIERTWO"><a href="/parks/maintenance/default.htm">Major Maintenance</a></td>
+  </tr>
+  <tr id="projects_matchingfund"> 
+    <td class="TIERTWO"><a href="/parks/projects/nmf/default.htm">Neighborhood 
+      Matching Fund</a></td>
+  </tr>
+  <tr id="projects_horticulture"> 
+    <td class="TIERTWO"><a href="/parks/horticulture/default.htm">Horticulture</a></td>
+  </tr>
+  <tr id="projects_sustainable"> 
+    <td class="TIERTWO"><a href="/parks/sustainable/default.htm">Sustainable Building 
+      & Development</a></td>
+  </tr>
+  <tr id="projects_citywidedocs"> 
+    <td class="TIERTWO"><a href="/parks/projects/docs.htm">City-Wide Planning 
+      Documents</a></td>
+  </tr>
+  <tr id="projects_parkplans"> 
+    <td class="TIERTWO"><a href="/parks/Horticulture/vmp.htm">Plans for Individual 
+      Parks</a></td>
+  </tr>
+  <tr id="projects_parkstandards"> 
+    <td class="TIERTWO"><a href="/parks/projects/standards/default.htm">Parks 
+      Standards</a></td>
+  </tr>
+  <tr id="projects_parkpolicies"> 
+    <td class="TIERTWO"><a href="/parks/Publications/policy.htm">Policies and 
+      Agreements</a></td>
+  </tr>
+  <tr id="projects_parkrfp"> 
+    <td class="TIERTWO"><a href="/parks/partnerships/rfp.htm">Requests for Proposals</a></td>
+  </tr>
+    <tr id="projects_parkrfq"> 
+    <td class="TIERTWO"><a href="/parks/partnerships/rfq.htm">Requests for Qualifications</a></td>
+  </tr>
+  <tr id="projects_seattleparksfoundation"> 
+    <td class="TIERTWO"><a href="http://www.seattleparksfoundation.org/" target="_blank">Seattle 
+      Parks Foundation</a></td>
+  </tr>
+</table>
+<div  align="center"><A href="/parks/"><img src="/parks/_images/logos/logo.gif" width="150" height="116" alt="Seattle Parks and Recreation" border="0"></a></div>
+
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td valign="top" class="content"> 
+        <h1>Cheshiahud Lake Union Loop</h1>
+        <div class='icon'>&nbsp;</div>
+        <b>Seattle Parks and Recreation Information:</b><br />
+        206-684-4075 | <a HREF="/parks/contact/">Contact Us</a> <b>TTY Phone: 
+        </b>206-233-1509<br />
+        <div class='contentrt'>&lt; <a href="../parkspaces/lakeunionpark.htm">Lake 
+          Union Park</a></div>
+        <hr>
+        <table width="170" border="0" align="right" class="contrastbox">
+          <tr> 
+            <td class="small"> 
+              <h4> More Information</h4>
+              <p>David Graves, AICP<br />
+                Senior Planner<br />
+                Major Projects &amp; Planning<br />
+                Seattle Parks &amp; Recreation<br />
+                206-684-7048 <br />
+                <a href="mailto:david.graves@seattle.gov">david.graves@seattle.gov</a></p>
+              <br />
+              <h4>Events</h4>
+              <p>
+                <i>There are no events currently scheduled.</i>
+              </p>
+              <br />
+            </td>
+          </tr>
+          <tr> 
+            <td><a href="CLUL_field_notes_map.pdf" target="_blank"><img src="CLUL_field_notes_thumb.jpg" width="170" height="118" border="0" alt="Field Notes Map"><br />
+              Field Notes Map</a> <img src="../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."><br />
+              <br />
+            </td>
+          </tr>
+          <tr> 
+            <td class="small"><a href="../LakeUnionLoop/CLUL_master_plan.pdf" target="_blank"></a><a href="../LakeUnionLoop/CLUL_master_plan.pdf" target="_blank"><img src="../LakeUnionLoop/CLUL_master_plan.jpg" width="170" height="162" border="0" alt="Cheslahud Lake Union Loop Master Plan"><br />
+              Master Plan</a> <img src="../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."> 
+              <br />
+              <a href="../LakeUnionLoop/CLUL_master_plan_appendices.pdf" target="_blank"> 
+              Appendices</a> <img src="../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."><br />
+              <i>These are large files and may take a little time to download.</i><br />
+              <br />
+            </td>
+          </tr>
+          <tr> 
+            <td><a href="../LakeUnionLoop/CLUL_map.pdf" target="_blank"><img src="../LakeUnionLoop/CLUL_map.jpg" width="170" height="220" border="0" alt="Cheslahud Lake Union Loop Map"><br />
+              Trail Map</a> <img src="../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."><br />
+              <br />
+            </td>
+          </tr>
+          <tr> 
+            <td><a href="../LakeUnionLoop/CLUL_Concepts.pdf" target="_blank"><img src="../LakeUnionLoop/CLUL_Concepts.jpg" width="170" border="0" alt="Cheslahud Lake Union Loop Concepts"><br />
+              Concepts</a> <img src="../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."><br />
+              <br />
+            </td>
+          </tr>
+          <tr> 
+            <td class='image'><i>Select an image for a larger, detailed view</i> 
+              <img src="../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."><br />
+            </td>
+          </tr>
+          <!--<tr> 
+            <td> 
+              <h4>Links</h4>
+              
+            </td>
+          </tr>-->
+        </table>
+        <h2>Vision</h2>
+        <p>The  City and the Seattle Parks Foundation created a multi-use loop around Lake  Union. The vision  is to invite community use and enjoyment of  Lake Union; providing a loop that connects people to open space &ndash; connecting  us to new and existing lakefront parks, celebrating the lake&rsquo;s historic working  waterfront, and revealing the unique character and quality of the lake itself.</p>
+<p>The loop creates safe and attractive access to the lake for all  Seattlites - connecting Gasworks and Lake Union Parks, linking more than 35  pocket parks, street ends and waterways that ring the lake, and improving  access from adjacent neighborhoods, downtown, and the University of Washington.</p>
+        <p>By connecting existing parks and improving access to the lake, this loop  provides a continuous network of open spaces that are ideal for a range of  active and passive recreation, from boating, bicycling and walking, to family  picnics and quiet contemplation. This loop celebrates the rich and varied  history of Lake Union and its ties to Seattle&rsquo;s maritime and industrial past,  present and future.</p>
+        <p>At the geographic and historic heart of Seattle, the loop enhances the  vitality and livability of neighborhoods surrounding the lake, the City, and  the Seattle region. Parts of a lakefront trail already exist&mdash;segments of the  Burke Gilman Trail, Westlake Avenue and trails within Gasworks and Lake Union  Park. But as a whole, Lake Union remains inaccessible and disconnected as a  resource, both for the communities that surround it and the general public.</p>
+        <h2>Public Art </h2>
+        <p><em>Field Notes: Observing Lake Union</em> is an audio tour that focuses on  four sites along the Cheshiahud Lake Union Loop: Lake Union Park, Fairview  Park, Gas Works Park, and Lake Washington Ship Canal viewing spot under the  Aurora Bridge on the Burke Gilman Trail. The artwork explores the underlying  ecology of Lake Union and its dramatic transformation through eras of geologic  change, Native American stewardship, European settlement, commercial industry  and large-scale infrastructural development, as well as urban planning and park  design. </p>
+        <p>Each site incorporates an introductory piece narrated by the Studio for  Urban Projects, indicated with a sign and call-in number on the trail. Within  each site, printed flags mark observation points and provide additional call-in  numbers. Call in and listen to a collage of voices gathered from interviews  with local scholars, ecologists, historians, plant experts, foragers, residents  and designers, among others. The observations focus on the specifics of the  site and collectively speak to the lake's layered history. </p>
+        <p>You can also call the project hotline at 206-395-2311, ext. 50, and offer  you own observations about the site. The artists will edit and publish these  contributions periodically for the duration of the project. </p>
+        <p>At the park, you can use your cell phone to hear the audio. Preloaded MP3  players are also available at the <a href="http://www.nwoc.com/" target="_blank">Northwest  Outdoor Center</a> and <a href="http://www.dutchbikeseattle.com/" target="_blank">Dutch Bike  Co., Seattle</a>. </p>
+        <p>Download MP3 files of <em>Field Notes</em> at <a href="http://www.fieldnoteslakeunion.net/" target="_blank">www.fieldnoteslakeunion.net</a>. </p>
+		<p>Founded in 2006, Studio for Urban Projects is an artist collaborative that  perceives art as a means of advancing civic engagement and furthering public  dialogue. </p>
+        <p><em>Field  Notes</em> is created in collaboration with audio engineer Tim  Halbur. The artwork is commissioned by the Seattle Office of Arts and Cultural  Affairs with <a href="http://www.seattle.gov/transportation/">Seattle  Department of Transportation</a> and <a href="http://www.cityofseattle.net/parks">Parks and Recreation</a>  1% for  Art funds.</p>
+<h2>Trail Name</h2>
+        <p>The new six-mile trail around Lake Union is named “<a href="http://www.duwamishtribe.org/lakejohn.html">Cheshiahud</a> 
+          Lake Union Loop” in honor of a Duwamish chief who led a village located 
+          on Lake Union. Mayor Greg Nickels chose the name from suggestions submitted 
+          by the public in a naming contest.
+          <!-- <a href="http://www.seattle.gov/news/detail.asp?ID=8395&Dept=40" target="_blank">Read 
+          press release</a>-->
+        </p>
+        <h2>History of Lake Union</h2>
+        <p>Lake Union is the lens through which we can view the history of Seattle. 
+          Home to Native American villages, lumber mills, airplanes, boat-building, 
+          the military, and recreation, Lake Union has a fascinating history.<br />
+          <br />
+          <a href="CLUL_FactSheet.pdf" target="_blank">Fact sheet</a> <img src="../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."> 
+        </p>
+        <hr>
+        <!--<div class='contrastBox'>To learn more about Seattle Parks and Recreation, 
+        including historic landmarks, military base reuse, and the Sherwood History 
+        Files, view our <a href="http://www.seattle.gov/parks/history/">Park History</a>.</div>-->
+        <h2>COMMUNITY PARTICIPATION</h2>
+        <br />
+        <b>Open House #1 06/17/08</b> 
+        <ul>
+          <!--<li><a href="" target="_blank">Meeting 
+                  Agenda</a> <img src="../../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."></li>-->
+          <li><a href="CLUL_OpenHouseSummary061708.pdf" target="_blank">Summary</a> 
+            <img src="../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."></li>
+        </ul>
+        <br />
+        <b>Open House #2 09/11/08</b> 
+        <ul>
+          <!--<li><a href="" target="_blank">Meeting 
+                  Agenda</a> <img src="../../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."></li>-->
+          <li><a href="CLUL_OpenHouseSummary091108.pdf" target="_blank">Summary</a> 
+            <img src="../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."></li>
+        </ul>
+        <br />
+        <b>Open House #3 12/11/08</b> 
+        <ul>
+          <!--<li><a href="" target="_blank">Meeting 
+                  Agenda</a> <img src="../../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."></li>-->
+          <li><a href="CLUL_OpenHouseSummary121108.pdf" target="_blank">Summary</a> 
+            <img src="../_images/icons/pdf.gif" width="11" height="12" alt="You will need adobe acrobat reader to view this document."></li>
+        </ul>
+        <hr>
+        <h2>Links</h2>
+        <a name="IMPORTANT_LINKS"></a> 
+        <ul>
+          <li><a href="http://www.seattle.gov/parks/parkspaces/lakeunionpark.htm">Lake 
+            Union Park</a></li>
+          <li><a href='http://www.seattle.gov/parks/ProParks/projects/lakeunionpark.htm'>Pro 
+            Parks Project Information </a></li>
+          <li><a href='http://www.seattleparksfoundation.org/' target="_blank">Seattle 
+            Parks Foundation</a></li>
+          <li><a href='http://www.seattle.gov/parks/'>Seattle Parks and Recreation</a></li>
+          <li><a href='http://www.seattle.gov/arts/publicart/temporary_projects.asp'>Seattle Public Art Temporary Projects</a></li>
+        </ul>
+        
+<hr width="100%">
+<p><a name="pdf"></a> <span class=small> <img src="http://www.seattle.gov/parks/_images/icons/pdf.gif" alt="You will need Adobe Acrobat Reader to view this document." border="0"><span style="color:#FF0000; font-weight:bold">*Note</span>: 
+  To view a PDF, you must have Adobe Acrobat Reader. Download it for free at <a href="http://www.adobe.com/products/acrobat/readstep2.html" class=nav5 TARGET="_new" ONCLICK="window.open('http://www.adobe.com/products/acrobat/readstep2.html', '_new', 'width=600,height=600,toolbar=yes,status=yes,scrollbars=yes,resizable=yes'); return false">www.adobe.com</a>.&nbsp;<b><img src="http://www.seattle.gov/parks/_images/icons/globe_top.gif" width="10" height="10" alt="his link will take you outside the City of Seattle web site" border="0"></b> 
+  </span></p>
+
+        <div class='icon'>&nbsp;</div>
+        <div class='contentct'><b>Updated 
+          <!-- #BeginDate format:Am1 -->November 19, 2010<!-- #EndDate -->
+          </b></div>
+        <br />
+      </td>
+    </tr>
+  </table>
+   
+<table width="775" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+  <tr>
+  <td>
+  <img src="/parks/images/gry_px_shim.jpg" height="4" width="775" alt="" />
+  </td>
+  </tr>
+  <tr> 
+    <td style="padding:3px">&nbsp;<a class='navBot' href="http://www.seattle.gov/parks/">Home</a> | <a class='navBot' href="http://www.seattle.gov/parks/faq.htm">FAQ</a> | <a class='navBot' href="http://parkways.seattle.gov/">Parkways News</a> | <a class='navBot' href="http://www.seattle.gov/parks/parkboard/default.asp">Park Board</a> <!--| <a class='navBot' href="/parks/partnerships/default.asp">Partnerships</a>--> | <a class='navBot' href="http://www.seattle.gov/parks/volunteers/default.htm">Volunteer</a> | <a class='navBot' href="http://www.facebook.com/pages/SeattleParks/330367168566" target="_blank">Parks Facebook</a>&nbsp;<a class='navBot' href="http://www.facebook.com/pages/SeattleParks/330367168566" target="_blank"><img src="/parks/images/icon_facebook.png" width="16" height="16" alt="Facebook Icon" border="0"></a> 
+      | <a class='navBot' href="https://twitter.com/SeattleParks" target="_blank">Parks Twitter</a>&nbsp;<a class='navBot' href="https://twitter.com/SeattleParks" target="_blank"><img src="/parks/images/icon_twitter.png" width="16" height="16" alt="Twitter Icon" border="0"></a> 
+      | <a class='navBot' href="http://www.flickr.com/photos/seattleparks/" target="_blank">Parks Flickr</a>&nbsp;<a class='navBot' href="http://www.flickr.com/photos/seattleparks/" target="_blank"><img src="/parks/images/icon_flickr.png" width="16" height="16" alt="Flickr Icon" border="0"></a></td>
+  </tr>
+    <tr>
+  <td>
+  <img src="/parks/images/wht_px_shim.jpg" height="2" width="775" alt="" /> 
+  </td>
+  </tr>
+</table>
+
+
+  <noindex>
+<noindex>
+<style>
+#footerContainer {
+  width:773px;
+	*width:775px;
+  margin:0px auto;
+  border:1px solid #c8c8c8;
+  background: #e1e1e1; 
+}
+#footerContainer ul{
+	list-style: none;
+	margin: 0; padding: 0;
+	float: left;
+  height:145px
+}
+#footerContainer ul li {
+  line-height: 1.25;
+  list-style: none;
+	padding:0px;
+	margin:0px;
+	padding-left:10px;
+	width: 100%;
+	color: #000;
+}
+#footerContainer ul li h2 {
+	padding: 0px;  
+	margin: 0px;
+	margin-bottom:5px;
+	margin-top:5px;
+	font-weight: bold;
+  font-family: arial, helvetica;
+  text-transform:none;
+	font-size: 16px;
+  color:#575757;
+  background-color:transparent;
+}
+#footerContainer ul li a {
+	float: none; 
+	text-indent: 0; /*--Reset text indent--*/
+  font-family: arial, helvetica;
+  font-size:12px;
+	height: auto;
+  padding: 2px 5px 0px 15px;
+	display: block;
+	text-decoration: none;
+	color: #6d6d6d;
+	font-weight: bold;
+}
+#footerContainer ul li a:hover {color: #007dc3; font-decoration:underline}
+</style>
+<div align="center">
+  <div id="footerContainer" style="display:table;text-align:left">
+		<ul style="width:190px;">
+				<li><h2>Navigate to:</h2></li>
+				<li><a href="/">Seattle.gov Home Page</a></li>
+				<li><a href="/business/">Business In Seattle</a></li>
+				<li><a href="/living/">Living in Seattle</a></li>
+				<li><a href="/visiting/">Visiting Seattle</a></li>
+				<li><a href="/services/">City Services</a></li>
+		</ul>
+		<ul style="width:190px;border-right:1px solid #666">
+				<li><h2>&nbsp;</h2></li>
+				<li><a href="/mayor/">Mayor's Office</a></li>
+				<li><a href="/council/">City Council</a></li>
+				<li><a href="/departments/">City Departments</a></li>
+				<li> &nbsp;</li>
+				<li> &nbsp;</li>
+		</ul>
+		<ul style="width:190px;border-right:1px solid #666">
+				<li><h2>We're Here to Help...</h2></li>
+				<li><a href="/customerservice/request.htm">Questions / Complaints</a></li>
+				<li><a href="/html/citizen/faqs.htm">FAQs</a></li>
+				<li><a href="/directory/">Employee Directory</a></li>
+  			<li><a href="/customerservice/"><b style="color:#000">City Customer Service<br/> Call (206) 684-CITY</b></a></li>
+		</ul>
+		<ul style="width:190px;">
+				<li style=""><h2>Follow Us</h2></li>
+				<li><a href="/citylink">CityLink Blogs</a></li>
+				<li><a href="/html/citizen/socialmedia.htm">Social Media Sites</a></li>
+<!--		<li><a href="">ShareThis</a></li>-->
+		</ul>
+  </div>
+	<div id="footer2" style="margin:0px auto;background-color:#666;color:#eee;width:775px;height:30px;padding:0px;">
+	<ul style="list-style:none;display:inline;width:100%;margin:0px;">
+		<li style="list-style:none;margin:0;padding:0;padding-top:6px;padding-left:10px;float:left;font-family: arial, helvetica;font-size:12px;color:#e1e1e1;">&copy; Copyright 1995-2010 City of Seattle</li>
+		<li style="list-style:none;margin:0;padding:0;padding-top:6px;padding-right:10px;float:right;font-family: arial, helvetica;font-size:12px;"><a style="color:#e1e1e1;text-decoration:none" href="/pan/privacypol.htm">Privacy and Security Policy</a></li>
+	</ul>	
+	</div>
+</div>
+<br/>
+</noindex>
+</noindex>
+</div>
+</body>
+</html>
