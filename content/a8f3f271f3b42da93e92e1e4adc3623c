@@ -1,0 +1,2148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+<html xmlns:addthis="http://www.addthis.com/help/api-spec">
+<head>
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<title>
+
+
+
+What Does Technology Want?
+ - Radiolab</title>
+
+<meta name="description" content="What Does Technology Want?"/>
+
+
+<meta name="keywords" content="Radiolab, WNYC, NPR, radio, Radio Lab, Podcast, Science, Stories, Story-telling, Documentary, Jad Abumrad, Robert Krulwich" />
+
+
+
+
+
+
+
+
+<link rel="alternate"
+      type="application/rss+xml"
+      title="Radiolab Feed (RSS)"
+      href="/feeds/shows/radiolab"/>
+<link rel="alternate"
+      type="application/atom+xml"
+      title="Radiolab Feed (Atom)"
+      href="/atomfeeds/shows/radiolab"/>
+<link rel="alternate"
+      type="application/rss+xml"
+      title="Radiolab Blog Feed (RSS)"
+      href="/feeds/channels/radiolab/radiolab-blog"/>
+<link rel="alternate"
+      type="application/atom+xml"
+      title="Radiolab Blog Feed (Atom)"
+      href="/atomfeeds/channels/radiolab/radiolab-blog"/>
+<link rel="alternate"
+      type="application/rss+xml"
+      title="Podcasts Feed (RSS)"
+      href="/feeds/series/radiolab/podcasts"/>
+<link rel="alternate"
+      type="application/atom+xml"
+      title="Podcasts Feed (Atom)"
+      href="/atomfeeds/series/radiolab/podcasts"/>
+<link rel="alternate"
+      type="application/rss+xml"
+      title="live Feed (RSS)"
+      href="/feeds/tags/live/"/>
+<link rel="alternate"
+      type="application/atom+xml"
+      title="live Feed (Atom)"
+      href="/atomfeeds/tags/live/"/>
+<link rel="alternate"
+      type="application/rss+xml"
+      title="podcast Feed (RSS)"
+      href="/feeds/tags/podcast/"/>
+<link rel="alternate"
+      type="application/atom+xml"
+      title="podcast Feed (Atom)"
+      href="/atomfeeds/tags/podcast/"/>
+<link rel="alternate"
+      type="application/rss+xml"
+      title="shorts Feed (RSS)"
+      href="/feeds/tags/shorts/"/>
+<link rel="alternate"
+      type="application/atom+xml"
+      title="shorts Feed (Atom)"
+      href="/atomfeeds/tags/shorts/"/>
+
+
+
+
+  <link rel="shortcut icon" href="http://parmenides.wnyc.org/media/img/favicon_radiolab.ico" />
+
+<link rel="alternate" type="application/rss+xml" title="Radiolab Podcast" href="/feeds/podcast/"  />
+<link rel="alternate" type="application/rss+xml" title="All Radiolab Stories (RSS)" href="/feeds/all/"  />
+<link rel="alternate" type="application/atom+xml" title="All Radiolab Stories (Atom)" href="/atomfeeds/all/"  />
+
+
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+    google.load("jquery", "1.4.2");
+  </script>
+
+
+  <link rel="stylesheet" type="text/css" media="all" href="http://parmenides.wnyc.org/media/css/jquery.jcarousel.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="http://parmenides.wnyc.org/media/css/slideshow.css" />
+  <script type="text/javascript" src="http://parmenides.wnyc.org/media/js/jquery.jcarousel.min.js"></script>
+  <script type="text/javascript" src="http://parmenides.wnyc.org/media/js/jquery.cycle.all.min.js"></script>
+
+<script type="text/javascript" src="http://parmenides.wnyc.org/media/js/jquery.form.js"></script>
+<script type="text/javascript" src="http://parmenides.wnyc.org/media/js/jquery.cookies.2.1.0.min.js"></script>
+<script type="text/javascript" src="http://parmenides.wnyc.org/media/js/calendar.js"></script>
+<script type="text/javascript" src="http://parmenides.wnyc.org/media/js/swfobject.js"></script>
+<script type="text/javascript" src="http://parmenides.wnyc.org/media/js/AC_OETags.js"></script>
+<script type="text/javascript" src="http://parmenides.wnyc.org/media/js/twitter.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="http://parmenides.wnyc.org/media/js/pure_packed.js"></script>
+  <script type="text/javascript" src="http://parmenides.wnyc.org/media/js/explore.js"></script>
+
+
+  <script type="text/javascript" src="http://parmenides.wnyc.org/media/js/main.js"></script>
+  <script type="text/javascript"
+      src="http://parmenides.wnyc.org/media/js/main_radiolab.js"></script>
+  
+  <script type="text/javascript" src="http://parmenides.wnyc.org/media/js/enlarge.js"></script>
+  <link rel="stylesheet" type="text/css" media="all"
+      href="http://parmenides.wnyc.org/media/css/enlarge.css" />
+
+
+<script type="text/javascript" src="http://parmenides.wnyc.org/media/js/comment_form.js"></script>
+<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js"></script>
+
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-1030295571732009");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">                              
+  GA_googleAddSlot("ca-pub-1030295571732009", "rl_bigbox");
+  GA_googleFetchAds();                                          
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" media="all" href="http://parmenides.wnyc.org/media/css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://parmenides.wnyc.org/media/css/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://parmenides.wnyc.org/media/css/screen.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://parmenides.wnyc.org/media/css/screen_radiolab.css" />
+
+</head>
+<body>
+<div class="container_12 clearfix"> 
+<div class="grid_12" id="header-tweet">
+Find us on Twitter at <a href="http://www.twitter.com/wnycradiolab">twitter.com/wnycradiolab</a>
+</div> 
+</div> 
+
+<!-- Util Nav --> 
+
+<div class="container_12 header-util clearfix">
+<ul class="grid_7 header-util-nav">
+<li><a href="/stations/">Stations</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="https://secure.wnyc.org/epledge/radiolab/">Support</a></li>
+<li class="login"><a href="/accounts/login/?next=/blogs/radiolab-blog/2010/nov/16/idea-time-come/">Login</a></li>
+<li class="register"><a href="/accounts/register/">Register</a></li>
+</ul>
+<div class="grid_5 header-sn-search">
+
+<!-- Search --> 
+
+<form action="/search/" method="get">
+<fieldset>
+<input type="hidden" name="cx" value='009801551925401469317:srtcvuwcbum'/>
+<input type="hidden" name="cof" value="FORID:11" />
+<input name="q" id="search" type="text" class="search-text" />
+<input name="submit" id="submit" type="submit" class="search-submit" value="" />
+</fieldset>
+</form>
+
+<!-- Social Networking --> 
+
+<ul class="header-sn">
+<li class="facebook"><a href="http://www.facebook.com/pages/Radiolab/115546108422">Facebook</a></li>
+<li class="twitter"><a href="http://twitter.com/wnycradiolab">Twitter</a></li>
+<li class="title">We're Social:</li>
+</ul>
+</div> 
+</div>
+
+<!-- Title and Main Navigation --> 
+
+<div class="container_12 clearfix header-title-nav">    
+<h1><a href="/"><img src="http://parmenides.wnyc.org/media/img/radiolab/header-logo.png" alt="" width="403" height="109" border="0" /></a></h1> 
+<ul> 
+<li class="episodes"><a href="/archive/">Episodes</a></li> 
+<li class="podcasts"><a href="/series/podcasts/">Podcasts</a></li> 
+<li class="blog"><a href="/blogs/radiolab-blog/">Blog</a></li> 
+</ul> 
+<a class="goat" title="Tweets from Radiolab" href="http://twitter.com/wnycradiolab"><i>Tweets from Radiolab</i></a>
+</div>
+
+
+
+
+<div class="container_12">
+<div class="header-return-home">
+<a href="/">Return Home</a>
+</div>
+</div>
+
+
+<div class="container_12 column-container clearfix">
+
+
+
+
+
+
+
+
+
+
+
+<!-- main -->
+<div class="grid_8 main">
+
+
+
+
+<div class="page-titlegroup">
+<h2>
+<a href="http://www.radiolab.org/blogs/radiolab-blog/">Radiolab Blog</a></h2>
+</div>
+
+
+
+
+
+<script type="text/javascript">addthis_pub  = 'wnycdigital';</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+var user='';
+var is_auth=false;
+var item_pk=101024;
+var item_content_type='article';
+var item_ctype=26;
+var flag_url='/comments/adminflag/';
+var can_bookmark=false;
+
+function add_bookmark() {
+    $('li.bookmark > a.bookmark_item').unbind('click',add_bookmark);
+    create_bookmark(user,item_pk,item_content_type,'/favorites/add/',can_bookmark);
+    return false;
+};
+
+function suggest_login(){
+    $('li.bookmark').html("<a class='suggest-login' href='/accounts/login/?next="+document.location.pathname+"'>Login</a> to Like This");
+    return false;
+};
+// ]]>
+</script>
+
+
+
+
+
+<div class="article-head">
+<div class="article-wide article-full">
+
+<div class="article-headergroup">
+<div class="article-tools article-fullclearfix">
+<ul class="sharelinks clearfix">
+
+  <li class="email"><a id="emailthislink" href="#">Email</a></li>
+  <li class="share"><a class="addthis_share" href="http://www.addthis.com/bookmark.php">Share</a></li>
+  <li class="print"><a href="#">Print</a></li>
+  <li class="bookmark"><a class="bookmark_item" href="#">Like This</a></li>
+
+
+
+</ul>
+</div>
+<h2 class="title">What Does Technology Want?</h2>
+<h3 class="date">
+    Tuesday, November 16, 2010 - 11:44 AM
+</h3>
+</div>
+
+<div class="article-description">
+
+
+</div>
+
+  
+
+
+<div class="article-audioplayer clearfix">
+
+
+  
+  
+  <div id="audioplayer_101024"><a href="/audio/xspf/101024/">Listen</a></div>
+  <script type="text/javascript">
+    
+    embed_audio("/audio/xspf/101024/", '101024', 620, "", "", 'http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/radiolab_podcast/radiolab_podcast10tech.mp3', "", 39);
+  </script>
+
+
+<p class="downloadlink">
+<a href="/audio/m3u/101024/" title="Stream m3u" class="Stream no-rule">Stream m3u</a>
+
+</p>
+
+</div>
+
+
+
+
+
+
+
+<ul class="story-sidebar">
+
+<li class="image">
+
+    
+      <div          class="mediumimage"      >
+    
+
+      
+        <div class="enlarge_div"
+            style="width: 200px; height: 266px;">
+        
+        <script type="text/javascript">
+          function enlarge_imghttp___parmenides_wnyc_org_media_photologue_photos_lightbulbs_jpg() {
+            enlargeImage("imghttp___parmenides_wnyc_org_media_photologue_photos_lightbulbs_jpg",
+                         "http://parmenides.wnyc.org/media/photologue/photos/lightbulbs.jpg",
+                         "bmann",
+                         "http://www.flickr.com/photos/boris/34229112/in/photostream/");
+            return false;
+          }
+        </script>
+      <a        href="#" onclick="return enlarge_imghttp___parmenides_wnyc_org_media_photologue_photos_lightbulbs_jpg()">    <img src="http://parmenides.wnyc.org/media/photologue/photos/cache/lightbulbs_medium_image.jpg" id="imghttp___parmenides_wnyc_org_media_photologue_photos_lightbulbs_jpg"       title="lightbulbs"       alt="lightbulbs"     />
+      </a>        <a class="enlarge_link" href="#"
+            onclick='return enlarge_imghttp___parmenides_wnyc_org_media_photologue_photos_lightbulbs_jpg();'>Enlarge</a>
+      </div>
+      
+
+
+<p class="image-caption"     >
+
+
+<span class="caption">lightbulbs</span>
+
+
+<span class="credit">
+(<a href="http://www.flickr.com/photos/boris/34229112/in/photostream/">bmann/flickr</a>)
+</span>
+
+
+
+</p>
+
+      </div>
+
+</li>
+
+
+<li class="side-series">
+<h3><a href="http://www.radiolab.org/series/podcasts/">Podcasts</a></h3>
+<a class="more" href="http://www.radiolab.org/series/podcasts/">More</a>
+</li>
+
+
+
+
+</ul>
+
+
+
+ <div class="article-description">
+ <p>Are new ideas and new inventions inevitable? Are they driven by us or by a larger force of nature?</p>
+ </div>
+
+ <div class="article-description">
+ <p>In this conversation recorded as part of the New York Public Library series <a href="http://www.nypl.org/events/live-nypl" target="_blank">LIVE from the NYPL</a>, Steven Johnson (author of <em>Where Good Ideas Come From</em>) and Kevin Kelly (author of <em>What Technology Wants</em>) try to convince Robert that the things we make—from spoons to microwaves to computers—are an extension of the same evolutionary processes that made us. And we may need to adapt to the idea that our technology could someday truly have a mind of its own.</p>
+<p> </p>
+ </div>
+
+  
+
+  
+    
+
+
+
+
+  
+
+<div class="article-bottom-appearances">
+<h4>Guests:</h4>
+
+
+<a href="/people/steven-johnson/">Steven Johnson</a> and <a href="/people/kevin-kelly/">Kevin Kelly</a>
+</div>
+
+
+
+
+
+
+
+
+<div class="article-bottom-tags">
+<ul>
+<h4>Read More:</h4>
+ 
+            <li><a href="/tags/live/">live</a></li>
+            <li><a href="/tags/podcast/">podcast</a></li>
+            <li><a href="/tags/shorts/">shorts</a></li>
+
+</ul>
+</div>
+
+     <div class="article-bottom-channel">
+     <ul>
+     <h4>More in:</h4>
+     <li><a href="http://www.radiolab.org/blogs/radiolab-blog/">Radiolab Blog</a></li>
+     </ul>
+     </div>
+
+</div>
+</div>
+
+
+
+  
+  <div id="commentlist" class="comment-thread">
+
+      <div class="comment-leave">
+        <ul>
+            <li><a href="#commentform">Leave a comment</a></li>
+            <li>
+              <a href="/feeds/comments/26/101024">
+                <img border="0" alt="RSS" title="Subscribe to the RSS Feed"
+                  src="http://parmenides.wnyc.org/media/img/feedicons/rss.gif" />
+              </a>
+              <a href="/feeds/comments/26/101024">
+                RSS Feed for Comments
+              </a>
+            </li>
+        </ul>
+      </div>
+
+      <h3>Comments [35]</h3>
+      
+  <div class="comment-list">
+    <script type="text/javascript">
+      var is_auth = false;
+      var flag_for_mod_url = '/comments/userflag/';
+      var auth_login = '/accounts/login/?next=' +
+                       document.location.pathname;
+      var flag_url = '/comments/adminflag/';
+    </script>
+    
+        <div class="comment" id=comment212637>
+          <div class="comment-head">
+              <span class="comment-author">
+                Nick
+              </span>
+          </div>
+          <div class="comment-text"><p>I've noticed that Robert really doesn't like abstract ideas that would make him question his pre-conceived notions about the world. I'm not sure if this is because he's fulfilling the role of the skeptical devils advocate or he's just very stubborn. </p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Dec. 12 2010 11:36 PM
+            </span>
+            
+  
+  <div class="voting" id="voting212637">
+      <a href="/comments/212637/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 212637, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/212637/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 212637, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod212637">
+              <a href="#" class="flaglink" id="flag_for_mod212637">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment212620>
+          <div class="comment-head">
+              <span class="comment-author">
+                Emily
+              </span>
+          </div>
+          <div class="comment-text"><p>I love the show generally but this episode irritated me.  Too much of the show was about Robert - especially when he kept talking over the interviewees. I want to hear what they have to say!</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Dec. 12 2010 06:23 PM
+            </span>
+            
+  
+  <div class="voting" id="voting212620">
+      <a href="/comments/212620/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 212620, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/212620/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 212620, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod212620">
+              <a href="#" class="flaglink" id="flag_for_mod212620">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment210793>
+          <div class="comment-head">
+                <span class="comment-author-image">
+                  <img src="http://www.gravatar.com/avatar/2db33c1008b1b7a58a18c050be1ca9a4/?s=25&d=http%3A%2F%2Fparmenides.wnyc.org%2Fmedia%2Fimg%2Ficons%2Fdefault_avatar.png" alt="jackiejack" width="25" height="25" />
+                </span>
+                <span class="comment-author comment-avatar">
+                  <a href="/users/jackiejack/">
+                    jackiejack
+                  </a>
+                  
+                </span>
+          </div>
+          <div class="comment-text"><p>@Eddie:</p>
+
+<p>I like the hypothesis, but good luck convincing a thermodynamics expert.  The common claim is we are proceeding towards disorder.</p>
+
+<p>I'm not so sure my self.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Dec. 06 2010 09:42 PM
+            </span>
+            
+  
+  <div class="voting" id="voting210793">
+      <a href="/comments/210793/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 210793, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/210793/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 210793, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod210793">
+              <a href="#" class="flaglink" id="flag_for_mod210793">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment210570>
+          <div class="comment-head">
+              <span class="comment-author">
+                Eddie
+              </span>
+          </div>
+          <div class="comment-text"><p>Never mind what technology wants. I'll think all the inevitability of more and more order is a fundamental property of the universe. I ask, what does the universe want? My belief is, the universe has an inevitable want to understand itself. After all life and technology alike are part of the universe.  </p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Dec. 06 2010 10:32 AM
+            </span>
+            
+  
+  <div class="voting" id="voting210570">
+      <a href="/comments/210570/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 210570, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/210570/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 210570, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 1/1
+  </div>
+
+            <div class="flagformod" id="flagformod210570">
+              <a href="#" class="flaglink" id="flag_for_mod210570">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment210238>
+          <div class="comment-head">
+                <span class="comment-author-image">
+                  <img src="http://www.gravatar.com/avatar/2db33c1008b1b7a58a18c050be1ca9a4/?s=25&d=http%3A%2F%2Fparmenides.wnyc.org%2Fmedia%2Fimg%2Ficons%2Fdefault_avatar.png" alt="jackiejack" width="25" height="25" />
+                </span>
+                <span class="comment-author comment-avatar">
+                  <a href="/users/jackiejack/">
+                    jackiejack
+                  </a>
+                  
+                </span>
+          </div>
+          <div class="comment-text"><p>@ Al from Sacramento from Sacramento:</p>
+
+<p>Love the comment, and although I agree there is some semantic play here, what you have just described is no different than the &quot;social network of technology.&quot;  The mechanics of a single body to operate or reproduce, whether directly or indirectly (via communication, tools, chemically, etc) is really no different than the way technology replicates.</p>
+
+<p>Since &quot;will&quot; is an illusion, does it really matter the &quot;why&quot; or really even &quot;how&quot; something evolves or replicates, or only that it does?</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Dec. 03 2010 01:54 PM
+            </span>
+            
+  
+  <div class="voting" id="voting210238">
+      <a href="/comments/210238/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 210238, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/210238/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 210238, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod210238">
+              <a href="#" class="flaglink" id="flag_for_mod210238">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment210173>
+          <div class="comment-head">
+              <span class="comment-author">
+                Al from Sacramento
+                  from Sacramento
+              </span>
+          </div>
+          <div class="comment-text"><p>Technology &quot;wanting&quot; a direction versus evolution wanting a direction is really just a cheap semantic trick.<br />From a mechanistic point of view, there is no will in the universe.  Human will is an illusion.  As we learn more of the universe, including our own human brains, the source of our sentience, we find that we are more and more capable of describing, predicting and manipulating even our very thoughts and emotions based on inanimate substances - chemicals and molecules.  Cause and effect.  Perhaps fatalism even.  But that in no way diminishes the wonder of the universe or our own sentience.  On the contrary, this understanding makes the whole thing just that much more fantastic.  A human being is a very complex chemical reaction. Imagine that.  But, oh what a reaction!  We have only just scratched the surface of the complexity.  The deeper we dig the more fabulous it becomes!  To deny this reality is to miss the wonder.  It's sad for those who are missing out on the marvelous dynamics of the natural world, ourselves included, by dismissing them as, &quot;Oh that's just the way God made it.&quot;</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Dec. 03 2010 12:09 PM
+            </span>
+            
+  
+  <div class="voting" id="voting210173">
+      <a href="/comments/210173/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 210173, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/210173/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 210173, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 1/1
+  </div>
+
+            <div class="flagformod" id="flagformod210173">
+              <a href="#" class="flaglink" id="flag_for_mod210173">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment208663>
+          <div class="comment-head">
+              <span class="comment-author">
+                Stephan
+              </span>
+          </div>
+          <div class="comment-text"><p>If you were to ask most people “ What can God do?” They would probably answer, “anything“. This kind of response is in direct conflict with the second law of thermodynamics, that is, the entropy law. And yet defying the entropy law is at the very hart of, miracle; resurrection of the dead, healing of the dying etc..  Aristotle spoke of the telos, a force  that works toward some end. I am of the belief that evolution, technology and the human purpose are all of the same telos, that is, a quest to defy entropy using some perfect intelligence that will make us worthy to be one “with” God. The thing we call evolution is natures way of picking from a soup of possibilities those outcomes that may yield that perfect state. A non perfect state is eventually pruned from the set of non desirable states. If you view the universe as Seth Lloyd, the astronomer does, as a kind of computer, then we could say that each choice we make (or is made for us) is a possible “state”, (as in, or from a “finite state machine“ ) of  existence.  All experience including, religious experience is a kind of laboratory experiment  whereby “truths” are revealed and collected for possible future use. If I am correct then there is at least one program that we can prove (by faith) contradicts the famous  (Alan Turing, et. al. ) “halting problem”, and that would be the first and last one, EXISTENCE itself.<br /></p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 26 2010 10:42 PM
+            </span>
+            
+  
+  <div class="voting" id="voting208663">
+      <a href="/comments/208663/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 208663, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/208663/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 208663, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod208663">
+              <a href="#" class="flaglink" id="flag_for_mod208663">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment208603>
+          <div class="comment-head">
+              <span class="comment-author">
+                Kyle
+                  from Ohio
+              </span>
+          </div>
+          <div class="comment-text"><p>Ted Kaczynski had some really great ideas on the evolution of scientific and technological ides in his manifesto he had printed before being captured. Not to say that I necessarily agree, but it's certainly something to consider. I would love to see some insight on some of his claims.</p>
+
+<p>http://en.wikisource.org/wiki/Industrial_Society_and_Its_Future</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 26 2010 11:33 AM
+            </span>
+            
+  
+  <div class="voting" id="voting208603">
+      <a href="/comments/208603/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 208603, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/208603/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 208603, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod208603">
+              <a href="#" class="flaglink" id="flag_for_mod208603">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment208148>
+          <div class="comment-head">
+                <span class="comment-author-image">
+                  <img src="http://www.gravatar.com/avatar/ed2235c77db874e7200fd1e101279939/?s=25&d=http%3A%2F%2Fparmenides.wnyc.org%2Fmedia%2Fimg%2Ficons%2Fdefault_avatar.png" alt="JerryB" width="25" height="25" />
+                </span>
+                <span class="comment-author comment-avatar">
+                  <a href="/users/JerryB/">
+                    JerryB
+                  </a>
+                  
+                </span>
+          </div>
+          <div class="comment-text"><p>It's funny to think for me personally.  I relate with what was said with regards to it is impossible practically to have invented something that which was not enabled by other collective ideas ect..  Since we &quot;to me&quot; are only as intelligent as what we have all collectively been exposed to via all means including the labels we use to express what it is we have been exposed to... just think if the most profoundly knowledgeable expressed themselves in a manner that transcended our collective understanding and interpretation of the &quot;word expression&quot; to describe whatever it is that we have discovered and or experienced would there only be a minimal number of individuals that could actually interpret what was being said with regards to that which has need to be expressed having to do with that which we all collectively do not know yet in order to come about realizations concerning our abilities to implement what is discovered and compile it as usable data with which to create that which is yet unknown?  That which is yet unknown like some locations say in space are named/labeled so we that discover its existence afterwards can say that is what that is.  I feel that inventive creativity is like the loose atoms of matter not yet discovered so as to collect to bond to form anything we can place a label onto it... hmmmm... Some rooms at MIT must sound like gibberish at times if a lay person were to sit in.  This thread really has possibilities I think if they could break away from the fact that the spoon... does not want anything.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 23 2010 09:48 PM
+            </span>
+            
+  
+  <div class="voting" id="voting208148">
+      <a href="/comments/208148/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 208148, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/208148/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 208148, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod208148">
+              <a href="#" class="flaglink" id="flag_for_mod208148">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207949>
+          <div class="comment-head">
+              <span class="comment-author">
+                Grace
+                  from 1716 Allied St. Charlottesville, Virginia
+              </span>
+          </div>
+          <div class="comment-text"><p>Love this episode! Really touched on some big questions that have been marinating in my brain juice for a long time- </p>
+
+<p>We love you guys so much we featured you on our &quot;What Inspires Us&quot; section of our blog,</p>
+
+<p>http://blog.amysteryincommon.com/</p>
+
+<p>Thanks for providing great stuff to listen to while we design, print and pull our hair :)</p>
+
+<p>Cheers,<br />Grace<br />A Mystery In Common<br /></p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 23 2010 11:25 AM
+            </span>
+            
+  
+  <div class="voting" id="voting207949">
+      <a href="/comments/207949/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207949, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207949/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207949, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207949">
+              <a href="#" class="flaglink" id="flag_for_mod207949">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207884>
+          <div class="comment-head">
+              <span class="comment-author">
+                Jacob
+                  from Denmark
+              </span>
+          </div>
+          <div class="comment-text"><p>The Danish electronic musician Goodiepal has some thoughts about how to entertain an artificial or alternative intelligence (that could be technology).<br />He has done lectures at many universities and art schools and here you have one of them from a rooftop in Chicago:<br />http://vimeo.com/groups/sweetandsoundsubmissions/videos/7302277<br />- maybe the lecture it self would be entertaining for an artificial or alternative intelligence :-)</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 23 2010 10:15 AM
+            </span>
+            
+  
+  <div class="voting" id="voting207884">
+      <a href="/comments/207884/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207884, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207884/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207884, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207884">
+              <a href="#" class="flaglink" id="flag_for_mod207884">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207680>
+          <div class="comment-head">
+              <span class="comment-author">
+                John
+                  from MD
+              </span>
+          </div>
+          <div class="comment-text"><p>There is a less edited version of this interview available.</p>
+
+<p>I found another podcast (FORA.tv Technology Today) on itunes which has this exact interview, but a much longer version (1:22). There are many statements that are a little confusing in the radiolab version which become clear in the less edited version.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 22 2010 11:54 AM
+            </span>
+            
+  
+  <div class="voting" id="voting207680">
+      <a href="/comments/207680/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207680, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207680/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207680, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207680">
+              <a href="#" class="flaglink" id="flag_for_mod207680">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207584>
+          <div class="comment-head">
+              <span class="comment-author">
+                Andrew
+                  from NYC
+              </span>
+          </div>
+          <div class="comment-text"><p>An interesting conversation.  I think that Robert could have moved beyond the &quot;isn't that creepy?&quot; idea sooner, though.  </p>
+
+<p>(The off-the-cuff joke about the bacterium saying to itself &quot;I would love to have a spoon&quot; was genius.)</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 22 2010 10:02 AM
+            </span>
+            
+  
+  <div class="voting" id="voting207584">
+      <a href="/comments/207584/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207584, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207584/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207584, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207584">
+              <a href="#" class="flaglink" id="flag_for_mod207584">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207521>
+          <div class="comment-head">
+              <span class="comment-author">
+                Zsolt
+                  from Hungary
+              </span>
+          </div>
+          <div class="comment-text"><p>I also think there is plenty of extremely interesting ground to cover here to make an awesome one hour episode.</p>
+
+<p>As noted by others already, a more generic concept for the “super organism” of technology is called the meme. A good book that explains memes and explores how we may be able to influence the evolution of memes is The Evolving Self by Mihaly Csikszentmihalyi from the Department of Psychology at the University of Chicago.</p>
+
+<p>Interesting how the concept of god was brought into the evolving discussion. To add my thoughts on the subject, the way I conceptualise god and religion is that people during history have observed that there are super organisms much greater than the individual. These are the memes.  Memes have a life of their own and their life span is “eternal” compared to the individual human lifespan. In this context I think of a religion also as a meme which has the life of its own. Thus in a way there are gods after all we’ve just found a scientific term to describe them by calling them memes or super organisms. Who created who is then a chicken and the egg question.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 21 2010 04:27 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207521">
+      <a href="/comments/207521/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207521, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207521/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207521, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207521">
+              <a href="#" class="flaglink" id="flag_for_mod207521">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207518>
+          <div class="comment-head">
+              <span class="comment-author">
+                Bill
+                  from New Orleans
+              </span>
+          </div>
+          <div class="comment-text"><p>Laziness is the father of Invention. It is laziness that pushes us to say &quot;There has got to be a better way.' We get creative to get out of doing things the same old hard way. We have not evolved into biggest strongest most intelligent primate no, we have evolved into pound per pound the weakest, laziest yet most creative species.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 21 2010 04:21 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207518">
+      <a href="/comments/207518/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207518, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207518/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207518, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207518">
+              <a href="#" class="flaglink" id="flag_for_mod207518">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207399>
+          <div class="comment-head">
+              <span class="comment-author">
+                Michael Gaston
+                  from Dayton, Ohio
+              </span>
+          </div>
+          <div class="comment-text"><p> This video should be archived for posterity. It has the same feel as a home movie of toddlers taking their first steps. The parents are even cooing in the background. </p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 20 2010 02:57 AM
+            </span>
+            
+  
+  <div class="voting" id="voting207399">
+      <a href="/comments/207399/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207399, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207399/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207399, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207399">
+              <a href="#" class="flaglink" id="flag_for_mod207399">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207370>
+          <div class="comment-head">
+              <span class="comment-author">
+                arman
+                  from ankara
+              </span>
+          </div>
+          <div class="comment-text"><p>@John please grace us with your superior stories and mathematics so that we may better understand life on earth. </p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 19 2010 06:28 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207370">
+      <a href="/comments/207370/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207370, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207370/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207370, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207370">
+              <a href="#" class="flaglink" id="flag_for_mod207370">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207354>
+          <div class="comment-head">
+              <span class="comment-author">
+                John
+              </span>
+          </div>
+          <div class="comment-text"><p>You can not tell me that &quot;evolution&quot; is not your god. You have only shifted it away from Christianity, Islam, Hinduism, Buddhism, and the like. These &quot;scientists&quot; are just the priests of their new religion. I absolutely despise all of their terms. Evolution did not want, desire, plan, cause, influence or create. It is not a force. It is of no intelligence. Evolution does not sustain life, because macro evolution does not happen. The reason technology persists is because we are intelligent. It makes my blood boil. These people actually believe they are on another intellectual level, and this is the best that they present to the world? Hey, I have an idea, &quot;Lets create a new god, and then call everyone else ignorant.&quot; If you humanists think you have proof for evolution, you do not. You have stories, poor mathematics, and organisms you do not understand.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 19 2010 05:11 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207354">
+      <a href="/comments/207354/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207354, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207354/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207354, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207354">
+              <a href="#" class="flaglink" id="flag_for_mod207354">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207347>
+          <div class="comment-head">
+              <span class="comment-author">
+                Pat
+                  from Pottstown, PA
+              </span>
+          </div>
+          <div class="comment-text"><p>The irony of this particular podcast is that the idea the guests are talking about is quite old.  Aristotle viewed the universe as teleological, i.e. things tend naturally to move towards a given end/purpose (in Greek telos).  An acorn, e.g. &quot;wants&quot; to become an oak tree and will do so provided that the environmental conditios are right.  In the same way, a lightbulb &quot;wants&quot; to be invented once the circumstances are right for its invention.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 19 2010 04:00 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207347">
+      <a href="/comments/207347/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207347, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207347/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207347, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207347">
+              <a href="#" class="flaglink" id="flag_for_mod207347">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207346>
+          <div class="comment-head">
+              <span class="comment-author">
+                Walenski
+                  from Sacramento, CA
+              </span>
+          </div>
+          <div class="comment-text"><p>The taboo here isn't really the implication that technology has this emergent logic to it, but that life does, and really everything does. Because we cling to our contemporary view of evolution, we can't even begin to accept that that bacterium does actually want. We are too afraid to consider this emergence, so we say it is purely random, or attribute it to a personified deity, or in the case of technology, try to give all credit to our huge brains. These paradigms are easier to swallow than the idea that there is an inherent logic to the physical universe. Just as math exists without us knowing about it, that which exists, also 'wants', so to speak.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 19 2010 03:58 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207346">
+      <a href="/comments/207346/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207346, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207346/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207346, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207346">
+              <a href="#" class="flaglink" id="flag_for_mod207346">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207254>
+          <div class="comment-head">
+              <span class="comment-author">
+                bcsarmaa
+                  from Boston, MA
+              </span>
+          </div>
+          <div class="comment-text"><p>Radiolab consistently puts out great content, but I think this segment was one of the most fascinating thus far.  I've pondered many of the same ideas. </p>
+
+<p>It's interesting to hear from people who have put in a great amount of research and thought into what essentially are my daydreams.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 19 2010 01:15 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207254">
+      <a href="/comments/207254/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207254, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207254/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207254, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 1/1
+  </div>
+
+            <div class="flagformod" id="flagformod207254">
+              <a href="#" class="flaglink" id="flag_for_mod207254">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207253>
+          <div class="comment-head">
+              <span class="comment-author">
+                Akshay
+              </span>
+          </div>
+          <div class="comment-text"><p>Radiolab consistently puts out great content, but I think this segment was one of the most fascinating thus far.  I've pondered many of the same ideas. </p>
+
+<p>It's interesting to hear from people who have put in a great amount of research and thought into what essentially are my daydreams.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 19 2010 01:14 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207253">
+      <a href="/comments/207253/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207253, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207253/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207253, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207253">
+              <a href="#" class="flaglink" id="flag_for_mod207253">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207250>
+          <div class="comment-head">
+              <span class="comment-author">
+                Akshay
+              </span>
+          </div>
+          <div class="comment-text"><p>Radiolab consistently puts out great content, but I think this segment was one of the most fascinating thus far.  I've pondered many of the same ideas. </p>
+
+<p>It's interesting to hear from people who have put in a great amount of research and thought into what essentially are my daydreams.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 19 2010 01:07 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207250">
+      <a href="/comments/207250/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207250, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207250/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207250, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207250">
+              <a href="#" class="flaglink" id="flag_for_mod207250">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207081>
+          <div class="comment-head">
+              <span class="comment-author">
+                Kiran
+                  from Midwest USA
+              </span>
+          </div>
+          <div class="comment-text"><p>New ideas are driven by both humans and a larger force of nature.  Currently, a larger force of nature which generates technology is the imperative of capital to seek out new markets for consumption and seek new ways of generating profit in production.  Of course, humans figure into this as well.  There's no one answer for all time and space.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 19 2010 12:07 AM
+            </span>
+            
+  
+  <div class="voting" id="voting207081">
+      <a href="/comments/207081/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207081, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207081/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207081, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207081">
+              <a href="#" class="flaglink" id="flag_for_mod207081">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207074>
+          <div class="comment-head">
+              <span class="comment-author">
+                Noah Walcutt
+                  from Boulder, CO
+              </span>
+          </div>
+          <div class="comment-text"><p>Great show and intriguing perspectives. Makes me think that if the rise of the internet is like the Birth of a Global Brain, where each computer user is like an individual cell, then in its greatest current function technology acts like axons and dendrites giving us the means to communicate with other cells (people) in a rapid, organized way.  What is the next step in the evolution of axons and dendrites?  I think we humans would assume self- awareness, but perhaps machines (or the technium) is attracted towards evolving something entirely different -- like flying robotic octopi.  Deja vu?  Yeah, that's just a glitch in the matrix.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 18 2010 11:29 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207074">
+      <a href="/comments/207074/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207074, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207074/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207074, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207074">
+              <a href="#" class="flaglink" id="flag_for_mod207074">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment207027>
+          <div class="comment-head">
+              <span class="comment-author">
+                Vinton T. Heuck
+                  from Chatsworth
+              </span>
+          </div>
+          <div class="comment-text"><p>Love the show, but I find the argument that the same larger force of nature that makes man made inventions of ever increasing complexity inevitable to be similar to the same force that drives evolution to be deeply flawed within the construct of their not being an intelligent designer, or God if you will. <br />In the case of man made invention there are self-aware, thinking minds at work. From the stand point of your guests there is no mind pushing and shaping nature's evolution, but with invention there obviously is. If these two systems are really that similar, than are they not actually supporting an argument for the existence of God?<br />I'm just saying....</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 18 2010 05:27 PM
+            </span>
+            
+  
+  <div class="voting" id="voting207027">
+      <a href="/comments/207027/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207027, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/207027/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 207027, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod207027">
+              <a href="#" class="flaglink" id="flag_for_mod207027">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment206842>
+          <div class="comment-head">
+              <span class="comment-author">
+                Kirk Woerner
+              </span>
+          </div>
+          <div class="comment-text"><p>Also, the idea of any one piece of tech being both the result of a multitude of previous tech and the cause of a multitude of future tech is exactly analogous to the Buddhist idea of dependent origination.  It's saying that all Dharmas (objects, living beings, people, ideas, thoughts, feelings etc) are causally dependent on other Dharmas and are also their cause, like a huge network of causation and dependency.  Seen in that way, WE, as individuals or as a species are causally dependent on everything else.  With that perspective, pointing out that technology is also is not problematic.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 18 2010 10:39 AM
+            </span>
+            
+  
+  <div class="voting" id="voting206842">
+      <a href="/comments/206842/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206842, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/206842/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206842, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod206842">
+              <a href="#" class="flaglink" id="flag_for_mod206842">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment206828>
+          <div class="comment-head">
+              <span class="comment-author">
+                Kirk Woerner
+              </span>
+          </div>
+          <div class="comment-text"><p>I think what Robert, and to some extent the authors, is really struggling with is bigger.  The idea that a bacterium &quot;wants&quot; nutrition is problematic for him because he sees himself (and other people probably) as fundamentally different than a spoon, or life, or anything else.  He's under the illusion that his thoughts are &quot;real&quot; and separate.  Buddhism says his existence is an illusion.  And it leads him to judge the term &quot;want&quot; as a uniquely human trait.  In fact, &quot;want&quot; is the specific human manifestation of systemic attraction.  It FEELS like more to us, but we don't know what it feels like to be a spoon.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 18 2010 10:25 AM
+            </span>
+            
+  
+  <div class="voting" id="voting206828">
+      <a href="/comments/206828/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206828, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/206828/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206828, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod206828">
+              <a href="#" class="flaglink" id="flag_for_mod206828">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment206782>
+          <div class="comment-head">
+              <span class="comment-author">
+                jc
+              </span>
+          </div>
+          <div class="comment-text"><p>sorry for the spelling error - &quot;superorganism&quot;</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 18 2010 07:45 AM
+            </span>
+            
+  
+  <div class="voting" id="voting206782">
+      <a href="/comments/206782/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206782, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/206782/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206782, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod206782">
+              <a href="#" class="flaglink" id="flag_for_mod206782">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment206781>
+          <div class="comment-head">
+              <span class="comment-author">
+                jc 
+                  from Michigan
+              </span>
+          </div>
+          <div class="comment-text"><p>I'm not so sure about this episode - that whole notion that plants &quot;want&quot; sun and so move toward light is a key misconception that we try to move students away from in evolutionary biology courses - and these &quot;supeorgansism&quot; ideas (e.g. gaia hypothesis arguments, group selection, what the speaker talks about here) have no definable mechanisms that drive their direction. Apply as many fancy terms as you like, the scientific basis of his argument remains unclear.</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 18 2010 07:35 AM
+            </span>
+            
+  
+  <div class="voting" id="voting206781">
+      <a href="/comments/206781/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206781, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/206781/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206781, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod206781">
+              <a href="#" class="flaglink" id="flag_for_mod206781">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment206718>
+          <div class="comment-head">
+              <span class="comment-author">
+                Dave Howes
+                  from England
+              </span>
+          </div>
+          <div class="comment-text"><p>What appeared over peoples heads when they had ideas before the invention of the lightbulb</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 17 2010 07:04 PM
+            </span>
+            
+  
+  <div class="voting" id="voting206718">
+      <a href="/comments/206718/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206718, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/206718/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206718, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod206718">
+              <a href="#" class="flaglink" id="flag_for_mod206718">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment206688>
+          <div class="comment-head">
+              <span class="comment-author">
+                Dougald Lamont
+                  from Winnipeg, Canada
+              </span>
+          </div>
+          <div class="comment-text"><p>The chicken and the egg argument about what technology wants was mocked by Samuel Butler and talked about extensively by Deleuze and Guattari. &quot;A human being is a machine's way of making other machines.&quot; </p>
+
+<p>It is a classic example of a) not being to tell where agency resides, or b) understanding that informational complexity, and complex systems can build as long as you keep putting energy into them. Overall entropy is increasing, but that is because the universe is closed. The universe is also filled with open systems into which energy flows. </p>
+
+<p></p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 17 2010 03:06 PM
+            </span>
+            
+  
+  <div class="voting" id="voting206688">
+      <a href="/comments/206688/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206688, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/206688/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206688, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 1/1
+  </div>
+
+            <div class="flagformod" id="flagformod206688">
+              <a href="#" class="flaglink" id="flag_for_mod206688">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment206684>
+          <div class="comment-head">
+              <span class="comment-author">
+                NoahSD
+                  from NYC
+              </span>
+          </div>
+          <div class="comment-text"><p>I think these guys are missing the forest for the trees. There's a much more general idea here: It's true that technology evolves in much the same way that life evolves, but this is simply a consequence of the fact that ideas evolve in much the same way life evolves.  </p>
+
+<p>This is Richard Dawkins's idea of the meme. The basic idea is that we have all the precursors for evolution in ideas. Ideas can reproduce (by being shared with other people or copied into books or on the internet), they can die (by being forgotten), and they can mutate (by people varying them--either intentionally or by mistake).  Since we are the mechanism by which ideas reproduce, we ideas evolve to better be shared by us.  A slightly naive but beautiful way to think of this is that ideas (and in particular, the technology that takes shape from those ideas) are evolving to better suit our needs.</p>
+
+<p>Even the concept of the meme is a bit too narrow, in my mind.  Evolution is an extremely simple process that arises just about everywhere. Tons of things in the universe satisfy the simple criteria for evolution, and I think that we'll continue to find evolution in more and more places (and probably continue to be amazed by that fact, though maybe we shouldn't be).</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 17 2010 02:54 PM
+            </span>
+            
+  
+  <div class="voting" id="voting206684">
+      <a href="/comments/206684/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206684, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/206684/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206684, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod206684">
+              <a href="#" class="flaglink" id="flag_for_mod206684">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment206551>
+          <div class="comment-head">
+                <span class="comment-author-image">
+                  <img src="http://www.gravatar.com/avatar/e5b6dd3509a45e7a14fb814ea1c41ac2/?s=25&d=http%3A%2F%2Fparmenides.wnyc.org%2Fmedia%2Fimg%2Ficons%2Fdefault_avatar.png" alt="brink" width="25" height="25" />
+                </span>
+                <span class="comment-author comment-avatar">
+                  <a href="/users/brink/">
+                    brink
+                  </a>
+                  
+                </span>
+          </div>
+          <div class="comment-text"><p>A couple thoughts while listening to this:</p>
+
+<p>If you pick something like ‘telephone’ or ‘spoon’ as your endpoint, you ignore the fact that each of those is also the step to another piece of technology. It’s actually both.<br />Think about this idea coming into existence. It’s a piece of technology. So if this idea gains traction a large part of the reason for that is because the time for that idea is right — and it could only come about because the idea was able to be formed at this time.<br />Humans as a vehicle for evolutionary experimentation (via technology) makes sense fractally. Or from the standpoint of programming and APIs. Or from a standpoint of cellular automata. <br />Lastly, if sense of self and the mind is a technological breakthrough for evolution, an idea whose time was right, where are the co-evolved other minds? Did they die out? Does that represent a potential flaw in the process?</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 17 2010 12:43 PM
+            </span>
+            
+  
+  <div class="voting" id="voting206551">
+      <a href="/comments/206551/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206551, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/206551/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206551, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod206551">
+              <a href="#" class="flaglink" id="flag_for_mod206551">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="comment" id=comment206540>
+          <div class="comment-head">
+              <span class="comment-author">
+                Jody Verser
+                  from Fayetteville, AR
+              </span>
+          </div>
+          <div class="comment-text"><p>These past few years my brain parts have been aligning with this view of technology evolution as an analogue to our meat sack evolution.  This conversation effectively highlights the insightful and incitive aspects of this view, but I find myself wanting more investigation and information. I think this subject would make a pretty kick ass hour episode.<br />Another direction to look at this could be from computation and design, specifically theories of Kostas Terzidis. His book Algorithmic Architecture opens up with a similar view of technology as an outsider despite our &quot;control&quot; over it. There is even more substance to the evolution of design tools and technologies as a whole. What do they want to create?</p></div>
+          <div class="comment-foot">
+            <span class="comment-date">
+              Nov. 17 2010 12:23 PM
+            </span>
+            
+  
+  <div class="voting" id="voting206540">
+      <a href="/comments/206540/upvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206540, 'up');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-up.png"
+            alt="Vote this comment up" title="Vote this comment up" />
+      </a>
+      <a href="/comments/206540/downvote"
+          onclick="return voteClick(this, 'comment', 'puppy.comments.models.WnycComment', 206540, 'down');">
+        <img src="http://parmenides.wnyc.org/media/img/icons/thumbs-down.png"
+            alt="Vote this comment down" title="Vote this comment down" />
+      </a>
+    Score: 0/0
+  </div>
+
+            <div class="flagformod" id="flagformod206540">
+              <a href="#" class="flaglink" id="flag_for_mod206540">
+                <img src="http://parmenides.wnyc.org/media/img/icons/flagformod.png"
+                    alt="Flag for moderation" title="Flag for moderation" />
+              </a>
+            </div>
+          </div>
+        </div>
+  </div>
+
+
+      <h3 id="commentform" class="leave-comment-title">Leave a Comment</h3>
+      
+  <div class="comment-guidelines">
+    <p>
+      Register for your own account so you can vote on comments, save your favorites, and more.
+      <a href="/about/website">Learn more</a>.<br />
+      <strong>Please stay on topic, be civil, and be brief.</strong> <br />
+      Email addresses are never displayed, but they are required to confirm
+      your comments. Names are displayed with all comments. We reserve the
+      right to edit any comments posted on this site. Please read the
+      <a href="/about/comment_guidelines/">Comment Guidelines</a> before
+      posting.
+    </p>
+  </div>
+
+  
+    
+  
+  <form action="/comments/post/" method="put" class="commentform" id="a4d54cce-0a10-11e0-850b-4040e35de2ed">
+      <div class="nothanks">
+        <div class="comment-reply-form_error_content_type"
+          class="error-highlight"></div>
+          <label for="id_content_type">
+            Content type*<span></span>
+          </label><br/>
+        <div id="101024_id_content_type">
+          <input type="hidden" name="content_type" value="cms.article" id="id_content_type" />
+        </div>
+      </div>
+      <div class="nothanks">
+        <div class="comment-reply-form_error_object_pk"
+          class="error-highlight"></div>
+          <label for="id_object_pk">
+            Object pk*<span></span>
+          </label><br/>
+        <div id="101024_id_object_pk">
+          <input type="hidden" name="object_pk" value="101024" id="id_object_pk" />
+        </div>
+      </div>
+      <div class="nothanks">
+        <div class="comment-reply-form_error_timestamp"
+          class="error-highlight"></div>
+          <label for="id_timestamp">
+            Timestamp*<span></span>
+          </label><br/>
+        <div id="101024_id_timestamp">
+          <input type="hidden" name="timestamp" value="1292612742" id="id_timestamp" />
+        </div>
+      </div>
+      <div class="nothanks">
+        <div class="comment-reply-form_error_security_hash"
+          class="error-highlight"></div>
+          <label for="id_security_hash">
+            Security hash*<span></span>
+          </label><br/>
+        <div id="101024_id_security_hash">
+          <input type="hidden" name="security_hash" value="2945563ce0aad5796ea3cdec3b0c017897f1c353" id="id_security_hash" />
+        </div>
+      </div>
+      <div >
+        <div class="comment-reply-form_error_name"
+          class="error-highlight"></div>
+          <label for="id_name">
+            Name*<span></span>
+          </label><br/>
+        <div id="101024_id_name">
+          <input id="id_name" type="text" name="name" maxlength="50" />
+        </div>
+      </div>
+      <div >
+        <div class="comment-reply-form_error_email"
+          class="error-highlight"></div>
+          <label for="id_email">
+            Email address*<span></span>
+          </label><br/>
+        <div id="101024_id_email">
+          <input type="text" name="email" id="id_email" />
+        </div>
+      </div>
+      <div class="nothanks">
+        <div class="comment-reply-form_error_url"
+          class="error-highlight"></div>
+          URL
+        <div id="101024_id_url">
+          <input type="text" name="url" id="id_url" />
+        </div>
+      </div>
+      <div >
+        <div class="comment-reply-form_error_comment"
+          class="error-highlight"></div>
+          <label for="id_comment">
+            Comment*<span></span>
+          </label><br/>
+        <div id="101024_id_comment">
+          <textarea id="id_comment" rows="10" cols="40" name="comment"></textarea>
+        </div>
+      </div>
+      <div class="nothanks">
+        <div class="comment-reply-form_error_honeypot"
+          class="error-highlight"></div>
+          If you enter anything in this field your comment will be treated as spam
+        <div id="101024_id_honeypot">
+          <input type="text" name="honeypot" id="id_honeypot" />
+        </div>
+      </div>
+      <div >
+        <div class="comment-reply-form_error_location"
+          class="error-highlight"></div>
+          Location
+        <div id="101024_id_location">
+          <input id="id_location" type="text" name="location" maxlength="60" />
+        </div>
+      </div>
+    <input type="submit" value = "Post Comment" class="replysubmit" />
+    * Denotes a required field
+  </form>
+
+
+  </div>
+
+
+</div>
+<!-- end main -->
+
+<!-- sidebar -->
+<div class="grid_4 sidebar">
+
+
+
+
+
+<div class="radiolab-support clearfix">
+<a href="https://secure.wnyc.org/epledge/radiolab/" class="btn-support">
+<img src="http://parmenides.wnyc.org/media/img/radiolab/btn-support.png" alt="Support Radiolab" width="241" height="61" border="0" />
+</a>
+<a href="https://secure.wnyc.org/epledge/radiolab/" class="btn-support-label">Support Radiolab Now</a>
+</div>
+
+<div class="radiolab-widget radiolab-adspace">
+
+<div class="sideblock bigbox_ad ad_container">
+<p><span class="admessage" style="visibility: visible;">Supported by</span></p>
+<div class="ad">
+<script type="text/javascript">
+GA_googleFillSlot("rl_bigbox");
+</script>
+</div>
+</div>
+
+</div>
+
+<div class="radiolab-widget featured-comments">
+<div class="radiolab-widget-header clearfix">
+<h2>Latest Comments</h2>
+</div>
+
+<ul class="latest-comments">
+ <li class="featuredcomment">
+ <p>Love the podcast in general and I enjoyed a lot of the stories in this episode, but I really think ...</p>
+ <div class="comment-avatar">
+ <img src="http://parmenides.wnyc.org/media/img/icons/default_avatar.png" alt="Default Avatar" width="32" height="32" />
+ </div>
+  <div class="comment-author">David</div>
+  <div class="comment-object">
+  on <a href="http://www.radiolab.org/2010/dec/14/">
+  The Good Show
+  </a>
+  </div>
+ </li>
+ <li class="featuredcomment">
+ <p>I LOVE radiolab. Every once in a while I re-listen to an old episode. Today was Stochasticity. I'm really hoping ...</p>
+ <div class="comment-avatar">
+ <img src="http://parmenides.wnyc.org/media/img/icons/default_avatar.png" alt="Default Avatar" width="32" height="32" />
+ </div>
+  <div class="comment-author">Maxwell P. Blakeney</div>
+  <div class="comment-object">
+  on <a href="http://www.radiolab.org/2009/jun/15/a-very-lucky-wind/">
+  A Very Lucky Wind
+  </a>
+  </div>
+ </li>
+ <li class="featuredcomment">
+ <p>Can't help but love the program. For some reason, Lora was meant to be on that road, that particular day. ...</p>
+ <div class="comment-avatar">
+ <img src="http://parmenides.wnyc.org/media/img/icons/default_avatar.png" alt="Default Avatar" width="32" height="32" />
+ </div>
+  <div class="comment-author">Wid Harpster</div>
+  <div class="comment-object">
+  on <a href="http://www.radiolab.org/2010/dec/14/i-need-a-hero/">
+  I Need a Hero
+  </a>
+  </div>
+ </li>
+ <li class="featuredcomment">
+ <p>Hey! There's has been a movie made of this episode during the war called 'Joyeux Noel' (meaning Merry Christmas in ...</p>
+ <div class="comment-avatar">
+ <img src="http://parmenides.wnyc.org/media/img/icons/default_avatar.png" alt="Default Avatar" width="32" height="32" />
+ </div>
+  <div class="comment-author">Cecile</div>
+  <div class="comment-object">
+  on <a href="http://www.radiolab.org/2010/dec/14/">
+  The Good Show
+  </a>
+  </div>
+ </li>
+</ul>
+
+</div>
+
+<div class="radiolab-widget damost">
+<h2>The Most</h2>
+ 
+
+<div id="damost">
+
+<ul id="damost-nav" class="clearfix">
+<li class="viewed active"><a href="#damostviewed"><span>Most</span> Viewed</a></li>
+<li class="listened"><a href="#damostlistened"><span>Most</span> Listened</a></li>
+<li class="commented"><a href="#damostcommented"><span>Most</span> Commented</a></li>
+</ul>
+
+
+  <div id="damostviewed" class="tab clearfix">
+    <ol>
+        <li><a href="http://www.radiolab.org/series/podcasts/">Podcasts (Radiolab)</a></li>
+        <li><a href="http://www.radiolab.org/2010/dec/14/">The Good Show</a></li>
+        <li><a href="http://www.radiolab.org/2010/aug/09/">Words</a></li>
+        <li><a href="http://www.radiolab.org/blogs/radiolab-blog/2010/nov/29/vertigo/">Gravitational Anarchy</a></li>
+        <li><a href="http://www.radiolab.org/2010/oct/08/">Cities</a></li>
+        <li><a href="http://www.radiolab.org/blogs/radiolab-blog/2010/nov/16/idea-time-come/">What Does Technology Want?</a></li>
+        <li><a href="http://www.radiolab.org/2010/oct/15/">Fate and Fortune</a></li>
+        <li><a href="http://www.radiolab.org/2010/jun/28/">Oops</a></li>
+        <li><a href="http://www.radiolab.org/2010/sep/20/">Falling</a></li>
+        <li><a href="http://www.radiolab.org/2007/may/24/">Sleep</a></li>
+    </ol>
+  </div>
+
+
+  <div id="damostlistened" class="tab clearfix hidden">
+    <ol>
+        <li><a href="http://www.radiolab.org/2010/dec/14/">New Podcast: The Good Show</a></li>
+        <li><a href="http://www.radiolab.org/2010/dec/14/">The Good Show</a></li>
+        <li><a href="http://www.radiolab.org/blogs/radiolab-blog/2010/nov/29/vertigo/">Gravitational Anarchy</a></li>
+        <li><a href="http://www.radiolab.org/2010/oct/08/">Cities</a></li>
+        <li><a href="http://www.radiolab.org/blogs/radiolab-blog/2010/nov/16/idea-time-come/">What Does Technology Want?</a></li>
+        <li><a href="http://www.radiolab.org/2010/oct/15/">Fate and Fortune</a></li>
+        <li><a href="http://www.radiolab.org/2010/aug/09/">Words</a></li>
+        <li><a href="http://www.radiolab.org/2010/jun/28/">Oops</a></li>
+        <li><a href="http://www.radiolab.org/2010/sep/20/">Falling</a></li>
+        <li><a href="http://www.radiolab.org/blogs/radiolab-blog/2010/oct/18/wild-talk/">Wild Talk</a></li>
+    </ol>
+  </div>
+
+
+  <div id="damostcommented" class="tab clearfix hidden">
+    <ol>
+        <li><a href="http://www.radiolab.org/2010/dec/14/">The Good Show</a></li>
+        <li><a href="http://www.radiolab.org/blogs/radiolab-blog/2010/nov/29/vertigo/">Gravitational Anarchy</a></li>
+        <li><a href="http://www.radiolab.org/blogs/radiolab-blog/2010/dec/01/recipe-perpetual-motion/">A Recipe for Perpetual Motion?</a></li>
+        <li><a href="http://www.radiolab.org/2007/sep/24/">Musical Language</a></li>
+        <li><a href="http://www.radiolab.org/2007/may/29/">Time</a></li>
+        <li><a href="http://www.radiolab.org/blogs/radiolab-blog/2010/nov/16/idea-time-come/">What Does Technology Want?</a></li>
+        <li><a href="http://www.radiolab.org/blogs/radiolab-blog/2010/nov/19/robot-threat/">The Robot Threat</a></li>
+        <li><a href="http://www.radiolab.org/2007/aug/13/">Morality</a></li>
+        <li><a href="http://www.radiolab.org/2007/may/24/">Sleep</a></li>
+        <li><a href="http://www.radiolab.org/2008/apr/21/">Pop Music</a></li>
+    </ol>
+  </div>
+
+
+</div>
+
+<script type="text/javascript">
+$(function(){
+  /* Most E-mailed Tabs */
+  $('#damost-nav li a').click(function(e){
+    e.preventDefault();
+    $(this).parent().siblings().removeClass('active');
+    $(this).parent().addClass('active');
+    $('#damost .tab').hide();
+    $($(this).attr('href')).show();
+  });
+
+  $('#damost div.tab ol li:last-child').addClass('last'); // Hide Bottom Border on Last Item
+
+});
+</script>
+
+
+</div>
+
+<div class="radiolab-widget newsletter">
+<a href="http://communications.wnyc.org/site/PageNavigator/Radio_Lab_Sign_Up">
+<img src="http://parmenides.wnyc.org/media/img/radiolab/btn-newsletter.png" alt="Newsletter Sign Up: Send me Radiolab updates" />
+</a>
+</div>
+
+
+<div class="sideblock">
+<h4 class="noise"><span>Feeds</span></h4>
+
+<div class="feeds clearfix">
+  <div class="feed-list"> </div>
+</div>
+
+</div>
+
+
+</div>
+<!-- end sidebar -->
+
+</div>
+
+<!-- Interior Page Footer Box  -->
+
+<div class="container_12 box-close"><!-- --></div>
+
+<div class="container_12 radiolab-footer clearfix">
+<div class="grid_12 radiolab-footer-about">
+<h2><a href="/">Radiolab</a></h2>
+<a href="/about/" class="about-radiolab">About Radiolab</a>
+<p>Radiolab is supported, in part, by the Alfred P. Sloan Foundation, enhancing public understanding of 
+science and technology in the modern world. More information about Sloan at <a href="http://www.sloan.org">www.sloan.org</a>.</p>
+</div>
+<div class="grid_12 radiolab-footer-nav">
+<h2><a href="http://www.wnyc.org/">WNYC</a></h2>
+<ul>
+<!-- <li><a href="/">Site Index</a></li> -->
+<li><a href="/corrections/">Corrections</a></li>
+<li><a href="/privacy/">Privacy Policy</a></li>
+<li><a href="/terms/">Terms of Use</a></li>
+<li><a href="/emailform/contact-us/">Contact</a></li>
+<li>&copy;2010 WNYC Radio</li>
+</ul>
+</div>
+</div>
+
+<!-- Header Graphic Underlay -->
+<div class="background-header"><div class="background-header-01"><!-- --></div><div class="background-header-02"><!-- --></div><div class="background-overlay home"><!-- --></div></div>
+
+
+
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+    var pageTracker = _gat._getTracker("UA-283599-18");
+    pageTracker._trackPageview();
+  } catch(err) {}</script>
+
+<script type="text/javascript">
+var _sf_async_config={uid:4030,domain:"radiolab.org"};
+
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+       "static.chartbeat.com/js/chartbeat.js");
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+</script>
+
+</body>
+</html>
