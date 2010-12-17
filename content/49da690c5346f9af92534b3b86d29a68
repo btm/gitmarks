@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:flickr="urn:flickr:"
+      xmlns:media="http://search.yahoo.com/mrss/">
+
+  <title>Comments on your photostream and/or sets</title>
+  <link rel="self" href="http://api.flickr.com/services/feeds/activity.gne?user_id=70143998@N00&amp;lang=en-us&amp;format=atom" />
+  <link rel="alternate" type="text/html" href="http://www.flickr.com/recent_activity.gne"/>
+  <id>tag:flickr.com,2005:/recentcomments</id>
+  <icon>http://farm1.static.flickr.com/73/buddyicons/70143998@N00.jpg?1172559691#70143998@N00</icon>
+  <subtitle></subtitle>
+  <updated>1970-01-01T00:00:00Z</updated>
+  <generator uri="http://www.flickr.com/">Flickr</generator>
+
+  <entry>
+    <title>This feed has permanently moved</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com"/>
+    <id>tag:flickr.com,2005:/comment/feedmoved</id>
+    <published>2010-06-29T21:41:39Z</published>
+    <updated>2010-06-29T21:41:39Z</updated>
+    <content type="html">This feed has been deprecated and will no longer be updated. The new and improved feed can be found &lt;a href=&quot;http://api.flickr.com/services/feeds/activity/all?user_id=me&quot;&gt;here&lt;/a&gt;. Please update your bookmarks and feed readers to continue to receive updates.	
+</content>
+    <author>
+      <name>Flickr Staff</name>
+      <uri>http://www.flickr.com</uri>
+      <flickr:nsid></flickr:nsid>
+    </author>
+  </entry>
+
+
+</feed>
