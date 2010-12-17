@@ -1,0 +1,1709 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- $Revision: 1.47 $ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" lang="en" xml:lang="en">
+  <head>
+    <script>
+      cdcPageTimers={
+        topOfHead: new Date()
+      };
+    </script>
+    <title>
+EAP Authentication with RADIUS Server - Cisco Systems
+</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+    <meta name="concept" content="Cisco Aironet 1100 Series"/>
+    <meta name="fb:app_id" content="156494687694418"/>
+    <meta name="accessLevel" content="Guest"/>
+    <meta name="country" content="US"/>
+    <meta name="primaryObjectId" content="ccmigration:09186a00801bd035"/>
+    <meta name="og:title" content="EAP Authentication with RADIUS Server"/>
+    <meta name="og:url" content="http://www.cisco.com/en/US/products/hw/wireless/ps4570/products_configuration_example09186a00801bd035.shtml"/>
+    <meta name="docType" content="TSD Products Configuration Example"/>
+    <meta name="language" content="en"/>
+    <meta name="contentType" content="cisco.com#US#postSales"/>
+    <meta name="iaPath" content="cisco.com#Products#Cisco Products#Wireless#Access Point#Cisco Aironet 1100 Series"/>
+    <meta name="ioProblemType" content="Configuration"/>
+    <meta name="Synonym" content="aeronet"/>
+    <meta name="ioContentSource" content="PAWS"/>
+    <meta name="locale" content="US"/>
+    <meta name="og:type" content="website"/>
+    <meta name="og:site_name" content="Cisco"/>
+    <meta name="secondaryConcept" content="Cisco Aironet 350 Series"/>
+    <meta name="secondaryConcept" content="Wireless, LAN (WLAN)"/>
+    <meta name="secondaryConcept" content="Cisco Aironet 1200 Series"/>
+    <meta name="secondaryConcept" content="Cisco Aironet 1400 Series"/>
+    <meta name="secondaryConcept" content="Cisco Aironet 1300 Series"/>
+    <meta name="secondaryConcept" content="Cisco Aironet 1130 AG Series"/>
+    <meta name="secondaryConcept" content="Cisco Aironet 1230 AG Series"/>
+    <meta name="secondaryConcept" content="Cisco Aironet 1240 AG Series"/>
+    <meta name="secondaryConcept" content="Remote Authentication Dial-In User Service (RADIUS)"/>
+    <meta name="secondaryConcept" content="Cisco Secure Access Control Server for Windows"/>
+    <meta name="secondaryConcept" content="Cisco Secure Access Control Server for Unix"/>
+    <meta name="date" content="Mon Oct 19 13:23:16 PDT 2009"/>
+    <meta name="docRequest" content="/en/US/products/hw/wireless/ps4570/products_configuration_example09186a00801bd035.shtml"/>
+    <link rel="canonical" href="http://www.cisco.com/en/US/products/hw/wireless/ps4570/products_configuration_example09186a00801bd035.shtml"/>
+    <meta name="title" content="EAP Authentication with RADIUS Server"/>
+    
+    
+    <script type="text/javascript" src="/web/fw/j/masterbrand.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/web/fw/c/masterbrand.min.css" />
+    <link rel="stylesheet" type="text/css" href="/web/fw/w/cl/cl.min.css" />
+    
+    
+    <link rel="search" type="application/opensearchdescription+xml" title="Search Cisco.com" href="http://www.cisco.com/web/tsweb/searchplugins/cdc_search.xml" />
+    <script type="text/javascript">cdc.util.useBackpack=true;</script>
+  </head>
+
+  <body id="w1x" class="cdc-fw"><!--googleoff: index--><!--googleoff: snippet -->
+    <script>cdcPageTimers.topOfBody = new Date();</script>
+    <!--[if gte IE 9]><div id="gte-ie9" class="ie"><![endif]-->
+    <!--[if IE 8]><div id="ie8" class="ie"><![endif]-->
+    <!--[if IE 7]><div id="ie7" class="ie ie67"><![endif]-->
+    <!--[if lte IE 6]><div id="ie6" class="ie ie67"><![endif]--> 
+
+    
+
+    <div id="fw-mb">
+      <div id="fw-mb-w1">
+        
+    
+<div id="fw-banner">
+<div id="fw-banner-w1"><!-- skiplinks -->
+<div id="fw-mbsk">
+<p><a href="/" tabindex="3">Home</a> <a href="#content">Skip to content</a> <a href="#hinav">Skip to navigation</a> <a href="#pagefooter">Skip to footer</a></p>
+</div>
+
+<!-- logo -->
+<div id="fw-mbl">
+<p><a href="/en/US/hmpgs/index.html">Cisco.com Worldwide Home</a></p>
+</div>
+
+<!-- megamenus -->
+<div id="fw-mm">
+<table class="mm-items" cellspacing="0" summary="">
+<tr>
+<td class="mm-item" id="products-mm-item"><a href="http://www.cisco.com/en/US/products/index.html" class="mm-link">Products &amp; Services</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#products-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="support-mm-item"><a href="http://www.cisco.com/cisco/web/support/index.html" class="mm-link">Support</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#support-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="ordering-mm-item"><a href="http://www.cisco.com/en/US/ordering/index.shtml" class="mm-link">How to Buy</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#ordering-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="training-mm-item"><a href="http://www.cisco.com/en/US/learning/index.html" class="mm-link">Training &amp; Events</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#training-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="partner-mm-item"><a href="http://www.cisco.com/en/US/partners/index.html" class="mm-link">Partners</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#partner-mm-menu" class="mm-reflink">(menu)</a> </td>
+</tr>
+</table>
+</div>
+
+<!-- end #fw-mm -->
+<!-- search -->
+<span class="search-entitlement">Guest</span> 
+
+<div id="fw-mbs">
+<form name="sitewidesearch" action="http://tools.cisco.com/search/JSP/search-results.get" method="get" id="sitewidesearch"><label for="searchPhrase" name="search" id="search">Search</label> 
+
+<p class="field-button"><input type="text" tabindex="1" name="strQueryText" class="field-button-field" id="searchPhrase" value="" autocomplete="off"> <input type="submit" tabindex="2" value="Search" class="field-button-button" id="go"></p>
+
+<input type="hidden" value="cisco.com" name="Search All cisco.com"> <input type="hidden" value="en" name="language"> <input type="hidden" value="US" name="country"> <input type="hidden" value="f" name="thissection"> <input type="hidden" value="Guest" name="accessLevel"></form>
+</div>
+
+<!-- end #fw-mbs -->
+<script type="text/javascript">
+          if ((typeof cdc.search) == "undefined"){
+             cdc.search = new Object();
+          }
+          cdc.search.country = "US";
+          cdc.search.language = "en";
+        
+</script>
+
+ <!-- toolbar -->
+ 
+
+<div id="fw-ft-basic">
+<div class="ft-toolbar">
+<div class="ft-group ft-country-lang-group">
+<div class="ft-sect ft-country"><a href="http://cisco.com/en/US/swassets/sw274/sitewide_country_language_selector.html" class="ft-label"><span class="ft-country-name">Worldwide</span> <span class="ft-country-change">[change]</span></a></div>
+</div>
+
+<div class="ft-group ft-guest-group">
+<div class="ft-sect ft-login"><a href="/cgi-bin/login" class="ft-label">Log In</a></div>
+
+<div class="ft-sect ft-account"><a href="http://www.cisco.com/web/siteassets/account/index.html" class="ft-label">Account</a></div>
+
+<div class="ft-sect ft-register"><a href="http://tools.cisco.com/RPF/register/register.do" class="ft-label">Register</a></div>
+
+<div class="ft-sect"><a href="http://www.cisco.com/cisco/psn/web/workspace" class="ft-label">My Cisco</a></div>
+</div>
+</div>
+
+<!-- end #ft-toolbar -->
+</div>
+
+<!-- end #fw-ft-basic -->
+</div>
+
+<!-- end #fw-banner-w1 -->
+</div>
+
+<!-- end #fw-banner -->
+<!-- END MasterBrand Banner SSI (guest) -->
+
+  
+
+        
+        <div id="mb-title-nav-bar" class="clearfix">
+          <div id="framework-content-titles"><!--googleon: index--><!--googleon: snippet-->
+            <h1 class="title-section">Cisco Aironet 1100 Series</h1>
+            <h2 class="title-page">EAP Authentication with RADIUS Server</h2><!--googleoff: index--><!--googleoff: snippet-->
+          </div>
+        </div> <!-- end #mb-title-nav-bar -->
+        
+
+        <table id="framework-base-main" cellspacing="0" cellpadding="0" border="0" summary="">
+          <tr>
+            <td id="framework-column-left" valign="top"><a name="hinav"></a>
+              <div class="hinav"><h3>Hierarchical Navigation</h3><ul class="outer"><li><a href="/en/US/hmpgs/index.html" class="parent">HOME</a><ul><li><a href="/en/US/support/index.html" class="parent">SUPPORT</a><ul><li><a href="/cisco/web/psa/configure.html?mode=prod" class="parent">PRODUCT SUPPORT</a><ul><li><a href="/en/US/products/hw/tsd_products_support_end-of-sale_and_end-of-life_products_list.html" class="parent">END-OF-SALE AND END-OF-LIFE PRODUCTS</a><ul><li><a href="/en/US/products/hw/wireless/ps4570/tsd_products_support_eol_series_home.html" class="parent">CISCO AIRONET 1100 SERIES</a><ul><li><a href="/en/US/products/hw/wireless/ps4570/tsd_products_support_configure.html" class="parent">CONFIGURE</a><ul><li><a href="/en/US/products/hw/wireless/ps4570/prod_configuration_examples_list.html" class="parent">CONFIGURATION EXAMPLES AND TECHNOTES</a><ul><li><strong><a href="/en/US/products/hw/wireless/ps4570/products_configuration_example09186a00801bd035.shtml" class="selected">EAP Authentication with RADIUS Server</a></strong></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div>
+              
+              
+              
+              
+
+<!-- begin embedded feedback form -->
+<a name="anchor_to_feedback"></a> 
+
+<script type="text/javascript" src="http://www.cisco.com/public/support/feedback/js/tt/right/main_cdc.js">
+</script>
+
+<!-- end feedback form -->
+
+
+              
+              
+              
+              
+              
+            </td> <!-- end #framework-column-left -->
+
+            <td id="framework-column-center">
+              <!-- temporary place for c1 and c2 -->
+              
+              
+
+              <table cellspacing="0" id="framework-base-content">
+                <tr>
+                  <td id="framework-column-main"><a name="content"></a><!--googleon: index--><!--googleon: snippet-->
+                    <div id="framework-content-main">
+                      <!-- Start of the actual text content -->
+
+                      <table id="content-right-top" align="right" border="0" cellspacing="0" cellpadding="0" summary="">
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                      </table>
+
+                      <?xml version="1.0" encoding="UTF-8"?>
+<div class="contentMargins"><span class="content">
+<!-- META NAME="audience" CONTENT="support" -->
+<!-- META NAME="contributors" CONTENT="null" -->
+<!-- META NAME="coverage" CONTENT="US" -->
+<!-- META NAME="creator" CONTENT="rkibbe" -->
+<!-- META NAME="date.created" CONTENT="08-28-2003" -->
+<!-- META NAME="date.expires" CONTENT="10-20-2009" -->
+<!-- META NAME="date.modified" CONTENT="10-19-2009" -->
+<!-- META NAME="identifier" CONTENT="/en/US/products/hw/wireless/ps4570/products_configuration_example09186a00801bd035.shtml" -->
+<!-- META NAME="language" CONTENT="US_EN" -->
+<!-- META NAME="maintainers" CONTENT="cco-techtips" -->
+<!-- META NAME="reviewers" CONTENT="rvigil, pseran, rjayasee, chbanks, jvaglia, jmalit, mlluis, rpremach, rkibbe" -->
+<!-- META NAME="publishers" CONTENT="delynch, jvaglia, ksleeth, jmalit, daartman" -->
+<!-- META NAME="security" CONTENT="External" -->
+<!-- META NAME="size" CONTENT="30017" -->
+<!-- META NAME="Description" CONTENT="null" -->
+<!-- META NAME="subject.primary" CONTENT="Products:Cisco Products:Wireless:Access Point:Cisco Aironet 1100 Series" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Security:Identity Management:Cisco Secure Access Control Server for Unix" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Security:Identity Management:Cisco Secure Access Control Server for Windows" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Wireless:Access Point:Cisco Aironet 1130 AG Series" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Wireless:Access Point:Cisco Aironet 1200 Series" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Wireless:Access Point:Cisco Aironet 1230 AG Series" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Wireless:Access Point:Cisco Aironet 1240 AG Series" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Wireless:Access Point:Cisco Aironet 350 Series" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Wireless:Outdoor Wireless:Cisco Aironet 1300 Series" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Wireless:Outdoor Wireless:Cisco Aironet 1400 Series" -->
+<!-- META NAME="subject.secondary" CONTENT="Technologies:Security and VPN:Authentication Protocols:Remote Authentication Dial-In User Service (RADIUS)" -->
+<!-- META NAME="subject.secondary" CONTENT="Technologies:Wireless / Mobility:Wireless, LAN (WLAN)" -->
+<!-- META NAME="title" CONTENT="EAP Authentication with RADIUS Server" -->
+<!-- META NAME="type.information" CONTENT="Product Configuration Example" -->
+<!-- META NAME="type.problem" CONTENT="Configuration" -->
+<!-- META NAME="roadMap" CONTENT="Wireless" -->
+<!-- META NAME="document.id" CONTENT="44844" --><table width='100%'><tr height='20px'><td><H3>Document ID: 44844</H3></td><td  aligh='right' width='200px' class="noPrint"><!--googleoff: all--><!-- AddThis Button BEGIN --><script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script> <div class="addthis_toolbox addthis_default_style"><a class="addthis_button_print" title="Print"></a><a class="addthis_button_email" title="Email"></a><a class="addthis_button_favorites" title="Save to Favorites" ></a>           <a class="addthis_button_google"></a><a class="addthis_button_twitter"></a><a class="addthis_button_facebook"></a>           <span class="addthis_separator">|</span><a href="http://www.addthis.com/bookmark.php?v=250&amp;username=ciscosupport" class="addthis_button_expanded">More</a></div><br/><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?username=ciscosupport"></script><!-- AddThis Button END --><!--googleon: all--> </td></tr></table> <!--StartReplaceDivFrame--><!--PAWS:StartOFRelatedDocumentsSection--><!--googleoff: all--><link href="http://www.cisco.com/web/fw/c/painted_libra.css" rel="stylesheet" type="text/css"  ></link>  <style type="text/css">@media print {.noPrint { position:absolute; display: none; }}</style><script language="JavaScript">function toggle(obj) {  var el = document.getElementById(obj); el.style.display = (el.style.display != 'none' ? 'none' : '' ); }  </script> <div class="module-sidebar-xsl noPrint"  style="text-align:left"> <table class="noPrint" id="content-right-top"  border="0" cellspacing="0" cellpadding="0" summary=""><tr> <td valign="top" ><div><h3 class="main-header">Downloads</h3> <a href="http://www.cisco.com/image/gif/paws/44844/leapserver.pdf" class="contentlink" target="_blank"> EAP Authentication with RADIUS Server <img src="http://www.cisco.com/swa/i/icon_pdf.gif" height="16" width="20" /></a> <br style='line-height: 5px;'><br style='line-height: 5px;'><h3 class="main-header">Related Documents</h3><ul id="relatedDocumentsUL"></ul><div id="firstFiveDcosRelDocs"><UL id="relatedDocumentsDefaultUL"><script type="text/javascript" src="http://www.cisco.com/image/gif/paws/101/parseXml.json"></script> <SCRIPT LANGUAGE="JavaScript"> doSearch('22','6','EAP Authentication with RADIUS Server'); </SCRIPT><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6366/products_configuration_example09186a00808e5d6b.shtml">EAP-FAST Authentication with Wireless LAN Controllers and External RADIUS Server Configuration Example </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6366/products_configuration_example09186a008093f1b9.shtml">Local EAP Authentication on the Wireless LAN Controller with EAP-FAST and LDAP Server Configuration Example </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/tech/tk722/tk809/technologies_configuration_example09186a0080665d18.shtml">EAP Authentication with WLAN Controllers (WLC) Configuration Example </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/tech/tk722/tk720/technologies_configuration_example09186a00807bf3c8.shtml">Cisco Secure Services Client with EAP-FAST Authentication </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/hw/wireless/ps4570/products_configuration_example09186a00801c0912.shtml">LEAP Authentication on a Local RADIUS Server </a></li></UL> </div> <br style='line-height: 3px;'><a style='font-size: 12px;font-family: Arial;font-weight: bold;text-decoration:underline;' target="_blank" href="http://tools.cisco.com/search/JSP/search-results.get?strQueryText=EAP Authentication with RADIUS Server">More...</a><br style='line-height: 5px;'><br style='line-height: 5px;'><h3 class="main-header">Related Products/Technology</h3><div id="firstFiveDcos"><UL><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6087/tsd_products_support_configure.html?referring_site=smartnav">Cisco Aironet 1130 AG Series </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps5861/tsd_products_support_configure.html?referring_site=smartnav">Cisco Aironet 1300 Series </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/hw/wireless/ps5279/tsd_products_support_configure.html?referring_site=smartnav">Cisco Aironet 1400 Series </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/hw/wireless/ps458/tsd_products_support_configure.html?referring_site=smartnav">Cisco Aironet 350 Series </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/sw/secursw/ps4911/tsd_products_support_configure.html?referring_site=smartnav">Cisco Secure Access Control Server for Unix </a></li><li><a style='font-size: 12px;font-family: Arial;font-weight: bold;text-decoration:underline;' href="JavaScript:toggle('remainingProdTechDocs')">More...</a></li><span id="remainingProdTechDocs"  style="DISPLAY: none"><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/tech/tk722/tk809/tsd_technology_support_configure_guide.html?referring_site=smartnav">Wireless, LAN (WLAN) </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/hw/wireless/ps4570/tsd_products_support_configure.html?referring_site=smartnav">Cisco Aironet 1100 Series </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/sw/secursw/ps2086/tsd_products_support_configure.html?referring_site=smartnav">Cisco Secure Access Control Server for Windows </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/tech/tk59/tsd_technology_support_configure_guide.html?referring_site=smartnav">Remote Authentication Dial-In User Service (RADIUS) </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/hw/wireless/ps430/tsd_products_support_configure.html?referring_site=smartnav">Cisco Aironet 1200 Series </a></li></span></UL></div><br style='line-height: 7px;'><h3 class="main-header" id='discussionMainHead' style="DISPLAY: none" >Related Discussion</h3><div id="discussionURLS"><script> function addDiscutionURLs(ciscoReadWrite){if(typeof(ciscoReadWrite)=='undefined' || ciscoReadWrite == null){  toggle('discussionMainHead'); return;}var threadFlag='false'; var ciscoThreads=ciscoReadWrite.threads; var out=""; var discURLs = new String();discURLs = discURLs+'<ul>';var disCount=0; for (var wordss in ciscoThreads){ if(disCount>=5){break;}disCount=disCount+1; out=ciscoThreads[wordss]; var name = out['name']; var url = out['url']; threadFlag = 'true';  discURLs = discURLs +'<li>&#8226; <a href="'+url+'">'+name+'</a></li>'; } discURLs = discURLs+'</ul>';document.getElementById('discussionURLS').innerHTML = discURLs;if(threadFlag=='true'){ toggle('discussionMainHead'); } } function toggle(obj) {  var el = document.getElementById(obj); el.style.display = (el.style.display != 'none' ? 'none' : '' ); }</script> </div><br style='line-height: 7px;'></div></td></tr></table></div><!--googleon: all--><!--PAWS:EndOFRelatedDocumentsSection-->
+
+<br />
+
+<!-- <script language="JavaScript" src="http://www.cisco.com/public/support/feedback/js/tt/right/main.js">&nbsp;</script> -->
+
+<h3>Refer to the
+  <a href="http://tools.cisco.com/support/downloads/go/Redirect.x?mdfid=278875243">Cisco
+  Wireless Downloads</a> in order to get Cisco Aironet drivers, firmware and
+  utility software. </h3>
+<hr />
+<table>
+<tr>
+<td align="left" valign="top">
+<div style="width:95%" class="module-sidebar-xsl">
+<h2 class="main-header">Contents</h2>
+<b>
+<a href="#intro">Introduction</a>
+</b>
+<br />
+<b>
+<a href="#prereq">Prerequisites</a>
+</b>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#req">Requirements</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#hw">Components Used</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#conv">Conventions</a>
+<br />
+<b>
+<a href="#conf">Configure</a>
+</b>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#NetEAP">Network EAP or Open Authentication with EAP</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#defauthserv">Define Authentication Server</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#defclient">Define Client Authentication Methods</a>
+<br />
+<b>
+<a href="#veri">Verify</a>
+</b>
+<br />
+<b>
+<a href="#tshoot">Troubleshoot</a>
+</b>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#proc">Troubleshoot Procedure</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#comm">Troubleshoot Commands</a>
+<br />
+<b>
+<a href="#NetPro">Cisco Support Community - Featured Conversations</a>
+</b>
+<br />
+<b>
+<a href="#related">Related Information</a>
+</b>
+<br />
+</div>
+</td>
+</tr>
+</table> 
+   
+ 
+ 
+<h2>
+<a name="intro">Introduction</a>
+</h2> 
+ 
+  <p>This document provides a sample configuration of a Cisco IOS® based
+	 access point for Extensible Authentication Protocol (EAP) authentication of
+	 wireless users against a database accessed by a RADIUS server. </p> 
+  <p> Due to the passive role that the access point plays in EAP (bridges
+	 wireless packets from the client into wired packets destined to the
+	 authentication server, and vice versa), this configuration is used with
+	 virtually all EAP methods. These methods include (but are not limited to) LEAP,
+	 Protected EAP (PEAP)-MS-Challenge Handshake Authentication Protocol (CHAP)
+	 version 2, PEAP-Generic Token Card (GTC), EAP-Flexible Authentication via
+	 Secure Tunneling (FAST), EAP-Transport Layer Security (TLS), and EAP-Tunneled
+	 TLS (TTLS). You must appropriately configure the authentication server for each
+	 of these EAP methods. </p> 
+  <p>This document covers how to configure the access point (AP) and the
+	 RADIUS server, which is Cisco Secure ACS in the configuration example in this
+	 document. </p> 
+  <h2>
+<a name="prereq">Prerequisites</a>
+</h2> 
+<h3>
+<a name="req">Requirements</a>
+</h3> 
+  <p>Ensure that you meet these requirements before you attempt this
+	 configuration:</p> <ul> 
+  <li> 
+	 <p>You are familiar with the Cisco IOS GUI or CLI.</p>
+</li> 
+  <li> 
+	 <p>You are familiar with the concepts behind EAP
+		authentication.</p>
+</li> </ul> 
+ 
+<h3>
+<a name="hw">Components Used</a>
+</h3> 
+  <p>The information in this document is based on these software and
+	 hardware versions: </p> <ul> 
+  <li> 
+	 <p>Cisco Aironet AP products that run Cisco IOS.</p>
+</li> 
+  <li> 
+	 <p>Assumption of only one Virtual LAN (VLAN) in the
+		network.</p>
+</li> 
+  <li> 
+	 <p>A RADIUS authentication server product that successfully integrates
+		into a user database.</p> <ul> 
+	 <li> 
+		<p>These are the supported authentication servers for Cisco LEAP and
+		  EAP-FAST:</p> <ul> 
+		<li> 
+		  <p>Cisco Secure Access Control Server (ACS)</p>
+</li> 
+		<li> 
+		  <p>Cisco Access Registrar (CAR)</p>
+</li> 
+		<li> 
+		  <p>Funk Steel Belted RADIUS</p>
+</li> 
+		<li> 
+		  <p>Interlink Merit</p>
+</li>
+</ul>
+</li> 
+	 <li> 
+		<p>These are the supported authentication servers for the Microsoft
+		  PEAP-MS-CHAP version 2 and PEAP-GTC:</p> <ul> 
+		<li> 
+		  <p>Microsoft Internet Authentication Service (IAS)</p>
+</li>
+		
+		<li> 
+		  <p>Cisco Secure ACS</p>
+</li> 
+		<li> 
+		  <p>Funk Steel Belted RADIUS</p>
+</li> 
+		<li> 
+		  <p>Interlink Merit</p>
+</li> 
+		<li> 
+		  <p>Any additional authentication server Microsoft can
+			 authorize.</p>
+</li>
+</ul> 
+		 
+		  <p>
+<b>Note:&nbsp;</b>GTC or One-Time Passwords require additional services which
+			 require additional software on both the client and server side, as well as
+			 hardware or software token generators.</p> 
+		</li> 
+	 <li> 
+		<p>Consult the manufacturer of the client supplicant for details on
+		  which authentication servers are supported with their products for EAP-TLS,
+		  EAP-TTLS and other EAP
+		  methods.</p>
+</li>
+</ul>
+</li>
+</ul> 
+  <p>The information in this document was created from the devices in a
+	 specific lab environment. All of the devices used in this document started with
+	 a cleared (default) configuration. If your network is live, make sure that you
+	 understand the potential impact of any command.</p> 
+ 
+<h3>
+<a name="conv">Conventions</a>
+</h3> 
+  <p>Refer to the
+	 <a href="http://www.cisco.com/en/US/tech/tk801/tk36/technologies_tech_note09186a0080121ac5.shtml">Cisco
+	 Technical Tips Conventions</a> for more information on document
+	 conventions.</p> 
+ <h2>
+<a name="conf">Configure</a>
+</h2> 
+ 
+  <p>This configuration describes how to configure EAP authentication on an
+	 IOS based AP. In the example in this document, LEAP is used as a method of EAP
+	 authentication with RADIUS server.</p> 
+   
+	 <p>
+<b>Note:&nbsp;</b>Use the
+		<a href="http://www.cisco.com/pcgi-bin/Support/Cmdlookup/home.pl">Command
+		Lookup Tool</a>
+           (<font size="-1 ">
+<a href="http://tools.cisco.com/RPF/register/register.do">registered</a> customers only</font>)
+         to obtain more information on the commands used in this
+		section.</p> 
+   
+  <p>As with most password-based authentication algorithms, Cisco LEAP is
+	 vulnerable to dictionary attacks. This is not a new attack or new vulnerability
+	 of Cisco LEAP. The creation of a strong password policy is the most effective
+	 way to mitigate dictionary attacks. This includes the use of strong passwords
+	 and the periodical expiration of passwords. Refer to
+	 <a href="http://www.cisco.com/en/US/tech/tk722/tk809/technologies_security_notice09186a00801aa80f.html">Dictionary
+	 Attack on Cisco LEAP</a> to get more information about dictionary attacks
+	 and how to prevent them.</p> 
+  <p>This document uses this configuration for both GUI and CLI:</p> 
+  <ul> 
+  <li> 
+	 <p>IP address of the AP is 10.0.0.106.</p>
+</li> 
+  <li> 
+	 <p>IP address of the RADIUS server (ACS) is
+		10.0.0.3.</p>
+</li>
+</ul>
+ 
+<h3>
+<a name="NetEAP">Network EAP or Open Authentication with EAP</a>
+</h3> 
+  <p>In any EAP/802.1x based authentication method, you can question what
+	 the differences are between Network EAP and Open authentication with EAP. These
+	 items refer to the values in the Authentication Algorithm field in the headers
+	 of management and association packets. Most manufacturers of wireless clients
+	 set this field at the value 0 (Open authentication), then signal a desire to do
+	 EAP authentication later in the association process. Cisco sets the value
+	 differently, from the start of association with the Network EAP flag.</p> 
+  <p>If your network has clients that are:</p>
+<ul> 
+  <li> 
+	 <p>Cisco clients&#8212;Use Network-EAP.</p>
+</li> 
+  <li> 
+	 <p>Third party clients (include CCX compliant products)&#8212;Use Open with
+		EAP.</p>
+</li> 
+  <li> 
+	 <p>A combination of both Cisco and third party clients&#8212;Choose both
+		Network-EAP and Open with EAP.</p>
+</li>
+</ul> 
+ 
+<h3>
+<a name="defauthserv">Define Authentication Server</a>
+</h3> 
+  <p>The first step in the EAP configuration is to define the authentication
+	 server and establish a relationship with it.</p> <ol type="1"> 
+  <li> 
+		<p>On the access point Server Manager tab (under the <b>Security
+		  &gt; Server Manager</b> menu item), complete these
+		  steps:</p>
+<ol type="a"> 
+	 <li> 
+		  <p>Enter the IP address of the authentication server in the Server
+			 field.</p> 
+	 </li> 
+	 <li> 
+		  <p>Specify the Shared Secret and the ports.</p> 
+	 </li> 
+	 <li> 
+		  <p>Click <b>Apply</b> in order to create the definition
+			 and populate the dropdown lists.</p> 
+	 </li> 
+	 <li> 
+		  <p>Set the EAP Authentication type Priority 1 field to the server IP
+			 address under Default Server Priorities.</p> 
+	 </li> 
+	 <li> 
+		  <p>Click <b>Apply</b>.</p> 
+	 </li>
+</ol> 
+	 <p>
+<img alt="/image/gif/paws/44844/server-mgr.gif" style="border:1px solid ;" src="http://www.cisco.com/image/gif/paws/44844/server-mgr.gif" usemap="" />
+</p>
+		
+		<p>You can also issue these commands from the CLI:</p> 
+		<blockquote>
+<pre>AP#<b>configure terminal</b>
+
+Enter configuration commands, one per line.  End with CNTL/Z.
+
+AP(config)#<b>aaa group server radius rad_eap</b>
+
+AP(config-sg-radius)#<b>server 10.0.0.3 auth-port 1645 acct-port 1646</b>
+
+AP(config-sg-radius)#<b>exit</b>
+
+AP(config)#<b>aaa new-model</b>
+
+AP(config)#<b>aaa authentication login eap_methods group rad_eap</b>
+
+AP(config)#<b>radius-server host 10.0.0.3 auth-port 1645 
+acct-port 1646 key labap1200ip102</b>
+
+AP(config)#<b>end</b>
+
+AP#<b>write memory</b>
+</pre>
+</blockquote> 
+	  
+  </li> 
+  <li> 
+		<p>The access point must be configured in the authentication server as
+		  an AAA client.</p> 
+	  
+		<p>For example, in Cisco Secure ACS, this happens on the
+		  <a href="http://www.cisco.com/en/US/products/sw/secursw/ps2086/products_user_guide_chapter09186a0080205a54.html">Network
+		  Configuration</a> page where the name of the access point, IP address,
+		  shared secret and authentication method (RADIUS Cisco Aironet or RADIUS Cisco
+		  IOS/PIX) are defined. Refer to the documentation from the manufacturer for
+		  other non-ACS authentication servers.</p> 
+	  
+	 <p>
+<img alt="/image/gif/paws/44844/acs-aaa-cl.gif" style="border:1px solid ;" src="http://www.cisco.com/image/gif/paws/44844/acs-aaa-cl.gif" usemap="" />
+</p>
+		
+		<p>Ensure that the authentication server is configured to perform the
+		  desired EAP authentication method. For example, for a Cisco Secure ACS that
+		  does LEAP, configure LEAP authentication on the
+		  <a href="http://www.cisco.com/en/US/products/sw/secursw/ps2086/products_user_guide_chapter09186a0080205a6b.html">System
+		  Configuration - Global Authentication Setup</a> page. Click <b>System
+		  Configuration</b>, then click <b>Global Authentication
+		  Setup</b>. Refer to the documentation from the manufacturer for other
+		  non-ACS authentication servers or other EAP
+		  methods.</p>
+<p>
+<img alt="/image/gif/paws/44844/acs_sys_conf.gif" style="border:1px solid ;" src="http://www.cisco.com/image/gif/paws/44844/acs_sys_conf.gif" usemap="" />
+</p>
+		
+		<p>This image shows Cisco Secure ACS configured for PEAP, EAP-FAST,
+		  EAP-TLS, LEAP and EAP-MD5.</p>
+<p>
+<img alt="acs_glob_auth2.gif" style="border:1px solid ;" src="http://www.cisco.com/image/gif/paws/44844/acs_glob_auth2.gif" usemap="" />
+</p> 
+	  
+  </li> </ol> 
+ 
+<h3>
+<a name="defclient">Define Client Authentication Methods</a>
+</h3> 
+   
+  <p>Once the access point knows where to send client authentication
+	 requests, configure it to accept those methods.</p> 
+   
+	 <p>
+<b>Note:&nbsp;</b>These instructions are for a WEP based installation. For WPA (which
+		uses ciphers instead of WEP), refer to
+		<a href="http://www.cisco.com/en/US/products/hw/wireless/ps4570/products_configuration_example09186a00801c40b6.shtml">WPA
+		Configuration Overview</a>.</p> 
+  <ol type="1"> 
+  <li> 
+		<p>On the access point Encryption Manager tab (under the
+		  <b>Security &gt; Encryption Manager</b> menu item), complete these
+		  steps:</p>
+<ol type="a"> 
+	 <li> 
+		  <p>Specify that you want to use <b>WEP
+			 encryption</b>.</p> 
+	 </li> 
+	 <li> 
+		  <p>Specify that WEP is
+			 <b>Mandatory</b>.</p> 
+	 </li> 
+	 <li> 
+		  <p>Verify that the key size is set to
+			 <b>128-bits</b>.</p> 
+	 </li> 
+	 <li> 
+		  <p>Click <b>Apply</b>.</p> 
+	 </li>
+</ol> 
+	 <p>
+<img alt="/image/gif/paws/44844/encrypt-mgr.gif" style="border:1px solid ;" src="http://www.cisco.com/image/gif/paws/44844/encrypt-mgr.gif" usemap="" />
+</p>
+		
+		<p>You can also issue these commands from the CLI:</p> 
+		<blockquote>
+<pre>AP#<b>configure terminal</b>
+
+Enter configuration commands, one per line.  End with CNTL/Z.
+
+AP(config)#<b>interface dot11radio 0</b>
+
+AP(config-if)#<b>encryption mode wep mandatory</b>
+
+AP(config-if)#<b>end</b>
+
+AP#<b>write memory</b>
+</pre>
+</blockquote> 
+	  
+  </li> 
+  <li> 
+		<p>Complete these steps on the access point SSID Manager tab (under
+		  the <b>Security &gt; SSID Manager</b> menu
+		  item):</p>
+<ol type="a"> 
+	 <li> 
+		  <p>Select the desired SSID.</p> 
+	 </li> 
+	 <li> 
+		  <p>Under "Authentication Methods Accepted," check the box labelled
+			 <b>Open</b> and use the dropdown list to choose <b>With
+			 EAP</b>.</p> 
+	 </li> 
+	 <li> 
+		  <p>Check the box labelled <b>Network-EAP</b> if you have
+			 Cisco client cards. See the discussion in the <a href="#NetEAP">Network
+			 EAP or Open Authentication with EAP</a> section. </p> 
+	 </li> 
+	 <li> 
+		  <p>Click <b>Apply</b>. </p> 
+	 </li>
+</ol> 
+  </li>
+</ol> 
+  <p>
+<img alt="/image/gif/paws/44844/ssid-mgr.gif" style="border:1px solid ;" src="http://www.cisco.com/image/gif/paws/44844/ssid-mgr.gif" usemap="" />
+</p>
+	 
+	 <p>You can also issue these commands from the CLI:</p> 
+	 <blockquote>
+<pre>AP#<b>configure terminal</b>
+
+Enter configuration commands, one per line.  End with CNTL/Z.
+
+AP(config)#<b>interface dot11radio 0</b>
+
+AP(config-if)#<b>ssid labap1200</b>
+
+AP(config-if-ssid)#<b>authentication open eap eap_methods</b>
+
+AP(config-if-ssid)#<b>authentication network-eap eap_methods</b>
+
+AP(config-if-ssid)#<b>end</b>
+
+AP#<b>write memory</b>
+</pre>
+</blockquote> 
+	 <p>Once you confirm basic functionality with a basic EAP configuration,
+		you can add additional features and key management at a later time. Layer more
+		complex functions on top of functional foundations in order to make
+		troubleshooting easier.</p> 
+   
+  <h2>
+<a name="veri">Verify</a>
+</h2> 
+ 
+  <p>This section provides information you can use to confirm your
+	 configuration works properly. </p> 
+  <p>Certain <b>show</b> commands are supported by the
+	 <a href="https://www.cisco.com/cgi-bin/Support/OutputInterpreter/home.pl">Output Interpreter Tool</a>
+           (<font size="-1 ">
+<a href="http://tools.cisco.com/RPF/register/register.do">registered</a> customers only</font>)
+        , which allows you to view an
+	 analysis of <b>show</b> command output. </p> 
+  <ul> 
+  <li> 
+	 <p>
+<b>show radius server-group all</b>&#8212;Displays a
+		list of all configured RADIUS server-groups on the AP. </p>
+</li>
+  </ul> 
+  <h2>
+<a name="tshoot">Troubleshoot</a>
+</h2> 
+<h3>
+<a name="proc">Troubleshoot Procedure</a>
+</h3>  
+  <p>Complete these steps in order to troubleshoot your
+	 configuration.</p> <ol type="1"> 
+  <li> 
+		<p>In the client-side utility or software, create a new profile or
+		  connection with the same or similar parameters in order to ensure that nothing
+		  has become corrupted in the configuration of the client.</p> 
+  </li> 
+  <li> 
+		<p>In order to eliminate the possibility of RF issues that prevent
+		  successful authentication, temporarily disable authentication as shown in these
+		  steps: </p> <ul> 
+		<li> 
+		  <p>From the CLI, use the commands <b>no authentication
+			 open eap eap_methods</b>, <b>no authentication network-eap
+			 eap_methods</b> and <b>authentication
+			 open</b>.</p>
+</li> 
+		<li> 
+		  <p>From the GUI, on the SSID Manager page, un-check
+			 <b>Network-EAP</b>, check <b>Open</b>, and set the dropdown
+			 list back to <b>No Addition</b>. </p>
+</li>
+</ul> 
+		<p>If the client successfully associates, then RF does not contribute
+		  to the association problem. </p> 
+  </li> 
+  <li> 
+		<p>Verify that shared secret passwords are synchronized between the
+		  access point and the authentication server. Otherwise, you can receive this
+		  error message:</p> 
+		<blockquote>
+<pre>Invalid message authenticator in EAP request</pre>
+</blockquote>
+<ul> 
+		<li> 
+		  <p>From the CLI, check the line <tt>radius-server host
+			 x.x.x.x auth-port x acct-port x key
+			 &lt;shared_secret&gt;</tt>.</p>
+</li> 
+		<li> 
+		  <p>From the GUI, on the Server Manager page, re-enter the shared
+			 secret for the appropriate server in the box labelled "Shared Secret."
+			 </p>
+</li>
+</ul> 
+		<p>The shared secret entry for the access point on the RADIUS server
+		  must contain the same shared secret password as those previously mentioned.
+		  </p> 
+  </li> 
+  <li> 
+		<p>Remove any user groups from the RADIUS server. Sometimes conflicts
+		  can occur between user groups defined by the RADIUS server, and user groups in
+		  the underlying domain. Check the logs of the RADIUS server for failed attempts,
+		  and the reasons those attempts failed.</p> 
+  </li>
+</ol> 
+ 
+<h3>
+<a name="comm">Troubleshoot Commands</a>
+</h3> 
+  <p>Certain <b>show</b> commands are supported by the
+	 <a href="https://www.cisco.com/cgi-bin/Support/OutputInterpreter/home.pl">Output Interpreter Tool</a>
+           (<font size="-1 ">
+<a href="http://tools.cisco.com/RPF/register/register.do">registered</a> customers only</font>)
+        , which allows you to view an
+	 analysis of <b>show</b> command output.</p> 
+  <p>
+<a href="http://www.cisco.com/en/US/products/hw/wireless/ps430/products_tech_note09186a008024aa4f.shtml">Debugging
+	 Authentications</a> provides a significant amount of detail about how to
+	 gather and interpret the output of debugs related to EAP. </p> 
+   
+	 <p>
+<b>Note:&nbsp;</b>Before you issue <b>debug</b> commands, refer to
+		the
+		<a href="http://www.cisco.com/en/US/tech/tk801/tk379/technologies_tech_note09186a008017874c.shtml">Important
+		Information on Debug Commands</a>.</p> 
+   <ul> 
+  <li> 
+	 <p>
+<b>debug dot11 aaa authenticator
+		state-machine</b>&#8212;Displays major divisions (or states) of the
+		negotiation between the client and the authentication server. Here is an output
+		from a <b>successful</b> authentication: </p> 
+	 <blockquote>
+<pre>*Mar 1 02:37:46.846: dot11_auth_dot1x_send_id_req_to_client: Sending
+		identity request to 0040.96ac.dd05
+*Mar 1 02:37:46.846: dot11_auth_dot1x_send_id_req_to_client:
+		0040.96ac.dd05 timer started for 30 seconds
+*Mar 1 02:37:46.930: dot11_auth_dot1x_run_rfsm: Executing
+		Action(CLIENT_WAIT,EAP_START) for 0040.96ac.dd05
+*Mar 1 02:37:46.931: dot11_auth_dot1x_send_id_req_to_client:
+		<b>Sending identity request to 0040.96ac.dd05 (client)</b>
+*Mar 1 02:37:46.931: dot11_auth_dot1x_send_id_req_to_client: Client
+		0040.96ac.dd05 timer started for 30 seconds 
+*Mar 1 02:37:46.938: dot11_auth_dot1x_run_rfsm: Executing
+		Action(CLIENT_WAIT,CLIENT_REPLY) for 0040.96ac.dd05
+*Mar 1 02:37:46.938: dot11_auth_dot1x_send_response_to_server:
+		<b>Sending client 0040.96ac.dd05 data (User Name) to server</b>
+*Mar 1 02:37:46.938: dot11_auth_dot1x_send_response_to_server:
+		Started timer server_timeout 60 seconds
+*Mar 1 02:37:47.017: dot11_auth_dot1x_run_rfsm: Executing
+		Action(SERVER_WAIT,SERVER_REPLY) for 0040.96ac.dd05
+*Mar 1 02:37:47.017: dot11_auth_dot1x_send_response_to_client:
+		<b>Forwarding server message(Challenge) to client 0040.96ac.dd05</b>
+*Mar 1 02:37:47.018: dot11_auth_dot1x_send_response_to_client:
+		Started timer client_timeout 20 seconds
+*Mar 1 02:37:47.025: dot11_auth_dot1x_run_rfsm: Executing
+		Action(CLIENT_WAIT,CL IENT_REPLY) for 0040.96ac.dd05
+*Mar 1 02:37:47.025: dot11_auth_dot1x_send_response_to_server:
+		<b>Sending client 0040.96ac.dd05 data(User Credentials) to server</b>
+-------------------Lines Omitted for simplicity-------------------
+*Mar 1 02:37:47.030: dot11_auth_dot1x_send_response_to_client:
+		Started timer client_timeout 20 seconds
+*Mar 1 02:37:47.041: dot11_auth_dot1x_run_rfsm: Executing Action
+		(SERVER_WAIT,<b>SE RVER_PASS)</b> for 0040.96ac.dd05
+*Mar 1 02:37:47.041: dot11_auth_dot1x_send_response_to_client:
+		<b>Forwarding server message(Pass Message) to client
+		0040.96ac.dd05</b>
+*Mar 1 02:37:47.042: dot11_auth_dot1x_send_response_to_client:
+		Started timer client_timeout 30 seconds
+*Mar 1 02:37:47.043: %DOT11-6-ASSOC:<b> Interface Dot11Radio0,
+		Station TACWEB 0040 .96ac.dd05 Associated KEY_MGMT[NONE] (Client stays
+		associated to the access point)</b>
+</pre>
+</blockquote> 
+	  
+		<p>
+<b>Note:&nbsp;</b>In Cisco IOS Software releases prior to 12.2(15)JA, the syntax of
+		  this <b>debug</b> command is <b>debug dot11 aaa
+		  dot1x state-machine</b>.</p> 
+	 </li> 
+  <li> 
+	 <p>
+<b>debug dot11 aaa authenticator
+		process</b>&#8212;Displays the individual dialog entries of the negotiation
+		between the client and the authentication server.</p> 
+	  
+		<p>
+<b>Note:&nbsp;</b>In Cisco IOS Software releases prior to 12.2(15)JA, the syntax of
+		  this debug command is <b>debug dot11 aaa dot1x
+		  process</b>.</p> 
+	 </li> 
+  <li> 
+	 <p>
+<b>debug radius authentication</b>&#8212;Displays the
+		RADIUS negotiations between the server and client, both of which, are bridged
+		by the AP. This is an output for <b>failed</b> authentication:
+		</p> 
+	 <blockquote>
+<pre>*Mar 1 02:34:55.086: RADIUS/ENCODE(00000031):Orig. component type = DOT11
+*Mar 1 02:34:55.086: RADIUS: AAA Unsupported Attr: ssid [264] 5
+*Mar 1 02:34:55.086: RADIUS: 73 73 69 [ssi] 
+*Mar 1 02:34:55.086: RADIUS: AAA Unsupported Attr: interface [157] 3
+*Mar 1 02:34:55.087: RADIUS: 32 [2]
+*Mar 1 02:34:55.087: RADIUS(00000031): Config <b>NAS IP: 10.0.0.106</b>
+*Mar 1 02:34:55.087: RADIUS/ENCODE(00000031): acct_session_id: 47
+*Mar 1 02:34:55.087: RADIUS(00000031): Config NAS IP: 10.0.0.106 
+*Mar 1 02:34:55.087: RADIUS(00000031): sending
+*Mar 1 02:34:55.087: RADIUS(00000031): <b>Send Access-Request
+		to 10.0.0.3 :164 5 id 1645/61, len 130</b>
+*Mar 1 02:34:55.088: RADIUS: authenticator 0F 6D B9 57 4B A3 F2 0E -
+		56 77 A4 7E D3 C2 26 EB
+*Mar 1 02:34:55.088: RADIUS: <b>User-Name [1] 8 "wirels"</b>
+*Mar 1 02:34:55.088: RADIUS: Framed-MTU [12] 6 1400 
+*Mar 1 02:34:55.088: RADIUS: Called-Station-Id [30] 16 "0019.a956.55c0"
+*Mar 1 02:34:55.088: RADIUS: <b>Calling-Station-Id [31] 16 "0040.96ac.dd05"</b>
+*Mar 1 02:34:55.088: RADIUS:<b> Service-Type [6] 6 Login [1</b>] 
+*Mar 1 02:34:55.088: RADIUS: Message-Authenticato[80] 18
+*Mar 1 02:34:55.089: RADIUS: 73 8C 59 C4 98 51 53 9F 58 4D 1D EB A5
+		4A AB 88 [s?Y??QS?XM???J??]
+*Mar 1 02:34:55.089: RADIUS: EAP-Message [79] 13
+*Mar 1 02:34:55.089: RADIUS: NAS-Port-Id [87] 5 "299"
+*Mar 1 02:34:55.090: RADIUS: NAS-IP-Address [4] 6 10.0.0.106
+*Mar 1 02:34:55.090: RADIUS: Nas-Identifier [32] 4 "ap"
+*Mar 1 02:34:55.093: RADIUS: <b>Received from id 1645/61
+		10.0.0.3 :1645, Access-Challenge, len 79</b>
+*Mar 1 02:34:55.093: RADIUS: authenticator 72 FD C6 9F A1 53 8F D2 -
+		84 87 49 9B B4 77 B8 973
+---------------------------Lines Omitted-----------------------------------
+*Mar 1 02:34:55.117: RADIUS(00000031): Config NAS IP: 10.0.0.106 
+*Mar 1 02:34:55.118: RADIUS/ENCODE(00000031): acct_session_id: 47 
+*Mar 1 02:34:55.118: RADIUS(00000031): Config NAS IP: 10.0.0.106
+*Mar 1 02:34:55.118: RADIUS(00000031): sending
+*Mar 1 02:34:55.118: RADIUS(00000031): <b>Send Access-Request to
+		10.0.0.3 :164 5 id 1645/62, len 168</b> 
+*Mar 1 02:34:55.118: RADIUS: authenticator 49 AE 42 83 C0 E9 9A A7 -
+		07 0F 4E 7C F4 C7 1F 24
+*Mar 1 02:34:55.118: RADIUS: User-Name [1] 8 "wirels"
+*Mar 1 02:34:55.119: RADIUS: Framed-MTU [12] 6 1400
+----------------------------------Lines Omitted-----------------------
+*Mar 1 02:34:55.124: RADIUS: <b>Received from id 1645/62
+		10.0.0.3 :1645, Access-Reject, len 56</b>
+*Mar 1 02:34:55.124: RADIUS: authenticator A6 13 99 32 2A 9D A6 25 -
+		AD 01 26 11 9A F6 01 37 
+*Mar 1 02:34:55.125: RADIUS: EAP-Message [79] 6
+*Mar 1 02:34:55.125: RADIUS: 04 15 00 04 [????]
+*Mar 1 02:34:55.125: RADIUS:<b> Reply-Message [18] 12</b>
+*Mar 1 02:34:55.125: RADIUS: 52 65 6A 65 63 74 65 64 0A 0D
+		<b>[Rejected??]</b>
+*Mar 1 02:34:55.125: RADIUS: Message-Authenticato[80] 18
+*Mar 1 02:34:55.126: RADIUS(00000031): Received from id 1645/62 
+*Mar 1 02:34:55.126: RADIUS/DECODE: EAP-Message fragments, 4, total 4 bytes
+*Mar 1 02:34:55.126: RADIUS/DECODE: Reply-Message fragments, 10, total 10 bytes
+*Mar 1 02:34:55.127: %DOT11-7-AUTH_FAILED: <b>Station
+		0040.96ac.dd05 Authentication failed</b>
+</pre>
+</blockquote> </li> 
+  <li> 
+	 <p>
+<b>debug aaa authentication</b>&#8212;Displays the AAA
+		negotiations for authentication between the client device and the
+		authentication server.</p>
+</li>
+</ul> 
+ 
+
+<h2>
+<a name="NetPro">Cisco Support Community - Featured Conversations</a>
+</h2>
+<!--googleoff: all-->
+<concept>
+<Para>
+<a href="https://supportforums.cisco.com/index.jspa">Cisco Support Community</a> is a forum for you to ask and answer questions, share suggestions, and collaborate with your peers.  Below are just some of the most recent and relevant conversations happening right now.</Para>
+<p />
+<script>
+			function addorModifyReadWrite(ciscoReadWrite){
+			var ciscoThreads=ciscoReadWrite.threads; 		
+			for (var wordss in ciscoThreads){ 
+				ciscoThreads[wordss]['url'] = ciscoThreads[wordss]['url'] + "?referring_site=smartnav";
+				ciscoReadWrite.threads[wordss]['url'] = ciscoThreads[wordss]['url'];
+			}
+			addDiscutionURLs(ciscoReadWrite);
+			}
+		</script>
+<div style="margin-left: 0px;" id="ciscoReadWrite">&amp;nbsp;</div>
+<script type="text/javascript" src="https://supportforums.cisco.com/externalcommunitydataservice.jspa?numThreads=10&amp;communityId=1&amp;q=EAP+||+Authentication+||+with+||+RADIUS+||+Server">&amp;nbsp;</script>
+<script>
+		var ciscoReadWrites = new ReadWriteModule();
+		ciscoReadWrites.init(); 
+		addorModifyReadWrite(ciscoReadWrites);
+		</script>
+</concept>
+<!--googleon: all-->
+<hr />
+<h2>
+<a name="related">Related Information</a>
+</h2>
+<ul> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/en/US/products/hw/wireless/ps430/products_tech_note09186a008024aa4f.shtml?referring_site=bodynav">Debug
+		Authentications</a> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/en/US/docs/wireless/access_point/12.2_11_JA/configuration/guide/s11auth_ps430_TSD_Products_Configuration_Guide_Chapter.html?referring_site=bodynav">Configuring
+		Authentication Types</a> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/en/US/products/hw/wireless/ps4570/products_configuration_example09186a00801c0912.shtml?referring_site=bodynav">LEAP
+		Authentication on a Local RADIUS Server</a> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/en/US/docs/wireless/access_point/12.4_3g_JA/configuration/guide/s43radi.html?referring_site=bodynav">Configuring
+		RADIUS and TACACS+ Servers</a> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/en/US/products/sw/secursw/ps2086/products_configuration_example09186a00801df0e4.shtml?referring_site=bodynav">Configuring
+		Cisco Secure ACS for Windows v3.2 With PEAP-MS-CHAPv2 Machine
+		Authentication</a> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/en/US/products/sw/secursw/ps2086/products_configuration_example09186a00801df0ea.shtml?referring_site=bodynav">Cisco
+		Secure ACS for Windows v3.2 With EAP-TLS Machine Authentication</a> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://technet2.microsoft.com/WindowsServer/f/?en/Library/ecb5c750-9917-48eb-b33b-8404a57e396b1033.mspx?referring_site=bodynav">Configuring PEAP/EAP on Microsoft IAS</a>
+<img alt="leavingcisco.com" height="18" width="18" src="http://www.cisco.com/images/exit.gif" /> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://technet2.microsoft.com/WindowsServer/en/Library/d2a1ffaf-cc01-4e00-a92e-336923302a501033.mspx?referring_site=bodynav">Troubleshooting Microsoft IAS as a RADIUS server</a>
+<img alt="leavingcisco.com" height="18" width="18" src="http://www.cisco.com/images/exit.gif" /> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.microsoft.com/technet/community/columns/cableguy/cg1202.mspx?referring_site=bodynav">Microsoft 802.1X Authentication Client</a>
+<img alt="leavingcisco.com" height="18" width="18" src="http://www.cisco.com/images/exit.gif" /> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/cisco/web/support/index.html?referring_site=bodynav">Technical Support &amp;
+		Documentation - Cisco Systems</a> 
+  </b>
+</li> 
+</ul> <p xmlns:cal="xalan://java.util.GregorianCalendar" />
+
+<p xmlns:cal="xalan://java.util.GregorianCalendar" />
+
+<p xmlns:cal="xalan://java.util.GregorianCalendar" />
+<font xmlns:cal="xalan://java.util.GregorianCalendar" size="-1">
+
+</font>
+<!-- PIDLMD --><hr width=100%><table width=100%><tr><td align=left>Updated: Oct 19, 2009</td><td align=right>Document ID: 44844</td></tr></table><hr width=100%><!-- PIDLMD -->
+</span></div>
+
+                      <table id="content-right-bottom" align="right" border="0" cellspacing="0" cellpadding="0" summary="">
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                      </table>
+
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+
+                      <!-- End of the actual text content --><!--googleoff: index--><!--googleoff: snippet-->
+                    </div> <!-- end #framework-content-main -->
+                  </td> <!-- end #framework-column-main -->
+
+                  <td id="framework-column-right">
+                    <div id="framework-content-right">
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                    </div> <!-- end #framework-content-right -->
+                  </td> <!-- end #framework-column-right -->
+                </tr>
+              </table> <!-- end #framework-base-content -->
+            </td> <!-- end #framework-column-center -->
+          </tr>
+        </table> <!-- end #framework-base-main -->
+
+        
+        
+    
+<div id="ff">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://newsroom.cisco.com/dlls/index.html">News &amp; Alerts</a></h3>
+
+<ul>
+<li><a href="http://newsroom.cisco.com/dlls/index.html">News@Cisco</a></li>
+
+<li><a href="http://blogs.cisco.com/">Blogs</a></li>
+
+<li><a href="http://www.cisco.com/offer/subctr/nl/190612_1">Newsletters</a></li>
+
+<li><a href="http://www.cisco.com/en/US/support/tsd_products_field_notice_summary.html">Field Notices</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/products_security_advisories_listing.html">Security Advisories</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/pub/software/portal/select.html?i=!ch">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff -->
+<div id="ff-hidden" style="display:none;">
+<div id="ff-collaboration">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/ns1007/index.html">Collaboration</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/products/ps10692/Products_Sub_Category_Home.html">Conferencing</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10684/Products_Sub_Category_Home.html">Customer Care</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10683/Products_Sub_Category_Home.html">Enterprise Social Software</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10691/Products_Sub_Category_Home.html">IP Communications</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10682/Products_Sub_Category_Home.html">Messaging</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10685/Products_Sub_Category_Home.html">Mobile Applications</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10693/Products_Sub_Category_Home.html">Telepresence</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/web/download/index.html">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff-collaboration -->
+<div id="ff-data-center">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/index.html">Data Center and Virtualization</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/products.html">Products and Solutions</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/networking_solutions_customer_success_stories_list.html">Case Studies</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns743/networking_solutions_program_home.html">Design Zone</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/ecosystem.html">Technology Partnerships</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/services.html">Data Center Services</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/web/download/index.html">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff-data-center -->
+<div id="ff-borderless-networks">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/ns1015/index.html">Borderless Networks</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/products.html">Product Portfolio</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/architecture.html">Architecture</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/services.html">Services</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/solutions.html">Solutions</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/industries.html">Industries</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/web/download/index.html">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff-borderless-networks -->
+</div>
+
+<!-- end #ff-hidden -->
+<script type="text/javascript">
+cdc.ff.init();
+</script>
+
+<!-- END MasterBrand FatFooter SSI (generic plus hubs)(guest) -->
+
+  
+        <!-- $Revision: 1.5 $ -->
+<a name="pagefooter"></a>
+<div id="framework-footer">
+	<div id="footer-nav">
+	
+	<a href="/web/siteassets/contacts/index.html">Contacts</a> | 
+	<a href="http://tools.cisco.com/cdc/feedbk/public/FeedbackAction.cdcfdb">Feedback</a> | 
+	<a href="/web/help/index.html">Help</a> | 
+	<a href="/web/siteassets/sitemap/index.html">Site Map</a> | 
+	
+	</div>
+	<div id="footer-legal"><a href="/web/siteassets/legal/terms_condition.html">Terms &amp; Conditions</a> |
+     <a href="/web/siteassets/legal/privacy.html">Privacy Statement</a> |
+     <a href="/web/siteassets/legal/privacy.html#cookies">Cookie Policy</a> |
+     <a href="/web/siteassets/legal/trademark.html">Trademarks</a></div>
+	
+</div>		
+
+
+      </div><!-- end #fw-mb-w1 -->
+    </div><!-- end #fw-mb -->
+
+    
+    <!--[if IE]></div><![endif]-->
+    
+    <script>cdcPageTimers.endOfContent= new Date();</script>
+    
+    
+    <script>cdcPageTimers.bottomOfBody = new Date();</script>
+  </body>
+</html>
