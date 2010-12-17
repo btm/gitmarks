@@ -1,0 +1,584 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>The Beekeeper - Pentaho Wiki</title>
+
+        
+        
+
+                        
+    
+            
+<meta id="confluence-context-path" name="confluence-context-path" content="">
+<meta id="atlassian-token" name="atlassian-token" content="M-Pz9yxAYL">
+<meta id="confluence-space-key" name="confluence-space-key" content="BEEKEEPER">
+
+<script type="text/javascript">
+    // Deprecated global variables. To be removed in a future version of Confluence.
+    var contextPath = '';
+</script>
+
+    
+
+<!-- include system css resources -->
+<link type="text/css" rel="stylesheet" href="/s/1911/28/1/_/download/superbatch/css/batch.css" media="all">
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" href="/s/1911/28/1/_/download/superbatch/css/batch.css?ieonly=true" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="/s/1911/28/1/_/download/superbatch/css/batch.css?media=print" media="print">
+<link type="text/css" rel="stylesheet" href="/s/1911/28/1.0/_/download/batch/confluence.web.resources:view-comment/confluence.web.resources:view-comment.css" media="all">
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" href="/s/1911/28/1.0/_/download/batch/confluence.web.resources:view-comment/confluence.web.resources:view-comment.css?ieonly=true" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="/s/1911/28/1.9/_/download/batch/confluence.macros.advanced:fancy-box/confluence.macros.advanced:fancy-box.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/1911/28/1.0.8/_/download/batch/com.atlassian.confluence.plugins.drag-and-drop:support/com.atlassian.confluence.plugins.drag-and-drop:support.css" media="all">
+
+<!-- end system css resources -->
+
+    <link rel="stylesheet" href="/s/1911/28/1/_/styles/combined.css?spaceKey=BEEKEEPER" type="text/css">
+
+    <meta name="confluence-request-time" content="1292612782971">
+
+<meta name="loggedInUsername" content="">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/s/1911/28/_/images/logo/confluence_16.png">
+
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch/osd.action" title="Pentaho Wiki"/>
+
+        <!-- include system javascript resources -->
+                        
+    
+    <script type="text/javascript" src="/s/1911/28/1/_/download/superbatch/js/batch.js" ></script>
+<script type="text/javascript" src="/s/1911/28/1.9/_/download/batch/confluence.macros.advanced:fancy-box/confluence.macros.advanced:fancy-box.js" ></script>
+<script type="text/javascript" src="/s/1911/28/1.9/_/download/batch/confluence.macros.advanced:thumbnail-images/confluence.macros.advanced:thumbnail-images.js" ></script>
+<script type="text/javascript" src="/s/1911/28/3.3/_/download/batch/com.atlassian.confluence.plugins.fixedwidth-theme:fixedwidth-resources/com.atlassian.confluence.plugins.fixedwidth-theme:fixedwidth-resources.js" ></script>
+<script type="text/javascript" src="/s/1911/28/1.0.8/_/download/batch/com.atlassian.confluence.plugins.drag-and-drop:support/com.atlassian.confluence.plugins.drag-and-drop:support.js" ></script>
+<script type="text/javascript" src="/s/1911/28/1.0.8/_/download/batch/com.atlassian.confluence.plugins.drag-and-drop:drag-and-drop-for-view-content/com.atlassian.confluence.plugins.drag-and-drop:drag-and-drop-for-view-content.js" ></script>
+<script type="text/javascript" src="/s/1911/28/2.11/_/download/batch/com.atlassian.confluence.themes.leftnavigation:web-resources/com.atlassian.confluence.themes.leftnavigation:web-resources.js" ></script>
+<script type="text/javascript" src="/s/1911/28/1.2/_/download/batch/com.atlassian.confluence.plugins.doctheme:splitter/com.atlassian.confluence.plugins.doctheme:splitter.js" ></script>
+<script type="text/javascript" src="/s/1911/28/1.0/_/download/batch/legacy.confluence.web.resources:prototype/legacy.confluence.web.resources:prototype.js" ></script>
+
+    <!-- end system javascript resources -->
+
+    <!-- Message Banner
+<div style="background-color: yellow; border: 2px solid red; margin: 4px; padding: 2px; font-weight: bold; text-align: center;">
+The Wiki will be offline today for upgrade for approx 60 mins starting at 11:30am EDT (15:30 GMT)
+ -->
+</div>
+</head>
+
+<body             onload="placeFocus()"
+     id="com-atlassian-confluence">
+
+
+
+
+<fieldset class="hidden parameters">
+    <input type="hidden" id="globalSettingsAttachmentMaxSize" value="52428800">
+    <input type="hidden" id="userLocale" value="en_GB">
+    <input type="hidden" id="staticResourceUrlPrefix" value="/s/1911/28/_">
+    <input type="hidden" id="contextPath" value="">
+</fieldset>
+
+    
+
+<div id="header">
+        <form id="quick-search" class="quick-search" method="get" action="/dosearchsite.action">
+        <fieldset>
+            <legend>Quick Search</legend>
+            <input class="quick-search-query" id="quick-search-query" type="text" accessKey="q" autocomplete="off" name="queryString" size="25" />
+            <input class="quick-search-submit" id="quick-search-submit" type="submit" value="Search" />
+            <div class="aui-dd-parent quick-nav-drop-down"><!-- Quick nav appears here --></div>
+        </fieldset>
+        <fieldset class="hidden parameters">
+            <input type="hidden" id="quickNavEnabled" value="true" />
+                    </fieldset>
+    </form>
+    
+    
+    <ol id="breadcrumbs">
+                    
+        <li class="first" >
+                                    <span><a href="/dashboard.action">Dashboard</a></span>
+                </li>
+                    
+        <li>
+                                    <span><a href="/display/BEEKEEPER">BeeKeeper</a></span>
+                </li>
+                    
+        <li>
+                                    <span>The Beekeeper</span>
+                </li>
+        </ol>
+
+</div>
+
+<div id="PageContent">
+    <table cellspacing="0" cellpadding="0" width="100%">
+        <tr>
+                    <td width="150px" valign="top" class="sidebar" nowrap>
+                <div class="leftnav">
+                     <div id="logodiv">
+                        					        <a href="/display/BEEKEEPER"><img class="logo global custom" src="/download/attachments/11304961/global.logo?version=3&modificationDate=1236197775000" alt=""></a>					                          </div>
+                      <div id="menu">
+                        <ul>
+	<li><a href="/display/COM"><b>Community Home</b></a></li>
+	<li><a href="/display/EAI"><b>Data Integration</b></a></li>
+	<li><a href="/display/Reporting"><b>Reporting</b></a></li>
+	<li><a href="/display/ServerDoc2x"><b>BI Platform</b></a></li>
+	<li><a href="/display/analysis"><b>Analysis</b></a></li>
+	<li><a href="/display/DATAMINING"><b>Data Mining</b></a></li>
+</ul>
+
+                        
+<h5><a id="page-operations-menu" href="#"><img src="/images/icons/docs_16.gif" width=16 height=16 border=0 align=absmiddle >Page Operations</a></h5>
+<div id="pagenav" class="subnav" style="display:none;">
+   <ul>
+	   		   <li><a  id="viewPageLink"  href="/display/BEEKEEPER/The+Beekeeper"  class="current"    accessKey="v"><u>V</u>iew</a></li>
+	   		   <li><a  id="view-attachments-link"  href="/pages/viewpageattachments.action?pageId=8346"    accessKey="a"><u>A</u>ttachments (6)</a></li>
+	   		   <li><a  id="view-page-info-link"  href="/pages/viewinfo.action?pageId=8346"   >Info</a></li>
+	      </ul>
+</div>
+
+                        
+                        
+<h5><a id="browse-space-menu" href="#"><img src="/images/icons/browse_space.gif" height="16" width="16" border="0" align="absmiddle" title="Find Content">Browse Space</a></h5>
+<div id="browsenav" class="subnav" style="display:none;">
+	<ul>
+					<li><a  id="space-pages-link-browse"  href="/pages/listpages.action?key=BEEKEEPER" >Pages</a></li>
+					<li><a  id="space-blogposts-link-browse"  href="/pages/viewrecentblogposts.action?key=BEEKEEPER" >Blog</a></li>
+					<li><a  id="space-labels-link-browse"  href="/labels/listlabels-heatmap.action?key=BEEKEEPER" >Labels</a></li>
+					<li><a  id="space-attachments-link-browse"  href="/spaces/listattachmentsforspace.action?key=BEEKEEPER" >Attachments</a></li>
+					<li><a  id="space-mail-link-browse"  href="/spaces/viewmailarchive.action?key=BEEKEEPER" >Mail</a></li>
+					<li><a  id="space-advanced-link-browse"  href="/spaces/viewspacesummary.action?key=BEEKEEPER" >Advanced</a></li>
+			</ul>
+</div>
+
+
+                      </div>
+                </div>
+            </td>
+                    <td valign="top" width="100%">
+                <!-- Inner content table -->
+                <table width="100%" cellpadding="2" cellspacing="0">
+                    <tr>
+                        <td colspan="2" valign="middle" align="right" style="background-color:#F0F0F0">
+                            
+    <ul id="page-view-panel">
+        <li>    <a href="/pages/viewpage.action?spaceKey=BEEKEEPER&amp;title=The+Beekeeper&decorator=printable" rel="nofollow" title="View a printable version of the current page." class="print icon">View a printable version of the current page.</a>
+</li>
+                    <li>    
+                </li>
+                 <li>    </li>
+    </ul>
+
+                                        <ul id="user-control-panel">
+                                
+            <li class="first"><a href="/login.action?os_destination=%2Fdisplay%2FBEEKEEPER%2FThe%2BBeekeeper">Log In</a></li>
+
+                                            <li><a href="/signup.action">Sign Up</a></li>
+                                            </ul>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td id="mainViewPane">
+                            <div>
+                                <table class="fullWidthBorderless">
+                                    <td><span id="spaceFullNameLink">            <a href="/display/BEEKEEPER">BeeKeeper</a>    </span></td>
+                                    <td align="right"></td>
+                                </table>
+
+                                                                <h1 id="title-heading" class="pagetitle">
+                                                                    
+                                    <span id="title-text">
+                                                                                                <a href="/display/BEEKEEPER/The+Beekeeper">The Beekeeper</a>
+                                                                                </span>
+                                </h1>
+                            </div>
+                                                        <div id="content">
+                                <!--[if gte IE 5.5000]>
+<script language="JavaScript">
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 or higher.
+   {
+   for(var i=0; i<document.images.length; i++)
+      {
+	  var img = document.images[i]
+	  var imgName = img.src.toUpperCase()
+	  if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+	     {
+		 var imgID = (img.id) ? "id='" + img.id + "' " : ""
+		 var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+		 var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+		 var imgStyle = "display:inline-block;" + img.style.cssText
+		 if (img.align == "left") imgStyle = "float:left;" + imgStyle
+		 if (img.align == "right") imgStyle = "float:right;" + imgStyle
+		 if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+		 var strNewHTML = "<span " + imgID + imgClass + imgTitle
+		 + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+	     + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+		 + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>"
+		 img.outerHTML = strNewHTML
+		 i = i-1
+	     }
+      }
+   }
+window.attachEvent("onload", correctPNG);
+</script>
+<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+    
+    
+<div class="smalltext">
+                Added by <a href="/display/~bcottrell"
+                          class="url fn"
+                   >IT User</a>, last edited by <a href="/display/~jdixon"
+                          class="url fn"
+                   >James Dixon</a> on Feb 25, 2009
+                      &nbsp;(<a class="noprint" href="/pages/diffpages.action?pageId=8346&originalId=11868742">view change</a>)
+              
+    
+    
+
+
+<fieldset class="hidden parameters">
+    <input type="hidden" id="editLabel" value="Edit">
+    <input type="hidden" id="addLabel" value="Add Labels">
+    <input type="hidden" id="domainName" value="http://wiki.pentaho.com/">
+    <input type="hidden" id="pageId" value="8346">
+    <input type="hidden" id="spaceKey" value="BEEKEEPER">
+</fieldset>
+
+<div id="labels-section">
+    <div class="section-header">
+        <h2 class="section-title">Labels: </h2>
+    </div>
+
+    <div class="labels-editor">
+        <span id="labelsList">
+            <div id="label-12025884" class="confluence-label">
+    <a class="label" rel="nofollow" href="/label/BEEKEEPER/philosophy">philosophy</a>    <span class="remove-label-caption">philosophy</span>
+    <a class="remove-label" href="#">Delete</a>
+</div>
+<div id="label-1310741" class="confluence-label">
+    <a class="label" rel="nofollow" href="/label/BEEKEEPER/open">open</a>    <span class="remove-label-caption">open</span>
+    <a class="remove-label" href="#">Delete</a>
+</div>
+        </span>
+
+        
+        <span class="errorMessage error" id="errorSpan"></span>
+        <form name="addLabelForm" method="" action="" id="add-labels-form">
+            <div id="labelInputSpan" class="labels-input">
+                <div id="labelOperationErrorContainer" class="hidden">
+                    <span class="error"><span class="errorMessage" id="labelOperationErrorMessage"></span></span>
+                </div>
+
+                <table width="90%">
+                    <tr>
+                        <td width="50%">
+                            Enter labels to add to this page:<br/>
+                            <input autocomplete="off" type="text" id="labelsString" name="labelsString" value="" class="monospaceInput" size="40">
+                            <input type="submit" class="add-labels" value="Add">
+                            <input type="submit" class="hide-labels-editor" value="Done">
+                            <div id="waitImageAndStatus">
+                                <img alt="Wait Image" border=0 align="absmiddle" src="/s/1911/28/_/images/icons/wait.gif">&nbsp;
+                                <span id="labelOperationStatus" class="smalltext"></span>
+                            </div>
+                            <div id="labelsAutocompleteList" class="aui-dd-parent"></div>
+                            <div class="labels-tip">Looking for a label? Just start typing.</div>
+                        </td>
+                        <td width="50%" valign="top">
+                            <div id="suggestedLabelsSpan"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+<div class="wiki-content" style="margin-right:10px;">
+   <!-- wiki content -->
+            <h2><a name="TheBeekeeper-Introduction"></a>Introduction</h2>
+
+<p>There is much media coverage and water-cooler talk about open source software and professional open source companies but these companies and their business models are so new that most people do not have direct personal experience of them and consequently many people have numerous misconceptions about how they work. In almost all cases I think people underestimate not only the potential of the professional open source business model but also how much it differs from the proprietary/commercial software business model and how much it affects the roles and functions within the organization.</p>
+
+<p>Pentaho was founded in 2004 to provide Business Intelligence (BI) under a professional open source business model. After spending the last few years immersed in professional open source I am sharing my thoughts about the workings of this business model.&nbsp;<br/>
+There are numerous business models around professional open source software (POSS). The model described here applies to those companies that operate with a model where the company is the main source code contributor. This model is used by companies such as Pentaho, MySQL, Alfresco, JBoss, Digium, Zimbra etc.</p>
+
+<p>These pages describe the Beekeeper Model that I created to help explain this variant of the Professional Open Source Software business model. They are based on the short version of The Beekeeper. Both the short and long versions can be downloaded below.</p>
+
+<p>You are welcome to comment on each page.</p>
+
+<h2><a name="TheBeekeeper-Contents"></a>Contents</h2>
+
+<p>Either watch the <a href="/display/BEEKEEPER/Beekeeper+Recording" title="Beekeeper Recording">Recorded Presentation </a> (25 minutes, requires Flash)</p>
+
+<p>or browse these pages:</p>
+<ol>
+	<li><a href="/display/BEEKEEPER/1.+Why+Professional+Open+Source+Software" title="1. Why Professional Open Source Software">Why Professional Open Source Software</a></li>
+	<li><a href="/display/BEEKEEPER/2.+The+Principles+of+Open+Source" title="2. The Principles of Open Source">The Principles of Open Source</a></li>
+	<li><a href="/display/BEEKEEPER/3.+The+Beekeeper+Model" title="3. The Beekeeper Model">The Beekeeper Model</a></li>
+	<li><a href="/display/BEEKEEPER/4.+The+General+Model" title="4. The General Model">The General Model</a></li>
+	<li><a href="/display/BEEKEEPER/5.+The+Proprietary+Model" title="5. The Proprietary Model">The Proprietary Model</a></li>
+	<li><a href="/display/BEEKEEPER/6.+The+Open+Source+Model" title="6. The Open Source Model">The Open Source Model</a></li>
+	<li><a href="/display/BEEKEEPER/7.+The+Professional+Open+Source+Model" title="7. The Professional Open Source Model">The Professional Open Source Model</a></li>
+	<li><a href="/display/BEEKEEPER/8.+Summary" title="8. Summary">Summary</a></li>
+</ol>
+
+
+<h2><a name="TheBeekeeper-MoreInformation"></a>More Information</h2>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'> Name </th>
+<th class='confluenceTh'> Link </th>
+</tr>
+<tr>
+<td class='confluenceTd'> The Beekeeper Part 1 (500k, 12 pages) </td>
+<td class='confluenceTd'> <a href="/download/attachments/8346/The+Beekeeper+%28short%29-V1.3.pdf?version=1&amp;modificationDate=1235576605000">Download PDF</a> <br class="atl-forced-newline" /> </td>
+</tr>
+<tr>
+<td class='confluenceTd'> The Beekeeper Part 2 (1.5mb 44 pages) </td>
+<td class='confluenceTd'> <a href="/download/attachments/8346/The+Beekeeper+%28long%29-V1.3.pdf?version=1&amp;modificationDate=1235576863000">Download PDF</a> </td>
+</tr>
+<tr>
+<td class='confluenceTd'> Recorded Presentation (25 minutes, requires Flash) </td>
+<td class='confluenceTd'> <a href="/display/BEEKEEPER/Beekeeper+Recording" title="Beekeeper Recording">Watch It</a><br class="atl-forced-newline" /> </td>
+</tr>
+<tr>
+<td class='confluenceTd'> Forum </td>
+<td class='confluenceTd'> Not yet available <br class="atl-forced-newline" /> </td>
+</tr>
+</tbody></table>
+</div>
+
+
+<h2><a name="TheBeekeeper-License"></a>License</h2>
+
+<p>This information is published under the <a href="http://artlibre.org/licence/lal/en/" class="external-link" rel="nofollow">Free Art License</a></p>
+</div>
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+         <rdf:Description
+    rdf:about="http://wiki.pentaho.com//display/BEEKEEPER/The+Beekeeper"
+    dc:identifier="http://wiki.pentaho.com//display/BEEKEEPER/The+Beekeeper"
+    dc:title="The Beekeeper"
+    trackback:ping="http://wiki.pentaho.com//rpc/trackback/8346"/>
+</rdf:RDF>
+-->
+            <div id="children-section" class="pageSection">
+        
+        <div class="section-header ">
+            <h2 id="children-section-title" class="section-title">
+                <a name="children">Child Pages (9)    </a>
+            </h2>
+            <span class="noprint">
+                &nbsp;
+                                    <a id="hide-children-link" class="grey" href="/display/BEEKEEPER/The+Beekeeper?showChildren=false&#0035;children">Hide Child Pages</a>
+                
+                &nbsp;|&nbsp; <a class="grey" href="/pages/listpages-dirview.action?key=BEEKEEPER&amp;openId=8346#selectedPageInHierarchy">Reorder Pages</a>
+                            </span>
+        </div>
+                    <div id="page-children" class="pageSectionBody">
+                                                     <span class="icon icon-page">Page:</span>
+                         <a href="/display/BEEKEEPER/1.+Why+Professional+Open+Source+Software">1. Why Professional Open Source Software</a>
+                             <br>
+                                                     <span class="icon icon-page">Page:</span>
+                         <a href="/display/BEEKEEPER/2.+The+Principles+of+Open+Source">2. The Principles of Open Source</a>
+                             <br>
+                                                     <span class="icon icon-page">Page:</span>
+                         <a href="/display/BEEKEEPER/3.+The+Beekeeper+Model">3. The Beekeeper Model</a>
+                             <br>
+                                                     <span class="icon icon-page">Page:</span>
+                         <a href="/display/BEEKEEPER/4.+The+General+Model">4. The General Model</a>
+                             <br>
+                                                     <span class="icon icon-page">Page:</span>
+                         <a href="/display/BEEKEEPER/5.+The+Proprietary+Model">5. The Proprietary Model</a>
+                             <br>
+                                                     <span class="icon icon-page">Page:</span>
+                         <a href="/display/BEEKEEPER/6.+The+Open+Source+Model">6. The Open Source Model</a>
+                             <br>
+                                                     <span class="icon icon-page">Page:</span>
+                         <a href="/display/BEEKEEPER/7.+The+Professional+Open+Source+Model">7. The Professional Open Source Model</a>
+                             <br>
+                                                     <span class="icon icon-page">Page:</span>
+                         <a href="/display/BEEKEEPER/8.+Summary">8. Summary</a>
+                             <br>
+                                                     <span class="icon icon-page">Page:</span>
+                         <a href="/display/BEEKEEPER/Beekeeper+Recording">Beekeeper Recording</a>
+                             <br>
+                            </div>
+                </div>
+            
+
+
+
+
+        
+
+<div class="wiki-content" style="margin-right:10px;">
+    <p style="clear: both"/><!-- comments should always display underneath the content. we should have a 'clear:both' here just in case there are floats or aligned images in the content -->
+
+    
+    
+    
+    
+                                    </div>
+
+
+
+
+
+    
+
+
+
+
+        
+        
+
+    
+    
+    
+
+
+<fieldset class="hidden parameters">
+        <input type="hidden" id="i18n.manage.watchers.dialog.title" value="Manage Watchers">
+        <input type="hidden" id="i18n.manage.watchers.unable.to.remove.error" value="Failed to remove watcher. Refresh page to see latest status.">
+        <input type="hidden" id="i18n.manage.watchers.status.adding.watcher" value="Adding watcher&amp;hellip;">
+</fieldset>
+<script type="text/x-template" title="manage-watchers-dialog">
+<div class="dialog-content">
+    <div class="column page-watchers">
+        <h3>Watching this page</h3>
+        <p class="description">These people are notified when the page is changed. You can add or remove people from this list.</p>
+        <form action="/json/addwatch.action" method="POST">
+                <input type="hidden" name="atl_token" value="M-Pz9yxAYL">
+            <input type="hidden" name="pageId" value="8346"/>
+            <input type="hidden" id="add-watcher-username" name="username" value=""/>
+            <label for="add-watcher-user">User</label>
+            <input id="add-watcher-user" name="userFullName" type="search" class="has-placeholder autocomplete-user"
+               value="" placeholder="Full name or username" autocomplete="off"
+               data-max="10" data-target="#add-watcher-username" data-dropdown-target="#add-watcher-dropdown"
+               data-template="{title}" data-none-message="No matching users found.">
+            <input id="add-watcher-submit" type="submit" name="add" value="Add">
+            <div id="add-watcher-dropdown" class="aui-dd-parent autocomplete"></div>
+            <div class="status hidden"></div>
+        </form>
+        <ul class="user-list">
+            <li class="loading">Loading&hellip;</li>
+            <li class="no-users hidden">No page watchers</li>
+        </ul>
+    </div>
+    <div class="column space-watchers">
+        <h3>Watching this space</h3>
+        <p class="description">These people are notified when any content in the space is changed. You cannot modify this list.</p>
+        <ul class="user-list">
+            <li class="loading">Loading&hellip;</li>
+            <li class="no-users hidden">No space watchers</li>
+        </ul>
+    </div>
+</div>
+</script>
+<script type="text/x-template" title="manage-watchers-user">
+    <li class="watch-user">
+        <img class="profile-picture confluence-userlink" src="{iconUrl}" data-username="{username}">
+        <a class="confluence-userlink" href="{url}" data-username="{username}">{fullName} <span class="username">({username})</span></a>
+        <span class="remove-watch" title="Remove"
+            data-username="{username}">Remove</span>
+    </li>
+</script>
+<script type="text/x-template" title="manage-watchers-help-link">
+    <div class="dialog-help-link">
+            <a href="http://docs.atlassian.com/confluence/docs-33/Managing+Watchers" target="_blank">Help</a>
+    </div>
+</script>
+                            </div>
+                        </td>
+                            
+    
+        
+    
+                                                </tr>
+                </table>
+                <!-- End inner content table -->
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="footer">
+                                                <p class="license license-opensource">
+                  Powered by a free <b>Atlassian Confluence Open Source Project License</b> granted to Pentaho.org. <a href="http://www.atlassian.com/c/conf/11461">Evaluate Confluence today</a>.<br>
+                </p>
+                        
+    <ul id="poweredby">
+        <li class="noprint">Powered by <a href="http://www.atlassian.com/software/confluence" class="hover-footer-link">Atlassian Confluence</a> 3.3, the <a href="http://www.atlassian.com/software/confluence/tour/enterprise-wiki.jsp" class="hover-footer-link">Enterprise Wiki</a></li>
+        <li class="print-only">Printed by Atlassian Confluence 3.3, the Enterprise Wiki.</li>        
+        <li class="noprint"> &nbsp; |&nbsp; <a href="http://jira.atlassian.com/secure/BrowseProject.jspa?id=10470" class="hover-footer-link">Report a bug</a></li>
+        <li class="noprint"> &nbsp;|&nbsp; <a href="http://www.atlassian.com/about/connected.jsp?s_kwcid=Confluence-stayintouch" class="hover-footer-link">Atlassian News</a></li>
+    </ul>
+
+    
+
+    </div>    <!-- include system javascript resources -->
+                        
+    
+    
+    <!-- end system javascript resources -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ?
+"https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1507503-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
