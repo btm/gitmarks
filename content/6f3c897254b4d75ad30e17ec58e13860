@@ -1,0 +1,649 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+
+
+ 
+
+
+<!----><title>Interview: Widemile CEO - Robert Bergquist - Web Analytics World Blog</title><meta name="description" content="Interview: Widemile CEO - Robert Bergquist - Web Analytics World Blog" />
+<meta name="original-source" content="http://www.webanalyticsworld.net/2007/11/interview-widemile-ceo-robert-bergquist.html">
+
+
+<!---->
+
+<meta name="verify-v1" content="hQJJdxTFWXcQ3OxlvnAu7RRT8/Ym0wHtQ8ptlB3X+A8=" />
+<meta name="msvalidate.01" content="B49F10711EA1437D85EDE757AB7D805A" />
+<META name="y_key" content="58630eb3ea2a99d7" /> 
+<meta name="verify-postrank" content="7looj40" />
+<meta name="verify-postrank" content="a92d9rk" />
+
+<link rel="shortcut icon" type="image/x-icon" href="http://www.jasrainc.com/favicon.ico">
+<link rel="alternate" type="application/atom+xml" title="Web Analytics World - Atom" href="http://feedproxy.google.com/WebAnalyticsWorld" />
+<link rel="alternate" type="application/rss+xml" title="Web Analytics World - RSS" href="http://feedproxy.google.com/WebAnalyticsWorld" />
+<link rel="service.post" type="application/atom+xml" title="Web Analytics World  - Atom" href="http://www.blogger.com/feeds/10729808/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www2.blogger.com/rsd.g?blogID=10729808" />
+<link href="http://www.jasrainc.com/waw.css" type="text/css" rel="stylesheet">
+
+<style>
+
+hr{border: thin dashed #E0E0E0;}
+#header-mj{cursor:hand;cursor:pointer;padding:0;margin:0;position:relative;height:95px;background-position:center center;background-repeat:no-repeat}
+#navbar-iframe {
+   height: 0px;
+   visibility: hidden;
+   display: none;
+}
+.blogger-labels
+{
+   height: 0px;
+   visibility: hidden;
+   display: none;
+}
+</style>
+
+<!-- --><style type="text/css">@import url(http://www.blogger.com/static/v1/v-css/navbar/697174003-classic.css);
+div.b-mobile {display:none;}
+</style>
+
+</head>
+
+<body><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener("load",
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<iframe src="http://www.blogger.com/navbar.g?targetBlogID=10729808&amp;blogName=Web+Analytics+World+Blog&amp;publishMode=PUBLISH_MODE_HOSTED&amp;navbarType=BLUE&amp;layoutType=CLASSIC&amp;searchRoot=http%3A%2F%2Fwww.webanalyticsworld.net%2Fsearch&amp;blogLocale=en_US&amp;homepageUrl=http%3A%2F%2Fwww.webanalyticsworld.net%2F" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="30px" width="100%" id="navbar-iframe" allowtransparency="true" title="Blogger Navigation and Search"></iframe>
+<div></div>
+<!-- BuySellAds.com Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<!-- END BuySellAds.com Ad Code -->
+
+
+<div id="page">
+
+
+	<table width=100% height=88 border=0 cellpadding=0 cellspacing=0>
+		<tr><td style="padding-left:20px" width=75% valign=top align=left>
+<a href="http://www.webanalyticsworld.net" title="Manoj Jasra | Web Analytics World - Online Marketing, Web Analytics and Technology Insight.">
+<img border=0 src="http://www.jasrainc.com/images/wawnewblue.jpg"></a>
+</td>
+
+<td valign=middle colspan=2 align=right style="padding-right:10px">
+
+<table border="0" cellpadding="10" cellspacing=0 style="border-collapse: collapse" id="table1" bgcolor="#EDEDED">
+<tr><td colspan=5 align=center valign=middle height=30>Subscribe to Web Analytics World</td></tr>	
+<tr>
+<td nowrap=true width=70 align="center" valign="top"><a href=http://feedproxy.google.com/WebAnalyticsWorld><img alt="Subcribe" src="http://www.jasrainc.com/images/icon_rss.jpg"  border=0></a>&nbsp;
+<td nowrap=true width=70 align="center" valign="top"><a href=http://www.facebook.com/group.php?gid=4987100546><IMG alt="Join our Facebook Group" src="http://www.jasrainc.com/images/icon_facebook.jpg" border=0></a>&nbsp;
+<td nowrap=true width=70 align="center" valign="top"><a href=http://www.google.com/profiles/WebAnalyticsWorld0><IMG alt="Follow us on Twitter" src="http://www.jasrainc.com/images/googlebuzz.png" border=0></a>
+<td nowrap=true width=70 align="center" valign="top"><a href=http://twitter.com/waworld><IMG alt="Follow our Buzz" src="http://www.jasrainc.com/images/icon_twitter.jpg" border=0></a>
+<td nowrap=true width=70 align="center" valign="top"><a href=http://feedburner.google.com/fb/a/mailverify?uri=WebAnalyticsWorld&loc=en_US><IMG alt="Subscribe by Email" src="http://www.jasrainc.com/images/icon_email.jpg" border=0></a></td>
+
+</tr>
+<tr><td align="center" colspan=2><script type="text/javascript" language="JavaScript" src="http://twittercounter.com/embed/waworld/000000/3399FF"></script></td>
+<td align="center">&nbsp;</td>
+<td align="center" colspan=2><a href="http://feedproxy.google.com/WebAnalyticsWorld"><img src="http://feeds.feedburner.com/~fc/WebAnalyticsWorld?bg=0099FF&amp;fg=000000&amp;anim=0&amp;label=Readers" height="26" width="88" style="border:0" alt="" /></a>
+</td></tr>
+</table>
+			</td>
+</tr>
+	<tr><td colspan=4 height=15 align=center></tr>
+
+		<tr><td colspan=4 align=center>
+
+<table cellpadding=0 cellspacing=0 border=0 width=97%>
+<tr>
+<td background=http://jasrainc.com/images/nav_end_left.jpg width=2>
+</td>
+<td height=50 background=http://jasrainc.com/images/nav_bg.jpg width=80 align=center style="border-right: solid 1px #000000;">
+<a class=nav href="http://www.webanalyticsworld.net/2007/05/about-manoj-jasra.html">About</a>
+</td>
+<td height=50 background=http://jasrainc.com/images/nav_bg.jpg width=80 align=center style="border-right: solid 1px #000000;">
+<a class=nav href="http://www.webanalyticsworld.net/2007/11/advertise-at-web-analytics-world.html">Advertise</a>
+</td>
+<td height=50 background=http://jasrainc.com/images/nav_bg.jpg width=140 nowrap align=center style="border-right: solid 1px #000000;">
+<a class=nav href="http://www.webanalyticsworld.net/2008/01/product-service-reviews.html">Product Reviews</a>
+</td>
+<td height=50 background=http://jasrainc.com/images/nav_bg.jpg width=80 align=center style="border-right: solid 1px #000000;">
+<a class=nav href="http://www.webanalyticsworld.net/2009/01/get-social-with-web-analytics-world.html">Contact</a>
+</td>
+<td height=50 background=http://jasrainc.com/images/nav_bg.jpg width=140 nowrap align=center style="border-right: solid 1px #000000;">
+<a class=nav href="http://www.webanalyticsworld.net/search/label/Vendor%20Spotlight">Vendor Spotlight</a>
+</td>
+<td align=right background=http://jasrainc.com/images/nav_bg.jpg width=230 align=center valign=middle style="padding-right:20px;">
+<form action="http://blogsearch.google.com/blogsearch" method="get">
+<input type=hidden name="bl_url" value="http://www.webanalyticsworld.net">
+<input id="search" name="as_q" size="25" type="text" class="searchbox">
+<input value="Search" name="submit" type="hidden"></form>
+
+</td>
+<td background=http://jasrainc.com/images/nav_end_right.jpg width=2>
+</td>
+</tr>
+</table>
+</td>
+		</tr>
+				</table>
+
+<div class="content">
+	
+	<div id="primary">
+
+
+
+
+<div id="rollingarchives">
+	<div id="rollnavigation" class="center">
+		&laquo; <a href="http://www.webanalyticsworld.net/">Home</a><span> | <a href="http://www.webanalyticsworld.net/2007/11/walmart-most-visited-website.html">Walmart Most Visited Website - Thanksgiving Day 20...</a> &raquo;</span><span style="display:none"> | <a href="http://www.webanalyticsworld.net/2007/11/review-wapt.html">Review: WAPT</a> &raquo;</span><span style="display:none"> | <a href="http://www.webanalyticsworld.net/2007/11/facebook-and-skype-integrate.html">Facebook and Skype Integrate</a> &raquo;</span><span style="display:none"> | <a href="http://www.webanalyticsworld.net/2007/11/statcounter-version-4-beta.html">StatCounter Version 4 Beta</a> &raquo;</span><span style="display:none"> | <a href="http://www.webanalyticsworld.net/2007/11/us-thanksgiving-affect.html">The US Thanksgiving Affect</a> &raquo;</span><span style="display:none"> | <a href="http://www.webanalyticsworld.net/2007/11/having-duplicate-content-panic-attacks.html">Having Duplicate Content Panic Attacks?</a> &raquo;</span><span style="display:none"> | <a href="http://www.webanalyticsworld.net/2007/11/how-addicted-to-blogging-are-you.html">How Addicted To Blogging Are You?</a> &raquo;</span><span style="display:none"> | <a href="http://www.webanalyticsworld.net/2007/11/black-friday-traffic-up-145-percent.html">Black Friday Traffic Up 145 Percent - Hitwise</a> &raquo;</span><span style="display:none"> | <a href="http://www.webanalyticsworld.net/2007/11/blogcritics-radio-channel-launched.html">BlogCritics Radio Channel Launched</a> &raquo;</span><span style="display:none"> | <a href="http://www.webanalyticsworld.net/2007/11/internet-marketing-jobs-resources.html">Internet Marketing Career Resources</a> &raquo;</span><span style="display:none"> </span>
+
+	</div><BR>
+</div>
+
+
+	 
+<div id="primarycontent">
+<!--Header Ad-->
+
+<!---->
+		
+			<div id="post-1951395523956803429" class="item entry">
+
+				<div class="itemhead">
+					<h3><a href="http://www.webanalyticsworld.net/2007/11/interview-widemile-ceo-robert-bergquist.html" rel="bookmark" title='Permanent Link to "Interview: Widemile CEO - Robert Bergquist"'>Interview: Widemile CEO - Robert Bergquist</a></h3>
+				<table border=0 cellpadding=0 cellspacing=0 width=100% height=10><tr valign=middle><td>	
+					
+
+					<small><font color=808080><B>Manoj Jasra</b>
+					- Tuesday, November 27, 2007</font><!--<span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=10729808&postID=1951395523956803429" title="Email Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_email.gif" height="13" width="18"/></a></span><span class="item-control blog-admin pid-143664963"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=10729808&postID=1951395523956803429" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>-->
+
+<a href="http://www.webanalyticsworld.net/2007/11/interview-widemile-ceo-robert-bergquist.html#comments" class="commentslink" title="Comment on Interview: Widemile CEO - Robert Bergquist">0 <span>Comments</span></a></small>
+</td><td align=right style="padding-top:5px;" valign=middle>
+<!--<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.webanalyticsworld.net/2007/11/interview-widemile-ceo-robert-bergquist.html" data-count="horizontal" data-text="Interview: Widemile CEO - Robert Bergquist" data-via="waworld" data-related="manojjasra">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>-->
+<script type="text/javascript">tweetmeme_service = 'bit.ly'; tweetmeme_url = 'http://www.webanalyticsworld.net/2007/11/interview-widemile-ceo-robert-bergquist.html';  tweetmeme_style = 'compact'; tweetmeme_source = 'WaWorld';</script><script type="text/javascript" src="http://tweetmeme.com/i/scripts/button.js"></script>
+<!--<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://www.webanalyticsworld.net/2007/11/interview-widemile-ceo-robert-bergquist.html" layout="button_count" show_faces="false"></fb:like>-->
+ 
+		 	
+</td></tr></table></div>
+	
+				<div class="itemtext"><BR><BR><script type="text/javascript" src="http://w.sharethis.com/button/sharethis.js#publisher=12a3e0a6-89ba-45b1-9445-5aed43ec56dc&amp;type=website&amp;send_services=email%2Csms&amp;post_services=linkedin%2Creddit%2Cdigg%2Cfriendfeed%2Csphinn%2Ctwitter%2Cdelicious%2Cybuzz&amp;headerTitle=Share%20Web%20Analytics%20World%20Post"></script><BR>
+<p>
+
+<div style="clear:both;"></div><p align="left"><img src="http://www.widemile.com/images/widemile_logo.gif" align="right" vspace="5" />A little while back I got the chance to speak with Robert Bergquist, CEO of widemile (specializing in multivariate testing and optimization - based in Seattle). <strong><a href="http://www.widemile.com/">Widemile</a></strong> is recognized as one of the leaders in multivariate testing consultation and analysis therefore it was very interesting to get Robert's insight on the company's background and latest case studies.</p><p align="left"><br /><strong>Who are you and what is your background?<br /></strong><br />I love helping companies with great innovations find success in the marketplace. I’ve tried to make a difference in this regard in several roles, not just as CEO, over the years. (See my bio below for the boring details.) The consistent thread has been spotting great ideas and talent - doing my best to help both succeed. With my background helping companies in media, broadcasting, software and advertising, the Widemile value proposition (higher returns from online ad spend!) was a natural fit. I started as an investor and advisor to the company. Eventually, I was asked to join full time and take the reins. I haven’t looked back since, nor had as much fun. I’m not sure how it fits within this narrative, but other “real life” jobs I’ve held in the distant past are tire builder and commercial Alaska salmon fisherman.<br /></p><blockquote><p align="left">In his 25-year career running and counseling companies, Robert has served as CEO and President, as well as in other roles, to a variety online marketing and advertising, broadcasting and other technology-driven businesses. Prior to his current position, Robert ran an online collaboration applications provider which was acquired by Hewlett-Packard. He has held positions with Bankers Trust Company (now Deutsche Bank) and worked as a corporate attorney and partner advising companies on finance issues and corporate transactions. He has also provided consulting services to businesses, including Microsoft and venture funds. Robert is active in the Seattle technology community, including serving on Washington Technology Alliance committees and as past Chair and President of the MIT Enterprise Forum of the Northwest. He holds a B.A. from Colorado College and the London School of Economics and a J.D. from Northwestern University School of Law. Robert serves on the Seattle Aquarium Society Board of Directors and is an advisor to Red Feather Development.</p></blockquote><p align="left"><br /><strong>What is Widemile all about (i.e.: services, offerings)?<br /></strong><br />Widemile helps companies achieve dramatically better results from their online advertising – meaning higher customer conversion rates and more revenue. We have helped many companies, including The Weather Channel Interactive (<a href="http://www.weather.com/">http://www.weather.com/</a>), Concur (<a href="http://www.concur.com/">http://www.concur.com/</a>), SmartSheet.com (<a href="http://www.smartsheet.com/">http://www.smartsheet.com/</a>), Webex (<a href="http://www.webex.com/">http://www.webex.com/</a>), Microsoft (<a href="http://www.microsoft.com/">http://www.microsoft.com/</a>), Miva (<a href="http://www.miva.com/">http://www.miva.com/</a>), and Telenav (<a href="http://www.telenav.com/">http://www.telenav.com/</a>), to name a few.We focus on delivering superior results to our clients by leveraging our own advanced multivariate testing and predictive analytics technology, along with an array of professional services, which includes full conversion marketing consulting, “conversion-focused” original creative development and MEC-certified Optimization Analyst project management. Our testing and optimization solutions can be applied to improve the performance of landing pages, microsites, sales funnels, registration pages or other key web pages with a visitor conversion goal – even if it’s just clicking through to the next page. All sources of traffic benefit, including paid and organic search, banner display ads, email, affiliate and direct. </p><p align="left"><strong>What makes Widemile unique - What's Widemile's competitive advantage?<br /></strong><br />Again, we focus on results. We do what it takes to maximize our clients’ return on ad spend by testing, tuning and optimizing their high-value web pages to maximize customer conversion rates. We have found that great testing and analytics technology is just part of the success equation. Great conversion results also require expert marketing analysis (you have to understand the traffic, for instance), outstanding original creative and copy to communicate the value proposition in an effective way, and expert test design, set-up and interpretation. A simple testing tool alone will not deliver superior results. Our competitive advantage is superior results delivered using our proven testing methodology, original creative development and technology platform.<br /><br /><strong>Can you talk a little bit about the level of knowledge surrounding A/B and Multivariate testing for SEM companies?<br /></strong><br />Most good SEM companies understand the importance of testing for superior results. However, they apply testing methodologies, such as A/B split testing, to the front-end the sales funnel to improve key word performance and optimize text ads. Some have begun to partner with web page and content testing companies like Widemile, Offermatica and Optimost in order to offer true multivariate testing of web pages as well. We almost always see an increase in the key word budget following a landing page optimization project where the traffic source is paid search – when returns on ad spend increase, most marketers will increase the spend.<br /><br /><strong>At Emetrics you presented a multivariate testing case study for the Weather Channel - can you give some insight on what Widemile did and the results you noticed?</strong><br /><br />Widemile worked with The Weather Channel Interactive to optimize website customer acquisition for Notify!, a core subscription product that provides consumers with highly relevant and timely severe weather information. Launched in late 2002 as The Weather Channel’s first paid subscription product , Notify! provides consumers with highly relevant and timely severe weather information. The Weather Channel wanted to capitalize on the immense interest in weather information and the traffic provided by weather.com to capture new subscribers for the Notify! service. Initially, Notify!’s access to the massive traffic from the weather.com home page was leading to new subscribers, but conversion rates could be improved further. The landing pages had to quickly and clearly convey the unique selling proposition of the Notify! to weather.com consumers – sometimes in 8 seconds or less. The Weather Channel had done some optimization testing previously, but found the linear/sequential testing approach had limitations – namely timeliness and the identification of the most relevant factors that influence consumer behavior and conversion.<br /><br />Working with Widemile, The Weather Channel was able to identify traffic sources and consumer segments to understand key user demographics and conversion behavior. Widemile devised an action plan which refined the main value proposition, developed a brand new page based upon best practices, and then designed and executed the multivariate test on new design. Six page elements (factors) were tested, with up to 4 versions of each factor presented randomly to site visitors. For example, 4 versions of the main image were tested, as well as 4 versions of the “hero shot” image on the left hand side of the page. The image of Jim Cantore, on-air talent for The Weather Channel, was tested against other images of snowy or stormy weather conditions to assess which worked better. Widemile tested the equivalent of over 1000 possible webpage combinations for The Weather Channel, including Flash® animated image versions.<br /><br />The results far exceeded its goals and also delivered some unusual findings. The goal was to improve conversions by 30% over the previous Notify! landing page - any slight increase in conversion rates equaled a big increase in revenue due to the high levels of traffic. In fact, actual results improved results by more than 225% over the original control version. And, contrary to commonly held industry wisdom, the Flash version outperformed its static counterparts by a large margin.<br /><br /><strong>Do you have any additional case studies that people can look at?<br /><br /></strong>See the Smartsheet.com case study. Webinar available at <a href="http://www.widemile.com/company/case_studies.html">http://www.widemile.com/company/case_studies.html</a><br /><br />How Smartsheet.com maximized results and leveraged SEM investments through multivariate testing<br /><br />Challenge: Smartsheet is an online provider of collaborative task management software and services. Using SEM extensively, Smartsheet.com successfully employs numerous keyword and text ad campaigns through the major search engines. Smartsheet.com, however, felt performance could improve further.<br /><br />Solution: Smartsheet partnered with Widemile to strengthen the linkage between SEM and landing pages. Using multivariate testing and other optimization techniques, Widemile helped them to increase conversions and performance of the entire campaign. The top 5 Smartsheet.com landing pages, representing more than 50% of pay-per-click (PPC) traffic, were targeted for optimization. Widemile employed its proprietary multivariate testing technology and predictive analytics, original creative development and professional services to accelerate this process for optimal results. Widemile tested the equivalent of over 1000 possible page combinations during the 3-week optimization process.<br /><br />ROI: The best-performing templates improved conversion rates by an average of 64% over the initial control versions. This translates into a dramatic improvement of 115% in conversion efficiency - capturing over twice the number of conversions for the same level of overall SEM investment!</p><div style="clear:both; padding-bottom:0.25em"></div><p class="blogger-labels">Labels: <a rel='tag' href="http://www.webanalyticsworld.net/search/label/Interviews">Interviews</a>, <a rel='tag' href="http://www.webanalyticsworld.net/search/label/multivariate%20testing">multivariate testing</a>, <a rel='tag' href="http://www.webanalyticsworld.net/search/label/Web%20Analytics">Web Analytics</a></p></p>
+
+
+<div id="relatedlinks_container_div" align=left></div>
+<script language=javascript defer>
+  var escFun = window.encodeURIComponent ? window.encodeURIComponent : escape;
+  var relatedlinks_js = document.createElement("script");
+  relatedlinks_js.setAttribute("charset", "utf-8");
+  relatedlinks_js.src = "http://relatedlinks.googlelabs.com/client/client.js?url=" +
+      escFun(document.URL) + "&referrer=" + escFun(document.referrer) +
+      "&relatedlinks_id=10267_3663241561448541958&title=" + escFun(document.title);
+  document.getElementsByTagName("head")[0].appendChild(relatedlinks_js);
+</script>
+<BR>
+
+
+<div align=left><BR><a href="http://twitter.com/home?status=Reading http://www.webanalyticsworld.net/2007/11/interview-widemile-ceo-robert-bergquist.html Interview: Widemile CEO - Robert Bergquist @waworld"><img alt="Tweet This" src=http://www.jasrainc.com/images/icon_twitter.jpg border=0 style="vertical-align:middle;border:0;padding:2px;margin:0px;"></a>&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/share.php?u=http://www.webanalyticsworld.net/2007/11/interview-widemile-ceo-robert-bergquist.html"><img alt="Share on Facebook" src=http://www.jasrainc.com/images/icon_facebook.jpg border=0 style="vertical-align:middle;border:0;padding:2px;margin:0px;"></a>&nbsp;&nbsp;&nbsp;<a href="http://www.google.com/reader/link?url=http://www.webanalyticsworld.net/2007/11/interview-widemile-ceo-robert-bergquist.html&title=Interview: Widemile CEO - Robert Bergquist&srcTitle=WebAnalyticsWorld&srcUrl=http://www.webanalyticsworld.net"><img alt="Buzz this Story" style="vertical-align:middle;border:0;padding:2px;margin:0px;" src=http://www.jasrainc.com/images/googlebuzz.png></a>&nbsp;&nbsp;&nbsp;<a href=http://www.stumbleupon.com/submit?url=http://www.webanalyticsworld.net/2007/11/interview-widemile-ceo-robert-bergquist.html&title=Interview: Widemile CEO - Robert Bergquist><img alt="Share on StumbleUpon" style="vertical-align:middle;border:0;padding:2px;margin:0px;" src=http://www.jasrainc.com/images/icon_stumbleupon.jpg></a>&nbsp;&nbsp;&nbsp;<a href=http://feedproxy.google.com/WebAnalyticsWorld><img alt="Subscribe" style="vertical-align:middle;border:0;padding:2px;margin:0px;" src=http://www.jasrainc.com/images/icon_rss.jpg></a>&nbsp;<a href=http://feedburner.google.com/fb/a/mailverify?uri=WebAnalyticsWorld&amp;loc=en_US>Subscribe by Email</a></div>
+
+<BR><BR>
+<!-- BuySellAds.com Zone Code -->
+<div id="bsap_1236641" class="bsarocks bsap_cefa13c6e33471707b332544f6225f07"></div>
+<!-- END BuySellAds.com Zone Code -->
+
+
+
+
+
+
+
+
+	
+									</div>
+
+			</div>
+
+<div class="comments">
+
+
+	<h4><span id="comments">0</span> Responses to &#8220;Interview: Widemile CEO - Robert Bergquist&#8221;  </h4>
+
+	<ol id="commentlist">
+
+   
+
+   
+		</ol>
+		
+   <a class="comment-link" href="https://www.blogger.com/comment.g?blogID=10729808&postID=1951395523956803429">Post a Comment</a>
+
+		
+		
+		
+		
+
+    
+	
+	</div>
+
+
+	<!---->	
+<BR>
+
+<!-- Footer Ad -->
+   </div>
+
+	</div>
+	
+	</div>
+
+	<br />
+	
+
+<div class=" secondary">
+ 		      <!-- Begin #profile-container -->
+   
+    <div align="left" class="sb-latest" style="padding-left:10px">
+<h2>Get us on the iPhone</h2>
+<a href=http://itunes.apple.com/hk/app/web-analytics-world/id349283886?mt=8><img border=0 src=http://www.jasrainc.com/images/appstore.png></a><BR>
+<BR><BR><h2>Sponsors</h2>
+<div align=center>
+
+<!-- BuySellAds.com Zone Code -->
+<div id="bsap_1242102" class="bsarocks bsap_cefa13c6e33471707b332544f6225f07"></div>
+<!-- END BuySellAds.com Zone Code -->
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<li class="module-list-item">
+
+<!-- Include the Google Friend Connect javascript library. -->
+<script type="text/javascript" src="http://www.google.com/friendconnect/script/friendconnect.js"></script>
+<!-- Define the div tag where the gadget will be inserted. -->
+<div id="div-1318667548264557883" style="width:276px;border:1px solid #999999;"></div>
+<!-- Render the gadget into a div. -->
+<script type="text/javascript">
+var skin = {};
+skin['FONT_FAMILY'] = 'trebuchet ms,sans-serif';
+skin['BORDER_COLOR'] = '#999999';
+skin['ENDCAP_BG_COLOR'] = '#333333';
+skin['ENDCAP_TEXT_COLOR'] = '#ffffff';
+skin['ENDCAP_LINK_COLOR'] = '#ffffff';
+skin['ALTERNATE_BG_COLOR'] = '#ffffff';
+skin['CONTENT_BG_COLOR'] = '#ffffff';
+skin['CONTENT_LINK_COLOR'] = '#0000cc';
+skin['CONTENT_TEXT_COLOR'] = '#333333';
+skin['CONTENT_SECONDARY_LINK_COLOR'] = '#7777cc';
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = '#666666';
+skin['CONTENT_HEADLINE_COLOR'] = '#666666';
+skin['NUMBER_ROWS'] = '5';
+google.friendconnect.container.setParentUrl('/' /* location of rpc_relay.html and canvas.html */);
+google.friendconnect.container.renderMembersGadget(
+ { id: 'div-1318667548264557883',
+   site: '17754826635395717768' },
+  skin);
+</script>
+
+</li>
+</ul>
+   </div>
+
+     <!-- End #profile -->
+
+<div class="sb-latest" style="padding-left:10px"><h2>Get Social with Us</h2>
+<ul>
+<li class="module-list-item"><a href="http://www.twitter.com/waworld">Twitter</a></li>
+<li class="module-list-item"><a href="http://www.linkedin.com/in/manojjasra">LinkedIn</a></li>
+<li class="module-list-item"><a href="http://www.youtube.com/mjasra">YouTube</a></li>
+<li class="module-list-item"><a href="http://www.facebook.com/group.php?gid=4987100546">Facebook</a></li>
+<li class="module-list-item"><a href="http://del.icio.us/mjasra23">Delicious</a></li>
+<li class="module-list-item"><a href="http://friendfeed.com/mjasra">Friend Feed</a></li>
+<li class="module-list-item"><a href="http://bx.businessweek.com/profile/manoj-jasra/mjasra700/">Business Exchange</a></li>
+
+</ul>
+</div>
+
+<div class="sb-latest" style="padding-left:10px"><h2>Manoj's Ultimate Resources</h2>
+<ul>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2009/02/ultimate-guide-to-twitter-marketing.html">Twitter Marketing & Tips</a></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/search/label/Mobile%20Analytics">Mobile Analytics</a></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2009/01/ultimate-google-analytics-filters-guide.html">Google Analytics Filters</a><font color=red></font></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2007/10/ultimate-local-search-optimization.html">Local Search Optimization</a></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2007/10/ultimate-video-optimization-resources.html">Video Optimization</a></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2007/03/ultimate-web-analytics-comparison.html">Web Analytics Comparison</a></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2007/09/optimizing-images-for-search-engines.html">Image Search Optimization</a></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2007/07/ultimate-guide-to-digg-apps.html">Guide to Digg Apps</a></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2007/04/ultimate-seo-tips-guide.html">SEO Tips Guide</a></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2007/12/ultimate-mobile-marketing-resources.html">Mobile Marketing</a></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2008/03/ultimate-google-analytics-resources.html">Google Analytics</a></li>
+<li class="module-list-item"><a href="http://www.webanalyticsworld.net/2007/07/guide-to-googles-universal-search.html">Universal Search</a></li>
+
+</ul>
+</div>
+
+	<div class="sb-latest"  style="padding-left:10px;"></div>
+
+	<div class="sb-latest" style="padding-left:10px"><h2>Latest Posts</h2>
+
+	<ul>
+         
+         <li><a href="http://www.webanalyticsworld.net/2007/11/walmart-most-visited-website.html" title="Walmart Most Visited Website - Thanksgiving Day 20...">Walmart Most Visited Website - Thanksgiving Day 20...</a></li>
+
+         
+         <li><a href="http://www.webanalyticsworld.net/2007/11/review-wapt.html" title="Review: WAPT">Review: WAPT</a></li>
+
+         
+         <li><a href="http://www.webanalyticsworld.net/2007/11/facebook-and-skype-integrate.html" title="Facebook and Skype Integrate">Facebook and Skype Integrate</a></li>
+
+         
+         <li><a href="http://www.webanalyticsworld.net/2007/11/statcounter-version-4-beta.html" title="StatCounter Version 4 Beta">StatCounter Version 4 Beta</a></li>
+
+         
+         <li><a href="http://www.webanalyticsworld.net/2007/11/us-thanksgiving-affect.html" title="The US Thanksgiving Affect">The US Thanksgiving Affect</a></li>
+
+         
+         <li><a href="http://www.webanalyticsworld.net/2007/11/having-duplicate-content-panic-attacks.html" title="Having Duplicate Content Panic Attacks?">Having Duplicate Content Panic Attacks?</a></li>
+
+         
+         <li><a href="http://www.webanalyticsworld.net/2007/11/how-addicted-to-blogging-are-you.html" title="How Addicted To Blogging Are You?">How Addicted To Blogging Are You?</a></li>
+
+         
+         <li><a href="http://www.webanalyticsworld.net/2007/11/black-friday-traffic-up-145-percent.html" title="Black Friday Traffic Up 145 Percent - Hitwise">Black Friday Traffic Up 145 Percent - Hitwise</a></li>
+
+         
+         <li><a href="http://www.webanalyticsworld.net/2007/11/blogcritics-radio-channel-launched.html" title="BlogCritics Radio Channel Launched">BlogCritics Radio Channel Launched</a></li>
+
+         
+         <li><a href="http://www.webanalyticsworld.net/2007/11/internet-marketing-jobs-resources.html" title="Internet Marketing Career Resources">Internet Marketing Career Resources</a></li>
+
+         
+         
+	</ul>
+	</div>
+	
+
+
+	<div class="sb-latest" style="padding-left:10px">
+
+
+	</div>
+
+
+    <div class="sb-latest" style="padding-left:10px"><h2>Blog Roll</h2>
+
+	<ul>
+
+
+<!--#################################   PLACE YOUR LINKS HERE  ############################################-->
+
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.kaushik.net/avinash">Avinash Kaushik</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.yanalyticsblog.com/">Yahoo Analytics</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.webanalyticsdemystified.com/weblog">Erik T. Peterson</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://semphonic.blogs.com/semangel">Gary Angel</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.searchengineguide.com">Search Engine Guide</a></li>
+<li class="module-list-item"><a target="_blank" href="http://www.unlockediphone.info">Unlock iPhone 3g</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.epikone.com/blog/">Justin Cutroni</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://webanalysis.blogspot.com/">Anil Batra</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.visualrevenue.com/blog/">Dennis R. Mortensen</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.webanalysts.info/webanalytics/">Lars Johansson</a></li>
+<li class="module-list-item"><a target="_blank" href="http://www.jasraInc.com">Jasra Inc.</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.searchengineland.com">Search Engine Land</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.techcrunch.com">TechCrunch</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://wam.typepad.com">Phil Kemelor</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.rich-page.com">Rich Page</a></li>
+<li class="module-list-item"><a target="_blank" rel="nofollow" href="http://www.in-rev.com">In Rev</a></li>
+<li class="module-list-item"><a target="_blank" href="http://www.apps4rent.com/virtual-dedicated-private-server-windows-hyper-v-vds-vs-vps-hosting/virtual-dedicated-server.html">Virtual Dedicated Server</a></li>
+<li class="module-list-item"><a href=http://www.webanalyticsworld.net/2010/03/north-american-sem-industry-to-grow-14.html>SEMPO Survey 2010</a></li>
+<li class="module-list-item"><a href=http://www.joshandemma.com>Kids iPad App</a></li>
+<!--<li class="module-list-item"><a href=http://www.sherweb.com/hosted-microsoft-crm>Online CRM</li>-->
+<li class="module-list-item"></li>
+<li class="module-list-item"><img src=http://adage.com/images/random/0807/power150badge_blank.jpg></li>
+<!--########################################################################################################-->
+
+
+	</ul>
+
+	</div>
+
+
+<!--Google Code-->
+
+<div  style="padding-left:10px" align="left">
+<script type="text/javascript"><!--
+google_ad_client = "pub-4660328180281961";
+google_ad_host = "pub-1556223355139109";
+/* 300x250, created 1/11/10 */
+google_ad_slot = "2642387325";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+<div class="sb-latest" style="padding-left:10px">
+
+<BR><BR>
+<h2>Monthly Archives</h2>
+
+	<ul>
+
+              
+                <li class="module-list-item">
+<select name="ArchiveMenu" onChange="location.href=this.options[this.selectedIndex].value;"
+style="width: 130px;">
+<option value="/">- Archives -</option>
+
+<option value="http://www.webanalyticsworld.net/2006_05_01_archive.html">May 2006</option>
+
+<option value="http://www.webanalyticsworld.net/2006_06_01_archive.html">June 2006</option>
+
+<option value="http://www.webanalyticsworld.net/2006_07_01_archive.html">July 2006</option>
+
+<option value="http://www.webanalyticsworld.net/2006_08_01_archive.html">August 2006</option>
+
+<option value="http://www.webanalyticsworld.net/2006_09_01_archive.html">September 2006</option>
+
+<option value="http://www.webanalyticsworld.net/2006_10_01_archive.html">October 2006</option>
+
+<option value="http://www.webanalyticsworld.net/2006_11_01_archive.html">November 2006</option>
+
+<option value="http://www.webanalyticsworld.net/2006_12_01_archive.html">December 2006</option>
+
+<option value="http://www.webanalyticsworld.net/2007_01_01_archive.html">January 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_02_01_archive.html">February 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_03_01_archive.html">March 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_04_01_archive.html">April 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_05_01_archive.html">May 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_06_01_archive.html">June 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_07_01_archive.html">July 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_08_01_archive.html">August 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_09_01_archive.html">September 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_10_01_archive.html">October 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_11_01_archive.html">November 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2007_12_01_archive.html">December 2007</option>
+
+<option value="http://www.webanalyticsworld.net/2008_01_01_archive.html">January 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_02_01_archive.html">February 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_03_01_archive.html">March 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_04_01_archive.html">April 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_05_01_archive.html">May 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_06_01_archive.html">June 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_07_01_archive.html">July 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_08_01_archive.html">August 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_09_01_archive.html">September 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_10_01_archive.html">October 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_11_01_archive.html">November 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2008_12_01_archive.html">December 2008</option>
+
+<option value="http://www.webanalyticsworld.net/2009_01_01_archive.html">January 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_02_01_archive.html">February 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_03_01_archive.html">March 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_04_01_archive.html">April 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_05_01_archive.html">May 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_06_01_archive.html">June 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_07_01_archive.html">July 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_08_01_archive.html">August 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_09_01_archive.html">September 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_10_01_archive.html">October 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_11_01_archive.html">November 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2009_12_01_archive.html">December 2009</option>
+
+<option value="http://www.webanalyticsworld.net/2010_01_01_archive.html">January 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_02_01_archive.html">February 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_03_01_archive.html">March 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_04_01_archive.html">April 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_05_01_archive.html">May 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_06_01_archive.html">June 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_07_01_archive.html">July 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_08_01_archive.html">August 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_09_01_archive.html">September 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_10_01_archive.html">October 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_11_01_archive.html">November 2010</option>
+
+<option value="http://www.webanalyticsworld.net/2010_12_01_archive.html">December 2010</option>
+
+<option value="/">Current Posts</option></select>
+
+</li>
+             
+		<li class="module-list-item"></li>
+
+	</ul></div>
+
+	
+	
+</div>	
+<br class="clear" />
+</div>
+</div> <!-- Close Page -->
+
+<br />
+
+<p id="footer1"><small>
+<a href=http://www.webanalyticsworld.net title="Manoj Jasra - Web Analytics World">Web Analytics</a> is an essential component for any SEM/SMO campaign.  Help convert visitors into customers by understanding them.
+Web Analytics Blog powered by Web Analytics Canada	
+<BR>  
+<a href=http://www.webanalyticsworld.net/search/label/Google%20Analytics>Google Analytics</a>&nbsp;&nbsp;&nbsp;<a href=http://www.webanalyticsworld.net/2007/08/in-house-seo-pdf-free-download.html>In House SEO</a>&nbsp;&nbsp;&nbsp;<a href=http://www.webanalyticsworld.net/search/label/social%20media>Social Media</a>&nbsp;&nbsp;&nbsp;<a href=http://www.webanalyticsworld.net/2007/04/how-google-makes-money.html>How Google Makes Money</a>
+&nbsp;&nbsp;&nbsp;<a href=http://www.webanalyticsworld.net/2007/09/successful-facebook-groups.html>Facebook Groups</a>&nbsp;&nbsp;&nbsp;<a href=http://www.webanalyticsworld.net/2009/02/successful-facebook-ads.html>Facebook Advertising</a>
+</small>
+</p>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=1829744; 
+var sc_invisible=1; 
+var sc_partition=17; 
+var sc_security="afe157c1"; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c18.statcounter.com/counter.php?sc_project=1829744&amp;java=0&amp;security=afe157c1&amp;invisible=1" alt="web page hit counter" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-253377-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+
+<!--VISISTAT SNIPPET-->
+<SCRIPT TYPE="text/javascript">var DID=13776;</SCRIPT>
+<SCRIPT SRC="http://sniff.visistat.com/sniff.js" TYPE="text/javascript"></SCRIPT>
+<!--VISISTAT SNIPPET-->
+
+
+
+<!-- Yahoo! Web Analytics - All rights reserved -->
+<script type="text/javascript" src="http://d.yimg.com/mi/eu/ywa.js"></script>
+<script type="text/javascript">
+/*globals YWA*/
+var YWATracker = YWA.getTracker("1000916636232");
+//YWATracker.setDocumentName("");
+//YWATracker.setDocumentGroup("");
+YWATracker.submit();
+</script>
+<noscript>
+<div><img src="http://s.analytics.yahoo.com/p.pl?a=1000916636232&amp;js=no" width="1" height="1" alt="" /></div>
+</noscript>
+
+
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-feDCRmOFgwEwM"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-feDCRmOFgwEwM.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+<script src="http://cdn.wibiya.com/Toolbars/dir_0517/Toolbar_517580/Loader_517580.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.blogger.com/static/v1/common/js/755007736-csitail.js"></script>
+<script type="text/javascript">BLOG_initCsi('classic_blogspot');</script></body>
+</html>
