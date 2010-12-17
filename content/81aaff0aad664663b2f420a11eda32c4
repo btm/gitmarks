@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<title>  Moving from Blogger to WordPress: Best Practices  -  jotsheet</title>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="WordPress 2.6.2" /><!-- LEAVE FOR STATS, PLEASE -->
+<meta name="description" content="I&#8217;m pretty good at wasting your time.  By Tom Sherman." />
+
+<link rel="stylesheet" title="blog.txt" href="http://underscorebleach.net/jotsheet/wp-content/themes/blogtxt-12/style.css" type="text/css" media="all" />
+<link rel="alternate" type="application/rss+xml" title="jotsheet RSS 2.0" href="http://underscorebleach.net/jotsheet/feed" />
+<link rel="alternate" type="application/rss+xml" title="jotsheet Comments RSS 2.0" href="http://underscorebleach.net/jotsheet/comments/feed" />
+<link rel="pingback" href="http://underscorebleach.net/jotsheet/xmlrpc.php" />
+<link rel="start" href="http://underscorebleach.net/jotsheet/" title="jotsheet" />
+	<link rel='archives' title='September 2008' href='http://underscorebleach.net/jotsheet/2008/09' />
+	<link rel='archives' title='November 2007' href='http://underscorebleach.net/jotsheet/2007/11' />
+	<link rel='archives' title='September 2007' href='http://underscorebleach.net/jotsheet/2007/09' />
+	<link rel='archives' title='April 2007' href='http://underscorebleach.net/jotsheet/2007/04' />
+	<link rel='archives' title='March 2007' href='http://underscorebleach.net/jotsheet/2007/03' />
+	<link rel='archives' title='February 2007' href='http://underscorebleach.net/jotsheet/2007/02' />
+	<link rel='archives' title='October 2006' href='http://underscorebleach.net/jotsheet/2006/10' />
+	<link rel='archives' title='September 2006' href='http://underscorebleach.net/jotsheet/2006/09' />
+	<link rel='archives' title='May 2006' href='http://underscorebleach.net/jotsheet/2006/05' />
+	<link rel='archives' title='January 2006' href='http://underscorebleach.net/jotsheet/2006/01' />
+	<link rel='archives' title='August 2005' href='http://underscorebleach.net/jotsheet/2005/08' />
+	<link rel='archives' title='July 2005' href='http://underscorebleach.net/jotsheet/2005/07' />
+	<link rel='archives' title='June 2005' href='http://underscorebleach.net/jotsheet/2005/06' />
+	<link rel='archives' title='April 2005' href='http://underscorebleach.net/jotsheet/2005/04' />
+	<link rel='archives' title='March 2005' href='http://underscorebleach.net/jotsheet/2005/03' />
+	<link rel='archives' title='January 2005' href='http://underscorebleach.net/jotsheet/2005/01' />
+	<link rel='archives' title='December 2004' href='http://underscorebleach.net/jotsheet/2004/12' />
+	<link rel='archives' title='November 2004' href='http://underscorebleach.net/jotsheet/2004/11' />
+	<link rel='archives' title='October 2004' href='http://underscorebleach.net/jotsheet/2004/10' />
+	<link rel='archives' title='June 2004' href='http://underscorebleach.net/jotsheet/2004/06' />
+	<link rel='archives' title='February 2004' href='http://underscorebleach.net/jotsheet/2004/02' />
+	<link rel='archives' title='January 2004' href='http://underscorebleach.net/jotsheet/2004/01' />
+	<link rel='archives' title='November 2003' href='http://underscorebleach.net/jotsheet/2003/11' />
+
+<!-- begin wp_head() -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://underscorebleach.net/jotsheet/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://underscorebleach.net/jotsheet/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 2.6.2" />
+
+
+<link rel="stylesheet" href="http://underscorebleach.net/jotsheet/wp-content/plugins/dd-formmailer/dd-formmailer.css" type="text/css" media="screen" />
+
+<style type="text/css" media="all">
+/*<![CDATA[*/
+body { font: 80%/150% georgia, times, serif; }
+h1#title { font-family:"times new roman", times, serif; }
+p#description, h2, h3, h4, h5, h6 { font-family: arial, helvetica, sans-serif; }
+p.post-footer, input#author, input#email, input#url, textarea#comment, div.sidebar ul, div.post-entry p.paged-link { font-family: verdana, geneva, sans-serif; }
+div.post-entry p { text-align: left; }
+div#wrapper { width: 65em; }
+/*]]>*/
+</style>
+
+<!-- consolidated -->
+<link rel="stylesheet" type="text/css" href="/css/holdover/?20061004" />
+<script type="text/javascript" src="/js/wordpress/?20061004"></script>
+
+</head>
+<body>
+
+<div style="position: fixed; top: 0; left: 0; background-color: 
+lightyellow; width: 160px; font-size: 11px; font-style: italic; 
+border-right: dotted 1px #666; border-bottom: dotted 1px #666; padding: 
+3px;">psst.. this blog is <a style="color: #000; 
+text-decoration: underline;" 
+href="http://underscorebleach.net/jotsheet/2008/09/i-dont-feel-like-blogging-anymore">on 
+hiatus</a>.</div>
+
+<div id="wrapper">
+
+	<div id="container">
+
+		<div id="header">
+			<h1 id="title"><a href="http://underscorebleach.net/jotsheet/" title="jotsheet">jotsheet</a></h1>
+			<p id="description">I&#8217;m pretty good at wasting your time.  By Tom Sherman.</p>
+		</div><!-- END HEADER -->
+
+		<div id="content" class="narrowcolumn">
+
+
+			<div id="post-713" class="post">
+				<h2 class="post-title">Moving from Blogger to WordPress: Best Practices</h2>
+				<div class="post-entry">
+
+
+
+					<!-- google_ad_section_start --><p>I recently <a href="http://www.theoriginaljada.com/blog/2006/05/welcome-to-my-new-home">moved</a> a friend&#8217;s medium-size blog from Blogger to hosted WordPress (on <a href="/jotsheet/2005/08/dreamhost-promo-code">DreamHost</a>, not WordPress.com), and I thought I&#8217;d share a few tips for making the transition smooth.</p>
+<p><span id="more-713"></span></p>
+<h3>Background</h3>
+<p>If you&#8217;re interested in <em>why</em> moving your blog from Blogger to WordPress is a good idea, look no further than <a href="http://www.smallbiztrends.com/2005/11/case-study-moving-a-business-blog-from-blogger-to-wordpress.html">Anita Campbell&#8217;s write-up</a>.  Once the birth pains of the transition are over, there are no real drawbacks besides lost PageRank from your Blogger blog—<em>if</em> you published on BlogSpot and can&#8217;t transfer that Googlejuice to your new host via a real 301 redirect.</p>
+<p>Note: If you&#8217;re self-hosting your Blogger blog, check out <a href="http://justinsomnia.org/2006/10/maintain-permalinks-moving-from-blogger-to-wordpress/">Maintain permalinks moving from Blogger to WordPress</a> by Justin Watt.  If you need to convert from Blogger Beta to Wordpress, check out <a href="http://www.webbleyou.com/2006-09-14-how-to-move-from-blogger-beta-to-wordpress">this tutorial</a>.  My tutorial below does <strong>not</strong> work for Blogger Beta.</p>
+<h3>Requirements</h3>
+<p>This is what you need to play:</p>
+<ul>
+<li>A Blogger-driven weblog</li>
+<li>A fully installed version of WordPress 2.0+ (it has the nice import utility)</li>
+<li>A basic text editor - Notepad will do</li>
+<li>Some technical know-how (or an adventurous spirit), because I&#8217;m not going to hold your hand</li>
+</ul>
+<h3>What this will and will not accomplish</h3>
+<ul>
+<li>Will redirect visitors no matter what their browser situation</li>
+<li>Will redirect them to the best, most relevant page on your new WordPress blog</li>
+<li>Will not preserve PageRank from your BlogSpot blog to your new blog.  This would require a 301 Permanent Redirect and access to the server, not provided by Blogger.
+<ul>
+<li>If you publish using Blogger to a remote location using FTP/SFTP, you may be able to preserve PageRank.  However, I&#8217;m not going to cover that here.  You will need to research 301 redirection from your Blogger server to your WordPress server using 301 redirection.</li>
+</ul>
+</li>
+</ul>
+<h3>The menu</h3>
+<p>Here&#8217;s what we&#8217;ll be doing today, kids:</p>
+<ol>
+<li>Saving the Blogger template</li>
+<li>Backing up data from Blogger</li>
+<li>Import data from Blogger into WordPress</li>
+<li>Prepare the WordPress host for redirects from Blogger</li>
+<li>Modify the Blogger template to include redirects</li>
+<li>Test!</li>
+</ol>
+<p>Some of this is based on a <a href="http://www.quickonlinetips.com/archives/2006/03/import-blogger-posts-comments-to-wordpress/">tips page</a> from Quick Online tips.</p>
+<h3>Step 1: Save the Blogger template</h3>
+<p>Click the <em>Template</em> tab, highlight the text, paste it into a text editor and save it.</p>
+<h3>Step 2: Back up data from Blogger</h3>
+<p>Follow Blogger&#8217;s <a href="http://help.blogger.com/bin/answer.py?answer=130&amp;topic=12">detailed directions</a> on backing up your data.  (In essence, you change your template to post a text file of all your entries to the homepage of your site.)  It&#8217;s a little wonky; I couldn&#8217;t get the backup to work with comments, so I just backed up entries.</p>
+<h3>Step 3: Import data from Blogger into WordPress</h3>
+<p>This is the coolest step. :)  WordPress 2.0 has a straight-up slick import utility for Blogger.  Go into the WordPress admin area, select the <em>Import</em> tab, select Blogger as the type of blog you&#8217;ll be importing, and follow the directions.  Looove it.</p>
+<h3>Step 4: Prepare the WordPress host for redirects from Blogger</h3>
+<p>Credit a file in a text editor called <code>from_blogger.php</code> and put the following into it.  Wherever there is the text <code>http://www.yoursite.com/blog/</code>, replace it with the <em>root</em> location of your WordPress blog!</p>
+<ul>
+<li><a href="/jotsheet/supplementary/blogger/wordpress-redirect-handler-from-blogger.txt" target="_blank">PHP source &#8212; save as from_blogger.php and move to your server</a></li>
+</ul>
+<p>This file will take the redirect from Step 5, parse the URL that&#8217;s being passed from Blogger, and redirect the user to the corresponding imported entry on WordPress.  If it can&#8217;t find the corresponding entry, it directs to the root of the blog.</p>
+<p>Put this file somewhere on your WordPress host.  If you don&#8217;t want to modify anything else in this tutorial, put it at <code>http://www.yoursite.com/from_blogger.php</code>.</p>
+<p>I owe this section partially to <a href="http://www.owen.org/blog/204">Owen Barder</a>.  (I say &#8220;partially&#8221; because his code had formatting issues and a big typo that I spent a long time trying to debug, and therefore I&#8217;m not giving him all the credit. :)</p>
+<h3>Step 5: Modify the Blogger template to include redirects</h3>
+<p>Remember the text file with the Blogger template from Step 1?  Open it and Save As with a new filename.  We&#8217;ve got a couple of things to add.</p>
+<ol>
+<li>Immediately after the opening &lt;Blogger&gt; tag, add the following:
+<ul>
+<li><a href="/jotsheet/supplementary/blogger/blogger-redirect-template.txt" target="_blank">Add this text after &lt;Blogger&gt; in your template</a></li>
+</ul>
+<p>This will redirect to the root of your new WordPress blog if the users come to a main or archive page on your Blogger site.  If they come to the page of an individual blog entry, it will redirect them to the <code>from_blogger.php</code> script, where we&#8217;ll try to pass them along to the appropriate location in the new WordPress blog.</li>
+<li>Add the following in the &lt;head&gt;:<code>&lt;meta http-equiv="refresh" content="5;url=http://www.yoursite.com/blog/" /&gt;</code>
+<p>This will redirect folks who have javascript disabled.</li>
+<li>Add the following helpful text for the non-javascript users who won&#8217;t be immediately redirected.  This will display as a yellow box that sits above all other content in the top-left corner.
+<pre style="overflow: auto; width: 500px;"><code>&lt;div style="position: absolute; top: 30px; left: 30px; border: solid 2px #333; color: #000; background-color: yellow; padding: 5px; width: 350px; z-index: 5;"&gt;
+&lt;p&gt;&lt;strong&gt;My blog has moved!  Redirecting...&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You should be automatically redirected.  If not, visit &lt;a href="http://www.yoursite.com/blog/"&gt;http://www.yoursite.com/blog/&lt;/a&gt; and update your bookmarks.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+</li>
+<li>Fully republish your Blogger blog.</li>
+</ol>
+<h3>Test!</h3>
+<p>It&#8217;s always a good idea to test!  However, it can be tricky in this situation you&#8217;ll be immediately redirected from your old blog to your new blog as soon as your visit, getting the same treatment as your visitors.</p>
+<p>To test, first turn off javascript.</p>
+<ul>
+<li>In Firefox, go to Tools &gt; Options &gt; Content &gt; uncheck Enable Javascript.</li>
+<li>In Internet Explorer, go to Tools &gt; Internet Options &gt; Security &gt; Internet Zone &gt; Custom Level&#8230; &gt; disable &#8220;Active Scripting&#8221; (under Scripting).</li>
+</ul>
+<p>Now try the following tests:</p>
+<ol>
+<li>Go to the homepage of your old blog.  You should be redirected in 5 seconds to the homepage of your new blog.</li>
+<li>Go to the homepage of your old blog.  Go to an individual entry page.  Turn javascript on.  Reload the page.  You should be transferred to the corresponding individual entry page on your new blog.</li>
+</ol>
+<h3>Conclusion</h3>
+<p>Well, there we have it!  We backed up our template and our data first, but then we created the world&#8217;s friendliest redirects from Blogger to WordPress so users with bookmarks to old entries get shot right over to the appropriate entry on our new website.  Hooray for beer!</p>
+<p>I imagine that some of you won&#8217;t get this right on the first try, but <em>please</em> try to be self-sufficient before posting questions here.  I&#8217;ll be very hesitant to even respond.  There are lots of other resources on the Web about how to do the Blogger to WordPress migration; I just thought I&#8217;d post my experience.</p>
+<!-- google_ad_section_end -->
+
+					
+									</div><!-- END POST-ENTRY -->
+				<!-- <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+			<rdf:Description rdf:about="http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress"
+    dc:identifier="http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress"
+    dc:title="Moving from Blogger to WordPress: Best Practices"
+    trackback:ping="http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/trackback" />
+</rdf:RDF> -->
+			</div><!-- END POST -->
+
+
+
+<!-- You can start editing here. -->
+
+	<h3 id="comments">122 Responses to &#8220;Moving from Blogger to WordPress: Best Practices&#8221;</h3> 
+
+	<!-- Comment page numbers -->
+		<p class="comment-page-numbers">Pages: <a href="#" onclick="document.location.href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/comment-page-4/#comments'; return false" title="Older comments">&laquo;</a> <a href="#" onclick="document.location.href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/comment-page-1/#comments'; return false">1</a> <a href="#" onclick="document.location.href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/comment-page-2/#comments'; return false">2</a> <a href="#" onclick="document.location.href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/comment-page-3/#comments'; return false">3</a> <a href="#" onclick="document.location.href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/comment-page-4/#comments'; return false">4</a> <strong>[5]</strong></p>
+		<!-- End comment page numbers -->
+
+	<ol class="commentlist" style="list-style-type: none;">
+
+	
+		<li class="alt" id="comment-319050">
+			<div class="comment-number">121</div>
+			<cite><a href='http://www.barcosbarcelona.com/en/' rel='external nofollow'>Yacht rental</a></cite>  Says:
+						<br />
+
+			<small class="commentmetadata"><a href="#comment-319050" title="">March 29th, 2009 at 6:36 am</a> </small>
+
+			<p><!-- google_ad_section_start -->Thanks<!-- google_ad_section_end --></p>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-319058">
+			<div class="comment-number">122</div>
+			<cite><a href='http://ferrogate.com' rel='external nofollow'>Martin Ferro-Thomsen</a></cite>  Says:
+						<br />
+
+			<small class="commentmetadata"><a href="#comment-319058" title="">April 7th, 2009 at 3:05 am</a> </small>
+
+			<p><!-- google_ad_section_start -->Very helpful. I followed some of your tricks and learned a few of my own. I wrote this post about moving from Blogger to Wordpress 2.7 using Godaddy Economy Hosting: <a href="http://ferrogate.com/2009/04/the-new-ferrogate-i-moved-from-blogger-to-wordpress.html" rel="nofollow">http://ferrogate.com/2009/04/the-new-ferrogate-i-moved-from-blogger-to-wordpress.html</a><!-- google_ad_section_end --></p>
+
+		</li>
+
+	
+	
+	</ol>
+
+<!-- Comment page numbers -->
+<p class="comment-page-numbers">Pages: <a href="#" onclick="document.location.href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/comment-page-4/#comments'; return false" title="Older comments">&laquo;</a> <a href="#" onclick="document.location.href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/comment-page-1/#comments'; return false">1</a> <a href="#" onclick="document.location.href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/comment-page-2/#comments'; return false">2</a> <a href="#" onclick="document.location.href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/comment-page-3/#comments'; return false">3</a> <a href="#" onclick="document.location.href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/comment-page-4/#comments'; return false">4</a> <strong>[5]</strong></p>
+<!-- End comment page numbers -->
+
+ 
+
+
+			<div class="navigation">
+				<div class="alignleft">&laquo; <a href="http://underscorebleach.net/jotsheet/2006/05/hack-myspace-block-ads">Hacking MySpace: Block ads, disable custom layouts</a></div>
+				<div class="alignright"><a href="http://underscorebleach.net/jotsheet/2006/09/goodbye-movable-type">My curt goodbye to Movable Type</a> &raquo;</div>
+			</div><!-- END NAVIGATION -->
+
+
+		</div><!-- END CONTENT / NARROWCOLUMN -->
+	</div><!-- END CONTAINER  -->
+
+	<div id="col1" class="sidebar">
+		<ul>
+			<li id="home-link">
+				<h2><a href="http://underscorebleach.net/jotsheet/" title="jotsheet">&laquo; Home</a></h2>
+			</li>
+
+
+
+<li id="search">
+<h2><label for="q">Search</label></h2>
+<!-- SiteSearch Google -->
+<form method="get" action="http://www.google.com/custom">
+<table border="0">
+<tr><td style="white-space: nowrap;" valign="top" align="left">
+<input type="hidden" name="domains" value="underscorebleach.net"></input>
+<input type="text" name="q" id="q" size="13" maxlength="255" value=""></input>
+<input type="submit" name="sa" value="Go"></input>
+</td></tr>
+<tr>
+<td style="white-space: nowrap;">
+<table>
+<tr>
+<td style="font-size: 0.85em;">
+<input type="radio" name="sitesearch" value="underscorebleach.net" checked="checked" />this site
+</td>
+<td style="font-size: 0.85em;">
+<input type="radio" name="sitesearch" value="" />the web
+</td>
+</tr>
+</table>
+<input type="hidden" name="client" value="pub-3043263241918477"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="flav" value="0000"></input>
+<input type="hidden" name="sig" value="Nnjto5OF5bE2G7V0"></input>
+<input type="hidden" name="cof" value="GALT:#34425b;GL:1;DIV:#ffffff;VLC:34425b;AH:center;BGC:ffffff;LBGC:FFFFE0;ALC:000000;LC:000000;T:222222;GFNT:4C6184;GIMP:4C6184;LH:52;LW:68;L:http://underscorebleach.net/images/common/heineken4.jpg;S:http://underscorebleach.net/;LP:1;FORID:1"></input>
+<input type="hidden" name="hl" value="en"></input>
+</td></tr></table>
+</form>
+<!-- SiteSearch Google -->
+</li>
+
+			<li id="rss-links">
+				<h2>Subscribe, jerk!</h2>
+				<ul>
+					<li class="rss-link"><a href='http://underscorebleach.net/jotsheet/2006/05/move-blogger-to-wordpress/feed'>Comments on this post</a></li>
+					<li class="rss-link"><a href="http://underscorebleach.net/jotsheet/feed" title="jotsheet RSS 2.0 (XML) Feed" rel="alternate" type="application/rss+xml">All posts</a></li>
+					<li class="rss-link"><a href="http://underscorebleach.net/jotsheet/comments/feed" title="jotsheet Comments RSS 2.0 (XML) Feed" rel="alternate" type="application/rss+xml">All comments</a></li>
+				</ul>
+			</li>
+
+<li class="pagenav"><h2>Standalone</h2><ul><li class="page_item page-item-1430"><a href="http://underscorebleach.net/jotsheet/contact" title="Contact Me">Contact Me</a></li>
+</ul></li>
+			<li id="about-this-post">
+				<h2>About This Post</h2>
+				<ul>
+					<li>Written by Tom Sherman</li>
+					<li>May 20th, 2006 at 3:03 am</li>
+				</ul>
+			</li>
+			<li id="category-links">
+				<h2>Filed Under</h2>
+				<ul>
+					<li><a href="http://underscorebleach.net/jotsheet/category/best-of-the-best" title="View all posts in Best of the Best" rel="category tag">Best of the Best</a></li><li> <a href="http://underscorebleach.net/jotsheet/category/blogs-and-blogging" title="View all posts in Blogs and Blogging" rel="category tag">Blogs and Blogging</a></li><li> <a href="http://underscorebleach.net/jotsheet/category/how-to" title="View all posts in How to" rel="category tag">How to</a></li><li> <a href="http://underscorebleach.net/jotsheet/category/wordpress" title="View all posts in Wordpress" rel="category tag">Wordpress</a></li>
+				</ul>
+			</li>
+
+
+
+<li id="related-posts">
+<h2>Related Posts</h2>
+<ul>
+<li><small><em><a href="http://underscorebleach.net/jotsheet/2006/10/wordpress-pair-php-cgiwrap" rel="bookmark" title="Permanent Link: Wordpress, Pair.com hosting, and php-cgiwrap">Wordpress, Pair.com hosting, and php-cgiwrap</a></em></small><p><small>My site is hosted with Pair.  Recently, I had been having lots of problems[&#8230;]</small></p></li><li><small><em><a href="http://underscorebleach.net/jotsheet/2006/10/wordpress-file-permissions" rel="bookmark" title="Permanent Link: WordPress file permissions">WordPress file permissions</a></em></small><p><small>After disabling php-cgiwrap, I got in the bad habit of chmod'ing files and directories to[&#8230;]</small></p></li></ul>
+</li>
+
+
+			<li id="info-copyright">
+				<h2>Misc</h2>
+				<ul>
+
+<li></li>
+
+					<li>Geek cred: <a href="http://validator.w3.org/check?uri=http://underscorebleach.net/jotsheet&amp;outline=1&amp;verbose=1" title="Valid XHTML 1.0 Strict" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://underscorebleach.net/jotsheet/wp-content/themes/blogtxt-12/style.css&amp;profile=css2&amp;warning=no" title="Valid CSS" rel="nofollow">CSS</a></li>
+										<li><a href="http://underscorebleach.net/jotsheet/wp-login.php">Log in</a></li>
+					
+				</ul>
+			</li>
+		</ul>
+	</div><!-- END COL2 / SIDEBEAR -->
+
+	<div id="footer">
+		<p>
+						&copy; 2007 Tom Sherman.  Creative Commons license.  Tweaked <a href="http://www.plaintxt.org/themes/blogtxt/" title="blog.txt for WordPress" rel="follow">blog.txt</a> theme for <a href="http://wordpress.org/" title="WordPress">WordPress.</a><br />Find <a href="http://www.windybits.com">Chicago tech events</a> at WindyBits.
+<br />
+			
+<!-- tracker added by Ultimate Google Analytics plugin v1.4: http://www.oratransplant.nl/uga -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-284349-1";
+urchinTracker();
+</script>
+		</p>
+	</div><!-- END FOOTER -->
+
+</div><!-- END WRAPPER -->
+
+
+<script src="http://feeds.feedburner.com/~s/underscorebleach/jotsheet" type="text/javascript" charset="utf-8"></script>
+
+
+
+<!-- The "blog.txt" theme copyright (c) 2006 Scott Allan Wallick - http://www.plaintxt.org/themes/ -->
+
+</body>
+</html>
