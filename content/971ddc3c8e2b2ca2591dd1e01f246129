@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta property="fb:admins" content="3103654" />
+		<title>Penny Arcade - A Priori</title>
+		<!-- The HTML/CSS is still getting cleaned up. Questions? 
+		     Stop by the forum:
+		     http://forums.penny-arcade.com/forumdisplay.php?f=66 -->
+		
+		<meta name="description" content="Equal parts comics and commentary, Penny Arcade features Tycho and Gabe, the alter egos of creators Mike Krahulik and Jerry Holkins. Read about the antics and thoughts of the Penny Arcade crew, updated every Monday, Wednesday and Friday." />
+		<link rel="alternate" type="application/rss+xml" title="Penny-Arcade" href="http://feeds.penny-arcade.com/pa-mainsite/"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/stylesheets/compressed/pa-57cfe9e1c18defc57bc28f3d8d97a241.css" />
+		<!--[if lt IE 7.]>
+		<link rel="stylesheet" type="text/css" media="all" href="/stylesheets/uncompressed/common-ie6.css?7-1-2009" />
+		<link rel="stylesheet" type="text/css" media="all" href="/stylesheets/uncompressed/penny_arcade-ie6.css?249" />
+		<![endif]-->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js"></script>
+		<script type="text/javascript" src="/scripts/compressed/pa-c539ca4d4821dcd2bb073738957589c7.js"></script>
+		<script type="text/javascript">
+			// Init Google AdManagr
+			GS_googleAddAdSenseService("ca-pub-3222936370827379");
+			GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+			// Configure PA Promos
+
+			var OA_zones = {
+					'Promo_0' : 369102,
+					'Promo_1' : 369202,
+					'Promo_2' : 369302,
+					'Promo_3' : 369402,
+					'Promo_4' : 369502
+					};
+
+			// Configure AdManager
+
+			GA_googleAddSlot("ca-pub-3222936370827379", "News_Horizontal");
+			GA_googleAddSlot("ca-pub-3222936370827379", "News_Vertical");
+
+		</script>
+		<script type="text/javascript">
+			// Fetch!
+			GA_googleFetchAds();
+			
+			// PA JavaScript
+			$(function() {
+				// Setup Mailing List
+				$('form.mailinglist').mailinglistify('input.email');
+
+				// Setup Quantserve
+				$.qTracker("p-7aMlAhcqainl6");
+				
+				// Setup OpenX
+				$.openx(OA_zones);
+			});
+			
+			// Compete
+			__compete_code = '3274ab96945014ae7a3e2c3b30911955';
+			(function () {
+				var c = document.createElement('script'); c.type = 'text/javascript'; c.async = true;
+				c.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'c.compete.com/bootstrap/' + __compete_code + '/bootstrap.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(c, s);
+			}());
+			
+			// Analytics
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-589570-1']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+
+	</head>
+	<body class="news" >
+		<div class="page">
+			<!-- Header Row -->
+			<div class="header">
+
+				<a href="/"><img class="logo" src="/images/tpl/logo.png" alt="Penny Arcade" /></a>
+				<ul id="navigation" class="spritemap">
+					<li id="nav_home"><a href="/">Home</a></li>
+					<li id="nav_comic"><a href="/comic/">Comic</a></li>
+					<li id="nav_archive"><a href="/archive/">Archive</a></li>
+					<li id="nav_forums"><a href="http://forums.penny-arcade.com">Penny Arcade Forums</a></li>
+					<li id="nav_store"><a href="http://store.penny-arcade.com">Penny Arcade Store</a></li>
+					<li id="nav_pax"><a href="http://www.paxsite.com">Penny Arcade Expo</a></li>
+					<li id="nav_patv"><a href="/patv/">Penny Arcade TV</a></li>
+					<li id="nav_cpc"><a href="http://www.childsplaycharity.org">Child's Play Charity</a></li>
+					<li id="nav_other"><a href="#">Other Stuff</a>
+						<ul id="nav_other_menu" class="spritemap">
+							<li id="nav_other_presents"><a href="/presents/">Penny Arcade Presents</a></li>
+							<li id="nav_other_greenhouse"><a href="http://www.playgreenhouse.com">Greenhouse</a></li>
+							<li id="nav_other_firstparty"><a href="http://www.firstparty.com">First Party</a></li>
+							<li id="nav_other_scholarship"><a href="/pas/">Penny Arcade Scholarship</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="promo"><script type="text/javascript">OA_show("Promo_0");</script></div>
+				<div class="funding-horizontal"><script type="text/javascript">GA_googleFillSlot("News_Horizontal");</script></div>
+				<form method="post" class="mailinglist" action="/mailinglist/signup/" accept-charset="utf-8">
+					<div>
+						<label for="email" class="label email hiddencontent">Want Penny Arcade Spam?</label>
+						<input type="text" id="email" name="email" value="E-mail Address" class="email" />
+						<input type="image" src="/images/tpl/spam_submit.png" alt="Submit" class="submit" />
+					</div>
+				</form>
+
+			</div>
+			<div class="clear"></div>
+
+			<!-- Content Row -->
+			<div class="content">
+
+<div class="funding-vertical">
+	<script type="text/javascript">GA_googleFillSlot("News_Vertical");</script>
+	<a href="mailto:advertising@penny-arcade.com"><img src="/images/tpl/mediakit.png" alt="Media &amp; Advertising Kit" /></a>
+</div>
+<div class="posts">
+	
+	<div class="actionbar">
+		<ul class="spritemap">
+			<li class="float_left first"><a href="/2002/2/11/">First</a></li>
+			<li class="float_left back"><a href="/2010/12/15/">Back</a></li>
+			<li class="float_left comic"><a href="/comic/2010/12/17/">Comic</a></li>
+			<li class="float_left next"><a href="/2010/12/20/">Next</a></li>
+			<li class="float_left new"><a href="/">New</a></li>
+			<li class="float_right rss"><a href="http://feeds.penny-arcade.com/pa-mainsite">RSS</a></li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+		
+
+
+	
+	
+		
+			<div class="post">
+	<a name="1292572800"></a> <!-- Deprecated, please avoid using --> 
+	<div class="title">
+		<img alt="Tycho" class="avatar" width="66" height="60" src="http://www.penny-arcade.com/images/avatars/tycho.jpg" />
+		<div class="postheader">
+			<h1 id="priori">A Priori</h1>
+			<div class="metainfo">
+				Friday, December 17 2010 - 12:00 AM<br />
+				by: <a href="mailto:tycho@penny-arcade.com">Tycho</a>
+			</div>
+		</div>
+	</div>
+	<div class="body">
+		<p>With the WoW Glider case having been examined on appeal, the legal furor between Activision Blizzard and the makers of the <a href="http://mmoglider.com/">automation tool</a> is <a href="http://www.gamerlaw.co.uk/2010/12/thoughts-on-wow-glider-appeal.html">front page news again</a>.  We tool the liberty of <a href="/comic/2010/12/17/">dramatifying</a> the opening arguments.</p>
+<p>There's are multiple thresholds of simulated activity here, and I don't think there's one answer.  For example:</p>
+<p><em>Thousands of bots operating a full tilt in the operation of some clandestine international gold mill</em></p>
+<p>maybe I can see why maybe they wouldn't like that.  Back in the day, I resented all manner of gold selling on the foundation that it had some kind of effect on my own experience by destabilizing the economy.  Is that true?  I don't know, and I honestly doubt it. &nbsp;it's entirely possible that I was just dressing up some kind of appeal to a <em>digital</em> manifestation of the Puritan work ethic - the idea that someone, somewhere was getting either their money for nothing, or their kicks for free. &nbsp;On the other hand, the <a href="http://www.mmoglider.com/FAQ.aspx#G6">scenarios</a> described in the WoW Glider FAQ don't seem unreasonable to me, and solve what I see as problems with the core product.  Being able to succeed at all in the higher levels requires specific roles with the appropriate levels and equipment, and a point of failure on the <em>social</em> side of this game can keep you from getting the most out of your subscription.  But, I mean, good Christ.  It's not like bots let you play the game without paying your fifteen dollars a month. &nbsp;It's not (in the ragged parlance of the youth) "hax."</p>
+<p>In Chris Kohler's review of <a href="http://www.wired.com/gamelife/2010/11/assassins-creed-brotherhood-review/">Assassin's Creed: Brotherhood</a> (which Erika refers to as "AssBro"), he laments the Farmvillian substrate everything seems to be jammed into. I'd caution anyone about a wide application of this analysis, because you get onto some Nietzsche shit pretty quick.  When you look into the Farmville, the Farmville looks also into <em>you</em>.  Our games are studded with manipulative tendrils and barbs which resist their removal.  He and I disagree on Brotherhood, but if he were to swivel that weapon toward World of Warcraft, I suspect we may find some common ground.</p>
+<p>(CW)TB out.</p>
+<p><span style="font-family: verdana,arial,sans-serif; color: #ffffff;"><span style="font-size: x-small;"><a title="Tim Minchin - White Wine In The Sun"><em>i have all of the usual objections</em></a></span></span></p>
+	</div>
+</div>
+
+			
+		
+	
+	
+	<div class="clear"></div>
+	<div class="actionbar">
+		<ul class="spritemap">
+			<li class="float_left first"><a href="/2002/2/11/">First</a></li>
+			<li class="float_left back"><a href="/2010/12/15/">Back</a></li>
+			<li class="float_left comic"><a href="/comic/2010/12/17/">Comic</a></li>
+			<li class="float_left next"><a href="/2010/12/20/">Next</a></li>
+			<li class="float_left new"><a href="/">New</a></li>
+			<li class="float_right rss"><a href="http://feeds.penny-arcade.com/pa-mainsite">RSS</a></li>
+		</ul>
+	</div>
+
+	<div class="clear"></div>
+	<div class="promos-horizontal short">
+		<ul class="csslist">
+			<li class="one"><script type="text/javascript">OA_show("Promo_1");</script></li>
+			<li class="two"><script type="text/javascript">OA_show("Promo_2");</script></li>
+			<li class="three"><script type="text/javascript">OA_show("Promo_3");</script></li>
+			<li class="four"><script type="text/javascript">OA_show("Promo_4");</script></li>
+		</ul>
+	</div>
+</div>
+
+			</div>
+			<div class="clear"></div>
+			
+			<!-- Footer Row -->
+			<div class="footer">
+
+				&copy; 1998-2010 Penny Arcade, Inc.
+
+			</div>
+		</div>
+		<noscript>
+			<div><img src="http://pixel.quantserve.com/pixel/p-7aMlAhcqainl6.gif" style="display: none;" height="1" width="1" alt="Quantcast"/></div>
+		</noscript>
+		<!-- Magic Load Balancing Cookie : dcdd5073de69caeea9e7f45c4e26d44e -->
+	</body>
+</html>
