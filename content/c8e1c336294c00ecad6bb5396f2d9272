@@ -1,0 +1,386 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>SDOT - Chief Sealth Trail Extension</TITLE>
+<meta name="Title" content="SDOT - Chief Sealth Trail Extension">
+<meta name="Description" content="The City of Seattle is building a new multi-purpose Chief Sealth Trail">
+<meta name="Keywords" content="Chief Sealth Trail, trail, extension, construction, projects, construction projects, Mountains to Sound Greenway Trail, Regional Trails System, Seattle, Beacon Hill, Seattle City Light, Regional Trails System">
+<meta name="originatorDepartment" content="Seattle Department of Transportation">
+<link REL="stylesheet" HREF="/transportation/css/dept_style.css" TYPE="text/css">
+<LINK href="/transportation/main.css" type=text/css rel=stylesheet>
+<script language="javascript" src="/transportation/scripts/transportation_array.js"></script>
+<SCRIPT LANGUAGE="JavaScript" SRC="/transportation/scripts/ypSlideOutMenus_new.js" TYPE="text/javascript"></SCRIPT>
+<script language="javascript" src="/transportation/js/navigation.js"></script>
+<SCRIPT language="JavaScript">
+LOC = "transnavitem"
+</SCRIPT>
+</HEAD>
+<BODY background="/2004_img/seattle_back.gif" LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<div align="center">
+<noindex>
+<script language="javascript">
+function changeFilter(whichCol){
+ if(whichCol == "Dept"){
+   document.forms[0].site.value = whichDept;
+   document.forms[0].proxystylesheet.value = whichStyle;
+ }else{
+   document.forms[0].site.value = "default_collection";
+   document.forms[0].proxystylesheet.value = "cos_frontend";
+ }
+}
+</script> 
+<style>
+image:focus {-moz-outline-style: none;}
+</style>
+<div align="center">
+<div style="display:block;position:relative;margin:0px auto;width:775px;height:70px;background-repeat:no-repeat;background-image: url(/common/images/header_background.png);background-color:#fff">
+  <div id="cityNav" style="width:765px;position:absolute;top:0px;left:0px;text-align:right;"><a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/departments/">Departments</a> | <a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/services/">Services</a> | <a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/directory/">Staff Directory</a></div>
+  <div id="cityBrand" style="width:320px;position:absolute;top:0px;left:0px;"><a href="/default.htm"><img onmouseover="this.src='/common/images/SeattleGovLogo.png'" onmouseout="this.src='/common/images/SeattleGovLogoHome.png'" src="/common/images/SeattleGovLogoHome.png" alt="Seattle.gov Home Page" border="0" width="320" height="70" /></a></div>
+  <div id="citySearch" style="width:300px;position:absolute;top:24px;left:470px;">
+		<form id="googleSearch" style="margin:0px;padding:-10px;" method="get" action="http://find.seattle.gov/search">
+		<input type="text" style="vertical-align:top;margin:0px;padding-top:5px;padding:0px;height:22px;line-height:20px;border:2px solid #d5d5d5;width:250px;" name="q" size="18" maxlength="255" value="" />
+		<input style="vertical-align:top;margin-top:0px;border:0px;height:25px;-moz-outline-style: none;" type="image" src="/common/images/go_button.png" name="btnG" value="Go" onclick="document.forms['googleSearch'].submit()"/>
+		<input type="hidden" name="site" value="default_collection"/>
+		<input type="hidden" name="client" value="cos_frontend"/>
+		<input type="hidden" name="proxystylesheet" value="cos_frontend"/>
+		<input type="hidden" name="output" value="xml_no_dtd"/>
+		</form> 
+  	<div style="font-family: Arial, Helvetica; font-size:12px !important;color:#999;width:250px;position:absolute;top:22px;left:25px;">
+      <form name="toggle" style="margin: 0px;"><input type="radio" value="main" name="searchToggle" checked="" onclick="changeFilter('Seattle')">Seattle.gov <input type="radio" value="dept" name="searchToggle" onclick="changeFilter('Dept')">This Department</form>
+    </div>
+  </div>
+</div>  
+</div>
+<script language="javascript">
+whichDept="";
+whichStyle="";
+</script>
+
+</noindex>
+
+<noindex><!--begin TransHead New Graphics Version April 2009-->
+<table width="775" height="63" border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td width="486"><a href="http://www.seattle.gov/transportation/"><img src="http://www.seattle.gov/transportation/images/TransHeader-deptName.gif" alt="Link to Transportation Home Page" width="486" height="28" border="0"></a></td>
+  <td width="98"><a href="http://www.seattle.gov/transportation/"><img src="http://www.seattle.gov/transportation/images/TransHeader-home.gif" alt="Link to Transportation Home Page" width="98" height="28" border="0"></a></td>
+  <td width="85"><a href="http://www.seattle.gov/transportation/about.htm"><img src="http://www.seattle.gov/transportation/images/TransHeader-about.gif" alt="Link to Transportation About Us Page" width="85" height="28" border="0"></a></td>
+  <td width="106"><a href="http://www.seattle.gov/transportation/contact.htm"><img src="http://www.seattle.gov/transportation/images/TransHeader-contact.gif" alt="Link to Transportation Contact Us Page" width="106" height="28" border="0"></a></td>
+</tr>
+<tr>
+  <td width="486"><img src="http://www.seattle.gov/transportation/images/TransHeader-tagline.gif" alt="A vibrant Seattle through transportation excellence" width="486" height="35" border="0"></td>
+  <td width="290" colspan="3"><img src="http://www.seattle.gov/transportation/images/TransHeader-director.gif" alt="Peter Hahn, Director" width="289" height="35" border="0"></td>
+</tr>
+</table>
+<div align="center">
+<table width="775" border="0" cellspacing="0" cellpadding="5" bordercolor="#666666" bgcolor="#FFFFFF" style="border: thin solid #A2A2D9;">
+<tr>
+
+<td align="center" onMouseOver="ypScrollMenu.showMenu2('menu1');" onMouseOut="ypScrollMenu.hideMenu2('menu1')"><p><a href="#" class="dropdown">Services</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu2');" onMouseOut="ypScrollMenu.hideMenu2('menu2');"><p><a href="http://www.seattle.gov/transportation/" class="dropdown">Projects</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu4');" onMouseOut="ypScrollMenu.hideMenu2('menu4');"><p><a href="#" class="dropdown">Planning</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu3');" onMouseOut="ypScrollMenu.hideMenu2('menu3');"><p><a href="#" class="dropdown">Resources</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/events/" class="dropdown">Events</a></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/sdotnews.htm" class="dropdown">News</a></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/siteindex.htm" class="dropdown">Site Index</a></p></td>
+
+</tr>
+</table>
+</div>
+<SCRIPT>
+function rePosx(tweakVal){
+tempX = ((document.body.offsetWidth/2) + tweakVal)
+tempX = tempX + 25
+return tempX
+}
+
+topPos = 167
+buffer = 22
+
+//id, dir, left, top, width, height, parentid, degrade, debug
+//350 //400 //300
+	var menus = [
+	new ypScrollMenu("menu1", "down", rePosx(-423), topPos, 235, eval(menuItems1.length*24)),
+
+	new ypScrollMenu("menu2", "down", rePosx(-300), topPos, 235, eval(menuItems2.length*22)), 
+	  new ypScrollMenu("menu2_Sub1", "right", rePosx(-72), topPos+buffer, 200, eval(menu2_SubItems1.length*40), "menu2"),
+	  new ypScrollMenu("menu2_Sub2", "right", rePosx(-72), topPos+buffer*2, 200, eval(menu2_SubItems2.length*33), "menu2"),
+
+	new ypScrollMenu("menu3", "down", rePosx(-67), topPos, 235, eval(menuItems3.length*20)), 
+	  new ypScrollMenu("menu3_Sub1", "right", rePosx(148), topPos, 200, eval(menu3_SubItems1.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub2", "right", rePosx(148), topPos+buffer, 200, eval(menu3_SubItems2.length*25), "menu3"),
+	  new ypScrollMenu("menu3_Sub3", "right", rePosx(148), topPos+buffer*2, 200, eval(menu3_SubItems3.length*40), "menu3"),
+	  new ypScrollMenu("menu3_Sub4", "right", rePosx(148), topPos+buffer*3, 200, eval(menu3_SubItems4.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub5", "right", rePosx(148), topPos+buffer*4, 230, eval(menu3_SubItems5.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub6", "right", rePosx(148), topPos+buffer*6, 230, eval(menu3_SubItems6.length*29), "menu3"),
+	  new ypScrollMenu("menu3_Sub7", "right", rePosx(148), topPos+buffer*7, 230, eval(menu3_SubItems7.length*29), "menu3"),
+	  new ypScrollMenu("menu3_Sub8", "right", rePosx(148), topPos+buffer*8, 230, eval(menu3_SubItems8.length*32), "menu3"),
+
+	 new ypScrollMenu("menu4", "down", rePosx(-212), topPos, 250, eval(menuItems4.length*25)), 
+	  new ypScrollMenu("menu4_Sub1", "right", rePosx(2), topPos, 200, eval(menu4_SubItems1.length*45), "menu4"),
+	  new ypScrollMenu("menu4_Sub2", "right", rePosx(2), topPos+buffer, 200, eval(menu4_SubItems2.length*45), "menu4")
+ 
+
+//	new ypScrollMenu("menu5", "down", rePosx(-20), topPos, 250, eval(menuItems5.length*20)),
+//	new ypScrollMenu("menu6", "down", rePosx(90), topPos, 250, eval(menuItems6.length*20)),
+//	new ypScrollMenu("menu7", "down", rePosx(170), topPos, 250, eval(menuItems7.length*20)),
+//	new ypScrollMenu("menu8", "down", rePosx(250), topPos, 250, eval(menuItems8.length*20))
+	];
+	document.write('<style type="text/css">' + ypScrollMenu.styleMod + '</style>');
+	for (var i = 0; i < menus.length; i++) {
+		menus[i].onactivate = new Function("document.getElementById('act" + i + "').className='active';");
+		menus[i].ontransportationctivate = new Function("document.getElementById('act" + i + "').className='';");
+	}
+
+function buildMenu(menuName,menuItems,tableWid,subMenu){
+O_tr = "<tr>"
+C_tr = "</tr>"
+C_table = "</table>"
+C_div ="</div>"
+// STYLE="width:'+tableWid+'px;"
+document.write('<div style="visibility:hidden;" id="'+menuName+'Container">')
+document.write('<div style="visibility:inherit;width:'+tableWid+'px;"  id="'+menuName+'Content" class="menu2">')
+document.write('<table width="+tableWid+" cellspacing="0" cellpadding="0" bgColor="#262626" border="0">')
+document.write('<tr><td width="+tableWid+">')
+i = 1
+do{
+//  document.write(O_tr)
+//  document.write('<td width="1" class="bgmenugreen"><img src="images/spacer.gif" width="1" height="1" alt="" /></td>')
+if(menuItems[i][2] == null){
+  document.write('<div class="menu0" style="visibility:inherit;"><a href="'+ menuItems[i][1] +'">'+menuItems[i][0]+'</a></div>')
+//FROM ABOVE
+} else {
+  //alert(menuItems[i][2])
+  document.write('<div class="menu0" style="visibility:inherit;" onMouseOver="ypScrollMenu.showMenu2(\''+menuItems[i][2]+'\');" onMouseOut="ypScrollMenu.hideMenu2(\''+menuItems[i][2]+'\');" id="'+menuItems[i][2]+'Actuator"><a href="'+menuItems[i][1]+'">'+menuItems[i][0]+'</a></div>')
+//FROM ABOVE
+}
+  i++
+  }
+while (i < menuItems.length)
+document.write('</tr></td></table>')
+
+document.write(C_div)
+document.write(C_div)
+}
+
+//menuName,menuItems,tableWid,subMenu
+
+
+buildMenu('menu1',menuItems1,'235')
+buildMenu('menu2',menuItems2,'235')
+  buildMenu('menu2_Sub1',menu2_SubItems1,'200')
+  buildMenu('menu2_Sub2',menu2_SubItems2,'200')
+buildMenu('menu3',menuItems3,'235')
+  buildMenu('menu3_Sub1',menu3_SubItems1,'200')
+  buildMenu('menu3_Sub2',menu3_SubItems2,'200')
+  buildMenu('menu3_Sub3',menu3_SubItems3,'200')
+  buildMenu('menu3_Sub4',menu3_SubItems4,'200')
+  buildMenu('menu3_Sub5',menu3_SubItems5,'210')
+  buildMenu('menu3_Sub6',menu3_SubItems6,'200')
+  buildMenu('menu3_Sub7',menu3_SubItems7,'240')
+  buildMenu('menu3_Sub8',menu3_SubItems8,'200')
+
+buildMenu('menu4',menuItems4,'250')
+  buildMenu('menu4_Sub1',menu4_SubItems1,'200')
+  buildMenu('menu4_Sub2',menu4_SubItems2,'200')
+</script>
+
+<!--end TransHead--></noindex>
+<SCRIPT language="JavaScript">
+whichDept = "transportation"
+whichStyle = "transportation_frontend"
+</SCRIPT>
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center" bgcolor="#ffffff">
+<TR>
+  
+  <TD width="775" style="padding:10" valign="top">
+<!--START CONTENT HERE   -->
+	
+	<p class="title">Chief Sealth Trail Extension</p>
+	
+<p>&nbsp;</p>
+<p align="center">	
+	<div align="center">
+  <table width="92%"  border="0" cellspacing="0" cellpadding="4"  style="border: thin dashed #5b5bb1;">
+    
+  <tr>
+        <td><p><strong> </strong> Project Update: November 4, 2010</p>
+          <p><strong> Construction nearing completion on the northward extension to the Chief Sealth Trail</strong></p>
+          <p> Now that the asphalt surface paving has been completed, the contractor working for SDOT is engaged in the final stages of construction on the trail extension project.&nbsp;&nbsp; Some minor concrete paving (curb bulbs and curb ramps), storm drainage, permanent signage and bollard installation, hydroseeding and cleanup work remains.&nbsp; There will be intermittent traffic restrictions on S Angeline Street, S Ferdinand Street, Columbia Drive S and Beacon Avenue S (curb lane only). </p>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="1">
+            <tr>
+              <td><div align="center">
+                <p><img src="http://farm2.static.flickr.com/1054/5161453599_02e901a3c6_m.jpg" width="240" height="180"></p>
+                <p> looking northwest from Columbia Drive S &ndash; Ferdinand P-Patch is to the right </p>
+              </div></td>
+              <td><div align="center"><img src="http://farm5.static.flickr.com/4064/5162057704_617b1e31c4_m.jpg" width="240" height="180"></div>
+                <p align="center">looking northwest across S Ferdinand Street as the trail meanders toward S Angeline Street</p></td>
+            </tr>
+          </table>          
+          <hr noshade>          <p><strong>Project Update:  September 23, 2010 </strong> </p>
+          <p align="center"><strong> Construction has started on the northward extension of the Chief Sealth Trail </strong></p>
+          <p> A contractor working with SDOT has started construction of the trail project .&nbsp; For the first few weeks construction crews will clear, excavate and grade the designated trail route through the Seattle City Light transmission line corridor. </p>          <p align="center"><hr noshade></p>
+          <p align="left"><strong>Project Update:  September 2, 2010 </strong></p>
+          <p align="center"><strong>Construction Starting on Chief Sealth Trail Extension in mid-September </strong><strong>&nbsp;</strong></p>
+          <p> Seattle Department of Transportation (SDOT) has completed design and recently awarded a construction contract for extending the existing Chief Sealth Trail northward from Beacon Avenue S to S Angeline Street/15th Avenue S.</p>
+          <p> The contractor could start as early as the week of September 13th.&nbsp; Construction is expected to be complete by mid-December 2010.&nbsp; </p>
+          <p> The construction of this multi-use trail is intended to provide an attractive extension to the existing trail and increase opportunities for safe, connected walking and biking in Southeast Seattle. The trail extension will be built entirely on the City Light Transmission lines corridor.</p>
+          <p><strong> Tentative Schedule: </strong></p>
+          <p> The contractor will start the week of September 13th at the west end of the City Light corridor at 15th Avenue and S Angeline Street and work eastwards towards Beacon Avenue S. Construction is expected to be complete by mid-December 2010.</p>
+          <p><strong> What to Expect During Construction </strong><strong>&nbsp;</strong></p>
+          <ul>
+            <li> Minimum lane closures on Beacon Avenue S, 15th Avenue S, and other nearby streets during off-peak hours </li>
+            <li> Possible sidewalk closures and pedestrian detours on Beacon Avenue S north of S Dawson Street, on S Ferdinand Street east of 17th Avenue S, and on S Angeline Street east of 15th Avenue S </li>
+            <li> Possible parking restrictions on the above streets </li>
+            <li> Moderate construction noise </li>
+            <li> Normal work hours of 7 a.m. to 4 p.m. </li>
+            <li> Temporary rerouting of several driveways </li>
+            <li> Restricted access to Ferdinand P-Patch </li>
+          </ul>          <p align="center"><img src="images/cst_ext_photo.jpg" width="500" height="375"></p></td>
+      </tr>
+  </table>
+  <strong> </strong></div>
+	<p><strong> Project Overview</strong></p>
+		<p><strong> Estimated Construction Start in September 2010</strong><strong></strong> &nbsp;</p>
+		<p><strong>  Project Description: </strong></p>
+		<p>This project consists of building an extension to the Chief Sealth Trail (CST) &ndash; Seattle&rsquo;s multi-purpose trail in Southeast Seattle and the newest addition to the regional trail system. The trail extension will be built entirely on the City Light Transmission lines corridor from Beacon Avenue S to S Angeline Street/15th Avenue S.</p>
+		<p><strong> Project Goal/Objectives: </strong></p>
+		<p> A safe, connected and attractive multi-use trail built to encourage walking and biking in the Southeast section of Seattle.</p>
+		<p> The CST provides connections to the future Mountains-to-Sound Greenway trail extension on Beacon Hill and Sound Transit light rail stations along Martin Luther King Jr. Way. The CST trail is one of five regional trails that cross the city, connecting to schools, businesses, and residents while promoting a healthy and active lifestyle.</p>
+		<p> The CST extension will be built almost entirely from recycled materials, such as recycled soil and crushed concrete from the Link Light Rail Project in Rainier Valley.<strong> </strong></p>
+		
+		  <p><strong> What to Expect During Construction </strong><strong>&nbsp;</strong></p>
+		  <ul>
+            <li> Minimum lane closures on Beacon Avenue S, 15th Avenue S, and other nearby streets during off-peak hours </li>
+            <li> Possible sidewalk closures and pedestrian detours on Beacon Avenue S north of S Dawson Street, on S Ferdinand Street east of 17th Avenue S, and on S Angeline Street east of 15th Avenue S </li>
+            <li> Possible parking restrictions on the above streets&nbsp; </li>
+            <li> Moderate construction noise </li>
+            <li> Normal work hours of 7 a.m. to 4 p.m. </li>
+            <li> Temporary rerouting of several driveways </li>
+            <li> Restricted access to Ferdinand P-Patch </li>
+	    </ul>
+		  <p align="center"><img src="images/cst_ext_mapH.gif" width="650" height="436"> </p>
+		  <p align="center">&nbsp;</p>
+		  <p><strong> Project Contacts:</strong></p>
+		  <p> George Frost, Public Information Officer, <a href="mailto:george.frost@seattle.gov">george.frost@seattle.gov</a>, (206) 615-0786 </p>
+		  <p>  Sue Byers, Project Manager, <a href="mailto:susan.byers@seattle.gov"> susan.byers@seattle.gov</a>, (206) 733-9076 </p>
+		  <p><strong></strong></p></td>
+  </tr>
+</table>
+<!--end BODY TABLE-->
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+<TR>
+  <TD valign="top"><table width="775" border="0" cellspacing="0" cellpadding="5" align="center" bgcolor="#5b5bb1">
+<tr>
+  <td align="center" class="smallfooter"><a href="/transportation/">Home</a> | <a href="/transportation/about.htm">About Us</a> | <a href="/transportation/contact.htm">Contact Us</a> | <a href="http://www.seattle.gov/transportation/siteindex.htm">Site Index</a> | <a href="http://www.seattle.gov/transportation/sdotevents.htm">Events</a> | <a href="http://www.seattle.gov/transportation/sdotnews.htm">News</a> | <a href="http://www.seattle.gov/transportation/sdotfaqs.htm">FAQs</a> | <a href="http://www.seattle.gov/transportation/emailalerts.htm">E-Mail Alerts</a></td>
+</tr>
+</table></TD>
+</TR>
+</TABLE>
+<!--CITYWIDE footer-->
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+<TR>
+  <TD><noindex>
+<noindex>
+<style>
+#footerContainer {
+  width:773px;
+	*width:775px;
+  margin:0px auto;
+  border:1px solid #c8c8c8;
+  background: #e1e1e1; 
+}
+#footerContainer ul{
+	list-style: none;
+	margin: 0; padding: 0;
+	float: left;
+  height:145px
+}
+#footerContainer ul li {
+  line-height: 1.25;
+  list-style: none;
+	padding:0px;
+	margin:0px;
+	padding-left:10px;
+	width: 100%;
+	color: #000;
+}
+#footerContainer ul li h2 {
+	padding: 0px;  
+	margin: 0px;
+	margin-bottom:5px;
+	margin-top:5px;
+	font-weight: bold;
+  font-family: arial, helvetica;
+  text-transform:none;
+	font-size: 16px;
+  color:#575757;
+  background-color:transparent;
+}
+#footerContainer ul li a {
+	float: none; 
+	text-indent: 0; /*--Reset text indent--*/
+  font-family: arial, helvetica;
+  font-size:12px;
+	height: auto;
+  padding: 2px 5px 0px 15px;
+	display: block;
+	text-decoration: none;
+	color: #6d6d6d;
+	font-weight: bold;
+}
+#footerContainer ul li a:hover {color: #007dc3; font-decoration:underline}
+</style>
+<div align="center">
+  <div id="footerContainer" style="display:table;text-align:left">
+		<ul style="width:190px;">
+				<li><h2>Navigate to:</h2></li>
+				<li><a href="/">Seattle.gov Home Page</a></li>
+				<li><a href="/business/">Business In Seattle</a></li>
+				<li><a href="/living/">Living in Seattle</a></li>
+				<li><a href="/visiting/">Visiting Seattle</a></li>
+				<li><a href="/services/">City Services</a></li>
+		</ul>
+		<ul style="width:190px;border-right:1px solid #666">
+				<li><h2>&nbsp;</h2></li>
+				<li><a href="/mayor/">Mayor's Office</a></li>
+				<li><a href="/council/">City Council</a></li>
+				<li><a href="/departments/">City Departments</a></li>
+				<li> &nbsp;</li>
+				<li> &nbsp;</li>
+		</ul>
+		<ul style="width:190px;border-right:1px solid #666">
+				<li><h2>We're Here to Help...</h2></li>
+				<li><a href="/customerservice/request.htm">Questions / Complaints</a></li>
+				<li><a href="/html/citizen/faqs.htm">FAQs</a></li>
+				<li><a href="/directory/">Employee Directory</a></li>
+  			<li><a href="/customerservice/"><b style="color:#000">City Customer Service<br/> Call (206) 684-CITY</b></a></li>
+		</ul>
+		<ul style="width:190px;">
+				<li style=""><h2>Follow Us</h2></li>
+				<li><a href="/citylink">CityLink Blogs</a></li>
+				<li><a href="/html/citizen/socialmedia.htm">Social Media Sites</a></li>
+<!--		<li><a href="">ShareThis</a></li>-->
+		</ul>
+  </div>
+	<div id="footer2" style="margin:0px auto;background-color:#666;color:#eee;width:775px;height:30px;padding:0px;">
+	<ul style="list-style:none;display:inline;width:100%;margin:0px;">
+		<li style="list-style:none;margin:0;padding:0;padding-top:6px;padding-left:10px;float:left;font-family: arial, helvetica;font-size:12px;color:#e1e1e1;">&copy; Copyright 1995-2010 City of Seattle</li>
+		<li style="list-style:none;margin:0;padding:0;padding-top:6px;padding-right:10px;float:right;font-family: arial, helvetica;font-size:12px;"><a style="color:#e1e1e1;text-decoration:none" href="/pan/privacypol.htm">Privacy and Security Policy</a></li>
+	</ul>	
+	</div>
+</div>
+<br/>
+</noindex>
+</noindex></TD>
+</TR>
+</TABLE>
+</div>
+</BODY>
+</HTML>
