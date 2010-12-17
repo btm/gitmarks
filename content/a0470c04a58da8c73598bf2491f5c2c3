@@ -1,0 +1,640 @@
+
+
+    <!DOCTYPE HTML PUBLIC
+          "-//W3C//DTD HTML 4.01 Transitional//EN"> <html lang="en">
+<head>
+<title>National Weather Service - NWS Seattle </title><link rel='STYLESHEET' type='text/css' href='/images/nwscwi/css/main2.css'>
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+<meta name='DC.title'         content='National Weather Service - NWS Seattle '>
+<meta name='DC.description'   content='Government Internet Service Home page. The starting point for official government weather forecasts, warnings, meteorological products for forecasting the weather, and information about meteorology.'>
+<meta name='DC.subject'       content='Weather, Warnings, Forecasts, Model Products, Climate information, Facsimile Charts, Observations, links to government web sites, documentation on meteorology, meteorological standards, Telecommunication protocols, WMO Abbreviated Headings, National Oceanic Atmospheric Administration organization, NESDIS Imagery, hydrometeorologic, hydrologic' />
+<meta name='DC.date.reviewed' scheme='ISO8601' content='05/24/2007' />
+<meta name='DC.date.created'  scheme='ISO8601' content='11/06/2009' />
+<meta name='DC.rating'        content='general'>
+<meta name='DC.resource-type' content='document'>
+<meta name='DC.Distribution'  content='global'>
+<meta name='DC.keywords'      content='Weather, Warnings, Forecasts, Model Products, Climate information, 
+Facsimile Charts, Seattle  weather forecasts, Seattle, 
+Napa Valley Weather, Seattle Weather, RADAR, Observations, links to government
+web sites, documentation on meteorology, meteorological standards, Telecommunication
+protocols, WMO Abbreviated Headings, National Weather Service organization, 
+NESDIS Imagery, hydrometeorologic, hydrologic'>
+<meta name='DC.creator'       content='NOAAs National Weather Service' />
+<meta name='DC.contributor'   content='NWS Internet Services Team' />
+<meta name='DC.robot'         content='all'>
+<meta name='DC.format'        content='text/html; charset=iso-8859-1' />
+<meta name='DC.language'      scheme='DCTERMS.RFC1766' content='EN-US' />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel='schema.DC'      href='http://purl.org/dc/elements/1.1/' />
+<link rel='schema.DCTERMS' href='http://purl.org/dc/terms/' />
+<link rel='DC.rights'      href='http://www.weather.gov/disclaimer.php' />
+<link rel='DC.P3Pv1'       href='http://www.wrh.noaa.gov/w3c/p3p.xml' />
+<link href='/favicon.ico' rel='shortcut icon' />
+<link rel='alternate' type='application/rss+xml' title='NOAA/NWS Headline Feed' href='http://www.weather.gov/nwsheadlines.xml'>
+<link rel='alternate' type='application/rss+xml' title='NOAA/NWS Weather Story Feed' href='http://www.wrh.noaa.gov/FXC/wxstory.php?output=xml'>
+<script language="JavaScript"> 
+var gfeconus = new Image(); 
+var gferegional = new Image(); 
+var localwfo = new Image(); 
+gfeconus.src = "http://www.weather.gov/forecasts/graphical/images/conus/MaxT1_conus.png"; 
+gferegional.src = "http://www.weather.gov/forecasts/graphical/images/washington/MaxT1_washington.png"; 
+localwfo.src = "http://www.weather.gov/forecasts/wfo/images/sew/MaxT1_sew.png" 
+function doButtonsB(picimage) { 
+eval("document['pictureB'].src = " + picimage + ".src"); 
+} 
+</script> 
+<script language="javascript">
+function initx(){
+        rtn=1;
+        var browser=navigator.appName;
+        if (browser == "Microsoft Internet Explorer") {
+                if (screen.deviceXDPI != screen.logicalXDPI) {
+                        rtn = screen.deviceXDPI / screen.logicalXDPI;
+                }
+        }
+        return(rtn);
+}
+function inity(){
+        rtn=1;
+        var browser=navigator.appName;
+        if (browser == "Microsoft Internet Explorer") {
+                if (screen.deviceYDPI != screen.logicalYDPI) {
+                        rtn = screen.deviceYDPI / screen.logicalYDPI;
+                }
+        }
+        return(rtn);
+}
+
+</script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000" background="/images/nwscwi/background1.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<TABLE CELLSPACING="0" CELLPADDING="0" BORDER="0" WIDTH="100%" BACKGROUND="/images/nwscwi/topbanner.jpg">
+  <TR> 
+    <TD ALIGN="right" HEIGHT="19"><A HREF="#contents"><IMG SRC="/images/nwscwi/skipgraphic.gif" ALT="Skip Navigation Links" WIDTH="1" HEIGHT="1" BORDER="0"></A><A HREF="http://www.weather.gov"><SPAN CLASS="nwslink">www.weather.gov</SPAN></A>&nbsp;</TD>
+  </TR>  
+</TABLE>
+
+
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR> 
+    <TD ROWSPAN="2"><A HREF="http://www.noaa.gov"><IMG SRC="/images/nwscwi/noaaleft.jpg" ALT="NOAA logo - Click to go to the NOAA homepage" WIDTH="85" HEIGHT="78" BORDER="0"></A></TD>
+    
+    
+    
+    
+    <TD><IMG SRC='/images/nwscwi/nwsfo.jpg' ALT='National Weather Service Forecast Office' WIDTH='500' HEIGHT='20' BORDER='0'></TD>
+    
+   
+    
+    <TD ROWSPAN="2" WIDTH="100%" BACKGROUND="/images/nwscwi/wfo_bkgrnd.jpg">&nbsp;</TD>
+    <TD ROWSPAN="2"><A HREF="http://www.weather.gov"><IMG SRC="/images/nwscwi/nwsright.jpg" ALT="NWS logo - Click to go to the NWS homepage" WIDTH="85" HEIGHT="78" BORDER="0"></A></TD>
+    <TD ROWSPAN="2" BACKGROUND="/images/nwscwi/wfo_bkgrnd.jpg">&nbsp;&nbsp;&nbsp;</TD>
+  </TR>
+  <TR>  
+  
+  
+  
+    <TD><A HREF='http://www.wrh.noaa.gov/sew'><IMG ALT='Seattle, Washington' WIDTH='500' HEIGHT='58' BORDER='0' SRC='/images/nwscwi/officenames/wfo_sea.jpg'></A></TD>
+  	
+  	
+  	
+  </TR>
+
+</TABLE>
+
+
+<form method="get" action="http://usasearch.gov/search"  name="queryfrm" id="query" style="margin-bottom:0; margin-top:0;">
+  <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+        <TR>
+                <TD BGCOLOR="0a2390" WIDTH="135" valign="top">
+                   <img name="chbmid_r1_c1" src="/images/nwscwi/navbarleft.jpg" border="0" alt="navigation bar decoration" width="94" height="23">
+                </TD>
+                <TD BGCOLOR="0a2390" width="80" class="white" id="menuitem">
+                     <a href="http://www.wrh.noaa.gov/sew" alt="Go To Home Page">Home</a>
+                </TD>
+                <TD BGCOLOR="0a2390" width="80" class="white" id="menuitem">
+								     <A HREF="http://www.weather.gov/pa" alt="Go to the important news of the day">News</a>
+                </TD>
+                <TD BGCOLOR="0a2390" width="120" class="white" id="menuitem">
+								     <A HREF="http://www.weather.gov/organization.php" alt="Go to a listing of the organizational structure of the National Weather Service">Organization</a>
+                </TD>                
+                <TD BGCOLOR="0a2390" WIDTH="165" class="white" id="menuitem">
+                    <a href="/faq.php">Frequently Asked Questions</a>
+                </TD>
+                <TD BGCOLOR="0a2390" WIDTH="90" class="white" id="menuitem">&nbsp;</TD>
+                <TD id="menuitem" class="yellow" align="left" nowrap="nowrap" width="20%" BGCOLOR="0a2390">
+<!-- Begin search code -->
+                  <input name="v:project" value="firstgov" type="hidden">
+                  <label for="query">Search&nbsp;&nbsp;</label>
+                  <input name="query" id="query" size="10" type="text"   value ="                                 +www.wrh.noaa.gov">
+                  <input name="affiliate" value="nws.noaa.gov" id="wr"   onfocus='document.queryfrm.query.value="                                 +www.wrh.noaa.gov";'  type="radio" checked="checked">
+                  <label for="wr">WR</label>
+                  <input name="affiliate" value="nws.noaa.gov" id="nws"  onfocus='document.queryfrm.query.value="";'  type="radio">
+                  <label for="nws">NWS</label>
+                  <input name="affiliate" value="noaa.gov"     id="noaa" onfocus='document.queryfrm.query.value="";'  type="radio">
+                  <label for="noaa">ALL NOAA</label> &nbsp;  
+                </td>
+                <td bgcolor="0a2390"><input type="submit" value="Go"  /></TD>
+<!-- End search code -->
+                <TD WIDTH="1" BGCOLOR="0a2390">&nbsp;</TD>
+                <TD WIDTH="1" BGCOLOR="0a2390">&nbsp;</TD>
+        </TR>
+  </TABLE>
+</form>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <TD WIDTH="131" valign=top> 
+      <FORM NAME="getForecast" METHOD="get" ACTION="/total_forecast/citysearch.php">
+        <TABLE BORDER="0" ALIGN="top" CELLPADDING="0" CELLSPACING="0" WIDTH="131">
+          <TR> 
+            <TD WIDTH="130" class="yellow" BORDERCOLOR="#003399">          
+            <center><label for="search" class="yellow">Get Local Forecast for:</label></center> 
+            </TD>          
+          </TR>
+          <TR> 
+            <TD BGCOLOR="0a2390" WIDTH="130" BORDERCOLOR="#003399"> 
+              <DIV ID="Layer2" STYLE="position:absolute; width:100px; height:115px; z-index:2; visibility: hidden">
+                 Search by city and state. Press enter or select the go button to submit request
+              </DIV>
+              <INPUT TYPE="text" NAME="search" id="search"  VALUE="Enter location ..."  onfocus="if(this.value=='Enter location ...'){this.value=''; this.style.color = '#000000';}" onblur="if(this.value==''){this.style.color='#999999'; this.value='Enter location ...';}" SIZE="9" MAXLENGTH="100" STYLE="font-size: 7pt; width: 110px; height: 20px;"><script type="text/javascript">function setLocSearchColor(){if(!(obj = document.getElementById('search'))){setTimeout(100, setLocSearchColor); return false;} if(obj.value=='Enter location ...'){obj.style.color='#999999';}} setLocSearchColor();</script>
+              <INPUT TYPE="image" src="/images/go.png" VALUE="Go" ID="progressIcon" style="position: relative; top: 4px;" alt="Go" title="Go"><!--<span style="position: relative; width: 2px; height: 16px;"><img width="1" height="16" src="/images/clear.gif"><a href="javascript:window.open('/forecast/gGeocodeHelp.html','locsearchhelp','status=0,toolbar=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1,height=500,width=500'), void(0);"><img id="progressIcon" src="/images/help.gif" width="16" height="16" align="middle" style="position: absolute; top: -1px;" border="0" alt="" title=""></a></span>-->
+<div style="position: relative; z-index: 1000;"><div id="showLocations" style="position: absolute; display: none; width: 320px; font-size: 8pt; background-color: #CCCCFF; border: 2px solid #9999FF; padding: 4px; opacity: 0.95; -moz-border-radius: 5px; -webkit-border-radius: 5px; z-index: 1000;"><input type="button" value="Close" onclick="document.getElementById('showLocations').style.display = 'none';"></div></div>
+<script src="http://www.google.com/jsapi?key=ABQIAAAAIoZKb9JrajP0IwKLFr335hTsk_juWuwt_LNtOqByAr93uT9HuRTzovVKWJSi3TQGBPsWMWPyWdIQdg&amp;client=gme-noaa" type="text/javascript"></script><script type="text/javascript" src="/forecast/gGeocode.js"></script>
+<script type="text/javascript" defer="defer">
+
+function attach(){
+        var form = document.getElementsByName('getForecast')[0];
+        if(!form){
+                setTimeout(attach, 100);
+                return;
+        }
+
+	form.search.maxLength = 120;
+        
+        form.onsubmit = function(e){
+                getLocationResults(this.search, document.getElementById('showLocations'), document.getElementById('progressIcon'));
+		return false;
+        }
+		viewport = new GLatLngBounds(new GLatLng(46.1, -126.25), new GLatLng(49.08, -120.46));
+	
+}
+
+// from http://stackoverflow.com/questions/778983/detecting-cause-of-ies-operation-aborted-issue
+function delayExecutionForIE(fnCallback) {
+      if ( typeof document.all == "object" && 
+           (document.readyState != "loaded" 
+           && document.readyState != "complete") 
+         ) {
+            try {
+                  //If IE is used, use the trick by Diego Perini
+                  //http://javascript.nwbox.com/IEContentLoaded/
+                  document.documentElement.doScroll("left");
+                  fnCallback.call(this);
+            } catch(error) {
+                  setTimeout(function(){delayExecutionForIE(fnCallback);}, 200);
+            }
+      } else {
+            fnCallback.call(this);
+      }
+}
+
+//setTimeout(attach, 1); // to (hopefully) avoid IE's "Operation aborted" error.
+delayExecutionForIE(function(){
+//	var form = document.getElementsByName('getForecast')[0];
+//	var form.search.oldonfocus = form.search.onfocus;
+//	form.search.onfocus = function(e){
+//		this.oldonfocus(e);
+		google.load("maps", "2", {callback: attach});
+//	}
+});
+
+</script>
+              <div class="yellow" style="text-align: center; padding: 0px 0px 4px 0px;">
+		                <a href="javascript:void(window.open('/forecast/gGeocodeHelp.html','locsearchhelp','status=0,toolbar=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1,height=500,width=530').focus());" style="text-decoration: underline; color: #ffff99;">Search Help</a>
+		              </div>
+              </FORM>
+            </TD>
+          </TR>
+          <TR> 
+            <TD WIDTH="133" VALIGN="top"> 
+            
+
+            
+            
+<title>SEW</title>
+
+<!-- Begin NWSCWI Menu -->              
+
+              <TABLE WIDTH="131" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+               <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="/sew/nwscwiText.php">Text only version</a></TD>
+			    </TR>
+
+				<TR>
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                </TR>
+
+                <TR> 
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">Current Warnings</TD>
+                </TR>                
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="http://www.nws.noaa.gov/alerts/">
+					<img border="0" src="http://www.wrh.noaa.gov/images/sew/rss-blue.gif" alt="rss-blue"> <img src="http://www.wrh.noaa.gov/images/sew/xml.gif" alt="xml" border="0"></a></TD>
+			    </TR>                
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">&nbsp;&nbsp;&nbsp;...<a href="/warnings.php?wfo=sew">local</a> or 
+                      <a href="http://www.nws.noaa.gov/alerts/">USA</a></TD>
+			    </TR>                
+
+                <TR>
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/sew/msh.php">Mt St. Helens</a></TD>
+                </TR>
+
+				 <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://www.wrh.noaa.gov/sew/tsunmiday.php">Tsunami Info</a></TD>
+                </TR>
+
+                <TR>
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                </TR>
+
+                <TR> 
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">Current Conditions</TD>
+                </TR>  
+                
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="http://www.weather.gov/rss/">
+					<img border="0" src="http://www.wrh.noaa.gov/images/sew/rss-blue.gif" alt="rss-blue"></a>
+					<a href="http://www.weather.gov/xml/current_obs/"><img src="http://www.wrh.noaa.gov/images/sew/xml.gif" alt="xml" border="0"></a></TD>
+                </TR>
+                
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/sew/observations.php">Observations</a></TD>
+                </TR>
+                
+                 <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">Obs Maps...</TD>
+                </TR>               
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+                  &nbsp;&nbsp;&nbsp;
+					<a href="http://www.wrh.noaa.gov/mso/fwxmaps/ksew.php">State</a> | 
+					<a href="http://www.wrh.noaa.gov/mso/fwxmaps/pgtsnd.php">
+					Pgt Sound</a></TD>
+                </TR>                
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/satellite/?wfo=sew">Satellite</a> </TD>
+                </TR>                
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="http://radar.weather.gov/radar.php?rid=atx&product=N0R&overlay=11101111&loop=no">Radar</a>&nbsp;
+					<a href="http://radar.weather.gov/ridge/kmzgenerator.php">
+					<img src="http://www.wrh.noaa.gov/images/sew/kml.gif" alt="kml" border="0"></a></TD>
+                </TR>                
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://water.weather.gov/ahps2/index.php?wfo=sew">AHPS: Rivers/Lks</a></TD>
+                </TR>                
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">Air Quality...
+      <br> &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.airnow.gov/index.cfm?action=airnow.fcsummary&stateid=56">WA</a> | <a href="http://www.airnow.gov/index.cfm?action=airnow.fcsummary&stateid=43">OR</a> |&nbsp;<a href="http://www.airnow.gov/index.cfm?action=airnow.fcsummary&stateid=6">CA</a></TD>
+                </TR>
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">&nbsp;</TD>
+                </TR>
+
+                <TR> 
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">Forecasts</TD>
+                </TR>
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://www.wrh.noaa.gov/sew/get.php?wfo=sew&pil=ZFP&sid=SEW">Wrn Wa Zone Fcst</a></TD>
+                </TR>
+
+                <TR>
+				  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">Fcst Discussion...
+				  		<br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.wrh.noaa.gov/total_forecast/getprod.php?wfo=sew&pil=afd&sid=sew">Text</a> 
+					| <a href="http://www.wrh.noaa.gov/sew/gafd/latest_webafd.html">Graphical</a></TD>
+                </TR>
+                
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/sew/forecasts.php">Public Text Fcsts</a></TD>
+                </TR>
+
+				<TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/sew/aviation.php">Aviation</a></TD>
+                </TR>
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/sew/marine_only.php">Marine</a></TD>
+                </TR>                
+
+                <TR>
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="http://www.wrh.noaa.gov/firewx/?wfo=sew">Fire Weather</a>
+					<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://forecast.weather.gov/wxplanner.php?site=sew">Activity Planner</a></TD>
+                </TR> 
+                              
+				<TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://www.wrh.noaa.gov/sew/forecast03.php">Mountains</a></TD>
+                </TR> 
+                
+				<TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/sew/hydrology.php">Hydrology</a></TD>
+                </TR>  
+                		       
+				<TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/sew/forecast05.php">Model Forecasts </a></TD>
+                </TR>
+                
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://www.wrh.noaa.gov/gis/shape.php?wfo=sew">GIS Shapefiles </a></TD>
+                </TR>
+                   
+				<TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="http://www.wrh.noaa.gov/wfoexit.php?wfo=sew&url=http://weatheroffice.ec.gc.ca/canada_e.html">
+					Canada</a> / <a href="/wfoexit.php?wfo=sew&url=http://www.worldweather.org">Int'l</a></TD>
+                </TR>
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">&nbsp;</TD>
+                </TR>
+
+                  <TR> 
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">Experimental...</TD>
+                </TR>
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="http://www.wrh.noaa.gov/forecast/wxtables/index.php?wfo=sew">Digital / Gridded 
+					</a></TD>
+                </TR>
+
+                <TR>
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">Wx Point Matrix:<br>
+				  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.wrh.noaa.gov/marine/?wfo=sew">Marine 
+					</a>/<a href="http://www.wrh.noaa.gov/firewx/fwpfm/fwpfm.php?wfo=sew&interface=firewx">Fire Wx </a></TD>
+                </TR>
+
+				 <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="http://water.weather.gov/">Precip Estimates</a></TD>
+                </TR>
+
+				 <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">&nbsp;</TD>
+                </TR>
+
+                <TR>
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">Climate/Historical </TD>
+                </TR>
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://weather.gov/climate/index.php?wfo=sew">Local</a></TD>
+                </TR>
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="http://www.weather.gov/climate/">National</a></TD>
+                </TR>
+
+				<TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="http://www.weather.gov/climate/xmacis.php?wfo=sew">
+					NowData</a></TD>
+                </TR>
+               
+				<TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://www.weather.gov/climate/local_data.php?wfo=sew">More...</a></TD>
+                </TR>
+               
+				 <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">&nbsp;</TD>
+                </TR>
+
+				<TR> 
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">Weather Safety</TD>
+                </TR>
+                
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="/sew/nwr1.php">Weather Radio</a></TD>
+                </TR>
+
+                               
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/sew/WeatherSafety.php">Safety Info</a></TD>
+                </TR>
+
+
+                <TR>
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://www.stormready.noaa.gov/">StormReady</a> </TD>
+                </TR>
+
+                <TR> 
+                 <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+				</TR>
+
+                <TR> 
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">Outreach</TD>
+                </TR>
+
+                 <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/sew/educational.php">Educational</a></TD>
+                </TR>
+
+				<TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="/sew/spotter.php">Spotters</a></TD>
+                </TR>
+                
+                			
+				<tr>
+				  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="http://www.weather.gov/information_center.php">NWS Info Center</a></TD>
+                </TR>
+
+				<tr>
+				  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="coop/">COOP Observer</a></TD>
+                </TR>
+
+				<tr>
+				  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="/sew/cocorahs.php">CoCoRaHS</a></TD>
+                </TR>
+
+
+                <TR> 
+                 <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+				</TR>
+
+                <TR> 
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">Reports</TD>
+                </TR>
+                
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://www.wrh.noaa.gov/total_forecast/getprod.php?wfo=sew&pil=RER&sid=SEW">Recent Records</a></TD>
+                </TR>
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://www.wrh.noaa.gov/total_forecast/getprod.php?wfo=sew&pil=LSR&sid=SEW">Local Storm Report</a></TD>
+                </TR>
+                
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem"><a href="http://www.wrh.noaa.gov/total_forecast/getprod.php?wfo=sew&pil=PNS&sid=SEW">Public Information </a></TD>
+                </TR>
+
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                </TR>
+
+                <TR> 
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">Miscellaneous</TD>
+                </TR>
+
+                <TR> 
+				  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP class="white" ID="menuitem">
+					<a title="NWS Seattle webcam at Sand Point/Seattle, Washington - looking north across Lake Washington" href="/sew/webcam.php">
+					SEW webcam</a></TD>
+                </TR>
+                
+                <TR> 
+				  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP class="white" ID="menuitem">
+					<a href="/sew/productinfo.php">Products and</a><br>&nbsp;&nbsp;&nbsp;&nbsp; <a href="/sew/productinfo.php">Services Guide</a></TD>
+                </TR>
+                
+
+                     
+
+                <TR> 
+				  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP class="white" ID="menuitem">
+					&nbsp;</TD>
+                </TR>
+                
+
+				<tr>
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">Contact Us</TD>
+                </tr>
+                <TR> 
+                  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP WIDTH="127" class="white" ID="menuitem">
+					<a href="/sew/faq.php">FAQ</a></TD>
+                </TR>
+
+				<tr>
+				  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP class="white" ID="menuitem"><a href="mailto:w-sew.webmaster@noaa.gov">Webmaster E-mail</a></SPAN></TD>
+                </tr>
+
+				<TR> 
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">&nbsp;</TD>
+                </TR>
+
+                <TR> 
+                  <TD COLSPAN="2" NOWRAP CLASS="yellow">&nbsp;</TD>
+                </TR>
+
+                <TR> 
+				  <TD WIDTH="4" NOWRAP>&nbsp;</TD>
+                  <TD NOWRAP class="white" ID="menuitem">
+					<a href="http://www.usa.gov/">
+					<img src="http://www.wrh.noaa.gov/images/sew/usagov.gif" alt="usagov logo"></a></SPAN></TD>
+
+                </TR>
+
+            	</TABLE>
+
+        </TD>
+        </TR>
+        </TABLE>
+      </FORM>
+<!-- End NWSCWI Menu -->
+<!-- Begin NWSCWI Banner -->
+<style>
+        pre {
+                font-size: 110%;
+        }
+</style>
+
+
+		<td valign="top" align="left"> 
+<!-- End NWSCWI Banner -->
+			<table width="100%" border="0" cellspacing="4" cellpadding="4" valign="top">
+				<tr>
+					<td colspan="3" align="left" valign="top" width="100%">
+						<a name="contents"></a>
+
+<!-- Begin Web Content -->
+
+<a name="contents"></a><a href='get.php?pil=AFD&sid=SEW&version=0&format=printer'>Printer Friendly</a> | 
+<a href="?sid=SEW&pil=AFD&version=0">Current 
+			 Version</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			 Previous Version: &nbsp;<a href="?sid=SEW&pil=AFD&version=1">1</a>&nbsp;&nbsp;<a href="?sid=SEW&pil=AFD&version=2">2</a>&nbsp;&nbsp;<a href="?sid=SEW&pil=AFD&version=3">3</a>&nbsp;&nbsp;<a href="?sid=SEW&pil=AFD&version=4">4</a>&nbsp;&nbsp;<a href="?sid=SEW&pil=AFD&version=5">5</a>&nbsp;&nbsp;<h3>AREA FORECAST DISCUSSION</h3>
+<pre>
+ 
+ FXUS66 KSEW 171709<br> AFDSEW<br> <br> AREA FORECAST DISCUSSION<br> NATIONAL WEATHER SERVICE SEATTLE WA<br> 930 AM PST FRI DEC 17 2010<br> <br> .SYNOPSIS...TODAY WILL BE A MAINLY DRY DAY FOR WESTERN WASHINGTON. A <br> DEEPENING FRONTAL SYSTEM OVER THE COASTAL WATERS WILL CAUSE SOME <br> HIGH WIND ALONG THE EAST PUGET SOUND LOWLANDS AND WEST ENTRANCE TO <br> THE STRAIT OF JUAN DE FUCA TONIGHT AND SATURDAY MORNING. SNOW IS <br> POSSIBLE AROUND HOOD CANAL SATURDAY...WITH RAIN ACROSS THE REST OF <br> THE LOWLANDS. A COLD UPPER TROUGH OFFSHORE WILL BRING PERIODS OF <br> SHOWERS TO THE AREA SATURDAY NIGHT INTO THE MIDDLE OF NEXT WEEK. <br> <br> &&<br> <br> .SHORT TERM...WEAK DIFFLUENT SOUTHWEST FLOW ALOFT CONTINUES OVER <br> WESTERN WASHINGTON THIS MORNING...WITH A STRONG WESTERLY JET ALONG <br> 37N EXTENDING INTO CALIFORNIA AND A DEEP UPPER LOW WELL OFFSHORE <br> NEAR 47N/145W. A CONVECTIVE BAND ASSOCIATED WITH WEAK SHORTWAVE <br> FEATURE IS MOVING NORTHEAST OVER THE COASTAL WATERS OF THE PACIFIC <br> NORTHWEST...BUT FOR THE TIME BEING THE FORECAST AREA IS DRY. THERE <br> ARE AREAS OF FOG MAINLY IN THE SOUTH PUGET SOUND REGION AND <br> SOUTHWEST INTERIOR...WHICH IS ALSO WHERE THE TEMPERATURE DROPPED <br> BELOW FREEZING THIS MORNING.<br> <br> THE WEAK CONVECTIVE SYSTEM OFFSHORE COULD BRING SOME SHOWERS TO THE <br> COASTAL ZONE AND OLYMPIC MOUNTAINS TODAY...AS WELL AS THE COASTAL <br> WATERS SO I WILL ISSUE A MINOR UPDATE THIS MORNING TO ADDRESS THAT. <br> <br> THE INTERACTION OF THE ZONAL JET MOVING THROUGH THE BASE OF THE <br> UPPER LOW WILL CAUSE A FRONTAL SYSTEM TO FORM AND DEEPEN RAPIDLY <br> TODAY AND TONIGHT -- PERHAPS MORE THAN 24 MB IN 24 HOURS -- AS IT <br> CURLS FROM THE WATERS WELL OFFSHORE OF CALIFORNIA NORTHEAST ALONG <br> 130W OFF THE PACIFIC NORTHWEST. THIS SYSTEM WILL HAVE A COUPLE MAJOR <br> IMPACTS ON OUR WEATHER.<br> <br> FIRST IT WILL CAUSE THE EASTERLY GRADIENT ACROSS THE REGION TO <br> STRENGTHEN CONSIDERABLY. THIS COULD PRODUCE LOCALIZED HIGH WINDS -- <br> BY DEFINITION SUSTAINED OF 40 MPH OR GUSTS TO 60 MPH -- TONIGHT <br> THROUGH SATURDAY MORNING OVER THE EAST PUGET SOUND LOWLANDS AND AT <br> THE WEST ENTRANCE TO THE STRAIT OF JUAN DE FUCA. THE FORECAST <br> PRESSURE GRADIENT IS ENOUGH TO JUSTIFY THIS CONCERN...AND THERE IS <br> THE POTENTIAL FOR MOUNTAIN WAVE AS WELL OVER THE EAST PUGET SOUND <br> LOWLANDS. WE ISSUED A HIGH WIND WATCH EARLY THURSDAY MORNING TO <br> ADDRESS THIS THREAT...AND WE WILL UPGRADE THE WATCH TO A WARNING <br> THIS MORNING.<br> <br> THE FRONTAL SYSTEM WILL ALSO SPREAD PRECIPITATION NORTHWARD ACROSS <br> THE FORECAST AREA SATURDAY. GENERALLY SPEAKING THE SNOW LEVEL WILL <br> BE IN THE 500 TO 1500 FT RANGE...BUT AN AREA OF CONCERN FOR LOW <br> ELEVATION SNOW IS THE AREA ALONG HOOD CANAL. A WEAK NORTHERLY <br> COMPONENT TO THE SURFACE PRESSURE GRADIENT WILL HELP TRAP COLD AIR <br> ALONG THE EAST SLOPES OF THE OLYMPICS IN THIS REGION...AND MODELS <br> INDICATE THE AIR MASS THERE WILL BE COLD ENOUGH FOR SNOW OR A MIX OF <br> RAIN AND SNOW. THIS IS ALREADY ADDRESSED IN OUR FORECAST.<br> <br> THE STEADY WIDESPREAD PRECIPITATION WITH THE FRONT WILL END SATURDAY <br> NIGHT...BUT SHOWERY PRECIPITATION WILL CONTINUE THROUGH SUNDAY AS <br> THE UPPER LOW MOVES INTO THE OREGON OFFSHORE WATERS AND MAINTAINS <br> MOIST SOUTHERLY FLOW AND A MARGINALLY UNSTABLE AIR MASS OVER THE <br> AREA.  MCDONNAL<br> <br> .LONG TERM...HERE IS THE LONG TERM SECTION FROM THE EARLY MORNING <br> ISSUANCE OF THE FORECAST DISCUSSION -- ANOTHER RATHER STRONG WAVE <br> PASSES BY TO THE WEST OF THE AREA MON AFTERNOON. THE 06Z GFS SHOWS <br> THIS WAVE GIVING ANOTHER POTENTIAL FOR LOCALLY STRONG EASTERLY WINDS <br> IN THE CASCADE FOOTHILLS...AND POSSIBLY ANOTHER SHOT OF SNOW FOR THE <br> AREA ALONG HOOD CANAL. THE ECMWF IS WEAKER BUT SHOWS A SIMILAR <br> PATTERN. THE OVERALL PATTERN OF A DEEP TROUGH AROUND 135W AND A <br> RIDGE OVER THE ROCKIES WITH DISTURBANCES ROTATING NORTHWARD ALONG <br> THE COAST LASTS THROUGH THE UPCOMING WEEK. ALBRECHT<br> <br> &&<br> <br> .HYDROLOGY...FLOODING IS UNLIKELY ACROSS WESTERN WASHINGTON FOR THE <br> NEXT 10 DAYS...WITH GENERALLY LOW SNOW LEVELS AND HYDROLOGICALLY <br> INSIGNIFICANT PRECIPITATION. THERE ARE NO FLOODING CONCERNS FOR THE <br> GREEN RIVER.<br> <br> && <br> <br> .AVIATION...AN UPPER LOW WILL BE OVER THE EASTERN PACIFIC WITH <br> SOUTHERLY FLOW ALOFT OVER WESTERN WASHINGTON TODAY AND TONIGHT. AT <br> THE SURFACE...A 990MB LOW WILL DEEPEN TO AROUND 980 MB AND MOVE INTO <br> THE OFFSHORE WATERS TONIGHT WITH INCREASING LOW LEVEL OFFSHORE FLOW. <br> AREAS OF MID LEVEL MOISTURE AT THE COAST. PATCHY LOW LEVEL MOISTURE <br> SOUTHWEST INTERIOR. OTHERWISE AIR DRY AND STABLE.<br> <br> INCREASING LOW LEVEL OFFSHORE GRADIENTS SHOULD KEEP SKIES VFR TODAY <br> AND TONIGHT WITH THE EXCEPTION OF SOME STUBBORN FOG PATCHES IN THE <br> SOUTHWEST INTERIOR. MID AND LOW LEVEL MOISTURE WILL BE INCREASING ON <br> SATURDAY FROM THE SOUTH AS AN UPPER SHORT ROTATING AROUND THE <br> OFFSHORE LOW MOVES INTO WESTERN WASHINGTON. <br> <br> KSEA...EAST/SOUTHEAST WIND 10-15 KT...GUSTS 20 TO 30 KT LIKELY BY <br> LATE TONIGHT. SCHNEIDER<br> <br> &&<br> <br> .MARINE...A 990 MB SURFACE LOW WILL MOVE NORTH INTO THE OFFSHORE <br> WATERS TONIGHT. THE LOW WILL THEN DO A COUNTER-CLOCKWISE CIRCULAR <br> LOOP BETWEEN 130W AND 140W OVER THE NEXT FEW DAYS...RE-ENTERING THE <br> COASTAL WATERS FROM THE SOUTHWEST SUNDAY NIGHT OR MONDAY. THE <br> RESULT WILL BE OFFSHORE FLOW FOR THE COASTAL WATERS FOR MOST OF THE <br> NEXT FIVE DAYS. THE STRONGEST OFFSHORE FLOW LOOKS TO BE TONIGHT AND <br> SATURDAY MORNING AS THE LOW MAKES ITS CLOSEST PASS IN THE OFFSHORE <br> WATERS. GALES ARE UP FOR THE COASTAL WATERS AND WESTERN HALF OF THE <br> STRAIT FOR THIS. SCHNEIDER<br> <br> <br> && <br> <br> .SEW WATCHES/WARNINGS/ADVISORIES...<br> WA...HIGH WIND WARNING FOR THE EAST PUGET SOUND LOWLANDS AND EXTREME <br>        NORTH COAST ZONE TONIGHT THROUGH MIDDAY SATURDAY.<br> <br> PZ...SMALL CRAFT ADVISORY ALL WATERS UNTIL 6 PM THIS EVENING EXCEPT <br>        ADMIRALTY INLET AND PUGET SOUND HOOD CANAL.<br>     .GALE WARNING COAST AND WEST ENTRANCE FROM 6 PM THIS EVENING<br>        THROUGH SATURDAY.<br> <br> <hr><br> <br> WWW.WEATHER.GOV/SEATTLE<br> <br> <br> <br></pre>
+
