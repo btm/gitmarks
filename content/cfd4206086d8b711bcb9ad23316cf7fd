@@ -1,0 +1,3178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script id="before-content" type="text/javascript">
+var pageload = {
+	pagemark: '393435186342614919',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+		pagemark: pageload.pagemark,
+		dom: pageload.content_ready_time,
+		js: pageload.script_ready_time
+	} });
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<meta name="description" content="Twenty Years of Dijkstra's Cruelty -- article related to Education.">
+<meta property="fb:admins" content="100000696822412">
+<meta property="fb:page_id" content="267995220856">
+<title>Twenty Years of Dijkstra's Cruelty - Slashdot</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/core-tidied.css?T_2_5_0_305" >
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/comments.css?T_2_5_0_305" >
+<!--[if lt IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie6.css?T_2_5_0_305" ><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie7.css?T_2_5_0_305" ><![endif]-->
+<!--[if gte IE 8]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie8.css?T_2_5_0_305" ><![endif]-->
+
+
+<script src="//a.fsdn.com/sd/all-minified.js?T_2_5_0_305" type="text/javascript"></script>
+<script id="after-jquery" type="text/javascript">
+(function( $, pageload, pageload_done, console ){
+$ && pageload && $(function(){
+	pageload.content_ready = (new Date).getTime();
+	pageload_done && $(function(){ pageload_done($, console, 'maybe'); });
+});
+})(window.jQuery, window.pageload, window.pageload_done, window.console);
+</script>
+<script type="text/javascript">
+(function(){
+var regexp=/\s*(?:\d+|many)\s+more\s*/i;
+
+	
+	var auto_more_count = 2;
+
+	function auto_more(){
+		var $more_link = $('#more-experiment a');
+		$more_link.each(function(){
+			var $lastitem = $('#firehoselist>div.fhitem:visible:last');
+			if ( Bounds.intersect(window, $lastitem) ) {
+			 // _any_ click can trigger, but click-specific ad will win
+				setTimeout(function(){ inlineAdFirehose($lastitem, 1); }, 0);
+			
+				!--auto_more_count && (auto_more=undefined);
+				// don't allow a call till the next paginate gets built and |more_possible|
+				$(document).unbind('scroll', call_auto_more);
+			}
+		});
+	};
+
+	function call_auto_more(){ auto_more && auto_more(); }
+	
+
+
+	
+	function hint_more( $more_link ){
+		if ( !auto_more ){
+			$more_link.
+				click(function(){
+					hint_more = undefined;
+				}).
+				after('<span id="more-hint" class="feature-hint"><em>NEW: Fetch stories in-line!</em></span>');
+		}
+	}
+	
+
+
+$('#more-experiment a').
+	live('more-possible', function( event ){
+		var $more_link=$(this);
+		if ( regexp.test($more_link.text()) ) {
+		
+			hint_more && hint_more($more_link);
+		
+		
+			$(document).bind('scroll', call_auto_more);
+		} else {
+			$(document).unbind('scroll', call_auto_more);
+		
+		}
+	});
+})();
+</script>
+
+<script type="text/javascript">
+var suggestions_for_context = {
+	nod: 'fresh funny insightful interesting maybe ',
+	nix: 'binspam dupe notthebest offtopic slownewsday stale stupid ',
+
+	tagnod: 'descriptive',
+	feedback: 'typo dupe error',
+	metanod: 'insightful interesting informative funny underrated',
+	metanix: 'offtopic flamebait troll redundant overrated'
+};
+
+</script>
+
+<script type="text/javascript">
+var adpage = 'article';
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	if($.browser.safari) {
+		$('span.tag-display').css('display','list-item !important');
+		$('span.tag-display').css('display','inline-block !important');
+		$('div#articles span.tag-display.ready.dirty').css({'padding-top':'18px !important','margin-top':'-20px !important'});
+		$('div#articles div.related').css('display','inline');
+		$('div#wrapper div.content').css('padding-top','.5em');
+	}
+
+	if($.browser.opera) {
+		$('div.tag-widget').addClass('opera');
+	}
+});
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//news.slashdot.org/search.pl">
+<link rel="author"    href="//news.slashdot.org/search.pl?op=stories&amp;author=36799">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-32013-5";
+
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32013-5']);
+  _gaq.push(['_trackPageview'],['_setDomainName', 'slashdot.org']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+<a href="#main-articles">Stories</a>
+<br>
+<a href="#blocks">Slash Boxes</a>
+<br>
+<a href="#comments">Comments</a>
+</div>
+<div id="frame">
+
+	<div class="ad1 advertisement"><!-- ad position 1 -->
+	<!-- DoubleClick Ad Tag -->
+		
+<script type="text/javascript">
+	var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+		
+
+<div id="fad1">
+		
+			
+	
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'news,education,news';
+		var parent = 'http://news.slashdot.org/news/08/12/02/1410254.shtml';
+
+	document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/education_p1_leader;pg=article;sid=08/12/02/1410254;logged_in=0;tile='+dfp_tile+';sz=728x90;tpc=education;tpc=news;u=20081202_Twenty-Years-of-Dijkstras-Cruelty_education;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+			
+		
+</div>
+<!-- End DoubleClick Ad Tag --></div>
+
+<div></div>
+<div id="topnav">
+	<div id="logo">
+		<h1>
+			<a href="//slashdot.org">Slashdot</a>
+		</h1>
+	</div>
+	<div class="search ">
+
+		<form method="get" action="//news.slashdot.org/index2.pl">
+			<fieldset>
+				<legend>Search</legend>
+				<input type="text" name="fhfilter" value="">
+				<input type="submit" value="Search" class="button">
+			</fieldset>
+		</form>
+
+	</div>
+</div>
+<div id="slogan">
+	<h2>
+		News for nerds, stuff that matters
+	</h2>
+</div>
+
+
+<div class="ad33 advertisement" style="background:#072f2e;margin:0 1.25em">
+	
+</div>
+<div id="wrapper">
+	<div id="user-section">
+		<div class="content">
+			<ul class="legacynav ">
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="//slashdot.org/my/login" onclick="show_login_box(); return false">Log In</a></li>
+					<li><a href="//slashdot.org/my/newuser" title="">Create Account</a></li>
+                                        <li><a href="//slashdot.org/help" title="Get help with your account.">Help</a></li>
+					<li><a href="//slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="//slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils" >
+                                
+											<li><a href="//slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+										
+
+										
+											<li><a href="//slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+										
+
+                                        
+
+				</ul>
+			
+				<div id="loginform">
+					<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//news.slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+
+
+
+<hr>
+
+
+<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<input type="hidden" name="slash_returnto" value="//news.slashdot.org/">
+	<input type="hidden" name="op" value="claim_openid">
+	<input type="hidden" name="openid_login" value="1">
+	<label for="openid_url" class="openid_url">
+	<input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+	</label>
+	<input type="submit" value="Log in with OpenID" class="button">
+</fieldset>
+</form>
+
+
+<p>
+<b>
+<a href="//slashdot.org/my/newuser">Create Account</a>
+&nbsp;|&nbsp;
+<a href="//slashdot.org/my/mailpassword">Retrieve Password</a>
+</b>
+</p>
+				</div>
+			
+			</div>
+		</div>
+
+
+        
+
+
+
+
+		<div id="links" >
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		
+		<h4 >
+			
+				<a class="data-title" href="//slashdot.org" >Slashdot</a>
+				
+				
+				<script type="data">{ color: "", viewname: "stories", filter: "", name: "Main", id: 13 }</script>
+
+			
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	
+		<ul id="firehose-sections">
+	<script type="data">{ active_id:35, default_id:1 }</script>
+	  		
+			
+			
+		
+		<li class="hide" id="fhsection-45">
+			<a id="fhsectiontitle-45" class="data-title" href="//amd.vendors.slashdot.org">AMD</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "vendor_amd", name: "AMD", id: 45 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-11">
+			<a id="fhsectiontitle-11" class="data-title" href="//apache.slashdot.org">Apache</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "apache", name: "Apache", id: 11 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-53">
+			<a id="fhsectiontitle-53" class="data-title" href="//apple.slashdot.org">Apple</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_apple.css?T_2_5_0_305\" title=\"apple\">", color: "", viewname: "stories", filter: "apple", name: "Apple", id: 53 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-63">
+			<a id="fhsectiontitle-63" class="data-title" href="//ask.slashdot.org">Ask Slashdot</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_askslashdot.css?T_2_5_0_305\" title=\"askslashdot\">", color: "", viewname: "stories", filter: "askslashdot", name: "Ask Slashdot", id: 63 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-31">
+			<a id="fhsectiontitle-31" class="data-title" href="//backslash.slashdot.org">Backslash</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "backslash", name: "Backslash", id: 31 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-49">
+			<a id="fhsectiontitle-49" class="data-title" href="//books.slashdot.org">Book Reviews</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "books", name: "Book Reviews", id: 49 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-5">
+			<a id="fhsectiontitle-5" class="data-title" href="//bsd.slashdot.org">BSD</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "bsd", name: "BSD", id: 5 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-61">
+			<a id="fhsectiontitle-61" class="data-title" href="//developers.slashdot.org">Developers</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_developers.css?T_2_5_0_305\" title=\"developers\">", color: "", viewname: "stories", filter: "developers", name: "Developers", id: 61 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-1">
+			<a id="fhsectiontitle-1" class="data-title" href="//entertainment.slashdot.org">Entertainment</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "entertainment", name: "Entertainment", id: 1 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-55">
+			<a id="fhsectiontitle-55" class="data-title" href="//features.slashdot.org">Features</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "features", name: "Features", id: 55 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-33">
+			<a id="fhsectiontitle-33" class="data-title" href="//games.slashdot.org">Games</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_games.css?T_2_5_0_305\" title=\"games\">", color: "", viewname: "stories", filter: "games", name: "Games", id: 33 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-43">
+			<a id="fhsectiontitle-43" class="data-title" href="//radio.slashdot.org">Geeks in Space</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "radio", name: "Geeks in Space", id: 43 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-3">
+			<a id="fhsectiontitle-3" class="data-title" href="//hardware.slashdot.org">Hardware</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_hardware.css?T_2_5_0_305\" title=\"hardware\">", color: "", viewname: "stories", filter: "hardware", name: "Hardware", id: 3 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-25">
+			<a id="fhsectiontitle-25" class="data-title" href="//idle.slashdot.org">Idle</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_idle.css?T_2_5_0_305\" title=\"idle\">", color: "", viewname: "stories", filter: "idle", name: "Idle", id: 25 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-7">
+			<a id="fhsectiontitle-7" class="data-title" href="//intel.vendors.slashdot.org">Intel</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "vendor_intel", name: "Intel", id: 7 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-39">
+			<a id="fhsectiontitle-39" class="data-title" href="//interviews.slashdot.org">Interviews</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "interviews", name: "Interviews", id: 39 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-15">
+			<a id="fhsectiontitle-15" class="data-title" href="//it.slashdot.org">IT</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_it.css?T_2_5_0_305\" title=\"it\">", color: "", viewname: "stories", filter: "it", name: "IT", id: 15 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-65">
+			<a id="fhsectiontitle-65" class="data-title" href="//linux.slashdot.org">Linux</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_linux.css?T_2_5_0_305\" title=\"linux\">", color: "", viewname: "stories", filter: "linux", name: "Linux", id: 65 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-21">
+			<a id="fhsectiontitle-21" class="data-title" href="//meta.slashdot.org">Meta</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "meta", name: "Meta", id: 21 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-47">
+			<a id="fhsectiontitle-47" class="data-title" href="//mobile.slashdot.org">Mobile</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_mobile.css?T_2_5_0_305\" title=\"mobile\">", color: "", viewname: "stories", filter: "mobile", name: "Mobile", id: 47 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="active" id="fhsection-35">
+			<a id="fhsectiontitle-35" class="data-title" href="//news.slashdot.org">News</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "news", name: "News", id: 35 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-23">
+			<a id="fhsectiontitle-23" class="data-title" href="//oracle.vendors.slashdot.org">Oracle</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "vendor_oracle", name: "Oracle", id: 23 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-27">
+			<a id="fhsectiontitle-27" class="data-title" href="//politics.slashdot.org">Politics</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_politics.css?T_2_5_0_305\" title=\"politics\">", color: "", viewname: "stories", filter: "politics", name: "Politics", id: 27 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-57">
+			<a id="fhsectiontitle-57" class="data-title" href="//polls.slashdot.org">Polls</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "polls", name: "Polls", id: 57 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-29">
+			<a id="fhsectiontitle-29" class="data-title" href="//science.slashdot.org">Science</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "science", name: "Science", id: 29 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-59">
+			<a id="fhsectiontitle-59" class="data-title" href="//search.slashdot.org">Search</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "search", name: "Search", id: 59 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-37">
+			<a id="fhsectiontitle-37" class="data-title" href="slashdot.sourceforge.net">SF.net Auth</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "sfauth", name: "SF.net Auth", id: 37 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-19">
+			<a id="fhsectiontitle-19" class="data-title" href="//slashdot.org">Taco Hell</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "tacohell", name: "Taco Hell", id: 19 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-17">
+			<a id="fhsectiontitle-17" class="data-title" href="//tech.slashdot.org">Technology</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "tech", name: "Technology", id: 17 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-67">
+			<a id="fhsectiontitle-67" class="data-title" href="//slashdot.org">The 2000 Beanies</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "awards", name: "The 2000 Beanies", id: 67 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-51">
+			<a id="fhsectiontitle-51" class="data-title" href="//thinkgeek.shill.slashdot.org">ThinkGeek</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_thinkgeek.css?T_2_5_0_305\" title=\"thinkgeek\">", color: "", viewname: "stories", filter: "thinkgeek", name: "ThinkGeek", id: 51 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="hide" id="fhsection-41">
+			<a id="fhsectiontitle-41" class="data-title" href="//vendors.slashdot.org">Vendors</a>
+			
+		<script type="data">{ color: "", viewname: "stories", filter: "vendors", name: "Vendors", id: 41 }</script>
+		</li>
+	 		
+			
+			
+		
+		<li class="" id="fhsection-9">
+			<a id="fhsectiontitle-9" class="data-title" href="//yro.slashdot.org">YRO</a>
+			
+		<script type="data">{ skin: "<link rel=\"alternate stylesheet\"  type=\"text/css\" media=\"screen, projection\" href=\"//a.fsdn.com/sd/yui_yro.css?T_2_5_0_305\" title=\"yro\">", color: "", viewname: "stories", filter: "yro", name: "YRO", id: 9 }</script>
+		</li>
+	
+</ul>
+	
+	</div>
+	
+</div>
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4><a href="//slashdot.org/help">Site Info</a></h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="//slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+			<li><a href="//slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="//slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="//polls.slashdot.org/">Old Polls</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="//slashdot.org/submission">Submit Story</a></li>
+		</ul>
+	</div>
+</div> 
+			
+		</div>
+		<div id="contents">
+
+
+
+
+		
+			<div id="article" class="aduserbox "><div id="slashboxes">
+<div class="ad83 advertisement"><!-- ad position 83 -->
+	<!-- DoubleClick Ad Tag -->
+		
+<script type="text/javascript">
+	var ad6 = 'inactive';
+</script>
+		
+
+<div id="fad83">
+		
+			
+	
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'news,education,news';
+		var parent = 'http://news.slashdot.org/news/08/12/02/1410254.shtml';
+
+	document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/education_p83_medrec;pg=article;sid=08/12/02/1410254;logged_in=0;tile='+dfp_tile+';sz=300x250,300x600;tpc=education;tpc=news;u=20081202_Twenty-Years-of-Dijkstras-Cruelty_education;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+			
+		
+</div>
+<!-- End DoubleClick Ad Tag --></div>
+	
+
+<div class="block">
+	<div class="title" id="userlogin-title">
+		<h4>
+			Slashdot Log In
+		</h4>
+	</div>
+	<div class="content" id="userlogin-content">
+		
+			<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//news.slashdot.org/article.pl?sid=08/12/02/1410254">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+
+
+
+<hr>
+
+
+<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<input type="hidden" name="slash_returnto" value="//news.slashdot.org/article.pl?sid=08/12/02/1410254">
+	<input type="hidden" name="op" value="claim_openid">
+	<input type="hidden" name="openid_login" value="1">
+	<label for="openid_url" class="openid_url">
+	<input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+	</label>
+	<input type="submit" value="Log in with OpenID" class="button">
+</fieldset>
+</form>
+
+
+<p>
+<b>
+<a href="//slashdot.org/my/newuser">Create Account</a>
+&nbsp;|&nbsp;
+<a href="//slashdot.org/my/mailpassword">Retrieve Password</a>
+</b>
+</p>
+		
+	</div>
+</div>
+
+
+
+
+</div>
+<a name="main-articles"></a>
+<div id="articles">
+
+<div class="article" id="art1">
+<span class="sd-info-block" style="display: none">
+	<span class="sd-key-sid">08/12/02/1410254</span>
+	<span class="type">story</span>
+	
+</span>
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			Twenty Years of Dijkstra's Cruelty
+			
+		</h3>
+	</div>
+</div>
+	<div class="details"><small>
+
+	
+	Posted by
+	
+	<a href="http://www.monkey.org/~timothy/">timothy</a>
+
+	on Tue Dec 02, 2008 09:46 AM<br>
+	from the pleasant-legacy dept.
+	</small></div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="//news.slashdot.org/search.pl?tid=116">
+				<img src="//a.fsdn.com/sd/topics/topiced.gif" width="87" height="64" alt="Education" title="Education" >
+			</a>
+		
+		
+			
+		
+		</div>
+		<div class="intro">
+			<a href="mailto:watersofmemory@gmail.com" rel="nofollow">WatersOfOblivion</a> writes <i>"Twenty years ago today, <a href="http://en.wikipedia.org/wiki/Edsger_Dijkstra">Edsger Dijkstra</a>, the greatest computer scientist to never own a computer, hand wrote and distributed '<a href="http://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1036.PDF">On the Cruelty of Really Teaching Computer Science</a>' (PDF), discussing the then-current state of Computer Science education.  Twenty years later, does what he said still hold true?  I know it is not the case where I went to school, but have most schools corrected course and are now being necessarily cruel to their Computer Science students?"</i> Bonus: Dijkstra's handwriting.
+		</div>
+
+
+
+
+
+		
+
+
+
+
+
+
+
+	</div>
+	<div class="tags"><span id="updown-" class="vote">
+	<a href="//news.slashdot.org/faq/UI.shtml#ui700" onclick="return false" class="up" title="Vote this item up">+</a>
+	<a href="//news.slashdot.org/faq/UI.shtml#ui700" onclick="return false" class="down" title="Vote this item down">-</a>
+</span></div>
+
+<menu type="toolbar" class="edit-bar">
+	
+	<a class="edit-toggle"><span class="button collapse"></span></a>
+	<input class="tag-entry default" type="text" size="10" style="display:none" value="apply tags">
+
+	<span id="tagbar-" class="tag-bar"><a class="topic main domain tag" rel="tag" href="/tag/slashdot" target="_blank">slashdot</a>
+<a class="popular tag" rel="tag" href="/tag/education" target="_blank">education</a>
+<a class="popular tag" rel="tag" href="/tag/askslashdot" target="_blank">askslashdot</a>
+<a class="popular tag" rel="tag" href="/tag/pdf" target="_blank">pdf</a>
+<a class="popular tag" rel="tag" href="/tag/news" target="_blank">news</a>
+<a class="popular tag" rel="tag" href="/tag/getoffmylawn" target="_blank">getoffmylawn</a>
+<a class="datatype pseudo-tag" target="_blank">story</a>
+</span>
+
+	<div class="spinner">
+	<span class="tag-server-busy spinner" style="display:none">*</span>
+	</div>
+		
+</menu>
+</div>
+<div class="prev-next">
+
+</div>
+
+
+
+
+	<p></p>
+	<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			Related Stories
+			
+		</h3>
+	</div>
+</div>
+	<div class="briefarticle brieffirehose">
+	<span class="storytitle"><a href="//news.slashdot.org/submission/904635/Twenty-Years-of-Cruelty">Submission: Twenty Years of Cruelty</a></span> by <a href="//slashdot.org/~WatersOfOblivion">WatersOfOblivion (1215490)</a>
+</div>
+
+
+</div><a name="comments"></a>
+<div class="commentwrap">
+<div class="commentBox">
+			
+
+		
+			
+				This discussion has been archived.
+			
+			No new comments can be posted.
+		
+	
+</div>
+</div><a name="acomments"></a>
+<div class="commentwrap" id="commentwrap">
+
+<div class="commentBox" style="font-size: 120%">
+	<div>
+<span class="escape-link"><a href="//news.slashdot.org/article.pl?sid=08/12/02/1410254" title="Back to Article - Twenty Years of Dijkstra's Cruelty">Twenty Years of Dijkstra's Cruelty</a></span>
+<span class="commentBoxLinks"><a href="#" onclick="D2.ajaxFetchComments(0,1); return false"><span id="more_comments_num_d"></span> More</a>
+
+
+
+
+
+	<a class="login"  href="//news.slashdot.org/login.pl" onclick="show_login_box(); return false">Login</a></span>
+	</div>
+</div>
+
+	<div class="commentBoxForm" id="commentControlBox">
+<div></div>
+	<div class="commentBox">
+		<small>
+		<b>The Fine Print:</b> The following comments are owned by whoever posted them.  We are not responsible for them in any way.
+		
+		</small>
+<noscript><br><small>Without JavaScript enabled, you might want to
+use <a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;no_d2=1&amp;pid=0">the classic discussion system</a> instead.  If you <a href="//news.slashdot.org/login.pl">login</a>, you can remember this preference.
+</small></noscript>
+	</div>
+	</div>
+	
+		<div id="d2out" class="horizontal">
+		<div id="d2act" class="hide">
+		<div class="loki" id="gods">
+		<div class="block">
+			<div class="title">
+
+				<h4>
+				
+					<span class="h-inline">
+					<a href="//news.slashdot.org/article.pl?sid=08/12/02/1410254" title="Back to Article - Twenty Years of Dijkstra's Cruelty">Twenty Years of Dijkstra's Cruelty</a></span>
+					<span class="titlecount"><a href="//news.slashdot.org/article.pl?sid=08/12/02/1410254#topcomment" title="Back to Top Comment - Twenty Years of Dijkstra's Cruelty"><span id="titlecountnum">50</span> <span>Comments</span></a></span>
+				
+		<span class="ccw-header-links"><a href="#" onclick="D2.ajaxFetchComments(0,1); return false"><span id="more_comments_num_b"></span> More</a>
+
+
+
+
+
+	<a class="login"  href="//news.slashdot.org/login.pl" onclick="show_login_box(); return false">Login</a></span>
+		<span id="d2toggle" title="Toggle window location" onclick="D2.toggleWidgetRooted(); return false;" class="close">/</span>
+				</h4>
+			</div>
+		</div>
+<script type="text/javascript">
+$(function(){
+	D2.slider = new D2.Slider(
+		D2.user_threshold(),
+		D2.user_highlightthresh(),
+		'x'
+	);
+});
+</script>
+		<div id="bones">
+      <div id="ccw">
+        <div id="ccw-body" class="ccw-core">
+          <div id="ccw-panel-container" class="ccw-core">
+            <div id="ccw-full-panel" class="ccw-panel">
+              <div class="ccw-panel-border"></div>
+              <div id="ccw-full-count-pos" class="ccw-core-pos ccw-count-pos">
+                <span id="ccw-full-count-text" class="ccw-count-text"><span></span><span id="ccw-full-phrase">&nbsp;Full</span></span>
+              </div>
+            </div>
+            <div id="ccw-abbr-panel" class="ccw-panel">
+              <div class="ccw-panel-border"></div>
+              <div id="ccw-abbr-count-pos" class="ccw-core-pos ccw-count-pos">
+                <span id="ccw-abbr-count-text" class="ccw-count-text"><span></span><span id="ccw-abbr-phrase">&nbsp;Abbreviated</span></span>
+              </div>
+            </div>
+            <div id="ccw-hide-panel" class="ccw-panel">
+              <div id="ccw-hide-count-pos" class="ccw-core-pos ccw-count-pos">
+                <span id="ccw-hide-count-text" class="ccw-count-text"><span></span><span id="ccw-hide-phrase">&nbsp;Hidden</span></span>
+              </div>
+            </div>
+          </div>
+    
+          <div id="ccw-control" class="ccw-core">
+            <div id="ccw-centering-rail" class="ccw-core">
+              <div id="ccw-hide-bar-pos" class="ccw-core-pos">
+                <div id="ccw-hide-bar" class="ccw-bar">
+                  <div id="ccw-hide-bar-tab" class="ccw-bar-tab"></div>
+                  <div id="ccw-hide-bar-upzone" class="ccw-upzone" onclick="D2.slider.stepTHT(HIDE_BAR, +1)"></div>
+                  <div id="ccw-hide-bar-downzone" class="ccw-downzone" onclick="D2.slider.stepTHT(HIDE_BAR, -1)"></div>
+                </div>
+              </div>
+              <div id="ccw-abbr-bar-pos" class="ccw-core-pos">
+                <div id="ccw-abbr-bar" class="ccw-bar">
+                  <div id="ccw-abbr-bar-tab" class="ccw-bar-tab"></div>
+                  <div id="ccw-abbr-bar-upzone" class="ccw-upzone" onclick="D2.slider.stepTHT(ABBR_BAR, +1)"></div>
+                  <div id="ccw-abbr-bar-downzone" class="ccw-downzone" onclick="D2.slider.stepTHT(ABBR_BAR, -1)"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+		</div>
+		<div class="commentControlFooter"><a href="#" onclick="D2.ajaxFetchComments(0,1); return false"><span id="more_comments_num_c"></span> More</a>
+
+
+
+
+
+	<a class="login"  href="//news.slashdot.org/login.pl" onclick="show_login_box(); return false">Login</a><div id="login_cover" style="display:none" onclick="hide_login_box()"></div>
+<div id="login_box" style="display:none">
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			Please Log In to Continue<a href="#" onclick="hide_login_box(); return false" class="close" title="Close this box">x</a>
+			
+		</h3>
+	</div>
+</div>
+<div id="login_box_content">
+<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//news.slashdot.org/comments.pl?sid=1048087">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+
+
+
+<hr>
+
+
+<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<input type="hidden" name="slash_returnto" value="//news.slashdot.org/comments.pl?sid=1048087">
+	<input type="hidden" name="op" value="claim_openid">
+	<input type="hidden" name="openid_login" value="1">
+	<label for="openid_url" class="openid_url">
+	<input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+	</label>
+	<input type="submit" value="Log in with OpenID" class="button">
+</fieldset>
+</form>
+
+
+<p>
+<b>
+<a href="//slashdot.org/my/newuser">Create Account</a>
+&nbsp;|&nbsp;
+<a href="//slashdot.org/my/mailpassword">Retrieve Password</a>
+</b>
+</p>
+</div></div>
+<script type="text/javascript">logged_in = 0</script></div>
+		<div id="commentControlBoxStatus" class="hide"><b>Loading... please wait.</b></div>
+	</div>
+</div>
+		</div>
+	
+</div>
+<a name="topcomment"></a><script src="//a.fsdn.com/sd/comments-minified.js?T_2_5_0_305" type="text/javascript"></script>
+	<script type="text/javascript">
+<!--
+	D2.d2_keybindings_disable()[191] = 1;
+	D2.boxStatus(1);
+D2.comments({ 25959419: { uid: 704420, pid: 25959367, subject: "Re:Hmmm...", read: 0, points: 4, kids: [ 25959477 ], opid: 25959367 }, 25960339: { uid: undefined, pid: 25959303, read: 0, points: -2, kids: [ 25961865 ], opid: undefined }, 25960159: { uid: undefined, pid: 25959273, read: 0, points: -2, kids: [ 25960873 ], opid: undefined }, 25959921: { uid: 611928, pid: 25959745, subject: "Re:Cruel and couldn't use a computer", read: 0, points: 4, kids: [  ], opid: 25959745 }, 25959629: { uid: 563838, pid: 25959273, subject: "Re:The Text", read: 0, points: 4, kids: [  ], opid: 25959273 }, 25960873: { uid: 995864, pid: 25960159, subject: "Re:The Text", read: 0, points: 5, kids: [  ], opid: 25960159 }, 25960807: { uid: 116413, pid: 25959871, subject: "Re:Hmmm...", read: 0, points: 5, kids: [  ], opid: 25959871 }, 25961959: { uid: 622222, pid: 25960823, subject: "Re:The Text", read: 0, points: 5, kids: [  ], opid: 25960823 }, 25960665: { uid: 922175, pid: 25959813, subject: "Re:The Text", read: 0, points: 5, kids: [  ], opid: 25959813 }, 25959745: { uid: 1751, pid: 25959423, subject: "Re:Cruel and couldn't use a computer", read: 0, points: 5, kids: [ 25959921, 25960067 ], opid: 25959423 }, 25959787: { uid: 156273, pid: 25959633, subject: "Re:engineering", read: 0, points: 5, kids: [  ], opid: 25959633 }, 25960403: { uid: 856482, pid: 0, read: 0, points: 5, kids: [  ], opid: 0 }, 25961347: { uid: 581437, pid: 25960815, subject: "Re:The Text", read: 0, points: 5, kids: [ 25962469 ], opid: 25960815 }, 25959433: { uid: 55544, pid: 0, read: 0, points: 5, kids: [  ], opid: 0 }, 25959273: { uid: 898314, pid: 0, read: 0, points: 5, kids: [ 25959329, 25959629, 25960159, 25960171, 25960257, 25960815 ], opid: 0 }, 25962277: { uid: 11190, pid: 25961999, subject: "Re:The Text", read: 0, points: 5, kids: [  ], opid: 25961999 }, 25960255: { uid: 698429, pid: 25959581, subject: "Re:Hmmm...", read: 0, points: 5, kids: [  ], opid: 25959581 }, 25960101: { uid: 1180033, pid: 25959707, subject: "Re:Professionals should know their tools", read: 0, points: 5, kids: [  ], opid: 25959707 }, 25961009: { uid: 13619, pid: 25959423, read: 0, points: 5, kids: [ 25962169 ], opid: 25959423 }, 25960225: { uid: undefined, pid: 0, read: 0, points: -2, kids: [ 25960557 ], opid: undefined }, 25962783: { uid: 581437, pid: 25962469, subject: "Re:The Text", read: 0, points: 5, kids: [  ], opid: 25962469 }, 25960799: { uid: 1318765, pid: 25959395, subject: "Re:Mine was certainly cruel to us", read: 0, points: 5, kids: [  ], opid: 25959395 }, 25961999: { uid: undefined, pid: 25961279, read: 0, points: -2, kids: [ 25962253, 25962277 ], opid: undefined }, 25960557: { uid: 537200, pid: 25960225, subject: "Re:Dijkstra is the typical head-up-arse CS crack", read: 0, points: 5, kids: [  ], opid: 25960225 }, 25959367: { uid: undefined, pid: 0, read: 0, points: -2, kids: [ 25959419, 25959437, 25959527, 25959645, 25959883, 25960201 ], opid: undefined }, 25959437: { uid: 721849, pid: 25959367, subject: "Re:Hmmm...", read: 0, points: 5, kids: [ 25959581 ], opid: 25959367 }, 25959477: { uid: 692006, pid: 25959419, subject: "Re:Hmmm...", read: 0, points: 5, kids: [ 25959761, 25959871 ], opid: 25959419 }, 25959527: { uid: 126918, pid: 25959367, read: 0, points: 5, kids: [ 25959707, 25959781 ], opid: 25959367 }, 25961597: { uid: 1095745, pid: 25959929, subject: "Re:Mine was certainly cruel to us", read: 0, points: 5, kids: [  ], opid: 25959929 }, 25960295: { uid: 966971, pid: 25959871, subject: "Re:Hmmm...", read: 0, points: 5, kids: [  ], opid: 25959871 }, 25962253: { uid: undefined, pid: 25961999, read: 0, points: -2, kids: [ 25962835 ], opid: undefined }, 25959399: { uid: undefined, pid: 0, read: 0, points: -2, kids: [ 25959633 ], opid: undefined }, 25959645: { uid: 1787, pid: 25959367, subject: "Re:Hmmm...", read: 0, points: 5, kids: [  ], opid: 25959367 }, 25959423: { uid: 635339, pid: 0, read: 0, points: 5, kids: [ 25959745, 25961009 ], opid: 0 }, 25959943: { uid: 1052274, pid: 25959761, subject: "Re:Hmmm...", read: 0, points: 4, kids: [  ], opid: 25959761 }, 25959633: { uid: undefined, pid: 25959399, read: 0, points: -2, kids: [ 25959787 ], opid: undefined }, 25961031: { uid: 667058, pid: 25960257, subject: "Re:The Text", read: 0, points: 5, kids: [  ], opid: 25960257 }, 25959813: { uid: 774631, pid: 25959329, subject: "Re:The Text", read: 0, points: 5, kids: [ 25960665 ], opid: 25959329 }, 25959303: { uid: 947531, pid: 0, read: 0, points: 5, kids: [ 25959395, 25959965, 25960339 ], opid: 0 }, 25961763: { uid: 867955, pid: 25959929, subject: "Re:Mine was certainly cruel to us", read: 0, points: 5, kids: [  ], opid: 25959929 }, 25959835: { uid: 262795, pid: 0, read: 0, points: 5, kids: [  ], opid: 0 }, 25959395: { uid: undefined, pid: 25959303, read: 0, points: -2, kids: [ 25959667, 25960799 ], opid: undefined }, 25960171: { uid: undefined, pid: 25959273, read: 0, points: -2, kids: [ 25960823 ], opid: undefined }, 25963099: { uid: 519638, pid: 25961279, subject: "Re:The Text", read: 0, points: 5, kids: [  ], opid: 25961279 }, 25959567: { uid: 741866, pid: 0, read: 0, points: 5, kids: [  ], opid: 0 }, 25959667: { uid: undefined, pid: 25959395, read: 0, points: -2, kids: [ 25959849, 25959929 ], opid: undefined }, 25959929: { uid: 324012, pid: 25959667, subject: "Re:Mine was certainly cruel to us", read: 0, points: 5, kids: [ 25961597, 25961763 ], opid: 25959667 }, 25959883: { uid: 7485, pid: 25959367, subject: "Re:Hmmm...", read: 0, points: 5, kids: [  ], opid: 25959367 }, 25962781: { uid: 106458, pid: 0, read: 0, points: 5, kids: [  ], opid: 0 }, 25959707: { uid: undefined, pid: 25959527, read: 0, points: -2, kids: [ 25960101 ], opid: undefined }, 25960067: { uid: 966293, pid: 25959745, subject: "Re:Cruel and couldn't use a computer", read: 0, points: 5, kids: [  ], opid: 25959745 }, 25959871: { uid: 411219, pid: 25959477, subject: "Re:Hmmm...", read: 0, points: 5, kids: [ 25960295, 25960807 ], opid: 25959477 }, 25961073: { uid: 765, pid: 0, read: 0, points: 5, kids: [  ], opid: 0 }, 25960823: { uid: undefined, pid: 25960171, read: 0, points: -2, kids: [ 25961959 ], opid: undefined }, 25960201: { uid: 112599, pid: 25959367, subject: "Re:Hmmm...", read: 0, points: 5, kids: [  ], opid: 25959367 }, 25962169: { uid: 953502, pid: 25961009, read: 0, points: 5, kids: [  ], opid: 25961009 }, 25961865: { uid: 641858, pid: 25960339, subject: "Re:Mine was certainly cruel to us", read: 0, points: 5, kids: [  ], opid: 25960339 }, 25959761: { uid: undefined, pid: 25959477, read: 0, points: -2, kids: [ 25959943 ], opid: undefined }, 25962469: { uid: undefined, pid: 25961347, read: 0, points: -2, kids: [ 25962783 ], opid: undefined }, 25959581: { uid: 21672, pid: 25959437, subject: "Re:Hmmm...", read: 0, points: 5, kids: [ 25960255 ], opid: 25959437 }, 25961279: { uid: 1243528, pid: 25960815, subject: "Re:The Text", read: 0, points: 5, kids: [ 25961999, 25963099 ], opid: 25960815 }, 25962835: { uid: 56499, pid: 25962253, subject: "Re:The Truth", read: 0, points: 5, kids: [  ], opid: 25962253 }, 25960257: { uid: undefined, pid: 25959273, read: 0, points: -2, kids: [ 25961031 ], opid: undefined }, 25959849: { uid: 816035, pid: 25959667, subject: "Re:Mine was certainly cruel to us", read: 0, points: 4, kids: [  ], opid: 25959667 }, 25959329: { uid: undefined, pid: 25959273, read: 0, points: -2, kids: [ 25959813 ], opid: undefined }, 25959781: { uid: 1267986, pid: 25959527, subject: "Re:Professionals should know their tools", read: 0, points: 5, kids: [  ], opid: 25959527 }, 25960815: { uid: undefined, pid: 25959273, read: 0, points: -2, kids: [ 25961279, 25961347 ], opid: undefined }, 25959965: { uid: 1083577, pid: 25959303, subject: "Re:Mine was certainly cruel to us", read: 0, points: 5, kids: [  ], opid: 25959303 } });
+
+D2.thresh_totals({6:{6:{1:50,3:0,2:0}},4:{6:{1:0,3:9,2:41},4:{1:0,3:50,2:0},5:{1:0,3:45,2:5}},1:{6:{1:0,3:9,2:41},4:{1:0,3:50,2:0},1:{1:0,3:50,2:0},3:{1:0,3:50,2:0},2:{1:0,3:50,2:0},5:{1:0,3:45,2:5}},3:{6:{1:0,3:9,2:41},4:{1:0,3:50,2:0},3:{1:0,3:50,2:0},5:{1:0,3:45,2:5}},0:{6:{1:0,3:9,2:41},4:{1:0,3:50,2:0},1:{1:0,3:50,2:0},3:{1:0,3:50,2:0},0:{1:0,3:50,2:0},2:{1:0,3:50,2:0},5:{1:0,3:45,2:5}},2:{6:{1:0,3:9,2:41},4:{1:0,3:50,2:0},3:{1:0,3:50,2:0},2:{1:0,3:50,2:0},5:{1:0,3:45,2:5}},5:{6:{1:5,3:9,2:36},5:{1:5,3:45,2:0}},"-1":{6:{1:0,3:9,2:41},4:{1:0,3:50,2:0},1:{1:0,3:50,2:0},3:{1:0,3:50,2:0},0:{1:0,3:50,2:0},2:{1:0,3:50,2:0},5:{1:0,3:45,2:5},"-1":{1:0,3:50,2:0}}});
+
+D2.root_comment(0);
+D2.root_comments([25959273,25959303,25959423,25959433,25959567,25959835,25960403,25961073,25962781,25959367,25959399,25960225]);
+D2.root_comments_hash({25959399:1,25959423:1,25960403:1,25959433:1,25959273:1,25960225:1,25959367:1,25959303:1,25959835:1,25959567:1,25962781:1,25961073:1});
+
+D2.d2_comment_order(0);
+D2.user_uid(666);
+D2.user_is_anon(1);
+D2.user_is_admin(0);
+D2.user_is_subscriber(0);
+D2.user_smallscreen(0);
+D2.user_threshold(1);
+D2.user_highlightthresh(4);
+D2.user_d2asp(0);
+
+D2.discussion_id(1048087);
+
+D2.d2_seen('25959273,30,116,4,10,4,40,50,40,14,48,16,100,36,6,26,22,14,22,12,38,8,14,22,102,34,100,54,40,108,154,108,134,8,66,136,22,42,206,68,250,166,102,94,210,108,504,2,52,264');
+D2.more_comments_num(677);
+
+
+//-->
+	</script>
+
+
+
+
+	
+	
+	
+	
+		<ul id="commentlisting" class="d2">
+			<li id="tree_25959273" class="comment contain">
+<div id="comment_status_25959273" class="commentstatus"></div>
+<div id="comment_25959273" class="full">
+	<div id="comment_top_25959273" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959273" name="comment_link_25959273" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959273" onclick="return D2.setFocusComment(25959273)">The Text</a>
+
+
+		 	<span id="comment_score_25959273" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959273); return false">Score:5</a>, Informative)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~eldavojohn">eldavojohn <span class="uid">(898314)</span></a> <a href="/faq/com-mod.shtml#cm2600">*</a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959273">		 &lt;<a href="mailto:my%2F.username%40%40%40gmail.com">my/.username@@@gmail.com</a>&gt;
+		on Tuesday December 02 2008, @09:46AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959273">#25959273</a>)
+		<small><a href="http://www.amazon.com/wishlist/2SL6JMG7VS9PX" title="http://www.amazon.com/wishlist/2SL6JMG7VS9PX" class="user_homepage_display">Homepage</a>
+<a href="//slashdot.org/~eldavojohn/journal/" title="Monday October 11, @06:24AM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959273">
+
+For those of you looking for some old fashioned HyperText Markup Language, here is <a href="http://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html" title="utexas.edu">a transcription of the 892 KB PDF to HTML by Javier Smaldone</a> [utexas.edu].  <br> <br>
+
+While the handwriting <i>is</i> a novelty (and the PDF is actually small for a PDF), I question how long that server is going to last.  <br> <br>
+
+Also (and yes this is nitpicking), I must contest this:<p><div class="quote"><p>Edsger Dijkstra, the greatest computer scientist to never own a computer</p></div><p>I submit for consideration <a href="http://en.wikipedia.org/wiki/Alan_Turing" title="wikipedia.org">Alan Turing</a> [wikipedia.org] who may have designed the ACE and worked on the earliest computer (<a href="http://en.wikipedia.org/wiki/Manchester_Mark_I" title="wikipedia.org">The Manchester Mark I</a> [wikipedia.org]) although never really <b>owned</b> it or any other computer.  I think a lot of people identify him as not only a hero of World War II but also the father of all computers.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959273">
+
+</div>
+</div>
+
+<div id="replyto_25959273"></div>
+
+<ul id="group_25959273">
+	<li id="hiddens_25959273" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959273"><li id="tree_25959629" class="comment contain">
+<div id="comment_status_25959629" class="commentstatus"></div>
+<div id="comment_25959629" class="full">
+	<div id="comment_top_25959629" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959629" name="comment_link_25959629" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959629" onclick="return D2.setFocusComment(25959629)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25959629" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959629); return false">Score:4</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~dkleinsc">dkleinsc <span class="uid">(563838)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959629">		
+		on Tuesday December 02 2008, @10:11AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959629">#25959629</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959629"><p>I'd think Ada Lovelace would have a better claim there, given that not only did she never own a computer, they didn't even exist and there was at the time no such thing as a "program".</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959629">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959273" onclick="return D2.selectParent(25959273)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959629"></div>
+
+<ul id="group_25959629">
+	<li id="hiddens_25959629" class="hide"></li>
+</ul>
+
+</li><li id="tree_25959329" class="comment">
+<div id="comment_status_25959329" class="commentstatus"></div>
+<div id="comment_25959329" class="hidden">
+</div>
+
+<div id="replyto_25959329"></div>
+
+<ul id="group_25959329">
+	<li id="hiddens_25959329" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959329"><li id="tree_25959813" class="comment contain">
+<div id="comment_status_25959813" class="commentstatus"></div>
+<div id="comment_25959813" class="full">
+	<div id="comment_top_25959813" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959813" name="comment_link_25959813" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959813" onclick="return D2.setFocusComment(25959813)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25959813" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959813); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~wilder_card">wilder_card <span class="uid">(774631)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959813">		
+		on Tuesday December 02 2008, @10:23AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959813">#25959813</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959813">What do you think this is, wikipedia?</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959813">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959329" onclick="return D2.selectParent(25959329)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959813"></div>
+
+<ul id="group_25959813">
+	<li id="hiddens_25959813" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959813"><li id="tree_25960665" class="comment contain">
+<div id="comment_status_25960665" class="commentstatus"></div>
+<div id="comment_25960665" class="full">
+	<div id="comment_top_25960665" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960665" name="comment_link_25960665" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960665" onclick="return D2.setFocusComment(25960665)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25960665" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960665); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~nschubach">nschubach <span class="uid">(922175)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960665">		
+		on Tuesday December 02 2008, @11:16AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960665">#25960665</a>)
+		<small><a href="//slashdot.org/~nschubach/journal/" title="Tuesday March 17 2009, @03:01PM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960665"><p><div class="quote"><p>What do you think this is, wikipedia?[<i>citation needed</i>]</p></div></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960665">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959813" onclick="return D2.selectParent(25959813)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25960665"></div>
+
+<ul id="group_25960665">
+	<li id="hiddens_25960665" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li><li id="tree_25960159" class="comment">
+<div id="comment_status_25960159" class="commentstatus"></div>
+<div id="comment_25960159" class="hidden">
+</div>
+
+<div id="replyto_25960159"></div>
+
+<ul id="group_25960159">
+	<li id="hiddens_25960159" class="hide"></li>
+</ul>
+
+<ul id="commtree_25960159"><li id="tree_25960873" class="comment contain">
+<div id="comment_status_25960873" class="commentstatus"></div>
+<div id="comment_25960873" class="full">
+	<div id="comment_top_25960873" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960873" name="comment_link_25960873" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960873" onclick="return D2.setFocusComment(25960873)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25960873" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960873); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~chunkyq">chunkyq <span class="uid">(995864)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960873">		
+		on Tuesday December 02 2008, @11:26AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960873">#25960873</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960873">Turning? TurNing?!
+<br>
+Woe be to us, for all is certainly lost.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960873">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25960159" onclick="return D2.selectParent(25960159)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25960873"></div>
+
+<ul id="group_25960873">
+	<li id="hiddens_25960873" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_25960257" class="comment">
+<div id="comment_status_25960257" class="commentstatus"></div>
+<div id="comment_25960257" class="hidden">
+</div>
+
+<div id="replyto_25960257"></div>
+
+<ul id="group_25960257">
+	<li id="hiddens_25960257" class="hide"></li>
+</ul>
+
+<ul id="commtree_25960257"><li id="tree_25961031" class="comment contain">
+<div id="comment_status_25961031" class="commentstatus"></div>
+<div id="comment_25961031" class="full">
+	<div id="comment_top_25961031" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25961031" name="comment_link_25961031" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961031" onclick="return D2.setFocusComment(25961031)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25961031" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25961031); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~msuarezalvarez">msuarezalvarez <span class="uid">(667058)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25961031">		
+		on Tuesday December 02 2008, @11:37AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961031">#25961031</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25961031">But what a troll! Look around and see the pityful kind of trolls we are mostly left with now<nobr> <wbr></nobr>:(</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25961031">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25960257" onclick="return D2.selectParent(25960257)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25961031"></div>
+
+<ul id="group_25961031">
+	<li id="hiddens_25961031" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_25960815" class="comment">
+<div id="comment_status_25960815" class="commentstatus"></div>
+<div id="comment_25960815" class="hidden">
+</div>
+
+<div id="replyto_25960815"></div>
+
+<ul id="group_25960815">
+	<li id="hiddens_25960815" class="hide"></li>
+</ul>
+
+<ul id="commtree_25960815"><li id="tree_25961279" class="comment contain">
+<div id="comment_status_25961279" class="commentstatus"></div>
+<div id="comment_25961279" class="full">
+	<div id="comment_top_25961279" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25961279" name="comment_link_25961279" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961279" onclick="return D2.setFocusComment(25961279)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25961279" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25961279); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~theaveng">theaveng <span class="uid">(1243528)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25961279">		
+		on Tuesday December 02 2008, @11:50AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961279">#25961279</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25961279"><p>No.</p><p>(1)   His argument is that to discuss "software engineering" is as silly as to discuss "algebra engineering" or "formula engineering" in math courses.  A program is simply a formula to be executed - nothing more - says the Computer Science professor.</p><p>(2)  Programs manipulate numbers.  Mathematic formulae manipulate numbers.  It's an entirely reasonable conclusion that he has reached that a program is merely a formula.</p><p>(3) Putting pretty pictures on screen or manipulating airplane surfaces (my specialty) is still just formula execution.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25961279">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25960815" onclick="return D2.selectParent(25960815)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25961279"></div>
+
+<ul id="group_25961279">
+	<li id="hiddens_25961279" class="hide"></li>
+</ul>
+
+<ul id="commtree_25961279"><li id="tree_25963099" class="comment contain">
+<div id="comment_status_25963099" class="commentstatus"></div>
+<div id="comment_25963099" class="full">
+	<div id="comment_top_25963099" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25963099" name="comment_link_25963099" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25963099" onclick="return D2.setFocusComment(25963099)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25963099" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25963099); return false">Score:5</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~raddan">raddan <span class="uid">(519638)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25963099">		
+		on Tuesday December 02 2008, @01:36PM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25963099">#25963099</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25963099">1. Computers are physical machines.  The bounds of those machines are, in many cases, not fully understood, and in other cases, too complex for a single person to understand fully.
+<br> <br>
+2. True-- but you're forgetting about the execution domain.  Dijkstra points out that computers are simply "symbolic manipulators", and this is certainly true, but that does not make them general-purpose symbolic manipulators in the same way that a human is.  A programmer must go to great lengths to ensure that, i.e., the number 1/10 or pi is preserved throughout the calculation chain, and doing so is computationally expensive.  Sometimes prohibitively so.  This is where engineering comes in, because if there's one thing engineers are really good at, it's deciding when something is "good enough" or not.
+<br> <br>
+3. Sure, if you fully understand the phenomena.  Are you telling me that your computational model fully accounts for turbulence?
+<br> <br>
+What Dijkstra does not seem to understand is that engineering does not eschew mathematics.  Engineers use the <i>same</i> theoretical knowledge that mathematicians and physicists do&mdash; they use the <i>same</i> analytical tools.  Engineering is, rather, a superset of those analytical tools.  It includes some new tools in order to deal with the complexity of certain tasks that are above the ability of most normal humans to solve.  It is remarkably good at this.
+<br> <br>
+Throwing out engineering because it will never solve the problem fully is like throwing the baby out with the bath water.  Better solutions will emerge&mdash; functional programming, for instance, is very promising in many ways.  I've read Dijkstra before, and I have great respect for him <i>particularly</i> because of his actual experience building large software systems.  But this paper makes him sound like a bitter old man; maybe he didn't like the direction the field was moving.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25963099">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25961279" onclick="return D2.selectParent(25961279)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25963099"></div>
+
+<ul id="group_25963099">
+	<li id="hiddens_25963099" class="hide"></li>
+</ul>
+
+</li><li id="tree_25961999" class="comment">
+<div id="comment_status_25961999" class="commentstatus"></div>
+<div id="comment_25961999" class="hidden">
+</div>
+
+<div id="replyto_25961999"></div>
+
+<ul id="group_25961999">
+	<li id="hiddens_25961999" class="hide"></li>
+</ul>
+
+<ul id="commtree_25961999"><li id="tree_25962277" class="comment contain">
+<div id="comment_status_25962277" class="commentstatus"></div>
+<div id="comment_25962277" class="full">
+	<div id="comment_top_25962277" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25962277" name="comment_link_25962277" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25962277" onclick="return D2.setFocusComment(25962277)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25962277" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25962277); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~hypnotik">hypnotik <span class="uid">(11190)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25962277">		
+		on Tuesday December 02 2008, @12:47PM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25962277">#25962277</a>)
+		<small><a href="http://www.mbardeen.net/diary" title="http://www.mbardeen.net/diary" class="user_homepage_display">Homepage</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25962277"><p>I think you are missing his point, perhaps intentionally.</p><p><div class="quote"><p>The vast majority of software is engineered - engineers are trying to get a specific outcome, they are not trying to calculate something.</p></div><p>Computer programs, he argues, are nothing more than long proofs. Each function you write is equivalent to a predicate in logical calculus, or a function in mathematics.</p><p>If you were only interested in outcome, you could write a program that multiplies two numbers together as a long series of "if" statements. But you'd most likely miss some possible values for inputs.</p><p>However, if you were interested in it being correct for all possible inputs, you would use the mathematical operation * or use a loop to calculate the correct answer.</p><p>I think that is the argument he is making and as a University professor, I tend to agree. I've seen some of my students test an array by using an if-statement for every single element of the array, where as a loop would have been infinitely more suitable.</p><p>Only one should be deemed correct. But if you adapt the "engineering" and "outcome" point of view, both are correct.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25962277">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25961999" onclick="return D2.selectParent(25961999)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25962277"></div>
+
+<ul id="group_25962277">
+	<li id="hiddens_25962277" class="hide"></li>
+</ul>
+
+</li><li id="tree_25962253" class="comment">
+<div id="comment_status_25962253" class="commentstatus"></div>
+<div id="comment_25962253" class="hidden">
+</div>
+
+<div id="replyto_25962253"></div>
+
+<ul id="group_25962253">
+	<li id="hiddens_25962253" class="hide"></li>
+</ul>
+
+<ul id="commtree_25962253"><li id="tree_25962835" class="comment contain">
+<div id="comment_status_25962835" class="commentstatus"></div>
+<div id="comment_25962835" class="full">
+	<div id="comment_top_25962835" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25962835" name="comment_link_25962835" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25962835" onclick="return D2.setFocusComment(25962835)">Re:The Truth</a>
+
+
+		 	<span id="comment_score_25962835" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25962835); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~colmore">colmore <span class="uid">(56499)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25962835">		
+		on Tuesday December 02 2008, @01:21PM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25962835">#25962835</a>)
+		<small><a href="//slashdot.org/~colmore/journal/" title="Tuesday December 09 2003, @02:47AM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25962835"><p>I think this is a clear case of computer science and software engineering (without going into Dijkstra's assessment of that term) being different beasts.</p><p>Both the theoretical and immediately practical implementation of software are interesting and important, but they're studied in different ways by different people and trying to mash the two together tends to create more conflict than interdisciplinary synergy.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25962835">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25962253" onclick="return D2.selectParent(25962253)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25962835"></div>
+
+<ul id="group_25962835">
+	<li id="hiddens_25962835" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li></ul></li><li id="tree_25961347" class="comment contain">
+<div id="comment_status_25961347" class="commentstatus"></div>
+<div id="comment_25961347" class="full">
+	<div id="comment_top_25961347" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25961347" name="comment_link_25961347" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961347" onclick="return D2.setFocusComment(25961347)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25961347" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25961347); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~1729">1729 <span class="uid">(581437)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25961347">		 &lt;<a href="mailto:slashdot1729%40g%5B+%5Dl.com+%5B'mai'+in+gap%5D">slashdot1729@g[ ]l.com ['mai' in gap]</a>&gt;
+		on Tuesday December 02 2008, @11:55AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961347">#25961347</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25961347"><p><div class="quote"><p>More than not being "great", he seems to be rather foolish...</p><p>1) His main premise is that "software engineering" cannot exist because software cannot be proved correct</p></div><p>Actually, Dijkstra spent a lot of time showing <b>how</b> to prove a program's correctness.  See his "A Discipline of Programming", for example.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25961347">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25960815" onclick="return D2.selectParent(25960815)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25961347"></div>
+
+<ul id="group_25961347">
+	<li id="hiddens_25961347" class="hide"></li>
+</ul>
+
+<ul id="commtree_25961347"><li id="tree_25962469" class="comment">
+<div id="comment_status_25962469" class="commentstatus"></div>
+<div id="comment_25962469" class="hidden">
+</div>
+
+<div id="replyto_25962469"></div>
+
+<ul id="group_25962469">
+	<li id="hiddens_25962469" class="hide"></li>
+</ul>
+
+<ul id="commtree_25962469"><li id="tree_25962783" class="comment contain">
+<div id="comment_status_25962783" class="commentstatus"></div>
+<div id="comment_25962783" class="full">
+	<div id="comment_top_25962783" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25962783" name="comment_link_25962783" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25962783" onclick="return D2.setFocusComment(25962783)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25962783" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25962783); return false">Score:5</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~1729">1729 <span class="uid">(581437)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25962783">		 &lt;<a href="mailto:slashdot1729%40g%5B+%5Dl.com+%5B'mai'+in+gap%5D">slashdot1729@g[ ]l.com ['mai' in gap]</a>&gt;
+		on Tuesday December 02 2008, @01:17PM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25962783">#25962783</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25962783"><p><div class="quote"><p><div class="quote"><p>Actually, Dijkstra spent a lot of time showing how to prove a program's correctness.</p></div><p>He did. In fact, he spent more time proving the program correct than it took to write, test, run, debug, and fix, the program, and then the proof still has to be checked for correctness. I learned the Dijkstra techniques for proving code. Even something as painfully simple as proving a loop invariant holds and would terminate was mind-numbingly difficult and tedious, and still fails to be correct in the presence of concurrency. Somehow the program proof advocates lost sight of G&#246;del's incompleteness theorems.</p></div><p>I'm not an advocate of Dijkstra's approach.  However, does the Incompleteness Theorem really come into play here?  I can't think of any useful algorithm for which I wouldn't be able to formally describe and verify the pre- and post-conditions.  Can you think of any naturally-arising examples of algorithms for which undecideability might be an issue?</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25962783">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25962469" onclick="return D2.selectParent(25962469)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25962783"></div>
+
+<ul id="group_25962783">
+	<li id="hiddens_25962783" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li></ul></li><li id="tree_25960171" class="comment">
+<div id="comment_status_25960171" class="commentstatus"></div>
+<div id="comment_25960171" class="hidden">
+</div>
+
+<div id="replyto_25960171"></div>
+
+<ul id="group_25960171">
+	<li id="hiddens_25960171" class="hide"></li>
+</ul>
+
+<ul id="commtree_25960171"><li id="tree_25960823" class="comment">
+<div id="comment_status_25960823" class="commentstatus"></div>
+<div id="comment_25960823" class="hidden">
+</div>
+
+<div id="replyto_25960823"></div>
+
+<ul id="group_25960823">
+	<li id="hiddens_25960823" class="hide"></li>
+</ul>
+
+<ul id="commtree_25960823"><li id="tree_25961959" class="comment contain">
+<div id="comment_status_25961959" class="commentstatus"></div>
+<div id="comment_25961959" class="full">
+	<div id="comment_top_25961959" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25961959" name="comment_link_25961959" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961959" onclick="return D2.setFocusComment(25961959)">Re:The Text</a>
+
+
+		 	<span id="comment_score_25961959" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25961959); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~MightyYar">MightyYar <span class="uid">(622222)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25961959">		
+		on Tuesday December 02 2008, @12:29PM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961959">#25961959</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25961959"><p>My forte is made out of cushions from my mom's couch.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25961959">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25960823" onclick="return D2.selectParent(25960823)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25961959"></div>
+
+<ul id="group_25961959">
+	<li id="hiddens_25961959" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li></ul></li><li id="tree_25959303" class="comment contain">
+<div id="comment_status_25959303" class="commentstatus"></div>
+<div id="comment_25959303" class="full">
+	<div id="comment_top_25959303" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959303" name="comment_link_25959303" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959303" onclick="return D2.setFocusComment(25959303)">Mine was certainly cruel to us</a>
+
+
+		 	<span id="comment_score_25959303" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959303); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~MikeRT">MikeRT <span class="uid">(947531)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959303">		
+		on Tuesday December 02 2008, @09:49AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959303">#25959303</a>)
+		<small><a href="http://www.codemonkeyramblings.com/" title="http://www.codemonkeyramblings.com/" class="user_homepage_display">Homepage</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959303"><p>They made us do mostly Java, even though a number of us could do C or C++.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959303">
+
+</div>
+</div>
+
+<div id="replyto_25959303"></div>
+
+<ul id="group_25959303">
+	<li id="hiddens_25959303" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959303"><li id="tree_25959965" class="comment contain">
+<div id="comment_status_25959965" class="commentstatus"></div>
+<div id="comment_25959965" class="full">
+	<div id="comment_top_25959965" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959965" name="comment_link_25959965" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959965" onclick="return D2.setFocusComment(25959965)">Re:Mine was certainly cruel to us</a>
+
+
+		 	<span id="comment_score_25959965" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959965); return false">Score:5</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~chrb">chrb <span class="uid">(1083577)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959965">		
+		on Tuesday December 02 2008, @10:33AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959965">#25959965</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959965"><p>My old university dropped C and replaced it with Java for all CS courses apart from Operating Systems. I asked one of the professors why - he said many students complained that dealing with pointers was too hard, and that the rise of Java and Java programming jobs meant C was obsolete and pointless, that the issue of programming languages came up on prospective student visit days, and that in order to be "commercially attractive" to these potential students they had to switch. We even used to do assembly language programming in the first year - now, the replacement course teaches students how to use Eclipse for Java programming.</p><p>Several years later I was back tutoring, and I was very disappointed to find out that I had to explain pointers and pointer arithmetic to people who were almost at the end of their Computer Science degree, and who didn't understand why their code was crashing with "null references" when "Java was supposed to get rid of all that memory stuff!".</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959965">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959303" onclick="return D2.selectParent(25959303)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959965"></div>
+
+<ul id="group_25959965">
+	<li id="hiddens_25959965" class="hide"></li>
+</ul>
+
+</li><li id="tree_25959395" class="comment">
+<div id="comment_status_25959395" class="commentstatus"></div>
+<div id="comment_25959395" class="hidden">
+</div>
+
+<div id="replyto_25959395"></div>
+
+<ul id="group_25959395">
+	<li id="hiddens_25959395" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959395"><li id="tree_25960799" class="comment contain">
+<div id="comment_status_25960799" class="commentstatus"></div>
+<div id="comment_25960799" class="full">
+	<div id="comment_top_25960799" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960799" name="comment_link_25960799" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960799" onclick="return D2.setFocusComment(25960799)">Re:Mine was certainly cruel to us</a>
+
+
+		 	<span id="comment_score_25960799" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960799); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~ciderVisor">ciderVisor <span class="uid">(1318765)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960799">		
+		on Tuesday December 02 2008, @11:23AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960799">#25960799</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960799"><p><div class="quote"><p>I love C. It's terse and really useful for optimising performance but it's really not a good teaching language.</p></div><p>
+C - all the power and flexibility of assembly language combined with the readability and maintainability of assembly language.
+<br>
+<br>
+And I say that as someone who loves C.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960799">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959395" onclick="return D2.selectParent(25959395)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25960799"></div>
+
+<ul id="group_25960799">
+	<li id="hiddens_25960799" class="hide"></li>
+</ul>
+
+</li><li id="tree_25959667" class="comment">
+<div id="comment_status_25959667" class="commentstatus"></div>
+<div id="comment_25959667" class="hidden">
+</div>
+
+<div id="replyto_25959667"></div>
+
+<ul id="group_25959667">
+	<li id="hiddens_25959667" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959667"><li id="tree_25959849" class="comment contain">
+<div id="comment_status_25959849" class="commentstatus"></div>
+<div id="comment_25959849" class="full">
+	<div id="comment_top_25959849" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959849" name="comment_link_25959849" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959849" onclick="return D2.setFocusComment(25959849)">Re:Mine was certainly cruel to us</a>
+
+
+		 	<span id="comment_score_25959849" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959849); return false">Score:4</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~mmkkbb">mmkkbb <span class="uid">(816035)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959849">		
+		on Tuesday December 02 2008, @10:26AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959849">#25959849</a>)
+		<small><a href="//slashdot.org/~mmkkbb/journal/" title="Wednesday April 30 2008, @06:08PM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959849"><p>Honestly, it's most important to learn how to learn new languages than to learn any specific one. The specific language will change far more often than the concepts they represent.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959849">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959667" onclick="return D2.selectParent(25959667)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959849"></div>
+
+<ul id="group_25959849">
+	<li id="hiddens_25959849" class="hide"></li>
+</ul>
+
+</li><li id="tree_25959929" class="comment contain">
+<div id="comment_status_25959929" class="commentstatus"></div>
+<div id="comment_25959929" class="full">
+	<div id="comment_top_25959929" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959929" name="comment_link_25959929" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959929" onclick="return D2.setFocusComment(25959929)">Re:Mine was certainly cruel to us</a>
+
+
+		 	<span id="comment_score_25959929" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959929); return false">Score:5</a>, Informative)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~DiegoBravo">DiegoBravo <span class="uid">(324012)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959929">		
+		on Tuesday December 02 2008, @10:31AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959929">#25959929</a>)
+		<small><a href="//slashdot.org/~DiegoBravo/journal/" title="Wednesday November 20 2002, @02:33PM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959929"><p>You're right. Also Stroustrup had clearly pointed (in other argument lines) that C is not the better way to learn C++ (or OO in general):</p><p>BEGIN EXCERPT from <a href="http://www.research.att.com/~bs/new_learning.pdf" title="att.com">http://www.research.att.com/~bs/new_learning.pdf</a> [att.com] :</p><p>
+&nbsp; &nbsp; &nbsp; &nbsp; One conventional answer to the question ''Which subset of C++ should I learn first?'' is ''The C subset<br>of C++.'' In my considered opinion, that's not a good answer. The C-first approach leads to an early focus<br>on low-level details. It also obscures programming style and design issues by forces the student to face<br>many technical difficulties to express anything interesting.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959929">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959667" onclick="return D2.selectParent(25959667)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959929"></div>
+
+<ul id="group_25959929">
+	<li id="hiddens_25959929" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959929"><li id="tree_25961597" class="comment contain">
+<div id="comment_status_25961597" class="commentstatus"></div>
+<div id="comment_25961597" class="full">
+	<div id="comment_top_25961597" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25961597" name="comment_link_25961597" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961597" onclick="return D2.setFocusComment(25961597)">Re:Mine was certainly cruel to us</a>
+
+
+		 	<span id="comment_score_25961597" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25961597); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~moderatorrater">moderatorrater <span class="uid">(1095745)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25961597">		
+		on Tuesday December 02 2008, @12:09PM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961597">#25961597</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25961597"><p><div class="quote"><p>The C-first approach leads to an early focus
+on low-level details. It also obscures programming style and design issues by forces the student to face
+many technical difficulties to express anything interesting.</p></div><p>Expressing interesting things doesn't happen in a CS course, at least the ones where you're learning the language. It takes new CS students hours to implement the most simple linked list because it's not familiar to them. I learned low level first and I'm finding that it's the best way to teach my sister-in-law who's a beginning CS student. They're trying to teach object oriented features before they teach arrays or loops. Objects are constructs on top of the other programming concepts and should be taught as such. It was only after showing her how to use low-level features that she was able to start doing any semblance of OO programming.<br> <br>
+
+People get so caught up trying to teach the "right" way to program that they don't teach how to program first, which is a mistake. Students need to learn the power and wonder of while, for, and regular functions before you can teach them the power of object oriented programming. Computer science is unfamiliar and strange, let students learn the simple things before throwing the advanced concepts at them.<br> <br>
+
+I guess what I'm saying is that a good course would teach functional programming before teaching object oriented programming later in the same course.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25961597">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959929" onclick="return D2.selectParent(25959929)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25961597"></div>
+
+<ul id="group_25961597">
+	<li id="hiddens_25961597" class="hide"></li>
+</ul>
+
+</li><li id="tree_25961763" class="comment contain">
+<div id="comment_status_25961763" class="commentstatus"></div>
+<div id="comment_25961763" class="full">
+	<div id="comment_top_25961763" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25961763" name="comment_link_25961763" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961763" onclick="return D2.setFocusComment(25961763)">Re:Mine was certainly cruel to us</a>
+
+
+		 	<span id="comment_score_25961763" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25961763); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~0xABADC0DA">0xABADC0DA <span class="uid">(867955)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25961763">		
+		on Tuesday December 02 2008, @12:17PM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961763">#25961763</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25961763"><p><div class="quote"><p>You're right. Also Stroustrup had clearly pointed (in other argument lines) that C is not the better way to learn C++ (or OO in general):</p></div><p>Somebody quoting Stroustrup on the topic of computer languages... seriously?  C++ is like legalese -- it's impenetrable to read, full of unintended consequences, and even though it's spelled out in excruciating detail what it says is still open to interpretation.</p><p>Not only is C the <i>first</i> subset of C++ that programmers should learn, it is the <i>only</i> subset of C++ they should learn.</p><p>And I argue that C actually teaches people more about object-oriented that most other languages, because it teaches them in no uncertain terms <i>why</i> you should use objects.  It's harder to realize why you don't just make fields public until you've seen global variables in a C program.</p><p>Then Java teaches you how to do OO where you are not allowed to 'cheat' by replacing methods at runtime, or calling methods that don't exist, etc.  And JavaScript takes all that and gives you LISP power.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25961763">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959929" onclick="return D2.selectParent(25959929)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25961763"></div>
+
+<ul id="group_25961763">
+	<li id="hiddens_25961763" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li></ul></li><li id="tree_25960339" class="comment">
+<div id="comment_status_25960339" class="commentstatus"></div>
+<div id="comment_25960339" class="hidden">
+</div>
+
+<div id="replyto_25960339"></div>
+
+<ul id="group_25960339">
+	<li id="hiddens_25960339" class="hide"></li>
+</ul>
+
+<ul id="commtree_25960339"><li id="tree_25961865" class="comment contain">
+<div id="comment_status_25961865" class="commentstatus"></div>
+<div id="comment_25961865" class="full">
+	<div id="comment_top_25961865" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25961865" name="comment_link_25961865" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961865" onclick="return D2.setFocusComment(25961865)">Re:Mine was certainly cruel to us</a>
+
+
+		 	<span id="comment_score_25961865" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25961865); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~TheRaven64">TheRaven64 <span class="uid">(641858)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25961865">		
+		on Tuesday December 02 2008, @12:23PM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961865">#25961865</a>)
+		<small><a href="//slashdot.org/~TheRaven64/journal/" title="Wednesday October 13, @07:51AM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25961865">Java makes a terrible teaching language for a number of reasons.
+<ul>
+<li>It isn't a good language for teaching object-orientation because it isn't a pure OO language so you have to understand the difference between objects and intrinsics.</li>
+<li>It isn't a good introduction to programming, because you need a fairly complex program a class with a static method) for hello world.</li>
+<li>It isn't a good introduction to data structures because all objects are references and all intrinsics are not, making aliasing difficult to teach.</li>
+<li>It isn't a good introduction to computer memory, since it adopts the Smalltalk memory model which hides almost everything from the programmer (great for using, bad for teaching).</li>
+</ul><p>
+There are lots of other reasons that I am too lazy to list here.  Learning Java is not bad, but learning it as a first language does not make your life easy.  A good introduction to programming course should cover half a dozen languages, as case studies, rather than attempting to use one to teach all of programming.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25961865">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25960339" onclick="return D2.selectParent(25960339)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25961865"></div>
+
+<ul id="group_25961865">
+	<li id="hiddens_25961865" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li><li id="tree_25959423" class="comment contain">
+<div id="comment_status_25959423" class="commentstatus"></div>
+<div id="comment_25959423" class="full">
+	<div id="comment_top_25959423" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959423" name="comment_link_25959423" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959423" onclick="return D2.setFocusComment(25959423)">Cruel and couldn't use a computer</a>
+
+
+		 	<span id="comment_score_25959423" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959423); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~noldrin">noldrin <span class="uid">(635339)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959423">		
+		on Tuesday December 02 2008, @09:58AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959423">#25959423</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959423">Sounds like a typical computer science professor.  Mine usually couldn't use a computer at all.  And yes, mine were generally very cruel.  Giving examples that months later they figure out were wrong, making us code with pen and pencil, teaching fake assembly languages and fake operating systems.  <br> <br>
+I'm glad I left, cause I can actually now use a computer, unlike much of the coders I come across.  If you like computers, don't go into computer science.  That is for people who enjoy math and theory.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959423">
+
+</div>
+</div>
+
+<div id="replyto_25959423"></div>
+
+<ul id="group_25959423">
+	<li id="hiddens_25959423" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959423"><li id="tree_25959745" class="comment contain">
+<div id="comment_status_25959745" class="commentstatus"></div>
+<div id="comment_25959745" class="full">
+	<div id="comment_top_25959745" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959745" name="comment_link_25959745" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959745" onclick="return D2.setFocusComment(25959745)">Re:Cruel and couldn't use a computer</a>
+
+
+		 	<span id="comment_score_25959745" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959745); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~Malc">Malc <span class="uid">(1751)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959745">		
+		on Tuesday December 02 2008, @10:19AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959745">#25959745</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959745"><p>Why is fake assembly and fake OS cruel?  It's computer science, not a vocational tech course.  They've presumably tried to bypass the issues of real-world systems that distract you from learning the point.  Once you've got the basic concepts, any OS and any language become approachable - why would you want to learn something specific that would be out-of-date in short measure?  Seems rather myopic to me.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959745">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959423" onclick="return D2.selectParent(25959423)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959745"></div>
+
+<ul id="group_25959745">
+	<li id="hiddens_25959745" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959745"><li id="tree_25959921" class="comment contain">
+<div id="comment_status_25959921" class="commentstatus"></div>
+<div id="comment_25959921" class="full">
+	<div id="comment_top_25959921" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959921" name="comment_link_25959921" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959921" onclick="return D2.setFocusComment(25959921)">Re:Cruel and couldn't use a computer</a>
+
+
+		 	<span id="comment_score_25959921" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959921); return false">Score:4</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~SatanicPuppy">SatanicPuppy <span class="uid">(611928)</span></a> <a href="/faq/com-mod.shtml#cm2600">*</a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959921">		 &lt;<a href="mailto:Satanicpuppy%26gmail%2Ccom">Satanicpuppy&amp;gmail,com</a>&gt;
+		on Tuesday December 02 2008, @10:31AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959921">#25959921</a>)
+		<small><a href="//slashdot.org/~SatanicPuppy/journal/" title="Thursday October 30 2008, @10:50PM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959921"><p>In a practical field where you can do real assembly and work on a real OS, you ask why doing fake make-work is cruel?</p><p>Theory is fine, but theory shouldn't trump practical application in a field where practical applications are everywhere.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959921">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959745" onclick="return D2.selectParent(25959745)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959921"></div>
+
+<ul id="group_25959921">
+	<li id="hiddens_25959921" class="hide"></li>
+</ul>
+
+</li><li id="tree_25960067" class="comment contain">
+<div id="comment_status_25960067" class="commentstatus"></div>
+<div id="comment_25960067" class="full">
+	<div id="comment_top_25960067" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960067" name="comment_link_25960067" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960067" onclick="return D2.setFocusComment(25960067)">Re:Cruel and couldn't use a computer</a>
+
+
+		 	<span id="comment_score_25960067" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960067); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~SageinaRage">SageinaRage <span class="uid">(966293)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960067">		
+		on Tuesday December 02 2008, @10:39AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960067">#25960067</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960067">It's the equivalent of a biology class detailing the possibilities of life, by examining chemical interactions, without actually examining any actual living organisms.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960067">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959745" onclick="return D2.selectParent(25959745)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25960067"></div>
+
+<ul id="group_25960067">
+	<li id="hiddens_25960067" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_25961009" class="comment contain">
+<div id="comment_status_25961009" class="commentstatus"></div>
+<div id="comment_25961009" class="full">
+	<div id="comment_top_25961009" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25961009" name="comment_link_25961009" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961009" onclick="return D2.setFocusComment(25961009)">Dijkstra couldn't use a computer?!?</a>
+
+
+		 	<span id="comment_score_25961009" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25961009); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~mengel">mengel <span class="uid">(13619)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25961009">		 &lt;<a href="mailto:mengel.users%40sourceforge%40net">mengel.users@sourceforge@net</a>&gt;
+		on Tuesday December 02 2008, @11:36AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961009">#25961009</a>)
+		<small><a href="http://www-oss.fnal.gov/~mengel" title="http://www-oss.fnal.gov/~mengel" class="user_homepage_display">Homepage</a>
+<a href="//slashdot.org/~mengel/journal/" title="Monday August 30 2004, @05:02PM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25961009"><p>
+Boy do you need to go back to school.  Edsger wrote more and better stuff in his lifetime than anyone here on Slashdot.   Did you ever get directions from Google Maps or Mapquest?  Thank Edsger -- his shortest path algorithm is what they all use, and by the way, he wrote that before you were born, most of you.
+You know the semaphores used in the multi-cpu Linux kernels?  Yep, you owe Edsger for them, too.  And programming languages like C, Pascal, etc.?  He helped write the first Alogol compiler, the great-grand-daddy of them all, once again before most of you were born.
+</p><p>
+Just because he eschewed the run-break-fix approach so beloved of the folks who are spewing billions of lines of error-laden code into the world today, doesn't mean he hadn't <em>forgotten</em> more about writing code than most folks here have ever <em>learned</em>.  And yes, he advocated developing code formally, and he liked to do it with pen and paper.
+</p><p>
+So learn about who you're making snide comments about, and show some respect.
+When people are still using any algorithm you came up with 30 years from now, you will have the right to say something about Edsger Dijkstra.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25961009">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959423" onclick="return D2.selectParent(25959423)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25961009"></div>
+
+<ul id="group_25961009">
+	<li id="hiddens_25961009" class="hide"></li>
+</ul>
+
+<ul id="commtree_25961009"><li id="tree_25962169" class="comment contain">
+<div id="comment_status_25962169" class="commentstatus"></div>
+<div id="comment_25962169" class="full">
+	<div id="comment_top_25962169" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25962169" name="comment_link_25962169" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25962169" onclick="return D2.setFocusComment(25962169)">I have a lot of respect for him, but...</a>
+
+
+		 	<span id="comment_score_25962169" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25962169); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~EWAdams">EWAdams <span class="uid">(953502)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25962169">		
+		on Tuesday December 02 2008, @12:40PM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25962169">#25962169</a>)
+		<small><a href="http://www.designersnotebook.com/" title="http://www.designersnotebook.com/" class="user_homepage_display">Homepage</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25962169"><p><nobr> <wbr></nobr>... in this article he's insisting that a carpenter has to be a physicist before he should be allowed to build a house. (Yes, that's arguing from analogy -- deal with it.)</p><p>The fact is that the world needs a hell of a lot of running code in a hurry. Millions of lines of it. We don't have the luxury of treating a realtime airline-pricing-optimization manager as a lovely formal system that we can write out in pencil. We have to get it up and running, then fix bugs and add features as time permits, because of a phenomenon that Dijkstra doesn't take into account: IT'S NEEDED *NOW*.</p><p>I also think he's being unfair by suggesting that modern educational institutions are anything like as hidebound as medieval ones. First, medieval universities were not intended for inquiry in the first place; they were intended to prepare young men for the priesthood -- i.e. to teach them doctrine, which was not subject to inquiry. No institution except maybe a seminary is as restrictive as that these days. Second, it doesn't seem to have occurred to him that learning by analogy is how people learn *effectively.* He may decry teaching children about arithmetic by using apples because it's not a formal system, but a five-year-old doesn't have enough knowledge to know what a formal system IS. Starting a five-year-old with Principia Mathematica is just pointless. And your basic coding grunt who wants to build websites doesn't need to be taught JavaScript as a formal system either.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25962169">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25961009" onclick="return D2.selectParent(25961009)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25962169"></div>
+
+<ul id="group_25962169">
+	<li id="hiddens_25962169" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li><li id="tree_25959433" class="comment contain">
+<div id="comment_status_25959433" class="commentstatus"></div>
+<div id="comment_25959433" class="full">
+	<div id="comment_top_25959433" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959433" name="comment_link_25959433" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959433" onclick="return D2.setFocusComment(25959433)">Cruel to be kind</a>
+
+
+		 	<span id="comment_score_25959433" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959433); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~MosesJones">MosesJones <span class="uid">(55544)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959433">		
+		on Tuesday December 02 2008, @09:59AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959433">#25959433</a>)
+		<small><a href="http://service-architecture.blogspot.com/" title="http://service-architecture.blogspot.com/" class="user_homepage_display">Homepage</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959433"><p>The aim of a really good degree (as opposed to a lecture driven box ticking one) is to be cruel, you want to feel that your head is going to explode and that your subject really is an absolute bitch.</p><p>Then you graduate and find out the real world is easier than the theory.</p><p>Cruelty is important in a good education to make you achieve in the real world.  An easy flow through degree gets you the cert but gives you unrealistic expectation of how hard the real world can be.</p><p>Personally my degree was a mind bending bitch of mumbling lecturers and impossible (literally in some cases) questions that covered everything from quantum mechanics "basics" and abstract computing theory through to how to dope a transistor.</p><p>It was cruel, it was unusual... it was great.<br>
+&nbsp;</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959433">
+
+</div>
+</div>
+
+<div id="replyto_25959433"></div>
+
+<ul id="group_25959433">
+	<li id="hiddens_25959433" class="hide"></li>
+</ul>
+
+</li><li id="tree_25959567" class="comment contain">
+<div id="comment_status_25959567" class="commentstatus"></div>
+<div id="comment_25959567" class="full">
+	<div id="comment_top_25959567" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959567" name="comment_link_25959567" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959567" onclick="return D2.setFocusComment(25959567)">Handwriting?  How about a Font!</a>
+
+
+		 	<span id="comment_score_25959567" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959567); return false">Score:5</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~JoshDM">JoshDM <span class="uid">(741866)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959567">		
+		on Tuesday December 02 2008, @10:07AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959567">#25959567</a>)
+		<small><a href="http://www.joshdm.com/" title="http://www.joshdm.com/" class="user_homepage_display">Homepage</a>
+<a href="//slashdot.org/~JoshDM/journal/" title="Sunday August 02 2009, @10:34AM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959567"><p><a href="http://tinyurl.com/dijkstrafont" title="tinyurl.com">Dijkstra's Cruel Font link</a> [tinyurl.com], so we at least get something recent(-ish) out of this article.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959567">
+
+</div>
+</div>
+
+<div id="replyto_25959567"></div>
+
+<ul id="group_25959567">
+	<li id="hiddens_25959567" class="hide"></li>
+</ul>
+
+</li><li id="tree_25959835" class="comment contain">
+<div id="comment_status_25959835" class="commentstatus"></div>
+<div id="comment_25959835" class="full">
+	<div id="comment_top_25959835" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959835" name="comment_link_25959835" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959835" onclick="return D2.setFocusComment(25959835)">Do you really need that CS degree?  It depends....</a>
+
+
+		 	<span id="comment_score_25959835" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959835); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~zerofoo">zerofoo <span class="uid">(262795)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959835">		
+		on Tuesday December 02 2008, @10:25AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959835">#25959835</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959835"><p>I'm grateful that I have a computer science degree, it has enabled me to have a deeper understanding of all the things I administer on a day to day basis.  It is nice to know how spanning-tree actually works on my switches, and how databases actually use data structures to store and retrieve data.</p><p>I'm not designing and building these systems, I'm installing, using, and maintaining these systems.  Do I need a CS degree to do this?  Hardly.</p><p>If you like installing and maintaining computer systems, but hate math and theory - don't go for a CS degree.  You will be better served by doing your own research/training, getting some certs (RH, MS, Oracle, Cisco...etc) and if you are so inclined, maybe a 2/4 year IT Management degree.</p><p>If you want to build the products that people install and use (software more complicated than a web page or login script, hardware, firmware for embedded systems...etc) you will need to endure the math and theory that a CS degree requires (and possibly an Electrical Engineering/Computer Engineering minor as well).</p><p>-ted</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959835">
+
+</div>
+</div>
+
+<div id="replyto_25959835"></div>
+
+<ul id="group_25959835">
+	<li id="hiddens_25959835" class="hide"></li>
+</ul>
+
+</li><li id="tree_25960403" class="comment contain">
+<div id="comment_status_25960403" class="commentstatus"></div>
+<div id="comment_25960403" class="full">
+	<div id="comment_top_25960403" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960403" name="comment_link_25960403" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960403" onclick="return D2.setFocusComment(25960403)">Back to the future</a>
+
+
+		 	<span id="comment_score_25960403" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960403); return false">Score:5</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~Bucc5062">Bucc5062 <span class="uid">(856482)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960403">		 &lt;<a href="mailto:bucc5062NO%40SPAMgmail.com">bucc5062NO@SPAMgmail.com</a>&gt;
+		on Tuesday December 02 2008, @10:59AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960403">#25960403</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960403"><p>As I read through his writings it brought me back to my time at Moravian College circa 1979.  I just started taking CS classes and in that same year Dr Brown, Head of the CS Department pulled out all the IBM mainframe systems and installed a PDP 11/45.  Gone were the COBOL courses replaced by c, RATFOR, PASCAL, Fortran et al.  I loved it and hated it at the same time.</p><p>Like the presentation, Dr Brown taught us programming before we really saw the computer.  His focus was not on Language, but on concept.  As he so well put to us, once done with our intro class we could work anywhere in any language.  I believed it then and found it to be a true statement.  At the end of that intro class he took the last three weeks and taught sort algorithms.  The catch was each sort was analyzed in a different language.  I chuckle when I read posts of youngsters that say "I learned Java, or C++ in college".  I learned Programming in college then went on to figure out what language suited my economic and intellectual needs.</p><p>Cruelty in Computer Science?  I am grateful for that kind of cruelty to this day.  Since college I have had to adjust my knowledge as times and needs change.  I have had the pleasure of working with RPG, COBOL, Java, FORTRAN, and even the bastard child Visual Basic.  Unlike some, I do not look down at any language for each has its benefits for the task.  What I do dislike is working on code written by persons who thought that "Learn to Code Java in three Weeks" made them a programmer; that language X is the best and only language out there.</p><p>Dr. Dijkstra says "Universities should not be afraid to teach radical novelties".  What things could be discovered if that concept was embraced again.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960403">
+
+</div>
+</div>
+
+<div id="replyto_25960403"></div>
+
+<ul id="group_25960403">
+	<li id="hiddens_25960403" class="hide"></li>
+</ul>
+
+</li><li id="tree_25961073" class="comment contain">
+<div id="comment_status_25961073" class="commentstatus"></div>
+<div id="comment_25961073" class="full">
+	<div id="comment_top_25961073" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25961073" name="comment_link_25961073" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961073" onclick="return D2.setFocusComment(25961073)">False dichotomy</a>
+
+
+		 	<span id="comment_score_25961073" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25961073); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~Tony">Tony <span class="uid">(765)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25961073">		
+		on Tuesday December 02 2008, @11:38AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25961073">#25961073</a>)
+		<small><a href="http://zoeshire.com/" title="http://zoeshire.com/" class="user_homepage_display">Homepage</a>
+<a href="//slashdot.org/~Tony/journal/" title="Thursday October 31 2002, @05:12PM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25961073"><p>Most of y'all are presenting a false dichotomy. It's not "Either learn abstract formalism OR learn practical languages." You <em>can</em> do both, you know.</p><p>I have met too many people who think that, because they can write some tangled, fucked-up C++, they are software engineers. Never mind the fact that they couldn't learn LISP, Objective-C, Java, or any number of other useful languages, as they don't know the first thing about <em>actual computing</em>.</p><p>Teaching Java or C++ doesn't matter. Sure, you need classes on practical application of your knowledge. But if you ignore what Dijkstra says here, you're going to end up with a bunch of code monkeys who have to test every element of the set, rather than test the rules of the set.</p><p>In my experience, those who started off learning theory, then learned how to <em>apply</em> that theory in practical situations, are <em>far</em> better programmers than those who are taught "practical" languages.</p><p>There's some very good advice in that paper. Calling him "out of touch" is a bit shortsighted.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25961073">
+
+</div>
+</div>
+
+<div id="replyto_25961073"></div>
+
+<ul id="group_25961073">
+	<li id="hiddens_25961073" class="hide"></li>
+</ul>
+
+</li><li id="tree_25962781" class="comment contain">
+<div id="comment_status_25962781" class="commentstatus"></div>
+<div id="comment_25962781" class="full">
+	<div id="comment_top_25962781" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25962781" name="comment_link_25962781" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25962781" onclick="return D2.setFocusComment(25962781)">I can relate...</a>
+
+
+		 	<span id="comment_score_25962781" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25962781); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~gillbates">gillbates <span class="uid">(106458)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25962781">		
+		on Tuesday December 02 2008, @01:17PM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25962781">#25962781</a>)
+		<small><a href="http://www.angelfire.com/il/macroman" title="http://www.angelfire.com/il/macroman" class="user_homepage_display">Homepage</a>
+<a href="//slashdot.org/~gillbates/journal/" title="Friday March 30 2007, @07:17PM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25962781"><p>
+But I think his arguments are centered around a misunderstanding of terms.  It's simple academic dishonesty to which he objects:
+</p><ul>
+<li>Computer Science is a discipline of mathematics, a true science.</li>
+<li>Computer Engineering is an engineering discipline, concerned with how to use the principles of computer science to create working systems.  Provable correctness is a must; you don't get to respin a board until it works.  Generally speaking, things have to work right the first time.</li>
+<li>Software Engineering is a vocational discipline, which requires some knowledge of computer science, in the same way a construction foreman needs to know basic math.  Software engineering requires both an understanding of programming and the corporate structure for producing software.  But it is more a collection of specific pragmatic methods than an exact science.</li>
+<li>Computer Programming is a vocational discipline.  It also requires a basic understanding of computer science, but for some jobs, notably business applications, it is enough to merely understand the language du jour.  Regardless of how terrible the code is, from a business perspective, someone who produces code which can be shipped in a short period of time is a good programmer.  The corporate bean counters could care less about things like correctness and maintainability, and are more interested in the state of accounts receivable.  The programmer who helps out the accounts receivable side will be better liked regardless of the quality of his code, and probably promoted to management.</li>
+</ul></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25962781">
+
+</div>
+</div>
+
+<div id="replyto_25962781"></div>
+
+<ul id="group_25962781">
+	<li id="hiddens_25962781" class="hide"></li>
+</ul>
+
+</li><li id="tree_25959367" class="comment">
+<div id="comment_status_25959367" class="commentstatus"></div>
+<div id="comment_25959367" class="hidden">
+</div>
+
+<div id="replyto_25959367"></div>
+
+<ul id="group_25959367">
+	<li id="hiddens_25959367" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959367"><li id="tree_25959419" class="comment contain">
+<div id="comment_status_25959419" class="commentstatus"></div>
+<div id="comment_25959419" class="full">
+	<div id="comment_top_25959419" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959419" name="comment_link_25959419" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959419" onclick="return D2.setFocusComment(25959419)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25959419" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959419); return false">Score:4</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~ExtraT">ExtraT <span class="uid">(704420)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959419">		
+		on Tuesday December 02 2008, @09:58AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959419">#25959419</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959419"><p>I agree that teachers disconnected from reality are bad, but the alternative is even worse. Look at what too much bitching got us: they teach JAVA as the primary programming language in universities nowadays! How sadistically cruel is that?</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959419">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959367" onclick="return D2.selectParent(25959367)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959419"></div>
+
+<ul id="group_25959419">
+	<li id="hiddens_25959419" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959419"><li id="tree_25959477" class="comment contain">
+<div id="comment_status_25959477" class="commentstatus"></div>
+<div id="comment_25959477" class="full">
+	<div id="comment_top_25959477" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959477" name="comment_link_25959477" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959477" onclick="return D2.setFocusComment(25959477)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25959477" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959477); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~fbjon">fbjon <span class="uid">(692006)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959477">		
+		on Tuesday December 02 2008, @10:02AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959477">#25959477</a>)
+		<small><a href="http://fbjon.deviantart.com/gallery/" title="http://fbjon.deviantart.com/gallery/" class="user_homepage_display">Homepage</a>
+<a href="//slashdot.org/~fbjon/journal/" title="Saturday May 21 2005, @09:56AM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959477">There's nothing exceptionally wrong with Java as a starting language, though I may be biased since that's what we had. In any case, my uni has now switched to Python, which is probably even better.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959477">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959419" onclick="return D2.selectParent(25959419)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959477"></div>
+
+<ul id="group_25959477">
+	<li id="hiddens_25959477" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959477"><li id="tree_25959871" class="comment contain">
+<div id="comment_status_25959871" class="commentstatus"></div>
+<div id="comment_25959871" class="full">
+	<div id="comment_top_25959871" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959871" name="comment_link_25959871" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959871" onclick="return D2.setFocusComment(25959871)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25959871" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959871); return false">Score:5</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~DarenN">DarenN <span class="uid">(411219)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959871">		
+		on Tuesday December 02 2008, @10:27AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959871">#25959871</a>)
+		<small><a href="http://slashdot.org/" title="http://slashdot.org/" class="user_homepage_display">Homepage</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959871"><p><div class="quote"><p>There's nothing exceptionally wrong with Java as a starting language</p></div><p>Yes, there is. It insulates the student from some concepts that are important and because it's so aggressively object orientated even the standard "Hello World" program requires quite a bit of glossing over by the teacher.</p><p>As a result, it tends to get waved away as "magic" or "this will be explained later" but there's so much waved away that the students get disconnected. For instance, to simply output a line to a command line in Java you're looking at<br><tt> System.out.println("output"); </tt><br>whereas with c++ (for instance) you have<br><tt> cout &lt;&lt; "output" &lt;&lt; endl;  </tt><br>As someone who's teaching this stuff, the second is easier to explain in detail and doesn't rely on saying "don't worry what System.out is".</p><p>The other prime example when teaching object orientation is garbage collecting. Students who learn in Java are significantly more difficult to teach about dynamic memory and the necessity of cleaning up after themselves than those who've learned in other languages that don't abstract this away. It's much easier to switch from C/C++ to Java than the other way around.</p><p>The standard way of teaching basic programming is procedural, then functional, then object orientated then onwards. Using Java to teach in that cycle is nuts. How useful that cycle IS is another question, of course<nobr> <wbr></nobr>:)</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959871">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959477" onclick="return D2.selectParent(25959477)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959871"></div>
+
+<ul id="group_25959871">
+	<li id="hiddens_25959871" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959871"><li id="tree_25960295" class="comment contain">
+<div id="comment_status_25960295" class="commentstatus"></div>
+<div id="comment_25960295" class="full">
+	<div id="comment_top_25960295" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960295" name="comment_link_25960295" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960295" onclick="return D2.setFocusComment(25960295)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25960295" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960295); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~doti">doti <span class="uid">(966971)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960295">		
+		on Tuesday December 02 2008, @10:52AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960295">#25960295</a>)
+		<small><a href="http://barrett.9hells.org/" title="http://barrett.9hells.org/" class="user_homepage_display">Homepage</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960295"><p>you serious?</p><p>to me, system.out.println looks way more reasonable than this "cout &lt;&lt; endl" thing.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960295">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959871" onclick="return D2.selectParent(25959871)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25960295"></div>
+
+<ul id="group_25960295">
+	<li id="hiddens_25960295" class="hide"></li>
+</ul>
+
+</li><li id="tree_25960807" class="comment contain">
+<div id="comment_status_25960807" class="commentstatus"></div>
+<div id="comment_25960807" class="full">
+	<div id="comment_top_25960807" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960807" name="comment_link_25960807" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960807" onclick="return D2.setFocusComment(25960807)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25960807" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960807); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~eolson%40mit.edu">eolson@mit.edu <span class="uid">(116413)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960807">		
+		on Tuesday December 02 2008, @11:24AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960807">#25960807</a>)
+		<small><a href="http://www.edwinolson.org/" title="http://www.edwinolson.org/" class="user_homepage_display">Homepage</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960807"><p>I find it ironic that, to establish your argument that Java hides implementation details, you used a C++ example employing operator overloading such that the mere existence of functions is utterly concealed.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960807">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959871" onclick="return D2.selectParent(25959871)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25960807"></div>
+
+<ul id="group_25960807">
+	<li id="hiddens_25960807" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_25959761" class="comment">
+<div id="comment_status_25959761" class="commentstatus"></div>
+<div id="comment_25959761" class="hidden">
+</div>
+
+<div id="replyto_25959761"></div>
+
+<ul id="group_25959761">
+	<li id="hiddens_25959761" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959761"><li id="tree_25959943" class="comment contain">
+<div id="comment_status_25959943" class="commentstatus"></div>
+<div id="comment_25959943" class="full">
+	<div id="comment_top_25959943" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959943" name="comment_link_25959943" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959943" onclick="return D2.setFocusComment(25959943)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25959943" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959943); return false">Score:4</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~MadnessASAP">MadnessASAP <span class="uid">(1052274)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959943">		 &lt;<a href="mailto:madnessasap%40gmail.com">madnessasap@gmail.com</a>&gt;
+		on Tuesday December 02 2008, @10:32AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959943">#25959943</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959943"><p>I think they should teach low level first, teach students assembly first and work up from their.  They don't need to create anything fancy in assembly just make sure that they understand how a computer works and does things rather then the abstracted model that higher level languages give you.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959943">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959761" onclick="return D2.selectParent(25959761)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959943"></div>
+
+<ul id="group_25959943">
+	<li id="hiddens_25959943" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li></ul></li><li id="tree_25959437" class="comment contain">
+<div id="comment_status_25959437" class="commentstatus"></div>
+<div id="comment_25959437" class="full">
+	<div id="comment_top_25959437" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959437" name="comment_link_25959437" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959437" onclick="return D2.setFocusComment(25959437)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25959437" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959437); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~ZeroExistenZ">ZeroExistenZ <span class="uid">(721849)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959437">		
+		on Tuesday December 02 2008, @09:59AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959437">#25959437</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959437"><blockquote><div><p>i.e. CS programs producing students who know loads and loads of theory and can't write a damn line of actual code.</p></div></blockquote><p>
+Ofcourse I can write a line of code!<br>
+Behold, in al its glory:<br> <br>
+<tt>printf("hello world");</tt></p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959437">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959367" onclick="return D2.selectParent(25959367)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959437"></div>
+
+<ul id="group_25959437">
+	<li id="hiddens_25959437" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959437"><li id="tree_25959581" class="comment contain">
+<div id="comment_status_25959581" class="commentstatus"></div>
+<div id="comment_25959581" class="full">
+	<div id="comment_top_25959581" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959581" name="comment_link_25959581" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959581" onclick="return D2.setFocusComment(25959581)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25959581" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959581); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~16384">16384 <span class="uid">(21672)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959581">		
+		on Tuesday December 02 2008, @10:08AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959581">#25959581</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959581"><p>cat &gt; hello.c<br>printf("hello world");<br>^D<br>gcc hello.c<br>hello.c:1: error: expected declaration specifiers or '...' before string constant<br>hello.c:1: warning: data definition has no type or storage class<br>hello.c:1: warning: conflicting types for built-in function 'printf'</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959581">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959437" onclick="return D2.selectParent(25959437)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959581"></div>
+
+<ul id="group_25959581">
+	<li id="hiddens_25959581" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959581"><li id="tree_25960255" class="comment contain">
+<div id="comment_status_25960255" class="commentstatus"></div>
+<div id="comment_25960255" class="full">
+	<div id="comment_top_25960255" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960255" name="comment_link_25960255" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960255" onclick="return D2.setFocusComment(25960255)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25960255" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960255); return false">Score:5</a>, Informative)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~mhesd">mhesd <span class="uid">(698429)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960255">		
+		on Tuesday December 02 2008, @10:49AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960255">#25960255</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960255"><p>cat &gt; hello.pl<br>printf("hello world\n");<br>^D<br>perl hello.pl<br>hello world</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960255">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959581" onclick="return D2.selectParent(25959581)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25960255"></div>
+
+<ul id="group_25960255">
+	<li id="hiddens_25960255" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li><li id="tree_25959527" class="comment contain">
+<div id="comment_status_25959527" class="commentstatus"></div>
+<div id="comment_25959527" class="full">
+	<div id="comment_top_25959527" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959527" name="comment_link_25959527" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959527" onclick="return D2.setFocusComment(25959527)">Professionals should know their tools</a>
+
+
+		 	<span id="comment_score_25959527" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959527); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~mangu">mangu <span class="uid">(126918)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959527">		
+		on Tuesday December 02 2008, @10:05AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959527">#25959527</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959527"><blockquote><div><p>CS programs producing students who know loads and loads of theory and can't write a damn line of actual code.</p></div></blockquote><p>I agree with that, but it isn't only in CS courses that programming should be taught.</p><p>The problem I see in current engineering and sciences courses is that they don't teach numerical analysis. Engineers and scientists today try to do everything in matlab or excel, except for those that do postgraduate courses, who often try to do things in fortran.</p><p>Programming languages are tools that anyone involved with advanced uses of computers should learn to use. If you are a professional you should know how to use professional tools.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959527">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959367" onclick="return D2.selectParent(25959367)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959527"></div>
+
+<ul id="group_25959527">
+	<li id="hiddens_25959527" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959527"><li id="tree_25959781" class="comment contain">
+<div id="comment_status_25959781" class="commentstatus"></div>
+<div id="comment_25959781" class="full">
+	<div id="comment_top_25959781" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959781" name="comment_link_25959781" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959781" onclick="return D2.setFocusComment(25959781)">Re:Professionals should know their tools</a>
+
+
+		 	<span id="comment_score_25959781" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959781); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~thermian">thermian <span class="uid">(1267986)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959781">		
+		on Tuesday December 02 2008, @10:21AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959781">#25959781</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959781"><p>I don't think you can lay the blame for students knowing less on the department that they attend.</p><p>Mine taught a good mix of coding and theory, but we still had morons who didn't do enough coding to actually learn their craft well, and people who learned the coding but didn't learn enough theory to get decent course grades.</p><p>The point is, while at university studying computer science or any other subject it is your own responsibility to teach yourself around the subjects you are introduced to in the classroom.</p><p>I was taught using Java and Delphi, and yet finished my degree as a pretty competent C coder, in spite of never having attended a class on that language.</p><p>I also studied a great deal more around the subjects then many of my peers. Those who did the same as me tended to do well on graduation, I went on to more years of poverty as a Ph.D student myself.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959781">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959527" onclick="return D2.selectParent(25959527)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959781"></div>
+
+<ul id="group_25959781">
+	<li id="hiddens_25959781" class="hide"></li>
+</ul>
+
+</li><li id="tree_25959707" class="comment">
+<div id="comment_status_25959707" class="commentstatus"></div>
+<div id="comment_25959707" class="hidden">
+</div>
+
+<div id="replyto_25959707"></div>
+
+<ul id="group_25959707">
+	<li id="hiddens_25959707" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959707"><li id="tree_25960101" class="comment contain">
+<div id="comment_status_25960101" class="commentstatus"></div>
+<div id="comment_25960101" class="full">
+	<div id="comment_top_25960101" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960101" name="comment_link_25960101" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960101" onclick="return D2.setFocusComment(25960101)">Re:Professionals should know their tools</a>
+
+
+		 	<span id="comment_score_25960101" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960101); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~jazzduck">jazzduck <span class="uid">(1180033)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960101">		
+		on Tuesday December 02 2008, @10:41AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960101">#25960101</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960101"><p><div class="quote"><p>Our school had 3 separate Java classes, 3 separate C classes, and 3 separate C++ classes:  all in 3 different departments.</p></div><p>Silly. This can't be true. Everyone knows that there are no classes in C.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960101">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959707" onclick="return D2.selectParent(25959707)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25960101"></div>
+
+<ul id="group_25960101">
+	<li id="hiddens_25960101" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li><li id="tree_25959645" class="comment contain">
+<div id="comment_status_25959645" class="commentstatus"></div>
+<div id="comment_25959645" class="full">
+	<div id="comment_top_25959645" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959645" name="comment_link_25959645" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959645" onclick="return D2.setFocusComment(25959645)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25959645" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959645); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~RobKow">RobKow <span class="uid">(1787)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959645">		
+		on Tuesday December 02 2008, @10:13AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959645">#25959645</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959645"><p>I'd have to say in recruiting software engineers I have much more of a problem with theory-light code monkeys than I do with non-coders that are well-versed in CS theory.  With the former you wind up with people who can't leave whatever language they're most familiar with and don't really understand why what they're doing works (cargo cult programming).  It's easier to teach good coding practices in the field than it is CS theory.</p><p>My technical interviews aren't full of riddles or obscure CS theory questions, but I ask a series of pointed questions to see if the candidate has a good familiarity with the various language families (not just particular languages), common data structures (they should at least have encountered them, even if they need to look them up to implement them), and can talk in terms of pseudocode and algorithms instead of just library functions and language idiom.  Language experience is a plus, but definitely not required.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959645">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959367" onclick="return D2.selectParent(25959367)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959645"></div>
+
+<ul id="group_25959645">
+	<li id="hiddens_25959645" class="hide"></li>
+</ul>
+
+</li><li id="tree_25959883" class="comment contain">
+<div id="comment_status_25959883" class="commentstatus"></div>
+<div id="comment_25959883" class="full">
+	<div id="comment_top_25959883" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959883" name="comment_link_25959883" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959883" onclick="return D2.setFocusComment(25959883)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25959883" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959883); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~amorsen">amorsen <span class="uid">(7485)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959883">		 &lt;<a href="mailto:benny%2Bslashdot%40amorsen.dk">benny+slashdot@amorsen.dk</a>&gt;
+		on Tuesday December 02 2008, @10:27AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959883">#25959883</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959883"><p><div class="quote"><p>i.e. CS programs producing students who know loads and loads of theory and can't write a damn line of actual code.</p></div><p>That's because CS programs are misnamed. Most coding should be done by engineers, not scientists. A Master in Physics doesn't necessarily qualify you to build bridges either.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959883">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959367" onclick="return D2.selectParent(25959367)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959883"></div>
+
+<ul id="group_25959883">
+	<li id="hiddens_25959883" class="hide"></li>
+</ul>
+
+</li><li id="tree_25960201" class="comment contain">
+<div id="comment_status_25960201" class="commentstatus"></div>
+<div id="comment_25960201" class="full">
+	<div id="comment_top_25960201" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960201" name="comment_link_25960201" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960201" onclick="return D2.setFocusComment(25960201)">Re:Hmmm...</a>
+
+
+		 	<span id="comment_score_25960201" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960201); return false">Score:5</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~swordgeek">swordgeek <span class="uid">(112599)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960201">		
+		on Tuesday December 02 2008, @10:47AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960201">#25960201</a>)
+		<small><a href="//slashdot.org/~swordgeek/journal/" title="Monday May 05 2003, @06:46PM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960201"><p>Dijkstra's comments were right on the mark, and fairly obvious to people outside of CS. They were only contentious within the field, for some odd reason.</p><p>The thing is, Computing Science should be approached in the same manner as most other science fields: A BSc in computing should be about theory, research, and pushing the state of the art. A modicum of programming is probably necessary to accomplish that, but programming should understood in the abstract--without the emphasis on 'this command, this language.' Learning to be a programmer (a) should be a division of computer engineering, or (b) probably not a degree at all. More like a one or two year college certificate.</p><p>Chemistry, Physics, Biology, Math, and so forth, are all degrees aimed at research and study, not commercial production. Why not computing?</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960201">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959367" onclick="return D2.selectParent(25959367)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25960201"></div>
+
+<ul id="group_25960201">
+	<li id="hiddens_25960201" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_25959399" class="comment">
+<div id="comment_status_25959399" class="commentstatus"></div>
+<div id="comment_25959399" class="hidden">
+</div>
+
+<div id="replyto_25959399"></div>
+
+<ul id="group_25959399">
+	<li id="hiddens_25959399" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959399"><li id="tree_25959633" class="comment">
+<div id="comment_status_25959633" class="commentstatus"></div>
+<div id="comment_25959633" class="hidden">
+</div>
+
+<div id="replyto_25959633"></div>
+
+<ul id="group_25959633">
+	<li id="hiddens_25959633" class="hide"></li>
+</ul>
+
+<ul id="commtree_25959633"><li id="tree_25959787" class="comment contain">
+<div id="comment_status_25959787" class="commentstatus"></div>
+<div id="comment_25959787" class="full">
+	<div id="comment_top_25959787" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25959787" name="comment_link_25959787" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959787" onclick="return D2.setFocusComment(25959787)">Re:engineering</a>
+
+
+		 	<span id="comment_score_25959787" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25959787); return false">Score:5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~Lord+Ender">Lord Ender <span class="uid">(156273)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25959787">		
+		on Tuesday December 02 2008, @10:22AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25959787">#25959787</a>)
+		<small><a href="http://127.31.33.7/" title="http://127.31.33.7/" class="user_homepage_display">Homepage</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25959787"><p>I don't know what you think FrontPage has to do with anything. Perhaps you're just trolling?</p><p>Software engineers should understand use case analys, user interface design, project management and finance, and many other important subjects "computer science" curricula ignore while beating students over the head with details theory. Understanding issues of scalability is good (though often <b>actual testing</b> is used in the engineering world for practical reasons), but we don't need four years of that while ignoring more important topics.</p><p>I'm not saying exhaustive study of the mathematical theory of computation is bad. I'm saying students are badly served at most universities by focusing on that at the expense of other topics.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25959787">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25959633" onclick="return D2.selectParent(25959633)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25959787"></div>
+
+<ul id="group_25959787">
+	<li id="hiddens_25959787" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li><li id="tree_25960225" class="comment">
+<div id="comment_status_25960225" class="commentstatus"></div>
+<div id="comment_25960225" class="hidden">
+</div>
+
+<div id="replyto_25960225"></div>
+
+<ul id="group_25960225">
+	<li id="hiddens_25960225" class="hide"></li>
+</ul>
+
+<ul id="commtree_25960225"><li id="tree_25960557" class="comment contain">
+<div id="comment_status_25960557" class="commentstatus"></div>
+<div id="comment_25960557" class="full">
+	<div id="comment_top_25960557" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_25960557" name="comment_link_25960557" href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960557" onclick="return D2.setFocusComment(25960557)">Re:Dijkstra is the typical head-up-arse CS crack</a>
+
+
+		 	<span id="comment_score_25960557" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 25960557); return false">Score:5</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~russotto">russotto <span class="uid">(537200)</span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_25960557">		
+		on Tuesday December 02 2008, @11:09AM (<a href="//news.slashdot.org/comments.pl?sid=1048087&amp;cid=25960557">#25960557</a>)
+		<small><a href="//slashdot.org/~russotto/journal/" title="Wednesday October 08 2008, @11:27AM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_25960557"><blockquote><div><blockquote><div><p>It is practically impossible to teach good programming to students that have had a prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration.</p></div></blockquote><p>In my experience this is utter arrogant rubbish.</p></div></blockquote><p>You have been trolled (by Dijkstra).</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_25960557">
+<span class="nbutton"><p><b><a href="//news.slashdot.org/comments.pl?sid=1048087&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=25960225" onclick="return D2.selectParent(25960225)">Parent</a></b></p></span>
+</div>
+</div>
+
+<div id="replyto_25960557"></div>
+
+<ul id="group_25960557">
+	<li id="hiddens_25960557" class="hide"></li>
+</ul>
+
+</li></ul></li>
+			<li id="roothiddens" class="hide"></li>
+		</ul>
+	
+	
+	
+	
+
+
+<div class="newcmnt"><div id="replyto_0"></div></div>
+
+
+<noscript><p><b>There may be more comments in this discussion. Without JavaScript enabled, you might want to <a href="//news.slashdot.org/users.pl?op=editcomm">turn on Classic Discussion System</a> in your preferences instead.</b></p></noscript>
+
+<div id="discussion_buttons">
+
+
+<span class="nbutton hide"><p><b><a href="#" onclick="D2.ajaxFetchComments(0,1); return false"><span id="more_comments_num_a" class="hide">Get More Comments</span></a></b></p></span>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+	<script type="text/javascript">
+<!--
+		D2.currents()['hidden']   = 0;
+		D2.currents()['full']     = 50;
+		D2.currents()['oneline']  = 0;
+		// D2.currents_total(50);
+
+		D2.abbrev_comments({});
+		D2.noshow_comments([25959329,25960159,25960257,25960815,25961999,25962253,25962469,25960171,25960823,25959395,25959667,25960339,25959367,25959761,25959707,25959399,25959633,25960225]);
+		D2.pieces_comments([]);
+		D2.init_hiddens([]);
+
+		D2.finishLoading();
+
+
+
+//-->
+	</script></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="//news.slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>If you don't go to other men's funerals they won't go to yours.
+		-- Clarence Day</small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2010 <a href="http://geek.net/">Geeknet, Inc.</a>
+		</p>
+	</div>
+	<div id="login_cover" style="display:none" onclick="hide_login_box()"></div>
+<div id="login_box" style="display:none">
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			Please Log In to Continue<a href="#" onclick="hide_login_box(); return false" class="close" title="Close this box">x</a>
+			
+		</h3>
+	</div>
+</div>
+<div id="login_box_content">
+<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//news.slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+
+
+
+<hr>
+
+
+<form action="//slashdot.org/login.pl" method="post">
+<fieldset>
+	<input type="hidden" name="slash_returnto" value="//news.slashdot.org/">
+	<input type="hidden" name="op" value="claim_openid">
+	<input type="hidden" name="openid_login" value="1">
+	<label for="openid_url" class="openid_url">
+	<input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+	</label>
+	<input type="submit" value="Log in with OpenID" class="button">
+</fieldset>
+</form>
+
+
+<p>
+<b>
+<a href="//slashdot.org/my/newuser">Create Account</a>
+&nbsp;|&nbsp;
+<a href="//slashdot.org/my/mailpassword">Retrieve Password</a>
+</b>
+</p>
+</div></div>
+<script type="text/javascript">logged_in = 0</script>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="//news.slashdot.org/">home</a></li>
+			<li class="submit"><a href="//news.slashdot.org/submission">submit story</a></li>
+			<li><a href="//news.slashdot.org/help/">help </a></li>
+			<li><a href="http://geek.net/advertising">advertise</a></li>
+			<li><a href="http://geek.net/terms.php">terms of service</a></li>
+			<li><a href="http://geek.net/privacy-statement">privacy</a></li>
+			<li class="rss"><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script type="text/javascript">
+COMSCORE.beacon({
+  c1:2,
+  c2:6035546,
+  c3:"",
+  c4:"",
+  c5:"",
+  c6:"",
+  c15:""
+});
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2"></noscript>
+<div id="modal_cover" style="display:none"></div>
+<div id="modal_box" style="display:none">
+        <div class="generaltitle" >
+                <div class="title"><h3><span id="preference_title"></span> <a href="#" onclick="hide_modal_box(); return false">Close</a></h3></div>
+        </div>
+        <div id="modal_box_content"></div>
+</div>
+<script id="after-content" type="text/javascript">
+(function( $, fn, console ){
+	$ && fn && $(function(){ fn($, console); });
+})(window.jQuery, window.pageload_done, window.console);
+</script>
+
+</body>
+</html>
