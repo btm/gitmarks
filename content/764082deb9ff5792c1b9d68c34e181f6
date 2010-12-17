@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:lift="http://liftweb.net" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="width=320" name="viewport" />
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
+    <link href="/mobile/mobile.css" type="text/css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" id="jquery"></script>
+    <script type="text/javascript" src="/classpath/json.js" id="json"></script>
+    <title>foursquare mobile</title>
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-2322480-9']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    
+  
+	
+</head>
+<body>
+    <div>
+      
+      <div>
+        <a href="/mobile/"><img alt="foursquare" width="168" height="48" src="/img/header_mobile.png" /></a>
+      </div>
+      
+      
+        <a href="/mobile/"><b>foursquare</b></a>
+      
+    </div>
+    <hr />
+    <div id="lift__noticesContainer__"></div>
+    <div>
+      
+  <form action="/mobile/login" method="post"><div><input name="F339173093008CL5" type="hidden" value="true" /></div>
+    <table>
+      <tr>
+        <td>Email/phone:</td>
+        <td><input value="" name="username" type="text" /></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input name="password" type="password" /></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input value="Go" type="submit" /></td>
+      </tr>
+    </table>
+  </form>
+  <p>Wait! Don't have an account? <a href="/mobile/signup">Sign up</a>!</p>
+
+    </div>
+    
+    <hr />
+    <div>
+      © foursquare 2010 | <a href="/mobile/">home</a>
+      
+    </div>
+  <script type="text/javascript" src="/ajax_request/liftAjax.js"></script>
+
+	
+<script type="text/javascript">
+// <![CDATA[
+jQuery(document).ready(function() {liftAjax.lift_successRegisterGC();});
+var lift_page = "F339173093007VEC";
+// ]]>
+</script></body>
+</html>  
+  
