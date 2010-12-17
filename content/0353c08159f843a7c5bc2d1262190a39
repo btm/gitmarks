@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>loftninjas.org / bryan mclellan</title>
+</head>
+
+<style type="text/css">
+p.section { 
+  font-family:"Lucida Console", Times, serif; 
+  font-variant:small-caps; 
+  font-size:1.5em;
+  margin:5px;
+  }
+p.links {
+  font-family:Monospace, serif; 
+  }
+p.title {
+  font-size:1.5em;
+  font-family:Courier, Monospace, serif; 
+  margin: 10 0 0 10;
+  }
+hr.title {
+  width:98%;
+  padding-top: 0px;
+  }
+img.photo {
+  filter: alpha(opacity=50); 
+  opacity:0.50; 
+  border: 0px; 
+  float: right; 
+  padding: 10px; /* Firefox */
+  margin: 0 0 0 10; /* IE */
+  }
+</style>
+
+<body bgcolor=#ffffff>
+
+
+<div style="position: absolute; top: 0px; left: 0px; ">
+<p class=title><b>loftninjas.org</b>: home of bryan mclellan, aka btm + btmspox &lt;<a href="mailto:btm@loftninjas.org">btm@loftninjas.org</a>&gt;
+<hr class=title></p>
+<div style="position: relative; top: 5px; left: 30px; width:96%;">
+<img class=photo src="http://farm4.static.flickr.com/3070/2819996598_7ed9cba2fb.jpg">
+
+<p class=section>Technology</p>
+I am a Systems Administrator.
+This means I can discern what part of an infrastructure is doing it wrong while the building is on fire without spilling my drink.
+I also have strong opinions about community and if asked to will wax on about paradigm shifts like cloud computing and configuration management.
+As open source software is the Right[tm] way and Good, I make a point to contribute and spend a lot of time thinking about how to leverage the core values
+of the movement in other projects.
+I write about this in the usual fashion in a <a href="http://www.loftninjas.org/blog">blog</a>.
+I have a <a href="http://attic.loftninjas.org/btm/BryanMcLellan-Resume.pdf">resume</a>, if you're interested in that sort of thing.
+However, <a href="http://www.linkedin.com/in/bryanmclellan">linkedin</a>, is surely more up to date.
+
+<p class=section>Logisitics, Dirt + Advocacy</p>
+I grew up in a small town in the woods and keep relatively close to the earth as a matter of principle. 
+This has also earned me a self-reliant streak. Consequently, I am a useful person to have around.
+Having realized this, I volunteer my time to a slew of various organizations.
+I believe in making a difference through action and leadership and can sometimes be found in unexpected places.
+
+<p>I spend time advocating the use of bicycles as a primary mode of transportation in urban environments.
+I occasionally contribute writing to <a href="http://seattlelikesbikes.org/">Seattle Likes Bikes</a>
+and sometimes help organize local bicycle related events.
+I host the <a href="http://www.seattlecriticalmass.org">Seattle Critical Mass</a> website, and do specific bicycle advocacy work in my neighborhood of <a href="http://bikegeorgetown.org">Georgetown</a> in Seattle. 
+Additionally I have a side project called <a href="http://bikealive.org">Bike Alive</a> that hopes to reduce collisions between bicycles and motor vehicles.
+
+<p>Currently, I am an organizer for <a href="http://www.alleycatacres.com">Alleycat Acres</a>, an urban farming collective,
+and work toward increasing urban agriculture in Seattle by creating resources to engage people to support the local food movement,
+and empower them to be more self-sustaining with the end goal of reducing food insecurity. 
+As time marches on I've been getting more involved in local policy to set the stage for additional opportunities.
+
+<p>I am also a logistics/mss volunteer for <a href="http://www.seattleredcross.org/">American Red Cross</a>. I spend every third week on call to help the
+American Red Cross respond to a major disaster and in return receive regular training in a variety of disaster related positions. As a FCC licensed
+Amateur Radio operator I am also a member of the local chapters emergency communication team.
+
+<p class=section>Social Networking</p>
+I believe we can combine information with technology to make our lives better in interesting and useful ways. Thus, the internet knows a lot about me.
+Some parts of it are a bit old, while other parts may let you know what I'm up to right now. Consider this the index to a hall of mirrors.
+
+<p class=links><a href="http://www.linkedin.com/in/bryanmclellan">linkedin</a>,
+<a href="http://twitter.com/btmspox">twitter</a>,
+<a href="http://www.facebook.com/profile.php?id=694681250">facebook</a>,
+<A href="http://www.flickr.com/photos/btmspox">flickr</a>,
+<a href="http://www.myspace.com/btmspox">myspace</a>,
+<a href="https://launchpad.net/~btm/">launchpad</a>,
+<a href="http://www.jobster.com/people/bryanmclellan">jobster</a>,
+<a href="http://btmspox.yelp.com/">yelp</a>,
+<a href="http://del.icio.us/btmspox">del.icio.us</a>,
+<a href="http://www.last.fm/user/btmspox/">last.fm</a>,
+<a href="http://www.okcupid.com/profile?u=btmspox">okcupid</a>,
+<a href="http://www.spock.com/Bryan-McLellan-dlcZ1NIz">spock</a>,
+<a href="http://www.youtube.com/btmspox">youtube</a>,
+<a href="http://www.digg.com/users/btmspox">digg</a>,
+<a href="http://mugshot.org/person?who=kxl8YPdCsNFThl">mugshot</a>,
+<a href="http://technorati.com/people/technorati/btmspox">technorati</a>,
+<a href="http://www.cafepress.com/btmspox">cafepress</a>,
+<a href="http://www.goodreads.com/user/show/553948">goodreads</a>,
+<a href="http://www.youjustgetme.com/btm">youjustgetme</a>,
+<a href="http://www.slideshare.net/btm">slideshare</a>,
+<a href="https://www.ohloh.net/accounts/btm">ohloh</a>,
+<a href="http://playfoursquare.com/user/btmspox">foursquare</a>,
+<a href="http://www.google.com/reader/shared/09658484153719257215">google reader</a>
+
+<p class=section>Personal</p>
+It is commonly accepted among people that aren't fools that you can build better systems in the open than behind closed doors. 
+You have to be able to gracefully accept criticism and have patience for misunderstanding, but the ends justify the means.
+If you have gotten this far and are still interested in learning more about me,
+I keep my <a href="http://loftninjas.org/rants">personal journal</a> open to the public. 
+<p>While I've decided that the cost of any consequences there are to my openness are worthwhile, I can't make that decision for other people in my life.
+Accordingly, names are often reduced to a single character and as I know very many people this provides adequate ambiguity.
+Of course such writing is usually spurred by emotion and ends up lacking context, so I would recommend affording it a lot of humour.
+</div>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-3925133-3";
+urchinTracker();
+</script>
+</body>
+</html>
