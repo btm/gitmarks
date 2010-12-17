@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang=en lang=en-us>
+<head>
+<meta http-equiv=content-type content="text/html; charset=utf-8"/>
+<title>You Can't Sacrifice Partition Tolerance | codahale.com</title>
+<meta name=author content="Coda Hale"/>
+<link href="http://feeds2.feedburner.com/codahale" rel=alternate title=Atom type="application/atom+xml"/>
+<link rel=stylesheet type="text/css" media="screen, projection" href="http://codahale.com/css/text.css+pygment.css.pagespeed.cc.WPj2V7O5no.css">
+</head>
+<body>
+<div id=header>
+<h1><a href="/">codahale.com</a></h1>
+<p>
+Coda Hale lives in Emeryville, CA, where he writes about software
+development and such.
+</p>
+<p>
+<a href="/">writing</a> |
+<a href="/about.html">about</a> |
+<a href="/projects.html">projects</a> |
+<a href="/contact.html">contact</a>
+</p>
+</div>
+<hr/>
+<h2 class=post-title><a href="/you-cant-sacrifice-partition-tolerance/">You Can't Sacrifice Partition Tolerance</a></h2>
+<p class=date>07 Oct 2010</p>
+<p>I've seen a number of distributed databases recently
+<a href="http://danweinreb.org/blog/voltdb-versus-nosql">describe</a> themselves as
+<a href="http://en.wikipedia.org/w/index.php?title=Membase&amp;oldid=384896988">being &ldquo;CA&rdquo;</a>
+&mdash;that is, providing both consistency and availability while not providing
+partition-tolerance. To me, this indicates that the developers of these systems
+do not understand the the CAP theorem and its implications.</p>
+<h2>A Quick Refresher</h2>
+<p>In 2000, Dr. Eric Brewer gave a keynote at the <em>Proceedings of the Annual ACM
+Symposium on Principles of Distributed Computing</em><a href="#ft1"><sup>1</sup></a> in which
+he laid out his famous CAP Theorem: <em>a shared-data system can have at most two
+of the three following properties: <strong>C</strong>onsistency, <strong>A</strong>vailability, and
+tolerance to network <strong>P</strong>artitions.</em> In 2002, Gilbert and
+Lynch<a href="#ft2"><sup>2</sup></a> converted &ldquo;Brewer&rsquo;s conjecture&rdquo; into a more formal
+definition with an informal proof. As far as I can tell, it&rsquo;s been misunderstood
+ever since.</p>
+<p>So let&rsquo;s be clear on the terms we&rsquo;re using.</p>
+<h2>On Consistency</h2>
+<p>From Gilbert and Lynch<a href="#ft2"><sup>2</sup></a>:</p>
+<blockquote><p>Atomic, or linearizable, consistency is the condition expected by most web
+services today. Under this consistency guarantee, there must exist a total
+order on all operations such that each operation looks as if it were completed
+at a single instant. This is equivalent to requiring requests of the
+distributed shared memory to act as if they were executing on a single node,
+responding to operations one at a time.</p></blockquote>
+<p>Most people seem to understand this, but it bears repetition: a system is
+consistent if an update is applied to all relevant nodes at the same logical
+time. Among other things, this means that standard database replication is
+<em>not strongly consistent.</em> As anyone whose read replicas have drifted from the
+master knows, special logic must be introduced to handle replication lag.</p>
+<p>That said, consistency which is both instantaneous and global is impossible. The
+universe simply does not permit it. So the goal here is to push the time
+resolutions at which the consistency breaks down to a point where we no longer
+notice it. Just don&rsquo;t try to act outside your own light cone…</p>
+<h2>On Availability</h2>
+<p>Again from Gilbert and Lynch<a href="#ft2"><sup>2</sup></a>:</p>
+<blockquote><p>For a distributed system to be continuously available, every request received
+by a non-failing node in the system must result in a response. That is, any
+algorithm used by the service must eventually terminate … [When] qualified by
+the need for partition tolerance, this can be seen as a strong definition of
+availability: even when severe network failures occur, every request must
+terminate.</p></blockquote>
+<p>Despite the notion of <a href="http://blog.mongodb.org/post/381927266/what-about-durability">&ldquo;100% uptime as much as possible,&rdquo;</a>
+there are limits to availability. If you have a single piece of data on five
+nodes and all five nodes die, that data is gone and any request which required
+it in order to be processed cannot be handled.</p>
+<p>(N.B.: A <code>500 The Bees They're In My Eyes</code> response does not count as an actual
+response any more than a network timeout does. A response contains the results
+of the requested work.)</p>
+<h2>On Partition Tolerance</h2>
+<p>Once more, Gilbert and Lynch<a href="#ft2"><sup>2</sup></a>:</p>
+<blockquote><p>In order to model partition tolerance, the network will be allowed to lose
+arbitrarily many messages sent from one node to another. When a network is
+partitioned, all messages sent from nodes in one component of the partition to
+nodes in another component are lost. (And any pattern of message loss can be
+modeled as a temporary partition separating the communicating nodes at the
+exact instant the message is lost.)</p></blockquote>
+<p>This seems to be the part that most people misunderstand.</p>
+<p>Some systems cannot be partitioned. Single-node systems (e.g., a monolithic
+Oracle server with no replication) are incapable of experiencing a network
+partition. But practically speaking these are rare; add remote clients to the
+monolithic Oracle server and you get a distributed system which <em>can</em> experience
+a network partition (e.g., the Oracle server becomes unavailable).</p>
+<p>Network partitions aren&rsquo;t limited to dropped packets: a crashed server can be
+thought of as a network partition. The failed node is effectively the only
+member of its partition component, and thus all messages to it are &ldquo;lost&rdquo; (i.e.,
+they are not processed by the node due to its failure). Handling a crashed
+machine counts as partition-tolerance.
+(<strong>Update: I was wrong about this part. See <a href="#errata10221010">this</a> for more.</strong>)
+(N.B.: A node which has gone offline is actually the easiest sort of failure to
+deal with—you&rsquo;re assured that the dead node is not giving incorrect responses to
+another component of your system.)</p>
+<p>For a distributed (i.e., multi-node) system to <strong>not</strong> require
+partition-tolerance it would have to run on a network which is <em>guaranteed to
+never drop messages</em> (or even deliver them late) and whose nodes are <em>guaranteed
+to never die</em>. You and I do not work with these types of systems because <strong>they
+don&rsquo;t exist.</strong></p>
+<h2>Given A System In Which Failure Is An Option</h2>
+<p><a href="http://voltdb.com/voltdb-webinar-sql-urban-myths">Michael Stonebraker&rsquo;s assertions</a>
+aside, partitions (read: failures) do happen, and the chances that any one of
+your nodes will fail jumps exponentially as the number of nodes increases:</p>
+<p><em>P(any failure) = 1 &ndash; P(individual node not failing)<sup>number of nodes</sup></em></p>
+<p>If a single node has a 99.9% chance of not failing in a particular time period,
+a cluster of 40 has a 96.1% chance not failing. In other words, you've got
+around a 4% chance that <em>something</em> will go wrong. (And this is assuming that
+your failures are unrelated; in reality, they tend to cascade.)</p>
+<p>Therefore, the question you should be asking yourself is:</p>
+<blockquote><p><strong>In the event of failures, which will this system sacrifice? Consistency or
+availability?</strong></p></blockquote>
+<h2>Choosing Consistency Over Availability</h2>
+<p>If a system chooses to provide Consistency over Availability in the presence of
+partitions (again, read: failures), it will preserve the guarantees of its
+atomic reads and writes by refusing to respond to some requests. It may decide
+to shut down entirely (like the clients of a single-node data store), refuse
+writes (like Two-Phase Commit), or only respond to reads and writes for pieces
+of data whose &ldquo;master&rdquo; node is inside the partition component (like Membase).</p>
+<p><em>This is perfectly reasonable.</em> There are plenty of things (atomic counters, for
+one) which are made much easier (or even possible) by strongly consistent
+systems. They are a perfectly valid type of tool for satisfying a particular set
+of business requirements.</p>
+<h2>Choosing Availability Over Consistency</h2>
+<p>If a system chooses to provide Availability over Consistency in the presence
+of partitions (all together now: failures), it will respond to all requests,
+potentially returning stale reads and accepting conflicting writes. These
+inconsistencies are often resolved via causal ordering mechanisms like vector
+clocks and application-specific conflict resolution procedures. (Dynamo systems
+usually offer both of these; Cassandra&rsquo;s hard-coded Last-Writer-Wins conflict
+resolution being the main exception.)</p>
+<p>Again, <em>this is perfectly reasonable.</em> There are plenty of data models which are
+amenable to conflict resolution and for which stale reads are acceptable
+(ironically, many of these data models are in the financial industry) and for
+which unavailability results in massive bottom-line losses. (Amazon&rsquo;s shopping
+cart system is the canonical example of a Dynamo model<a href="#ft3"><sup>3</sup></a>).</p>
+<h2>But Never Both</h2>
+<p><strong>You cannot, however, choose both consistency and availability in a distributed
+system.</strong></p>
+<p>As a thought experiment, imagine a distributed system which keeps track of a
+single piece of data using three nodes—<code>A</code>, <code>B</code>, and <code>C</code>—and which claims to be
+both consistent and available in the face of network partitions. Misfortune
+strikes, and that system is partitioned into two components: <code>{A,B}</code> and <code>{C}</code>.
+In this state, a write request arrives at node <code>C</code> to update the single piece of
+data.</p>
+<p>That node only has two options:</p>
+<ol>
+<li>Accept the write, knowing that neither <code>A</code> nor <code>B</code> will know about this new
+data until the partition heals.</li>
+<li>Refuse the write, knowing that the client might not be able to contact <code>A</code> or
+<code>B</code> until the partition heals.</li>
+</ol>
+<p>You either choose availability (Door #1) or you choose consistency (Door #2).
+You cannot choose both.</p>
+<p>To claim to do so is claiming either that the system operates on a single node
+(and is therefore not distributed) or that an update applied to a node in one
+component of a network partition will also be applied to another node in a
+different partition component <strong><em>magically</em></strong>.</p>
+<p>This is, as you might imagine, rarely true.</p>
+<h2>A Readjustment In Focus</h2>
+<p>I think part of the problem with practical interpretations of the CAP theorem,
+especially with Gilbert and Lynch&rsquo;s formulation, is the fact that most real
+distributed systems do not require atomic consistency or perfect availability
+and will never be called upon to perform on a network suffering from arbitrary
+message loss. Consistency, Availability, and Partition Tolerance are the
+Platonic ideals of a distributed system&mdash;we can partake of them enough to meet
+business requirements, but the nature of reality is such that there will always
+be compromises.</p>
+<p>When it comes to designing or evaluating distributed systems, then, I think we
+should focus less on which two of the three Virtues we like most and more on
+what compromises a system makes as things go bad. (Because they will
+<a href="http://blog.foursquare.com/2010/10/05/so-that-was-a-bummer/">go bad</a>.)</p>
+<p>This brings us to an earlier bit of Brewer wisdom: <strong>yield</strong> and <strong>harvest</strong>,
+which come from Fox and Brewer&rsquo;s &ldquo;Harvest, Yield, and Scalable Tolerant
+Systems&rdquo;<a href="#ft4"><sup>4</sup></a>.</p>
+<blockquote><p>We assume that clients make queries to servers, in which case there are at
+least two metrics for correct behavior: <strong>yield</strong>, which is the probability of
+completing a request, and <strong>harvest</strong>, which measures the fraction of the data
+reflected in the response, i.e. the completeness of the answer to the query.</p></blockquote>
+<h2>On Yield</h2>
+<p>In a later article<a href="#ft5"><sup>5</sup></a>, Brewer expands on <strong>yield</strong> and its
+uses:</p>
+<blockquote><p>Numerically, this is typically very close to uptime, but it is more useful in
+practice because it directly maps to user experience and because it correctly
+reflects that not all seconds have equal value. Being down for a second when
+there are no queries has no impact on users or yield, but reduces uptime.
+Similarly, being down for one second at peak and off-peak times generates the
+same uptime, but vastly different yields because there might be an
+order-of-magnitude difference in load between the peak second and the
+minimum-load second. Thus we focus on yield rather than uptime.</p></blockquote>
+<h2>On Harvest</h2>
+<p><strong>Harvest</strong> is a far more overlooked metric, especially in the age of the
+relational database. If we imagine working on a search engine, however, we can
+imagine there being separate indexes for each word. The index of web pages which
+use the word &ldquo;cute&rdquo; is on node <code>A</code>, the index of web pages which use the word
+&ldquo;baby&rdquo; is on node <code>B</code>, and the index for the word &ldquo;animals&rdquo; is on machine <code>C</code>. A
+search, then, for &ldquo;cute baby animals&rdquo; which combined results from nodes <code>A</code>,
+<code>B</code>, and <code>C</code> would have a 100% harvest. If node<code>B</code> was unavailable, however, we
+might return a result for just &ldquo;cute animals,&rdquo; which would be a harvest of 66%.
+In other words:</p>
+<p><em>harvest = data available/complete data</em></p>
+<p>Another example would be a system which stores versions of documents. In the
+event that some nodes are down, the system could choose to present the most
+recent version of a document that it could find, even if it knew there was a
+probability that it was not the most recent version it had stored.</p>
+<h2>A Better Heuristic</h2>
+<p>Whether a system favors yield or harvest (or is even <em>capable</em> of reducing
+harvest) tends to be an outcome of its design.</p>
+<p>As Brewer puts it<a href="#ft5"><sup>5</sup></a>:</p>
+<blockquote><p>The key insight is that we can influence whether faults impact yield, harvest,
+or both. Replicated systems tend to map faults to reduced capacity (and to
+yield at high utilizations), while partitioned systems tend to map faults to
+reduced harvest, as parts of the database temporarily disappear, but the
+capacity in queries per second remains the same.</p></blockquote>
+<p>In terms of general advice to people building distributed systems (and really,
+who isn&rsquo;t these days?), I think the following is far more effective:</p>
+<blockquote><p><strong>Despite your best efforts, your system will experience enough faults that it
+will have to make a choice between reducing yield (i.e., stop answering
+requests) and reducing harvest (i.e., giving answers based on incomplete
+data). This decision should be based on business requirements.</strong></p></blockquote>
+<h2>Well Now What</h2>
+<p>It&rsquo;s incredibly unlikely this will change the way people will build distributed
+systems—far more of our motivation comes from business concerns (&ldquo;our shopping
+carts <em>cannot</em> go down&rdquo; or &ldquo;there would be no way for us to reconcile this
+later&rdquo;). What I'd like to see, though, is far fewer people unknowingly
+describing their systems as logical impossibilities.</p>
+<h2>tl;dr</h2>
+<p>Of the CAP theorem&rsquo;s Consistency, Availability, and Partition Tolerance,
+Partition Tolerance is mandatory in distributed systems. You cannot <strong>not</strong>
+choose it. Instead of CAP, you should think about your availability in terms of
+<em>yield</em> (percent of requests answered successfully) and <em>harvest</em> (percent of
+required data actually included in the responses) and which of these two your
+system will sacrifice when failures happen.</p>
+<h2>References (i.e., Things You Should Read)</h2>
+<ol>
+<li><p>Brewer. <a href="http://www.cs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf">Towards robust distributed systems.</a>
+Proceedings of the Annual ACM Symposium on Principles of Distributed
+Computing (2000) vol. 19 pp. 7-10 <a id=ft1 /></p></li>
+<li><p>Gilbert and Lynch. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.67.6951&amp;rep=rep1&amp;type=pdf">Brewer&rsquo;s conjecture and the feasibility of consistent, available, partition-tolerant web services.</a>
+ACM SIGACT News (2002) vol. 33 (2) pp. 59 <a id=ft2 /></p></li>
+<li><p>DeCandia et al. <a href="http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf">Dynamo: Amazon&rsquo;s highly available key-value store.</a>
+SOSP &lsquo;07: Proceedings of twenty-first ACM SIGOPS symposium on Operating
+systems principles (2007) <a id=ft3 /></p></li>
+<li><p>Fox and Brewer. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.24.3690&amp;rep=rep1&amp;type=pdf">Harvest, yield, and scalable tolerant systems.</a>
+Hot Topics in Operating Systems, 1999. Proceedings of the Seventh Workshop on
+(1999) pp. 174 &ndash; 178 <a id=ft4 /></p></li>
+<li><p>Brewer. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.83.4274&amp;rep=rep1&amp;type=pdf">Lessons from giant-scale services.</a>
+Internet Computing, IEEE (2001) vol. 5 (4) pp. 46 &ndash; 55 <a id=ft5></a></p></li>
+</ol>
+<p>(As a sad postscript: most of the theoretical papers I've referenced are about a
+decade old and all of them are freely available online.)</p>
+<h2>Updated October 8, 2010</h2>
+<p>Dr. Brewer <a href="http://twitter.com/eric_brewer/status/26819094612">approves</a> (somewhat).</p>
+<h2>Updated October 21, 2010</h2>
+<p>Dr. Stonebraker <a href="http://voltdb.com/blog/clarifications-cap-theorem-and-data-related-errors">does not approve</a> (somehwat).</p>
+<h2>Updated October 22, 2010</h2>
+<p><a id=errata10221010></a>In his response, Dr. Stonebraker says:</p>
+<blockquote><p>In Coda’s view, the dead node is in one partition and the remaining N-1 nodes
+are in the other one. The guidance from the CAP theorem is that you must
+choose either A or C, when a network partition is present. As is obvious in
+the real world, it is possible to achieve both C and A in this failure mode.
+You simply failover to a replica in a transactionally consistent way. Notably,
+at least Tandem and Vertica have been doing exactly this for years. Therefore,
+considering a node failure as a partition results in an obviously
+inappropriate CAP theorem conclusion.</p></blockquote>
+<p>He is correct: a dead (or wholly partitioned) node can receive no requests, and
+so the other nodes can easily compensate without compromising consistency or
+availability here. My error lies in forgetting that Gilbert and Lynch&rsquo;s
+formulation of availability requires only non-failing nodes to respond, and that
+without ≥1 live nodes in a partition there isn&rsquo;t the option for split-brain
+syndrome. I regret the error and thank both him and Dr. Brewer for pointing this
+out.</p>
+<p>That said, Dr. Stonebraker&rsquo;s assertion that &ldquo;surviving [partitions] will not
+&lsquo;move the needle&rsquo; on availability because higher frequency events will cause
+global outages&rdquo; is wrong. Multi-node failures may be rarer than single-node
+failures, but they are still common enough to have serious effects on business.
+In my limited experience I've dealt with long-lived network partitions in a
+single data center (DC), PDU failures, switch failures, accidental power cycles
+of whole racks, whole-DC backbone failures, whole-DC power failures, and a
+hypoglycemic driver smashing his Ford pickup truck into a DC&rsquo;s HVAC system. And
+I'm not even an ops guy.</p>
+<p>The fact of the matter is that most real-world systems require substantially
+less in the way of consistency guarantees than they do in the way of
+availability guarantees. Amazon&rsquo;s shopping carts, for example, do not require
+the full ACID treatment, nor do Twitter&rsquo;s timelines or Facebook&rsquo;s news feeds or
+Google&rsquo;s indexes. Even the canonical example of an isolated transaction&mdash;a
+transfer of funds between bank accounts&mdash;happens with a 24-hour window of
+indeterminacy. In fact, one of the few financial transactions which actually
+resembles a database transaction is the physical exchange of cash for goods&mdash;a
+totally analog experience.</p>
+<p>But whereas failures of consistency are tolerated or even expected, just about
+every failure of availability means lost money. Every failed Google search means
+fewer ads served and advertisers charged; every item a user can&rsquo;t add to their
+shopping cart means fewer items sold; every unprocessed credit charge risks a
+regulatory fine. The choice of availability over consistency is a business
+choice, not a technical one.</p>
+<p>Given this economic context, it becomes clear why most practitioners at any
+interesting scale meet their business needs using highly-available, eventually
+consistent systems.</p>
+<hr/>
+<p id=discussion-blurb>
+You'll notice there are no comments here. I hate discussing things via
+blog comments. If you'd like to talk, <a href="/contact.html">drop me a
+line</a>. If you'd like to discuss things in public, post on your blog.
+This content is mine, but feel free to avail yourself of your
+<a href="http://www.copyright.gov/fls/fl102.html">fair use rights</a>.
+</p>
+<hr/>
+<div id=call-to-action>
+<h3>Read More</h3>
+<ul>
+<li>
+<a href="/what-makes-jersey-interesting-parameter-classes/">What Makes Jersey Interesting: Parameter Classes</a>
+(02 May 2009)
+</li>
+<li>
+<a href="/a-lesson-in-timing-attacks/">A Lesson In Timing Attacks (or, Don't use MessageDigest.isEquals)</a>
+(13 Aug 2009)
+</li>
+<li>
+<a href="/what-makes-jersey-interesting-injection-providers/">What Makes Jersey Interesting: Injection Providers</a>
+(16 May 2009)
+</li>
+<li>
+<a href="/when-formality-works/">When Formality Works</a>
+(07 May 2009)
+</li>
+<li>
+<a href="/how-to-safely-store-a-password/">How To Safely Store A Password</a>
+(31 Jan 2010)
+</li>
+<li>
+<a href="/foss-and-male-privilege/">FOSS and Male Privilege</a>
+(27 Aug 2009)
+</li>
+<li>
+<a href="/how-not-to-fix-a-security-bug/">How Not To Fix A Security Bug</a>
+(14 Jun 2009)
+</li>
+<li>
+<a href="/ruby-and-male-privilege/">Ruby and Male Privilege</a>
+(10 May 2009)
+</li>
+</ul>
+</div>
+<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-8706236-1");
+			pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+</body>
+</html>
