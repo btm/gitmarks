@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Puppet - Reference Index - Puppet Labs</title>
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<link rel='shortcut icon' href='/favicon.ico?1282706086' />
+<link href="/themes/puppetlabs_redmine_theme/stylesheets/application.css?1282692208" media="all" rel="stylesheet" type="text/css" />
+
+<script src="/javascripts/prototype.js?1282710858" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1282710858" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1282710858" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1282710858" type="text/javascript"></script>
+<script src="/javascripts/application.js?1282710858" type="text/javascript"></script>
+<link href="/stylesheets/jstoolbar.css?1282710992" media="screen" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+    <style type="text/css">
+      * html body{ width: expression( document.documentElement.clientWidth < 900 ? '900px' : '100%' ); }
+      body {behavior: url(/stylesheets/csshover.htc?1282710986);}
+    </style>
+<![endif]-->
+<link href="/plugin_assets/redmine_contributor_licensing/stylesheets/contributor-licensing.css?1282608903" media="screen" rel="stylesheet" type="text/css" />  <link href="/plugin_assets/redmine_vote/stylesheets/stylesheet.css?1280122018" media="screen" rel="stylesheet" type="text/css" />
+<!-- page specific tags -->
+
+  <link href="/stylesheets/scm.css?1282710929" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body class="theme-Puppetlabs redmine theme controller-wiki action-index">
+<div id="wrapper">
+<div id="wrapper2">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a href="/login" class="login">Sign in</a></li>
+<li><a href="/account/register" class="register">Register</a></li></ul>    </div>
+    
+    <ul><li><a href="http://puppetlabs.com" class="external-link puppetlabs">Puppet Labs Site</a></li>
+<li><a href="http://docs.puppetlabs.com" class="external-link documentation">Documentation</a></li>
+<li><a href="http://www.puppetlabs.com/resources/customer-support" class="external-link support">Support</a></li>
+<li><a href="http://www.puppetlabs.com/company/#contact" class="external-link contact">Contact Us</a></li>
+<li><a href="http://www.puppetlabs.com/resources/downloads" class="external-link download">Download</a></li>
+<li><a href="/" class="home">Home</a></li>
+<li><a href="/projects" class="projects">Projects</a></li>
+<li><a href="http://www.redmine.org/guide" class="help">Help</a></li></ul></div>
+      
+<div id="header">
+    <div id="quick-search">
+        <form action="/search/index/puppet" method="get">
+        <input name="wiki_pages" type="hidden" value="1" />
+        <a href="/search/index/puppet" accesskey="4">Search</a>:
+        <input accesskey="f" class="small" id="q" name="q" size="20" type="text" />
+        </form>
+        
+    </div>
+    
+    <h1>Puppet</h1>
+    
+    
+    <div id="main-menu">
+        <ul><li><a href="/projects/puppet" class="overview">Overview</a></li>
+<li><a href="/projects/puppet/activity" class="activity">Activity</a></li>
+<li><a href="/projects/puppet/roadmap" class="roadmap">Roadmap</a></li>
+<li><a href="/projects/puppet/issues" class="issues">Issues</a></li>
+<li><a href="/projects/puppet/wiki" class="wiki selected">Wiki</a></li>
+<li><a href="/projects/puppet/files" class="files">Files</a></li>
+<li><a href="/projects/puppet/repository" class="repository">Repository</a></li></ul>
+    </div>
+    
+</div>
+
+<div class="" id="main">
+    <div id="sidebar">        
+        
+    <h3 id="[New+To+Puppet](http://projects.puppetlabs.com/projects/puppet/wiki/New_to_puppet)"><a href="http://projects.puppetlabs.com/projects/puppet/wiki/New_to_puppet">New To Puppet</a></h3>
+
+<ul>
+<li><a href="/projects/puppet/wiki/About_Puppet" class="wiki-page">About Puppet</a></li>
+<li><a href="/projects/puppet/wiki/Puppet_Compatibility" class="wiki-page">Puppet Compatibility</a></li>
+<li><a href="/projects/puppet/wiki/Whos_Using_Puppet" class="wiki-page">Whos Using Puppet</a></li>
+<li><a href="/projects/puppet/wiki/Getting_Started" class="wiki-page">Getting Started</a></li>
+<li><a href="/projects/puppet/wiki/Puppet_Best_Practice" class="wiki-page">Puppet Best Practice</a></li>
+<li><a href="/projects/puppet/wiki/Downloading_Puppet" class="wiki-page">Downloading Puppet</a></li>
+<li><a href="http://docs.puppetlabs.com/guides/language_tutorial.html">Language Tutorial</a></li>
+<li><a href="/projects/puppet/wiki/Frequently_Asked_Questions" class="wiki-page">Frequently Asked Questions</a></li>
+<li><a href="/projects/puppet/wiki/Documentation_Start" class="wiki-page">Documentation Start</a></li>
+<li><a href="/projects/puppet/wiki/Getting_Help" class="wiki-page">Getting Help</a></li>
+<li><a href="/projects/puppet/wiki/Whos_Using_Puppet" class="wiki-page">Whos Using Puppet</a></li>
+</ul>
+
+
+<h3 id="[Release+Notes](http://projects.puppetlabs.com/projects/puppet/wiki/Release_Notes)"><a href="http://projects.puppetlabs.com/projects/puppet/wiki/Release_Notes">Release Notes</a></h3>
+
+<ul>
+<li><a href="/projects/puppet/wiki/Glossary_Of_Terms" class="wiki-page">Glossary Of Terms</a></li>
+<li><a href="/projects/puppet/wiki/Style_Guide" class="wiki-page">Style Guide</a></li>
+<li><a href="/projects/puppet/wiki/Puppet_Patterns" class="wiki-page">Puppet Patterns</a></li>
+<li><a href="/projects/puppet/wiki/Module_Organisation" class="wiki-page">Module Organisation</a></li>
+<li><a href="/projects/puppet/wiki/Puppet_Modules" class="wiki-page">Puppet Modules</a></li>
+<li><a href="/projects/puppet/wiki/Puppet_Executables" class="wiki-page">Puppet Executables</a></li>
+<li><a href="/projects/puppet/wiki/Puppet_Internals" class="wiki-page">Puppet Internals</a></li>
+</ul>
+
+
+<h3 id="References+and+Advanced+Topics">References and Advanced Topics</h3>
+
+<ul>
+<li><a href="http://docs.puppetlabs.com/references/latest/type.html">Type Reference</a></li>
+<li><a href="http://docs.puppetlabs.com/references/latest/function.html">Function Reference</a></li>
+<li><a href="http://docs.puppetlabs.com/references/latest/metaparameter.html">Metaparameter Reference</a></li>
+<li><a href="http://docs.puppetlabs.com/references/latest/configuration.html">Configuration Reference</a></li>
+<li><a href="http://docs.puppetlabs.com/references/latest/network.html">Network Reference</a></li>
+<li><a href="http://docs.puppetlabs.com/references/latest/report.html">Report Reference</a></li>
+<li><a href="/projects/puppet/wiki/Writing_Your_Own_Functions" class="wiki-page">Writing Your Own Functions</a></li>
+<li><a href="/projects/puppet/wiki/Parsing_Architecture" class="wiki-page">Parsing Architecture</a></li>
+</ul>
+
+
+
+<h3>Wiki</h3>
+
+<a href="/projects/puppet/wiki">Start page</a><br />
+<a href="/projects/puppet/wiki/Page_index">Index by title</a><br />
+<a href="/projects/puppet/wiki/Date_index">Index by date</a><br />
+
+
+        
+    </div>
+    
+    <div id="content">
+				
+        <div class="contextual">
+
+
+<span id="watcher"></span>
+
+
+
+
+
+
+<a href="/projects/puppet/wiki/Reference_Index/history" class="icon icon-history">History</a>
+</div>
+
+
+
+
+
+<div class="wiki">
+  <h1 id="Reference+Index">Reference Index</h1>
+
+<ol>
+<li><a href="http://docs.puppetlabs.com/references/latest/type.html">Type Reference</a> &ndash; Puppet resource types</li>
+<li><a href="http://docs.puppetlabs.com/references/latest/function.html">Function Reference</a> &ndash; Puppet&rsquo;s native functions</li>
+<li><a href="http://docs.puppetlabs.com/references/latest/configuration.html">Configuration Reference</a> &ndash; Puppet configuration parameters</li>
+<li><a href="http://docs.puppetlabs.com/references/latest/network.html">Network Reference</a> &ndash; Puppet network interfaces and supported methods</li>
+<li><a href="http://docs.puppetlabs.com/references/latest/report.html">Report Reference</a> &ndash; Currently-supported Puppet reports</li>
+<li><a href="http://docs.puppetlabs.com/references/latest/indirection.html">Indirection Reference</a> &ndash; Indirected classes and their various back-ends</li>
+<li><a href="http://docs.puppetlabs.com/references/latest/metaparameter.html">Metaparameter Reference</a> &ndash; Metaparameters</li>
+</ol>
+
+
+<h1 id="Advanced+Topics">Advanced Topics</h1>
+
+<ol>
+<li><a href="/projects/puppet/wiki/Development_Creating_Custom_Types" class="wiki-page">Creating Custom Types</a> &ndash; Guide to creating custom types</li>
+<li><a href="/projects/puppet/wiki/Writing_Your_Own_Functions" class="wiki-page">Writing Your Own Functions</a> &ndash; Guide to writing custom functions</li>
+</ol>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+				<div style="clear:both;"></div>
+    </div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+	
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="http://www.redmine.org/">Redmine</a> &copy; 2006-2010 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1537572-5");
+pageTracker._setDomainName(".puppetlabs.com");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
