@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:wiki="http://purl.org/rss/1.0/modules/wiki/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/"><!--
+    Add an "items=nnn" URL parameter to get more than the default 15 items.
+    You cannot get more than 100 items though.
+    
+    Add "unique=1" to get a list of changes where page names are unique,
+    i.e. where only the latest change of each page is reflected.
+    
+    Add "diffs=1" to add change diffs to the description of each items.
+    
+    Add "ddiffs=1" to link directly to the diff (good for FeedReader).
+    Current settings: items=15, unique=1, diffs=1, ddiffs=0-->
+<channel rdf:about="http://www.seattlewireless.net"><title>SeattleWireless</title><link>http://www.seattlewireless.net/RecentChanges</link><description>RecentChanges at SeattleWireless</description><image rdf:resource="http://www.seattlewireless.net/images/swn-trans.png"></image><wiki:interwiki>SeattleWireless</wiki:interwiki><items><rdf:Seq><rdf:li rdf:resource="http://www.seattlewireless.net/tevop#20101210175422"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/LinksysWrt54g#20101209164338"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/NetgearWGR614#20101205023019"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/BadContent#20101204101104"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/WirelessHardwareLinks#20101110220115"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/HotNews#20101104230526"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/QMA_AND_QN#20101010034257"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/Love-Spells#20100930175707"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/LocalBadContent#20100923000418"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/RonPike#20100917213607"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/LaMagieBlanche#20100916140642"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/PigTail#20100916073059"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/ReverseSma#20100915055147"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/NetgearWG602#20100912210827"></rdf:li><rdf:li rdf:resource="http://www.seattlewireless.net/HelpOnInstalling/MinimalWiki#20100908224950"></rdf:li></rdf:Seq></items></channel><image rdf:about="http://www.seattlewireless.net/images/swn-trans.png"><title>SeattleWireless</title><link>http://www.seattlewireless.net/</link><url>http://www.seattlewireless.net/images/swn-trans.png</url></image><item rdf:about="http://www.seattlewireless.net/tevop#20101210175422"><title>tevop</title><link>http://www.seattlewireless.net/tevop</link><dc:date>2010-12-10T17:54:22Z</dc:date><description>
+&lt;pre&gt;
+
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="masq137-32-158-94.lds.net.ua"><rdf:value>masq137-32-158-94.lds.net.ua</rdf:value></rdf:Description></dc:contributor><wiki:version>1292003662000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/tevop?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/tevop?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/LinksysWrt54g#20101209164338"><title>LinksysWrt54g</title><link>http://www.seattlewireless.net/LinksysWrt54g</link><dc:date>2010-12-09T16:43:38Z</dc:date><description>
+&lt;pre&gt;
+  {{{
+  dd if=WRT54G_1.30.1_US_code.bin of=header bs=32c count=24577c
+  
++ 
+  }}}
+  And get the cramfs image with this:
+  
+  {{{
+  dd if=WRT54G_1.30.1_US_code.bin of=linksys.img bs=32c skip=24577c
+  
++ 
+  }}}
+  The header is a Linux kernel with a bit of header info in the first several bytes. The first four bytes are "W54G" (0x57 0x35 0x34 0x47).
+  
+@@ -104, +106 @@
+
+  {{{
+  0x0000 57 35 34 47 00 00 00 00 03 01 1D 01 01 04 00 00
+  
++ 
+  0x0000 57 35 34 47 00 00 00 00 03 03 04 01 02 01 55 32
+...
+
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="office.callcopy.com"><rdf:value>office.callcopy.com</rdf:value></rdf:Description></dc:contributor><wiki:version>1291913018000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/LinksysWrt54g?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/LinksysWrt54g?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/NetgearWGR614#20101205023019"><title>NetgearWGR614</title><link>http://www.seattlewireless.net/NetgearWGR614</link><dc:date>2010-12-05T02:30:19Z</dc:date><description>
+&lt;pre&gt;
+           Time   : Jul 23 2004, 14:09:03
+  }}}
+  ----
++ = v9 Info =
++ The TelnetEnable tool above worked to enable telnet on the v9 of this router. However, once logged in via telnet it was clear this router runs Linux instead of VxWorks:
++ {{{
++ 
++ BusyBox v0.60.0 (2008.09.30-11:37+0000) Built-in shell (msh)
++ Enter 'help' for a list of built-in commands.
++ 
++ #
++ }}}
++ 
++ Some other interesting things about the hardware:
++ {{{
++ # cat /proc/cpuinfo
++ system type             : Broadcom BCM5354 chip rev 3
++ processor               : 0
++ cpu model               : BCM3302 V2.9
++ BogoMIPS                : 237.56
+...
+
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="rrcs-70-63-20-194.central.biz.rr.com"><rdf:value>rrcs-70-63-20-194.central.biz.rr.com</rdf:value></rdf:Description></dc:contributor><wiki:version>1291516219000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/NetgearWGR614?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/NetgearWGR614?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/BadContent#20101204101104"><title>BadContent</title><link>http://www.seattlewireless.net/BadContent</link><dc:date>2010-12-04T10:11:04Z</dc:date><description>
+&lt;pre&gt;
+  sexocuritiba\.com\.br
+  webdesign63\.de
+  websearchplanet\.info
++ blog\.bitcomet\.com
+  
+  ## ===========================================================================================
+  ## Please keep this comment at the end. Please note:
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="Antispam subsystem"><rdf:value>Antispam subsystem</rdf:value></rdf:Description></dc:contributor><wiki:version>1291457464000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/BadContent?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/BadContent?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/WirelessHardwareLinks#20101110220115"><title>WirelessHardwareLinks</title><link>http://www.seattlewireless.net/WirelessHardwareLinks</link><dc:date>2010-11-10T22:01:15Z</dc:date><description>
+&lt;pre&gt;
+   * http://edge.mcs.drexel.edu/GICL/people/sevy/airport/ (Java configurator for non- AppleComputer hosts)
+   * http://macintouch.com/airportantenna.html (Modifying the antenna for greater range)
+   * http://www.msrl.com/airport-gold/ (Adding 128-bit encryption)
+-  * http://gawth.com/rail/airport (mirror of configurator and v1.2 firmware)
+   * http://www.vonwentzel.net/ABS/index.html AirPorts overheat!  (repair guide)
+   * http://freebase.sourceforge.net/ (FreeBase is a configuration tool for the Apple AirPort Base Station. FreeBase runs on Windows 95/98/2000/NT and is written in Visual Basic.)
+  
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="65-61-116-102.ptr.llix.net"><rdf:value>65-61-116-102.ptr.llix.net</rdf:value></rdf:Description></dc:contributor><wiki:version>1289426475000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/WirelessHardwareLinks?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/WirelessHardwareLinks?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/HotNews#20101104230526"><title>HotNews</title><link>http://www.seattlewireless.net/HotNews</link><dc:date>2010-11-04T23:05:26Z</dc:date><description>
+&lt;pre&gt;
+  
+  http://metrix.net/ubiquiti-nanostation-2-ns2-p-110.html
+  
++ http://www.amer.com/_e/Wireless_Devices/sproduct/1017287083/Premiertek_PT_2212PU_1W_IEEE_802_11b_g_Wi_Fi_Adapter.htm
++ ----
++ CategoryAccessPointHardware
++ 
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="CPE001d7e2083ba-CM0018c0c5ee88.cpe.net.cable.rogers.com"><rdf:value>CPE001d7e2083ba-CM0018c0c5ee88.cpe.net.cable.rogers.com</rdf:value></rdf:Description></dc:contributor><wiki:version>1288911926000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/HotNews?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/HotNews?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/QMA_AND_QN#20101010034257"><title>QMA_AND_QN</title><link>http://www.seattlewireless.net/QMA_AND_QN</link><dc:date>2010-10-10T03:42:57Z</dc:date><description>
+&lt;pre&gt;
+   . In this newest version of the QN conductor, further improvements can still be made in the following areas: The three classic RF coaxial connectors, SMA, N, and APC-7, are all able to achieve high bandwidth and low VSWR primarily as a result of the zero clearance in contact interface, which allows for continuous impedance and almost no reflection between their contact surfaces.
+   However, the QLF’s QN design’s use of a spring contact will in all likelihood result in discontinuous impedance. The Quick-Lock-N type connector should base its structure on the rigid contact design of the original N type connector, which guarantees continuous impedance between contact surfaces and enables it to maintain the N type’s electrical performance: DC-11GHz VSWR&amp;lt;1.25, with the precision type Quick-Lock-N able to reach DC-18GHz VSWR&amp;lt;1.08. The newly designed '''Anoison HPQN'''(High Performance Quick-lock N)'''connector''' adheres to these principles by adopting a spring-lock made of stainless steel similar to that used in the QMA, which allows for rigid contact between the contact surfaces and ensures continuous impedance. That is to say '''HPQN '''maintains the performance indexes of the original N type connector, while requiring only 80% of the material necessary to manufacture the QLF’s QN design.(see figure 12)
+  
+- More details please view [http://www.anoison.us|ANOISON ELECTRONICS]. 
++ More details please view [[http://www.anoison.us|ANOISON ELECTRONICS]]. 
+  
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="76.6.229.114.broad.zj.js.dynamic.163data.com.cn"><rdf:value>76.6.229.114.broad.zj.js.dynamic.163data.com.cn</rdf:value></rdf:Description></dc:contributor><wiki:version>1286682177000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/QMA_AND_QN?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/QMA_AND_QN?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/Love-Spells#20100930175707"><title>Love-Spells</title><link>http://www.seattlewireless.net/Love-Spells</link><dc:date>2010-09-30T17:57:07Z</dc:date><dc:contributor><rdf:Description wiki:host="unassigned.stephouse.net"><rdf:value>Self:JasonMcArthur</rdf:value></rdf:Description></dc:contributor><wiki:version>1285869427453150</wiki:version><wiki:status>deleted</wiki:status><wiki:diff>http://www.seattlewireless.net/Love-Spells?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/Love-Spells?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/LocalBadContent#20100923000418"><title>LocalBadContent</title><link>http://www.seattlewireless.net/LocalBadContent</link><dc:date>2010-09-23T00:04:18Z</dc:date><description>
+&lt;pre&gt;
+  # \.info
+  #\.ru
+  \.cn
+- (ringtones|masturbat|ambien|bukkake|vaporizer|phentermine|fentermine|viagra|hydrocodone|prozac|zoloft|xanax|valium|vicodin|paxil|vioxx|bondage|cialis|lipitor|propecia|meridia|levitra|ephedra|tramadol|adipex|essay|javascript\:void)
++ (ringtones|masturbat|ambien|bukkake|vaporizer|phentermine|fentermine|viagra|hydrocodone|prozac|zoloft|xanax|valium|vicodin|paxil|vioxx|bondage|cialis|lipitor|propecia|meridia|levitra|ephedra|tramadol|adipex|essay|javascript\:void|poker)
+  (powerlevel|wow gold|eve isk)
+  [a-z]{2,}[0-9]{2,}\.info
+  [0-9]{2,}dee\.cn
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="unassigned.stephouse.net"><rdf:value>Self:JasonMcArthur</rdf:value></rdf:Description></dc:contributor><wiki:version>1285200258000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/LocalBadContent?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/LocalBadContent?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/RonPike#20100917213607"><title>RonPike</title><link>http://www.seattlewireless.net/RonPike</link><dc:date>2010-09-17T21:36:07Z</dc:date><description>
+&lt;pre&gt;
++ deleted  
+- New Data as of November 2008 -- 
+- I have moved and I am now just south of Magnuson Park, I re-used my Hyperlinktech HGV-2410U on a Meraki outdoor unit.  Our neighborhood group pitched in and now we have five outdoor Meraki units and will purchase a couple more before the end of the year.
+  
+- Old data from May of 2003  --
+- I am in "Wallimont" (border area of Fremont and Wallingford between Highway 99 and Stoneway Avenue).  To the east my roof has a good view of the Hamilton Middle School, central Wallingford, and there is a clear look across Lake Union to Eastgate/Zymogenetics.   I have the Hyperlinktech HGV-2410U omnidirectional antenna installed for client access now.  Follow up tasks will be a NoCatAuth captive portal and an IP tunnel to another SWN node.   Please let me know if you want to link to my site.  I have a WAP11 all ready for a point to point link.  Email me at ron at ronpike dot com. 
+- 
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="72.52.96.14"><rdf:value>72.52.96.14</rdf:value></rdf:Description></dc:contributor><wiki:version>1284759367000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/RonPike?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/RonPike?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/LaMagieBlanche#20100916140642"><title>LaMagieBlanche</title><link>http://www.seattlewireless.net/LaMagieBlanche</link><dc:date>2010-09-16T14:06:42Z</dc:date><description>
+&lt;pre&gt;
+  
+  La magie blanche prends les énergies positives et œuvre en harmonie avec la terre et ses réserves naturelles. 
+  
+- Néanmoins, un des aspects important de la [http://www.magieblancheamour.com|magie blanche] est l'objectif. Au fond, la terre à un une quantité fixe de ces réserves (à l'opposé de l'amour qui est infini), donc accumuler ces fortunes matérielles présume prendre une partie des ressources qui ne pourront être employées par d'autres personnes. Vos intentions pour l'argent que vous allez obtenir influenceront la manière dont vous l'obtiendrez grâce à la magie blanche.
++ Néanmoins, un des aspects important de la [[http://www.magieblancheamour.com|magie blanche]] est l'objectif. Au fond, la terre à un une quantité fixe de ces réserves (à l'opposé de l'amour qui est infini), donc accumuler ces fortunes matérielles présume prendre une partie des ressources qui ne pourront être employées par d'autres personnes. Vos intentions pour l'argent que vous allez obtenir influenceront la manière dont vous l'obtiendrez grâce à la magie blanche.
+  
+  Regardons certains exemples. Si vous désiriez beaucoup d'argent pour être capable de raser une forêt àfin d'y construire une énorme usine à bombes, vos motifs souhaits seraient assez claires. Votre souhait ultime serait la destruction, potentiellement de vies humaines quand ces bombes seront achetées par quelque gouvernement et larguées sur leurs ennemies. Vous apporteriez un plus à la vie des autres et apporteriez de la positivité et de l'harmonie à la race humaine, et par là-même, à la terre. Cela n'est bien sûre pas en accord avec la symbiose de la terre et donc l'objectif vous interdirait d'utiliser un charme de magie blanche pour y parvenir.
+  
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="15.156.75-86.rev.gaoland.net"><rdf:value>15.156.75-86.rev.gaoland.net</rdf:value></rdf:Description></dc:contributor><wiki:version>1284646002000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/LaMagieBlanche?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/LaMagieBlanche?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/PigTail#20100916073059"><title>PigTail</title><link>http://www.seattlewireless.net/PigTail</link><dc:date>2010-09-16T07:30:59Z</dc:date><description>
+&lt;pre&gt;
+  
+  {{http://metrix.net/images/MET-PMMCXNM001.jpg}}
+  
+- [[http://www.cmpter.com/n-connecotrs.htm|Cmpter Electroncis main manufacture many kinds of pigtails]] 
++ [[http://www.cmpter.com/n-connecotrs.htm|Cmpter Electronics main manufacture many kinds of pigtails]] 
+  ==== MC-Card (right angle) by N Male ====
+  
+  {{http://seattlewireless.net/images/uploaded/14563.1002170041.jpg}}
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="112.0.65.166"><rdf:value>112.0.65.166</rdf:value></rdf:Description></dc:contributor><wiki:version>1284622259000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/PigTail?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/PigTail?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/ReverseSma#20100915055147"><title>ReverseSma</title><link>http://www.seattlewireless.net/ReverseSma</link><dc:date>2010-09-15T05:51:47Z</dc:date><description>
+&lt;pre&gt;
+  
+  -EricJohanson
+  
+- Higher performance RPSMA antennas are available from http://www.hdcom.com/2.4ghz.html HD Communications also sells the RPSMA connectors as well as cable assemblies for all RPSMA wireless lan installs.
++ Higher performance RPSMA antennas are available from http://www.hdcom.com/2.4ghz.html HD Communications also sells the RPSMA connectors as well as cable assemblies for all RPSMA wireless lan installs. http://www.cmpter.com/sma-connecotrs.htm
+  
+  mic@wirelessways.com
+  ----
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="112.0.65.98"><rdf:value>112.0.65.98</rdf:value></rdf:Description></dc:contributor><wiki:version>1284529907000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/ReverseSma?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/ReverseSma?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/NetgearWG602#20100912210827"><title>NetgearWG602</title><link>http://www.seattlewireless.net/NetgearWG602</link><dc:date>2010-09-12T21:08:27Z</dc:date><description>
+&lt;pre&gt;
+  [[http://www.idt.com/products/getDoc.cfm?docID=6317|79RC32334 BSDL]]
+  
+  = Sources of IDT devboard =
++ 
++ For kernel 2.6.14
++ {{{
++  lftp ftp2.idt.com
++  user: apps
++  pass: 29apps28
++  cd /pub
++  get linux.txt
++  cat linux.txt
++  cd LINUX26
++  get idt_linux26_docs.tar.bz2 initrd.linux-2.6.14.tar.bz2 linux-2.6.14.tar.bz2 mipstools.tar.bz2 mipseltools.tar.bz2
++ }}}
++ 
++ For kernel 2.4.18
+  {{{
+   lftp ftp2.idt.com
+   user: apps
+...
+
+&lt;/pre&gt;
+</description><dc:contributor><rdf:Description wiki:host="nav-01.panozzo.it"><rdf:value>nav-01.panozzo.it</rdf:value></rdf:Description></dc:contributor><wiki:version>1284325707000000</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/NetgearWG602?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/NetgearWG602?action=info</wiki:history></item><item rdf:about="http://www.seattlewireless.net/HelpOnInstalling/MinimalWiki#20100908224950"><title>HelpOnInstalling/MinimalWiki</title><link>http://www.seattlewireless.net/HelpOnInstalling/MinimalWiki</link><dc:date>2010-09-08T22:49:50Z</dc:date><dc:contributor><rdf:Description wiki:host="unassigned.stephouse.net"><rdf:value>Self:JasonMcArthur</rdf:value></rdf:Description></dc:contributor><wiki:version>1283986190287892</wiki:version><wiki:status>updated</wiki:status><wiki:diff>http://www.seattlewireless.net/HelpOnInstalling/MinimalWiki?action=diff</wiki:diff><wiki:history>http://www.seattlewireless.net/HelpOnInstalling/MinimalWiki?action=info</wiki:history></item></rdf:RDF>
