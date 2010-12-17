@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+
+<TITLE>Landings:  How-To: HOW TO FLY A J-3 CUB</TITLE>
+<link rel="shortcut icon" href="http://www9.landings.com/favicon.ico" type="image/x-icon">
+<meta name="Description" content="LANDINGS - aviation meeting place featuring: aviation news, up to date aviation databases (FAA Regulations, AIM, SDRs, NTSB Briefs, N Numbers and more), pilot weather, expert advice forums, focused links, and more.">
+<meta name="Keywords" content="Aviation Search Engines, expert forum, aviation weather, aviation medicine, aviation law, soaring, maintenance, Pilot, Medical Examiner, Regulation, A/C sale, classifieds, training, planning, parts, schools, flight-schools, kitplanes, avionics, hanggliding, paragliding, homebuilt">
+<meta name="MSSmartTagsPreventParsing" content="TRUE">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+var NS4 = (document.layers) ? 1 : 0;
+var IE4 = (document.all) ? 1 : 0;
+var N3 = (document.images) ? 1 : 0;
+var browserName = navigator.appName;
+var browserVer = parseInt(navigator.appVersion);
+var NS6 = (browserName == "Netscape" && browserVer >= "5") ? 1 : 0;
+var ver4 = (NS4 || IE4);
+var IE5 = (IE4 && navigator.appVersion.indexOf("5.")!=-1);
+var isMac = (navigator.appVersion.indexOf("Mac") != -1);
+var isMenu = (NS4 || (IE4 && !isMac) || (IE5 && isMac));
+var ar = new Array();
+var banneron = new Image();
+var banner1on = new Image();
+var img1off = new Image();
+var img1on = new Image();
+var img2off = new Image();
+var img2on = new Image();
+var img3off = new Image();
+var img3on = new Image();
+var img4off = new Image();
+var img4on = new Image();
+function preload( bnr ) {
+  if ( N3 ) {
+	banneron.src = "http://www9.landings.com/GA/images/banner-direct.jpg";
+	banner1on.src = "http://www9.landings.com/GA/images/banner-search.jpg";
+	img1off.src = "http://www9.landings.com/GA/images/top-buttons.jpg";
+	img1on.src = "http://www9.landings.com/GA/images/topButtons-on.jpg";
+	img2off.src = "http://www9.landings.com/GA/images/connections.jpg";
+	img2on.src = "http://www9.landings.com/GA/images/connections-about.jpg";
+	img3off.src = "http://www9.landings.com/GA/images/landings-icon2.jpg";
+	img3on.src = "http://www9.landings.com/GA/images/landings-icon2a.jpg";
+	img4off.src = "http://www9.landings.com/GA/images/go1.jpg";
+	img4on.src = "http://www9.landings.com/GA/images/go2.jpg";
+	for (var i = 0; i < 2; i++) {
+		ar[i] = new Image();
+	}
+	ar[0].src = document.images["banner"].src;
+	ar[1].src = banner1on.src;
+  }
+}
+function img_act(imgName) {			
+	if( N3 ) {
+		if( imgName == "banner1" ) {
+				eval('document.images["banner"].src=ar[1].src');
+		} else {
+			imgOn = eval( imgName + "on.src");
+	        document.images[imgName].src = imgOn;
+	    }
+	} 
+	return true;
+}
+function img_inact(imgName) {
+	if( N3 ) {
+		if( imgName == "banner" ) {
+				eval('document.images[imgName].src=ar[0].src');
+		} else {
+			if( imgName == "banner1" ) {
+					eval('document.images["banner"].src=ar[0].src');
+			} else {
+		        imgOff = eval( imgName + "off.src");
+	        	document.images[imgName].src = imgOff;
+			}
+		}
+	}
+	return true;
+}
+// End Hiding -->
+</script>
+</HEAD>
+<BODY BGCOLOR="#ffffff" TEXT="#000000" LINK="#0000FF" ALINK="#FF0F0F" VLINK="#FB71FF" onLoad="preload('banner')" LEFTMARGIN="0" TOPMARGIN="0">
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" HEIGHT="84">
+	<TR>
+	  	<TD HEIGHT="84" align="center" VALIGN="TOP">
+			<A HREF="http://www.landings.com/evird.acgi$pass*187532864!mtd*40!ref*www.landings.com/_landings/pages/!pg*landings.html" onmouseover="img_act('img3');return true" onmouseout="img_inact('img3');return true"><IMG SRC="http://www9.landings.com/GA/images/landings-icon2.jpg" ALIGN="TOP" WIDTH="155" HEIGHT="84" name="img3" border="0"></a>
+		</td>	
+		<TD WIDTH="490" HEIGHT="84" VALIGN="top" ALIGN="CENTER">
+			<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="490" HEIGHT="84">
+		  	<TR>
+			<TD WIDTH="11" HEIGHT="84" valign="top">
+				<IMG SRC="http://www9.landings.com/GA/images/side-barL.jpg" ALIGN="TOP" WIDTH="11" HEIGHT="84" border="0">
+			</TD>
+		  	<TD HEIGHT="84" WIDTH="468" VALIGN="top" align="center">
+				<TABLE width="468" height="84" BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="#0000ff">
+				<tr>
+				    <TD VALIGN="top" HEIGHT="60" BGCOLOR="#ffffff">
+				     	<A HREF="http://www.landings.com/evird.acgi$pass*187532864!mtd*19!lnk*www.landings.com/_landings/pages/adv-options.html!cnt*_Landings/cntr/adv-options06-TB.dat" target="_top" onmouseover="img_act('img1');return true" onmouseout="img_inact('img1');return true"><IMG src="http://www8.landings.com/GA/images/landings-2010.jpg" border="0" name="banner" title="Reach everyone in the Aviation field" width="468" height="60" alt="Aviation 2010: at Landings.com"></a>
+				    </TD></tr>
+			    <tr>
+				    <TD VALIGN="top" height="24" BGCOLOR="#ffffff">
+				    	<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="468" HEIGHT="24" BGCOLOR="#0000ff">
+				        <TR>
+		 		         <TD HEIGHT="24" width="320" valign="top"><A HREF="http://www.landings.com/evird.acgi$pass*187532864!mtd*7!map*_landings/images/landings-topbuttons.map" onmouseover="img_act('banner');return true" onmouseout="img_inact('banner');return true" target="landings-content"><IMG SRC="http://www9.landings.com/GA/images/top-buttons.jpg" WIDTH="320" HEIGHT="24" ALIGN="TOP" border="0" name="img1" ISMAP></a></td>
+				         <TD HEIGHT="24" width="148" align="right" valign="top" NOWRAP><FORM METHOD="POST" ACTION="http://www.landings.com/search.ssi" ENCTYPE="x-www-form-encoded"><font size="1"><INPUT TYPE="text" NAME="query" SIZE="11"></font><font size="1">&nbsp;</font>
+<input type="hidden" name="pass" value="187532864">
+<input type="hidden" name="tf" value="/searches/s187532864"><input type="hidden" name="FH" value="1"><INPUT TYPE="image" SRC="http://www9.landings.com/GA/images/go1.jpg" alt="go" width="22" height="22" name="go" align="top" border="0" onmouseover="img_act('banner1');return true" onmouseout="img_inact('banner1');return true"></form></td>
+				      	</TR>
+					  	</TABLE>
+				   </TD>
+				</tr>
+				</TABLE>
+			</td>
+			<TD WIDTH="11" HEIGHT="84" valign="top">
+				<IMG SRC="http://www9.landings.com/GA/images/side-barR.jpg" ALIGN="TOP" WIDTH="11" HEIGHT="84" border="0">
+			</TD>
+			</tr>
+			</TABLE>
+		</TD>
+	  	<TD HEIGHT="84" VALIGN="center" align="center" NOWRAP>
+			<table width="100%" height="62" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<tr>
+    <TD VALIGN="bottom" align="center"  HEIGHT="15" BGCOLOR="#ffffff">
+		<a href="https://flighttraining.aopa.org/apps/student/studentregister1.cfm?priority=SX08LND&engine=Land&keyword=LandFT0109sztxtad" target="_blank"><font color="#0000ff" face="times" size="2">Student Pilot Resources:</font></a>
+	</td>
+</tr>
+<tr>
+    <TD VALIGN="top" align="center" BGCOLOR="#ffffff" NOWRAP>
+		<font color="#0000ff" face="times" size="2">FREE: 6-issues of AOPA<br>Flight Training magazine<br>Get started now!</font></td>
+</tr>
+</table>
+		</td>	
+	</TR>
+</TABLE>
+
+
+
+<h3><FONT COLOR="#0000FF">Landings: How-To: HOW TO FLY A J-3 CUB</font></h3>
+
+<table cellpadding=0 cellspacing=0  border=0><tr><tr><td valign=top BGCOLOR="#ffffff">
+<font size=-1>
+<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/editorials.html">Editorials</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/ganews.html">News</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/lighter.html">Jokes/Fun</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/howto.html">How-To</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/reviews.html">Reviews</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/reviews.html">Opinions</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/research.html">Research</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/of-interest.html">Of-Interest</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/destinations.html">Destinations</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/art-of-flight.html">Poetry/Writing</a>
+</font>
+
+</td><tr><td valign=top BGCOLOR="#ffffff">
+<font size=-1>
+<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/expert.html">Expert Forums</a>
+</font>
+
+</td><tr><td valign=top BGCOLOR="#ffffff">
+<font size=-1>
+<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/discussion.html">Discussion Board</a>
+</font>
+
+</td><tr><td valign=top BGCOLOR="#ffffff">
+<font size=-1>
+<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/digi-news.html">DIGI-News</a>
+</font>
+
+</td><tr><td valign=top BGCOLOR="#ffffff">
+<font size=-1>
+<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/gallery.html">Gallery</a>
+</font>
+
+</td></table>
+</td>
+
+
+<td valign=top>
+&nbsp;&nbsp;
+</td>
+
+<td valign=top>
+<br>
+<blockquote>
+
+<FONT COLOR="#336600">
+<FONT SIZE=+1>HOW TO FLY A J-3 CUB
+<br><i>by Dagley Reeves</i></font></font></blockquote>
+
+<blockquote><p>[<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/How-to-fly-J-3-Cub.html">Introduction</a>][<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/taxi.html">The TAXI</a>][<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/takeoff.html">The TAKEOFF</a>][<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/mistakes.html">Common Mistakes</a>]
+<br>[<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/airwork.html">Air Work</a>][<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/landing.html">Landing</a>][<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/crosswinds.html">Crosswinds</a>][<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/conclusions.html">Emergencies</a>]
+<br>[<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/conclusions.html">Conclusion</a>][<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/conclusions.html">NTSB Accidents</a>]
+</blockquote>
+
+<h4>INTRODUCTION</h4>
+
+I wrote this little book over a period of several days for my brother in law who had just purchased a J-3. The intent was to give him a little insight as to what to expect in his transition from Cessna trainers to a tail dragger and make him laugh enough so he would read it. This was not intended as a complete primer on how to fly.  Even if it was you can't learn how to fly by reading a book. I refer my more serious students to &quot;Stick and Rudder&quot; by Wolfgang what's his name for a complete study of basic airmanship. 
+
+<p>You will note early on that I have written like I talk. In other words this little work is far from politically correct. Tough, it didn't cost you anything so I don't think you can sue me. 
+
+<p>You will also note that reference is made on several  pages to &quot;Old Farts&quot;. An Old Fart is anyone regardless of age, who claims to have flown everything in existence, knows all there is to know, has an opinion of everything, lives in the past and probably hasn't been in a cockpit in the last thirty years. You know who you are, and I take this opportunity to say that the rest of us laugh at you behind your back. We don't believe those stories about &quot;flying the hump&quot; for one minute. Go play golf and leave the rest of us alone. 
+
+<p>There may be something here that will help you, if so, use it. On the other hand, this may be complete trash. If that's what you think then throw it away and go play golf with the old farts. If nothing else, I hope as you reflect on some of the text here, you giggle a little, remembering when you were first learning and it all seemed so difficult.  
+
+<h4>HOW TO FLY A J-3 CUB</h4>
+
+by Dagley Reeves
+
+<p>First of all, get it out of your head that this is a big deal, it's not, it's just a little different. Most of the differences apply to ground handling. In the air, a plane is a plane.
+
+<p>The J-3 has been around for almost sixty years and is a blast to fly. It could be described even in the 1940's as your BASIC airplane. No starter, no electrical system, no radios, no blind flying instrumentation and in some cases no dang heater. It's slow, so slow in fact that pilots are tempted to replace the airspeed indicator with a calendar. It is underpowered and always has been. If your J-3 is not underpowered, then it's not a real J-3, someone has modified it. Small, cold, slow and underpowered, and a tail dragger. These traits  have endeared the little plane to at least three generations of pilots. Sluggish on the controls too, I almost forgot.
+
+<p>Pre-flight of the aircraft is much the same as with any small craft only simpler. Old timers would caution you to check the fabric closely to make sure the cows have not eaten any of it. As if that were a real concern in the 90's  Every J-3 has it's own ritual for starting. &quot;Pull her through three times, prime once, pull it through backwards twice, chant something from Bernoulli and throw Johnson grass over your shoulder.&quot; or whatever.  Here is one of your first opportunities to get hurt. This plane has no key. Some unverified evidence ties the construction of the magneto switch to Leonardo DaVinci. The point being, always consider the mags to be hot. I heard the stories, and I've seen it happen, more than once to me. All it takes is a grounded (or ungrounded I never can get that straight) mag and the engine will start. One broken wire, that's all. Let's review:
+
+<p>THE MAGS ARE ALWAYS HOT!  
+
+<p>Got it? Good. Now, since the mags are always hot, we will never move the propeller unless we are prepared for the engine to start. We will never move the propeller unless the airplane has been secured. I have never seen it, but the story is around every airport porch (or pilot lounge as they are now called) about the guy who thought it would be enough to tie down one wing while he propped his plane. It started of course at about half throttle and chased him around in circles for  hours... or days,  depending on who tells the story. 
+
+<p>The textbook (and safest) method to prime or start the aircraft is with the plane tied down, chocked, and a competent pilot holding the brakes and operating the throttle while a competent assistance props the plane. It would go something like this:
+<blockquote>
+<p>Assistant: &quot;Switch OFF&quot; (Or Mags Off&quot;, your preference. Means the same thing)
+
+<p>Assistant pulls on prop to test brakes
+
+<p>Pilot: &quot;Switch On! Brakes (such as they are) Set!&quot; or Mags Off, brakes set&quot;
+
+<p>Assistant pulls prop through as if starting the engine.
+
+<p>Assistant: &quot;Make her Hot&quot; (meaning mags to both)
+
+<p>Pilot: &quot;She's hot!&quot; (Nobody say's &quot;Contact&quot; anymore)
+
+<p>Assistant props plane.
+
+<p>Engine fires about three blades and quits. (Assistant forgot to say prayer to engine   God)
+
+<p>Assistant: &quot;Mags off&quot;
+</blockquote>
+
+<p>Procedure repeated until Assistant has chest pains. Pilot and Assistant switch places. Plane usually starts on the first pull. Now pilot and assistant have to figure out how to get the pilot back in his place without leaving the airplane with nobody at the controls while the engine is running. The subsequent gyrations can be quite funny and quite dangerous. 
+
+<p>Now, realistically there are a few problems. First of all the textbook method is not always available. You may not have anybody around who knows how to (or is willing to) prop a plane. There may be no tie downs. There may be no chocks available. Shoot. The point is, you have to secure the plane somehow. If you have to start the plane yourself, it has to be tied down or secured. If there are no tie down available, somebody will have to prop the plane or ride the controls. One or the other but never start the plane by yourself without it being secured in some way. If you only have one tie down, tie the tail. Carry some little chocks with you. Large rocks work in a bind.. Ok, now some old fart tells you what a wuss you are and describes how to prop the plane from behind with one hand on the prop and one hand on the throttle. This can be done and safely, however the aircraft still needs to be secured from rolling otherwise you will eventually end up with big fat tire mark on the back of your pretty new Cub T shirt. Oh yea, be careful if you let another pilot ride the brakes while you prop the plane. A Cub has heel brakes and it takes Godzilla standing on them for them to do much. See the problem? &quot;I was pushing on the brakes as hard as I could right up until it hit that Lear Jet!&quot; &quot;The brakes are down there!&quot; &quot;Oh, those little things are the brakes!&quot;
+
+<p>Now we talk about the actual act of propping the plane. A word of warning, there are a lot of wrong ways to do this. Again, I could tell stories but the result of a mistake is tragic. Even fellow Cub pilots may be using dangerous methods. The way to tell if someone knows what they are doing is to watch how they approach the task. Did they grab the prop by both blades to turn it through? If so look for another guy. Did they test the brakes? Good. Do they kick their leg up? Wrong. Do they stand too far back from the prop putting their center of gravity forward, do they curl their fingers over the prop, do they turn their back to the airplane on the follow through, etc. This really is simple, and can be done with a high degree of safety as long as you get a good procedure and do it the same way every time. I admit, it takes some guts, the adrenaline will be flowing the first few times but the first few times is not when your going to get hurt, it's about the hundredth time when tired and the darn thing won't start. 
+
+<p>It is difficult to describe some of the subtle things in the propping procedure but here are a few do's and don'ts:
+
+<p>Don't let anybody prop the plane unless you are  sure they know what they are doing.   
+
+<p>Same applies to letting people ride the brakes and guard the throttle. The story is out there  about the guy  who took his girlfriend to Hot Springs and left his master switch on. Next  day dead battery of course. So, girlfriend rides the brakes, he props the plane, plane starts,  girlfriend pushes the throttle in instead of puling it out, plane goes flying. Dead girlfriend,  crashed plane and very unhappy wife. I doubt that this story is true, but even the   possibility gives me the hebbie jeebies.  
+
+<ul>
+<p><li>Don't kick your leg up. 
+
+<p>There is no need, Cub does not have high enough compression or horsepower to require  this. Think about it, if you kick your leg out it goes into the plane of rotation of the  propeller!  Keep your body parts out of there! 
+
+<p><li>Don't stand too far back.
+
+<p> It is natural to try to keep as much distance as possible between you and the meat grinder  but too much can be dangerous. Standing too far back causes you to lose your balance  when the prop rotates downward and you fall forward into the propeller. 
+
+<p><li>Don't curl more than one joint of your fingers  over the trailing edge of the prop blade.   
+
+<p>The sooner you get your hand out of there, the better.
+
+<p><li>Never grasp both blades of the prop to turn the  engine over. 
+
+<p>This is a very common  error. Always cycle the propeller just as if you planned to  start the engine. Sometimes it may be necessary to turn the engine backwards to clear a  flooded engine (or appease the engine God). Do it just like normal except you will be  on the other side..
+
+<p><li>Do treat every pull of the blade as if the engine  will start.
+
+<p> (Again, it happened to me, more than once!)
+
+<p> 
+
+<p><li>Do, follow through. 
+
+<p>Your hands should describe an arcing motion down and away from the nose. At the end of  the arc you will take one step backward. Don't' execute a turn on the follow through,  keep your eyes on the plane. Your one step back will give  you enough time. If the throttle  is in  something more than idle (you know like wide open) then you can take another step  back and then exit left or right as the situation warrants. By keeping you eyes on the plane  when the engine starts you may get valuable data as to where it might go. You should opt  for another direction.
+
+
+<p><li>Don't get complacent.
+
+<p>No matter how many times you do this, the fact remains that you are in very close  proximity to a whirling meat cleaver that is perfectly capable of making cat food out you!  Be especially  careful with temperamental engines which will start when you least expect  it. If your one of those people (like me) whose trademark is an untied tennis shoe ...well,  stop and tie it. Don't  stand in the middle of an oil leak or a patch of ice or water...you  know, use your head a little. Special warning to used car dealers. Remove your Mr. T  startup kit, including the fake Rolex and stick in your pants pocket. I had one of those  bracelet type watch bands come undone once when I was propping a T Craft and my  super duper three dial, five button pilot chronograph almost went into the propeller.  Nerds, remove your pen holder and HP calculator. Might be a good idea to leave your  sombrero in the plane as well. It's been a long time since pilots wore scarfs but perhaps  in the 90's it's not inconceivable that one of our sister aviators might don such   apparel. Leave it in the Porsche. I got my tie caught in a document shredder once which  you might think is pretty funny but it dern near strangled me. While a 65 horse  Continental is not the epitome of power, I guarantee you it is enough to pop your head  smooth off  if something gets caught in it while it's running. Please, be careful! 
+</ul>
+
+<p>&nbsp;&nbsp;[<A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/sites/J-3-book/taxi.html">Next Section</a>]
+
+<hr>
+NOTE: Reviews and Opinions do not necessarily represent those of Landings, its 
+personnel and employees.
+</td></table>
+
+<!-- voting related -->
+</td></tr></TABLE>
+<!-- end voting insert -->
+<br><a name="direct">&nbsp;</a>
+<center><TABLE border=1 cellpadding=2 width="98%" BGCOLOR="#eeeeee"><td valign=top colspan=7  BGCOLOR="#0033cc">
+<font color="#ffffff"><IMG SRC="http://www9.landings.com/GA/images/landings-www.gif" align=right WIDTH="105" HEIGHT="16" BORDER="0"><b>Aviation's Directory</b></font> <A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/directory.html" target="_top"><font color="#eeeeee">(click for <font color="#FFFF33">expanded list)</font></td></TR><TR><td valign=top width="14%">
+News/Forums
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/ganews.html" target="_top">GA-News</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/v9/cgi-bin/forums/forum.pl" target="_top">Forums</a> 
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/talk.html" target="_top">Hangar-Talk</a> 
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/events.html" target="_top">Events/Airshows</a>
+<p>Offers
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/adv-options.html" target="_top">Promotions</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/sites-service.html" target="_top">SITES</a>
+<p>Contacts
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/addlink.html" target="_top">Add-Link</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/contact.html" target="_top">Contact</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!mtd*41!ptid*landings!var*22!cgi*/cgi-bin/forums/user_logbook.pl!buf*66!src*_landings/pages/forums.html!ref*+" target="_top">Logbook</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/awards.html" target="_top">Awards</a>
+</td><td valign=top width="14%">
+Search/Ref
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/search.html" target="_top">Search</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/search.html" target="_top">Databases</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/regulations.html" target="_top">Regulations</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/reports.html" target="_top">Reports</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/reports.html" target="_top">Alerts</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/publications.html" target="_top">Publications</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/museums.html" target="_top">Museums</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/museums.html" target="_top">History</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/organizations.html" target="_top">Organizations</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/companies.html" target="_top">Companies</a>
+</td><td valign=top width="14%">
+Pilot-Supplies
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/pilot-supplies.html" target="_top">Supplies</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/gps-tech.html" target="_top">GPS/Tech.</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/simulators.html" target="_top">Simulators</a>
+<p>Flight
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/weather.html" target="_top">Weather</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/planning.html" target="_top">Planning</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/flying_clubs.html" target="_top">Clubs</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/fbo.html" target="_top">FBOs</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/fbo.html" target="_top">Flight-Schls</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/training.html" target="_top">Training</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/simulators.html" target="_top">Simulators</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/schools.html" target="_top">Schools</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/safety.html" target="_top">Safety</a>
+</td><td valign=top width="14%">
+Aircraft/Parts
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/aircraft-manuf.html" target="_top">Manufacturers</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/parts-services.html" target="_top">Parts</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/avionics.html" target="_top">Avionics</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/tools.html" target="_top">Tools</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/engines.html" target="_top">Engines</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/custom-mod.html" target="_top">Mods/Restor.</a>
+<p>AirTransport/
+<br>Airports
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/commercial.html" target="_top">Airlines</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/airports.html" target="_top">Airports</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/live-atc.html" target="_top">Live-ATC</a>
+</td><td valign=top width="14%">
+Services
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/aircraft-sales.html" target="_top">Aircraft-Sales</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/ac-values.html" target="_top">A/C-Values</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/parts-services.html" target="_top">A/C-Services</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/classifieds.html" target="_top">Classifieds</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/other-services.html" target="_top">Var-Services</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/other-services.html" target="_top">Var-Products</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/fbo.html" target="_top">FBOs</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/travel.html" target="_top">Travel/Tours</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/vps/other-services-insur.html" target="_top">Insurance</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/vps/other-services-medic.html" target="_top">Medical Srvcs</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/vps/other-services-loans.html" target="_top">Financing</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/fuel.html" target="_top">Fuel</a>
+</td><td valign=top width="14%">
+General-Aviation
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/helicopters.html" target="_top">Helicopters</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/helicopters.html" target="_top">Gyrocopters</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/aerobatics.html" target="_top">Aerobatics</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/homebuilding.html" target="_top">Homebuilding</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/ultralights.html" target="_top">Ultralights</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/soaring.html" target="_top">Soaring</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/hanggliding.html" target="_top">Hanggliding</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/hanggliding.html" target="_top">Paragliding</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/powered-parachute.html" target="_top">Parachute</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/lta.html" target="_top">Balloons</a>
+</td><td valign=top width="14%">
+Gov./Military
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/government.html" target="_top">Government</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/government.html" target="_top">Research</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/military.html" target="_top">Military</a>
+<p>General
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/images.html" target="_top">Images</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/miscellaneous.html" target="_top">Miscellaneous</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/ga.html" target="_top">GA</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/travel.html" target="_top">Travel/Tours</a>
+<br><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/safety.html" target="_top">Safety</a>
+</td></tr>
+</TABLE></center>
+<center><TABLE border=0 cellpadding=2 width="98%" BGCOLOR="#ffffff">
+	<TR><TD width="100%">
+		<p class=p11>&nbsp;&nbsp;&nbsp;Sponsored links:
+<!-- p class=p11>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://subscribe_gift07.html" target="_blank">Pilot Getaways magazine</a> the adventure travel resource for active pilots, from wing camping at backcountry strips to exclusive fly-in resorts.
+<!-- br>&nbsp;
+<p class=p11>&nbsp;&nbsp;&nbsp;<span width='480' align=right>
+<script type="text/javascript">/* dirLink-468x15 */
+google_ad_client = "pub-6916887051213044";
+google_ad_slot = "9314942969";
+google_ad_width = 468;
+google_ad_height = 15;
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</span>
+<br>&nbsp;
+
+		<!-- cnt -->
+		<hr size=1>
+		<p><A HREF="http://www.landings.com/evird.acgi$pass*187532864!_h-www.landings.com/_landings/pages/credits.html" target="_top">LANDINGS.COM</a> Copyright &copy; 1994-2010&nbsp;&nbsp;Explicit permission required for any duplication or usage<img src='http://www9.landings.com/images/cnt/ldgs-1-i/i187532864.gif' alt='-' border='0' align='right'>
+	</TD></TR>
+</TABLE></center>
+<!-- analytics -->
+
+</BODY>
+</HTML>
+
+
