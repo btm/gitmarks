@@ -1,0 +1,298 @@
+
+
+
+
+
+  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Tracker Location View: Seattle locations</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<meta http-equiv="Refresh" content="60" >
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="language" content="en-us" />
+<meta name="govtype" content="county" />
+<meta name="generator" content="MSHTML 6.00.6000.16640" />
+<meta name="lastReviewedDate" content="November 9, 2009" />
+<meta name="author" content="avlweb@kingcounty.gov, AVL MyBus" />
+<meta name="keywords" content="Tracker, Location View, real-time bus arrival, bus" />
+<meta name="description" "Tracker Location View: 2 AV &amp; PIKE ST" >
+   
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<html:base/>
+<link HREF="../metro-transition.css" REL="stylesheet" TYPE="text/css" >
+<style type="text/css">
+
+<!-- 
+.trail { font-family: verdana, arial, san-serif;
+         font-size: 63%;
+         margin-bottom: 2px; }
+
+body { background: white; color: #3D005D;  }
+tr.backcolor1 { background: #fff6e8 }
+tr.backcolor2 { background: #e6e6fa }
+td.noinfo  { color: #000000 }
+td.arrived { color: #00b000 }
+td.departed{ color: #00b000 }
+td.ontime  { color: #00b000 }
+td.early   { color: #ff0000 }
+td.late   { color: #0000ff }
+                                                                                                                                                                        
+
+.bullet { }
+.arrow {
+                           font-size: 100%; }
+.arrow-alone { }
+ 
+
+.note { width: 480px;
+	padding: 2px;
+	border: 1px solid #FF0000;}
+
+
+-->
+
+
+</style>
+</head>
+<body>
+
+<div id="header">
+    <div id="kclogo">
+        <div id="logo"><a href="http://www.kingcounty.gov" title="King County home"><img height="79" alt="King County: Always at your service" src="/logos/kclogo.gif" width="140" /></a></div><br />
+    </div>
+    <ul id="topnav">
+   <li class="first"><a class="kcBaseTopNavItem" href="http://www.kingcounty.gov/">Home</a></li>
+	  <li class="menuitem"><a class="kcBaseTopNavItem" href="http://your.kingcounty.gov/news/">News</a></li>
+	  <li class="menuitem"><a class="kcBaseTopNavItem" href="http://your.kingcounty.gov/services.htm">Services</a></li>
+	  <li class="menuitem"><a class="kcBaseTopNavItem" href="http://directory.kingcounty.gov/">Directory</a></li>
+	  <li class="last"><a class="kcBaseTopNavItem" href="http://metro.kingcounty.gov/cs/feedback_choose.html">Contact</a></li>
+	  <li style="padding-left:6px;"><div id="searchbox"><form method="get" id="seek" name="seek" action="http://www.kingcounty.gov/search"><input maxlength="100" name="q" size="" class="textbox"><input type="submit" name="btnG" value="Search" class="submit"><input type="hidden" name="site" value="w"><input type="hidden" name="client" value="w_frontend"><input type="hidden" name="output" value="xml_no_dtd"><input type="hidden" name="proxystylesheet" value="w_frontend"></form></div></li></ul>
+    <div id="funcs"><div id="tripplanner"><a href="http://tripplanner.kingcounty.gov/">TRIP PLANNER</a></div><div id="passsales"><a href="http://buypass.kingcounty.gov/">PASS SALES</a></div></div>
+    <div id="sitename"><a href="http://metro.kingcounty.gov/">Metro Transit</a></div><div id="sitesubname"><em>We'll Get You There</em></div>
+</div>
+
+
+<div id="breadcrumbs"><strong>You are in</strong>: <a href="http://metro.kingcounty.gov/oltools.html">Online Tools</a> &gt; <a href="http://metro.kingcounty.gov/oltools/tracker.html">Tracker</a> &gt; <a href="/" onClick="return (false);">Location View</a> &gt; Seattle</div>
+
+
+<table id="container" cellspacing="0" cellpadding="0" width="100%">
+  <tbody>
+  <tr>
+    <td class="column" id="leftcol" rowspan="2"><a name="leftnav"></a>
+<ul id="navcontainer">
+   <li><a href="http://metro.kingcounty.gov/">Metro Online Home</a></li>
+   <li><a href="http://metro.kingcounty.gov/siteindex.html">Site Index</a></li>
+   <li><a href="http://metro.kingcounty.gov/tops/travops.html">Travel Options</a></li>
+   <li><a href="http://metro.kingcounty.gov/oltools/oltools.html">Online Tools</a>
+
+      <ul class="level2">
+        <li><a href="http://metro.kingcounty.gov/oltools/calculator.html">Commute Calculator</a></li>
+        <li><a href="http://www.rideshareonline.com/">RideshareOnline.com</a></li>
+        <li><a href="http://metro.kingcounty.gov/oltools/timetables.html">Timetable Tips</a></li>
+        <li><a href="http://metro.kingcounty.gov/oltools/tracker.html">Tracker</a>
+
+        <ul class="level3">
+          <li><a href="http://trackerloc.kingcounty.gov/" class="on">Location View</a></li>
+          <li><a href="http://trackermap.kingcounty.gov/">Map View</a></li>
+        </ul>
+
+        </li>
+        <li><a href="http://metro.kingcounty.gov/oltools/trafficupdate.html">Traffic &amp; Roads</a></li>
+        <li><a href="http://tripplanner.metrokc.gov/">Trip Planner</a></li>
+     </ul>
+
+   </li>
+   <li><a href="http://metro.kingcounty.gov/up/updates.html">Updates</a></li>
+   <li><a href="http://metro.kingcounty.gov/prog/programs.html">Programs</a></li>
+   <li><a href="http://metro.kingcounty.gov/cs/services.html">Customer Services</a></li>
+   <li><a href="http://metro.kingcounty.gov/am/metro.html">About Metro</a></li>
+   <li><a href="http://metro.kingcounty.gov/cs/feedback_choose.html">Contact Us</a></li>
+</ul>
+
+
+
+      <div id="leftColumnContent"><br /><strong><span style="FONT-SIZE: 10pt">Dept. of Transportation<br />Metro Transit Division<br /><br />King Street Center<br /></span></strong>201 S Jackson St<br />Seattle, WA 98104</div></td>
+<td valign="top">
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td id="sitecontentheader"><div style="background-image: url(/logos/background-test.gif); BACKGROUND-REPEAT: repeat-x; background-color: #ffffff"><img src="/logos/shim.gif" width="18" height="1" border="0" align="top" alt="" /><a href="/"><img src="/logos/mo_logo.gif" width="189" height="74" border="0" alt="Metro Online Home" align="top" /></a></div></td>
+</tr>
+<tr valign="top">
+<td class="column" id="contentcoldiv">
+
+
+
+<!-- content area -->	
+
+<div class="note"><p><strong><font color="#ff0000">Service exceptions</font></strong></p>
+<p>Buses rerouted unexpectedly due to weather, traffic, road or other conditions beyond Metro's control can cause inaccurate Tracker results. Location View may display "no information" and both the map and location views may provide unreliable information. Visit Metro's <a href="http://metro.kingcounty.gov/up/rr/alertscenter.html">Alert Center</a> for known reroutes or service disruption information.</p>
+
+<p><strong><font color="#ff0000">RapidRide <img border="0" src="./../../images/A-tiny.gif" alt="A" width="15" height="15" align="absmiddle" /> Line</font></strong></p>
+
+<p>Please enter route number <strong>671</strong> to see Tracker information for the RapidRide <img border="0" src="./../../images/A-tiny.gif" alt="A" width="15" height="15" align="absmiddle" /> Line.</p>
+
+<p>We apologize for any inconvenience.</p></div> 
+
+
+<!-- ##########  Paste of cut code above ########## -->
+
+<table width=50%>
+<tr>
+<td align="center">
+<h2>
+2 AV &amp; PIKE ST
+</h2>
+</font>
+</td>
+</tr>
+</table>
+
+<!-- ####### Moved to below the data table #######
+<tr>
+<td align="center">
+
+Tracker Location View WAP site: trackerloc.kingcounty.gov/wml/<br>
+This Metro location number is: 216
+</td>
+</tr>
+
+<tr>
+<td align="center">
+The data on this page was last updated on: Fri Dec 17 11:04:47 PST 2010
+</td>
+</tr>
+</table>
+############################### -->
+<table width="50%">
+<tr>
+
+<td align="center">
+<form method="get" action="region.jsp">
+<input type="hidden" name="region" value="Seattle">
+<input type="submit" value="Seattle Timepoint list">
+</form>
+</td>
+
+<td align="center">
+<form method="get" action="map.jsp">
+<input type="hidden" name="id" value="216">
+<input type="submit" value="Map of this Timepoint">
+</form>
+</td>
+
+</tr>
+
+</table>
+<table border=1 width=500><td>
+<table cellpadding=8 cellspacing=0 width="100%">
+<tr align="left">
+
+<th>Sort by <a href="/avl.jsp?id=216&amp;sort=route">Route</a></th> 
+
+<th>Sort by <a href="/avl.jsp?id=216&amp;sort=destination">Destination</a></th> 
+
+<th>Sort by <a href="/avl.jsp?id=216&amp;sort=time">Schedule</a></th> 
+
+
+
+<th>Arrival Status</th>
+</tr>
+
+
+<tr class="backcolor1"><td>12</td><td>Seattle Downtown - 4 Ave and Pike ST</td><td>11:06am</td><td class="late">2 Min Delay</td></tr>
+<tr class="backcolor1"><td>12</td><td>Seattle Downtown - 4 Ave and Pike ST</td><td>11:23am</td><td class="late">2 Min Delay</td></tr>
+<tr class="backcolor2"><td>25</td><td>Seattle Downtown - 4 Ave S and S Washington ST</td><td>11:15am</td><td class="late">1 Min Delay</td></tr>
+<tr class="backcolor1"><td>43</td><td>Seattle - 3 AV &amp; Pike ST</td><td>11:02am</td><td class="noinfo">No Info</td></tr>
+<tr class="backcolor1"><td>43</td><td>Seattle - 3 AV &amp; Pike ST</td><td>11:16am</td><td class="late">6 Min Delay</td></tr>
+<tr class="backcolor1"><td>43</td><td>Seattle - 3 AV &amp; Pike ST</td><td>11:31am</td><td class="late">1 Min Delay</td></tr>
+<tr class="backcolor2"><td>49</td><td>North Seattle - 12 Ave NE and NE 47 St</td><td>11:07am</td><td class="departed">Predicted Departed At 11:05am</td></tr>
+<tr class="backcolor2"><td>49</td><td>North Seattle - 12 Ave NE and NE 47 St</td><td>11:22am</td><td class="ontime">On Time</td></tr>
+<tr class="backcolor1"><td>125</td><td>Seattle Downtown - 4 Ave and Pike ST</td><td>11:14am</td><td class="ontime">On Time</td></tr>
+<tr class="backcolor2"><td>131</td><td>Highline Community College</td><td>10:56am</td><td class="late">10 Min Delay</td></tr>
+<tr class="backcolor1"><td>132</td><td>Highline Community College</td><td>11:26am</td><td class="ontime">On Time</td></tr>
+<tr class="backcolor2"><td>554E</td><td>Issaquah Highlands Park and Ride</td><td>11:12am</td><td class="ontime">On Time</td></tr>
+<tr class="backcolor2"><td>554E</td><td>Issaquah Transit Center</td><td>10:57am</td><td class="departed">Departed At 10:55am</td></tr>
+<tr class="backcolor2"><td>554E</td><td>Issaquah Transit Center</td><td>11:27am</td><td class="ontime">On Time</td></tr>
+
+
+
+
+<tr>
+<!--<td bgcolor="#3D005D" colspan=5 align="center">
+<font color="white"> -->
+
+<td bgcolor="white" colspan=5 align="center">
+<font color="red">
+
+The Arrival Status information above is based on the last known location of the bus.  Accuracy may vary a few minutes due to traffic conditions.
+</font></td></tr>
+</table>
+</table>
+
+<table>
+
+
+<!-- WAP commented out
+<tr>
+<td align="center">
+
+Tracker Location View WAP site: tracker-loc.metrokc.gov/wml/216
+</td>
+</tr>
+
+-->
+
+<tr>
+<td align="center">
+The data on this page was last updated on: Fri Dec 17 11:04:47 PST 2010
+</td>
+</tr>
+
+
+
+</td></tr></table>
+
+</center>
+
+<!-- end content area -->
+</td></tr></table>
+</td></tr></tbody></table>
+
+<div id="footer-wrapper">
+<div id="pageupdateddate"></div>
+<table cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#FFCC00"><img src="/logos/c_ffcc00.gif" alt="" width="10" height="3" hspace="0" vspace="0" border="0" /></td>
+  </tr>
+</table>
+<div id="footer">
+<div id="agencyfooter">
+<ul id="agencybottomnav">
+  <li class="first"><a href="http://metro.kingcounty.gov/">Metro Online Home</a></li>
+  <li>&nbsp;|&nbsp; <a href="http://metro.kingcounty.gov/tops/travops.html">Travel Options</a></li>
+  <li>&nbsp;|&nbsp; <a href="http://metro.kingcounty.gov/oltools/oltools.html">Rider Tools</a></li>
+  <li>&nbsp;|&nbsp; <a href="http://metro.kingcounty.gov/up/updates.html">Updates</a></li>
+  <li>&nbsp;|&nbsp; <a href="http://metro.kingcounty.gov/prog/programs.html">Programs</a></li>
+  <li>&nbsp;|&nbsp; <a href="http://metro.kingcounty.gov/cs/services.html">Customer Services</a></li>
+  <li>&nbsp;|&nbsp; <a href="http://metro.kingcounty.gov/am/metro.html">About Metro</a></li>
+  <li>&nbsp;|&nbsp; <a href="http://metro.kingcounty.gov/cs/feedback_choose.html">Contact Us</a></li>
+  <li class="last">&nbsp;|&nbsp; <a href="http://metro.kingcounty.gov/siteindex.html">Site Index</a></li>
+</ul>
+<div class="agencytext">&copy; 1994-2010, Metro Transit.<br />Metro Transit is a division of the <a href="http://www.kingcounty.gov/transportation/kcdot.aspx">King County Department of Transportation</a></div>
+</div>
+
+<div class="globalfooter">
+<ul id="globalbottomnav">
+   <li class="first"><a href="http://www.kingcounty.gov" title="King County home page">King County Home</a></li>
+   <li>&nbsp;|&nbsp; <a href="http://www.kingcounty.gov/About/privacy.aspx" title="Privacy statement">Privacy</a></li>
+   <li>&nbsp;|&nbsp; <a href="http://www.kingcounty.gov/About/access.aspx" title="Accessibility policy">Accessibility</a></li>
+   <li>&nbsp;|&nbsp; <a href="http://www.kingcounty.gov/About/termsOfUse.aspx" title="Terms of use">Terms of use</a></li>
+   <li class="last">&nbsp;|&nbsp; <a href="http://www.kingcounty.gov/search/" title="Search the County Web site.">Search</a></li>
+</ul>
+<div class="globalText">Links to external sites do not constitute endorsements by King County. By visiting this and other<br />King County web pages, you expressly agree to be bound by terms and conditions of the site.<br /><br /></div></div></div></div>
+
+</body></html>
