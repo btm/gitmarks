@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  
+
+  <head>
+    
+  <link rel="stylesheet" type="text/css" media="all" href="https://fedoraproject.org/static/css/fedora.css">
+  <link rel="stylesheet" type="text/css" media="all" href="./static/css/hosted.css">
+  <link rel="shortcut icon" href="https://fedoraproject.org/static/images/favicon.ico" type="image/vnd.microsoft.icon">
+  <!--[if lt IE 7]>
+  <style type="text/css">
+    #wrapper
+    {
+    height: 100%;
+    overflow: visible!important;
+    }
+  </style>
+  <![endif]-->
+
+    
+  <script type="text/javascript" src="./static/js/jquery.js"></script>
+  <script type="text/javascript">
+    function showGroup(group) {
+      $("*.row").each(function () {
+        $(this).hide();
+      });
+      $("#nodata").hide();
+      if ($("*.row." + group).size() == 0){
+        $("#nodata").fadeIn();
+      } else {
+        $("*.row." + group).each(function () {
+          $(this).fadeIn();
+        });
+      }
+    }
+    $(document).ready(function (){
+      $(window).load(function (){
+        $("#grouplist").show();
+      });
+      $("*.group").click(
+        function () {
+          showGroup($(this).text());
+        });
+    });
+  </script>
+
+    <title>Hosted Projects - Fedora Hosted</title>
+    <style type="text/css">
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      
+  <div id="head">
+    <h1><a href="./index">Fedora</a></h1>
+  </div>
+
+      
+  <div id="sidebar">
+    <div id="nav">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="./index">Home</a></li>
+        <li><a href="./about">About</a></li>
+        <li><a href="./new">New Project</a></li>
+        <li><a href="./faq">Frequently-Asked Questions</a></li>
+        <li><a href="./terms">Terms of Use</a></li>
+      </ul>
+      <h2>Website Language</h2>
+      <form action="" method="GET">
+        <div>
+          <select name="lang">
+            
+    <option value="as">as</option>
+    <option value="bal">bal</option>
+    <option value="bn_IN">bn_IN</option>
+    <option value="ca">ca</option>
+    <option value="cs">cs</option>
+    <option value="da">da</option>
+    <option value="de">de</option>
+    <option value="el">el</option>
+    <option value="en" selected>en</option>
+    <option value="es">es</option>
+    <option value="fa">fa</option>
+    <option value="fr">fr</option>
+    <option value="gu">gu</option>
+    <option value="he">he</option>
+    <option value="hi">hi</option>
+    <option value="hu">hu</option>
+    <option value="id">id</option>
+    <option value="it">it</option>
+    <option value="ja">ja</option>
+    <option value="kn">kn</option>
+    <option value="ko">ko</option>
+    <option value="ml">ml</option>
+    <option value="mr">mr</option>
+    <option value="nb">nb</option>
+    <option value="nl">nl</option>
+    <option value="or">or</option>
+    <option value="pa">pa</option>
+    <option value="pl">pl</option>
+    <option value="pt">pt</option>
+    <option value="pt_BR">pt_BR</option>
+    <option value="ru">ru</option>
+    <option value="sr">sr</option>
+    <option value="sv">sv</option>
+    <option value="ta">ta</option>
+    <option value="te">te</option>
+    <option value="uk">uk</option>
+    <option value="zh_CN">zh_CN</option>
+    <option value="zh_TW">zh_TW</option>
+
+          </select>
+          <input type="submit" value="OK">
+        </div>
+        <h2>Hosting Sponsor</h2>
+          <a href="http://www.serverbeach.com/"><img src="./static/images/serverBeach.png" alt="Sponsored by ServerBeach"></a>
+      </form>
+    </div>
+  </div>
+
+      <div id="content">
+        <h2>No such project.</h2><p>
+    The requested project does not exist on Fedora Hosted.
+    </p>
+      </div>
+    </div>
+    
+  <div id="bottom">
+    <div id="footer">
+      <p class="copy">
+      &copy; 2010 Red Hat, Inc. and others.  Please send any comments or corrections to the <a href="mailto:webmaster@fedoraproject.org">websites team</a>.
+      </p>
+      <p class="disclaimer">
+      The Fedora Project is maintained and driven by the community and sponsored by Red Hat.  This is a community maintained site.  Red Hat is not responsible for content.
+      </p>
+      <ul>
+        <li class="first"><a href="http://fedoraproject.org/sponsors">Sponsors</a></li>
+        <li><a href="http://fedoraproject.org/wiki/Legal:Main">Legal</a></li>
+        <li><a href="http://fedoraproject.org/wiki/Legal:Trademark_guidelines">Trademark Guidelines</a></li>
+      </ul>
+    </div>
+  </div>
+
+  </body>
+</html>
