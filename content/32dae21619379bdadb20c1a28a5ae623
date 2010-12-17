@@ -1,0 +1,1803 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- $Revision: 1.47 $ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" lang="en" xml:lang="en">
+  <head>
+    <script>
+      cdcPageTimers={
+        topOfHead: new Date()
+      };
+    </script>
+    <title>
+Cisco ASA 5500 Series Adaptive Security Appliances Configuration Examples and TechNotes - Cisco Systems
+</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+    <meta name="concept" content="Cisco ASA 5500 Series Adaptive Security Appliances"/>
+    <meta name="fb:app_id" content="156494687694418"/>
+    <meta name="accessLevel" content="Guest"/>
+    <meta name="country" content="US"/>
+    <meta name="og:title" content="Cisco ASA 5500 Series Adaptive Security Appliances Configuration Examples and TechNotes"/>
+    <meta name="og:url" content="http://www.cisco.com/en/US/products/ps6120/prod_configuration_examples_list.html"/>
+    <meta name="docType" content="TSD Products Support Configuration Examples and TechNotes List"/>
+    <meta name="language" content="en"/>
+    <meta name="contentType" content="cisco.com#US#postSales"/>
+    <meta name="iaPath" content="cisco.com#Products#Cisco Products#Security#Multi-Function Security#Multi-Function Security Appliances#Cisco ASA 5500 Series Adaptive Security Appliances"/>
+    <meta name="Acronym" content="CISCO ASA 5580,CISCO 5520,5580,CISCO ASA 5510,CISCO 5550,ASA5505,ASA5540,CISCO5580,ASA 5520,CISCO 5540,ASA5510,5550,ASA 5580,ASA,5520,CISCO5540,ASA 5550,CISCO5510,CISCO 5510,CISCO 5505,ASA5550,CISCO5505,ASA 5540,CISCO ASA 5540,CISCO 5580,CISCO ASA 5520,5540,5510,ASA 5505,CISCO ASA 5505,CISCO ASA 5550,ASA 5510,5505,CISCO5520,CISCO5550,ASA5580,ASA5520"/>
+    <meta name="locale" content="US"/>
+    <meta name="og:type" content="website"/>
+    <meta name="og:site_name" content="Cisco"/>
+    <meta name="date" content="Mon Apr 25 00:00:00 PDT 2005"/>
+    <meta name="docRequest" content="/en/US/products/ps6120/prod_configuration_examples_list.html"/>
+    <link rel="canonical" href="http://www.cisco.com/en/US/products/ps6120/prod_configuration_examples_list.html"/>
+    <meta name="title" content="Cisco ASA 5500 Series Adaptive Security Appliances Configuration Examples and TechNotes"/>
+    
+    
+    <script type="text/javascript" src="/web/fw/j/masterbrand.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/web/fw/c/masterbrand.min.css" />
+    <link rel="stylesheet" type="text/css" href="/web/fw/w/cl/cl.min.css" />
+    
+    
+    <link rel="search" type="application/opensearchdescription+xml" title="Search Cisco.com" href="http://www.cisco.com/web/tsweb/searchplugins/cdc_search.xml" />
+    <script type="text/javascript">cdc.util.useBackpack=true;</script>
+  </head>
+
+  <body id="w1x" class="cdc-fw"><!--googleoff: index--><!--googleoff: snippet -->
+    <script>cdcPageTimers.topOfBody = new Date();</script>
+    <!--[if gte IE 9]><div id="gte-ie9" class="ie"><![endif]-->
+    <!--[if IE 8]><div id="ie8" class="ie"><![endif]-->
+    <!--[if IE 7]><div id="ie7" class="ie ie67"><![endif]-->
+    <!--[if lte IE 6]><div id="ie6" class="ie ie67"><![endif]--> 
+
+    
+
+    <div id="fw-mb">
+      <div id="fw-mb-w1">
+        
+    
+<div id="fw-banner">
+<div id="fw-banner-w1"><!-- skiplinks -->
+<div id="fw-mbsk">
+<p><a href="/" tabindex="3">Home</a> <a href="#content">Skip to content</a> <a href="#hinav">Skip to navigation</a> <a href="#pagefooter">Skip to footer</a></p>
+</div>
+
+<!-- logo -->
+<div id="fw-mbl">
+<p><a href="/en/US/hmpgs/index.html">Cisco.com Worldwide Home</a></p>
+</div>
+
+<!-- megamenus -->
+<div id="fw-mm">
+<table class="mm-items" cellspacing="0" summary="">
+<tr>
+<td class="mm-item" id="products-mm-item"><a href="http://www.cisco.com/en/US/products/index.html" class="mm-link">Products &amp; Services</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#products-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="support-mm-item"><a href="http://www.cisco.com/cisco/web/support/index.html" class="mm-link">Support</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#support-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="ordering-mm-item"><a href="http://www.cisco.com/en/US/ordering/index.shtml" class="mm-link">How to Buy</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#ordering-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="training-mm-item"><a href="http://www.cisco.com/en/US/learning/index.html" class="mm-link">Training &amp; Events</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#training-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="partner-mm-item"><a href="http://www.cisco.com/en/US/partners/index.html" class="mm-link">Partners</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#partner-mm-menu" class="mm-reflink">(menu)</a> </td>
+</tr>
+</table>
+</div>
+
+<!-- end #fw-mm -->
+<!-- search -->
+<span class="search-entitlement">Guest</span> 
+
+<div id="fw-mbs">
+<form name="sitewidesearch" action="http://tools.cisco.com/search/JSP/search-results.get" method="get" id="sitewidesearch"><label for="searchPhrase" name="search" id="search">Search</label> 
+
+<p class="field-button"><input type="text" tabindex="1" name="strQueryText" class="field-button-field" id="searchPhrase" value="" autocomplete="off"> <input type="submit" tabindex="2" value="Search" class="field-button-button" id="go"></p>
+
+<input type="hidden" value="cisco.com" name="Search All cisco.com"> <input type="hidden" value="en" name="language"> <input type="hidden" value="US" name="country"> <input type="hidden" value="f" name="thissection"> <input type="hidden" value="Guest" name="accessLevel"></form>
+</div>
+
+<!-- end #fw-mbs -->
+<script type="text/javascript">
+          if ((typeof cdc.search) == "undefined"){
+             cdc.search = new Object();
+          }
+          cdc.search.country = "US";
+          cdc.search.language = "en";
+        
+</script>
+
+ <!-- toolbar -->
+ 
+
+<div id="fw-ft-basic">
+<div class="ft-toolbar">
+<div class="ft-group ft-country-lang-group">
+<div class="ft-sect ft-country"><a href="http://cisco.com/en/US/swassets/sw274/sitewide_country_language_selector.html" class="ft-label"><span class="ft-country-name">Worldwide</span> <span class="ft-country-change">[change]</span></a></div>
+</div>
+
+<div class="ft-group ft-guest-group">
+<div class="ft-sect ft-login"><a href="/cgi-bin/login" class="ft-label">Log In</a></div>
+
+<div class="ft-sect ft-account"><a href="http://www.cisco.com/web/siteassets/account/index.html" class="ft-label">Account</a></div>
+
+<div class="ft-sect ft-register"><a href="http://tools.cisco.com/RPF/register/register.do" class="ft-label">Register</a></div>
+
+<div class="ft-sect"><a href="http://www.cisco.com/cisco/psn/web/workspace" class="ft-label">My Cisco</a></div>
+</div>
+</div>
+
+<!-- end #ft-toolbar -->
+</div>
+
+<!-- end #fw-ft-basic -->
+</div>
+
+<!-- end #fw-banner-w1 -->
+</div>
+
+<!-- end #fw-banner -->
+<!-- END MasterBrand Banner SSI (guest) -->
+
+  
+
+        
+        <div id="mb-title-nav-bar" class="clearfix">
+          <div id="framework-content-titles"><!--googleon: index--><!--googleon: snippet-->
+            <h1 class="title-section">Cisco ASA 5500 Series Adaptive Security Appliances</h1>
+            <h2 class="title-page">Configuration Examples and TechNotes</h2><!--googleoff: index--><!--googleoff: snippet-->
+          </div>
+        </div> <!-- end #mb-title-nav-bar -->
+        
+
+        <table id="framework-base-main" cellspacing="0" cellpadding="0" border="0" summary="">
+          <tr>
+            <td id="framework-column-left" valign="top"><a name="hinav"></a>
+              <div class="hinav"><h3>Hierarchical Navigation</h3><ul class="outer"><li><a href="/en/US/hmpgs/index.html" class="parent">HOME</a><ul><li><a href="/en/US/support/index.html" class="parent">SUPPORT</a><ul><li><a href="/cisco/web/psa/configure.html?mode=prod" class="parent">PRODUCT SUPPORT</a><ul><li><a href="/cisco/web/psa/configure.html?mode=prod&amp;level0=268438162" class="parent">SECURITY</a><ul><li><a href="/en/US/products/ps6120/tsd_products_support_series_home.html" class="parent">CISCO ASA 5500 SERIES ADAPTIVE SECURITY APPLIANCES</a><ul><li><a href="/en/US/products/ps6120/tsd_products_support_configure.html" class="parent">CONFIGURE</a><ul><li><strong><a href="/en/US/products/ps6120/prod_configuration_examples_list.html" class="selected">Configuration Examples and TechNotes</a></strong></li><li><a href="/en/US/products/ps6120/products_installation_and_configuration_guides_list.html" class="peer">Configuration Guides</a></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            </td> <!-- end #framework-column-left -->
+
+            <td id="framework-column-center">
+              <!-- temporary place for c1 and c2 -->
+              
+              
+
+              <table cellspacing="0" id="framework-base-content">
+                <tr>
+                  <td id="framework-column-main"><a name="content"></a><!--googleon: index--><!--googleon: snippet-->
+                    <div id="framework-content-main">
+                      <!-- Start of the actual text content -->
+
+                      <table id="content-right-top" align="right" border="0" cellspacing="0" cellpadding="0" summary="">
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                      </table>
+
+                      
+
+                      <table id="content-right-bottom" align="right" border="0" cellspacing="0" cellpadding="0" summary="">
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                      </table>
+
+                      <?xml version="1.0" encoding="UTF-8"?>
+<div class="contentMargins"><span class="content">
+<p>Some links below may open a new browser window (<img src="/swa/i/icon_popup_short.gif" alt="" border="0" height="9" width="19">) to display the document you selected.</p>
+</span></div>
+                      
+                      <div class="low-level">
+<div class="has-groups">
+<table summary="" class="llldropmenu">
+<tr>
+<td>
+<form action="" style="display: inline;" name="sectionDropdown">
+<fieldset>
+<span class="title">View Documents by topics&nbsp;</span><select onchange="dropdown_redirect(this);" name="section_dropdown"><option selected value="#_top">Choose Topic</option><option value="#anchor1">Initial Configuration</option><option value="#anchor2">Authentication, Authorization and Accounting (AAA)</option><option value="#anchor3">Allow and Block the Traffic Through the Security Appliance</option><option value="#anchor4">NAT and Access Lists</option><option value="#anchor5">IP Routing</option><option value="#anchor6">E-Mail</option><option value="#anchor7">Cisco Secure Desktop (CSD)</option><option value="#anchor8">Remote Access VPN</option><option value="#anchor9">Easy VPN</option><option value="#anchor10">SSL VPN/Web VPN</option><option value="#anchor11">Site to Site VPN (L2L) with ASA</option><option value="#anchor12">Site to Site VPN (L2L) with IOS</option><option value="#anchor13">Site to Site VPN (L2L) with VPN3000</option><option value="#anchor14">VPN with Non-Cisco Devices</option><option value="#anchor15">Software Upgrade</option><option value="#anchor16">Failover</option><option value="#anchor17">Miscellaneous</option><option value="#anchor18">Cisco ASA 5500 Series Adaptive Security Appliance</option><option value="#anchor19">General Configuration</option><option value="#anchor20">IPSec</option><option value="#anchor21">L2TP over IPSec</option><option value="#anchor22">Troubleshooting</option><option value="#anchor23">VPN (IPSec) ASA to IOS</option></select>
+</fieldset>
+</form>
+</td>
+</tr>
+</table>
+<ul class="listing">
+<li>
+<a name="anchor1"></a>
+<div class="heading">Initial Configuration</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a0080094ea2.shtml">PIX/ASA : Configure and Troubleshoot the PIX Firewall with a Single Internal Network</a>
+<br>
+<span class="content">14/Nov/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a0080094768.shtml">PIX/ASA : Connecting Single Internal Networks with Internet Configuration Example</a>
+<br>
+<span class="content">24/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a0080094769.shtml">PIX/ASA : Connecting Three Internal Networks with Internet Configuration Example</a>
+<br>
+<span class="content">24/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a0080094767.shtml">PIX/ASA : Connecting Two Internal Networks with Internet Configuration Example</a>
+<br>
+<span class="content">24/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00808d2b63.shtml">PIX/ASA 7.x and Above: Multiple Context Configuration Example</a>
+<br>
+<span class="content">20/Feb/2009</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00805a2e04.shtml">PIX/ASA 7.x and later with Syslog Configuration Example</a>
+<br>
+<span class="content">21/Aug/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080624e19.shtml">PIX/ASA 7.x and later/FWSM: Set SSH/Telnet/HTTP Connection Timeout using MPF Configuration Example</a>
+<br>
+<span class="content">16/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00804619d8.shtml">PIX/ASA 7.x and later: Connecting Multiple Internal Networks with Internet Configuration Example</a>
+<br>
+<span class="content">24/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_tech_note09186a008085283d.shtml">PIX/ASA 7.X: Disable Default Global Inspection and Enable Non-Default Application Inspection</a>
+<br>
+<span class="content">10/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_tech_note09186a0080734db7.shtml">PIX/ASA 7.2(1) and later: Intra-Interface Communications</a>
+<br>
+<span class="content">14/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a008089f467.shtml">PIX/ASA: Transparent Firewall Configuration Example</a>
+<br>
+<span class="content">26/Sep/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor2"></a>
+<div class="heading">Authentication, Authorization and Accounting (AAA)</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/sw/secursw/ps2086/products_configuration_example09186a00808d9138.shtml">ACS Shell Command Authorization Sets on IOS and ASA/PIX/FWSM Configuration Example</a>
+<br>
+<span class="content">12/Oct/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080a9eddc.shtml">ASA/PIX 8.x: Radius Authorization (ACS) for Network Access using Downloadable ACL with CLI and ASDM Configuration Example</a>
+<br>
+<span class="content">23/Mar/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080b04552.shtml">ASA/PIX: Accounting for VPN Clients Using ACS Configuration Example</a>
+<br>
+<span class="content">19/Nov/2009</span>
+</li>
+<li>
+<a href="/en/US/products/sw/secursw/ps2086/products_tech_note09186a0080858d3c.shtml">Cisco Secure ACS: Network Access Restrictions with AAA Clients for Users and User Groups</a>
+<br>
+<span class="content">07/Jun/2007</span>
+</li>
+<li>
+<a href="/en/US/products/sw/secursw/ps2086/products_configuration_example09186a00808cf897.shtml">Configure ACS to Assign a Group Policy at Login using RADIUS</a>
+<br>
+<span class="content">10/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00807349e7.shtml">PIX/ASA : Cut-through Proxy for Network Access using TACACS+ and RADIUS Server Configuration Example</a>
+<br>
+<span class="content">13/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a008060f261.shtml">PIX/ASA : Kerberos Authentication and LDAP Authorization Server Groups for VPN Client Users via ASDM/CLI Configuration Example</a>
+<br>
+<span class="content">30/Jul/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808d1a7c.shtml">PIX/ASA 8.0: Use LDAP Authentication to Assign a Group Policy at Login</a>
+<br>
+<span class="content">02/Oct/2007</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a0080742f60.shtml">Secure ACS Database Replication Configuration Example</a>
+<br>
+<span class="content">28/Apr/2009</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor3"></a>
+<div class="heading">Allow and Block the Traffic Through the Security Appliance</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080862017.shtml">ASA 7.x/PIX 6.x and Above: Open/Block the Ports Configuration Example</a>
+<br>
+<span class="content">05/Dec/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080aee442.shtml">ASA/PIX 8.x: Allow/Block FTP Sites Using Regular Expressions with MPF Configuration Example</a>
+<br>
+<span class="content">03/Aug/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080940e04.shtml">ASA/PIX 8.x: Block Certain Websites (URLs) Using Regular Expressions With MPF Configuration Example</a>
+<br>
+<span class="content">30/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080940c5a.shtml">ASA/PIX 7.2: Block Certain Websites (URLs) Using Regular Expressions with MPF Configuration Examples</a>
+<br>
+<span class="content">30/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080910838.shtml">ASA/PIX: Allow the Network Traffic to Access the Microsoft Media Server (MMS) / Streaming Video from the Internet Configuration Example</a>
+<br>
+<span class="content">26/May/2009</span>
+</li>
+<li>
+<a href="/en/US/tech/tk365/technologies_configuration_example09186a008009487d.shtml">ASA/PIX: BGP through ASA Configuration Example</a>
+<br>
+<span class="content">14/Apr/2010</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00807335ca.shtml">ASA: Send Network Traffic from the ASA to the AIP SSM Configuration Example</a>
+<br>
+<span class="content">02/Apr/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808dea62.shtml">ASA: Send Network Traffic from the ASA to the CSC-SSM Configuration Example</a>
+<br>
+<span class="content">18/Oct/2007</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a0080094a5a.shtml">Permitting PPTP/L2TP Connections Through the PIX/ASA/FWSM </a>
+<br>
+<span class="content">05/Feb/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a008088517b.shtml">PIX/ASA URL Filtering Configuration Example</a>
+<br>
+<span class="content">10/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808c38a6.shtml">PIX/ASA 7.x and Later: Block the Peer-to-Peer (P2P) and Instant Messaging (IM) Traffic Using MPF Configuration Example</a>
+<br>
+<span class="content">10/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00808c9a87.shtml">PIX/ASA 7.x and Later: VPN Filter (Permit Specific Port or Protocol) Configuration Example for L2L and Remote Access</a>
+<br>
+<span class="content">10/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00807ee585.shtml">PIX/ASA 7.x: Enable FTP/TFTP Services Configuration Example</a>
+<br>
+<span class="content">26/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008081042c.shtml">PIX/ASA 7.x: Enable VoIP (SIP, MGCP, H323, SCCP) Services Configuration Example</a>
+<br>
+<span class="content">10/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00807fc191.shtml">PIX/ASA 7.x: Enable/Disable Communication Between Interfaces</a>
+<br>
+<span class="content">24/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008080dfa7.shtml">PIX/ASA 7.x: QoS for VoIP Traffic on VPN Tunnels Configuration Example</a>
+<br>
+<span class="content">26/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a008069bf1b.shtml">PIX/ASA 7.x: SSH/Telnet on the Inside and Outside Interface Configuration Example</a>
+<br>
+<span class="content">14/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00807d287e.shtml">PIX/ASA: Allow Remote Desktop Protocol Connection through the Security Appliance Configuration Example</a>
+<br>
+<span class="content">24/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2284/products_configuration_example09186a008091c024.shtml">Restrict Certain Cisco VPN Client Versions from Connecting to the VPN Concentrator/ASA/PIX </a>
+<br>
+<span class="content">30/Sep/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor4"></a>
+<div class="heading">NAT and Access Lists</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080b1ee95.shtml">ASA 8.3(x) Dynamic PAT with Two Internal Networks and Internet Configuration Example</a>
+<br>
+<span class="content">09/Mar/2010</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008045a2d2.shtml">PIX/ASA (Version 7.x and Later) IPsec VPN Tunnel with Network Address Translation Configuration Example</a>
+<br>
+<span class="content">26/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008046f31a.shtml">PIX/ASA 7.x and FWSM: NAT and PAT Statements </a>
+<br>
+<span class="content">26/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_tech_note09186a00804708b4.shtml">PIX/ASA 7.x and later : Port Redirection(Forwarding) with nat, global, static and access-list Commands</a>
+<br>
+<span class="content">14/May/2007</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00808c9950.shtml">PIX/ASA 7.x and later: Site to Site (L2L) IPsec VPN with Policy NAT Configuration Example </a>
+<br>
+<span class="content">24/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00807d2874.shtml">PIX/ASA 7.x/FWSM 3.x: Translate Multiple Global IP Addresses to a Single Local IP Address using Static Policy NAT</a>
+<br>
+<span class="content">30/Jan/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00807968c8.shtml">PIX/ASA: Perform DNS Doctoring with the static Command and Three NAT Interfaces Configuration Example</a>
+<br>
+<span class="content">24/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00807968d1.shtml">PIX/ASA: Perform DNS Doctoring with the static Command and Two NAT Interfaces Configuration Example</a>
+<br>
+<span class="content">24/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_tech_note09186a00800d641d.shtml">Using and Configuring PIX/ASA/FWSM Object Groups</a>
+<br>
+<span class="content">18/Aug/2009</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor5"></a>
+<div class="heading">IP Routing</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00809a417a.shtml">ASA/PIX with OSPF Configuration Example</a>
+<br>
+<span class="content">29/May/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00809a7416.shtml">ASA/PIX with RIP Configuration Example</a>
+<br>
+<span class="content">22/May/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00809d07de.shtml">ASA/PIX: Configure and Troubleshoot the Reverse Route Injection (RRI)</a>
+<br>
+<span class="content">24/Jul/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008086ebd2.shtml">PIX/ASA 8.X: Configuring EIGRP on the Cisco Adaptive Security Appliance (ASA)</a>
+<br>
+<span class="content">02/Apr/2007</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00804acfea.shtml">PIX/ASA 7.x and later : VPN/IPsec with OSPF Configuration Example</a>
+<br>
+<span class="content">14/Oct/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor6"></a>
+<div class="heading">E-Mail</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a008067cf3b.shtml">PIX/ASA 7.x and above : Mail (SMTP) Server Access on Inside Network Configuration Example</a>
+<br>
+<span class="content">01/Oct/2006</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00806745b8.shtml">PIX/ASA 7.x and above: Mail (SMTP) Server Access on the DMZ Configuration Example</a>
+<br>
+<span class="content">01/Oct/2006</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a0080683db5.shtml">PIX/ASA 7.x and later : Mail (SMTP) Server Access on Outside Network Configuration Example</a>
+<br>
+<span class="content">01/Oct/2006</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor7"></a>
+<div class="heading">Cisco Secure Desktop (CSD)</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008072aa6c.shtml">Cisco Secure Desktop (CSD 3.1.x) on ASA 7.2.x for Windows Configuration Example using ASDM</a>
+<br>
+<span class="content">22/Jul/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor8"></a>
+<div class="heading">Remote Access VPN</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080930f21.shtml">ASA/PIX 8.x and VPN Client IPSec Authentication Using Digital Certificates with Microsoft CA Configuration Example</a>
+<br>
+<span class="content">14/Jan/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008092d8f1.shtml">ASA/PIX 7.x and VPN Client IPSec Authentication Using Digital Certificates with Microsoft CA Configuration Example</a>
+<br>
+<span class="content">25/Aug/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080702999.shtml">ASA/PIX: Allow Split Tunneling for VPN Clients on the ASA Configuration Example</a>
+<br>
+<span class="content">10/Jan/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008089149d.shtml">ASA/PIX: Mapping VPN Clients to VPN Group Policies Through LDAP Configuration Example</a>
+<br>
+<span class="content">31/Jul/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6128/products_configuration_example09186a008074d641.shtml">NAC Appliance (Cisco Clean Access) In-Band Virtual Gateway for Remote Access VPN Configuration Example</a>
+<br>
+<span class="content">03/Oct/2006</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008060f25c.shtml">PIX/ASA as a Remote VPN Server with Extended Authentication using CLI and ASDM  Configuration Example</a>
+<br>
+<span class="content">25/Feb/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00809a3fa5.shtml">PIX/ASA 8.x: CAC - SmartCards  Authentication for Cisco VPN Client</a>
+<br>
+<span class="content">29/May/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a008080f2d1.shtml">PIX/ASA 7.x and Cisco VPN Client 4.x for Cisco Secure ACS Authentication Configuration Example</a>
+<br>
+<span class="content">10/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00806de37e.shtml">PIX/ASA 7.x and Cisco VPN Client 4.x with Windows 2003 IAS RADIUS (Against Active Directory) Authentication Configuration Example</a>
+<br>
+<span class="content">13/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a0080641a52.shtml">PIX/ASA 7.x ASDM: Restrict the Network Access of Remote Access VPN Users</a>
+<br>
+<span class="content">17/Apr/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080702992.shtml">PIX/ASA 7.x: Allow Local LAN Access for Cisco VPN Client / SVC Configuration Example</a>
+<br>
+<span class="content">25/Feb/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00809a7692.shtml">PIX/ASA 7.x: CAC - SmartCards Authentication for Cisco VPN Client</a>
+<br>
+<span class="content">02/Jun/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008097ca6f.shtml">PIX/ASA: IPsec VPN Client Auto-Update Feature Configuration Example</a>
+<br>
+<span class="content">10/Apr/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00806ab788.shtml">PIX/ASA: Multiple VPN Group Clients to use Different VLANs after Connecting to a Security Appliance Configuration Example</a>
+<br>
+<span class="content">02/Oct/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00805fda25.shtml">Remote VPN Client Load Balancing on ASA 5500 Configuration Example</a>
+<br>
+<span class="content">09/Feb/2006</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor9"></a>
+<div class="heading">Easy VPN</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080912cfd.shtml">ASA/PIX 7.x and later: LAN-to-LAN and EasyVPN IPsec Tunnels Terminate on Same Interface Configuration Example</a>
+<br>
+<span class="content">30/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/tech/tk583/tk372/technologies_configuration_example09186a0080809222.shtml">PIX/ASA 7.x and Later : Easy VPN with Split Tunneling ASA 5500 as the Server and Cisco 871 as the Easy VPN Remote Configuration Example</a>
+<br>
+<span class="content">22/Dec/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00805c5ad9.shtml">PIX/ASA 7.x Easy VPN with an ASA 5500 as the Server and PIX 506E as the Client (NEM) Configuration Example</a>
+<br>
+<span class="content">12/Mar/2007</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00808a61f4.shtml">PIX/ASA: Easy VPN with an PIX 515E as the Server and ASA 5505 as the Client (NEM) Configuration Example</a>
+<br>
+<span class="content">02/Oct/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor10"></a>
+<div class="heading">SSL VPN/Web VPN</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008067e9ff.shtml">ASA with WebVPN and Single Sign-on using ASDM and NTLMv1 Configuration Example</a>
+<br>
+<span class="content">24/May/2006</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080975e83.shtml">ASA 8.x : Allow Split Tunneling for AnyConnect VPN Client on the ASA Configuration Example</a>
+<br>
+<span class="content">02/Oct/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808efbd2.shtml">ASA 8.x : VPN Access with the AnyConnect  VPN Client Using Self-Signed Certificate Configuration Example</a>
+<br>
+<span class="content">06/Nov/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_tech_note09186a00808e00ec.shtml">ASA 8.x Anyconnect Authentication with the Belgian eID Card</a>
+<br>
+<span class="content">19/Oct/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808c0603.shtml">ASA 8.x Import RDP Plug-in for use with WebVPN Configuration Example</a>
+<br>
+<span class="content">31/Aug/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808b3cff.shtml">ASA 8.x Manually Install 3rd Party Vendor Certificates for use with WebVPN Configuration Example</a>
+<br>
+<span class="content">04/Sep/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808bd83d.shtml">ASA 8.x: Allow Users to Select a Group at WebVPN Login via Group-Alias and Group-URL Method</a>
+<br>
+<span class="content">10/Nov/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080b25dc1.shtml">ASA 8.X: AnyConnect  SCEP Enrollment Configuration Example</a>
+<br>
+<span class="content">12/May/2010</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008099da67.shtml">ASA 8.x: AnyConnect SSL VPN CAC-SmartCards Configuration  with MAC Support </a>
+<br>
+<span class="content">22/May/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00809a2b93.shtml">ASA 8.x: AnyConnect SSL VPN CAC-SmartCards Configuration for Windows </a>
+<br>
+<span class="content">22/May/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00809f0d75.shtml">ASA 8.X: AnyConnect Start Before Logon Feature Configuration</a>
+<br>
+<span class="content">02/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080972e4f.shtml">ASA 8.x: AnyConnect VPN Client for Public Internet VPN on a Stick Configuration Example </a>
+<br>
+<span class="content">07/Apr/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00809fcf91.shtml">ASA 8.x: Renew and Install the SSL Certificate with ASDM</a>
+<br>
+<span class="content">17/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808dcad4.shtml">ASA 8.x: RSS Newsfeed for Clientless SSL VPN Configuration Example</a>
+<br>
+<span class="content">16/Oct/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_tech_note09186a008094abcb.shtml">ASA 8.0 SSLVPN (WebVPN): Advanced Portal Customization</a>
+<br>
+<span class="content">14/Feb/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808c3c45.shtml">ASA 8.0: Configure LDAP Authentication for WebVPN Users</a>
+<br>
+<span class="content">24/Sep/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808c18ff.shtml">ASA 8.0: Configure RADIUS Authentication for WebVPN Users</a>
+<br>
+<span class="content">18/Sep/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808bd92b.shtml">ASA 8.0: How to Change the WebVPN Logo</a>
+<br>
+<span class="content">14/Sep/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808bd861.shtml">ASA 8.0: How to Change the WebVPN Title</a>
+<br>
+<span class="content">14/Sep/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808a61cd.shtml">ASA 7.x Manually Install 3rd Party Vendor Certificates for use with WebVPN Configuration Example</a>
+<br>
+<span class="content">27/Aug/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6496/products_configuration_example09186a008096fcf5.shtml">ASA 7.2(2): SSL VPN Client (SVC) for Public Internet VPN on a Stick Configuration Example</a>
+<br>
+<span class="content">02/Oct/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080975e5d.shtml">ASA 7.1/7.2: Allow Split Tunneling for SVC on the ASA Configuration Example</a>
+<br>
+<span class="content">02/Oct/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00808c278f.shtml">Cisco ASA 8.x Import VNC Plug-in for use with WebVPN</a>
+<br>
+<span class="content">17/Sep/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00806ea271.shtml">Clientless SSL VPN (WebVPN) on ASA Configuration Example</a>
+<br>
+<span class="content">17/Jun/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008071c428.shtml">SSL VPN Client (SVC) on ASA with ASDM Configuration Example</a>
+<br>
+<span class="content">07/Dec/2006</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008072462a.shtml">Thin-Client SSL VPN (WebVPN) on ASA with ASDM Configuration Example</a>
+<br>
+<span class="content">07/Feb/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00804a3718.shtml">WebVPN Capture Tool on the Cisco ASA 5500 Series Adaptive Security Appliance</a>
+<br>
+<span class="content">01/Oct/2006</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor11"></a>
+<div class="heading">Site to Site VPN (L2L) with ASA</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080aa5be1.shtml">ASA/PIX 8.x: Site-to-Site IPSec VPN Authentication Using Digital Certificates with Microsoft CA Configuration Example</a>
+<br>
+<span class="content">24/Apr/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080950890.shtml">LAN-to-LAN Tunnel Between ASA 5505 and ASA/PIX Configuration Example</a>
+<br>
+<span class="content">30/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00807f9a89.shtml">PIX/ASA 7.X : Add a New Tunnel or Remote Access to an Existing L2L VPN</a>
+<br>
+<span class="content">06/Mar/2007</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00805a87f7.shtml">PIX/ASA 7.x and above: PIX-to-PIX VPN Tunnel Configuration Example</a>
+<br>
+<span class="content">21/Oct/2009</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a008046f307.shtml">PIX/ASA 7.x Enhanced Spoke-to-Client VPN with TACACS+ Authentication Configuration Example</a>
+<br>
+<span class="content">14/Oct/2009</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00804675ac.shtml">PIX/ASA 7.x Enhanced Spoke-to-Spoke VPN Configuration Example</a>
+<br>
+<span class="content">16/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00805733df.shtml">PIX/ASA 7.x PIX-to-PIX Dynamic-to-Static IPsec with NAT and VPN Client Configuration Example</a>
+<br>
+<span class="content">03/May/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00807fad90.shtml">PIX/ASA 7.x: Add/Remove a Network on an Existing L2L VPN Tunnel Configuration Example</a>
+<br>
+<span class="content">09/Apr/2007</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00806a5cea.shtml">PIX/ASA 7.x: DMZ Interface Part of the IPsec Tunnel Interesting Traffic Configuration Example</a>
+<br>
+<span class="content">16/Oct/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor12"></a>
+<div class="heading">Site to Site VPN (L2L) with IOS</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps5855/products_configuration_example09186a00809c7171.shtml">IOS VPN(Router): Add a New L2L Tunnel or Remote Access to an Existing L2L VPN</a>
+<br>
+<span class="content">14/Jul/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00807ea936.shtml">PIX/ASA 7.x and later : Dynamic IPsec Between a Statically addressed PIX and a Dynamically addressed IOS Router with NAT Configuration Example</a>
+<br>
+<span class="content">10/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00807fbdc8.shtml">PIX/ASA 7.x and later: Dynamic IPsec Between a Statically addressed IOS Router and a Dynamically addressed PIX with NAT Configuration Example</a>
+<br>
+<span class="content">10/Oct/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor13"></a>
+<div class="heading">Site to Site VPN (L2L) with VPN3000</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a008064a06f.shtml">IPsec Tunnel Between PIX 7.x and VPN 3000 Concentrator Configuration Example</a>
+<br>
+<span class="content">16/Oct/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor14"></a>
+<div class="heading">VPN with Non-Cisco Devices</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a008052c9d4.shtml">VPN Between Sonicwall Products and Cisco Security Appliance Configuration Example</a>
+<br>
+<span class="content">05/Jan/2007</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor15"></a>
+<div class="heading">Software Upgrade</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008067e9f9.shtml">PIX/ASA: Upgrade a Software Image using ASDM or CLI Configuration Example</a>
+<br>
+<span class="content">21/Aug/2007</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor16"></a>
+<div class="heading">Failover</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080af750f.shtml">ASA/PIX: Configure Active/Active Failover in Transparent Mode</a>
+<br>
+<span class="content">16/Sep/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080aefd11.shtml">ASA/PIX: Configure Active/Standby Failover in Transparent Mode</a>
+<br>
+<span class="content">11/Aug/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080b20f35.shtml">ASA/PIX: How to Use the CLI to Upgrade the Software Image on a Failover Pair</a>
+<br>
+<span class="content">16/Mar/2010</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00807dac5f.shtml">PIX/ASA Active/Standby Failover Configuration Example</a>
+<br>
+<span class="content">04/Nov/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080834058.shtml">PIX/ASA: Active/Active Failover Configuration Example</a>
+<br>
+<span class="content">04/Nov/2009</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_tech_note09186a00806b1c0f.shtml">PIX/ASA: License Key Upgrade on a Failover Pair</a>
+<br>
+<span class="content">09/Mar/2009</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor17"></a>
+<div class="heading">Miscellaneous</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_tech_note09186a00809763ea.shtml">ASA/PIX 7.x and Later: Mitigating the Network Attacks</a>
+<br>
+<span class="content">30/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00806e880b.shtml">ASA/PIX 7.x: Redundant or Backup ISP Links Configuration Example</a>
+<br>
+<span class="content">13/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080a5641e.shtml">ASA/PIX: NTP with and without an IPsec Tunnel Configuration Example</a>
+<br>
+<span class="content">23/Dec/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_tech_note09186a00807955c1.shtml">ASA: Attach a US Robotics Modem to the Console Port</a>
+<br>
+<span class="content">04/Dec/2006</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_tech_note09186a00807be2a1.shtml">ASDM and WebVPN Enabled on the Same Interface of ASA</a>
+<br>
+<span class="content">11/Jan/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008073b12b.shtml">How to obtain a Digital Certificate from a Microsoft Windows CA using ASDM on an ASA</a>
+<br>
+<span class="content">19/Sep/2006</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00806c1cd5.shtml">PIX/ASA as a DHCP Server and Client Configuration Example</a>
+<br>
+<span class="content">13/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_tech_note09186a00804c8b9f.shtml">PIX/ASA 7.X  Issue: MSS Exceeded - HTTP Clients Cannot Browse to Some Web Sites</a>
+<br>
+<span class="content">09/Oct/2006</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008081e621.shtml">PIX/ASA 7.x and IOS: VPN Fragmentation</a>
+<br>
+<span class="content">19/Feb/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a008075fcfb.shtml">PIX/ASA 7.x as a DHCP Relay Configuration Example</a>
+<br>
+<span class="content">13/Oct/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00807631d2.shtml">PIX/ASA 7.x: Multicast on the PIX/ASA Platforms with Sender on Outside Configuration Example</a>
+<br>
+<span class="content">26/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_tech_note09186a0080094a13.shtml">Using SNMP with the Security Appliances PIX/ASA</a>
+<br>
+<span class="content">29/Dec/2006</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor18"></a>
+<div class="heading">Cisco ASA 5500 Series Adaptive Security Appliance</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080b2d922.shtml">ASA 8.2.X TCP State Bypass Feature Configuration Example</a>
+<br>
+<span class="content">19/May/2010</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080affd2d.shtml">ASA: Smart Tunnel using ASDM Configuration Example</a>
+<br>
+<span class="content">28/Oct/2009</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_configuration_example09186a00808554ed.shtml">Migration from PIX 500 Series Security Appliances to ASA 5500 Series Adaptive Security Appliances</a>
+<br>
+<span class="content">26/Sep/2008</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00805734ae.shtml">PIX/ASA and VPN Client for Public Internet VPN on a Stick Configuration Example</a>
+<br>
+<span class="content">26/Sep/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor19"></a>
+<div class="heading">General Configuration</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_tech_note09186a00804708b4.shtml">PIX/ASA 7.x : Port Redirection(Forwarding) with nat, global, static and access-list Commands</a>
+<br>
+<span class="content">14/May/2007</span>
+</li>
+<li>
+<a href="/en/US/products/hw/vpndevc/ps2030/products_tech_note09186a008084de0c.shtml">PIX/ASA 7.x and Later: Bandwidth Management(Rate Limit) Using QoS Policies</a>
+<br>
+<span class="content">26/Sep/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor20"></a>
+<div class="heading">IPSec</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080a66bc6.shtml">ASA/PIX: IPsec VPN Client Addressing Using DHCP Server with ASDM Configuration Example</a>
+<br>
+<span class="content">27/Jan/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080a7afb2.shtml">ASA/PIX: Static IP Addressing for IPSec VPN Client with CLI and ASDM Configuration Example</a>
+<br>
+<span class="content">23/Feb/2009</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080ab7ce9.shtml">PIX/ASA: PPPoE Client Configuration Example</a>
+<br>
+<span class="content">19/May/2009</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor21"></a>
+<div class="heading">L2TP over IPSec</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00807213a7.shtml">L2TP Over IPsec Between Windows 2000/XP PC and PIX/ASA 7.2 Using Pre-shared Key Configuration Example</a>
+<br>
+<span class="content">13/Oct/2008</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor22"></a>
+<div class="heading">Troubleshooting</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_tech_note09186a00807e0aca.shtml">Most Common L2L and Remote Access IPsec VPN Troubleshooting Solutions</a>
+<br>
+<span class="content">28/Apr/2009</span>
+</li>
+</ul>
+</li>
+<li>
+<a name="anchor23"></a>
+<div class="heading">VPN (IPSec) ASA to IOS</div>
+<ul class="group">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a00805e8c80.shtml">ASA/PIX : Security Appliance to an IOS Router LAN-to-LAN IPsec Tunnel Configuration Example</a>
+<br>
+<span class="content">08/Mar/2007</span>
+</li>
+<li>
+<a href="/en/US/products/ps5855/products_configuration_example09186a0080a9a7a3.shtml">SDM: Site-to-Site IPsec VPN Between ASA/PIX and an IOS Router Configuration Example</a>
+<br>
+<span class="content">14/Oct/2009</span>
+</li>
+</ul>
+</li>
+<li>
+<ul class="ungroup">
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080b4f50d.shtml">ASA 8.X: Routing SSL VPN Traffic through Tunneled Default Gateway Configuration Example </a>
+<br>
+<span class="content">18/Oct/2010</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_tech_note09186a0080b5a512.shtml">ASA/PIX 7.X: Disable Default Global Inspection and Enable Non-Default Application Inspection Using ASDM</a> <span class="is-new-link">New!</span>
+<br>
+<span class="content">02/Dec/2010</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080b33101.shtml">ASA/PIX: Remote VPN Server with Inbound NAT for VPN Client Traffic with CLI and ASDM Configuration Example</a>
+<br>
+<span class="content">10/Jun/2010</span>
+</li>
+<li>
+<a href="/en/US/products/ps9422/products_configuration_example09186a0080b4ae61.shtml">Configuration Professional: Site-to-Site IPsec VPN Between ASA/PIX and an IOS Router Configuration Example</a>
+<br>
+<span class="content">28/Sep/2010</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080b3d511.shtml">Dynamic IPsec Tunnel Between a Statically Addressed ASA and a Dynamically Addressed Cisco IOS Router that uses CCP Configuration Example</a>
+<br>
+<span class="content">28/Jul/2010</span>
+</li>
+<li>
+<a href="/en/US/products/ps6120/products_configuration_example09186a0080b37d0b.shtml">PIX/ASA 7.x and Later: LAN-to-LAN IPsec VPN with Overlapping Networks Configuration Example</a>
+<br>
+<span class="content">09/Dec/2010</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+
+                      <!-- End of the actual text content --><!--googleoff: index--><!--googleoff: snippet-->
+                    </div> <!-- end #framework-content-main -->
+                  </td> <!-- end #framework-column-main -->
+
+                  <td id="framework-column-right">
+                    <div id="framework-content-right">
+                      
+                      
+                      
+                      
+                      <style type="text/css">
+	  #framework-base-main{background:url(/swa/i/rightcol-bkg.gif) repeat-y right; }
+	</style><div class="module-related"><h3>Related Tools</h3><ul><li><a href="http://www.cisco.com/en/US/support/tsd_most_requested_tools.html" class="rellink">Tools & Resources</a></li><li><a href="http://www.cisco.com/en/US/support/tsd_my_tech_support.html" class="rellink" target="_blank">My Tech Support</a></li></ul></div>
+                      
+                      
+                      
+                      
+                      
+                    </div> <!-- end #framework-content-right -->
+                  </td> <!-- end #framework-column-right -->
+                </tr>
+              </table> <!-- end #framework-base-content -->
+            </td> <!-- end #framework-column-center -->
+          </tr>
+        </table> <!-- end #framework-base-main -->
+
+        
+        
+    
+<div id="ff">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://newsroom.cisco.com/dlls/index.html">News &amp; Alerts</a></h3>
+
+<ul>
+<li><a href="http://newsroom.cisco.com/dlls/index.html">News@Cisco</a></li>
+
+<li><a href="http://blogs.cisco.com/">Blogs</a></li>
+
+<li><a href="http://www.cisco.com/offer/subctr/nl/190612_1">Newsletters</a></li>
+
+<li><a href="http://www.cisco.com/en/US/support/tsd_products_field_notice_summary.html">Field Notices</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/products_security_advisories_listing.html">Security Advisories</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/pub/software/portal/select.html?i=!ch">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff -->
+<div id="ff-hidden" style="display:none;">
+<div id="ff-collaboration">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/ns1007/index.html">Collaboration</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/products/ps10692/Products_Sub_Category_Home.html">Conferencing</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10684/Products_Sub_Category_Home.html">Customer Care</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10683/Products_Sub_Category_Home.html">Enterprise Social Software</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10691/Products_Sub_Category_Home.html">IP Communications</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10682/Products_Sub_Category_Home.html">Messaging</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10685/Products_Sub_Category_Home.html">Mobile Applications</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10693/Products_Sub_Category_Home.html">Telepresence</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/web/download/index.html">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff-collaboration -->
+<div id="ff-data-center">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/index.html">Data Center and Virtualization</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/products.html">Products and Solutions</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/networking_solutions_customer_success_stories_list.html">Case Studies</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns743/networking_solutions_program_home.html">Design Zone</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/ecosystem.html">Technology Partnerships</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/services.html">Data Center Services</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/web/download/index.html">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff-data-center -->
+<div id="ff-borderless-networks">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/ns1015/index.html">Borderless Networks</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/products.html">Product Portfolio</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/architecture.html">Architecture</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/services.html">Services</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/solutions.html">Solutions</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/industries.html">Industries</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/web/download/index.html">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff-borderless-networks -->
+</div>
+
+<!-- end #ff-hidden -->
+<script type="text/javascript">
+cdc.ff.init();
+</script>
+
+<!-- END MasterBrand FatFooter SSI (generic plus hubs)(guest) -->
+
+  
+        <!-- $Revision: 1.5 $ -->
+<a name="pagefooter"></a>
+<div id="framework-footer">
+	<div id="footer-nav">
+	
+	<a href="/web/siteassets/contacts/index.html">Contacts</a> | 
+	<a href="http://tools.cisco.com/cdc/feedbk/public/FeedbackAction.cdcfdb">Feedback</a> | 
+	<a href="/web/help/index.html">Help</a> | 
+	<a href="/web/siteassets/sitemap/index.html">Site Map</a> | 
+	
+	</div>
+	<div id="footer-legal"><a href="/web/siteassets/legal/terms_condition.html">Terms &amp; Conditions</a> |
+     <a href="/web/siteassets/legal/privacy.html">Privacy Statement</a> |
+     <a href="/web/siteassets/legal/privacy.html#cookies">Cookie Policy</a> |
+     <a href="/web/siteassets/legal/trademark.html">Trademarks</a></div>
+	
+</div>		
+
+
+      </div><!-- end #fw-mb-w1 -->
+    </div><!-- end #fw-mb -->
+
+    
+    <!--[if IE]></div><![endif]-->
+    
+    <script>cdcPageTimers.endOfContent= new Date();</script>
+    
+    
+    <script>cdcPageTimers.bottomOfBody = new Date();</script>
+  </body>
+</html>
