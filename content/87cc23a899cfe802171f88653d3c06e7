@@ -1,0 +1,739 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> Billy&#8217;s Blog</title>
+<link rel="stylesheet" href="http://s0.wp.com/wp-content/themes/pub/freshy/style.css?m=1292357029g" type="text/css" media="screen" title="Freshy"/>
+<!--[if IE 7]>
+	<link rel="stylesheet" href="http://s0.wp.com/wp-content/themes/pub/freshy/ie7.css?m=1285366787g" type="text/css" media="screen" />
+<![endif]-->
+<!--[if lt IE 7]>
+	<link rel="stylesheet" href="http://s0.wp.com/wp-content/themes/pub/freshy/ie6.css?m=1285366787g" type="text/css" media="screen" />
+<![endif]-->
+<link rel="pingback" href="http://widemile.wordpress.com/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Billy&#039;s Blog &raquo; Feed" href="http://widemile.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Billy&#039;s Blog &raquo; Comments Feed" href="http://widemile.wordpress.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+<link rel="stylesheet" href="http://s0.wp.com/wp-content/themes/h4/global.css?m=1291749258g" type="text/css" />
+<script type='text/javascript' src='http://s2.wp.com/wp-includes/js/l10n.js?m=1290133841g&amp;ver=20101110'></script>
+<script type='text/javascript' src='http://s1.wp.com/wp-includes/js/jquery/jquery.js?m=1290133841g&amp;ver=1.4.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://widemile.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://widemile.wordpress.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Billy&#8217;s Blog' href='http://widemile.wordpress.com/' />
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/8Mdn' />
+<link rel="shortcut icon" type="image/x-icon" href="http://s1.wp.com/i/favicon-stacked.ico?m=1284002170g" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="http://s1.wp.com/i/favicon-stacked.ico?m=1284002170g" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon" href="http://s0.wp.com/wp-content/themes/h4/i/webclip.png?m=1250548519g" />
+	<style type="text/css">
+	/* <![CDATA[ */
+				div#likes { margin-top: 15px; }
+		.like-button { border: 1px solid #eee; padding: 2px 6px; font-size: 13px; font-family: arial, tahoma, sans-serif; }
+		#wpl-likebox { clear: left; font-size: 11px; font-family: arial, tahoma, verdana, sans-serif !important; min-height: 30px; margin: 10px 0 !important; padding: 5px 0 10px 0 !important; }
+		#wpl-button { float: left; background: url( /i/buttonbg.png ) top left repeat-x; margin-right: 7px; border: 1px solid #d4d4d4; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+		#wpl-button a { color: #666 !important; line-height: 130% !important; text-decoration: none !important; outline: none; float: left; padding: 3px 6px 2px 24px !important; font-size: 11px !important; background: url( /i/likestar.png ) 6px 49.8% no-repeat; }
+		#wpl-button.liked { background: #feffce; border: 1px solid #f3e389; }
+		#wpl-button.liked a { color: #ba871b !important; }
+		#wpl-likebox #wpl-count { min-height: 25px; line-height: 130% !important; float: left; padding-top: 4px; }
+		#wpl-likebox #wpl-avatars { clear: left; max-height: 98px; overflow: hidden; margin-top: 15px; line-height: 130% !important; }
+		#wpl-likebox #wpl-avatars img { border: none !important; }
+		#wpl-likebox #wpl-mustlogin { line-height: 14px !important; font-size: 11px; clear: left; margin-top: 5px; background: #f0f0f0; padding: 10px; width: 65%; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+		#wpl-likebox #wpl-mustlogin a { color: #888; text-decoration: underline; }
+		#wpl-likebox #wpl-mustlogin p { margin: 5px 0; padding: 0 }
+		#wpl-likebox #wpl-mustlogin input.input { padding: 2px; background: #fff; font-size: 11px; font-family: inherit; border: 1px solid #ccc; -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset; -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset; line-height: 12px; }
+		#wpl-likebox #wpl-mustlogin input#wp-submit { border: 1px solid #ccc; font-size: 11px; background: #fafafa; repeat-x; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; padding: 2px 4px !important; line-height: 12px; }
+		#wpl-likebox #wpl-mustlogin label { position: relative; cursor: text; }
+		#wpl-likebox #wpl-mustlogin label span { position: absolute; top: 0px; left: 5px; padding: 0 !important; }
+		#wpl-likebox #wpl-mustlogin label span { top /*\**/: -10px\9; }
+	/* ]]> */
+	</style>
+	<link rel='openid.server' href='http://widemile.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://widemile.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://widemile.wordpress.com/osd.xml" title="Billy&#039;s Blog" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
+
+	<style type="text/css">
+	.menu.primary li a {
+		background-image:url("http://s0.wp.com/wp-content/themes/pub/freshy/images/menu/menu_triple.gif?m=1214867914g");
+	}
+	.menu.primary li a.first_menu {
+		background-image:url("http://s0.wp.com/wp-content/themes/pub/freshy/images/menu/menu_start_triple.gif?m=1214867914g");
+	}
+	.menu.primary li a.last_menu {
+		background-image:url("http://s0.wp.com/wp-content/themes/pub/freshy/images/menu/menu_end_triple.gif?m=1214867914g");
+	}
+
+	.description {
+		color:#ADCF20;
+	}
+	#content .commentlist dd.author_comment {
+		background-color:#a3cb00 !important;
+	}
+	html > body #content .commentlist dd.author_comment {
+		background-color:#a3cb00 !important;
+	}
+	#content .commentlist dt.author_comment .date {
+		color:#a3cb00 !important;
+		border-color:#a3cb00 !important;
+	}
+	#content .commentlist .author_comment .author,
+	#content .commentlist .author_comment .author a {
+		color:#a3cb00 !important;
+		border-color:#a3cb00 !important;
+	}
+	#sidebar h2 {
+		color:#f78b0c;
+		background-color:#FFFFFF;
+		border-bottom-color:#f78b0c;
+	}
+	#sidebar {
+		background-color:#FFFFFF;
+	}
+	*::-moz-selection {
+		background-color:#FF3C00;
+	}
+
+	#content a:hover {
+		border-bottom:1px dotted #FF3C00;
+	}
+
+	#sidebar a:hover,
+	#sidebar .current_page_item li a:hover,
+	#sidebar .current-cat li a:hover,
+	#sidebar .current_page_item a,
+	#sidebar .current-cat a ,
+	.readmore,
+	#content .postmetadata a
+	{
+		color : #FF3C00;
+	}
+
+	#title_image {
+		margin:0;
+		text-align:left;
+		display:block;
+		height:95px;
+	}
+
+	</style>
+
+	<style type="text/css">
+	#title_image {
+	background-image:url(http://s0.wp.com/wp-content/themes/pub/freshy/images/headers/header_image6.jpg);
+	}
+</style>
+<meta name="application-name" content="Billy&#039;s Blog" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Learning about optimization at Widemile" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://widemile.wordpress.com/feed/;icon-uri=http://s1.wp.com/i/favicon-stacked.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /></head>
+<body>
+
+<div id="page">
+	
+	<!-- header -->
+	<div id="header">
+		<div id="title">
+			<h1>
+				<a href="http://widemile.wordpress.com/">
+					<span>Billy&#8217;s Blog</span>
+				</a>
+			</h1>
+			<div class="description">
+				<small>Learning about optimization at Widemile</small>
+			</div>
+		</div>
+		<div id="title_image"></div>
+	</div>
+	
+	<!-- main div -->
+	<div id="frame">
+
+	<!-- main menu -->
+	<ul class="menu page-menu primary">
+	<li class="current_page_item page_item">
+		<a class="first_menu" href="http://widemile.wordpress.com/">
+			Home		</a>
+	</li>
+
+	<li class="page_item"><a href="http://widemile.wordpress.com/about/" title="About">About</a></li>
+<li class="page_item"><a href="http://widemile.wordpress.com/lesson-guide/" title="Lesson Guide">Lesson Guide</a></li>
+<li class="page_item"><a href="http://widemile.wordpress.com/disclaimer/" title="Disclaimer">Disclaimer</a></li>
+
+	<li class="last_menu">
+		<!-- put an empty link to have the end of the menu anyway -->
+		<a class="last_menu_off"></a>
+	</li>
+</ul>
+	
+	<hr style="display:none"/>
+
+	<div id="content">
+	
+	<!-- pages -->
+			
+						
+			<div class="post-112 post type-post status-publish format-standard hentry category-site-news" id="post-112">
+				
+				<h2><a href="http://widemile.wordpress.com/2008/03/18/big-news/" rel="bookmark" title="Read Big&nbsp;news&#8230;">Big&nbsp;news&#8230;</a></h2>
+				<small class="date">
+					<span class="date_day">18</span>
+					<span class="date_month">03</span>
+					<span class="date_year">2008</span>
+				</small>
+				
+				<div class="entry">
+					<p>There is a big announcement today at Widemile and a new post by me.  However you won&#8217;t see it here.  Please head to <a href="http://testingblog.widemile.com" title="Billy's Blog">http://testingblog.widemile.com</a> to see the new site!  To celebrate Widemile&#8217;s annoucement, I have moved to a widemile.com domain and have a new design.</p>
+<p>If you subscribe to my feedburner RSS feed, I have automatically changed it to the new site, however if you use the wordpress.com RSS feed, you will continue getting this site&#8217;s feed which is now dead.  Please update your feed to <a href="http://feeds.feedburner.com/billyblogwm" title="Billy's Blog RSS feed">http://feeds.feedburner.com/billyblogwm</a>.</p>
+<p>I will no longer be updating this site, other than to point people to the new page.  <a href="http://testingblog.widemile.com" title="Billy's Blog">So please head there now!</a></p>
+<p><a href="http://testingblog.widemile.com/" title="Billy's Blog Multivariate and Split Testing blog"><img src="http://widemile.files.wordpress.com/2008/03/newurl.jpg?w=510" alt="New URL testingblog.widemile.com" /></a></p>
+				</div>
+				<br class="clear" />
+								
+				<small class="postmetadata">Comments : <a href="http://widemile.wordpress.com/2008/03/18/big-news/#respond" title="Comment on Big&nbsp;news&#8230;">Leave a Comment &#187;</a></small>
+				<br/>
+				<small class="postmetadata"></small>
+				<br/>
+				<small class="postmetadata">Categories : <a href="http://en.wordpress.com/tag/site-news/" title="View all posts in Site News" rel="category tag">Site News</a></small>			
+			</div>
+				
+		<hr style="display:none;"/>
+			
+						
+			<div class="post-111 post type-post status-publish format-standard hentry category-landing-page-optimization category-methodology tag-avinash-kaushik tag-copywriting tag-google-web-optimizer tag-lenny-de-rooy tag-testing tag-testing-culture tag-tim-ash" id="post-111">
+				
+				<h2><a href="http://widemile.wordpress.com/2008/03/06/3-posts-on-3-topics/" rel="bookmark" title="Read 3 posts on 3&nbsp;topics">3 posts on 3&nbsp;topics</a></h2>
+				<small class="date">
+					<span class="date_day">6</span>
+					<span class="date_month">03</span>
+					<span class="date_year">2008</span>
+				</small>
+				
+				<div class="entry">
+					<p><i>Edit: I fixed all the links in this post.  Copy and pasting is getting the best of me! </i></p>
+<p>I recently came across a few great posts that I enjoyed and wanted to pass onto you all.  The first is from Tim Ash, who has written a great book on <a onclick="return mugicPopWin(this,event);" oncontextmenu="mugicRightClick(this);" href="http://www.amazon.com/Landing-Page-Optimization-Definitive-Conversions/dp/0470174625">Landing Page Optimization</a>.  One of his more recent entries discusses <a href="http://sitetuners.wordpress.com/2008/02/18/cut-out-the-bs-to-increase-conversions/">how to write effective copy to increase conversions</a>.</p>
+<p>One of my favorite bloggers, Avinash Kaushik tells marketers to <a href="http://www.kaushik.net/avinash/2008/02/lack-management-support-or-buy-in-embarrass-them.html">embarrass their managers in order to succeed</a> at their campaigns.  Testing tops that list of course, but his other techniques are great methods at &#8220;working the system.&#8221;</p>
+<p>Lastly, Lenny de Rooy, wrote a  guest post at SEO Scoop about <a href="http://www.seo-scoop.com/2008/03/05/5-common-misconceptions-about-the-google-website-optimizer/">5 misconceptions of Google Web Optimizer</a>.  It goes slightly beyond just GWO itself and into testing methodology</p>
+				</div>
+				<br class="clear" />
+								
+				<small class="postmetadata">Comments : <a href="http://widemile.wordpress.com/2008/03/06/3-posts-on-3-topics/#respond" title="Comment on 3 posts on 3&nbsp;topics">Leave a Comment &#187;</a></small>
+				<br/>
+				<small class="postmetadata">Tags: <a href="http://en.wordpress.com/tag/avinash-kaushik/" rel="tag">Avinash Kaushik</a>, <a href="http://en.wordpress.com/tag/copywriting/" rel="tag">copywriting</a>, <a href="http://en.wordpress.com/tag/google-web-optimizer/" rel="tag">google web optimizer</a>, <a href="http://en.wordpress.com/tag/lenny-de-rooy/" rel="tag">lenny de rooy</a>, <a href="http://en.wordpress.com/tag/testing/" rel="tag">testing</a>, <a href="http://en.wordpress.com/tag/testing-culture/" rel="tag">testing culture</a>, <a href="http://en.wordpress.com/tag/tim-ash/" rel="tag">tim ash</a></small>
+				<br/>
+				<small class="postmetadata">Categories : <a href="http://en.wordpress.com/tag/landing-page-optimization/" title="View all posts in Landing Page Optimization" rel="category tag">Landing Page Optimization</a>, <a href="http://en.wordpress.com/tag/methodology/" title="View all posts in Methodology" rel="category tag">Methodology</a></small>			
+			</div>
+				
+		<hr style="display:none;"/>
+			
+						
+			<div class="post-109 post type-post status-publish format-standard hentry category-methodology category-testing-concerns tag-analysis tag-funnels tag-mistakes tag-testing" id="post-109">
+				
+				<h2><a href="http://widemile.wordpress.com/2008/03/04/how-to-get-ideal-test-conditions-and-results/" rel="bookmark" title="Read How to get ideal test conditions (and&nbsp;results)">How to get ideal test conditions (and&nbsp;results)</a></h2>
+				<small class="date">
+					<span class="date_day">4</span>
+					<span class="date_month">03</span>
+					<span class="date_year">2008</span>
+				</small>
+				
+				<div class="entry">
+					<p>A big mistake in testing is to overlook variables inside and outside of the test that impact results.  In an ideal test, the only variables would be the ones you are testing on your page.  That usually isn&#8217;t possible though, but as long as you account for them in your analysis, you will get correct and actionable information.</p>
+<div style="text-align:center;"><img src="http://widemile.files.wordpress.com/2008/03/sky.jpg?w=357&#038;h=229" alt="Sky image" height="229" width="357" /></div>
+<p>If you test a seasonal page, then the optimal page you get for that season, probably won&#8217;t perform when the season ends.  By not paying attention to those kind of variables, you are setting yourself up into thinking you&#8217;ve found the optimal page. The same type of mistake is made by grouping e-mail, print, SEM campaigns and event traffic, unless you know they react the same to your changes.</p>
+<p>Even within segments, there might be more segments to uncover.  Your only limitation should be traffic; don&#8217;t segment so granular that you can&#8217;t run a decent sized test in a decent amount of time.</p>
+<p>One of my clients doesn&#8217;t get a lot of traffic, but the traffic he does get is very distinct.  One converts in the single digits and the other converts in the teens.  Although combining them would get me more data, it would be very confused data since they convert so differently.</p>
+<p>A few things to look out for:</p>
+<ul>
+<li>The ad or offers visitors see beforehand</li>
+<li>Interactions between your factors (if you aren&#8217;t testing interactions)</li>
+<li>Technical problems</li>
+<li>Problems that occur before or after the tested page</li>
+</ul>
+<p>A note about the last bullet, the problems can range from a technical problem to a problem with the overall funnel.  If people get different experiences in the funnel that drastically impact whether they convert or not, it can add a noise to your test.  Some examples are different checkout processes for registered and non-registered users or users being inelligible for service.</p>
+<p>The purpose of testing is to find out if a certain element performs well under the conditions you provide.  If you aren&#8217;t paying attention to all the conditions, then the results you derive will be incorrect without you knowing.</p>
+				</div>
+				<br class="clear" />
+								
+				<small class="postmetadata">Comments : <a href="http://widemile.wordpress.com/2008/03/04/how-to-get-ideal-test-conditions-and-results/#comments" title="Comment on How to get ideal test conditions (and&nbsp;results)">2 Comments &#187;</a></small>
+				<br/>
+				<small class="postmetadata">Tags: <a href="http://en.wordpress.com/tag/analysis/" rel="tag">analysis</a>, <a href="http://en.wordpress.com/tag/funnels/" rel="tag">funnels</a>, <a href="http://en.wordpress.com/tag/mistakes/" rel="tag">mistakes</a>, <a href="http://en.wordpress.com/tag/testing/" rel="tag">testing</a></small>
+				<br/>
+				<small class="postmetadata">Categories : <a href="http://en.wordpress.com/tag/methodology/" title="View all posts in Methodology" rel="category tag">Methodology</a>, <a href="http://en.wordpress.com/tag/testing-concerns/" title="View all posts in Testing Concerns" rel="category tag">Testing Concerns</a></small>			
+			</div>
+				
+		<hr style="display:none;"/>
+			
+						
+			<div class="post-77 post type-post status-publish format-standard hentry category-methodology category-testing-concerns category-uncategorized tag-multivariate-testing tag-test-design" id="post-77">
+				
+				<h2><a href="http://widemile.wordpress.com/2008/02/21/3-steps-to-quickly-make-a-good-multivariate-test/" rel="bookmark" title="Read 3 steps to quickly make a good multivariate&nbsp;test">3 steps to quickly make a good multivariate&nbsp;test</a></h2>
+				<small class="date">
+					<span class="date_day">21</span>
+					<span class="date_month">02</span>
+					<span class="date_year">2008</span>
+				</small>
+				
+				<div class="entry">
+					<p>Having great testing technology puts a lot of power in your hands.  You can test anything and everything you want.  However, like any other tool, to use it effectively you have to use it right.  There&#8217;s a lot of best practices and thought that goes into test design, but following these three rules can get you a good test in most situations.</p>
+<div style="text-align:center;"><img src="http://widemile.files.wordpress.com/2008/02/steps.jpg?w=211&#038;h=280" alt="Steps" height="280" width="211" /></div>
+<ol>
+<li><b>Maximize your traffic</b>: Pack as much as you can into a test for the amount of traffic you have to keep it a short test.  Using Widemile&#8217;s platform that&#8217;s 2 weeks to be safe, with Google Optimizer you should do at least a month (<a href="http://widemile.wordpress.com/2008/01/28/why-google-optimizer-is-free-its-old-and-slow/">explanation</a>).</li>
+<li><b>Test opposites:</b> If you test stuff that&#8217;s similar, they&#8217;ll perform about the same.  So find out the general theme you should be following first by testing opposites (B2B vs B2C, podcast vs ebook, descriptive vs benefits).</li>
+<li><b>Learn from the previous test:</b> Always make sure you line up your tests so that you learn something that can be used in the next one to either refine or to learn something new.</li>
+</ol>
+<p>The goal of these three things are to maximize your time spent testing by testing as much as possible while also minimizing testing suboptimal content.  For example, if I was selling iPods and I tested 2 images of people running with the iPod, one with a man and the other a woman, I might think that was a good test.  However I could have totally missed out on an image that worked better, such as an iPod next to a PC.  I could test that out after the initial test, but then I just wasted one test run.  The right way would be to test one sport image versus one PC image and find out which direction to go.  From there I could test against other opposing images or refine the PC image.</p>
+<p>The only warning I&#8217;d throw in is that if you&#8217;re trying to test a lot of things at once, you might want to scale back.  Pick a 2-4 themes depending on your test size and stick to testing them out.  Don&#8217;t mix and match.</p>
+<p>Follow these steps and you&#8217;re on your way to getting not quick tests, but efficient ones.</p>
+				</div>
+				<br class="clear" />
+								
+				<small class="postmetadata">Comments : <a href="http://widemile.wordpress.com/2008/02/21/3-steps-to-quickly-make-a-good-multivariate-test/#comments" title="Comment on 3 steps to quickly make a good multivariate&nbsp;test">1 Comment &#187;</a></small>
+				<br/>
+				<small class="postmetadata">Tags: <a href="http://en.wordpress.com/tag/multivariate-testing/" rel="tag">multivariate testing</a>, <a href="http://en.wordpress.com/tag/test-design/" rel="tag">test design</a></small>
+				<br/>
+				<small class="postmetadata">Categories : <a href="http://en.wordpress.com/tag/methodology/" title="View all posts in Methodology" rel="category tag">Methodology</a>, <a href="http://en.wordpress.com/tag/testing-concerns/" title="View all posts in Testing Concerns" rel="category tag">Testing Concerns</a>, <a href="http://widemile.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a></small>			
+			</div>
+				
+		<hr style="display:none;"/>
+			
+						
+			<div class="post-102 post type-post status-publish format-standard hentry category-terminology tag-design-of-experiments tag-fractional-factorial tag-multivariate-testing tag-taguchi tag-taguchi-method tag-test-design" id="post-102">
+				
+				<h2><a href="http://widemile.wordpress.com/2008/02/14/what-is-taguchi-how-does-it-relate-to-testing/" rel="bookmark" title="Read What is Taguchi?  How does it relate to&nbsp;testing?">What is Taguchi?  How does it relate to&nbsp;testing?</a></h2>
+				<small class="date">
+					<span class="date_day">14</span>
+					<span class="date_month">02</span>
+					<span class="date_year">2008</span>
+				</small>
+				
+				<div class="entry">
+					<div style="text-align:center;"><a href="http://widemile.wordpress.com/2008/02/14/what-is-taguchi-how-does-it-relate-to-testing/"><img src="http://widemile.files.wordpress.com/2008/03/newurl.jpg?w=510" alt="New URL testingblog.widemile.com" /></a></div>
+<div style="text-align:center;"><img src="http://widemile.files.wordpress.com/2008/02/taguchi.png?w=510" alt="the Taguchi method" /></div>
+<p>Multivariate testing is a buzz word these days, but the buzzword of multivariate testing seems to be Taguchi.  However, that term is being abused.  Do you know what Taguchi really means? I wasn&#8217;t even positive, so to get some background, I did some research and talked with Vladimir (Widemile&#8217;s Chief Scientist).</p>
+<p>The name and method comes from Genichi Taguchi.  His method, also known as Robust Design, attempted to improve product manufacturing quality.  Therefore it falls into an area of engineering called Quality Engineering.</p>
+<p>Does this sound aligned with website testing?  Not really, and this is the problem of using the term Taguchi with web site testing.  The goals of manufacturing and the goals of a website are not the same.</p>
+<p>What most people are attempting to grasp when using the term Taguchi is <i>fractional factorial test design</i>.  (I discussed this at length in my post about <a href="http://widemile.wordpress.com/2008/01/28/why-google-optimizer-is-free-its-old-and-slow/">the difference between Widemile&#8217;s technology and Google Optimizer</a>.) The Taguchi method uses a fractional factorial test design and is under the umbrella of fractional factorial testing but is not the only or best fractional factorial method.  In fact, even within manufacturing, the Taguchi method was the inspiration for many new techniques but many statisticians find it flawed.*</p>
+<p>It is important to differentiate the Taguchi method from fractional factorial test design since one is a basis for manufacturing while the other is purely related to design of experiments.   You need to ensure that the math and science behind your testing is based on methods that have the end goal of optimizing your website only.  So if your testing tool uses the Taguchi method for testing, you better ask what that really means.</p>
+<p>So does Widemile use Taguchi?  We don&#8217;t use the Taguchi method, however do use fractional factorial test design.  I like to say that our platform goes beyond Taguchi because it was specifically made for optimizing web content.</p>
+<p>Don&#8217;t get sucked into the Taguchi method, it is just a buzzword used by your fellow marketers.  Just because the technology doesn&#8217;t use Taguchi, doesn&#8217;t mean you should count it out.</p>
+<p>*Read more after the jump for Vladimir&#8217;s explanation of the Taguchi method and its criticisms<br />
+ <a href="http://widemile.wordpress.com/2008/02/14/what-is-taguchi-how-does-it-relate-to-testing/#more-102" class="more-link"><span class="readmore">Read the rest of this entry &raquo;</span></a></p>
+				</div>
+				<br class="clear" />
+								
+				<small class="postmetadata">Comments : <a href="http://widemile.wordpress.com/2008/02/14/what-is-taguchi-how-does-it-relate-to-testing/#comments" title="Comment on What is Taguchi?  How does it relate to&nbsp;testing?">4 Comments &#187;</a></small>
+				<br/>
+				<small class="postmetadata">Tags: <a href="http://en.wordpress.com/tag/design-of-experiments/" rel="tag">design of experiments</a>, <a href="http://en.wordpress.com/tag/fractional-factorial/" rel="tag">fractional factorial</a>, <a href="http://en.wordpress.com/tag/multivariate-testing/" rel="tag">multivariate testing</a>, <a href="http://en.wordpress.com/tag/taguchi/" rel="tag">taguchi</a>, <a href="http://en.wordpress.com/tag/taguchi-method/" rel="tag">taguchi method</a>, <a href="http://en.wordpress.com/tag/test-design/" rel="tag">test design</a></small>
+				<br/>
+				<small class="postmetadata">Categories : <a href="http://en.wordpress.com/tag/terminology/" title="View all posts in Terminology" rel="category tag">Terminology</a></small>			
+			</div>
+				
+		<hr style="display:none;"/>
+			
+						
+			<div class="post-104 post type-post status-publish format-standard hentry category-landing-page-optimization category-testing-techniques tag-funnels tag-landing-page-optimization tag-multivariate-testing tag-ppc tag-split-testing" id="post-104">
+				
+				<h2><a href="http://widemile.wordpress.com/2008/02/07/3-ways-to-maximize-ppc-and-landing-page-optimization/" rel="bookmark" title="Read 3 ways to maximize PPC and Landing Page&nbsp;Optimization">3 ways to maximize PPC and Landing Page&nbsp;Optimization</a></h2>
+				<small class="date">
+					<span class="date_day">7</span>
+					<span class="date_month">02</span>
+					<span class="date_year">2008</span>
+				</small>
+				
+				<div class="entry">
+					<p><a href="http://testingblog.widemile.com/2008/02/07/3-ways-to-maximize-ppc-and-landing-page-optimization/" title="Billy's Blog Multivariate and Split Testing blog"><img src="http://widemile.files.wordpress.com/2008/03/newurl.jpg?w=510" alt="New URL testingblog.widemile.com" /></a></p>
+<p>Quality PPC and LPO campaigns are key to great conversion rates. If either of them are optimized, you might get good results, but with both of them optimized, your gains are exponential.   There are a few pitfalls in optimizing them both though, even with good intentions you may end up confusing your results rather than getting results.</p>
+<div style="text-align:center;"><img src="http://widemile.files.wordpress.com/2008/02/ppclpo.png?w=510" alt="PPC and Landing Page Optimization" /></div>
+<p>Here are 3 methods to effectively optimize your PPC and landing pages:</p>
+<ol>
+<li><b>Do one at a time: </b>Test out your new PPC strategy, but wait until your landing page testing is done. Changing your PPC means you&#8217;re changing the audience, both in demographics and expectations.  This will impact your landing page testing.  Once you find a winning PPC campaign, test the same messaging on your landing page.  This is the easiest way to optimize both, but the next two are better ways to go.</li>
+<li><b>Do them simultaneously: </b>If you are testing 2 PPC strategies, create 2 separate landing page tests to match the respective campaigns and drive traffic solely to the matching test.  This avoids biasing the PPC that better matches your landing page.</li>
+<li><b>Segment all the way through:</b> For segments you know you&#8217;re going to have, make them go to different landing pages.  Test your pages and separately track how each segment performs. Sometimes all your segments respond best to the same landing page, but often times your segments want something different and it&#8217;ll show in your testing results. Also, if you&#8217;re doing #2 and realize that the ROI is good enough for both campaigns, break it out and optimize them separately.</li>
+</ol>
+<p>These are basic, but very effective methods to maximize testing both your PPC and landing pages.  If you want to get actual and sustainable results, you have to control as many variables as possible.  Only when you can trust your data, will it perform how you expect.  Follow any of these methods and you&#8217;ll be on your way to higher conversions.</p>
+				</div>
+				<br class="clear" />
+								
+				<small class="postmetadata">Comments : <a href="http://widemile.wordpress.com/2008/02/07/3-ways-to-maximize-ppc-and-landing-page-optimization/#comments" title="Comment on 3 ways to maximize PPC and Landing Page&nbsp;Optimization">3 Comments &#187;</a></small>
+				<br/>
+				<small class="postmetadata">Tags: <a href="http://en.wordpress.com/tag/funnels/" rel="tag">funnels</a>, <a href="http://en.wordpress.com/tag/landing-page-optimization/" rel="tag">Landing Page Optimization</a>, <a href="http://en.wordpress.com/tag/multivariate-testing/" rel="tag">multivariate testing</a>, <a href="http://en.wordpress.com/tag/ppc/" rel="tag">PPC</a>, <a href="http://en.wordpress.com/tag/split-testing/" rel="tag">split testing</a></small>
+				<br/>
+				<small class="postmetadata">Categories : <a href="http://en.wordpress.com/tag/landing-page-optimization/" title="View all posts in Landing Page Optimization" rel="category tag">Landing Page Optimization</a>, <a href="http://en.wordpress.com/tag/testing-techniques/" title="View all posts in Testing Techniques" rel="category tag">Testing Techniques</a></small>			
+			</div>
+				
+		<hr style="display:none;"/>
+			
+						
+			<div class="post-75 post type-post status-publish format-standard hentry category-why-test tag-comic tag-customer-experience tag-multivariate-testing tag-project-cartoon" id="post-75">
+				
+				<h2><a href="http://widemile.wordpress.com/2008/02/05/multivariate-testing-a-way-to-follow-your-customers/" rel="bookmark" title="Read Multivariate testing: Let customer actions tell you what&#8217;s&nbsp;right">Multivariate testing: Let customer actions tell you what&#8217;s&nbsp;right</a></h2>
+				<small class="date">
+					<span class="date_day">5</span>
+					<span class="date_month">02</span>
+					<span class="date_year">2008</span>
+				</small>
+				
+				<div class="entry">
+					<p>This comic is both hilarious and insightful.  Take a second and see if you&#8217;ve experienced something similar to this situation:</p>
+<div style="text-align:center;"></div>
+<div style="text-align:center;"><a href="http://widemile.files.wordpress.com/2008/02/customerneedscomic.png"><img src="http://widemile.files.wordpress.com/2008/02/customerneedscomicthumb.jpg?w=510" alt="customerneedscomicthumb.jpg" /></a></div>
+<p>I came across this before starting my work at Widemile, but stumbled upon it again while browsing <a href="http://marianina.com/blog/2007/11/07/can-i-get-inside-my-customers-head-please-customer-experience-tools-can-they-help/">Marianina&#8217;s Web Analytics Princess blog</a>.  Surprisingly, I found it extremely relevant to the multivariate testing I do at Widemile now.</p>
+<p>The comic is a joke about how hard it is to do what customers want.  Even when you have the luxury of a customer telling you everything they want, they don&#8217;t always do it correctly and no two people interpret their instructions the same.  I like this comic because it shows how difficult it is to create good experiences and products for customers, no matter the amount of help you have.</p>
+<p>Now, imagine how this applies to your website.   Visitors want your product presented to them in a certain way with certain offers.  Before testing, you&#8217;d listen to visitors with analytics, surveys and usability studies even.  From here everyone would make their own &#8220;panel&#8221; of the comic; the creative team would have a go, the marketing team would revise it and the CEO would change a few words around.  Eventually a page is made and your business puts it online, not knowing whether the page is what your visitors truly want.</p>
+<p>Take that same situation and add multivariate testing.  Now we get the same perspective that we have when looking at the full comic strip.  In the previous situation, all you could see was your individual panel and your customers could only choose the one you gave them.  With a multivariate test, different customers see different versions and the trends that show up in your data, reveal the &#8220;whole comic&#8221; and point you to which one should be the last panel&#8230; what the customer really needs.</p>
+<p>If you look at the first panel and the last panel, it&#8217;s immediately obvious that they are different.  Your customers can tell what they like, even if they can&#8217;t articulate it.  Start listening to their true feelings by testing your pages.</p>
+<p>For more of these comics, check out <a href="http://www.projectcartoon.com/">the official Project Cartoon site</a>.</p>
+				</div>
+				<br class="clear" />
+								
+				<small class="postmetadata">Comments : <a href="http://widemile.wordpress.com/2008/02/05/multivariate-testing-a-way-to-follow-your-customers/#comments" title="Comment on Multivariate testing: Let customer actions tell you what&#8217;s&nbsp;right">1 Comment &#187;</a></small>
+				<br/>
+				<small class="postmetadata">Tags: <a href="http://en.wordpress.com/tag/comic/" rel="tag">comic</a>, <a href="http://en.wordpress.com/tag/customer-experience/" rel="tag">customer experience</a>, <a href="http://en.wordpress.com/tag/multivariate-testing/" rel="tag">multivariate testing</a>, <a href="http://en.wordpress.com/tag/project-cartoon/" rel="tag">Project Cartoon</a></small>
+				<br/>
+				<small class="postmetadata">Categories : <a href="http://en.wordpress.com/tag/why-test/" title="View all posts in Why Test?" rel="category tag">Why Test?</a></small>			
+			</div>
+				
+		<hr style="display:none;"/>
+			
+						
+			<div class="post-78 post type-post status-publish format-standard hentry category-methodology category-testing-concerns tag-conversion-rates tag-marketing tag-measurement tag-success" id="post-78">
+				
+				<h2><a href="http://widemile.wordpress.com/2008/02/01/whats-an-average-conversion-rate-40/" rel="bookmark" title="Read What&#8217;s an average conversion rate?&nbsp;40%!">What&#8217;s an average conversion rate?&nbsp;40%!</a></h2>
+				<small class="date">
+					<span class="date_day">1</span>
+					<span class="date_month">02</span>
+					<span class="date_year">2008</span>
+				</small>
+				
+				<div class="entry">
+					<p><a href="http://testingblog.widemile.com/2008/02/01/whats-an-average-conversion-rate-40/" title="Billy's Blog Multivariate and Split Testing blog"><img src="http://widemile.files.wordpress.com/2008/03/newurl.jpg?w=510" alt="New URL testingblog.widemile.com" /></a></p>
+<p>Would you believe that?  And if it were true, would it really mean anything to you?  It shouldn&#8217;t.</p>
+<div style="text-align:center;"><img src="http://widemile.files.wordpress.com/2008/02/conversionrates.png?w=510" alt="Conversion Rate Table" /></div>
+<p>I get asked this question fairly often and at first glance it seems like a logical question to ask, but really the focus should be elsewhere.</p>
+<p>From my experience, conversion rates range from less than a percent all the way up to 30% or more.  Does knowing that help me optimize my clients&#8217; pages?  No.   Every page has so many variables internally and externally that it is very difficult and nonsensical to worry about the average conversion rate.</p>
+<p>The goal of your page, differences between your product/service against your competition, target you&#8217;re trying to reach, avenues you advertise and numerous other factors all effect your conversion rates.  A competitor having a higher conversion rate than you, does not mean you&#8217;re doing something wrong.  Set the baseline for yourself and keep improving it.  That&#8217;s how marketers should approach their conversion rate.</p>
+<p><b>If you&#8217;re testing, you&#8217;ll find out if you&#8217;re campaign is performing suboptimal <i>and </i>find out what the optimal is at the same time.</b></p>
+<p>Pretty amazing huh?</p>
+<p>I don&#8217;t tell clients I&#8217;m going to get their conversion rates above industry averages, I tell them that I&#8217;m going to make their campaign as successful as possible.  Do that and you&#8217;ll be ahead of competition and ahead of where you were when you first started.</p>
+				</div>
+				<br class="clear" />
+								
+				<small class="postmetadata">Comments : <a href="http://widemile.wordpress.com/2008/02/01/whats-an-average-conversion-rate-40/#respond" title="Comment on What&#8217;s an average conversion rate?&nbsp;40%!">Leave a Comment &#187;</a></small>
+				<br/>
+				<small class="postmetadata">Tags: <a href="http://en.wordpress.com/tag/conversion-rates/" rel="tag">conversion rates</a>, <a href="http://en.wordpress.com/tag/marketing/" rel="tag">marketing</a>, <a href="http://en.wordpress.com/tag/measurement/" rel="tag">measurement</a>, <a href="http://en.wordpress.com/tag/success/" rel="tag">success</a></small>
+				<br/>
+				<small class="postmetadata">Categories : <a href="http://en.wordpress.com/tag/methodology/" title="View all posts in Methodology" rel="category tag">Methodology</a>, <a href="http://en.wordpress.com/tag/testing-concerns/" title="View all posts in Testing Concerns" rel="category tag">Testing Concerns</a></small>			
+			</div>
+				
+		<hr style="display:none;"/>
+			
+						
+			<div class="post-94 post type-post status-publish format-standard hentry category-landing-page-optimization tag-certification tag-conversion-index-formula tag-landing-page-optimization tag-marketing-experiments" id="post-94">
+				
+				<h2><a href="http://widemile.wordpress.com/2008/01/30/get-certified-in-landing-page-optimization/" rel="bookmark" title="Read Get Certified in Landing Page&nbsp;Optimization">Get Certified in Landing Page&nbsp;Optimization</a></h2>
+				<small class="date">
+					<span class="date_day">30</span>
+					<span class="date_month">01</span>
+					<span class="date_year">2008</span>
+				</small>
+				
+				<div class="entry">
+					<p>After 4 months, I finally received certification via the <i>*breath in*</i> Marketing Experiments Certification Course on Landing Page Optimization &#8211; Subscription Path Track.</p>
+<div style="text-align:center;"><img src="http://widemile.files.wordpress.com/2008/01/marketingexperimentslogo.gif?w=510" alt="Marketing Experiments Logo" /></div>
+<p>If you already follow <a href="http://www.marketingexperiments.com" title="Marketing Experiments homepage">Marketing Experiments</a>, much of the material they put out for free is discussed in the class (although in greater depth.)   Flint McClaughlin, who runs Marketing Experiments, knows testing and optimization very well, but the class could be stronger. Taking the class, training at Widemile and working with clients simultaneously has taught me a lot, very quickly, so as the class went on, I wasn&#8217;t learning as much.  Those of you who don&#8217;t have the benefit of being surrounded by testing pros, probably will get a lot more out of it.</p>
+<p>In addition, sometimes the number of conversions for their case studies are quite low, which leads me to question some of the testing numbers.  I&#8217;m sure they got lifts, but their numbers are a little outrageous at times and, as my boss Frans brings up, seem to not account for seasonality.</p>
+<p>Despite all that, I&#8217;d definitely recommend it to anyone who wants to get into or needs to learn how to make better landing pages.  They offer <a href="http://www.marketingexperiments.com/secure/offer.php?id=85#landing-page-sub" title="landing page optimization course and others">many other certification classes</a> and while I can&#8217;t really say how good the other classes are, I have a strong feeling that they are worthwhile too.</p>
+<p>Regardless if you do or don&#8217;t want to take the class, you should take the time to learn their conversion index formula.  It&#8217;s the overarching idea of the class and really helps you think in a systematic way about what should be improved on your pages and funnels.  The conversion index formula is:</p>
+<div style="text-align:center;" align="left"><img src="http://widemile.files.wordpress.com/2008/01/marketingexperimentsformula.gif?w=510" alt="Marketing Experiments Conversion Index" /></div>
+<p>C is the probability of conversion, so this formula deals with variables that cause visitors to convert or not convert.  Here&#8217;s the quick rundown of each letter:</p>
+<ul>
+<li><b>m</b> &#8211; motivation of the visitor</li>
+<li><b>v</b> &#8211; your value proposition</li>
+<li><b>i</b> &#8211; incentive to convert</li>
+<li><b>f</b> &#8211; friction of the process</li>
+<li><b>a</b> &#8211; anxiety about converting</li>
+</ul>
+<p>I don&#8217;t want to go into too much depth, but I will mention that my favorites are incentive and friction.  They are together in the equation because they counteract each other.  You use incentives to overcome the friction of the page.  So offering your visitors a white paper helps them deal with giving up their name and e-mail address to you.  Visitors know they are going to get a call or e-mail when they give you info, but you have to give them reasons to give it to you.</p>
+<p>An example of this that most of you have probably experienced as an internet user is when you find a great deal on a badly designed website.  Even if it&#8217;s tough to get through the checkout process (friction), you&#8217;re likely to finish it since it is a great deal (incentive).</p>
+<p>One of things I&#8217;ve learned is that making website changes is rarely a streamlined and easy process.  The best situation would obviously be to have good incentives and low friction, but you can&#8217;t always improve everything because of office politics, technical reasons, lack of resources or numerous other things.  So by using this formula and keeping these things in mind, you have multiple ways to attack problems either offensively (increase incentives, value proposition, focus on user motivation) or defensively (decrease friction and anxiety).</p>
+				</div>
+				<br class="clear" />
+								
+				<small class="postmetadata">Comments : <a href="http://widemile.wordpress.com/2008/01/30/get-certified-in-landing-page-optimization/#respond" title="Comment on Get Certified in Landing Page&nbsp;Optimization">Leave a Comment &#187;</a></small>
+				<br/>
+				<small class="postmetadata">Tags: <a href="http://en.wordpress.com/tag/certification/" rel="tag">certification</a>, <a href="http://en.wordpress.com/tag/conversion-index-formula/" rel="tag">conversion index formula</a>, <a href="http://en.wordpress.com/tag/landing-page-optimization/" rel="tag">Landing Page Optimization</a>, <a href="http://en.wordpress.com/tag/marketing-experiments/" rel="tag">Marketing Experiments</a></small>
+				<br/>
+				<small class="postmetadata">Categories : <a href="http://en.wordpress.com/tag/landing-page-optimization/" title="View all posts in Landing Page Optimization" rel="category tag">Landing Page Optimization</a></small>			
+			</div>
+				
+		<hr style="display:none;"/>
+			
+						
+			<div class="post-87 post type-post status-publish format-standard hentry category-terminology category-testing-concerns tag-fractional-factorial tag-google-optimizer tag-partial-factorial tag-testing-technology" id="post-87">
+				
+				<h2><a href="http://widemile.wordpress.com/2008/01/28/why-google-optimizer-is-free-its-old-and-slow/" rel="bookmark" title="Read Google Optimizer is slow (or Not all Multivariate Testing is the&nbsp;same)">Google Optimizer is slow (or Not all Multivariate Testing is the&nbsp;same)</a></h2>
+				<small class="date">
+					<span class="date_day">28</span>
+					<span class="date_month">01</span>
+					<span class="date_year">2008</span>
+				</small>
+				
+				<div class="entry">
+					<p><a href="http://http//widemile.wordpress.com/2008/01/28/why-google-optimizer-is-free-its-old-and-slow/" title="Billy's Blog Multivariate and Split Testing blog"><img src="http://widemile.files.wordpress.com/2008/03/newurl.jpg?w=510" alt="New URL testingblog.widemile.com" /></a></p>
+<p>Without knowing it, people might assume that there&#8217;s only one method to multivariate testing.  That it has been long figured out by math and statistic wizards.  I have learned otherwise from Widemile&#8217;s personal math wizard, Chief Scientist, Vladimir Brayman.</p>
+<p>(Just as a side note, he does not have a typical office.  Rather than papers and folders strewn about, he has statistic and math books.  Lucky for me though, he has a great skill at distilling all the goodness in those books and  teaching me what I need to know, in a way I understand.)</p>
+<p>Most recently, we discussed why Widemile&#8217;s technology trumps Google Optimizer.</p>
+<p align="center"> <img src="http://widemile.files.wordpress.com/2008/01/wmvsgoog.png?w=510" alt="Widemile vs Google" /></p>
+<p align="center">&nbsp;</p>
+<p>Having a strong creative team and testing experts ensures better results than giving a marketer a tool like Google Optimizer, that&#8217;s easy for most people to understand. But explaining how Widemile&#8217;s technology can test more, faster, is a little more complicated.</p>
+<p>Let&#8217;s explore how Google&#8217;s testing works versus Widemile&#8217;s.  Google Optimizer uses <i>full factorial test design</i>, meaning it creates a page for every combination of your tested page elements.  So if you wanted to test 4 different hero shots, 4 buttons and 4 headlines, that would require 4*4*4=64 page combinations.  The disadvantage of this method is that you need significant traffic for each of the 64 pages.  Meaning you either need a lot of traffic or a lot of time; for most companies, they&#8217;ll need both.</p>
+<p>To solve this, Widemile&#8217;s optimization platform use <i>fractional factorial  test design</i>.  This method tests only a small fraction of the total possible page combinations and uses statistical analysis to derive almost all of the same information that would be found in a full factorial test.  This works because marginal information is gained in testing all 64 page combinations, while testing a few important combinations tell us nearly everything we need to know.</p>
+<p>Google actually criticizes fractional factorial test design (<a href="http://adwords.google.com/support/bin/answer.py?answer=61146&amp;ctx=sibling#multivariate">look here</a> where it says &#8220;A note about &#8216;fractional factorial testing&#8217;&#8221;), saying that it requires the same number of impressions, but can not derive the depth of conclusions that a full factorial design can.  While true that full factorial squeezes out the most information, that is at a sacrifice of extending the test many times longer than with a fractional factorial test, all to learn the smallest influences.</p>
+<p>Doing successive tests to find high influence items with fractional factorial testing will get much higher gains than getting every ounce of information out of one extremely long full factorial test.  In addition, with a carefully designed fractional factorial test you can learn all the major influences and the interactions between elements on the page.</p>
+<p>Fractional factorial test design gets you a completed test in weeks rather than months or years even, and because of that, you can test more than you would normally be able to in the same time frame.  You can either test more in one larger test, or do many smaller successive tests.</p>
+<p>Not to say that Google Optimizer isn&#8217;t a great tool, especially since it is free, but any company that spends thousands of dollars on SEM has a lot to gain by using technology that gets rapid results.</p>
+<p>If you got any questions about this, let me know and I&#8217;ll try to answer them or get you an answer.</p>
+				</div>
+				<br class="clear" />
+								
+				<small class="postmetadata">Comments : <a href="http://widemile.wordpress.com/2008/01/28/why-google-optimizer-is-free-its-old-and-slow/#comments" title="Comment on Google Optimizer is slow (or Not all Multivariate Testing is the&nbsp;same)">5 Comments &#187;</a></small>
+				<br/>
+				<small class="postmetadata">Tags: <a href="http://en.wordpress.com/tag/fractional-factorial/" rel="tag">fractional factorial</a>, <a href="http://en.wordpress.com/tag/google-optimizer/" rel="tag">Google Optimizer</a>, <a href="http://en.wordpress.com/tag/partial-factorial/" rel="tag">partial factorial</a>, <a href="http://en.wordpress.com/tag/testing-technology/" rel="tag">testing technology</a></small>
+				<br/>
+				<small class="postmetadata">Categories : <a href="http://en.wordpress.com/tag/terminology/" title="View all posts in Terminology" rel="category tag">Terminology</a>, <a href="http://en.wordpress.com/tag/testing-concerns/" title="View all posts in Testing Concerns" rel="category tag">Testing Concerns</a></small>			
+			</div>
+				
+		<hr style="display:none;"/>
+			
+		
+		<p class="navigation">
+			<span class="alignleft"><a href="http://widemile.wordpress.com/page/2/" >&laquo; Previous Entries</a></span>
+			<span class="alignright"></span>
+		</p>
+	
+	<!-- nothing found -->
+		
+	<!-- homepage -->
+
+		
+	</div>
+	
+	<hr/>
+	
+	<!-- sidebar -->
+		
+	<div id="sidebar">
+		<div>
+		<div id="text-2" class="widget widget_text"><h2 class="title">First time here?</h2>			<div class="textwidget"><p>I write about multivariate testing, landing page optimization and other online content optimization topics.  Check out the <a href="http://widemile.wordpress.com/lesson-guide/">Lesson Guide</a> if you want to learn in a more structured approach.  Also, I have tried my best to categorize and tag everything correctly.  Please leave me comments or questions.  I'm always up for new topic ideas too.</p></div>
+		</div><div id="text-1" class="widget widget_text"><h2 class="title">Subscribe</h2>			<div class="textwidget"><p><a href="http://feeds.feedburner.com/billyblogwm"><img src="http://faq.files.wordpress.com/2006/11/c64.png" /></a></p>
+<p>
+<a href="http://www.feedblitz.com/f/?Sub=335568">Sign up for E-mail updates</a></p>
+
+<p><a href="http://fusion.google.com/add?feedurl=http://feeds.feedburner.com/billyblogwm"><img src="http://buttons.googlesyndication.com/fusion/add.gif" width="104" height="17" style="border:0;"></a><br>
+<a href="http://www.bloglines.com/sub/http://feeds.feedburner.com/billyblogwm" title="Billy&#39;s Blog - Learning about optimization at Widemile"><img src="http://www.bloglines.com/images/sub_modern11.gif" alt="Subscribe in Bloglines"></a>
+<br>
+<a href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http://feeds.feedburner.com/billyblogwm" title="Billy&#39;s Blog - Learning about optimization at Widemile"><img src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online"></a>
+<br><a href="http://www.netvibes.com/subscribe.php?url=http://feeds.feedburner.com/billyblogwm"><img src="http://www.netvibes.com/img/add2netvibes.gif" width="91" height="17" alt="Add to netvibes" style="border:0;" /></a>
+<br><a href="http://add.my.yahoo.com/rss?url=http://feeds.feedburner.com/billyblogwm" title="Billy&#39;s Blog - Learning about optimization at Widemile"><img src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif" alt=""></a></p></div>
+		</div><div id="categories-1" class="widget widget_categories"><h2 class="title">a</h2><select name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="256">About&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="8148">Industry News&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="637109">Landing Page Optimization&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="13289">Methodology&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="497">Site News&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="537">Terminology&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="3157223">Testing Concerns&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="56344">Testing Techniques&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="1">Uncategorized&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="3074793">Why Test?&nbsp;&nbsp;(8)</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+	var dropdown = document.getElementById("cat");
+	function onCatChange() {
+		if ( dropdown.options[dropdown.selectedIndex].value > 0 ) {
+			location.href = "http://widemile.wordpress.com/?cat="+dropdown.options[dropdown.selectedIndex].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+/* ]]> */
+</script>
+
+</div><div id="search-2" class="widget widget_search"><form method="get" id="searchform" action="http://widemile.wordpress.com/">
+<p>
+<input size="12" type="text" value="" name="s" id="s" /><input class="btn" type="submit" id="searchsubmit" value="Search" />
+</p>
+</form>
+</div><div id="linkcat-1356" class="widget widget_links"><h2 class="title">Blogroll</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://daniel.webanalyticsdemystified.com/" title="One of the few web analytics professionals with a strong grasp of online testing">Daniel Shields</a></li>
+<li><a href="http://www.fluidconvergence.com/" title="A great resource about landing page optimization">Fluid Convergence</a></li>
+<li><a href="http://www.grokdotcom.com/" title="Great marketing site that is updated constantly">Grokdotcom</a></li>
+<li><a href="http://www.optimizeandprophesize.com/jonathan_mendezs_blog/" title="A blog about online marketing and testing.">Jonathan Mendez&#8217;s Blog</a></li>
+<li><a href="http://www.marketingexperiments.com/" title="A site filled with case studies and great landing page examples">MarketingExperiments</a></li>
+<li><a href="http://www.kaushik.net/avinash/" title="My favorite web analytics blog">Occam&#8217;s Razor</a></li>
+<li><a href="http://www.toprankblog.com/" title="Internet marketing news">Online Marketing Blog</a></li>
+<li><a href="http://searchengineland.com/" title="Comprehensive news on the search industry">Search Engine Land</a></li>
+<li><a href="http://www.marketingsherpa.com/sherpablog.html" title="MarketingSherpa&#8217;s blog">SherpaBlog</a></li>
+<li><a href="http://blog.webanalyticsdemystified.com/weblog/" title="Eric Peterson&#8217;s blog">Web Analytics Demystified</a></li>
+
+	</ul>
+</div>
+<div id="linkcat-2200" class="widget widget_links"><h2 class="title">Links</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.marketingexperiments.com/" title="A site filled with case studies and great landing page examples">MarketingExperiments</a></li>
+<li><a href="http://www.marketingsherpa.com/" title="The best place for quality marketing research">MarketingSherpa</a></li>
+<li><a href="http://sphinn.com/" title="Search Engine Land&#8217;s marketing version of Digg">Sphinn</a></li>
+<li><a href="http://www.widemile.com" title="The greatest multivariate and split testing firm in the world&#8230; where I work :)">Widemile</a></li>
+
+	</ul>
+</div>
+<div id="text-3" class="widget widget_text">			<div class="textwidget"><p><div align="center"><a href="http://www.toprankblog.com/search-marketing-blogs/"><img src="http://www.toprankblog.com/_badges/biglist-button-square.jpg" alt="Big List - Search Marketing Blogs" border="0"></a></p>
+<p><a href="http://www.toprankblog.com/2007/12/biglist-search-marketing-blogs-122107/">Added on 12/21/07</a></p></div>
+</div>
+		</div><div id="wp_tag_cloud" class="widget wp_widget_tag_cloud"><h2 class="title">Tags</h2><div style="overflow:hidden"><a href='http://widemile.wordpress.com/tag/ab-testing/' class='tag-link-909271' title='4 topics' style='font-size: 14.021505376344pt;'>a/b testing</a>
+<a href='http://widemile.wordpress.com/tag/advice/' class='tag-link-157' title='1 topic' style='font-size: 8pt;'>advice</a>
+<a href='http://widemile.wordpress.com/tag/analytics/' class='tag-link-11453' title='2 topics' style='font-size: 10.709677419355pt;'>analytics</a>
+<a href='http://widemile.wordpress.com/tag/article/' class='tag-link-3867' title='1 topic' style='font-size: 8pt;'>article</a>
+<a href='http://widemile.wordpress.com/tag/avinash-kaushik/' class='tag-link-2305174' title='2 topics' style='font-size: 10.709677419355pt;'>Avinash Kaushik</a>
+<a href='http://widemile.wordpress.com/tag/case-study/' class='tag-link-15241' title='3 topics' style='font-size: 12.516129032258pt;'>case study</a>
+<a href='http://widemile.wordpress.com/tag/christmas/' class='tag-link-15607' title='1 topic' style='font-size: 8pt;'>christmas</a>
+<a href='http://widemile.wordpress.com/tag/data/' class='tag-link-22379' title='1 topic' style='font-size: 8pt;'>data</a>
+<a href='http://widemile.wordpress.com/tag/ecommerce/' class='tag-link-11160' title='1 topic' style='font-size: 8pt;'>ecommerce</a>
+<a href='http://widemile.wordpress.com/tag/first-post/' class='tag-link-694' title='1 topic' style='font-size: 8pt;'>first post</a>
+<a href='http://widemile.wordpress.com/tag/fractional-factorial/' class='tag-link-4367725' title='2 topics' style='font-size: 10.709677419355pt;'>fractional factorial</a>
+<a href='http://widemile.wordpress.com/tag/funnels/' class='tag-link-1994789' title='2 topics' style='font-size: 10.709677419355pt;'>funnels</a>
+<a href='http://widemile.wordpress.com/tag/goals/' class='tag-link-11870' title='1 topic' style='font-size: 8pt;'>goals</a>
+<a href='http://widemile.wordpress.com/tag/guide/' class='tag-link-100866' title='1 topic' style='font-size: 8pt;'>guide</a>
+<a href='http://widemile.wordpress.com/tag/holiday/' class='tag-link-8853' title='1 topic' style='font-size: 8pt;'>holiday</a>
+<a href='http://widemile.wordpress.com/tag/in-place-test/' class='tag-link-2924772' title='1 topic' style='font-size: 8pt;'>in-place test</a>
+<a href='http://widemile.wordpress.com/tag/jim-novo/' class='tag-link-3074747' title='1 topic' style='font-size: 8pt;'>Jim Novo</a>
+<a href='http://widemile.wordpress.com/tag/jupiter-research/' class='tag-link-87704' title='1 topic' style='font-size: 8pt;'>Jupiter Research</a>
+<a href='http://widemile.wordpress.com/tag/landing-page-optimization/' class='tag-link-637109' title='6 topics' style='font-size: 16.279569892473pt;'>Landing Page Optimization</a>
+<a href='http://widemile.wordpress.com/tag/landing-pages/' class='tag-link-30943' title='1 topic' style='font-size: 8pt;'>landing pages</a>
+<a href='http://widemile.wordpress.com/tag/marketing/' class='tag-link-175' title='2 topics' style='font-size: 10.709677419355pt;'>marketing</a>
+<a href='http://widemile.wordpress.com/tag/marketingsherpa/' class='tag-link-361715' title='3 topics' style='font-size: 12.516129032258pt;'>MarketingSherpa</a>
+<a href='http://widemile.wordpress.com/tag/measurement/' class='tag-link-49798' title='2 topics' style='font-size: 10.709677419355pt;'>measurement</a>
+<a href='http://widemile.wordpress.com/tag/mission-statement/' class='tag-link-55966' title='1 topic' style='font-size: 8pt;'>mission statement</a>
+<a href='http://widemile.wordpress.com/tag/multivariate-test/' class='tag-link-2924774' title='1 topic' style='font-size: 8pt;'>multivariate test</a>
+<a href='http://widemile.wordpress.com/tag/multivariate-testing/' class='tag-link-791680' title='16 topics' style='font-size: 22pt;'>multivariate testing</a>
+<a href='http://widemile.wordpress.com/tag/offers/' class='tag-link-75924' title='1 topic' style='font-size: 8pt;'>offers</a>
+<a href='http://widemile.wordpress.com/tag/pdf/' class='tag-link-47759' title='1 topic' style='font-size: 8pt;'>pdf</a>
+<a href='http://widemile.wordpress.com/tag/politics/' class='tag-link-398' title='1 topic' style='font-size: 8pt;'>politics</a>
+<a href='http://widemile.wordpress.com/tag/primer/' class='tag-link-473127' title='1 topic' style='font-size: 8pt;'>primer</a>
+<a href='http://widemile.wordpress.com/tag/reasons-to-test/' class='tag-link-2905285' title='1 topic' style='font-size: 8pt;'>reasons to test</a>
+<a href='http://widemile.wordpress.com/tag/research/' class='tag-link-668' title='1 topic' style='font-size: 8pt;'>research</a>
+<a href='http://widemile.wordpress.com/tag/retail/' class='tag-link-13879' title='1 topic' style='font-size: 8pt;'>retail</a>
+<a href='http://widemile.wordpress.com/tag/seasonality/' class='tag-link-3224' title='1 topic' style='font-size: 8pt;'>seasonality</a>
+<a href='http://widemile.wordpress.com/tag/smartsheetcom/' class='tag-link-3286520' title='1 topic' style='font-size: 8pt;'>smartsheet.com</a>
+<a href='http://widemile.wordpress.com/tag/split-test/' class='tag-link-2924775' title='1 topic' style='font-size: 8pt;'>split test</a>
+<a href='http://widemile.wordpress.com/tag/split-testing/' class='tag-link-1102017' title='5 topics' style='font-size: 15.225806451613pt;'>split testing</a>
+<a href='http://widemile.wordpress.com/tag/stats/' class='tag-link-7916' title='1 topic' style='font-size: 8pt;'>stats</a>
+<a href='http://widemile.wordpress.com/tag/template-test/' class='tag-link-2924773' title='1 topic' style='font-size: 8pt;'>template test</a>
+<a href='http://widemile.wordpress.com/tag/test-design/' class='tag-link-1922233' title='2 topics' style='font-size: 10.709677419355pt;'>test design</a>
+<a href='http://widemile.wordpress.com/tag/testing/' class='tag-link-12' title='3 topics' style='font-size: 12.516129032258pt;'>testing</a>
+<a href='http://widemile.wordpress.com/tag/testing-culture/' class='tag-link-3031699' title='2 topics' style='font-size: 10.709677419355pt;'>testing culture</a>
+<a href='http://widemile.wordpress.com/tag/tips/' class='tag-link-1788' title='1 topic' style='font-size: 8pt;'>tips</a>
+<a href='http://widemile.wordpress.com/tag/webinar/' class='tag-link-465168' title='1 topic' style='font-size: 8pt;'>webinar</a>
+<a href='http://widemile.wordpress.com/tag/widemile/' class='tag-link-659806' title='2 topics' style='font-size: 10.709677419355pt;'>Widemile</a></div></div><div id="archives-2" class="widget widget_archive"><h2 class="title">Archives</h2>		<ul>
+			<li><a href='http://widemile.wordpress.com/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://widemile.wordpress.com/2008/02/' title='February 2008'>February 2008</a></li>
+	<li><a href='http://widemile.wordpress.com/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://widemile.wordpress.com/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://widemile.wordpress.com/2007/11/' title='November 2007'>November 2007</a></li>
+		</ul>
+</div><div id="text-4" class="widget widget_text">			<div class="textwidget"><p>
+<a href="http://s31.sitemeter.com/stats.asp?site=s31billysmultivariateblog"><img src="http://s31.sitemeter.com/meter.asp?site=s31billysmultivariateblog"></a>
+</p></div>
+		</div>		</div>
+	</div>
+
+	<br style="clear:both" /><!-- without this little <br /> NS6 and IE5PC do not stretch the frame div down to encopass the content DIVs -->
+</div>
+				
+<!-- footer -->
+
+<hr style="display:none"/>
+
+<div id="footer">
+	<small class="footer_content">
+	<a href="http://wordpress.com/?ref=footer" rel="generator">Blog at WordPress.com</a>. Theme: Freshy by <a href="http://www.jide.fr/" rel="designer">Jide</a>.	</small>
+
+</div>
+
+</div> <!--- end of the <div id="page"> (from header.php) -->
+
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script type="text/javascript">_qoptions={qacct:'p-18-mFEk4J448M',labels:'language.en,type.wpcom'};</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript><p><img class="robots-nocontent" src="http://pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif?labels=language.en%2Ctype.wpcom" style="display:none" height="1" width="1" alt="" /></p></noscript>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?n&#038;ver=MU'></script>
+	<script type="text/javascript">	
+	// <![CDATA[
+	WPGroHo = {
+		data: {},
+		renderers: {},
+		syncProfileData: function( hash, id ) {
+			if ( !WPGroHo.data[hash] ) {
+				WPGroHo.data[hash] = {};
+				a = jQuery( 'div.grofile-hash-map-' + hash + ' span' ).each( function() {
+					WPGroHo.data[hash][this.className] = jQuery( this ).text();
+				} );
+			}
+
+			WPGroHo.appendProfileData( WPGroHo.data[hash], hash, id );
+		},
+		appendProfileData: function( data, hash, id ) {
+			for ( var key in data ) {
+				if ( jQuery.isFunction( WPGroHo.renderers[key] ) ) {
+					return WPGroHo.renderers[key]( data[key], hash, id, key );
+				}
+
+				jQuery( '#' + id ).find( 'h4' ).after( jQuery( '<p class="grav-extra ' + key + '" />' ).html( data[key] ) );
+			}
+		}
+	};
+	jQuery(document).ready(function($){
+		Gravatar.profile_cb = function( h, d ) {
+			WPGroHo.syncProfileData( h, d );
+		};
+		Gravatar.attach_profiles();
+	});
+	// ]]>
+	</script>
+	<div style="display:none">
+	</div>
+
+	<script type="text/javascript" src="http://s.skimresources.com/js/wordpress.js"></script> 
+	<script type="text/javascript">
+		var skimlinks_pub_id = "725X584219"
+		var skimlinks_sitename = 'widemile.wordpress.com';
+		skimlinks();
+	</script> 		
+	<script type="text/javascript" src="http://b.scorecardresearch.com/beacon.js"></script><script type="text/javascript">try{COMSCORE.beacon({c1:2,c2:7518284});}catch(e){}</script><noscript><p class="robots-nocontent"><img src="http://b.scorecardresearch.com/p?cj=1c1=2&#038;c2=7518284" alt="" style="display:none" width="1" height="1" /></p></noscript><script src="http://s.stats.wordpress.com/w.js?19" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({'blog':'2091965','v':'wpcom','user_id':'0','post':'0','subd':'widemile'});
+ex_go({'crypt':'RDY2cmRPRlMtazJGSms9emYlZkh+bHV1NnVpXXZoJW5mJm9DR1Rbcixxc0l3U2dmWTl6My9ufHpyNHpWQzFDJk8vZnEsb0VyfkgySGElciV+aHhdNGlOLkphdFQ4SHZTMkEscH5mJjU1Ji9aOCVufDlpcS16WnVsVTExLzMxR0JKejBxZUE/JkhFaVBDQyxlJTJ4dV1OcyVCK0ZmM3MrW0pmYWNkJW9JX3F+JVc9enpFWC5sTVc0eWUlaTBrXyZIaW09Lm9BL1k='});
+addLoadEvent(function(){linktracker_init('2091965',0);});
+	</script>
+</body>
+</html>
