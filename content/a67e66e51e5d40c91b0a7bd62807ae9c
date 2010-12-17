@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<title>W&amp;H MAIN YARDS: Railroad Wheel FAQ</title>
+<meta name="description" content="A layman's explanation of the operation of railroad wheels.">
+<meta name="keywords" content="railroad, railway, railfan, model railroad, software">
+<meta name="author" content="Christopher D. Coleman"> 
+<meta name="copyright" content="Copyright (c) 1994-2002 Christopher D. Coleman.  All rights reserved.">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="SHORTCUT ICON" href="/favwh.ico">
+</head><body bgcolor="#C0C0C0" link="#0000FF" vlink="#FF0000" background="/Bin/Backgrnd/rivets.gif">
+<div align="center">
+<a href="/webville.html">
+<img align="right" border="0" width="200" height="200" alt="W+H Herald" src="/Bin/Icon/wh1.gif"></a>
+<a href="/Trains/">
+<img align="left" border="0" width="200" height="200" alt="W+H Main Yards Herald" src="/Bin/Icon/yards.gif"></a>
+<br clear="all"><hr><h1>
+W&amp;H MAIN YARDS: Railroad Wheel FAQ
+</h1><hr></div>
+
+By <a href="/General/">Christopher Coleman</a><br>
+<a href="mailto:webville@spikesys.com?subject=Wheel FAQ">webville@spikesys.com</a><br>
+<a href="/Info/#mail">Tips for mailing me</a><br>
+Based on article by Christopher A. Lee, <a href="mailto:chrislee@netcom.com">chrislee@netcom.com</a><br>
+Last Updated 5-30-97<br>
+<p>
+<i>NOTE: I am not a rail professional nor do I have ties to railroad wheel 
+manufacturing, but have applied the neccessary 
+physics to the railroad wheel to explain what is happening to the layman.</i>
+<hr>
+<p>
+When a train goes around a curve, the outside wheels have further to 
+travel than the inside wheels. This is the same event that occurs in 
+automobiles which requires a differential rather than a solid axle. In 
+the case of railroads a solid axle is necessary for stregnth and 
+simplicity, so another solution was applied.
+<p>
+The treads of a railroad wheel are not flat, but beveled into a 
+hyperbole with the smaller diameter toward the outside and the curve 
+leading into the flange. The distance between the inside faces of 
+the railheads is slightly larger than the distance between the outside 
+faces of the wheel flanges by about an inch. So as one wheel rides 
+up its rail, the 
+other wheel rides down its rail. The different diameters in contact 
+with the rail have different circumfrances, which compensates 
+for the different distances of travel.
+<p>
+<div align="center"><img alt="Diagram" src="/Bin/Diag/rw_cross.gif"><br>
+Rail and Wheel Cross-Section</div>
+<p>
+First let's discuss what keeps the car on the tracks. 
+The force pulling the car into the curve is the Centripital Force, 
+the generic name for the net force which pulls and object in an arc. 
+The components of the Centripital foce are 1) the preceeding 
+and following cars through the couplers 2) the 
+frictional force between the wheel treads and the railhead 3) Gravitational 
+force IF the track is superelevated (banked).
+This force tends to coutneract Inertia, but since it is applied to 
+the lower quarter of the car, the result is a torqe on the car 
+around the center of gravity (COG), tending to rotate it towards rolling out 
+of the curve. More important to use here, it also effects the the centering 
+action by pushing the trucks toward the inside of the curve relative to the 
+car's center of gravity .
+<p>
+<div align="center"><img alt="Diagram" src="/Bin/Diag/car1.gif"><br>
+Forces on a Railcar - End View</div>
+<p>
+Now Intertia and the Centripital Force counteract to prevent the car from 
+flying off the inside or outside of the track, but what keeps the 
+flanges from hitting the rail? Now consider the trucks as a separate 
+system from the rest of the car. A state of equilibrium 
+exists at a point where the circumfrance of each wheel, where it contacts 
+the rail, matches the distance it needs to travel in one revolution.
+<p>
+<div align="center"><img alt="Diagram" src="/Bin/Diag/truck0.gif"><br>
+Truck in Equilibrium - Top View</div>
+<p>
+Prior to reaching equilibrium the outer wheel is climbing the outer rail, 
+and we will call this state Undercompensation. Until it reaches that point, 
+there is a drag force (against the direction of travel) on the outer wheel 
+as where it is being forced by the inner wheel to rotate too slowly  to 
+cover the distance it must travel. Similarly the outer wheel is forcing 
+the inner wheel to rotate too fast causing a tractional force (in the 
+direction of travel). These forces excert a torque on the truck around 
+a vertical axis at its connection to the car. This torque pushes the 
+the lead outer wheel higher on the rail (giving it a larger diamater) 
+and the lead inner wheel lower (giving it a smaller diameter). 
+The trailing wheels tend to follow the path of the lead wheels 
+forcing the system toward the equilibrium point. 
+<p>
+<div align="center"><img alt="Diagram" src="/Bin/Diag/truck1.gif"><br>
+Truck in Undercompensation - Top View</div>
+<p>
+Now these forces, and hence the torque, are zero at the equilibrium point, 
+but the forces prior to equilibrium may be great enough to cause and 
+overshoot, and we will call this state Overcompensation. 
+When this happens or when the car is leaving the curve, the diamater of 
+the inner wheel is now too small and is dragging and that of the outer 
+is too large causing a tractive force. The forces are now reversed and 
+exert a torque in the reverse direction that causes the lead 
+outer wheel lower on the rail (giving it a smaller diameter) and the lead 
+inner wheel up on the rail (giving it a larger diameter). 
+This again forces the system back toward the equilibrium point.
+<p>
+<div align="center"><img alt="Diagram" src="/Bin/Diag/truck2.gif"><br>
+Truck in Overcompensation - Top View</div>
+<p>
+The slightest Overcompensation would cause a oscillation between these two states 
+if there was not lateral friciton beween the rail and the wheel. So in this 
+way the trucks find their way to the equilibrium point. The exact location 
+of the equilibrium point depends on the forces acting on the system, 
+especially gravity, the Centripical force, and the geometry of the track. 
+<p>
+This centering action does not always work well enough. If you observe 
+a heavily loaded or fast moving train on a curve, you will 
+hear a periodic sqeek or lonq squeal. This results from the 
+Overcompensation to the extent that the wheel flange bumps the 
+rail head (squeek) or slides along it for a time (squeal), until the 
+centering action takes it back towards equilibrium. This can also be 
+exagerated by bad track (crowned sectional rail for example) which 
+forces the wheels back and forth. 
+<p>
+The squeal results from the fact the flange strikes the rail just 
+before the bottom of travel while it is still moving downward. Also, as 
+the wheel climbs into the steepest segment of the hyperbole, gravity 
+takes over to foce the wleel back down the flange. So we have friction 
+versus gravity resulting in metal scraping on metal. 
+This is undesired, but normal, and flange 
+greasers are often installed preceeding tight curves on mainlines to cut 
+down on damage resulting from this.
+<p>
+<div align="center"><img alt="Diagram" src="/Bin/Diag/wheel2.gif"><br>
+Flange Direction - Side View</div>
+<p>
+A worse scenario is wheel creep. Once the flange hits the rail 
+the centering action only serves to force the flange into the rail. 
+If the wheels cannot reach the correct diameter to match their distance of 
+travel and periodically either the inner wheel slips backward or the outer 
+wheel slips forward. The former is more likely since the inner wheel has 
+less contact area with the rail and hence less friction.
+This causes the POP-POP sound created on very tight curves.
+<p>
+A differnt solution than traditional centering action is self steering 
+trucks as applied on some new locomotives. in this system the axles 
+independently rotate slightly in the truck frame to individually remain 
+tangent to the rail. In this way the centering action does not occur as 
+suddenly, reducing the Overcompensation that causes flange and rail wear.
+<p>
+The seemingly obvious solution is to split the axle in the middle, and 
+put bearings there. The problem with this is that without the centering 
+action that forces the truck around the curve, the truck would always 
+plow straight ahead until the flanges hit the rail.
+
+<h4>Wheel and Rail Wear</h4>
+
+All this theory is intended to prolong the life of both the wheel and rail. 
+Rail and wheels are produced is a particular shape to create the desired 
+effects, but as with all moving parts wear is unavoidable. On the rail, it 
+will wear the rail down to a matching hyperbolic shape to the wheel, and the 
+wheels will wear into the sharper shape of the rail. Wheels are machined 
+as one might expect when the car is serviced. The rail, however, cannot 
+be pulled into the shop. Rail grinders, machines which apply properly shaped 
+grinding wheels to the rail, can reshape the rail head for a certain number 
+of times.
+<p>
+In extreme cases the inside head of the rail can sink as much as an inch in 
+relation to the outside, and eventually the inside part of the rail, or even 
+the entire head, will crack and break off. Extremely worn rail will apper as 
+it was melted by extreme heat on its inner side.
+<p>
+The other major defect in wheels is a result of stoppling. In emergency 
+situations, and engineer can release all the air from the trains braking 
+system, causing the air reserviors on each car to apply the brakes fully. 
+This can cause the weels to lock up and skid, grinding part of the weel 
+flat. A flat wheel will cause a CLANK-CLANK sound as it passes. It causes 
+extreme stress in both the rail and the car as it punds the track. In 
+extreme cases, the inbalance and forces can acually cause the weel to jump 
+off the rail each revolution, exagerating the problem. The forces applied 
+by flat wheels is a major cause of broken rails. Skidding can also be 
+caused by and overheated bearing which seizes.
+
+<p>
+<hr><div align="center"><table><tr>
+<th><a href="/Trains/">
+<img border="0" alt="Coal Tower" src="/Bin/Icon/zyards.gif"><br>Back to the Main Yards</a><br>
+<th><a href="/webville.html">
+<img border="0" alt="W&amp;H Herlad" src="/Bin/Icon/zwh.gif"><br>Back to the W&amp;H RR Co.</a><br>
+</table>
+</div>
+<hr>
+</body></html>
