@@ -1,0 +1,210 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+    <head><meta http-equiv="X-UA-Compatible" content="IE=7" />
+
+	<title>King County Bicycling Guidemap and resources</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="stephanie.vitali@kingcounty.gov" />
+	<meta name="lastReviewedDate" content="Dec. 17, 2010" />
+	<meta name="Keywords" content="king county bike map bicycling resources" />
+	<meta name="Description" content="King County bicycling resources.  King County is bike territory. Olympian Rebecca Twigg was born here. We're home to the Cascade Bicycle Club, arguably the nation's largest. Bike lanes and paths abound. We're bike-crazed and proud of it.
+
+" />
+	<meta name="language" content="en-US" />
+	<meta name="govType" content="County" />
+	<link href="/style/kcAgencies.css" type="text/css" rel="stylesheet" />
+	<link href="/transportation/kcdot/Globals/Settings/SiteInformation/global_styles.aspx" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="/kcscripts/kc.js"></script>
+<script type="text/javascript" src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=1.5"></script>	
+<link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/1.5/js/dojo/dijit/themes/tundra/tundra.css">
+<link rel="stylesheet" type="text/css" href="~/media/operations/GIS/maps/JavaScript/bikemap/bikemap_mapStyle.ashx">	
+<script type="text/javascript">djConfig = { parseOnLoad:true, isDebug:false }</script>
+<script type="text/javascript" src="~/media/operations/GIS/maps/JavaScript/bikemap/locatorFunc.ashx"></script>	
+<script type="text/javascript" src="~/media/operations/GIS/maps/JavaScript/bikemap/bikemap_mapFunc.ashx"></script>
+    </head>
+
+    <body id="kingcounty_gov_body"> 
+
+<a href="#maincontent" class="kcJumpLinks">skip to main content</a>
+
+<div id="header">
+    <div id="kclogo">
+	<div id="logo">
+		<a href="http://www.kingcounty.gov" title="King County home"><img src="/style/kcBaseImages/kc-logo.gif" alt="King County - Always at your service" /></a>
+	</div>
+	<br />
+    </div>
+    <ul id="topnav">
+	<li class="first"><a class="kcBaseTopNavItem" href="/">Home</a></li>
+	<li class="menuitem"><a class="kcBaseTopNavItem" href="http://www.kingcounty.gov/news.aspx">News</a></li>
+	<li class="menuitem"><a class="kcBaseTopNavItem" href="http://directory.kingcounty.gov/ServiceSearch.asp">Services</a></li>
+	<li class="menuitem"><a class="kcBaseTopNavItem" href="http://directory.kingcounty.gov/EmpSearch.asp">Directory</a></li>
+	<li class="last"><a class="kcBaseTopNavItem" href="http://info.kingcounty.gov/about/contact/default.aspx">Contact</a></li>
+        <li style="padding-left:6px;">
+            <div id="searchbox">
+                <form method="get" id="seek" name="seek" action="http://search.kingcounty.gov/search">
+                    <label for="q" class="hide">Search Terms:</label>
+                    <input maxlength="100" name="q" id="q" class="textbox" />
+                    <input type="submit" name="btnG" value="Search" class="submit" />
+                    <input type="hidden" name="site" value="w"/>
+                    <input type="hidden" name="client" value="w_frontend" />
+                    <input type="hidden" name="output" value="xml_no_dtd" />
+                    <input type="hidden" name="proxystylesheet" value="w_frontend" />
+                </form>
+            </div>
+        </li>
+      </ul>
+      <div id="sitename"><a href="/transportation/kcdot.aspx">Transportation</a></div>
+      <div id="sitesubname"></div>
+</div>
+
+<div id="breadcrumbs">
+    <div class="trail">
+        <strong>You're in</strong>: 
+        <a class="" href="/transportation/kcdot.aspx">Department of Transportation</a>
+          »
+
+        <a class="" href="/transportation/kcdot/Roads.aspx">Road Services </a>
+          »
+
+        Bicycling
+    </div>
+    <div class="kcFunctions"><script type="text/javascript">kcShareLink();</script><noscript></noscript>
+  <div id="printlink"><a href="/transportation/kcdot/Roads/Bicycling.aspx?print=1">PRINT</a></div>
+  <div id="sitemap"><a href="/transportation/kcdot/Sitemap.aspx">SITEMAP</a></div>
+</div>
+</div>
+
+
+ 
+<!--- start three column layout -->
+<table id="container" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr valign="top">
+            
+            <td class="column" id="leftcol">
+                <a name="leftnav"></a>
+                <ul id="navcontainer"><li><a href="/transportation/kcdot.aspx" title="Department of Transportation">Department of Transportation</a></li><li><a href="http://metro.kingcounty.gov/" title="Metro Transit">Metro Transit</a></li><li><a href="/transportation/kcdot/Roads.aspx" title="King County Road Services Division">Road Services </a><ul class="level2"><li><a href="/transportation/kcdot/Roads/24x7RoadHelpline.aspx" title="24/7 Road Helpline, King County Road Services">24/7 Road Helpline</a></li><li><a href="/transportation/kcdot/Roads/Bicycling.aspx" class="on" title="King County Bicycling Guidemap and resources">Bicycling</a><ul class="level3"><li><a href="/transportation/kcdot/Roads/Bicycling/SafetyTips.aspx" title="Bicycle safety tips - King County Road Services">Safety tips</a></li><li><a href="/transportation/kcdot/Roads/Bicycling/TrafficLaws.aspx" title="Bicycle traffic laws - King County Road Services">Traffic laws</a></li></ul></li><li><a href="/transportation/kcdot/Roads/CommutingResources.aspx" title="Commuter Cafe - Commuting resources in King County">Commuting</a></li><li><a href="/transportation/kcdot/Roads/Construction.aspx" title="Construction project information - King County Road Services">Construction </a></li><li><a href="/transportation/kcdot/Roads/HistoryAndArchaeology.aspx" title="Cultural Resources Program - King County Road Services Division">Cultural resources</a></li><li><a href="/transportation/kcdot/Roads/EngineeringServices.aspx" title="Engineering services - King County Road Services">Engineering </a></li><li><a href="/transportation/kcdot/Roads/Environment.aspx" title="Environmental services - King County Road Services">Environment</a></li><li><a href="/transportation/kcdot/Roads/MapAndRecordsCenter.aspx" title="Map and Records Center - King County Road Services">Maps and records</a></li><li><a href="http://gismaps.kingcounty.gov/MyCommute" title="My Commute">My Commute</a></li><li><a href="http://your.kingcounty.gov/kcdot/roads/roadalert/Subscriptions.aspx" title="Road Alert">Road Alert</a></li><li><a href="/transportation/kcdot/Roads/RoadsMaintenance.aspx" title="Roads maintenance - King County Road Services">Roads maintenance</a></li><li><a href="http://www.kingcounty.gov/southparkbridge/" title="South Park Bridge">South Park Bridge</a></li><li><a href="/transportation/kcdot/Roads/StrategicPlan.aspx" title="Strategic Plan for the King County Road Services Division">Strategic Plan for Road Services</a></li><li><a href="/transportation/kcdot/Roads/TrafficMaintenanceEngineering.aspx" title="Traffic engineering and maintenance - King County Road Services">Traffic </a></li><li><a href="http://info.kingcounty.gov/transportation/kcdot/Roads/TrafficCameras/AllCameras/default.aspx" title="Traffic cameras">Traffic cameras</a></li><li><a href="/transportation/kcdot/Roads/TransportationPlanning.aspx" title="Transportation planning - King County Road Services">Transportation planning</a></li><li><a href="/transportation/kcdot/Roads/AboutUs.aspx" title="About the King County Road Services Division">About us</a></li><li><a href="/transportation/kcdot/Roads/ContactUs.aspx" title="Contact us - King County Road Services Division">Contact us</a></li><li><a href="/transportation/kcdot/Roads/ContractCityServices.aspx" title="Contract city services - King County Road Services">Contract city services</a></li><li><a href="/transportation/kcdot/Roads/FrequentlyAskedQuestions.aspx" title="Frequently-asked questions about the King County Road Services Division's services">Frequently-asked questions</a></li></ul></li><li><a href="/transportation/kcdot/Airport.aspx" title="King County International Airport/Boeing Field">King County International Airport</a></li><li><a href="/transportation/kcdot/WaterTaxi.aspx" title="Water Taxi">Water Taxi</a></li><li><a href="/transportation/kcdot/FleetAdministration.aspx" title="Fleet Administration">Fleet Administration</a></li><li><a href="/transportation/kcdot/KeyInitiatives.aspx" title="Key Initiatives">Key Initiatives</a></li><li><div class="navnullspace"><div class="navspacer">Popular topics</div></div></li><li><a href="/transportation/kcdot/OnlineServices.aspx" title="Online services">Online services</a></li><li><a href="/transportation/kcdot/TravelOptions.aspx" title="Travel options">Travel options</a></li><li><a href="/transportation/kcdot/Bicycling.aspx" title="Bicycling">Bicycling</a></li><li><a href="/transportation/kcdot/Auctions.aspx" title="Auctions">Auctions</a></li><li><a href="/transportation/kcdot/NewsCenter.aspx" title="News Center - King County Department of Transportation">News Center</a></li><li><a href="/transportation/kcdot/Jobs.aspx" title="Jobs">Jobs</a></li><li><a href="/transportation/kcdot/PlanningAndPolicy.aspx" title="Planning and Policy">Planning and Policy</a></li><li><a href="/transportation/kcdot/Sitemap.aspx" title="Sitemap">Sitemap</a></li><li><a href="/transportation/kcdot/AboutUs.aspx" title="About Us">About Us</a></li><li><a href="/transportation/kcdot/AcercaDeNosotros.aspx" title="Acerca de Nosotros">Acerca de Nosotros</a></li></ul><div class="leftColumnContent"></div>
+            </td>
+            
+            <td>
+                <a id="maincontent"></a>
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr valign="top">
+                      <td id="ctl05_sitecontentheader">
+                          <div id="sitecontentheaderdiv"></div>
+                      </td>
+
+                    </tr>
+                    <tr valign="top">
+                        <td class="column" id="contentcol">
+                              
+                               <style type="text/css">
+#printlink {
+	DISPLAY: none
+}</style><style type="text/css">
+.hide {
+	TOP: 6px
+}</style>
+<table cellspacing="0" width="100%" border="0">
+<tbody>
+<tr>
+<td style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 30px; BACKGROUND-COLOR: #000000"><img alt="Bicycling Guidemap" src="~/media/transportation/kcdot/roads/bicycling/bikemap_titlebar.ashx" border="0" /></td>
+<td style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 172px; PADDING-TOP: 0px; BACKGROUND-COLOR: #000000" valign="top"><!--<img src="~/media/transportation/kcdot/roads/bicycling/bikemap_legendhead.ashx" alt="Legend" border="0">--></td></tr>
+<tr>
+<td><div style="POSITION: relative"><div style="FLOAT: left; PADDING-BOTTOM: 0px; POSITION: relative"><input class="SearchBox" onkeypress="submitenter(this,event)" id="address" onblur="clickrecall(this,'Address or intersection')" style="WIDTH: 50%" onclick="clickclear(this, 'Address or intersection')" type="text" size="70" value="Address or intersection" /> <input class="btn" onclick="locate()" type="button" value="Find" /> <input class="btn" id="btnClear" style="VISIBILITY: hidden" onclick="clearMap()" type="button" value="Clear results" /></div><div style="RIGHT: 4px; FLOAT: right; POSITION: relative; TOP: 0px"><img height="16" style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px" alt="Link to this map" src="/App_Media/operations/GIS/maps/images/chainlink.gif" align="bottom" border="0" /><a class="link" id="LinkLink" onclick="createURLForCurrentExtent()" href="#">Link</a></div></div><br clear="all" /><div class="tundra" id="map" style="BORDER-RIGHT: #bdd1ec 1px solid; BORDER-TOP: #bdd1ec 1px solid; MIN-WIDTH: 50px; MARGIN: 2px 0px 0px; BORDER-LEFT: #bdd1ec 1px solid; WIDTH: 100%; BORDER-BOTTOM: #bdd1ec 1px solid; POSITION: relative; HEIGHT: 630px"><div class="linkDiv" id="linkDiv"><div class="linkDiv_Text" id="linkDiv_Text">Copy and paste link:</div><div class="linkDiv_Close" id="linkDiv_Close" onclick="closeLinkDiv();"><img src="/App_Media/operations/GIS/maps/images/close.gif" /></div><input id="txtLink" onclick="SelectAll('txtLink')" type="text" size="50" /> </div></div></td>
+<td style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 172px; PADDING-TOP: 0px" valign="top"><img style="MARGIN-TOP: 0px" alt="Legend graphic" src="~/media/transportation/kcdot/roads/bicycling/bikemap_legend_wHeader.ashx" border="0" /> <div class="smallbod" style="PADDING-LEFT: 8px; PADDING-TOP: 6px" align="left"><a href="/~/media/transportation/kcdot/roads/bicycling/bikemap_fulllegend.ashx" target="_blank">View complete legend</a></div></td></tr></tbody></table>
+<table cellspacing="0" width="100%" border="0">
+<tbody>
+<tr>
+<td><div class="small" style="PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; PADDING-TOP: 7px; BACKGROUND-COLOR: #fec63e"><b>Disclaimer:</b> This map is intended to aid bicyclists in choosing routes between locations. This map is not in any way warranty or guarantee as to the stability of roadway conditions or the fitness of listed routes for bicycling. Many of the routes identified on this map cross or run along public roads which are exposed to wear and tear and degradation due to weather, traffic, and other environmental concerns. Riders should remain alert as routes may contain pavement rutting, cracks, bumps, expansion joints, natural or other debris on pavement surfaces, and vegetation which may encroach on routes or portions thereof. Riders should also remain alert for areas of visual impairment and other irregularities that may impact rider and motorist ability to see each other or potential road hazards. The chance that one may come into an area of visual impairment or a route irregularity warrants special care on the part of route users.<br /><br />Government resources limit the capacity to address conditions and irregularities like those described above. Accordingly, route users should maintain a vigilant lookout for these conditions and irregularities. Route users should always ride with care for their own safety and that of other users. King County does not assume liability for bicyclists travelling upon routes shown in this map. Safe route selection includes consideration of motor vehicle, bicycle and pedestrian traffic and roadway or route conditions.</div></td></tr>
+</tbody></table><br clear="all" /><p><span style="COLOR: #ff0000"><b>Have a question or comment? Send us an <a href="mailto:webteam.roads@kingcounty.gov">e-mail.</a></b></span></p><table cellspacing="0" width="100%" border="0">
+<tbody>
+<tr>
+<td valign="top" align="left" width="100%"><b>Download the King County Bicycling Guidemap</b> <ul><li><a href="http://your.kingcounty.gov/kcdot/roads/wcms/bike/BikeMapNorth2010.pdf">North</a> (16MB .pdf)</li><li><a href="http://your.kingcounty.gov/kcdot/roads/wcms/bike/BikeMapSouth2010.pdf">South</a> (10MB .pdf)</li></ul><b>Pick up a copy of the map</b><p>King County Bicycling Guidemaps are available free of charge at all <a href="http://www.kcls.org/">King County Libraries</a><img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /> and at the <a href="/transportation/kcdot/Roads/MapAndRecordsCenter/MapCounter.aspx">King County Road Services Division's Map Counter</a>, located on the first floor of the King Street Center Building in Pioneer Square (downtown Seattle) at 201 S. Jackson St., Seattle, WA 98104. The Map Counter is open Monday through Friday from 8 a.m. to 4:30 p.m.</p></td></tr></tbody></table><p><b>Metro Transit bike information</b> <ul><li><a href="http://metro.kingcounty.gov/tops/bike/bikeride.html">Taking your bike on a bus or vanpool</a></li><li><a href="http://metro.kingcounty.gov/tops/bike/bikeride.html">Sharing the road with buses</a></li><li><a href="http://metro.kingcounty.gov/tops/bike/parking.html">Bicycle lockers and parking at transit facilities</a></li><li><a href="http://metro.kingcounty.gov/tops/bike/sr-520.html">SR-520 bike information</a></li><li><a href="http://metro.kingcounty.gov/tops/bike/bikeresources.html">Regional bicycling resources</a></li><li><a href="http://metro.kingcounty.gov/tops/bike/news.html">Current biking news</a></li></ul></p><p><b>King County Parks' regional trails</b></p><ul>
+<li><a href="http://www.kingcounty.gov/recreation/parks/trails/regionaltrailssystem.aspx">Regional trail maps</a></li>
+<li> <a href="http://www.kingcounty.gov/recreation/parks/trails/regionaltrailssystem.aspx">Green River trail closure information</a></li>
+</ul><p><b>Bike safety</b></p><ul><li><a href="/transportation/kcdot/Roads/Bicycling/SafetyTips.aspx">King County bicycle safety tips</a> </li><li><a href="http://www.bikeleague.org/resources/better/index.php">League of American Bicyclists safety tips</a><img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li><li>Harborview Hospital research<br />›› <a href="http://depts.washington.edu/hiprc/practices/topic/bicycles/helmeteffect.html">Bicycle helmet effectiveness</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /><br />›› <a href="http://depts.washington.edu/hiprc/practices/topic/bicycles/helmeteduc.html">Bicycle helmet education</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /><br />›› <a href="http://depts.washington.edu/hiprc/practices/topic/bicycles/bikelanes.html">Bike lanes &amp; paths</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /><br />›› <a href="http://depts.washington.edu/hiprc/practices/topic/bicycles/bikeskills.html">Bike skills training &amp; safety courses</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li><li><a href="http://www.seattlechildrens.org/child_health_safety/pdf/flyers/Ce222.pdf">Bicycle helmet quick fit check</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li></ul><p><b>Bike laws</b></p><ul><li><a href="/transportation/kcdot/Roads/Bicycling/TrafficLaws.aspx">Bicycle traffic laws</a></li></ul>
+<b>Bike clubs</b><ul><li><a href="http://www.cascade.org/Home/">Cascade Bike Club</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li><li><a href="http://evergreenmtb.org/home/index.php">Evergreen Mountain Bike Alliance</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li><li><a href="http://www.redmondcyclingclub.org/">Redmond Cycling Club</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li><li><a href="http://www.seattlebicycleclub.org/">Seattle Bicycle Club</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li></ul><b>Bike programs</b> <ul><li><a href="http://www.seattle.gov/transportation/bikeprogram.htm">City of Seattle</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li><li><a href="http://www.wsdot.wa.gov/bike/">Washington State</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li></ul>
+<b>Bicyling resources for employees and employers</b> <ul><li><a href="http://cbcef.org/surviveI5/bikeroutes.html">Bike routes to downtown Seattle</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li><li><a href="http://www.bikestation.org/seattle/index.asp">Bike Station Seattle</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li></ul>
+<b>Dasani blue bikes at Marymoor Park</b><p><a href="http://www.kingcounty.gov/recreation/parks/inventory/marymoor/dasanibluebikes.aspx"><img width="126" height="84" alt="Dasani blue bike" src="~/media/transportation/kcdot/roads/gettingthere/images/dasani.ashx" vspace="4" border="0" /></a><br clear="all" />No bike? No problem at Marymoor! Thanks to the DASANI "Blue Bikes" community bicycle program at Marymoor Park, King County residents have free access to <a href="http://www.kingcounty.gov/recreation/parks/inventory/marymoor/dasanibluebikes.aspx">20 Trek Cruiser Classic bicycles</a>.</p><p><b>Other Puget Sound area bicycling guidemaps</b><ul><li><a href="http://www.co.pierce.wa.us/pc/abtus/ourorg/pwu/tpp/nonmotor/bicycle.htm">Pierce County Bike Map</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /> </li><li><a href="http://www.seattle.gov/transportation/bikemaps.htm">Seattle Bicycling Guidemap</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /> </li><li><a href="http://www.commtrans.org/FAQs/Bikes.cfm">Snohomish County Bike Map</a> <img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /></li></ul><h2>Contact us</h2>Have questions about the King County Bicycling Guidemap or about bicycling resources in King County? Feel free to give us a call or send us an e-mail:<p>King County Department of Transportation<br />Road Services Division<br />CIP &amp; Planning Section<br />201 South Jackson Street, MS KSC-TR-0317<br />Seattle, WA 98104-3856 <br />Phone: 206-263-4741<br />Fax: 206-296-0566<br />E-mail: <a href="mailto:planning.roads@kingcounty.gov">planning.roads@kingcounty.gov</a></p><hr /><p><small>Information from the Road Services Division's Web site is available to people with disabilities in alternate formats upon request by calling 206-263-6482 or 711 for the TTY relay service.</small></p><p><small><img alt="External link" src="~/media/transportation/kcdot/roads/images/externalink.ashx" border="0" /> = External link</small></p><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15227468-1");
+pageTracker._trackPageview();
+} catch(err) {}</script></p> 
+                              
+                        </td>
+                        
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<!-- end three column layout -->
+
+
+  <div id="footer-wrapper">
+   <div id="pageupdateddate">Updated: Dec. 17, 2010</div>
+  <div id="footer">
+  <div id="agencyfooter">
+		<ul id="agencybottomnav">
+			<li class="first"><a href="http://metro.kingcounty.gov/" title="Metro Transit">Metro Transit</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/Roads.aspx">Road Services </a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/Airport.aspx">King County International Airport</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/WaterTaxi.aspx">Water Taxi</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/FleetAdministration.aspx">Fleet Administration</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/KeyInitiatives.aspx">Key Initiatives</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/OnlineServices.aspx">Online services</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/TravelOptions.aspx">Travel options</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/Bicycling.aspx">Bicycling</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/Auctions.aspx">Auctions</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/NewsCenter.aspx">News Center</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/Jobs.aspx">Jobs</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/PlanningAndPolicy.aspx">Planning and Policy</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/Sitemap.aspx">Sitemap</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/AboutUs.aspx">About Us</a></li>
+			<li><span class="kcSpacer">|</span><a href="/transportation/kcdot/AcercaDeNosotros.aspx">Acerca de Nosotros</a></li>
+		</ul>
+		<div class="agencyText">
+
+		</div>
+	</div>
+  <div>	<div class="globalfooter">
+			<ul id="globalbottomnav">
+				<li class="first"><a href="/" title="King County home page">Home</a></li>
+				<li><span class="kcSpacer">|</span><a href="/About/privacy.aspx" title="Privacy statement">Privacy</a></li>
+				<li><span class="kcSpacer">|</span><a href="/About/access.aspx" title="Accessibility policy">Accessibility</a></li>
+				<li><span class="kcSpacer">|</span><a href="/About/termsOfUse.aspx" title="Terms of use">Terms of use</a></li>
+				<li class="last"><span class="kcSpacer">|</span><a href="/About/search.aspx" title="Search the County Web site">Search</a></li>
+			</ul>
+			<div class="globalText">
+ Links to external sites do not constitute endorsements by King County. By visiting this and other<br />King County web pages, you expressly agree to be bound by terms and conditions of the site<br /><br />&copy; 2010 King County<br />
+			</div>
+		</div></div>
+  </div></div>
+
+
+        <div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div>
+        <div id="extraDiv3"><span></span></div><div id="extraDiv4"><span></span></div>
+        <div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div>
+        
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+            try {
+            var pageTracker = _gat._getTracker("UA-1836455-2");
+            pageTracker._setDomainName(".kingcounty.gov");
+            pageTracker._setLocalRemoteServerMode();
+            pageTracker._trackPageview();
+            } catch(err) {}
+        </script>
+    </body>
+</html>
