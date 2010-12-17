@@ -1,0 +1,650 @@
+<html>
+<head>
+<title>NK2View - View Outlook .NK2 AutoComplete Information</title>
+<link rel="stylesheet" href="../main.css">
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+<td colspan="3" class="siteheader" height="50">
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr style="height:2">
+<td>
+<td>
+
+<tr>
+<td>
+<a href="http://www.nirsoft.net">
+<img src="/nirsoft2.gif" border="0">
+</a>
+
+<td>
+<script type="text/javascript"><!--
+google_ad_client = "pub-5286073190998405";
+/* 728x90, Top */
+google_ad_slot = "4687600397";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<tr style="height:4">
+<td>
+<td>
+
+
+</table>
+
+
+
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" class="siteheader" style="width:140">
+
+<table border="0" cellpadding="3" width="100%"  style="width:140">
+<tr class="menu1"><td nowrap><a href="http://www.nirsoft.net">Main Page</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="http://blog.nirsoft.net">Blog</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/search_freeware.html">Search</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/faq.html">FAQ</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/top_utilities_downloads.html">TOP 10</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/freeware_links.html">Links</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/awards.html">Awards</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/pad">Pad Files</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/contact-new.html">Contact</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/about_nirsoft_freeware.html">About...</a><br>
+</td></tr>
+<tr class="menu1"><td nowrap><a href="/donate.html" style="color:#000080">Donate</a><br>
+</td></tr>
+</table>
+<br>
+<table border="0" cellpadding="3" width="100%">
+<tr class="menu2"><td nowrap><a href="/utils/index.html">All Utilities</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/password_recovery_tools.html">Password Tools</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/system_tools.html">System Tools</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/web_browser_tools.html">Browser Tools</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/programmer_tools.html">Programmer Tools</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/network_tools.html">Network Tools</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/outlook_office_software.html">Outlook/Office</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/x64_download_package.html">64-bit Download</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/panel">Panel</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/computer_forensic_software.html">Forensics</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/code_samples.html">Code Samples</a><br>
+</td></tr>
+<tr class="menu2"><td nowrap><a href="/articles">Articles</a><br>
+</td></tr>
+
+</table>
+
+
+
+
+<p>
+
+<center>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-5286073190998405";
+/* Left Side New */
+google_ad_slot = "4094151768";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+</center>
+
+
+
+</td>
+
+<td class="menutomain">&nbsp;
+</td>
+
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="toptomain" colspan="3">
+</td>
+<tr>
+<td style="width:7">&nbsp;</td>
+<td valign="top">
+
+
+<table border="0" class="utilcaption">
+<tr><td><img src="nk2view_icon.gif">
+<td>
+NK2View v1.43 - View Outlook .NK2 AutoComplete Information
+<br>
+Copyright (c) 2007 - 2009 Nir Sofer
+</table>
+
+
+<p>
+<table border="5" cellspacing="8" cellpadding="6" width="600" bordercolor="#ff0080">
+<tr>
+<td>
+<p>
+<h4 class="utilsubject"><a href="outlook_nk2_edit.html">New NK2 Editor</a><img src="../new.gif"></h4>
+<b>
+If you are looking for a real NK2 editor that can modify any field in the .NK2 file,
+merge multiple NK2 files into one, fix corrupted NK2 files, 
+remove unwanted single-quote characters, and more, 
+you are welcomed to try the new <a href="outlook_nk2_edit.html">NK2Edit utility</a>
+</b>
+<p>
+
+</table>
+
+<table>
+<tr>
+<td>
+&nbsp;
+</table>
+
+<table>
+<tr>
+<td>
+&nbsp;
+</table>
+
+
+<p>
+<h4 class="utilsubject">Description</h4>
+Each time that you send a new message in Outlook, the emails that you type in To/Cc fields, are
+automatically inserted into the AutoComplete list, so in the next time that you type an email address,
+Outlook automatically completes the right email address for you.
+<br>
+The AutoComplete file of Outlook is stored under [Your Profile]\Application Data\Microsoft\Outlook
+ ,
+
+and it always saved as the profile name of Outlook with .NK2 extension.
+<br>
+This utility reads the AutoComplete file of Outlook (with .NK2 extension), displays all
+email records stored in it, and allows you to easily export these records into text/html/xml file.
+
+<p>
+<img src="nk2view.gif">
+
+<p>
+
+<h4 class="utilsubject">Versions History</h4>
+<ul>
+<li>Version 1.43:
+<ul>
+<li>Added support for Outlook 2010 Beta - Automtically locate the Stream_Autocomplete*.dat files under [Local AppData]\Microsoft\Outlook\RoamCache.
+</ul>
+
+
+<li>Version 1.42:
+<ul>
+<li>Fixed bug: The sorting options that I added in v1.41 caused the delete command-line options to work improperly. 
+</ul>
+
+<li>Version 1.41:
+<ul>
+<li>Added /sort command-line option.
+</ul>
+
+<li>Version 1.40:
+<ul>
+<li>Added 'Email Domain' column that allows you to sort the list by the domain of the email (gmail.com, yahoo.com, and so on)
+</ul>
+
+<li>Version 1.38:
+<ul>
+<li>Fixed bug: NK2View failed to detect the right NK2 filename when the profile name contained '/' or other 
+special characters.
+</ul>
+
+<li>Version 1.37:
+<ul>
+<li>Just another small bug fix related the large binary field with multiple values.
+</ul>
+
+<li>Version 1.36:
+<ul>
+<li>Fix bug: When there was a binary field with multiple values, NK2View failed to read it, and thus it could not continue to 
+read the other records. For .NK2 files with this problem, NK2View didn't display all the records.
+<li>Fix bug: NK2View failed to add new records when there were dead records in the end of the file.
+</ul>
+
+<li>Version 1.35:
+<ul>
+<li>Added support for /delete_by_type command-line option.
+<li>Added support for creating a new empty .NK2 file.
+<li>Added more error messages when something goes wrong.
+</ul>
+
+<li>Version 1.30:
+<ul>
+<li>Added support for backup/restore options. The backup is made in the same folder of the NK2 file, with .BAK extension.
+</ul>
+
+<li>Version 1.25:
+<ul>
+<li>Added the 'Delete Selected Items' and 'Add Items From Address Book' to the toolbar and context menu.
+<li>Added more accelerator keys.
+</ul>
+
+<li>Version 1.24:
+<ul>
+<li>Add new command-line option: /delete_contains - allows you to delete all items contains the
+specified string.
+</ul>
+
+<li>Version 1.23:
+<ul>
+<li>Fixed bug: The main window lost the focus when the user switched to another application and then returned back to NK2View.
+</ul>
+
+<li>Version 1.22:
+<ul>
+<li>Added support for saving as comma delimited file.
+<li>Added /scomma command-line option
+</ul>
+
+<li>Version 1.21:
+<ul>
+<li>Added /delete for deleting AutoComplete items from command-line.
+</ul>
+
+<li>Version 1.20:
+<ul>
+<li>Added new save file type - 'Tab delimited file - for Outlook import': When you save the selected 
+items with this file type, you can use the saved file to import the emails/names list into the contacts of Outlook.
+<li>Added /soutlook command-line option - for saving a tab-delimited file that can be used with Outlook import
+</ul>
+
+<li>Version 1.15:
+<ul>
+<li>Added new option - Add items from address book.
+</ul>
+
+<li>Version 1.10: 
+<ul>
+<li>Added support for delete option.
+<li>Added support for drag &amp; drop from Explorer window into NK2View window.
+<li>Fixed bug in reading some .NK2 files.
+</ul>
+<li>Version 1.00 - First release.
+</ul>
+<p>
+<h4 class="utilsubject">Using NK2View</h4>
+NK2View doesn't require any installation process or additional DLL files.
+Just copy the executable file (nk2view.exe) to any folder you like, and run it.
+<br>
+After your run it, NK2View utility displays the AutoComplete list of the default Outlook profile.
+If you want to view the AutoComplete list of other profiles, simply use the 'Open .NK2 File' option.
+
+<p>
+<h4 class="utilsubject">NK2View Columns</h4>
+<ul>
+<li><span class="special2">Display Name</span> - The name that represents this email. If there is no name for this email, the email 
+itself will be displayed in this field.
+<li><span class="special2">Email</span> - The email address that you sent. If your Outlook is connected to Exchange server, you may 
+get here the Exchange/Active Directory string (something like /o=xxxxx/ou=yyyyy/cn=Recipients/cn=name)
+instead of the real email address. In order to view the real email address, 
+select the desired item, and press F9 (Open Item Details Window).
+
+<li><span class="special2">Type</span> - The type of the address: SMTP or Exchange.
+<li><span class="special2">AutoComplete Value</span> - The AutoComplete string, exactly as it appeared in the AutoComplete drop-down list.
+<li><span class="special2">Entry ID</span> - The ID string of the specified address. This value is internally used by Outlook to identify the
+address record.
+<li><span class="special2">Index</span> - Numeric value the represents the order of the address records in the .NK2 file 
+(The first record is 1, the second is 2, and on...)
+<li><span class="special2">Recipient Type</span> - To, Cc, or Bcc. 
+This value is updated according to the last time that you sent a message to the specified address.
+
+</ul>
+
+
+<p>
+<h4 class="utilsubject">Delete AutoComplete Items</h4>
+Starting from version 1.10, NK2View allows you to delete unwanted/obsolete AutoComplete items.
+After you delete the items, Outlook won't display them in the AutoComplete combo-box.
+<br>
+However, before you make any delete action, you should always backup your .NK2 file, so if something goes wrong
+with the delete, you'll be able to restore the original AutoComplete list.
+Also, while you use the delete option, Outlook application must be closed.
+
+
+
+<p>
+<h4 class="utilsubject">Add AutoComplete items from your address book</h4>
+Starting from version 1.15, NK2View allows you to add new AutoComplete items directly from your address book.
+In order to use this feature, close your Outlook, choose the &quot;Add Items From Address Book&quot; from the File menu, and
+then select the items that you want to add.
+<br>
+be aware that the number of AutoComplete items that are allowed in NK2 file is limited to 1000.
+<p>
+<span class="special3">Warning !!!</span>
+<br>
+Some users complained that their .NK2 file stopped working in Outlook after trying to add items from the address book.
+Before you add a new AutoComplete item, you should always backup your .NK2 file, so if something goes wrong, 
+you'll be able to restore the original AutoComplete list.
+Also, while you use the add option, Outlook application must be closed.
+
+
+<p>
+<h4 class="utilsubject">Search for other utilities in NirSoft</h4>
+<form action="http://www.nirsoft.net/search_freeware_result_new.html" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-5286073190998405:h7ne4r-6rgk" />
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <input type="text" name="q" size="31" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+
+
+<p>
+<h4 class="utilsubject">Command-Line Options</h4>
+<table border="1" cellpadding="5" bordercolor="#000000">
+<tr><td nowrap>
+/soutlook &lt;Filename&gt;
+<td>Save the list of all AutoComplete entries into a tab-delimited text file that can be used to import
+the emails/names list into the contacts of Outlook.
+
+<tr><td nowrap>
+/delete &lt;Name&gt;
+<td>
+delete a record from the NK2 file.
+You must specify the exact display name or email.
+
+<tr><td nowrap>
+/delete_contains &lt;string&gt;
+<td>
+delete all records in the NK2 file that contains the specified string.
+<br>
+for example, to delete all emails of nirsoft.net domain:<br>
+/delete_contains &quot;@nirsoft.net&quot;
+
+
+<tr><td nowrap>
+/delete_by_type &lt;SMTP | EX&gt;
+<td>
+delete all records with the specified address type.
+<br>
+for example, to delete all exchange emails: <br>
+/delete_by_type &quot;ex&quot;
+<p>
+to delete all SMTP emails: <br>
+/delete_by_type &quot;smtp&quot;
+
+
+<tr><td nowrap>
+/stext &lt;Filename&gt;
+<td>Save the list of all AutoComplete entries into a regular text file.
+
+<tr><td nowrap>
+/stab &lt;Filename&gt;
+<td>Save the list of all AutoComplete entries into a tab-delimited text file.
+
+<tr><td nowrap>
+/scomma &lt;Filename&gt;
+<td>Save the list of all AutoComplete entries into a comma-delimited text file.
+
+
+<tr><td nowrap>
+/stabular &lt;Filename&gt;
+<td>Save the list of all AutoComplete entries into a tabular text file.
+
+<tr><td nowrap>
+/shtml &lt;Filename&gt;
+<td>Save the list of all AutoComplete entries into HTML file (Horizontal).
+
+<tr><td nowrap>
+/sverhtml &lt;Filename&gt;
+<td>Save the list of all AutoComplete entries into HTML file (Vertical).
+
+<tr><td nowrap>
+/sxml &lt;Filename&gt;
+<td>Save the list of all AutoComplete entries to XML file.
+
+
+
+<tr><td nowrap>
+/sort &lt;column&gt;
+<td>
+This command-line option can be used with other save options for sorting by the desired column.
+If you don't specify this option, the list is sorted according to the last sort that you made from the user interface.
+The &lt;column&gt; parameter can specify the column index (0 for the first column, 1 for the second column, and so on) or
+the name of the column, like &quot;Email&quot; and &quot;Display Name&quot;.
+You can specify the '~' prefix character (e.g: &quot;~Display Name&quot;) if you want to sort in descending order.
+You can put multiple /sort in the command-line if you want to sort by multiple columns.
+<p>
+Examples:
+<br>nk2view.exe /shtml &quot;f:\temp\nk2.html&quot; /sort 2 /sort ~1
+<br>nk2view.exe /shtml &quot;f:\temp\nk2.html&quot; /sort &quot;~Type&quot; /sort &quot;Email&quot;
+
+<tr><td nowrap>
+/nosort 
+<td>
+When you specify this command-line option, the list will be saved without any sorting.
+
+
+<tr><td nowrap>
+/nk2file &lt;Filename&gt;
+<td>
+Start NK2View with the specified .NK2 filename.
+If you don't use this command-line option, the .NK2 file of the default Outlook profile is loaded.
+
+
+</table>
+
+
+
+
+<p>
+<h4 class="utilsubject">Translating NK2View To Another Language</h4>
+NK2View allows you to easily translate all menus, dialog-boxes, and other strings
+to other languages.
+<br>
+In order to do that, follow the instructions below:
+<ol>
+<li>Run NK2View with /savelangfile parameter:
+<br>
+nk2view.exe /savelangfile
+<br>
+A file named nk2view_lng.ini will be created in the folder of NK2View utility.
+<li>Open the created language file in Notepad or in any other text editor. 
+<li>Translate all menus, dialog-boxes, and string entries to the desired language. 
+<li>After you finish the translation, Run NK2View, and all translated 
+strings will be loaded from the language file.
+<br>If you want to run NK2View without the translation, simply rename the language file, or move 
+it to another folder. 
+
+</ol>
+
+
+
+<p>
+<h4 class="utilsubject">License</h4>
+This utility is released as freeware. 
+You are allowed to freely distribute this utility via floppy disk, CD-ROM, 
+Internet, or in any other way, as long as you don't charge anything for this.  
+If you distribute this utility, you must include all files in
+the distribution package, without any modification !
+<br>
+Be aware that selling this utility as a part of a software package is not allowed !
+
+<p>
+<h4 class="utilsubject">Disclaimer</h4>
+The software is provided "AS IS" without any warranty, either expressed or implied,
+including, but not limited to, the implied warranties of merchantability and fitness
+for a particular purpose. The author will not be liable for any special, incidental,
+consequential or indirect damages due to loss of data or any other reason. 
+
+<p>
+<h4 class="utilsubject">Feedback</h4>
+If you have any problem, suggestion, comment, or you found a bug in my utility, 
+you can send a message to <a href="mailto:nirsofer@yahoo.com">nirsofer@yahoo.com</a>
+
+
+
+<p>
+<table border="0" cellpadding="10" width="100%">
+<tr><td align="center">
+<a class="downloadline" href="nk2view.zip">Download NK2View</a>
+
+<tr><td align="center">
+<a class="downloadline" href="nk2view_u.zip">Download the Unicode release of NK2View (For Windows 2000 or greater)</a>
+
+<tr><td align="center">
+<a class="downloadline" href="outlook_nk2_edit.html">Go to NK2Edit page</a>
+
+</table>
+
+
+
+
+
+
+
+
+<p>
+
+<table>
+<tr>
+<td>
+&nbsp;
+
+</table>
+<p>
+
+
+
+
+
+NK2View is also available in other languages. In order to change the language of 
+NK2View, download the appropriate language zip file, extract the 'nk2view_lng.ini', 
+and put it in the same folder that you Installed NK2View utility.<p><table border="1" cellpadding="6" bordercolor="#000000"><tr class="utiltableheader">
+<th>Language<th>Translated By<th>Date<th>Version
+
+<tr><td><a href="trans/nk2view_brazilian_portuguese.zip">Brazilian Portuguese</a><td>
+<a href="http://www.nois.com.br" target="trans">Tales Bitelo Viegas</a>
+<td>07/04/2008<td>&nbsp;
+
+<tr><td><a href="trans/nk2view_dutch.zip">Dutch</a><td>Jan Verheijen
+<td>01/12/2009<td>1.43
+
+<tr><td><a href="trans/nk2view_french.zip">French</a><td>
+<a href="http://pon.fr" target="trans">papoo</a>
+<td>06/04/2010<td>1.43
+
+<tr><td><a href="trans/nk2view_galician.zip">Galician</a><td>
+<a href="http://engalego.blogspot.com" target="trans">Xosé Antón Vicente Rodríguez</a>
+<td>19/05/2007<td>&nbsp;
+
+<tr><td><a href="trans/nk2view_german.zip">German</a><td>
+<a href="http://www.wintotal.de/nirsoft/" target="trans">«Latino» auf WinTotal.de</a>
+<td>29/11/2009<td>1.43
+
+<tr><td><a href="trans/nk2view_italian.zip">Italian</a><td>Fabio Mastroianni
+<td>08/06/2007<td>&nbsp;
+
+<tr><td><a href="trans/nk2view_romanian.zip">Romanian</a><td>Cristian Stefan
+<td>07/05/2007<td>&nbsp;
+
+<tr><td><a href="trans/nk2view_schinese.zip">Simplified Chinese</a><td>renda
+<td>01/12/2009<td>&nbsp;
+
+<tr><td><a href="trans/nk2view_schinese1.zip">Simplified Chinese</a><td>
+<a href="http://www.lewensky.cn" target="trans">Lewen-²©ÑÅÓîÐù</a>
+<td>23/10/2009<td>&nbsp;
+
+<tr><td><a href="trans/nk2view_spanish.zip">Spanish</a><td>
+<a href="http://www.elavega.com/" target="trans">Emilio Lopez Alvarez</a>
+<td>04/11/2010<td>1.43
+
+<tr><td><a href="trans/nk2view_swedish.zip">Swedish</a><td>Peter Williamsson
+<td>03/03/2010<td>&nbsp;
+
+<tr><td><a href="trans/nk2view_thai.zip">Thai</a><td>»ÃÐÊÔ·¸Ôì á¤ÀÙà¢ÕÂÇ
+<td>25/03/2008<td>&nbsp;
+
+<tr><td><a href="trans/nk2view_turkish.zip">Turkish</a><td>
+<a href="http://www.sogutcu.com" target="trans">Gökhan Söðütçü</a>
+<td>06/12/2008<td>&nbsp;
+
+<tr><td><a href="trans/nk2view_valencian.zip">Valencian</a><td>
+<a href="http://vjatv.iespana.es" target="trans">vjatv</a>
+<td>28/11/2008<td>&nbsp;
+
+</table>
+<p>
+
+
+
+</td>
+
+<td width="10">&nbsp;&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+</td>
+
+
+
+
+</tr>
+
+</table>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6647006-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body>
+
+
+</html>
