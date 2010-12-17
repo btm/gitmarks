@@ -1,0 +1,603 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>SDOT - Spokane Street Viaduct Widening Project</TITLE>
+<meta name="Title" content="Seattle Department of Transportation">
+<meta name="Description" content="Seattle Department of Transportation, Spokane Street Viaduct Widening Project, City of Seattle">
+<meta name="Keywords" content="Spokane Street Viaduct Widening Project">
+<meta name="originatorDepartment" content="Seattle Department of Transportation">
+<link REL="stylesheet" HREF="/transportation/css/dept_style.css" TYPE="text/css">
+<LINK href="/transportation/main.css" type=text/css rel=stylesheet>
+<script language="javascript" src="/transportation/scripts/transportation_array.js"></script>
+<SCRIPT LANGUAGE="JavaScript" SRC="/transportation/scripts/ypSlideOutMenus_new.js" TYPE="text/javascript"></SCRIPT>
+<script language="javascript" src="/transportation/js/navigation.js"></script>
+<SCRIPT language="JavaScript">
+LOC = "spokane"
+</SCRIPT>
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 15px;
+	font-weight: bold;
+}
+.style3 {
+	background-color: #FFFF99;
+}
+.style4 {	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+</HEAD>
+<BODY onLoad="whatPage()" background="/2004_img/seattle_back.gif" LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<div align="center">
+<noindex>
+<script language="javascript">
+function changeFilter(whichCol){
+ if(whichCol == "Dept"){
+   document.forms[0].site.value = whichDept;
+   document.forms[0].proxystylesheet.value = whichStyle;
+ }else{
+   document.forms[0].site.value = "default_collection";
+   document.forms[0].proxystylesheet.value = "cos_frontend";
+ }
+}
+</script> 
+<style>
+image:focus {-moz-outline-style: none;}
+</style>
+<div align="center">
+<div style="display:block;position:relative;margin:0px auto;width:775px;height:70px;background-repeat:no-repeat;background-image: url(/common/images/header_background.png);background-color:#fff">
+  <div id="cityNav" style="width:765px;position:absolute;top:0px;left:0px;text-align:right;"><a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/departments/">Departments</a> | <a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/services/">Services</a> | <a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/directory/">Staff Directory</a></div>
+  <div id="cityBrand" style="width:320px;position:absolute;top:0px;left:0px;"><a href="/default.htm"><img onmouseover="this.src='/common/images/SeattleGovLogo.png'" onmouseout="this.src='/common/images/SeattleGovLogoHome.png'" src="/common/images/SeattleGovLogoHome.png" alt="Seattle.gov Home Page" border="0" width="320" height="70" /></a></div>
+  <div id="citySearch" style="width:300px;position:absolute;top:24px;left:470px;">
+		<form id="googleSearch" style="margin:0px;padding:-10px;" method="get" action="http://find.seattle.gov/search">
+		<input type="text" style="vertical-align:top;margin:0px;padding-top:5px;padding:0px;height:22px;line-height:20px;border:2px solid #d5d5d5;width:250px;" name="q" size="18" maxlength="255" value="" />
+		<input style="vertical-align:top;margin-top:0px;border:0px;height:25px;-moz-outline-style: none;" type="image" src="/common/images/go_button.png" name="btnG" value="Go" onclick="document.forms['googleSearch'].submit()"/>
+		<input type="hidden" name="site" value="default_collection"/>
+		<input type="hidden" name="client" value="cos_frontend"/>
+		<input type="hidden" name="proxystylesheet" value="cos_frontend"/>
+		<input type="hidden" name="output" value="xml_no_dtd"/>
+		</form> 
+  	<div style="font-family: Arial, Helvetica; font-size:12px !important;color:#999;width:250px;position:absolute;top:22px;left:25px;">
+      <form name="toggle" style="margin: 0px;"><input type="radio" value="main" name="searchToggle" checked="" onclick="changeFilter('Seattle')">Seattle.gov <input type="radio" value="dept" name="searchToggle" onclick="changeFilter('Dept')">This Department</form>
+    </div>
+  </div>
+</div>  
+</div>
+<script language="javascript">
+whichDept="";
+whichStyle="";
+</script>
+
+</noindex>
+
+<noindex><!--begin TransHead New Graphics Version April 2009-->
+<table width="775" height="63" border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td width="486"><a href="http://www.seattle.gov/transportation/"><img src="http://www.seattle.gov/transportation/images/TransHeader-deptName.gif" alt="Link to Transportation Home Page" width="486" height="28" border="0"></a></td>
+  <td width="98"><a href="http://www.seattle.gov/transportation/"><img src="http://www.seattle.gov/transportation/images/TransHeader-home.gif" alt="Link to Transportation Home Page" width="98" height="28" border="0"></a></td>
+  <td width="85"><a href="http://www.seattle.gov/transportation/about.htm"><img src="http://www.seattle.gov/transportation/images/TransHeader-about.gif" alt="Link to Transportation About Us Page" width="85" height="28" border="0"></a></td>
+  <td width="106"><a href="http://www.seattle.gov/transportation/contact.htm"><img src="http://www.seattle.gov/transportation/images/TransHeader-contact.gif" alt="Link to Transportation Contact Us Page" width="106" height="28" border="0"></a></td>
+</tr>
+<tr>
+  <td width="486"><img src="http://www.seattle.gov/transportation/images/TransHeader-tagline.gif" alt="A vibrant Seattle through transportation excellence" width="486" height="35" border="0"></td>
+  <td width="290" colspan="3"><img src="http://www.seattle.gov/transportation/images/TransHeader-director.gif" alt="Peter Hahn, Director" width="289" height="35" border="0"></td>
+</tr>
+</table>
+<div align="center">
+<table width="775" border="0" cellspacing="0" cellpadding="5" bordercolor="#666666" bgcolor="#FFFFFF" style="border: thin solid #A2A2D9;">
+<tr>
+
+<td align="center" onMouseOver="ypScrollMenu.showMenu2('menu1');" onMouseOut="ypScrollMenu.hideMenu2('menu1')"><p><a href="#" class="dropdown">Services</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu2');" onMouseOut="ypScrollMenu.hideMenu2('menu2');"><p><a href="http://www.seattle.gov/transportation/" class="dropdown">Projects</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu4');" onMouseOut="ypScrollMenu.hideMenu2('menu4');"><p><a href="#" class="dropdown">Planning</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu3');" onMouseOut="ypScrollMenu.hideMenu2('menu3');"><p><a href="#" class="dropdown">Resources</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/events/" class="dropdown">Events</a></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/sdotnews.htm" class="dropdown">News</a></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/siteindex.htm" class="dropdown">Site Index</a></p></td>
+
+</tr>
+</table>
+</div>
+<SCRIPT>
+function rePosx(tweakVal){
+tempX = ((document.body.offsetWidth/2) + tweakVal)
+tempX = tempX + 25
+return tempX
+}
+
+topPos = 167
+buffer = 22
+
+//id, dir, left, top, width, height, parentid, degrade, debug
+//350 //400 //300
+	var menus = [
+	new ypScrollMenu("menu1", "down", rePosx(-423), topPos, 235, eval(menuItems1.length*24)),
+
+	new ypScrollMenu("menu2", "down", rePosx(-300), topPos, 235, eval(menuItems2.length*22)), 
+	  new ypScrollMenu("menu2_Sub1", "right", rePosx(-72), topPos+buffer, 200, eval(menu2_SubItems1.length*40), "menu2"),
+	  new ypScrollMenu("menu2_Sub2", "right", rePosx(-72), topPos+buffer*2, 200, eval(menu2_SubItems2.length*33), "menu2"),
+
+	new ypScrollMenu("menu3", "down", rePosx(-67), topPos, 235, eval(menuItems3.length*20)), 
+	  new ypScrollMenu("menu3_Sub1", "right", rePosx(148), topPos, 200, eval(menu3_SubItems1.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub2", "right", rePosx(148), topPos+buffer, 200, eval(menu3_SubItems2.length*25), "menu3"),
+	  new ypScrollMenu("menu3_Sub3", "right", rePosx(148), topPos+buffer*2, 200, eval(menu3_SubItems3.length*40), "menu3"),
+	  new ypScrollMenu("menu3_Sub4", "right", rePosx(148), topPos+buffer*3, 200, eval(menu3_SubItems4.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub5", "right", rePosx(148), topPos+buffer*4, 230, eval(menu3_SubItems5.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub6", "right", rePosx(148), topPos+buffer*6, 230, eval(menu3_SubItems6.length*29), "menu3"),
+	  new ypScrollMenu("menu3_Sub7", "right", rePosx(148), topPos+buffer*7, 230, eval(menu3_SubItems7.length*29), "menu3"),
+	  new ypScrollMenu("menu3_Sub8", "right", rePosx(148), topPos+buffer*8, 230, eval(menu3_SubItems8.length*32), "menu3"),
+
+	 new ypScrollMenu("menu4", "down", rePosx(-212), topPos, 250, eval(menuItems4.length*25)), 
+	  new ypScrollMenu("menu4_Sub1", "right", rePosx(2), topPos, 200, eval(menu4_SubItems1.length*45), "menu4"),
+	  new ypScrollMenu("menu4_Sub2", "right", rePosx(2), topPos+buffer, 200, eval(menu4_SubItems2.length*45), "menu4")
+ 
+
+//	new ypScrollMenu("menu5", "down", rePosx(-20), topPos, 250, eval(menuItems5.length*20)),
+//	new ypScrollMenu("menu6", "down", rePosx(90), topPos, 250, eval(menuItems6.length*20)),
+//	new ypScrollMenu("menu7", "down", rePosx(170), topPos, 250, eval(menuItems7.length*20)),
+//	new ypScrollMenu("menu8", "down", rePosx(250), topPos, 250, eval(menuItems8.length*20))
+	];
+	document.write('<style type="text/css">' + ypScrollMenu.styleMod + '</style>');
+	for (var i = 0; i < menus.length; i++) {
+		menus[i].onactivate = new Function("document.getElementById('act" + i + "').className='active';");
+		menus[i].ontransportationctivate = new Function("document.getElementById('act" + i + "').className='';");
+	}
+
+function buildMenu(menuName,menuItems,tableWid,subMenu){
+O_tr = "<tr>"
+C_tr = "</tr>"
+C_table = "</table>"
+C_div ="</div>"
+// STYLE="width:'+tableWid+'px;"
+document.write('<div style="visibility:hidden;" id="'+menuName+'Container">')
+document.write('<div style="visibility:inherit;width:'+tableWid+'px;"  id="'+menuName+'Content" class="menu2">')
+document.write('<table width="+tableWid+" cellspacing="0" cellpadding="0" bgColor="#262626" border="0">')
+document.write('<tr><td width="+tableWid+">')
+i = 1
+do{
+//  document.write(O_tr)
+//  document.write('<td width="1" class="bgmenugreen"><img src="images/spacer.gif" width="1" height="1" alt="" /></td>')
+if(menuItems[i][2] == null){
+  document.write('<div class="menu0" style="visibility:inherit;"><a href="'+ menuItems[i][1] +'">'+menuItems[i][0]+'</a></div>')
+//FROM ABOVE
+} else {
+  //alert(menuItems[i][2])
+  document.write('<div class="menu0" style="visibility:inherit;" onMouseOver="ypScrollMenu.showMenu2(\''+menuItems[i][2]+'\');" onMouseOut="ypScrollMenu.hideMenu2(\''+menuItems[i][2]+'\');" id="'+menuItems[i][2]+'Actuator"><a href="'+menuItems[i][1]+'">'+menuItems[i][0]+'</a></div>')
+//FROM ABOVE
+}
+  i++
+  }
+while (i < menuItems.length)
+document.write('</tr></td></table>')
+
+document.write(C_div)
+document.write(C_div)
+}
+
+//menuName,menuItems,tableWid,subMenu
+
+
+buildMenu('menu1',menuItems1,'235')
+buildMenu('menu2',menuItems2,'235')
+  buildMenu('menu2_Sub1',menu2_SubItems1,'200')
+  buildMenu('menu2_Sub2',menu2_SubItems2,'200')
+buildMenu('menu3',menuItems3,'235')
+  buildMenu('menu3_Sub1',menu3_SubItems1,'200')
+  buildMenu('menu3_Sub2',menu3_SubItems2,'200')
+  buildMenu('menu3_Sub3',menu3_SubItems3,'200')
+  buildMenu('menu3_Sub4',menu3_SubItems4,'200')
+  buildMenu('menu3_Sub5',menu3_SubItems5,'210')
+  buildMenu('menu3_Sub6',menu3_SubItems6,'200')
+  buildMenu('menu3_Sub7',menu3_SubItems7,'240')
+  buildMenu('menu3_Sub8',menu3_SubItems8,'200')
+
+buildMenu('menu4',menuItems4,'250')
+  buildMenu('menu4_Sub1',menu4_SubItems1,'200')
+  buildMenu('menu4_Sub2',menu4_SubItems2,'200')
+</script>
+
+<!--end TransHead--></noindex>
+<SCRIPT language="JavaScript">
+whichDept = "transportation"
+whichStyle = "transportation_frontend"
+</SCRIPT>
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center" bgcolor="#ffffff">
+<TR>
+  <td width="185" height="100%" valign="top" bgcolor="#99cc67">
+    <img src="images/sdottopnavleft.gif" alt="" width="185" height="45" border="0"><br clear=all>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr id="spokane" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="spokanestreet.htm">South Spokane Street Project Home</a></td>
+  </tr>
+
+  <!--   <tr id="past" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="spokanestreetpast.htm">Recent Construction Updates</a></td>
+  </tr>-->
+    <tr id="detour" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="spokanestreetdetour.htm">Detours and Alternate Routes</a></td>
+  </tr>
+    <tr id="hist" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="spokanestreethistory.htm">Project History</a></td>
+  </tr>
+ 
+  <tr id="spokaneprogress" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="spokanestreetprogress.htm">Progress Bulletins</a></td>
+  </tr><!-- 
+  <tr id="faqs" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="spokanestreetfaqs.htm">Frequently Asked Questions</a></td>
+  </tr> -->
+
+  </table>
+  
+    <table width="185" cellspacing="0" cellpadding="0" bgcolor="#5B5BB1">
+  <tr><td height="100%"><div align="center"><br><img src="images/greenfade.jpg" alt="" width="185" height="108" border="0"></div></td></tr></table>
+  </td>
+  <TD width="590" style="padding:10" valign="top">
+<!--START CONTENT HERE   -->
+	
+	<p class="title"> South Spokane Street  Project</p>
+    <table width="60" border="0" align="right" cellpadding="4" cellspacing="0" bgcolor="#DDDDEA" style="margin:5px; margin-right:0px;">
+  <tr>
+    <td><script type="text/javascript" src="http://w.sharethis.com/button/sharethis.js#tabs=web%2Cpost%2Cemail&amp;charset=utf-8&amp;services=reddit%2Cdigg%2Cfacebook%2Cmyspace%2Cdelicious%2Cstumbleupon%2Cyahoo_buzz%2Cmixx%2Ctechnorati%2Cgoogle_bmarks%2Cyahoo_bmarks%2Cwindows_live%2Cpropeller%2Cfriendfeed%2Cnewsvine%2Cxanga%2Clinkedin%2Cblinklist%2Cfurl%2Cslashdot&amp;style=default&amp;publisher=88a37875-00ee-4482-8922-5dc2c640fd28&amp;headerbg=%23e0f0ce&amp;inactivebg=%23ddddea&amp;linkfg=%235b5bb1"></script></td>
+  </tr>
+</table>
+	<p>
+      <strong> Revised December 7, 2010 </strong></p>
+    <table width="95%" border="0" align="center" cellpadding="4" bgcolor="#EEEEEE" style="border: thin dashed #5b5bb1;">
+      <tr>
+        <td>    
+    
+           
+            
+            <p align="center"><strong> UPDATE: Right-Turn Restriction Lifted</strong></p>
+            <p> The contractor working for the Seattle Department of Transportation (SDOT) to widen the Spokane Street Viaduct has completed work to form and pour a column in the island adjacent to the existing dedicated westbound right turn lane. This means the restriction on right-turns at that juncture is now lifted.</p>
+            <p> More construction updates to come.</p></td>
+      </tr>
+    </table>   
+    <p class="sub">Making Progress</p> 
+    
+    <p>The Spokane Street Viaduct is getting wider, piece by piece.  Below are photos taken October 12, 2010.</p>
+    
+    <p align="center"><img src="images/spokane1012a.jpg" width="280" height="210"><img src="images/spokane1012b.jpg" width="280" height="210"></p>
+    
+    <p align="center"><img src="images/spokane1012c.jpg" width="280" height="211"><img src="images/spokane1012d.jpg" width="280" height="210"></p>
+    
+    <p><img src="images/spokane1012e.jpg" width="280" height="212" hspace="5" vspace="5" align="right">The last major milestone in the project was the opening of the new eastbound 4th Ave S off-ramp, originally set to be complete by December 2010.  The new off-ramp officially opened August 16th, 2010,allowing motorists, transit and freight direct access to northbound and southbound 4th Avenue S while avoiding rail traffic. Ramp construction was possible in part because of $25 million in funding from the Washington State Department of Transportation. The initial construction estimate for the 4th Avenue S off-ramp was $42 million.  The aerial photo to the right was taken July 31, 2010 and shows the nearly complete 4th Ave S off-ramp structure that opened two weeks later – significantly ahead of schedule and under budget.</p>
+    
+      <p class="sub"><strong> Key Schedule Dates</strong></p>
+      <table width="99%" border="1" cellpadding="3" cellspacing="0">
+      <tr bgcolor="#99CC67">
+        <td width="85" valign="bottom"><p><strong> Date* </strong></p></td>
+        <td width="481" valign="bottom"><p><strong> Closure or milestone </strong></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p> January 2010 </p></td>
+        <td valign="bottom"><p> Close and remove existing off-ramp from westbound South Spokane Street Viaduct to 4th Avenue South </p></td>
+      </tr>
+      <tr bgcolor="#E9F3DE">
+        <td valign="top"><p> January 2010 </p></td>
+        <td valign="bottom"><p> Close westbound South Spokane Street (lower roadway) between 6th Avenue South and 4th Avenue South, then to East Marginal Way by February 1 </p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p>May 17, 2010
+
+</p></td>
+        <td valign="bottom"><p>Close and remove existing on-ramp to westbound South Spokane Street Viaduct from 1st Avenue South
+
+</p></td>
+      </tr>
+      <tr bgcolor="#E9F3DE">
+        <td valign="top"><p> Summer 2010 </p></td>
+        <td valign="bottom"><p> Open eastbound South Spokane Street lower roadway </p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p> August 16, 2010 </p></td>
+        <td valign="bottom"><p>Open new eastbound South Spokane Street Viaduct off-ramp to north- and southbound 4th Avenue South
+
+</p></td>
+      </tr>
+      <tr bgcolor="#E9F3DE">
+        <td valign="top"><p> Fall 2011 </p></td>
+        <td valign="bottom"><p> Open new westbound Spokane Street Viaduct on- and off-ramps at 1st Avenue South </p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p> May 2012 </p></td>
+        <td valign="bottom"><p> Project complete </p></td>
+      </tr>
+    </table>    <p> <em> *
+
+
+        <em> all future dates subject to change due to unforeseen circumstances </em></em></p>
+        <p class="sub"><strong>Project Description </strong></p>
+        <p><img src="images/btg_logo_small_notag.gif" width="150" height="56" hspace="3" vspace="4" align="right">The Seattle Department of Transportation (SDOT) is widening and improving the South Spokane Street Viaduct---the 60-year-old elevated roadway that carries 65,000-70,000 vehicles daily between I-5 and the West Seattle Bridge.  The South Spokane Street project creates a new two-lane eastbound off-ramp leading to Fourth Avenue South; relocates the westbound on- and off- ramps to a new First Avenue South ramp; widens the upper roadway to the north by 41 feet - between Sixth Avenue South and East Marginal Way; and rebuilds the lower roadway in concrete, with new curbs, sidewalks and improved pedestrian and bicycle access.  Work on this long-awaited project began in 2008 and is set to wrap up in 2012.</p>
+        <p><strong><a href="http://www9.seattle.gov/transportation/docs/spokane/SpokaneSt_April2010.Newsletter.pdf">April 2010 Project Newsletter</a></strong></p>
+        <table width="99%"  border="0" align="center" cellpadding="0" cellspacing="5">
+        <tr>
+          <td><div align="center"><p align="center"><div style="width:425px" id="__ss_3460601" align="center">
+      <div align="center"><strong><a href="http://www.slideshare.net/allieger/spokane-before-and-after" title="Spokane before &amp; after">Spokane before &amp; after</a></strong>
+            <object width="425" height="355" align="center">
+              <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=spokanebeforeafter-100414164523-phpapp02&rel=0&stripped_title=spokane-before-and-after" />
+              <param name="allowFullScreen" value="true"/>
+              <param name="allowScriptAccess" value="always"/>
+              <embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=spokanebeforeafter-100414164523-phpapp02&rel=0&stripped_title=spokane-before-and-after" width="425" height="355" align="center" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
+            </object>
+			
+			
+      </div>
+    </div>
+    
+      </p></div></td>
+        </tr>
+      </table> 
+		
+		<p align="center"><a href="images/SpokaneViaductProjectArea.jpg">Click here to view larger version of Project Overview Map</a>  <br>
+<br>
+
+<a href="images/SpokaneViaductProjectArea.jpg"><img src="images/SpokaneViaductProjectAreasm.jpg" alt="" width="500" height="269" border="0"></a></p>
+		
+        <p>&nbsp; </p>
+    <table width="100%" border="1" cellspacing="0" cellpadding="11" bordercolor="#C0BED8">
+	 
+
+	 <tr>
+	   <td colspan="2"><span class="style1"> Widening of Spokane Viaduct (Upper Roadway) </span> </td>
+	   </tr>
+	 <tr bgcolor="#C0BED8">
+    <td width="50%"><div align="center"><strong>Changes</strong></div></td>
+    <td width="50%"><div align="center"><strong>Benefits</strong></div></td>
+  </tr>
+  <tr>
+   <td valign="top"><p><strong> </strong> The upper roadway between 6th Avenue South and East Marginal Way will be widened to the north by 41 feet.</p>
+     <p> The existing upper roadway deck will be repaved and variable message signs will be installed.</p>
+     Seismic strengthening of the viaduct will be completed. </td>
+     <td valign="top"><p>  The widened structure will allow room for: </p>
+       <ul>
+         <li> Two thru lanes of traffic in each direction </li>
+         <li> A new westbound acceleration/ deceleration lane </li>
+         <li> A permanent median </li>
+         <li> Wider lanes and shoulders </li>
+         <li>An additional eastbound HOV/Transit lane between East Marginal Way and 4th Ave South </li>
+       </ul>       </td>
+  </tr>
+   <tr>
+    <td colspan="2" align="center" valign="top"><img src="images/spokanebothnowthen.gif" width="507" height="236" border="0" usemap="#Map"></td>
+    </tr>
+  <tr>
+    <td colspan="2" class="style1"><strong>New Eastbound 4th Avenue Off-Ramp</strong> </td>
+  </tr>
+  <tr bgcolor="#C0BED8">
+    <td><div align="center"><strong>Changes</strong></div></td>
+    <td><div align="center"><strong>Benefits</strong></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><p> A new eastbound, two-lane off-ramp will be added to the Spokane Street upper roadway. The ramp will touch down at 4th Avenue South, where vehicles may head either northbound or southbound on 4th Avenue South. </p>
+      </td>
+    <td valign="top"><p>  The new ramp provides eastbound travelers on the West Seattle Bridge with direct access to downtown Seattle via 4th Avenue South. </p>
+        <p> This new exit will allow traffic to exit the viaduct east of the rail tracks and thus avoid surface congestion due to rail-caused delays for vehicles. </p>
+        In addition, whenever the upper roadway becomes congested due to back-ups onto I-5, the new ramp will allow drivers to exit onto surface streets. </td>
+  </tr>
+  
+	  <tr>
+        <td align="center" valign="top"><strong><img src="images/spokane_before_rammp.jpg" alt="Before" width="250" height="161"><br>
+    Before</strong></td>
+        <td align="center" valign="top"><strong><img src="images/spokane_after_rammp.jpg" alt="after" width="250" height="161"><br>
+    After</strong></td>
+	    </tr>
+	  <tr>
+	    <td colspan="2"><strong class="style1">New Westbound On- and Off-Ramp at 1st Avenue </strong> </td>
+	    </tr>
+	  <tr bgcolor="#C0BED8">
+        <td><div align="center"><strong>Changes</strong></div></td>
+        <td><div align="center"><strong>Benefits</strong></div></td>
+	    </tr>
+	  <tr>
+        <td valign="top"><p> The existing ramp at 4th Avenue South for westbound traffic will be replaced by a new ramp at 1st Avenue South, built to current design standards. </p>
+          <p> The existing westbound 1st Ave. on-ramp will be demolished, as crews widen the upper roadway 41 feet to the north. </p></td>
+        <td valign="top">Relocating the westbound ramps to 1st Avenue South will improve westbound traffic flow and safety. (The existing ramps at 4th Avenue South require an abrupt weave from the I-5 merge to exit off the viaduct, and a sharp right turn to enter traffic westbound. The new westbound merge lanes at 1st Avenue South will allow for smoother and much safer entry to and exit from the upper roadway.)</td>
+	    </tr>
+	  <tr>
+	    <td colspan="2" class="style1"><strong> South Spokane Street Reconstruction (lower roadway)</strong> </td>
+	    </tr>
+	  <tr bgcolor="#C0BED8">
+    <td width="50%"><div align="center"><strong>Changes</strong></div></td>
+    <td width="50%"><div align="center"><strong>Benefits</strong></div></td>
+  </tr>
+  <tr>
+   <td valign="top">The lower roadway will be rebuilt with curbs and gutters, and a new 10-foot wide sidewalk with landscaping will be installed along the north side of the lower roadway.&nbsp; The eastbound lower roadway will re-open the summer of 2010 while the westbound lower roadway will re-open the spring of 2012. </td>
+     <td valign="top">Improvements to the lower roadway will create safer travel options for pedestrians and cyclists, as well as for transit, freight and the motoring public.&nbsp; The work will also beautify the area; improve drainage and result in a longer-lasting roadway. </td>
+  </tr>
+</table>
+<p class="sub">Detour Routes</p>
+    <p><a name="map"></a>   Contractors working for the Seattle Department of Transportation (SDOT) will be widening the upper roadway 41 feet to the north and building a new on- and off-ramp along 1st Ave S in this next year. Alternative routes during construction are noted in the map below and explained in more detail on the <a href="http://www.seattle.gov/transportation/spokanestreetdetour.htm"><strong> detours page</strong></a>. </p>
+    <p align="center"><a href="images/SpokaneStDetourMap_100519.png"><img src="images/SpokaneStDetourMap_100519.gif" width="530" height="583" border="0"></a></p>
+    <p>  <a name="twit"></a>In the sixteen months 
+
+
+(May 2010 &ndash; September 2011) during which there will be no westbound access to the Spokane Street Viaduct from surface streets in SODO, southbound vehicles approaching Spokane on First Ave S will be detoured to the low level swing bridge to get to West Seattle.&nbsp; To reduce the expected congestion on this bridge during construction, SDOT has requested that marine vessels voluntarily provide advance notification when they will require the swing bridge to open, enabling drivers to plan accordingly. <span class="style3"><strong><strong>When SDOT receives advance notification of a bridge opening expected during afternoon peak travel time (3 p.m. to 7 p.m. on weekdays), this opening will be announced on the electronic messaging signs now operating at Terminal 5 and at Fourth and Spokane</strong>. </strong></span></p>
+    <p> <span class="style3"><strong>SDOT staff will also send the message with a specific time, if available, using Twitter</strong> (sign up to receive the Twitter messages at <a href="http://twitter.com/seattledot"><strong>http://twitter.com/seattledot</strong></a>).</span> The closure will also be posted on the Travelers Information Map on SDOT&rsquo;s website, <a href="http://www.seattle.gov/travelers">http://www.seattle.gov/travelers</a></p>
+    <p>For questions regarding how Metro Transit bus routes will be affected during this construction period, contact King County Metro Transit directly: by phone&nbsp;at (206) 553-3000; email at <a href="mailto:customer.comments@kingcounty.gov"> Customer.Comments@kingcounty.gov</a>; or visit <a href="http://www.kingcounty.gov/metro"> www.kingcounty.gov/metro</a> for route information. &nbsp;Specifically, riders of routes 15, 18, 21, 22, 56, 57, 118, 119 are most likely to be directly impacted.&nbsp; If you would like to receive King County Metro e-mail route alerts, you may sign-up for them at <strong><a href="http://metro.kingcounty.gov/up/rr/alertscenter.html">http://metro.kingcounty.gov/up/rr/alertscenter.html</a></strong>. </p>
+    <p><em> Please note the primary detour route is a heavily used <a href="http://www.seattle.gov/transportation/docs/spokane/SpokaneCorridorTruckRouteMap.pdf">truck route</a> serving industry in the Duwamish and the Port of Seattle&rsquo;s terminals. Many industrial and maritime businesses - and the thousands of jobs they support - depend on the corridor for the movement of goods.</em></p>
+    <p><strong> </strong></p>
+    <p class="sub">
+  <strong> <a name="info"></a>Staying Informed</strong></p>
+    <p><strong> Listserve notices:</strong> We will distribute email announcements for impending lane changes or closures, detours, schedules, etc. as well as periodic information about progress on the project. <strong>Use the form below </strong>to be added to that email list. </p>
+<p><strong> Progress Bulletins:</strong> We will periodically create and hand-deliver <a href="docs/spokane/SpokaneSt_April2010.factsheet.pdf">notices</a> to surrounding properties, providing information about recent progress, upcoming activities, expected impacts and mitigation measures. These will also be available at the SDOT office, on this Web site and through the listserve. We will also occasionally print and mail <a href="docs/spokane/SpokaneSt_April2010.Newsletter.pdf">newsletters</a>  to businesses and residences in a large area with general project information, schedule updates and contact information. These will also be made available to community groups, libraries and other distribution venues, as well as in our offices and posted online. If you have a suggestion for a valuable distribution point, <a href="mailto:leanne.nelson@seattle.gov"><strong> please let us know.</strong></a> Examples of this already in the works include distribution through Costco on 4th Ave S and via the Washington State Ferry System. </p>
+<p><strong> Web site updates:</strong> Information on the project will be maintained here. Flyers and newsletters will also be available online. </p>
+<p><strong> Project Update Briefings:</strong> We will provide periodic in-person updates to identify project stakeholders, such as West Seattle and Georgetown neighborhood organizations, the Freight Mobility Advisory committee (FMAC), the Manufacturing and Industrial Council (MIC), SODO Association and others. <a href="mailto:LeAnne.Nelson@seattle.gov"><strong> Contact us</strong></a> to find out about joining a group for a presentation, or having a presentation for your organization. </p>
+<p><strong> Alternative modes of communication: </strong> We are looking at other means of providing information on the current status of the project and on upcoming activities, including text messages and low power AM radio broadcasts. We are also posting project update stories to our <a href="http://sdotblog.seattle.gov/"><strong> Blog</strong></a> . If you have other suggestions on outreach methods, please <a href="mailto:LeAnne.Nelson@seattle.gov"><strong> let us know</strong></a> . We are committed to working with local community and business organizations to provide communications that meet their constituents&rsquo; needs. </p>
+<table width="95%" border="0" align="center" cellpadding="4" bgcolor="#EEEEEE" style="border: thin dashed #5b5bb1;">
+  <tr>
+    <td>
+  <tr>
+    <td>
+        <p> If you need this information translated, please call (206) 733-9990.</p>
+        <p>Si necesita traducir esta informaci&oacute;n al espa&ntilde;ol, llame al (206) 733-9990.</p>
+		<p> <img src="images/spokane_contact_noneng.gif" width="525" height="56" border="0"></p>
+		 <p> Kung kailangan mo ang impormasyon na ito na nakasalin sa Tagalog, mangyari lamang na tumawag sa (206) 733-9990.</p>
+        <p> Haddii aad u baahan tahay warbixintan oo Soomaali ku turjuman, fadlan la hadal (206) 733-9990.</p>
+        <p> N&#7871;u qu&yacute; v&#7883; c&#7847;n th&ocirc;ng tin n&agrave;y chuy&#7875;n ng&#7919; sang ti&#7871;ng Vi&#7879;t, xin g&#7885;i (206)733-9990.</p> </td>
+  </tr>
+</table><p>&nbsp;</p>
+If you would like more information about the project, please call or email LeAnne Nelson, SDOT Community Relations, at 206-684-3897 or by email at <a href="mailto:LeAnne.Nelson@seattle.gov"><strong> LeAnne.Nelson@seattle.gov</strong></a>
+<p> <a name="email"><br>
+</a></p>
+<center><table width="420" border="1" cellpadding="4" bordercolor="#99CC67">
+<tr>
+<td bgcolor="#FFFFCA">
+<b>E-mail Notification List</b><br><br>South Spokane Street  Project<br>
+
+<br>
+<form action="http://www2.seattle.gov/lists/lsoftupdate.asp" method="post">
+E-mail:&nbsp;&nbsp; <input type="text" size="45" name="Email" value=""><br>
+<input type="hidden" name="ConfName" value="SPOKANEPROJECT">
+<input type="hidden" name="ReturnPage" value="http://www.seattle.gov/transportation/spokanestreet.htm">
+
+
+<br>
+<input type="radio" name="UpdateType" value="SUB" checked>
+<b>Subscribe</b> (Join the list)<br>
+<br>
+<input type="radio" name="UpdateType" value="SIGNOFF">
+<b>Unsubscribe</b> (Remove me from the list)<br>
+<br>
+<input type="submit" value="Update Now">
+&nbsp;&nbsp;
+<input type="reset" value="Cancel">
+</form>
+</td>
+</tr>
+</table></center>
+
+
+</p>
+	
+	
+<!--END CONTENT HERE   -->
+	<p>&nbsp;</p>
+	</td>
+  </tr>
+</table>
+<!--end BODY TABLE-->
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+<TR>
+  <TD valign="top"><table width="775" border="0" cellspacing="0" cellpadding="5" align="center" bgcolor="#5b5bb1">
+<tr>
+  <td align="center" class="smallfooter"><a href="/transportation/">Home</a> | <a href="/transportation/about.htm">About Us</a> | <a href="/transportation/contact.htm">Contact Us</a> | <a href="http://www.seattle.gov/transportation/siteindex.htm">Site Index</a> | <a href="http://www.seattle.gov/transportation/sdotevents.htm">Events</a> | <a href="http://www.seattle.gov/transportation/sdotnews.htm">News</a> | <a href="http://www.seattle.gov/transportation/sdotfaqs.htm">FAQs</a> | <a href="http://www.seattle.gov/transportation/emailalerts.htm">E-Mail Alerts</a></td>
+</tr>
+</table></TD>
+</TR>
+</TABLE>
+<!--CITYWIDE footer-->
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+<TR>
+  <TD><noindex>
+<noindex>
+<style>
+#footerContainer {
+  width:773px;
+	*width:775px;
+  margin:0px auto;
+  border:1px solid #c8c8c8;
+  background: #e1e1e1; 
+}
+#footerContainer ul{
+	list-style: none;
+	margin: 0; padding: 0;
+	float: left;
+  height:145px
+}
+#footerContainer ul li {
+  line-height: 1.25;
+  list-style: none;
+	padding:0px;
+	margin:0px;
+	padding-left:10px;
+	width: 100%;
+	color: #000;
+}
+#footerContainer ul li h2 {
+	padding: 0px;  
+	margin: 0px;
+	margin-bottom:5px;
+	margin-top:5px;
+	font-weight: bold;
+  font-family: arial, helvetica;
+  text-transform:none;
+	font-size: 16px;
+  color:#575757;
+  background-color:transparent;
+}
+#footerContainer ul li a {
+	float: none; 
+	text-indent: 0; /*--Reset text indent--*/
+  font-family: arial, helvetica;
+  font-size:12px;
+	height: auto;
+  padding: 2px 5px 0px 15px;
+	display: block;
+	text-decoration: none;
+	color: #6d6d6d;
+	font-weight: bold;
+}
+#footerContainer ul li a:hover {color: #007dc3; font-decoration:underline}
+</style>
+<div align="center">
+  <div id="footerContainer" style="display:table;text-align:left">
+		<ul style="width:190px;">
+				<li><h2>Navigate to:</h2></li>
+				<li><a href="/">Seattle.gov Home Page</a></li>
+				<li><a href="/business/">Business In Seattle</a></li>
+				<li><a href="/living/">Living in Seattle</a></li>
+				<li><a href="/visiting/">Visiting Seattle</a></li>
+				<li><a href="/services/">City Services</a></li>
+		</ul>
+		<ul style="width:190px;border-right:1px solid #666">
+				<li><h2>&nbsp;</h2></li>
+				<li><a href="/mayor/">Mayor's Office</a></li>
+				<li><a href="/council/">City Council</a></li>
+				<li><a href="/departments/">City Departments</a></li>
+				<li> &nbsp;</li>
+				<li> &nbsp;</li>
+		</ul>
+		<ul style="width:190px;border-right:1px solid #666">
+				<li><h2>We're Here to Help...</h2></li>
+				<li><a href="/customerservice/request.htm">Questions / Complaints</a></li>
+				<li><a href="/html/citizen/faqs.htm">FAQs</a></li>
+				<li><a href="/directory/">Employee Directory</a></li>
+  			<li><a href="/customerservice/"><b style="color:#000">City Customer Service<br/> Call (206) 684-CITY</b></a></li>
+		</ul>
+		<ul style="width:190px;">
+				<li style=""><h2>Follow Us</h2></li>
+				<li><a href="/citylink">CityLink Blogs</a></li>
+				<li><a href="/html/citizen/socialmedia.htm">Social Media Sites</a></li>
+<!--		<li><a href="">ShareThis</a></li>-->
+		</ul>
+  </div>
+	<div id="footer2" style="margin:0px auto;background-color:#666;color:#eee;width:775px;height:30px;padding:0px;">
+	<ul style="list-style:none;display:inline;width:100%;margin:0px;">
+		<li style="list-style:none;margin:0;padding:0;padding-top:6px;padding-left:10px;float:left;font-family: arial, helvetica;font-size:12px;color:#e1e1e1;">&copy; Copyright 1995-2010 City of Seattle</li>
+		<li style="list-style:none;margin:0;padding:0;padding-top:6px;padding-right:10px;float:right;font-family: arial, helvetica;font-size:12px;"><a style="color:#e1e1e1;text-decoration:none" href="/pan/privacypol.htm">Privacy and Security Policy</a></li>
+	</ul>	
+	</div>
+</div>
+<br/>
+</noindex>
+</noindex></TD>
+</TR>
+</TABLE>
+</div>
+<map name="Map">
+  <area shape="rect" coords="234,4,498,232" href="images/spokanestreetcontract4bnew.gif" target="_blank" alt="Click for larger">
+  <area shape="rect" coords="4,5,229,231" href="images/spokanestreetcontract4anew.gif" target="_blank" alt="Click for larger">
+</map>
+</BODY>
+</HTML>
