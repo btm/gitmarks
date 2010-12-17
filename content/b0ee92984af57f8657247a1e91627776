@@ -1,0 +1,1545 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var a=window;function c(b){this.t={};this.tick=function(d,i,e){e=e?e:(new Date).getTime();this.t[d]=[e,i]};this.tick("start",null,b)}var f=new c;a.jstiming={Timer:c,load:f};try{var g=null;if(a.chrome&&a.chrome.csi)g=Math.floor(a.chrome.csi().pageT);if(g==null)if(a.gtbExternal)g=a.gtbExternal.pageT();if(g==null)if(a.external)g=a.external.pageT;if(g)a.jstiming.pt=g}catch(h){};a.tickAboveFold=function(b){b=b;var d=0;if(b.offsetParent){do d+=b.offsetTop;while(b=b.offsetParent)}b=d;b<=750&&a.jstiming.load.tick("aft")};var j=false;function k(){if(!j){j=true;a.jstiming.load.tick("firstScrollTime")}}a.addEventListener?a.addEventListener("scroll",k,false):a.attachEvent("onscroll",k);
+ })();</script>
+<meta content='true' name='MSSmartTagsPreventParsing'/>
+<meta content='blogger' name='generator'/>
+<link href='http://www.blogger.com/favicon.ico' rel='icon' type='image/vnd.microsoft.icon'/>
+<link href='http://cliffmass.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Cliff Mass Weather Blog - Atom" href="http://cliffmass.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Cliff Mass Weather Blog - RSS" href="http://cliffmass.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Cliff Mass Weather Blog - Atom" href="http://www.blogger.com/feeds/7478606652950905956/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=7478606652950905956" />
+<link rel="me" href="http://www.blogger.com/profile/13948649423540350788" />
+<link rel="openid.server" href="http://www.blogger.com/openid-server.g" />
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } })(); </script> <![endif]-->
+<title>Cliff Mass Weather Blog</title>
+<link type='text/css' rel='stylesheet' href='http://www.blogger.com/static/v1/widgets/1743847221-widget_css_bundle.css' />
+<link type='text/css' rel='stylesheet' href='http://www.google.com/uds/css/gsearch.css' />
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=7478606652950905956&zx=63fd93ad-ab6d-4199-81b5-c062f3167392"/>
+<style type="text/css">#navbar-iframe { display:block }
+</style>
+
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Minima
+Designer: Douglas Bowman
+URL:      www.stopdesign.com
+Date:     26 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff">
+<Variable name="textcolor" description="Text Color"
+type="color" default="#333">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#58a">
+<Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#666">
+<Variable name="descriptioncolor" description="Blog Description Color"
+type="color" default="#999">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color"
+type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#999">
+<Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666">
+<Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#999">
+<Variable name="bodyfont" description="Text Font"
+type="font" default="normal normal 100% Georgia, Serif">
+<Variable name="headerfont" description="Sidebar Title Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif">
+<Variable name="pagetitlefont" description="Blog Title Font"
+type="font"
+default="normal normal 200% Georgia, Serif">
+<Variable name="descriptionfont" description="Blog Description Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="postfooterfont" description="Post Footer Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="startSide" description="Side where text starts in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="Side where text ends in blog language"
+type="automatic" default="right">
+*/
+/* Use this with templates/template-twocol.html */
+body {
+background:#ffffff;
+margin:0;
+color:#15222b;
+font:x-small Georgia Serif;
+font-size/* */:/**/small;
+font-size: /**/small;
+text-align: center;
+}
+a:link {
+color:#003366;
+text-decoration:none;
+}
+a:visited {
+color:#2b2715;
+text-decoration:none;
+}
+a:hover {
+color:#cc6600;
+text-decoration:underline;
+}
+a img {
+border-width:0;
+}
+/* Header
+-----------------------------------------------
+*/
+#header-wrapper {
+width:800px;
+margin:0 auto 10px;
+border:1px solid #400058;
+}
+#header-inner {
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+}
+#header {
+margin: 5px;
+border: 1px solid #400058;
+text-align: center;
+color:#15222b;
+}
+#header h1 {
+margin:5px 5px 0;
+padding:15px 20px .25em;
+line-height:1.2em;
+text-transform:uppercase;
+letter-spacing:.2em;
+font: normal normal 200% Georgia, Serif;
+}
+#header a {
+color:#15222b;
+text-decoration:none;
+}
+#header a:hover {
+color:#15222b;
+}
+#header .description {
+margin:0 5px 5px;
+padding:0 20px 15px;
+max-width:800px;
+text-transform:uppercase;
+letter-spacing:.2em;
+line-height: 1.4em;
+font: normal bold 86% Georgia, Times, serif;
+color: #1B703A;
+}
+#header img {
+margin-left: auto;
+margin-right: auto;
+}
+/* Outer-Wrapper
+----------------------------------------------- */
+#outer-wrapper {
+width: 800px;
+margin:0 auto;
+padding:10px;
+text-align:left;
+font: normal normal 106% Georgia, Times, serif;
+}
+#main-wrapper {
+width: 460px;
+float: left;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#sidebar-wrapper {
+width: 310px;
+float: right;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+margin:1.5em 0 .75em;
+font:normal bold 89% Trebuchet, Trebuchet MS, Arial, sans-serif;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color:#2b2715;
+}
+/* Posts
+-----------------------------------------------
+*/
+h2.date-header {
+margin:1.5em 0 .5em;
+}
+.post {
+margin:.5em 0 1.5em;
+border-bottom:1px dotted #400058;
+padding-bottom:1.5em;
+}
+.post h3 {
+margin:.25em 0 0;
+padding:0 0 4px;
+font-size:140%;
+font-weight:normal;
+line-height:1.4em;
+color:#cc6600;
+}
+.post h3 a, .post h3 a:visited, .post h3 strong {
+display:block;
+text-decoration:none;
+color:#cc6600;
+font-weight:normal;
+}
+.post h3 strong, .post h3 a:hover {
+color:#15222b;
+}
+.post-body {
+margin:0 0 .75em;
+line-height:1.6em;
+}
+.post-body blockquote {
+line-height:1.3em;
+}
+.post-footer {
+margin: .75em 0;
+color:#2b2715;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+line-height: 1.4em;
+}
+.comment-link {
+margin-left:.6em;
+}
+.post img {
+padding:4px;
+border:1px solid #400058;
+}
+.post blockquote {
+margin:1em 20px;
+}
+.post blockquote p {
+margin:.75em 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments h4 {
+margin:1em 0;
+font-weight: bold;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color: #2b2715;
+}
+#comments-block {
+margin:1em 0 1.5em;
+line-height:1.6em;
+}
+#comments-block .comment-author {
+margin:.5em 0;
+}
+#comments-block .comment-body {
+margin:.25em 0 0;
+}
+#comments-block .comment-footer {
+margin:-.25em 0 2em;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.1em;
+}
+#comments-block .comment-body p {
+margin:0 0 .75em;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar {
+color: #003366;
+line-height: 1.5em;
+}
+.sidebar ul {
+list-style:none;
+margin:0 0 0;
+padding:0 0 0;
+}
+.sidebar li {
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:.25em;
+padding-left:15px;
+text-indent:-15px;
+line-height:1.5em;
+}
+.sidebar .widget, .main .widget {
+border-bottom:1px dotted #400058;
+margin:0 0 1.5em;
+padding:0 0 1.5em;
+}
+.main .Blog {
+border-bottom-width: 0;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+padding: 4px;
+border: 1px solid #400058;
+}
+.profile-data {
+margin:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #2b2715;
+font-weight: bold;
+line-height: 1.6em;
+}
+.profile-datablock {
+margin:.5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+.profile-link {
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+/* Footer
+----------------------------------------------- */
+#footer {
+width:660px;
+clear:both;
+margin:0 auto;
+padding-top:15px;
+line-height: 1.6em;
+text-transform:uppercase;
+letter-spacing:.1em;
+text-align: center;
+}
+
+--></style>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener("load",
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<iframe src="http://www.blogger.com/navbar.g?targetBlogID=7478606652950905956&amp;blogName=Cliff+Mass+Weather+Blog&amp;publishMode=PUBLISH_MODE_BLOGSPOT&amp;navbarType=TAN&amp;layoutType=LAYOUTS&amp;searchRoot=http%3A%2F%2Fcliffmass.blogspot.com%2Fsearch&amp;blogLocale=en&amp;homepageUrl=http%3A%2F%2Fcliffmass.blogspot.com%2F" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="30px" width="100%" id="navbar-iframe" allowtransparency="true" title="Blogger Navigation and Search"></iframe>
+<div></div></div></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+</span>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+Cliff Mass Weather Blog
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>This blog provides my latest forecast or comments on current weather or other topics</span></p>
+</div>
+</div>
+</div></div>
+</div>
+<div id='content-wrapper'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol section' id='crosscol'></div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Thursday, December 16, 2010</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='6091647027839419793'></a>
+<h3 class='post-title entry-title'>
+<a href='http://cliffmass.blogspot.com/2010/12/models.html'>Models</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_vgawnhRg_KY/TQrGsS2TNuI/AAAAAAAADqM/nrDtLfVkcSY/s1600/slp.12.0000.gif"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 270px; height: 246px;" src="http://1.bp.blogspot.com/_vgawnhRg_KY/TQrGsS2TNuI/AAAAAAAADqM/nrDtLfVkcSY/s400/slp.12.0000.gif" alt="" id="BLOGGER_PHOTO_ID_5551467954963691234" border="0" /></a><br /><span class="blsp-spelling-error" id="SPELLING_ERROR_0">Over</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_1">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_2">months</span>, I <span class="blsp-spelling-error" id="SPELLING_ERROR_3">get</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_4">lots</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_5">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_6">questions</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_7">about</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_8">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_9">various</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_10">models</span> local <span class="blsp-spelling-error" id="SPELLING_ERROR_11">forecasters</span> use...<span class="blsp-spelling-error" id="SPELLING_ERROR_12">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_13">considering</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_14">that</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_15">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_16">weather</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_17">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_18">relatively</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_19">benign</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_20">right</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_21">now</span>....<span class="blsp-spelling-error" id="SPELLING_ERROR_22">perhaps</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_23">this</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_24">is</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_25">good</span> time <span class="blsp-spelling-error" id="SPELLING_ERROR_26">to</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_27">talk</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_28">about</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_29">them</span>.<br /><br /><span class="blsp-spelling-error" id="SPELLING_ERROR_30">Carpenters</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_31">have</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_32">hammers</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_33">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_34">power</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_35">saws</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_36">plumbers</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_37">have</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_38">wrenches</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_39">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_40">meteorologists</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_41">have</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_42">computer</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_43">models</span>.  <span class="blsp-spelling-error" id="SPELLING_ERROR_44">Now</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_45">these</span> are <span class="blsp-spelling-error" id="SPELLING_ERROR_46">not</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_47">physical</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_48">models</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_49">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_50">course</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_51">but</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_52">rather</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_53">simulation</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_54">models</span>.<br /><span class="blsp-spelling-error" id="SPELLING_ERROR_55">The</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_56">equations</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_57">that</span> describe <span class="blsp-spelling-error" id="SPELLING_ERROR_58">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_59">atmosphere</span> are <span class="blsp-spelling-error" id="SPELLING_ERROR_60">programmed</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_61">on</span> digital <span class="blsp-spelling-error" id="SPELLING_ERROR_62">computers</span>--<span class="blsp-spelling-error" id="SPELLING_ERROR_63">that</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_64">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_65">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_66">model</span>.  <span class="blsp-spelling-error" id="SPELLING_ERROR_67">We</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_68">start</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_69">with</span> a 3D <span class="blsp-spelling-error" id="SPELLING_ERROR_70">description</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_71">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_72">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_73">atmosphere</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_74">based</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_75">on</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_76">observations</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_77">known</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_78">at</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_79">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_80">initialization</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_81">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_82">then</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_83">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_84">model</span> can <span class="blsp-spelling-error" id="SPELLING_ERROR_85">integrate</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_86">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_87">equations</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_88">forward</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_89">in</span> time <span class="blsp-spelling-error" id="SPELLING_ERROR_90">to</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_91">provide</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_92">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_93">future</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_94">state</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_95">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_96">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_97">atmosphere</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_98">in</span> 3D.  <span class="blsp-spelling-error" id="SPELLING_ERROR_99">The</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_100">equations</span> are <span class="blsp-spelling-error" id="SPELLING_ERROR_101">generally</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_102">solved</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_103">on</span> a 3D <span class="blsp-spelling-error" id="SPELLING_ERROR_104">array</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_105">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_106">grid</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_107">points</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_108">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_109">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_110">distance</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_111">between</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_112">them</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_113">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_114">generally</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_115">termed</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_116">resolution</span>.  A 12-km <span class="blsp-spelling-error" id="SPELLING_ERROR_117">resolution</span> model has <span class="blsp-spelling-error" id="SPELLING_ERROR_118">the</span> horizontal <span class="blsp-spelling-error" id="SPELLING_ERROR_119">grid</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_120">points</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_121">separated</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_122">by</span> 12 km.  <span class="blsp-spelling-error" id="SPELLING_ERROR_123">These</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_124">models</span> are <span class="blsp-spelling-error" id="SPELLING_ERROR_125">some</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_126">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_127">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_128">most</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_129">complicated</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_130">constructs</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_131">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_132">our</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_133">species</span>...<span class="blsp-spelling-error" id="SPELLING_ERROR_134">encompassing</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_135">hundreds</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_136">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_137">thousands</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_138">to</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_139">millions</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_140">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_141">lines</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_142">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_143">code</span>...<span class="blsp-spelling-error" id="SPELLING_ERROR_144">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_145">represent</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_146">physical</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_147">processes</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_148">from</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_149">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_150">microscopic</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_151">to</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_152">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_153">planetary</span>.  <span class="blsp-spelling-error" id="SPELLING_ERROR_154">The</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_155">most</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_156">powerful</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_157">computers</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_158">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_159">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_160">planet</span> are <span class="blsp-spelling-error" id="SPELLING_ERROR_161">used</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_162">to</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_163">run</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_164">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_165">models</span>.  Be impressed, very impressed.<br /><br /><span class="blsp-spelling-error" id="SPELLING_ERROR_166">Now</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_167">at</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_168">typical</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_169">NWS</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_170">weather</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_171">service</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_172">office</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_173">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_174">forecasters</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_175">have</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_176">access</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_177">to</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_178">dozen</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_179">or</span> more <span class="blsp-spelling-error" id="SPELLING_ERROR_180">models</span>.  <span class="blsp-spelling-error" id="SPELLING_ERROR_181">Models</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_182">with</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_183">different</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_184">resolution</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_185">different</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_186">physical</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_187">descriptions</span>,  <span class="blsp-spelling-error" id="SPELLING_ERROR_188">different</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_189">ways</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_190">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_191">solving</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_192">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_193">equations</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_194">different</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_195">approaches</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_196">to</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_197">initialization</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_198">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_199">run</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_200">at</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_201">different</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_202">modeling</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_203">centers</span>.   So a <span class="blsp-spelling-error" id="SPELLING_ERROR_204">meteorologist</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_205">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_206">like</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_207">carpenter</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_208">with</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_209">dozen</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_210">or</span> more <span class="blsp-spelling-error" id="SPELLING_ERROR_211">hammers</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_212">each</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_213">different</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_214">each</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_215">better</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_216">in</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_217">some</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_218">situations</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_219">than</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_220">others</span>.<br /><br /><span class="blsp-spelling-error" id="SPELLING_ERROR_221">The</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_222">National</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_223">Weather</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_224">Service</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_225">runs</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_226">two</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_227">major</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_228">models</span>:  <span class="blsp-spelling-error" id="SPELLING_ERROR_229">The</span> Global <span class="blsp-spelling-error" id="SPELLING_ERROR_230">Forecast</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_231">System</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_232">Model</span> (<span class="blsp-spelling-error" id="SPELLING_ERROR_233">GFS</span>), <span class="blsp-spelling-error" id="SPELLING_ERROR_234">which</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_235">runs</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_236">over</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_237">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_238">entire</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_239">globe</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_240">at</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_241">resolution</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_242">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_243">roughly</span> 35km, <span class="blsp-spelling-error" id="SPELLING_ERROR_244">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_245">NAM</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_246">model</span> (<span class="blsp-spelling-error" id="SPELLING_ERROR_247">also</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_248">called</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_249">NMM</span>-<span class="blsp-spelling-error" id="SPELLING_ERROR_250">WRF</span>) <span class="blsp-spelling-error" id="SPELLING_ERROR_251">which</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_252">runs</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_253">at</span> 12-km <span class="blsp-spelling-error" id="SPELLING_ERROR_254">resolution</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_255">over</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_256">North</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_257">America</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_258">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_259">adjacent</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_260">oceanic</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_261">areas</span>.  <span class="blsp-spelling-error" id="SPELLING_ERROR_262">The</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_263">best</span> global <span class="blsp-spelling-error" id="SPELLING_ERROR_264">model</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_265">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_266">NOT</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_267">American</span>--a terrible <span class="blsp-spelling-error" id="SPELLING_ERROR_268">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_269">unnecessary</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_270">embarrassment</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_271">for</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_272">our</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_273">nation</span>--- <span class="blsp-spelling-error" id="SPELLING_ERROR_274">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_275">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_276">run</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_277">by</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_278">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_279">European</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_280">Center</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_281">for</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_282">Medium</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_283">Range</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_284">Weather</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_285">Forecasting</span>.  <span class="blsp-spelling-error" id="SPELLING_ERROR_286">The</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_287">UK</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_288">Met</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_289">Office</span> has <span class="blsp-spelling-error" id="SPELLING_ERROR_290">an</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_291">excellent</span> global <span class="blsp-spelling-error" id="SPELLING_ERROR_292">model</span> as <span class="blsp-spelling-error" id="SPELLING_ERROR_293">well</span>.  <span class="blsp-spelling-error" id="SPELLING_ERROR_294">The</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_295">Navy</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_296">runs</span> a global <span class="blsp-spelling-error" id="SPELLING_ERROR_297">model</span> (<span class="blsp-spelling-error" id="SPELLING_ERROR_298">NOGAPS</span>) <span class="blsp-spelling-error" id="SPELLING_ERROR_299">that</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_300">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_301">second</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_302">tier</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_303">but</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_304">useful</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_305">and</span> has a <span class="blsp-spelling-error" id="SPELLING_ERROR_306">very</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_307">good</span> regional <span class="blsp-spelling-error" id="SPELLING_ERROR_308">model</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_309">called</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_310">COAMPS</span>.<br /><br /><span class="blsp-spelling-error" id="SPELLING_ERROR_311">The</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_312">research</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_313">community</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_314">mainly</span> uses a <span class="blsp-spelling-error" id="SPELLING_ERROR_315">model</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_316">called</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_317">WRF</span> (<span class="blsp-spelling-error" id="SPELLING_ERROR_318">Weather</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_319">Research</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_320">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_321">Forecasting</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_322">Model</span>) <span class="blsp-spelling-error" id="SPELLING_ERROR_323">developed</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_324">at</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_325">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_326">National</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_327">Center</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_328">for</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_329">Atmospheric</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_330">Research</span>.  <span class="blsp-spelling-error" id="SPELLING_ERROR_331">This</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_332">is</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_333">state</span>-<span class="blsp-spelling-error" id="SPELLING_ERROR_334">of</span>-<span class="blsp-spelling-error" id="SPELLING_ERROR_335">the</span>-<span class="blsp-spelling-error" id="SPELLING_ERROR_336">art</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_337">high</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_338">resolution</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_339">weather</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_340">prediction</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_341">system</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_342">with</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_343">all</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_344">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_345">bells</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_346">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_347">whistles</span>.   <span class="blsp-spelling-error" id="SPELLING_ERROR_348">At</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_349">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_350">UW</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_351">we</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_352">run</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_353">WRF</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_354">operationally</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_355">at</span> 36, 12, 4, <span class="blsp-spelling-error" id="SPELLING_ERROR_356">and</span> 1.3 km <span class="blsp-spelling-error" id="SPELLING_ERROR_357">resolution</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_358">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_359">our</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_360">colleagues</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_361">at</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_362">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_363">National</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_364">Weather</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_365">Service</span> use <span class="blsp-spelling-error" id="SPELLING_ERROR_366">it</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_367">heavily</span>.   <span class="blsp-spelling-error" id="SPELLING_ERROR_368">This</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_369">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_370">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_371">model</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_372">output</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_373">you</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_374">see</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_375">most</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_376">frequently</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_377">on</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_378">this</span> blog<br /><br /><span class="blsp-spelling-error" id="SPELLING_ERROR_379">One</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_380">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_381">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_382">most</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_383">important</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_384">tasks</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_385">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_386">an</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_387">operational</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_388">forecaster</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_389">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_390">to</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_391">look</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_392">at</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_393">this</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_394">palette</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_395">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_396">model</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_397">forecasts</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_398">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_399">make</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_400">decision</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_401">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_402">what</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_403">they</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_404">think</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_405">will</span> be <span class="blsp-spelling-error" id="SPELLING_ERROR_406">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_407">most</span> probable <span class="blsp-spelling-error" id="SPELLING_ERROR_408">evolution</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_409">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_410">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_411">atmosphere</span>.  <span class="blsp-spelling-error" id="SPELLING_ERROR_412">Which</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_413">models</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_414">have</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_415">been</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_416">good</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_417">lately</span>?  <span class="blsp-spelling-error" id="SPELLING_ERROR_418">Which</span> has done <span class="blsp-spelling-error" id="SPELLING_ERROR_419">best</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_420">in</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_421">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_422">past</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_423">for</span> similar <span class="blsp-spelling-error" id="SPELLING_ERROR_424">situations</span>?    <span class="blsp-spelling-error" id="SPELLING_ERROR_425">And</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_426">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_427">forecast</span> can use <span class="blsp-spelling-error" id="SPELLING_ERROR_428">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_429">variability</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_430">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_431">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_432">model</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_433">forecasts</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_434">to</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_435">reach</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_436">conclusions</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_437">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_438">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_439">possible</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_440">future</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_441">evolutions</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_442">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_443">which</span> are <span class="blsp-spelling-error" id="SPELLING_ERROR_444">most</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_445">likely</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_446">to</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_447">occur</span>.   <br /><br /><span class="blsp-spelling-error" id="SPELLING_ERROR_448">And</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_449">there</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_450">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_451">MUCH</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_452">MUCH</span> more.   <span class="blsp-spelling-error" id="SPELLING_ERROR_453">The</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_454">model</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_455">output</span> can <span class="blsp-spelling-error" id="SPELLING_ERROR_456">often</span> be <span class="blsp-spelling-error" id="SPELLING_ERROR_457">improved</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_458">by</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_459">statistical</span> post-<span class="blsp-spelling-error" id="SPELLING_ERROR_460">processing</span>.   <span class="blsp-spelling-error" id="SPELLING_ERROR_461">For</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_462">example</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_463">if</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_464">model</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_465">is</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_466">typically</span> too <span class="blsp-spelling-error" id="SPELLING_ERROR_467">cool</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_468">at</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_469">certain</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_470">hours</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_471">you</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_472">could</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_473">alter</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_474">the</span>  <span class="blsp-spelling-error" id="SPELLING_ERROR_475">output</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_476">with</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_477">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_478">average</span> error.  <span class="blsp-spelling-error" id="SPELLING_ERROR_479">And</span> I <span class="blsp-spelling-error" id="SPELLING_ERROR_480">haven</span>'t <span class="blsp-spelling-error" id="SPELLING_ERROR_481">even</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_482">talked</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_483">about</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_484">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_485">newest</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_486">prediction</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_487">technology</span>....<span class="blsp-spelling-error" id="SPELLING_ERROR_488">ensemble</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_489">prediction</span>....<span class="blsp-spelling-error" id="SPELLING_ERROR_490">in</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_491">which</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_492">we</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_493">run</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_494">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_495">model</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_496">tens</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_497">or</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_498">hundreds</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_499">of</span> times <span class="blsp-spelling-error" id="SPELLING_ERROR_500">with</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_501">slightly</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_502">different</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_503">initializations</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_504">and</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_505">physics</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_506">to</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_507">get</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_508">probabilities</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_509">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_510">what</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_511">will</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_512">happen</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_513">in</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_514">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_515">future</span>.<br /><br /><span class="blsp-spelling-error" id="SPELLING_ERROR_516">This</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_517">is</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_518">highly</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_519">sophisticated</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_520">technology</span>--<span class="blsp-spelling-error" id="SPELLING_ERROR_521">and</span> I <span class="blsp-spelling-error" id="SPELLING_ERROR_522">am</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_523">highly</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_524">optimistic</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_525">for</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_526">future</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_527">improvements</span>.  And forecast HAS gotten much better over the past decades.<br /><br />So <span class="blsp-spelling-error" id="SPELLING_ERROR_528">next</span> time <span class="blsp-spelling-error" id="SPELLING_ERROR_529">you</span> are <span class="blsp-spelling-error" id="SPELLING_ERROR_530">thinking</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_531">about</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_532">making</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_533">fun</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_534">of</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_535">meteorologists</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_536">or</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_537">laugh</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_538">at</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_539">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_540">classic</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_541">jokes</span> (<span class="blsp-spelling-error" id="SPELLING_ERROR_542">you</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_543">guys</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_544">get</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_545">paid</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_546">for</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_547">forecasting</span> 50%!,  <span class="blsp-spelling-error" id="SPELLING_ERROR_548">meteorologists</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_549">have</span> a <span class="blsp-spelling-error" id="SPELLING_ERROR_550">pair</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_551">of</span> dice <span class="blsp-spelling-error" id="SPELLING_ERROR_552">in</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_553">the</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_554">backroom</span>, I wish I could get paid for being wrong all the time, etc), <span class="blsp-spelling-error" id="SPELLING_ERROR_555">bite</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_556">you</span> <span class="blsp-spelling-error" id="SPELLING_ERROR_557">lip</span>!
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>Cliff Mass Weather Blog</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://cliffmass.blogspot.com/2010/12/models.html' rel='bookmark' title='permanent link'><abbr class='published' title='2010-12-16T18:05:00-08:00'>6:05 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=7478606652950905956&postID=6091647027839419793' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=7478606652950905956&postID=6091647027839419793' title='Email Post'>
+<img alt='' class='icon-action' height='13' src='http://www.blogger.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+<span class='item-control blog-admin pid-1316811402'>
+<a href='http://www.blogger.com/post-edit.g?blogID=7478606652950905956&postID=6091647027839419793' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+<div id="latency-6091647027839419793"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-6091647027839419793")); } </script>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, December 14, 2010</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='1078834332354113401'></a>
+<h3 class='post-title entry-title'>
+<a href='http://cliffmass.blogspot.com/2010/12/last-nights-squall-line.html'>Last Night's Squall Line</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+Last night, between roughly 12:00 and 1:00 AM (depending on where you were) an intense line of thunderstorms and strong winds moved across the Washington coast and swept across western Washington.  Winds gusted to 60-70 mph along  the coast and to 40-50 mph in places across the interior.  A significant number of trees were toppled plus innumerable  loss of branches, resulting in power outages affecting thousands of people.  Thousands are still without power Tuesday evening.  And there was quite a bit of lightning too.<br /><br />    The cause a line of thunderstorms associated with a strong cold front.  Here is the radar image at around 12:30 AM (and a close in shot as well).  The strongest rain associated with the line is indicated by red color (very, very heavy rain is associated with reds!)<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_vgawnhRg_KY/TQfZyo4zJDI/AAAAAAAADp0/Nr5MYiDdE0s/s1600/201012140828.gif"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 354px;" src="http://3.bp.blogspot.com/_vgawnhRg_KY/TQfZyo4zJDI/AAAAAAAADp0/Nr5MYiDdE0s/s400/201012140828.gif" alt="" id="BLOGGER_PHOTO_ID_5550644529749763122" border="0" /></a><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_vgawnhRg_KY/TQfZ7sreuNI/AAAAAAAADp8/d4bkz2uRAIQ/s1600/radarnear.jpg"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 258px; height: 314px;" src="http://2.bp.blogspot.com/_vgawnhRg_KY/TQfZ7sreuNI/AAAAAAAADp8/d4bkz2uRAIQ/s400/radarnear.jpg" alt="" id="BLOGGER_PHOTO_ID_5550644685386463442" border="0" /></a>There was a considerable change in virtually all weather parameters with this front.  Here are the observations at the top of the atmospheric sciences building here at the <span class="blsp-spelling-error" id="SPELLING_ERROR_0">UW</span> (click to expand).  The winds gusted to 40 mph (top line), the wind direction shifted abruptly to the south, temperature plunged by 6F, pressure spiked upwards (fifth line), and lots of precipitation fell.  My dog was terrified.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_vgawnhRg_KY/TQgbBmonK2I/AAAAAAAADqE/x6Ij8X63pt8/s1600/20101215_24hr.jpg"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 394px; height: 400px;" src="http://4.bp.blogspot.com/_vgawnhRg_KY/TQgbBmonK2I/AAAAAAAADqE/x6Ij8X63pt8/s400/20101215_24hr.jpg" alt="" id="BLOGGER_PHOTO_ID_5550716255098841954" border="0" /></a>Was this predicted?  Not really.  We knew a strong front with good rain was coming in, but did not foresee such an intense event.  But with a coastal radar we probably would have seen it coming and been able to provide a few hours warning.<br /><br />The number of tree losses was undoubtedly aided by the saturated soil.  Wet soil has less adhesion to roots...less holding power...making it easier to wind to do its dirty work.<br /><br />The weather should calm down a bit now, with the jet stream and most of the action going into California, for the next few days.<br /><br />AND...today there was an F2 tornado at Aumsville, 10 miles NE of Salem, Oregon.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>Cliff Mass Weather Blog</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://cliffmass.blogspot.com/2010/12/last-nights-squall-line.html' rel='bookmark' title='permanent link'><abbr class='published' title='2010-12-14T12:53:00-08:00'>12:53 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=7478606652950905956&postID=1078834332354113401' onclick=''>22
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=7478606652950905956&postID=1078834332354113401' title='Email Post'>
+<img alt='' class='icon-action' height='13' src='http://www.blogger.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+<span class='item-control blog-admin pid-1316811402'>
+<a href='http://www.blogger.com/post-edit.g?blogID=7478606652950905956&postID=1078834332354113401' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+<div id="latency-1078834332354113401"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-1078834332354113401")); } </script>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sunday, December 12, 2010</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='5363280309848944050'></a>
+<h3 class='post-title entry-title'>
+<a href='http://cliffmass.blogspot.com/2010/12/videos-of-nw-rivers.html'>Videos of NW Rivers</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+Here in the Northwest we have something better than storm chasing....after big rainfall events, head to the rivers, and particularly major falls...if you can get there.  Some amazing videos of local rivers.<div style="text-align: center;"><br />Here is the South Fork  of <span class="blsp-spelling-error" id="SPELLING_ERROR_0">the Stillaguamish</span> at Granite Falls<br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://www.youtube.com/watch?v=QPs-Ggmk6JA"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 218px;" src="http://1.bp.blogspot.com/_vgawnhRg_KY/TQWfGBppYrI/AAAAAAAADpM/yStgZyhBwJ8/s400/granitefalls.JPG" alt="" id="BLOGGER_PHOTO_ID_5550017041675150002" border="0" /></a><a href="http://www.youtube.com/watch?v=QPs-Ggmk6JA">http://www.youtube.com/watch?v=QPs-Ggmk6JA</a><br /><br />or <span class="blsp-spelling-error" id="SPELLING_ERROR_1">Snoqualmie</span> Falls<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://www.youtube.com/watch?v=chqHvRMyYRM"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 368px; height: 276px;" src="http://4.bp.blogspot.com/_vgawnhRg_KY/TQWg_q7OaFI/AAAAAAAADpU/DCUqfZr7aqo/s400/snoqfalls.JPG" alt="" id="BLOGGER_PHOTO_ID_5550019131518904402" border="0" /></a><a href="http://www.youtube.com/watch?v=NMoagpThf6w">http://www.youtube.com/watch?v=chqHvRMyYRM</a><br /><br /><div style="text-align: left;">A good summary of the <span class="blsp-spelling-error" id="SPELLING_ERROR_2">NWS</span> flood warnings is found at:<br /></div><br /><img src="file:///C:/Users/CLIFFM%7E1/AppData/Local/Temp/moz-screenshot.png" alt="" /><a href="http://water.weather.gov/ahps2/forecasts.php?wfo=sew&amp;view=1,1,1,1,1,1,1,1&amp;toggles=10,7,8,2,9,15,6">http://water.weather.gov/ahps2/forecasts.php?wfo=sew&amp;view=1,1,1,1,1,1,1,1&amp;toggles=10,7,8,2,9,15,6</a><br /><br />Here is a graphic from it showing observed or potential flooding around the area:<br /><br /><div style="text-align: left;"><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_vgawnhRg_KY/TQWiLuZahDI/AAAAAAAADpc/AUP9LMOhekA/s1600/floodsummer.JPG"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 372px;" src="http://4.bp.blogspot.com/_vgawnhRg_KY/TQWiLuZahDI/AAAAAAAADpc/AUP9LMOhekA/s400/floodsummer.JPG" alt="" id="BLOGGER_PHOTO_ID_5550020438120891442" border="0" /></a>A number of flooding river and some represent major or moderate flooding (<span class="blsp-spelling-error" id="SPELLING_ERROR_3">Skokomish</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_4">Snohomish</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_5">Stillaguamish</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_6">Satsop</span>, <span class="blsp-spelling-error" id="SPELLING_ERROR_7">Skykomish</span>).   How is this done?  The National Weather Service takes rainfall observations and atmospheric model forecasts and use them to drive hydrological models of the flow in local rivers.  These simulations create plots of future <span class="blsp-spelling-error" id="SPELLING_ERROR_8">streamflow</span> in time called <span style="font-style: italic;" class="blsp-spelling-error" id="SPELLING_ERROR_9">hydrographs</span>.   We run such as system at the <span class="blsp-spelling-error" id="SPELLING_ERROR_10">UW</span> as well--here is an example of the output for the north fork of the <span class="blsp-spelling-error" id="SPELLING_ERROR_11">Stillaguamish</span> near Arlington:<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_vgawnhRg_KY/TQWk1-rtYmI/AAAAAAAADpk/gDXfSsnTNVo/s1600/newflow.ARGW1.gif"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 369px;" src="http://4.bp.blogspot.com/_vgawnhRg_KY/TQWk1-rtYmI/AAAAAAAADpk/gDXfSsnTNVo/s400/newflow.ARGW1.gif" alt="" id="BLOGGER_PHOTO_ID_5550023363070354018" border="0" /></a></div></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>Cliff Mass Weather Blog</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://cliffmass.blogspot.com/2010/12/videos-of-nw-rivers.html' rel='bookmark' title='permanent link'><abbr class='published' title='2010-12-12T20:18:00-08:00'>8:18 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=7478606652950905956&postID=5363280309848944050' onclick=''>8
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=7478606652950905956&postID=5363280309848944050' title='Email Post'>
+<img alt='' class='icon-action' height='13' src='http://www.blogger.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+<span class='item-control blog-admin pid-1316811402'>
+<a href='http://www.blogger.com/post-edit.g?blogID=7478606652950905956&postID=5363280309848944050' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+<div id="latency-5363280309848944050"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-5363280309848944050")); } </script>
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='5375366717835844038'></a>
+<h3 class='post-title entry-title'>
+<a href='http://cliffmass.blogspot.com/2010/12/rain-ending-over-puget-sound.html'>Rain Ending over Puget Sound</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+Just a brief note...as the precipitation band now pushes southward (however, the flooding is yet to come for many locations since it takes time for the precipitation to move down the rivers).<br /><br />Here is the total rain at 11:30 AM.  A band of over three inches across N. Seattle and over the eastern suburbs, and over 4 inches for the Kitsap. Much less to the north.<br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_vgawnhRg_KY/TQUm31X5vjI/AAAAAAAADpE/d-0gI23UVyw/s1600/KATX_20101212_1931.Z2.lrg.png"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 400px;" src="http://4.bp.blogspot.com/_vgawnhRg_KY/TQUm31X5vjI/AAAAAAAADpE/d-0gI23UVyw/s400/KATX_20101212_1931.Z2.lrg.png" alt="" id="BLOGGER_PHOTO_ID_5549884856465997362" border="0" /></a>Nearly eleven inches at Quinault! 7.3 inches at Cushman Dam. 4.2 inches at Verlot Ranger Statoon.  Darrington and Skykomish about 4.5 inches.    The totals in the mountains are impressive, but don't equal those of the REALLY big events.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>Cliff Mass Weather Blog</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://cliffmass.blogspot.com/2010/12/rain-ending-over-puget-sound.html' rel='bookmark' title='permanent link'><abbr class='published' title='2010-12-12T11:46:00-08:00'>11:46 AM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=7478606652950905956&postID=5375366717835844038' onclick=''>12
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=7478606652950905956&postID=5375366717835844038' title='Email Post'>
+<img alt='' class='icon-action' height='13' src='http://www.blogger.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+<span class='item-control blog-admin pid-1316811402'>
+<a href='http://www.blogger.com/post-edit.g?blogID=7478606652950905956&postID=5375366717835844038' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+<div id="latency-5375366717835844038"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-5375366717835844038")); } </script>
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='849521481504638502'></a>
+<h3 class='post-title entry-title'>
+<a href='http://cliffmass.blogspot.com/2010/12/amazing-totals.html'>Amazing Totals</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+This event still has hours to go, but the totals so far have been amazing.  Here is the latest 24-h totals ending 8 AM this morning for central Puget Sound from <span class="blsp-spelling-error" id="SPELLING_ERROR_0">Rainwatch</span>:<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_vgawnhRg_KY/TQT8tEA6oQI/AAAAAAAADos/Be3-_-x7PC4/s1600/seattlerain.png"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 400px;" src="http://1.bp.blogspot.com/_vgawnhRg_KY/TQT8tEA6oQI/AAAAAAAADos/Be3-_-x7PC4/s400/seattlerain.png" alt="" id="BLOGGER_PHOTO_ID_5549838491929190658" border="0" /></a><br />3-4 inches over the <span class="blsp-spelling-error" id="SPELLING_ERROR_1">Kitsap</span> and a band of 2.5-3 inches over N. Seattle and the eastern suburbs. In <span class="blsp-spelling-error" id="SPELLING_ERROR_2">Snohomish</span> County the rainfall declines rapidly.  Less south of Tacoma.  Here is the larger view..and keep in mind that you can't trust this over the Cascades, the coast and far to the south, since it is dependent on radar information.   Huge totals over southern Vancouver Island (over 6 inches). <a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_vgawnhRg_KY/TQT8tfMnl1I/AAAAAAAADo0/pv9FTtuGzWI/s1600/KATX_20101212_1609.Z1.lrg.png"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 400px;" src="http://3.bp.blogspot.com/_vgawnhRg_KY/TQT8tfMnl1I/AAAAAAAADo0/pv9FTtuGzWI/s400/KATX_20101212_1609.Z1.lrg.png" alt="" id="BLOGGER_PHOTO_ID_5549838499226031954" border="0" /></a> In the <span class="blsp-spelling-error" id="SPELLING_ERROR_3">Quinault</span> Valley there has already been over 8 inches (by 4 AM).   Mark <span class="blsp-spelling-error" id="SPELLING_ERROR_4">Albright</span> provided some more totals through 8 AM Sunday event totals (since 11 AM Saturday)<br /><br /><blockquote style="border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;" class="gmail_quote"><span style="font-family:courier new,monospace;">Seattle 2.67</span> <span style="font-family:courier new,monospace;">Boeing Field 2.98</span> <span style="font-family:courier new,monospace;"><span class="blsp-spelling-error" id="SPELLING_ERROR_5">UW</span>        3.09</span> <span style="font-family:courier new,monospace;">Shoreline         2.24</span> <span style="font-family:courier new,monospace;"><span class="blsp-spelling-error" id="SPELLING_ERROR_6">Mountlake</span> Terrace 2.12</span> <span style="font-family:courier new,monospace;">Everett (Paine Field)     0.97</span><br /></blockquote> <div>   <span style="font-family:courier new,monospace;">Arlington 0.62</span><br /><br />Here are the totals from the <span class="blsp-spelling-error" id="SPELLING_ERROR_7">CoCoRahs</span> volunteer network for the 24-h period ending  7AM.  Less than 1/2 inch over southern Whidbey Island and the adjacent mainland, while N. Seattle is getting 2-3 inches.  Makes you believe in the rainshadow.<br /><br /></div><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_vgawnhRg_KY/TQT8s-JDU-I/AAAAAAAADok/8q5Wq-q1Nyk/s1600/pugetsound.gif"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 325px;" src="http://1.bp.blogspot.com/_vgawnhRg_KY/TQT8s-JDU-I/AAAAAAAADok/8q5Wq-q1Nyk/s400/pugetsound.gif" alt="" id="BLOGGER_PHOTO_ID_5549838490352702434" border="0" /></a>The heavy rain should continue throughout the morning and then decrease as as the band pushes south this afternoon.  Where the amounts exceed two inches there is a real threat of slides/slope movements on steep slopes.<br /><br />The temperatures have jumped into the 50s for much of the regions and strong southerly and southwesterly winds are over us.  Look at the Seattle <span class="blsp-spelling-error" id="SPELLING_ERROR_8">profiler</span> temperatures and sustained winds over the past day (below) .  Time runs from right to left (left is the most recent), the y-axis is height in meters. Temps (C) in red.  Huge warming and look how strong the winds are above us.  A solid triangle indicates 50 knots.  A triangle and long line is 60 <span class="blsp-spelling-error" id="SPELLING_ERROR_9">kts</span>.  20-30 knot sustained winds right above us.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_vgawnhRg_KY/TQUBbr8_pJI/AAAAAAAADo8/D61a1YpujPU/s1600/2010121216.sp2c.gif"><img style="display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 400px; height: 311px;" src="http://1.bp.blogspot.com/_vgawnhRg_KY/TQUBbr8_pJI/AAAAAAAADo8/D61a1YpujPU/s400/2010121216.sp2c.gif" alt="" id="BLOGGER_PHOTO_ID_5549843690970653842" border="0" /></a>You can just feel Hawaii.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>Cliff Mass Weather Blog</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://cliffmass.blogspot.com/2010/12/amazing-totals.html' rel='bookmark' title='permanent link'><abbr class='published' title='2010-12-12T08:45:00-08:00'>8:45 AM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=7478606652950905956&postID=849521481504638502' onclick=''>13
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=7478606652950905956&postID=849521481504638502' title='Email Post'>
+<img alt='' class='icon-action' height='13' src='http://www.blogger.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+<span class='item-control blog-admin pid-1316811402'>
+<a href='http://www.blogger.com/post-edit.g?blogID=7478606652950905956&postID=849521481504638502' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+<div id="latency-849521481504638502"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-849521481504638502")); } </script>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://cliffmass.blogspot.com/search?updated-max=2010-12-12T08%3A45%3A00-08%3A00&max-results=5' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://cliffmass.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://cliffmass.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+</div></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget Image' id='Image1'>
+<h2>The Secrets Of Northwest Storms and Snow Revealed!</h2>
+<div class='widget-content'>
+<a href='http://cliffmassbook.blogspot.com/'>
+<img alt='The Secrets Of Northwest Storms and Snow Revealed!' height='150' id='Image1_img' src='http://1.bp.blogspot.com/_vgawnhRg_KY/SPAdpxAb4DI/AAAAAAAAAAM/VzuYOPybrMM/S220/CliffBook.jpg' width='150'/>
+</a>
+<br/>
+<span class='caption'>Click on image for book information.</span>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=Image&widgetId=Image1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image1"));' target='configImage1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Stats' id='Stats1'>
+<h2>Pageviews last month</h2>
+<div class='widget-content'>
+<div id='Stats1_content' style='display: none;'>
+<img alt='Sparkline' height='30' id='Stats1_sparkline' src='' width='75'/>
+<span class='counter-wrapper text-counter-wrapper' id='Stats1_totalCount'></span>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=Stats&widgetId=Stats1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Stats1"));' target='configStats1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div>
+</div><div class='widget LinkList' id='LinkList4'>
+<h2>Watch My Presentation on Northwest Windstorms Given At the Science Cafe</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.youtube.com/watch?v=mfUMRAQcHj0'>Part 1</a></li>
+<li><a href='http://www.youtube.com/watch?v=1Q_aL1FN7io&feature=channel'>Part 2</a></li>
+<li><a href='http://www.youtube.com/watch?v=tIwyd4wAkLo&feature=channel'>Part 3</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=LinkList&widgetId=LinkList4&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList4"));' target='configLinkList4' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Text' id='Text1'>
+<h2 class='title'>Windstorm Presentation at City Hall</h2>
+<div class='widget-content'>
+<a href="http://www.seattlechannel.org/videos/video.asp?ID=5211065">Click Here for Presentation</a><br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=Text&widgetId=Text1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Text1"));' target='configText1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Image' id='Image3'>
+<h2>Access the blog using your IPhone/IPod</h2>
+<div class='widget-content'>
+<a href='http://itunes.apple.com/us/app/cliff-mass-wx-blog/id350606319?mt=8'>
+<img alt='Access the blog using your IPhone/IPod' height='150' id='Image3_img' src='http://3.bp.blogspot.com/_vgawnhRg_KY/S1e1LniL7AI/AAAAAAAACFI/uEdaD4mjpxA/S150/screenshot.jpg' width='100'/>
+</a>
+<br/>
+<span class='caption'>Click on image to access this app from the Itunes store.</span>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=Image&widgetId=Image3&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image3"));' target='configImage3' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Image' id='Image2'>
+<h2>My Northwest Weather DVD</h2>
+<div class='widget-content'>
+<a href='https://secure.publicbroadcasting.net/kcts9/KCTSWeatherWisdom/form.pledgemain'>
+<img alt='My Northwest Weather DVD' height='125' id='Image2_img' src='http://3.bp.blogspot.com/_vgawnhRg_KY/SlVj1TMmaTI/AAAAAAAABQw/_1RxjCakQnk/S310/massWeatherWisdom+copy.jpg' width='150'/>
+</a>
+<br/>
+<span class='caption'>Available from KCTS for a modest donation. Click on image for more information.</span>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=Image&widgetId=Image2&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image2"));' target='configImage2' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget LinkList' id='LinkList3'>
+<h2>KUOW podcast archive to hear my weather segment</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.kuow.org/rss.php?program=weekday'>KUOW Podcast for last week</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=LinkList&widgetId=LinkList3&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList3"));' target='configLinkList3' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList2'>
+<h2>Cliff's Favorite Weather Links</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.probcast.com/'>Probcast: Probabilistic Weather Prediction</a></li>
+<li><a href='http://www.wrh.noaa.gov/sew/'>Seattle National Weather Service</a></li>
+<li><a href='http://i90.atmos.washington.edu/ferry/Ferryjs/mainframe1.htm'>Ferry Weather</a></li>
+<li><a href='http://i90.atmos.washington.edu/roadview/i90/'>I90 Page: Weather Along I90</a></li>
+<li><a href='http://www.atmos.washington.edu/weather/radar.shtml'>Latest Seattle Radar</a></li>
+<li><a href='http://www.tullygraphics.com/'>Beth Tully Graphics: Did the Graphics for My Book</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=LinkList&widgetId=LinkList2&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList2"));' target='configLinkList2' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Subscribe' id='Subscribe1'>
+<div style='white-space:nowrap'>
+<h2 class='title'>Subscribe To</h2>
+<div class='widget-content'>
+<div class='subscribe-wrapper subscribe-type-POST'>
+<div class='subscribe expanded subscribe-type-POST' id='SW_READER_LIST_Subscribe1POST' style='display:none;'>
+<div class='top'>
+<span class='inner' onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+Posts
+</span>
+<div class='feed-reader-links'>
+<a class='feed-reader-link' href='http://www.google.com/ig/add?source=bstp&feedurl=http%3A%2F%2Fcliffmass.blogspot.com%2Ffeeds%2Fposts%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-google.png'/>
+</a>
+<a class='feed-reader-link' href='http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Fcliffmass.blogspot.com%2Ffeeds%2Fposts%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-netvibes.png'/>
+</a>
+<a class='feed-reader-link' href='http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Fcliffmass.blogspot.com%2Ffeeds%2Fposts%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-newsgator.png'/>
+</a>
+<a class='feed-reader-link' href='http://add.my.yahoo.com/content?url=http%3A%2F%2Fcliffmass.blogspot.com%2Ffeeds%2Fposts%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-yahoo.png'/>
+</a>
+<a class='feed-reader-link' href='http://cliffmass.blogspot.com/feeds/posts/default' target='_blank'>
+<img align='absmiddle' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+                Atom
+              </a>
+</div>
+</div>
+<div class='bottom'></div>
+</div>
+<div class='subscribe' id='SW_READER_LIST_CLOSED_Subscribe1POST' onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<div class='top'>
+<span class='inner'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<span onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+Posts
+</span>
+</span>
+</div>
+<div class='bottom'></div>
+</div>
+</div>
+<div class='subscribe-wrapper subscribe-type-COMMENT'>
+<div class='subscribe expanded subscribe-type-COMMENT' id='SW_READER_LIST_Subscribe1COMMENT' style='display:none;'>
+<div class='top'>
+<span class='inner' onclick='return(_SW_toggleReaderList(event, "Subscribe1COMMENT"));'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+All Comments
+</span>
+<div class='feed-reader-links'>
+<a class='feed-reader-link' href='http://www.google.com/ig/add?source=bstp&feedurl=http%3A%2F%2Fcliffmass.blogspot.com%2Ffeeds%2Fcomments%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-google.png'/>
+</a>
+<a class='feed-reader-link' href='http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Fcliffmass.blogspot.com%2Ffeeds%2Fcomments%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-netvibes.png'/>
+</a>
+<a class='feed-reader-link' href='http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Fcliffmass.blogspot.com%2Ffeeds%2Fcomments%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-newsgator.png'/>
+</a>
+<a class='feed-reader-link' href='http://add.my.yahoo.com/content?url=http%3A%2F%2Fcliffmass.blogspot.com%2Ffeeds%2Fcomments%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-yahoo.png'/>
+</a>
+<a class='feed-reader-link' href='http://cliffmass.blogspot.com/feeds/comments/default' target='_blank'>
+<img align='absmiddle' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+                Atom
+              </a>
+</div>
+</div>
+<div class='bottom'></div>
+</div>
+<div class='subscribe' id='SW_READER_LIST_CLOSED_Subscribe1COMMENT' onclick='return(_SW_toggleReaderList(event, "Subscribe1COMMENT"));'>
+<div class='top'>
+<span class='inner'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<span onclick='return(_SW_toggleReaderList(event, "Subscribe1COMMENT"));'>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+All Comments
+</span>
+</span>
+</div>
+<div class='bottom'></div>
+</div>
+</div>
+<div style='clear:both'></div>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=Subscribe&widgetId=Subscribe1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Subscribe1"));' target='configSubscribe1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget LinkList' id='LinkList1'>
+<h2>Major Issues</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.atmos.washington.edu/~cliff/coastalradar.html'>Coastal Weather Radar:  We Need One!</a></li>
+<li><a href='http://www.wheresthemath.com/'>WherestheMath: Fix Math Education in WA State!</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=LinkList&widgetId=LinkList1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target='configLinkList1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget CustomSearch' id='CustomSearch1'>
+<h2 class='title'>Search This Blog</h2>
+<div class='widget-content'>
+<div id='CustomSearch1_form'>
+<span class='cse-status'>Loading...</span>
+</div>
+</div>
+<style type='text/css'>
+      #uds-searchControl .gs-result .gs-title,
+      #uds-searchControl .gs-result .gs-title *,
+      #uds-searchControl .gsc-results .gsc-trailing-more-results,
+      #uds-searchControl .gsc-results .gsc-trailing-more-results * {
+        color:#003366;
+      }
+
+      #uds-searchControl .gs-result .gs-title a:visited,
+      #uds-searchControl .gs-result .gs-title a:visited * {
+        color:#2b2715;
+      }
+
+      #uds-searchControl .gs-relativePublishedDate,
+      #uds-searchControl .gs-publishedDate {
+        color: #2b2715;
+      }
+
+      #uds-searchControl .gs-result a.gs-visibleUrl,
+      #uds-searchControl .gs-result .gs-visibleUrl {
+        color: #cc6600;
+      }
+
+      #uds-searchControl .gsc-results {
+        border-color: #400058;
+        background-color: #ffffff;
+      }
+
+      #uds-searchControl .gsc-tabhActive {
+        border-color: #400058;
+        border-top-color: #cc6600;
+        background-color: #ffffff;
+        color: #15222b;
+      }
+
+      #uds-searchControl .gsc-tabhInactive {
+        border-color: #400058;
+        background-color: transparent;
+        color: #003366;
+      }
+
+      #uds-searchClearResults {
+        border-color: #400058;
+      }
+
+      #uds-searchClearResults:hover {
+        border-color: #cc6600;
+      }
+
+      #uds-searchControl .gsc-cursor-page {
+        color: #003366;
+      }
+
+      #uds-searchControl .gsc-cursor-current-page {
+        color: #15222b;
+      }
+    </style>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=CustomSearch&widgetId=CustomSearch1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("CustomSearch1"));' target='configCustomSearch1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'>&#160;</div>
+</div>
+<!-- end content-wrapper -->
+<div id='footer-wrapper'>
+<div class='footer section' id='footer'><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/search?updated-min=2010-01-01T00%3A00%3A00-08%3A00&updated-max=2011-01-01T00%3A00%3A00-08%3A00&max-results=50'>2010</a>
+<span class='post-count' dir='ltr'>(203)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(13)</span>
+<ul class='posts'>
+<li><a href='http://cliffmass.blogspot.com/2010/12/models.html'>Models</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/last-nights-squall-line.html'>Last Night&#39;s Squall Line</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/videos-of-nw-rivers.html'>Videos of NW Rivers</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/rain-ending-over-puget-sound.html'>Rain Ending over Puget Sound</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/amazing-totals.html'>Amazing Totals</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/warm-front-cometh.html'>The Warm Front  Cometh</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/more-serious.html'>More Serious</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/pineapple-express-update.html'>Pineapple Express Update</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/atmospheric-river-on-way.html'>Atmospheric River on the Way</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/squall-line.html'>Squall Line!</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/snow-removal-report-card-and-some.html'>Seattle Snow Report Card and Some Suggestions</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/eastern-washington-gloom.html'>Eastern Washington Gloom</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/12/climatologically-worst-is-over.html'>Climatologically, The Worst is Over</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(26)</span>
+<ul class='posts'>
+<li><a href='http://cliffmass.blogspot.com/2010/11/deciding-on-weather-instruments.html'>Deciding on Weather Instruments</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/new-web-weather-applications.html'>New Web Weather Applications</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/its-snowing.html'>Its Snowing</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/snow-update.html'>Snow Update</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/thanksgiving-forecast.html'>The Thanksgiving Forecast</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/amazing-videos.html'>Amazing Videos and the Latest Snow Totals</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/winds.html'>Winds</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/even-more-interesting.html'>Even more interesting</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/humility.html'>Humility</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/this-am.html'>This AM</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/how-much-snow.html'>How much snow?</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/sunday-afternoon.html'>Sunday Afternoon</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/update-730-am-sunday.html'>Sunday AM Update</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/forget-snow-over-seattle-its-heading-to.html'>Forget the Snow over Seattle--Its Heading to Orego...</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/uncertainty.html'>Uncertainty</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/brief-update.html'>Brief Update</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/bellingham-fun-fraser-outflow-and.html'>Bellingham Fun, Fraser Outflow and an Admission</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/cold-wave-over-lowlands.html'>Cold Wave Over the Lowlands</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/windstorm-factoids.html'>Windstorm Factoids</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/is-it-going-to-snow-over-lowlands.html'>Is it Going to Snow Over the Lowlands?</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/weather-fact-that-can-save-your-life.html'>A Weather Fact That Can Save Your Life</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/is-seattle-ready-for-snow.html'>Is Seattle Ready for Snow?</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/cascade-subsidence-zone.html'>The Cascade Subsidence Zone</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/when-is-record-really-record.html'>When is a record, REALLY a record?</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/record-heat.html'>Record Heat</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/11/heat-wave.html'>Heat Wave!</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(21)</span>
+<ul class='posts'>
+<li><a href='http://cliffmass.blogspot.com/2010/10/will-weather-influence-tuesdays.html'>Will Weather Influence Tuesday&#39;s Election?</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/10/less-flooding-risks.html'>Less Flooding Risks</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/10/update.html'>Update</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/10/major-rain-and-flooding-event.html'>Major Rain and Flooding Event Approaching</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/10/media-claims-are-wrong-we-have-record.html'>Media claims are wrong.  WE have the record storms...</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/10/tv-special-on-doppler-radar-and-ams.html'>TV Special On Doppler Radar and AMS Meeting</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/10/giant-waves.html'>Giant Waves</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/10/storm.html'>The Storm</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/10/meteorological-earmarks-and-us-senate.html'>Meteorological Earmarks and the U.S. Senate Race i...</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/10/major-coastal-storm-and-big-waves.html'>Major Coastal Storm and Big Waves</a></li>
+<li><a href='http://cliffmass.blogspot.com/2010/10/i-dont-believe-anything-yetbut.html'>I don&#39;t believe anything yet...but</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(17)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(18)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(15)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2010_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(20)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/search?updated-min=2009-01-01T00%3A00%3A00-08%3A00&updated-max=2010-01-01T00%3A00%3A00-08%3A00&max-results=50'>2009</a>
+<span class='post-count' dir='ltr'>(270)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(24)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(24)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(14)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(20)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(17)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(30)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(33)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2009_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(49)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/search?updated-min=2008-01-01T00%3A00%3A00-08%3A00&updated-max=2009-01-01T00%3A00%3A00-08%3A00&max-results=50'>2008</a>
+<span class='post-count' dir='ltr'>(99)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2008_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(50)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2008_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(30)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://cliffmass.blogspot.com/2008_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(19)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML1'>
+<h2 class='title'>Statistics</h2>
+<div class='widget-content'>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=4111507; 
+var sc_invisible=0; 
+var sc_partition=49; 
+var sc_click_stat=1; 
+var sc_security="33b4e5eb"; 
+</script>
+
+<script src="http://www.statcounter.com/counter/counter_xhtml.js" type="text/javascript"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/" title="web statistics"><img alt="web statistics" src="http://c.statcounter.com/4111507/0/33b4e5eb/0/" class="statcounter"/></a></div></noscript>
+<!-- End of StatCounter Code -->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=7478606652950905956&widgetType=HTML&widgetId=HTML1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div></div>
+<!-- end outer-wrapper -->
+<script type='text/javascript'>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11235340-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type='text/javascript'>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11235340-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="http://www.blogger.com/static/v1/widgets/512629240-widgets.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '7478606652950905956';BLOG_attachCsiOnload(''); }_WidgetManager._Init('http://www.blogger.com/rearrange?blogID=7478606652950905956','http://cliffmass.blogspot.com/','7478606652950905956');
+_WidgetManager._SetPageActionUrl('http://www.blogger.com/display?blogID=7478606652950905956','K2mbJx6vKULcZpLJtgn5OAHgRdY:1292602151603','AOuZoY7UP-YAIsR97pM6f8Lu91VadTOXVA:1292602151603');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'title': 'Cliff Mass Weather Blog', 'pageType': 'index', 'url': 'http://cliffmass.blogspot.com/', 'canonicalUrl': 'http://cliffmass.blogspot.com/', 'homepageUrl': 'http://cliffmass.blogspot.com/', 'enabledCommentProfileImages': true, 'searchLabel': '', 'searchQuery': '', 'pageName': '', 'pageTitle': 'Cliff Mass Weather Blog', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false, 'mobileClass': '', 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Cliff Mass Weather Blog - Atom\42 href\75\42http://cliffmass.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Cliff Mass Weather Blog - RSS\42 href\75\42http://cliffmass.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Cliff Mass Weather Blog - Atom\42 href\75\42http://www.blogger.com/feeds/7478606652950905956/posts/default\42 /\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42 href\75\42http://www.blogger.com/rsd.g?blogID\0757478606652950905956\42 /\076', 'meTag': '\74link rel\75\42me\42 href\75\42http://www.blogger.com/profile/13948649423540350788\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42http://www.blogger.com/openid-server.g\42 /\76\n', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var a\75window;function c(b){this.t\75{};this.tick\75function(d,i,e){e\75e?e:(new Date).getTime();this.t[d]\75[e,i]};this.tick(\42start\42,null,b)}var f\75new c;a.jstiming\75{Timer:c,load:f};try{var g\75null;if(a.chrome\46\46a.chrome.csi)g\75Math.floor(a.chrome.csi().pageT);if(g\75\75null)if(a.gtbExternal)g\75a.gtbExternal.pageT();if(g\75\75null)if(a.external)g\75a.external.pageT;if(g)a.jstiming.pt\75g}catch(h){};a.tickAboveFold\75function(b){b\75b;var d\0750;if(b.offsetParent){do d+\75b.offsetTop;while(b\75b.offsetParent)}b\75d;b\74\075750\46\46a.jstiming.load.tick(\42aft\42)};var j\75false;function k(){if(!j){j\75true;a.jstiming.load.tick(\42firstScrollTime\42)}}a.addEventListener?a.addEventListener(\42scroll\42,k,false):a.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': ''}}]);
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'footer', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image1', 'sidebar', null, document.getElementById('Image1'), {'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_StatsView', new _WidgetInfo('Stats1', 'sidebar', null, document.getElementById('Stats1'), {'title': 'Pageviews last month', 'showGraphicalCounter': false, 'showAnimatedCounter': false, 'showSparkline': true, 'statsUrl': 'http://cliffmass.blogspot.com/b/stats?style\75BLACK_TRANSPARENT\46timeRange\75LAST_MONTH\46token\75tQbP9iwBAAA.BO1OOwN2e-5h0vPhpo9nxnaflgPZqceJHx-c8PEt4qI.YoijRkOR1AolaVCgviIJKg'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList4', 'sidebar', null, document.getElementById('LinkList4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'sidebar', null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image3', 'sidebar', null, document.getElementById('Image3'), {'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image2', 'sidebar', null, document.getElementById('Image2'), {'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList3', 'sidebar', null, document.getElementById('LinkList3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2', 'sidebar', null, document.getElementById('LinkList2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SubscribeView', new _WidgetInfo('Subscribe1', 'sidebar', null, document.getElementById('Subscribe1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_CustomSearchView', new _WidgetInfo('CustomSearch1', 'sidebar', null, document.getElementById('CustomSearch1'), {'title': 'Search This Blog', 'includeBlog': true, 'includePostLinks': true, 'includeWeb': false, 'linkLists': [], 'blogUrl': 'http://cliffmass.blogspot.com/', 'loadingMsg': 'Loading...', 'thisBlogMsg': 'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The Web', 'backgroundColor': '#ffffff', 'textColor': '#15222b', 'dateColor': '#2b2715', 'linkColor': '#003366', 'urlColor': '#cc6600', 'visitedLinkColor': '#2b2715', 'borderColor': '#400058', 'activeBorderColor': '#cc6600'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main'));
+</script>
+</body>
+</html>
