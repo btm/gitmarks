@@ -1,0 +1,122 @@
+ 
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Rivers: Green River Basin - Howard Hanson Dam </title>
+ </head>
+ <body bgcolor="#ffffff">
+  <table border="0" width="748">
+   <tr>
+    <td>
+     <font font size="4" face="Arial">
+      <strong>
+       <em>Green River Basin</em><br />
+       <font size="5">Howard Hanson Dam</font>
+      </strong>
+     </font>
+    </td>
+   </tr>
+  </table>
+
+  <table border="0" width="574">
+   <tr>
+    <td>
+     <p>
+      <font size="1">Confidence:</font> <img
+       src="images/led_green.gif" width="13" height="13"/ >
+     </p>
+     <p>
+      <a href="faqs/RGfaq1.htm"><font size="2">What does the light
+       mean?</font></a>
+     </p>
+    </td>
+   </tr>
+  </table>
+
+  <p>
+   <a href="graphs/hah.gif"><font size="4" face="Arial"
+    ><strong>Graphical Data</strong></font></a><br />
+    <br />
+   <img src="graphs/hah.gif" />
+  </p>
+
+  <p><img src="images/questions.gif" width="106" height="21" alt="Questions"
+   align="absmiddle" /><a href="faqs/RGfaq3.htm"><font size="2">How do I
+   read the graphs?</font></a><br /></p>
+
+  <p><img src="images/questions.gif" width="106" height="21" alt="Questions"
+   align="absmiddle /"><a href="faqs/linefaq.htm"><font size="2">Why do I
+   see a black line at the bottom of the graph?</font></a><br /></p>
+
+  <table border="0" width="574">
+   <tr>
+    <td align="center">
+     <font color="#ff0000" size="5" face="Arial"><strong><blink>All Data
+      Provided are Provisional</blink></strong></font><br />
+     <font size="2" face="Arial"><strong>Fri Dec 17 11:05:41 2010</strong></font>
+    </td>
+   </tr>
+  </table>
+
+  <p><img src="images/questions.gif" width="106" height="21" alt="Questions"
+   align="absmiddle"><a href="faqs/RGfaq4.htm"><font size="2">What does
+   "Provisional" mean?</font></a><br /></p>
+
+  <p><a href="text/hah.prn"><font size="4" face="Arial"
+   ><strong>Tabular Data</strong></font></a><br /></p>
+
+  <pre>
+ Howard Hanson Dam        Elev Storage    Stage Disch Inflow  Prec    Incr   Temp
+ Thu 16Dec 2010  1100  1079.13    2299    9.06   3135   2297  29.62   0.00   36.9
+ Thu 16Dec 2010  1200  1078.72    2243    8.89   2969   2293  29.62   0.00   37.9
+ Thu 16Dec 2010  1300  1078.43    2204    8.71   2798   2326  29.62   0.00   40.1
+ Thu 16Dec 2010  1400  1078.19    2172    8.58   2678   2290  29.62   0.00   38.8
+ Thu 16Dec 2010  1500  1078.04    2153    8.43   2543   2303  29.62   0.00   38.4
+ Thu 16Dec 2010  1600  1077.95    2141    8.28   2412   2268  29.63   0.01   37.0
+ Thu 16Dec 2010  1700  1077.90    2134    8.18   2327   2247  29.63   0.00   34.0
+ Thu 16Dec 2010  1800  1077.85    2127    8.17   2319   2239  29.63   0.00   35.5
+ Thu 16Dec 2010  1900  1077.78    2118    8.17   2319   2208  29.63   0.00   35.4
+ Thu 16Dec 2010  2000  1077.69    2106    8.16   2310   2167  29.63   0.00   35.3
+ Thu 16Dec 2010  2100  1077.58    2092    8.16   2310   2136  29.63   0.00   34.7
+ Thu 16Dec 2010  2200  1077.46    2076    8.16   2310   2121  29.63   0.00   34.5
+ Thu 16Dec 2010  2300  1077.31    2057    8.15   2302   2067  29.63   0.00   34.9
+ Thu 16Dec 2010  2400  1077.16    2038    8.15   2302   2068  29.63   0.00   34.1
+ Fri 17Dec 2010  0100  1077.00    2017    8.15   2302   2053  29.63   0.00   32.4
+ Fri 17Dec 2010  0200  1076.81    1993    8.14   2294   2000  29.63   0.00   32.7
+ Fri 17Dec 2010  0300  1076.61    1967    8.13   2285   1978  29.63   0.00   32.7
+ Fri 17Dec 2010  0400  1076.39    1940    8.12   2277   1941  29.63   0.00   31.3
+ Fri 17Dec 2010  0500  1076.15    1910    8.11   2269   1905  29.63   0.00   32.7
+ Fri 17Dec 2010  0600  1075.90    1879    8.10   2260   1885  29.63   0.00   31.9
+ Fri 17Dec 2010  0700  1075.63    1845    8.10   2260   1858  29.63   0.00   32.6
+ Fri 17Dec 2010  0800  1075.33    1809    8.08   2244   1801  29.63   0.00   33.3
+ Fri 17Dec 2010  0900  1075.19    1792    7.94   2131   1926  29.63   0.00   34.5
+ Fri 17Dec 2010  1000  1075.34    1810    7.46   1776   1996  29.63   0.00   37.5
+
+  </pre>
+  <p><img src="images/questions.gif" width="106" height="21" alt="Questions"
+   align="absmiddle"><a href="faqs/RGfaq2.htm"><font size="2">What do the
+   -901 and -902 numbers mean?</font></a><br /></p>
+
+  <hr align="left" width="748">
+
+  <p>
+   <font color="#0000ff" size="2">
+    <a href="../index.html"><img src="../misc/images/home.gif"
+     alt="Go to H&amp;H Home Page" align="middle" border="0" hspace="10"
+     width="56" height="50" /></a>
+    <a href="../misc/mail.html"><img src="../misc/images/mailbox.gif"
+     alt="Send us your mail and comments." align="middle" border="0"
+     width="75" height="50" /></a>
+    <a href="../misc/search.html"><img
+     src="../misc/images/Flashlight.gif" alt="Search our web site."
+     align="middle" border="0" hspace="20" width="55" height="39" /></a><br />
+    <a href="../index.html">Home</a> //
+    <a href="../misc/mail.html">Mail</a> //
+    <a href="../misc/search.html">Search</a><br />
+   </font>
+   <font size="1">
+    <em>This page was last updated on Wednesday, May 5, 2004</em>
+   </font>
+  </p>
+ </body>
+</html>
