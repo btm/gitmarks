@@ -1,0 +1,645 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<!--
+	generated in 0.667 seconds
+	87244 bytes batcached for 300 seconds
+-->
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title> Parsnip Parsimony- A vegan baking and science blog.</title>
+
+	<link rel="stylesheet" href="http://s2.wp.com/wp-content/themes/pub/andreas09/style.css?m=1292395449g" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://s2.wp.com/wp-content/themes/pub/andreas09/green2.css?m=1276192077g" type="text/css" media="screen" />
+	<link rel="pingback" href="http://parsnipparsimony.wordpress.com/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="Parsnip Parsimony- A vegan baking and science blog. &raquo; Feed" href="http://parsnipparsimony.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Parsnip Parsimony- A vegan baking and science blog. &raquo; Comments Feed" href="http://parsnipparsimony.wordpress.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+<link rel="stylesheet" href="http://s0.wp.com/wp-content/themes/h4/global.css?m=1291749258g" type="text/css" />
+<script type='text/javascript' src='http://s2.wp.com/wp-includes/js/l10n.js?m=1290133841g&amp;ver=20101110'></script>
+<script type='text/javascript' src='http://s1.wp.com/wp-includes/js/jquery/jquery.js?m=1290133841g&amp;ver=1.4.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://parsnipparsimony.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://parsnipparsimony.wordpress.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Parsnip Parsimony- A vegan baking and science blog.' href='http://parsnipparsimony.wordpress.com/' />
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/8BCs' />
+<link rel="shortcut icon" type="image/x-icon" href="http://s1.wp.com/i/favicon-stacked.ico?m=1284002170g" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="http://s1.wp.com/i/favicon-stacked.ico?m=1284002170g" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon" href="http://s0.wp.com/wp-content/themes/h4/i/webclip.png?m=1263012765g" />
+	<style type="text/css">
+	/* <![CDATA[ */
+				div#likes { margin-top: 15px; }
+		.like-button { border: 1px solid #eee; padding: 2px 6px; font-size: 13px; font-family: arial, tahoma, sans-serif; }
+		#wpl-likebox { clear: left; font-size: 11px; font-family: arial, tahoma, verdana, sans-serif !important; min-height: 30px; margin: 10px 0 !important; padding: 5px 0 10px 0 !important; }
+		#wpl-button { float: left; background: url( /i/buttonbg.png ) top left repeat-x; margin-right: 7px; border: 1px solid #d4d4d4; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+		#wpl-button a { color: #666 !important; line-height: 130% !important; text-decoration: none !important; outline: none; float: left; padding: 3px 6px 2px 24px !important; font-size: 11px !important; background: url( /i/likestar.png ) 6px 49.8% no-repeat; }
+		#wpl-button.liked { background: #feffce; border: 1px solid #f3e389; }
+		#wpl-button.liked a { color: #ba871b !important; }
+		#wpl-likebox #wpl-count { min-height: 25px; line-height: 130% !important; float: left; padding-top: 4px; }
+		#wpl-likebox #wpl-avatars { clear: left; max-height: 98px; overflow: hidden; margin-top: 15px; line-height: 130% !important; }
+		#wpl-likebox #wpl-avatars img { border: none !important; }
+		#wpl-likebox #wpl-mustlogin { line-height: 14px !important; font-size: 11px; clear: left; margin-top: 5px; background: #f0f0f0; padding: 10px; width: 65%; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+		#wpl-likebox #wpl-mustlogin a { color: #888; text-decoration: underline; }
+		#wpl-likebox #wpl-mustlogin p { margin: 5px 0; padding: 0 }
+		#wpl-likebox #wpl-mustlogin input.input { padding: 2px; background: #fff; font-size: 11px; font-family: inherit; border: 1px solid #ccc; -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset; -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset; line-height: 12px; }
+		#wpl-likebox #wpl-mustlogin input#wp-submit { border: 1px solid #ccc; font-size: 11px; background: #fafafa; repeat-x; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; padding: 2px 4px !important; line-height: 12px; }
+		#wpl-likebox #wpl-mustlogin label { position: relative; cursor: text; }
+		#wpl-likebox #wpl-mustlogin label span { position: absolute; top: 0px; left: 5px; padding: 0 !important; }
+		#wpl-likebox #wpl-mustlogin label span { top /*\**/: -10px\9; }
+	/* ]]> */
+	</style>
+	<link rel='openid.server' href='http://parsnipparsimony.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://parsnipparsimony.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://parsnipparsimony.wordpress.com/osd.xml" title="Parsnip Parsimony- A vegan baking and science blog." />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
+<meta name="application-name" content="Parsnip Parsimony- A vegan baking and science blog." /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="&quot;You&#039;re crazy, Susie!&quot;" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://parsnipparsimony.wordpress.com/feed/;icon-uri=http://s1.wp.com/i/favicon-stacked.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" />
+</head>
+
+<body>
+
+<div id="container">
+	<div id="sitename">
+		<h1><a href="http://parsnipparsimony.wordpress.com/">Parsnip Parsimony- A vegan baking and science blog.</a></h1>
+		<h2>&#8220;You&#8217;re crazy, Susie!&#8221;</h2>
+	</div>
+
+	<div id="mainmenu">
+			<ul class="level1">
+		<li class="current_page_item"><a href="http://parsnipparsimony.wordpress.com/">Home</a></li>
+		<li class="page_item page-item-2"><a href="http://parsnipparsimony.wordpress.com/about/" title="About">About</a></li>
+	</ul>
+	</div>
+
+<div id="wrap">
+<div id="leftside">
+
+	<ul>
+
+<li id="meebo" class="widget widget_meebo">
+			<!-- Beginning of meebo me widget code. Want to talk with visitors on your page? Go to http://www.meebome.com/ and get your widget! -->
+			<div style='width: 190px; margin: 0 auto;'><embed src='http://widget.meebo.com/mm.swf?zLsHjvMwJv' type='application/x-shockwave-flash' width='190' height='275'></embed></div>
+</li>
+<li id="archives-2" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>
+		<ul>
+			<li><a href='http://parsnipparsimony.wordpress.com/2009/06/' title='June 2009'>June 2009</a></li>
+	<li><a href='http://parsnipparsimony.wordpress.com/2009/05/' title='May 2009'>May 2009</a></li>
+	<li><a href='http://parsnipparsimony.wordpress.com/2008/05/' title='May 2008'>May 2008</a></li>
+	<li><a href='http://parsnipparsimony.wordpress.com/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://parsnipparsimony.wordpress.com/2008/02/' title='February 2008'>February 2008</a></li>
+	<li><a href='http://parsnipparsimony.wordpress.com/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://parsnipparsimony.wordpress.com/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://parsnipparsimony.wordpress.com/2007/11/' title='November 2007'>November 2007</a></li>
+		</ul>
+</li>
+		<li id="top-posts" class="widget widget_stats_topposts">			<h2 class="widgettitle">Top Posts</h2>
+			<ul><li><a href='http://parsnipparsimony.wordpress.com/2007/11/13/challah-lab-notes-from-first-attempt/'>Challah- lab notes from first attempt.</a></li><li><a href='http://parsnipparsimony.wordpress.com/2009/06/26/method-post-1-pre-eb-parable-for-explaining-why-susie-is-susie/'>Method Post #1: Pre-EB parable for explaining why Susie is Susie.</a></li><li><a href='http://parsnipparsimony.wordpress.com/2007/12/19/so/'>Pictures of meringues, and a decision made finally.</a></li><li><a href='http://parsnipparsimony.wordpress.com/2008/01/04/booze-cake-2008/'>Booze Cake, 2008.</a></li><li><a href='http://parsnipparsimony.wordpress.com/2007/12/28/instant-pudding-mix-and-151-proof-rum/'>Instant pudding mix and 151 proof rum.....</a></li><li><a href='http://parsnipparsimony.wordpress.com/about/'>About</a></li></ul>		</li>
+<li id="wp_tag_cloud" class="widget wp_widget_tag_cloud"><h2 class="widgettitle">Tags</h2>
+<div style="overflow:hidden"><a href='http://parsnipparsimony.wordpress.com/tag/2497107/' class='tag-link-2538077' title='1 topic' style='font-size: 8pt;'></a>
+<a href='http://parsnipparsimony.wordpress.com/tag/food-science/' class='tag-link-257008' title='1 topic' style='font-size: 8pt;'>"food science"</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/aromatic-rings/' class='tag-link-7106908' title='1 topic' style='font-size: 8pt;'>Aromatic rings</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/blog-posts-of-pure-joy/' class='tag-link-7135886' title='1 topic' style='font-size: 8pt;'>Blog posts of pure joy</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/booze-cake/' class='tag-link-3858194' title='2 topics' style='font-size: 16.4pt;'>Booze cake</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/bread/' class='tag-link-22482' title='1 topic' style='font-size: 8pt;'>Bread</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/brioche/' class='tag-link-535530' title='1 topic' style='font-size: 8pt;'>brioche</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/cake/' class='tag-link-16204' title='1 topic' style='font-size: 8pt;'>Cake</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/chocolate/' class='tag-link-8514' title='1 topic' style='font-size: 8pt;'>chocolate</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/donuts/' class='tag-link-113696' title='1 topic' style='font-size: 8pt;'>Donuts</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/egg-replacer/' class='tag-link-1678151' title='2 topics' style='font-size: 16.4pt;'>Egg replacer</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/experiments/' class='tag-link-1324' title='1 topic' style='font-size: 8pt;'>experiments</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/fake-meats/' class='tag-link-3961725' title='1 topic' style='font-size: 8pt;'>fake meats</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/food-not-bombs/' class='tag-link-192545' title='1 topic' style='font-size: 8pt;'>food not bombs</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/food-that-looks-like-other-food/' class='tag-link-3961715' title='3 topics' style='font-size: 22pt;'>Food that looks like other food</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/i-need-to-start-putting-tags-on-my-blog-entries/' class='tag-link-2939704' title='1 topic' style='font-size: 8pt;'>I need to start putting tags on my blog entries</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/new-years-eve-2008/' class='tag-link-2993789' title='2 topics' style='font-size: 16.4pt;'>new years eve 2008</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/orange/' class='tag-link-79206' title='1 topic' style='font-size: 8pt;'>orange</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/organic-chemistry/' class='tag-link-238499' title='1 topic' style='font-size: 8pt;'>Organic chemistry</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/posts-laden-with-cryptic-meringue-hints/' class='tag-link-3298118' title='1 topic' style='font-size: 8pt;'>posts laden with cryptic meringue hints.</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/ppk/' class='tag-link-382408' title='1 topic' style='font-size: 8pt;'>ppk</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/recipes/' class='tag-link-2832' title='1 topic' style='font-size: 8pt;'>recipes</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/rum/' class='tag-link-986' title='1 topic' style='font-size: 8pt;'>Rum</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/science/' class='tag-link-173' title='1 topic' style='font-size: 8pt;'>Science</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/susie/' class='tag-link-176058' title='1 topic' style='font-size: 8pt;'>susie</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/thanksgiving/' class='tag-link-15318' title='1 topic' style='font-size: 8pt;'>thanksgiving</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/unexpected-leaps-in-the-number-of-blog-views/' class='tag-link-2939705' title='1 topic' style='font-size: 8pt;'>unexpected leaps in the number of blog-views</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/vegan/' class='tag-link-23194' title='2 topics' style='font-size: 16.4pt;'>vegan</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/veganism/' class='tag-link-34874' title='1 topic' style='font-size: 8pt;'>veganism</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/vegan-meringue/' class='tag-link-3298117' title='2 topics' style='font-size: 16.4pt;'>Vegan meringue</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/veganmofo/' class='tag-link-2471157' title='1 topic' style='font-size: 8pt;'>veganmofo</a>
+<a href='http://parsnipparsimony.wordpress.com/tag/writing/' class='tag-link-349' title='1 topic' style='font-size: 8pt;'>Writing</a></div></li>
+<li id="linkcat-2908" class="widget widget_links"><h2 class="widgettitle">Awesome</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.alississippi.com/" title="Pretty much the coolest girl I know. (I mean- She was my CoolSchool professor for christsake!)">Alississippi</a></li>
+
+	</ul>
+</li>
+
+<li id="linkcat-2717547" class="widget widget_links"><h2 class="widgettitle">Food science links</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://blog.khymos.org/" title="&#8220;Molecular gastronomists&#8221;- Can&#8217;t live with them, can&#8217;t live without them.">Khymos blog</a></li>
+<li><a href="http://news.curiouscook.com/" title="Harold McGee&#8217;s Site- Need I say more?">The Curious Cook Blog</a></li>
+
+	</ul>
+</li>
+
+<li id="linkcat-19821" class="widget widget_links"><h2 class="widgettitle">Tools and Resources</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://en.wikipedia.org/wiki/Baker_percentage" title="Expressing recipes as baker&#8217;s percent is really useful- if you know what it is.">Baker&#8217;s Percentage</a></li>
+<li><a href="http://www.fareshare.net/conversions-grams.html" title="Convert cups and teaspoons to grams and back again">Conversion chart: Volume to Grams</a></li>
+<li><a href="http://www.fareshare.net/conversions-volume-to-weight.html" title="This is in ounces, but has WAY more ingredients than the gram chart.">Conversion chart: Volume to ounces</a></li>
+<li><a href="http://store.foodfightgrocery.com/index.html" title="Buy your ingredients here! Ricemilk Chocolate! Soy whip! etc!">Food Fight Grocery</a></li>
+<li><a href="http://www.fvrl.org/aboutus/branch_list.cfm" title="For my own personal reference">Vancouver public library hours</a></li>
+
+	</ul>
+</li>
+
+<li id="linkcat-2717551" class="widget widget_links"><h2 class="widgettitle">Vegan links</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://kitteekake.blogspot.com/" title="Kittee!">Cake Maker to the Stars</a></li>
+<li><a href="http://letsgetsconed.blogspot.com/" title="Its Jess, and Jess is it!">Get Sconed!</a></li>
+<li><a href="http://herbivoremagazine.com/blog/" title="&#8216;Cause who doesn&#8217;t like herbivore?">Herbivore&#8217;s Blog</a></li>
+<li><a href="http://www.postpunkkitchen.com/forum/index.php" title="The one. The only!">PPK Forums</a></li>
+<li><a href="http://strawberryrock.wordpress.com/" title="Support your local vegan blog that was started just for Vegan MOFO">Strawberry Rock</a></li>
+<li><a href="http://wordpress.com/">WordPress.com</a></li>
+<li><a href="http://xkcd.com/" title="&#8216;Cause I&#8217;m a dork.">xkcd</a></li>
+<li><a href="http://www.yellowroserecipes.com/index.html" title="Joanna!">Yellow Rose Recipes</a></li>
+
+	</ul>
+</li>
+
+	</ul>
+</div>
+<!-- Right Sidebar Template -->
+<div id="rightside">
+	<ul>
+	
+		<li><form method="get" id="searchform" action="http://parsnipparsimony.wordpress.com/">
+<div><input id="searchbox" type="text" value="" name="s"/>
+<input type="submit" id="searchbutton" value="Search"/>
+</div>
+</form>
+</li>
+</ul>
+<ul>
+ <li id="linkcat-2908" class="linkcat"><h2>Awesome</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.alississippi.com/" title="Pretty much the coolest girl I know. (I mean- She was my CoolSchool professor for christsake!)">Alississippi</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-2717547" class="linkcat"><h2>Food science links</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://blog.khymos.org/" title="&#8220;Molecular gastronomists&#8221;- Can&#8217;t live with them, can&#8217;t live without them.">Khymos blog</a></li>
+<li><a href="http://news.curiouscook.com/" title="Harold McGee&#8217;s Site- Need I say more?">The Curious Cook Blog</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-19821" class="linkcat"><h2>Tools and Resources</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://en.wikipedia.org/wiki/Baker_percentage" title="Expressing recipes as baker&#8217;s percent is really useful- if you know what it is.">Baker&#8217;s Percentage</a></li>
+<li><a href="http://www.fareshare.net/conversions-grams.html" title="Convert cups and teaspoons to grams and back again">Conversion chart: Volume to Grams</a></li>
+<li><a href="http://www.fareshare.net/conversions-volume-to-weight.html" title="This is in ounces, but has WAY more ingredients than the gram chart.">Conversion chart: Volume to ounces</a></li>
+<li><a href="http://store.foodfightgrocery.com/index.html" title="Buy your ingredients here! Ricemilk Chocolate! Soy whip! etc!">Food Fight Grocery</a></li>
+<li><a href="http://www.fvrl.org/aboutus/branch_list.cfm" title="For my own personal reference">Vancouver public library hours</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-2717551" class="linkcat"><h2>Vegan links</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://kitteekake.blogspot.com/" title="Kittee!">Cake Maker to the Stars</a></li>
+<li><a href="http://letsgetsconed.blogspot.com/" title="Its Jess, and Jess is it!">Get Sconed!</a></li>
+<li><a href="http://herbivoremagazine.com/blog/" title="&#8216;Cause who doesn&#8217;t like herbivore?">Herbivore&#8217;s Blog</a></li>
+<li><a href="http://www.postpunkkitchen.com/forum/index.php" title="The one. The only!">PPK Forums</a></li>
+<li><a href="http://strawberryrock.wordpress.com/" title="Support your local vegan blog that was started just for Vegan MOFO">Strawberry Rock</a></li>
+<li><a href="http://wordpress.com/">WordPress.com</a></li>
+<li><a href="http://xkcd.com/" title="&#8216;Cause I&#8217;m a dork.">xkcd</a></li>
+<li><a href="http://www.yellowroserecipes.com/index.html" title="Joanna!">Yellow Rose Recipes</a></li>
+
+	</ul>
+</li>
+</ul>
+<ul>
+ <li><h2>Meta</h2>
+  <ul>
+   <li><a href="http://parsnipparsimony.wordpress.com/wp-login.php?action=register">Register</a></li>   <li><a href="http://parsnipparsimony.wordpress.com/wp-login.php">Log in</a></li>
+     </ul>
+ </li>
+</ul>
+<ul>
+ <li><h2>Subscribe</h2>
+  <ul>
+   <li class="feed"><a href="http://parsnipparsimony.wordpress.com/feed/">Entries (RSS)</a></li>
+   <li class="feed"><a href="http://parsnipparsimony.wordpress.com/comments/feed/">Comments (RSS)</a></li>
+  </ul>
+ </li>
+</ul>
+</div>
+
+<div id="content">
+		
+		<div class="post-30 post type-post status-publish format-standard hentry category-uncategorized" id="post-30">
+			<h2><a href="http://parsnipparsimony.wordpress.com/2009/06/26/method-post-1-pre-eb-parable-for-explaining-why-susie-is-susie/" rel="bookmark" title="Permanent link to Method Post #1: Pre-EB parable for explaining why Susie is&nbsp;Susie.">Method Post #1: Pre-EB parable for explaining why Susie is&nbsp;Susie.</a></h2>
+			<p class="date">Posted by <a href="http://">Susie</a> on June 26, 2009</p>
+			<div class="entry">
+				<p>In the following two (or perhaps three) posts, I&#8217;m going to describe to you my seven-year search for methods of perfectly replicating all traditional baked goods using only vegan ingredients, the way I view this problem, and the tactics I&#8217;ve used to try to solve it. I feel the need to tell you this so that you might understand where it is I&#8217;m coming from as you read the upcoming blog posts in this series.</p>
+<p>I made the transition to a vegan diet about 7 years ago, during the summer before my Senior year in high school. Having always enjoyed preparing and eating non-vegan baked goods, I was eager to adapt these habits so that they could be compatible with my veganism . The availability of convenient vegan baking ingredients was much more limited seven years ago than it is today: the only vegan margarines I could find back in 2002 had significant trans fat content, which I refused to eat, for obvious health reasons. I could find recipes for vegan cakes and other things which used liquid vegetable oil, but I was left with no solid fat ingredients with which to make things dependent on the presence of solid fat, such as buttercream frosting. This inability to make trans fat free vegan buttercream was a MAJOR problem; having a frosted birthday cake was simply not something I was willing to give up easily. The way I approached this problem explains something about the way I tend approach a lot of problems, which is why I am talking about this obsolete issue in the first place. Before I tell you how I tried to solve this problem though, let me tell you the ways which I did <span style="text-decoration:underline;"><em>not</em></span> try to solve it:</p>
+<p><span style="text-decoration:underline;">Ways I <strong>did not </strong>try to solve the problem of not having a trans fat free vegan substitute for butter with which to make vegan buttercream frosting for a birthday cake in 2002:<br />
+</span></p>
+<ul>
+<li>Give up on ever being able to have vegan trans fat free birthday cake.</li>
+<li>Settle on topping my layer cake with something besides vegan buttercream: fruit, jam, powdered sugar dust, glaze, fondant, or marzipan.</li>
+<li>Sit around waiting for the Earth Balance company to solve my problem for me.</li>
+</ul>
+<p>Those would not have been life-destroying options&#8230; I would have survived just fine if I had approached my problem with any combination of the above techniques. By the start of the next summer, I would have discovered the brand-new &#8220;Earth Balance&#8221; vegan, trans fat free margarine anyway, which would solve this problem entirely. But that would not have been my style. The following, however, is what 17-year-old me did:<br />
+<span style="text-decoration:underline;"><br />
+How I <strong>did </strong>solve the problem of not having a trans fat free vegan substitute for butter with which to make vegan buttercream frosting for a birthday cake in 2002:<br />
+</span></p>
+<ol>
+<li>I looked up the composition of butter on the internet. Butter, reportedly, was mostly made of a thing called saturated fat. I had learned somewhere that saturated fats were &#8220;solid fats&#8221; and that unsaturated fats were &#8220;liquid fats&#8221;. (This wasn&#8217;t exactly an accurate definition, but it worked, more or less, for my purposes.) I knew that fats were found in plant foods as well as animal foods. So maybe, I thought, there were some saturated fats to be found naturally, in plant foods.</li>
+<li>Then I went to the library, and found a food science book (Sorry. This was 6.5 years ago. No citation.) with a bunch of tables listing food composition, and I found a section on fats. The book listed melting points for all sorts of fats. Once I figured out how to convert the units from Centigrade to Fahrenheit, I realized that the book was telling me that there were some plant-sourced fats: coconut oil, palm oil, cocoa butter, and palm kernel oil, were all solids at room temperature. Maybe, I thought, I could use these solid plant fats in place of butter fat to make a vegan trans fat free frosting.</li>
+<li>I bought a coconut (!), and I tried to get the fat out of it. I think I wound up putting the coconut flesh in a blender with hot water (to let the liquid fat separate from the coconut flesh), then strained the blended slurry through some kind of filter, to get the fibrous coconut flesh out of the mixture. Then, I cooled water-fat mixture which was left after filtering, so that the fat would solidify. I then found that if I took an electric mixer to this cooled mixture, that clumps of fat would start to clump together, resembling the process of churning butter from cream.</li>
+<li>Once all the fat was clumped together, I threw it in a new mixing bowl, and proceeded to follow a recipe for buttercream frosting, directly substituting the butter called for in the recipe with my coconut fat. I figured that because I had tried to re-create the composition of butter by producing something mostly containing saturated fat, that I would be able to use the stuff exactly like butter in any recipe.</li>
+</ol>
+<p>The buttercream frosting resulting from the above process was used to frost the cake I made for my 18th birthday party. Humorous, the way this experience foreshadowed the rest of my adult life.</p>
+<p>Anyway, the point of this story is to demonstrate my motivation for trying to make vegan versions of traditional foods, and that I use a rather reductionist approach in doing so: I&#8217;m inclined to break a non-vegan recipe down, to the molecular level, try to find identical or similar replacements for those non-vegan components from the plant-world, and then build the recipe back up, using the vegan substitutes. Although I&#8217;ve greatly expanded and refined my understanding of bakery and food science significantly over the past 7 years, this basic approach remains fairly unchanged.</p>
+<p>So, why did you just spend the past 1000 words reading about my solution to what is now an obsolete problem for vegan bakers? Well, I had to describe my outlook, and a simple, already neatly-solved veganization problem provided a good way to do that. Next up, I&#8217;m going to be introducing the thing I&#8217;m going to be talking about for most of the rest of the summer, which is not a simple, already-solved problem. This has been the problem which has consumed me for the past 6 years, has led to my enrollment in baking school, and &#8211; when that wasn&#8217;t enough &#8211; to my decision to become a food science major. This problem is replacing eggs in traditional bakery products. Egg composition and egg function are wonderfully complicated topics&#8230; and that&#8217;s all I can really say without launching into the next blog post, so I&#8217;m going to have to end this here.</p>
+			</div>
+
+		<p class="category">Posted in <a href="http://parsnipparsimony.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> |    <a href="http://parsnipparsimony.wordpress.com/2009/06/26/method-post-1-pre-eb-parable-for-explaining-why-susie-is-susie/#comments" title="Comment on Method Post #1: Pre-EB parable for explaining why Susie is&nbsp;Susie.">10 Comments &#187;</a></p>
+		</div>
+
+	
+		<div class="post-28 post type-post status-publish format-standard hentry category-uncategorized" id="post-28">
+			<h2><a href="http://parsnipparsimony.wordpress.com/2009/05/31/it-has-been-a-while/" rel="bookmark" title="Permanent link to It has been a&nbsp;while.">It has been a&nbsp;while.</a></h2>
+			<p class="date">Posted by <a href="http://">Susie</a> on May 31, 2009</p>
+			<div class="entry">
+				<p>Wow, a lot has happened since I last updated. I don&#8217;t have any more baked goods to show you- for now at least- but I do have some loooong overdue food science I would like to talk about, which I feel I <em>need </em>to talk about before I go back to school, and forfeit my free time indefinitely.</p>
+<p>I&#8217;ve agonized about choosing the best genre with which to communicate my favorite ideas with you all for a very long time now. If I could sit down with each and every one of you, and tell you all about plant proteins and why they are heart-breakingly under-utilized by our culinary culture, food industry, and animal rights communities, then we would have no problems communicating&#8230; But I can&#8217;t sit down with all of you. It is about time I started wrangling these ideas into a finite number of words.</p>
+<p>It may be ramble-y. Even taking into account the probably-annoying longness of my blog posts to date, this is going to take a few individual blog posts to get though entirely. And I&#8217;m not going to commit to any specific genre: if I did that, I would never be able to decide on one and just start writing. So I&#8217;m going to make up format as I go along.</p>
+<p>And it won&#8217;t be perfect, either. I&#8217;ve spent a lot of time trying to gain an adequate understanding of the food industry, food culture, bakery science, food chemistry, colloid science, and so many other things so that I could maybe one day talk to you all about these favorite ideas of mine and actually know what I&#8217;m talking about&#8230; believe me- I&#8217;m not there yet. But I&#8217;ve made some progress, and because I have some free time this summer, and because this fall I will kiss all my free time good-bye indefinitely, I&#8217;ve decided that the time has come to get stuff typed as-is. It is a very hard decision for me, a hopeless perfectionist, to make, but I will just have to deal with that.</p>
+<p>So prepare yourself, blogosphere, for my wordy, non-expert communication of my very favorite ideas. Par for the course will be narrative about what I&#8217;ve been up to for the past <span style="text-decoration:line-through;">five</span> six years, protein structure and function 101, ranting against bad science education, and probably many more disclaimers about what I&#8217;m not sure of than I really need to put in my writing. But at least it will be something, and then at least once I am off at college and am doing nothing but studying, the information will be right here, ready to be read by you, so that these favorite ideas don&#8217;t have to stay heart-breakingly locked up any longer.</p>
+<p>So it is time for me to start writing. This post wasn&#8217;t that hard. The next one couldn&#8217;t be much worse!</p>
+			</div>
+
+		<p class="category">Posted in <a href="http://parsnipparsimony.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> |    <a href="http://parsnipparsimony.wordpress.com/2009/05/31/it-has-been-a-while/#comments" title="Comment on It has been a&nbsp;while.">2 Comments &#187;</a></p>
+		</div>
+
+	
+		<div class="post-26 post type-post status-publish format-standard hentry category-uncategorized tag-food-science tag-aromatic-rings tag-blog-posts-of-pure-joy tag-donuts tag-food-that-looks-like-other-food tag-organic-chemistry tag-science tag-vegan" id="post-26">
+			<h2><a href="http://parsnipparsimony.wordpress.com/2008/05/19/aromatic-rings/" rel="bookmark" title="Permanent link to Aromatic&nbsp;Rings!">Aromatic&nbsp;Rings!</a></h2>
+			<p class="date">Posted by <a href="http://">Susie</a> on May 19, 2008</p>
+			<div class="entry">
+				<p><img src="http://farm4.static.flickr.com/3194/2506535121_69fe2df8ce.jpg?v=0" alt="" width="375" height="500" /></p>
+<p>Last Friday in my organic chemistry class, there was a take home test about benzene chemistry due.  I, for the first time in memory, had finished the test a day early.  So, instead of staying up all of Thursday night in order to finish my test, I made the decision that there was going to be a donut party in class the next day. This is a food pun which I have been resisting since the end of gen chem, and I <em>simply</em> could not hold back any longer.  So I whipped out my kitchen notebook, reviewed some of the <a href="http://eventhevegans.blogspot.com/2007/05/hurts-dont-it.html">literature</a>, and began planning my synthesis.  I was going to make some <em>aromatic rings</em>!</p>
+<p><em>Don&#8217;t you feel like you could go furan aromatic ring right about now?</em></p>
+<p><img src="http://farm4.static.flickr.com/3212/2507362078_62fc013d63.jpg?v=0" alt="" width="375" height="500" /></p>
+<p><strong>Method</strong></p>
+<p>I based my donut dough on <a href="http://eventhevegans.blogspot.com/2007/05/hurts-dont-it.html">this recipe</a>, which was posted on Vegan Hedonism about a year ago. I always use some variation of it whenever I feel like making donuts. I left out the &#8220;egg replacer&#8221;, and used all cold soymilk instead of the mixture of water and warm rice milk called for by the Vegan Hedonism folks. The dough was mixed around 8 pm Thursday,  fermented it in the refrigerator until 8 am Friday, then sectioned into 3.5 oz round balls of dough, placed on a floured pan, covered, and returned to the fridge to rest/proof.  When I got back from my tech writing class at 11 am, I removed the pan from the fridge, and let the dough warm up while I prepped my icings and started heating my oil. When the oil was 375 Fahrenheit and the dough was sufficiently spongy, I stabbed each dough ball through its center, and pulled it out into a nice donut shape. Into the hot oil they went, two at a time. They fry on one side for 90 seconds, then get flipped with a skewer, and then fry on other side for 90 seconds before lifting them out with the skewer onto some waiting paper towels. I like to throw in the next two donuts at this point to get them started, then glaze the first ones while I wait for it to be time to flip the new ones. I glazed half of the donuts right out of the oil, and left the other half to cool so I could dunk them in the thicker frostings.  I was in a bit of a hurry when I was frying and decorating these, so I didn&#8217;t record the weights of the glaze and icing ingredients I used.  I will have to make donuts again some day and document it as a tutorial for you all.</p>
+<p><em>(Transition state)</em></p>
+<p><img src="http://farm3.static.flickr.com/2276/2506534821_a1f153c57c.jpg?v=0" alt="" width="375" height="280" /></p>
+<p><strong>Discussion</strong></p>
+<p>Despite the horrible/awesome mockery of my beloved &#8220;food science&#8221;, there WAS some real live aromaticity going on in these donuts. All of the icings contained your favorite and mine, 3-hydroxy-4-methoxybenzaldehyde, AKA &#8220;vanillin&#8221;, the major molecule responsible for the flavor of vanilla</p>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Vanillin.svg/667px-Vanillin.svg.png" alt="" width="109" height="97" />3-hydroxy-4-methoxybenzaldehyde</p>
+<p>The pink icing was spiked with benzaldehyde (which is what makes bitter almond extract taste like bitter almond extract).</p>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/9/9b/Benzaldehyde.png" alt="" width="52" height="85" /> benzaldehyde</p>
+<p>I&#8217;ve always been more interested in using food science to affect the structure of bakery foods, rather than the details of flavor chemistry, but now that I&#8217;m almost done with this school year of O-chem, flavor chemistry is starting to seem more interesting to me- probably because I can understand parts of it now. Two years ago if I looked at these funny stick drawings, I kind of spaced out. Now, my mind fills with thoughts of resonance, sterics, functional groups, and pKa values. I tentatively think this is kind of cool, but I guess I will have to get back to you on that&#8230;</p>
+<p><em>Look! Shiny!</em></p>
+<p><img src="http://farm4.static.flickr.com/3102/2507361618_7b16dd1540.jpg?v=0" alt="" width="375" height="500" /></p>
+<p>So, all in all, I think its safe to say this synthesis was a success. The yield was 100% and the solvent was able to be filtered and reused, so these are some pretty damn green donuts, yknow?</p>
+<p>And the best part is&#8230;. Theres only 50 kilocalories[1] per 6.022&#215;10^23 donuts! &#8230; And they are &#8220;organic&#8221;! [2]</p>
+<p><img src="http://farm4.static.flickr.com/3190/2506534997_f5f53dd2d1.jpg?v=0" alt="" width="500" height="375" /></p>
+<p><em>[1] About 50 kcal down to cyclohexene, and really I do not feel like going and remembering how to calculate the rest of the C-C and C-H BDEs.  So lets just say 50 kilocalories because I&#8217;m sleepy.  I had a physics test this morning, and have already done all the thermodynamics I feel like doing thankyouverymuch. </em></p>
+<p><em>[2] Sorry. That wipes out my pun quota for at least a month, right? </em></p>
+			</div>
+
+		<p class="category">Posted in <a href="http://parsnipparsimony.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | Tagged: <a href="http://en.wordpress.com/tag/food-science/" rel="tag">"food science"</a>, <a href="http://en.wordpress.com/tag/aromatic-rings/" rel="tag">Aromatic rings</a>, <a href="http://en.wordpress.com/tag/blog-posts-of-pure-joy/" rel="tag">Blog posts of pure joy</a>, <a href="http://en.wordpress.com/tag/donuts/" rel="tag">Donuts</a>, <a href="http://en.wordpress.com/tag/food-that-looks-like-other-food/" rel="tag">Food that looks like other food</a>, <a href="http://en.wordpress.com/tag/organic-chemistry/" rel="tag">Organic chemistry</a>, <a href="http://en.wordpress.com/tag/science/" rel="tag">Science</a>, <a href="http://en.wordpress.com/tag/vegan/" rel="tag">vegan</a> |    <a href="http://parsnipparsimony.wordpress.com/2008/05/19/aromatic-rings/#comments" title="Comment on Aromatic&nbsp;Rings!">14 Comments &#187;</a></p>
+		</div>
+
+	
+		<div class="post-25 post type-post status-publish format-standard hentry category-uncategorized tag-egg-replacer tag-vegan-meringue tag-writing" id="post-25">
+			<h2><a href="http://parsnipparsimony.wordpress.com/2008/04/14/the-deal-with-the-egg-replacer-thing/" rel="bookmark" title="Permanent link to The deal with the egg replacer&nbsp;thing.">The deal with the egg replacer&nbsp;thing.</a></h2>
+			<p class="date">Posted by <a href="http://">Susie</a> on April 14, 2008</p>
+			<div class="entry">
+				<p>So I&#8217;ve been swinging a lot of hints and promises around for the past three weeks, and I figure that I should just tell everyone what the deal is.</p>
+<p>At the beginning of spring break three weeks ago, I had come to the decision that I would put an end to making everyone wait and wait for the mystery egg replacer that I&#8217;ve been talking about forever and ever. I resolved to write up a summary of all the things I&#8217;ve tried, what my logic was for trying them, why the egg replacer is not perfect yet, and my thoughts on possible solutions to the persistent problems. I felt guilty for not being able to put as much time into the project as I would have liked while I was doing other things in school and everyone else was waiting on me, so I thought it would be best if I created a summary of the past five years of work on this egg replacer, so that anyone who was interested would be free to mess around with trying to solve the problems that I was too busy to solve.</p>
+<p>So I put some time into figuring out the best format for presenting all the information I&#8217;ve accumulated, the things I&#8217;ve tried, and the thought process that led me to this current obsession. That took about a week, but I finally decided on a format I was satisfied with. Then I started to outline and to organize my information and to trace my process of developing this egg replacer over the past five years. I found all the really badly taken notes on &#8220;experiments&#8221; I conducted years ago when I had no concept of experimental design, &#8220;significant digits&#8221; or of good scientific note taking practices. The fact that I did these &#8220;experiments&#8221; anyway, and even took notes on them, was a bit nostalgia inducing.</p>
+<p>Then (after three-ish years of making outlines intending to write something on this subject) I actually started writing!  However, by the time I started making sentences, the outline that I had made myself for this document had become much more than a &#8220;short summary&#8221;. I was not writing at the speed I had imagined I would write at, either. After writing/researching/thinking only of this document for about a week and a half straight, by the last Friday of spring break, I had to face the fact that I was not going to finish this &#8220;short summary&#8221; by the time spring break was over.</p>
+<p>Spring quarter started a week ago today, and I have been working on this when I get the chance, but I still am not even halfway done with a rough draft. I don&#8217;t know when I might finish this project, as I&#8217;m taking 16 credits again and I feel like its only a matter of time before I have no free time left. Also, in addition to writing this summary of my past research, I&#8217;m also still testing and acquiring new ideas of how I might be able to make the necessary transition from &#8220;super promising egg replacer with a few kinks to work out&#8221; to &#8220;Hey! This stuff is easy to prepare non-industrially and it works just like egg in everything!&#8221;</p>
+<p>So, please accept my apologies for underestimating the amount of time it would take to write a summary of my egg replacer project. I realized a while ago that there is no reason to be secretive about this anymore. The only thing in my way is the difficulty I&#8217;m having with distilling five years of experimentation, conclusions, and unanswered questions into an effective communication.  I mean- I could post a &#8220;recipe&#8221; that everyone would try only to be disappointed by a lengthy process that gives mediocre results, and that doesn&#8217;t say why, despite its imperfections, that it represents a whole lot of potential as an egg replacer if the imperfections can be overcome, and what those imperfections are, and what doesn&#8217;t work to solve the problems that persist, and what might work if only we had the time or resources&#8230;. That is why I&#8217;m taking so long typing this thing, and why I&#8217;ve not just &#8220;said&#8221;.</p>
+<p>So, please, by all means, if anyone out there just read through this ramble and has any sort of opinion, I would love to hear what it is.</p>
+<p>And I will keep you posted about the status of the document I am working on.  Rest assured that I AM hellbent on getting this project to you all, and that given enough time, I will!</p>
+<p>-Susie</p>
+			</div>
+
+		<p class="category">Posted in <a href="http://parsnipparsimony.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | Tagged: <a href="http://en.wordpress.com/tag/egg-replacer/" rel="tag">Egg replacer</a>, <a href="http://en.wordpress.com/tag/vegan-meringue/" rel="tag">Vegan meringue</a>, <a href="http://en.wordpress.com/tag/writing/" rel="tag">Writing</a> |    <a href="http://parsnipparsimony.wordpress.com/2008/04/14/the-deal-with-the-egg-replacer-thing/#comments" title="Comment on The deal with the egg replacer&nbsp;thing.">10 Comments &#187;</a></p>
+		</div>
+
+	
+		<div class="post-24 post type-post status-publish format-standard hentry category-uncategorized tag-brioche tag-chocolate tag-orange tag-recipes tag-vegan" id="post-24">
+			<h2><a href="http://parsnipparsimony.wordpress.com/2008/04/05/spring-break-ill-show-you-my-brioche-a-tetes/" rel="bookmark" title="Permanent link to Spring Break! I&#8217;ll show you my Brioche à&nbsp;têtes">Spring Break! I&#8217;ll show you my Brioche à&nbsp;têtes</a></h2>
+			<p class="date">Posted by <a href="http://">Susie</a> on April 5, 2008</p>
+			<div class="entry">
+				<p>I made some orange/ dark chocolate brioches the other day.  This time, I used measuring cups to weigh out my ingredients, so I have a volume unit recipe for you all! Enjoy!</p>
+<p><a href="http://farm3.static.flickr.com/2324/2390646005_5aa4e81b09.jpg?v=0"><img src="http://farm3.static.flickr.com/2324/2390646005_5aa4e81b09.jpg?v=0" alt="" width="375" height="473" /></a></p>
+<p>The chocolate-orange flavor combination was suggested by the recipe that came with my pretty new brioche pans. I didn&#8217;t bother veganizing that recipe, but instead, I just added chocolate and orange to the added-gluten brioche formula I developed in <a href="http://parsnipparsimony.wordpress.com/2008/01/05/some-experiments-involving-vegan-brioche/">January</a>. The orange zest and bittersweet chocolate chunks made for the most outrageous yeast dough I have ever been in the presence of. Normally, yeasted bread doughs are not known as being irresistable, but this dough was.</p>
+<p><img src="http://farm4.static.flickr.com/3148/2390641429_432652be2c.jpg?v=0" alt="" width="375" height="500" /></p>
+<p> </p>
+<p><strong>Orange-Chocolate Brioche à têtes </strong></p>
+<p><em>Made four short brioches. I think if I had made two, maybe three bigger ones, they would have been better.</em></p>
+<p>Starter: <em>Mix together the following ingredients in a stand mixer with a spoon until uniform.  Allow starter to ferment for  20-30 minutes.</em></p>
+<ul>
+<li>3 Tbs bread flour</li>
+<li>1.5 tsp dry yeast</li>
+<li>1/4 cup+ 1 tsp room tempurature unsweetened soymilk</li>
+</ul>
+<p>Dough: <em>After starter is done fermenting, place a dough hook or paddle attachment on the stand mixer. Add  the water and lecithin to the mixer and mix to break up starter thoroughly.  Add flour, gluten, orange zest, and sugar to mixing bowl and mix on the lowest speed until all the flour is moist. Continue mixing, and begin adding the Earth Balance brand buttery sticks to the mixer, waiting until each addition is fully incorporated into the dough before adding more. Take your time adding the fat. Going too fast will result in an incoherent dough. </em></p>
+<p><em><strong>Note:</strong> There is no salt in this recipe on purpose. (The high amount of  salted margarine provides all the saltiness that is needed.) </em></p>
+<ul>
+<li>Starter (from above)</li>
+<li>1/4 cup + 3 tsp water</li>
+<li>1 drop liquid soy lecithin (a pinch of lecithin granules would work)</li>
+<li>1.5 cups bread flour (Thats the &#8220;scoop and shake method&#8221; for those who might otherwise do it &#8220;right&#8221;.)</li>
+<li>4 tsps vital wheat gluten</li>
+<li>4 tsps Sugar</li>
+<li>Zest from one large washed orange.</li>
+<li>1.5 sticks earth balance buttery sticks.</li>
+</ul>
+<p>Chocolate: <em>Add the chopped chocolate to the dough and mix thoroughly.</em></p>
+<ul>
+<li>1/4 cup chopped bittersweet chocolate (I chopped 1/2 of a large lindt bar in a blender, but you could use a knife or a food processor. Or prepackaged chocolate chips, but I really liked the variety of size of chocolate chunk I got from using the blender: some powder to make the whole dough chocolate-y tasting, and some big chunks to be melty, gooey, and wonderful.)</li>
+</ul>
+<p>Fermentation: <em>Remove the dough hook from the mixer, cover the mixer bowl with something airtight, and let the dough sit for 3-4 hours at room tempurature.</em></p>
+<p>Form the brioche: <em>Devide the dough into pieces of the desired size, and place them into the pans you wish to bake them in. For traditional<strong> </strong>Brioche à têtes, place a small ball of dough on top of a larger ball. Anchor the small piece by rolling it out a little to give it a &#8220;tail&#8221;, make an indentation in the large piece with your thumb, and connect the two pieces. You can also form brioche as loaves and use a plain bread pan, or you can use muffin pans. As long as you give this fragile dough something to hold itself up with (I wouldn&#8217;t recommend hearth brioche, except maybe if you are making a ring-type thing.), the possibilities are only limited by your creativity.  Keep in mind the dough will almost double, but filling your pan to near the top will only result in impressive, high-rising brioche. (I should have made mine bigger.)</em></p>
+<p><img src="http://farm3.static.flickr.com/2256/2391472912_122012d26b.jpg?v=0" alt="" width="375" height="500" /></p>
+<p>Chill and proof the shaped brioche:<em> Cover the shaped brioche with something air-tight. Put it outside in the cold or in the refridgerator for 2-3 hours. (larger brioche will need more time.)</em></p>
+<p><img src="http://farm3.static.flickr.com/2376/2391473110_0de332be0f.jpg?v=0" alt="" width="375" height="500" /></p>
+<p>Bake the brioche:<em> Preheat the oven to 350 F for smaller brioche, and 325 F for larger brioche. Take the Brioche out of the cold and let it set at room tempurature for a while (half hour-ish, less if you&#8217;re in a hurry. More if it doesn&#8217;t seem to be that poofy, no time at all if it is overproofed.) Prepare a xantham gum &#8220;egg wash&#8221; with a teensy weensy pinch of xantham in soy milk or soy creamer (leave out the xantham if you don&#8217;t have it), and wash the surface of the brioche right before placing them in the oven. </em></p>
+<p><em><a href="http://farm4.static.flickr.com/3201/2390643129_068e490399.jpg?v=0"><img src="http://farm4.static.flickr.com/3201/2390643129_068e490399.jpg?v=0" alt="" width="371" height="277" /></a></em></p>
+<p><em>Take the brioche out of the oven when they have a golden brown color on the outside. My 4.6 oz</em> <em>mini Brioche à têtes took 50 minutes to reach the perfect crust color- yours will take about that long if they are a similar size, less time if they are smaller, and more time if they are larger. If in doubt: &#8220;if its not burning, five minutes longer won&#8217;t hurt it!&#8221;</em></p>
+<p><em><img src="http://farm4.static.flickr.com/3129/2390643989_3de675187c.jpg?v=0" alt="" width="373" height="276" /></em></p>
+<p> </p>
+			</div>
+
+		<p class="category">Posted in <a href="http://parsnipparsimony.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | Tagged: <a href="http://en.wordpress.com/tag/brioche/" rel="tag">brioche</a>, <a href="http://en.wordpress.com/tag/chocolate/" rel="tag">chocolate</a>, <a href="http://en.wordpress.com/tag/orange/" rel="tag">orange</a>, <a href="http://en.wordpress.com/tag/recipes/" rel="tag">recipes</a>, <a href="http://en.wordpress.com/tag/vegan/" rel="tag">vegan</a> |    <a href="http://parsnipparsimony.wordpress.com/2008/04/05/spring-break-ill-show-you-my-brioche-a-tetes/#comments" title="Comment on Spring Break! I&#8217;ll show you my Brioche à&nbsp;têtes">6 Comments &#187;</a></p>
+		</div>
+
+	
+		<div class="post-23 post type-post status-publish format-standard hentry category-uncategorized" id="post-23">
+			<h2><a href="http://parsnipparsimony.wordpress.com/2008/02/14/slacker/" rel="bookmark" title="Permanent link to Slacker!">Slacker!</a></h2>
+			<p class="date">Posted by <a href="http://">Susie</a> on February 14, 2008</p>
+			<div class="entry">
+				<p>&#8230; That would be me, of course. As you all were way too aware, I&#8217;m sure.</p>
+<p>Well, as a weak try at an excuse, I suppose the reason I&#8217;ve not been posting more of my baking/baking science blog posts is that I&#8217;ve been doing waaaaay too much science and really no noteworthy baking- when I do find the time to throw any flour-stuff in the oven, its only purpose is to provide me with something nutritive I can wrap in tin foil and eat at school during my super-long days where the only thing I have available to eat is soy lattes, nasty vegan &#8220;nutrition&#8221; bars they sell at the same place as the lattes, and whatever I have the foresight to bring with me. Even then, its usually two apples that I stuff in my backpack- one for each apple sized side pocket- and not fancy schmancy baked goods.</p>
+<p>So yeah. School is good though. O-chem II, Biology (biochem, genetics, development), and Physics w/calculus I. All with their respective labs. I mean- so far, so good, I haven&#8217;t gone too insane&#8230; but on the other hand, I didn&#8217;t sleep last Thursday night. This one take home test NMR puzzle thing problem was being a pain in the butt and took me something like 10 hours to finally get an answer to. Sheesh.</p>
+<p>Of course, its not just ALL been homework I&#8217;ve been occupied with. With the example of some excellent individuals on my egg replacer testing board leading the way, I&#8217;ve figured out that the way which I used to research things (before this quarter, really) really sucks. I mean- before, I was reading out of date textbooks (which they sell for cheap), and using totally the wrong keywords for totally the wrong databases to try to find information. It was the method of research that I ended up schlepping together when I was in highschool and interested in acousics: I would try my damndest to read vintage, over-my-head books on acoustics, even though I had nowhere near an adequate understanding of the physics or math required to understand where the acoustics principles were really <i>coming from</i>. I could get the gist of things though. I can&#8217;t believe its taken me &#8230; lets see&#8230; six? SEVEN? (holy potato! Not seven! hmmmm. Six and a half, lets say.)&#8230; years to finally improve the efficiency of the way I research stuff. I can only hope it gets better from here. Oh. I suppose that maybe all this school might be helping me understand the terminology in research articles that would send me running for wikipedia a year ago.  So moral of the story? (are you listening? listen to this part!) The moral of the story is that the value of introductory science and math classes, even though they are not the &#8220;fun&#8221; stuff, should not be overlooked, because without them, the fun stuff can&#8217;t get very far. The other moral of the story is if you are a highschool chemistry teacher, and your student is really into acoustics, and is trying to read Benade and Helmholtz, and that maybe if she seems to think that the general physics material is boring, and only wants to read about advanced acousics, that MAYBE, just maybe, instead of chastising her in front of the class, grading her tests more harshly than the other students, and heaven forbid, causing her to change her mind about her recent decision to become a science major so that four years later, when she DOES realize that it is inevitable that she study science after all, she must take freshman level classes at the awkward age of 22!, that instead, perhaps, you encourage her curiosity, show her how her physics textbook has applications to acoustics in the later chapters, and then drive home the point that the boring math of general physics really IS advantageous to understanding advanced acoustics after all, and that she had better just suck it up and learn the math if she knows whats good for her. On the other hand, if you did all that, that student might end up trying to get a degree in acoustics instead of food science when all is said and done, and seriously- wheres the money in acoustics? &#8230;. so maybe that grudge I hold SHOULD be a little bit smaller. I&#8217;m not earning musical instrument repairperson wages! yay! (Its the <b>one</b> nice thing my HS science teacher did for me, I guess.)</p>
+<p><b>Wow. Didn&#8217;t mean to go on that rant.</b> Oh well. I always liked that rant, in any case. Feels good to get that out of my system. What was I talking about again? Oh! this blog and how I&#8217;m slacking on it!</p>
+<p>I always feel hesitant to post a blog post that is not, in some way, a report of something I&#8217;ve baked. And since I haven&#8217;t had the time (or energy when I do have the time) for baking, I haven&#8217;t been posting. It takes me a long time to do a blog post. I have to plan a thing to bake that seems like a relevant experiment, bake the damn thing, take pictures, remember to do measurements, and then the REALLY time consuming part: I need to ramble about it. It takes me a long time to compose my ramble. I guess I&#8217;m particular about rambling.  <b>Which brings me to my question to you all:</b> What do you think about my making blog posts that aren&#8217;t &#8220;reports&#8221; of things I&#8217;ve baked? Yes yes yes. I know- its my blog and I can do whatever I damn well please with it. But still. I do try pretty hard to not fill this blog with non-content, and instead, focus on things that seem<i> relevant</i> to me. (Yeah. I know. &#8220;Relevant to Susie&#8221; is probably a very weirdly composed category.)  But really- I know this is blog is kind of weird as far a food blogs go anyway, what with the rants about gluten, and now, the rants about bad science teachers, but what if, what if!, I started blogging about different, but related, subjects? I mean-  I could talk about school (and try not to be like &#8220;and then I went and talked to this person and then I had a coffee and then I&#8230; you get the picture), or I could talk about food sciencey stuff that I find interesting, but that doesn&#8217;t directly relate to food I make and take pictures of.</p>
+<p>So. Does any of that sort of thing sound like something you guys would like to read, or would you just rather wait until I&#8217;ve got more time to bake more things to read about that?</p>
+<p>PS: I have gotten quite a few emails and other messages from people wanting to test on the egg replacing test board. I swear I&#8217;m not purposely ignoring anyone inparticular, its just that I have such little free time that I&#8217;m even neglecting the testing board itself WAY more than I should be. I do intend to reply to the lot of you, so hold tight and please accept my apologies  for ignoring your polite emails so rudely! Also, I&#8217;ve been seriously thinking about just moving speculation and discussion about the improvement of the egg replacer thing out of the private board and into the public (on this blog). I think I would type a huge thing first about all the stuff thats been tried in the course of all the testing and all the remaining uncertainty and speculation about what might end up working, so that everyone can be on the same page in trying to work out the weirdness of this thing. It does seem like the right thing to do, but when the hell am I going to find the time to type a huge thing? (HA! She said at the end of a huge thing. I mean an ORGANIZED huge thing! and huger than this!).  So people who I haven&#8217;t emailed back about testing, don&#8217;t feel bad, because even if I don&#8217;t ever get to it, it might be public accessible soon anyway.  So yeah. Neat-o.</p>
+<p>I&#8217;m going to bed!</p>
+			</div>
+
+		<p class="category">Posted in <a href="http://parsnipparsimony.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> |    <a href="http://parsnipparsimony.wordpress.com/2008/02/14/slacker/#comments" title="Comment on Slacker!">4 Comments &#187;</a></p>
+		</div>
+
+	
+		<div class="post-22 post type-post status-publish format-standard hentry category-uncategorized" id="post-22">
+			<h2><a href="http://parsnipparsimony.wordpress.com/2008/01/07/blogging-it-works-for-me/" rel="bookmark" title="Permanent link to &#8220;Blogging&#8221;. It works for&nbsp;me.">&#8220;Blogging&#8221;. It works for&nbsp;me.</a></h2>
+			<p class="date">Posted by <a href="http://">Susie</a> on January 7, 2008</p>
+			<div class="entry">
+				<p>Maybe I&#8217;m preaching to the choir, or stating the obvious, but I really am digging this whole &#8220;blog&#8221; format.</p>
+<p>For a long time, I wanted to try writing a book regarding many of the things I am writing here. But I never got around to that, well, for a lot of reasons. Besides the fact that I didn&#8217;t really know enough to round out all that I wanted to say, I found it pretty hard to get past &#8220;outline form&#8221;, because the topic I had set my sights on writing about was gigantic, and the whole project was very intimidating to start trying to get even a small part into a draft form.</p>
+<p>With this blog thing though, I can break my thoughts into easier to chew chunks, leave the stuff I&#8217;m not sure about until later, AND get instant gratification and feedback when I post thoughts on one topic. Its nice. And it works for me. Book can wait until I have done more school, because I really would like to limit how precocious I have to be. Veganism forbid I make a false claim or overlook something in print!</p>
+<p>And because I hate to post without a picture, here is what I think is REALLY funny lately: Brewing my morning espresso in a 50 mL beaker.</p>
+<p><img src="http://farm3.static.flickr.com/2036/2170767558_f51cd24c0b.jpg?v=0" height="424" width="318" /></p>
+<p>I amuse myself way too easily. I sit in the kitchen, alone, drinking my coffee out of my beaker and laughing at my own joke. Its great. (Lame, but great.)</p>
+			</div>
+
+		<p class="category">Posted in <a href="http://parsnipparsimony.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> |    <a href="http://parsnipparsimony.wordpress.com/2008/01/07/blogging-it-works-for-me/#comments" title="Comment on &#8220;Blogging&#8221;. It works for&nbsp;me.">7 Comments &#187;</a></p>
+		</div>
+
+	
+		<div class="post-21 post type-post status-publish format-standard hentry category-uncategorized" id="post-21">
+			<h2><a href="http://parsnipparsimony.wordpress.com/2008/01/05/some-experiments-involving-vegan-brioche/" rel="bookmark" title="Permanent link to Some experiments involving vegan&nbsp;brioche">Some experiments involving vegan&nbsp;brioche</a></h2>
+			<p class="date">Posted by <a href="http://">Susie</a> on January 5, 2008</p>
+			<div class="entry">
+				<p> Can you guess which brioches contain extra gluten? Read on to find out!</p>
+<p><img src="http://farm3.static.flickr.com/2044/2169971505_7a9f921c21.jpg?v=0" height="286" width="382" /></p>
+<p>So, when I made <a href="http://parsnipparsimony.wordpress.com/2007/11/13/challah-lab-notes-from-first-attempt/">vegan challah</a> a while ago, I think I got pretty close to determining both what eggs do in a lean yeasted bread, and a good way of replacing them. Rich yeasted dough, however, has slightly different needs.  Typically, since fat weakens dough structure, the amount of eggs called for in rich bread increases as the butter content increases.  Eggs, therefore, serve as structure providers in doughs with high fat content, as opposed to their use as tenderizers in lean eggy doughs such as challah.  Back in spring of &#8217;06, I was determined to find a method of replacing eggs in these rich yeasted doughs. I remember looking through my baking text book in order to find the bread formula that called for the most eggs and the most butter. The dough I found that had the highest egg and butter content was <a href="http://en.wikipedia.org/wiki/Brioche">brioche</a>. I believe that particular formula called for a ratio of 80g butter to 100g flour (80% in the bakers percent terminology), which is a whole LOT of butter. My first attempt to veganize this recipe was the same exact method I had luck veganizing challah with. (The challah experiment I posted here a month and a half ago was really a re-creation of an experiment I had done in &#8217;06.) I replaced the butter with margarine, and the egg with tofu with enough water pressed out that the protein and water content would be the same as egg. This failed horribly. The dough was crumbly, and never came together because it was way too stiff and dry. The baked brioches this dough made were not so good, either. &#8220;SO&#8221;, I thought, &#8220;I need another method of veganizing rich yeast bread than I do lean yeast bread&#8221;.</p>
+<p>Since I was pretty sure the eggs were called for as structure providers (and maybe also as emulsifiers due to the giant quantities of fat in the dough), I decided to try the &#8220;other&#8221; structure providing protein, good old wheat gluten, to see how it did at holding up all that fat.  Now, wheat gluten, if used in high quantities in dough, can make some breads &#8220;chewy&#8221;.  Bagels are made from 13% gluten flour, and I calculated that if I replaced all the egg protein called for by my brioche recipe by adding gluten powder, that it would essentially be like using flour that is <b>16% gluten (!)</b>, which is really a high amount of gluten, comparatively. &#8220;BUT!&#8221;, I figured, &#8220;This is a dough that is one third fat! and I really doubt that it will be made tough, dense, or chewy, because that is a lot of fat&#8221;. So I tried another brioche dough, this time adding the amount of water, fat, and lecithin I calculated was called for by the recipe, and replacing the egg protein with gluten protein. I ended up with gorgeous little brioches, and my baking teachers couldn&#8217;t tell the difference between my vegan and traditional brioches.</p>
+<p>Fast forward to this friday. I have been meaning to re-start my brioche studies while now. I realised that I was missing one important thing from what I did before: I knew brioche didn&#8217;t work when I tried to use tofu, and I did know it did work when I used gluten, water, fat, and lecithin, but I didn&#8217;t know if it would have worked if I had only added the water, fat, and lecithin, and not the gluten.</p>
+<p>I found a new brioche formula. This time, I based my experiment off of &#8220;Rich Man&#8217;s Brioche&#8221; from Peter Reinhart’s “The Bread Baker’s Apprentice”. It called for even more butter than the formula I had used before: butter and flour in a near 1:1 ratio! I decided to try making two doughs simultaneously, both with enough added water, oil, and lecithin to replace what would have been in the egg Reinhart called for, but that I would add an amount of gluten protein to one of the doughs to replace the missing amount of egg protein. Here is what happened:</p>
+<p>Each dough had a starter consisting of:</p>
+<ul>
+<li>0.6 oz bread flour</li>
+<li>0.1 oz dry yeast</li>
+<li>1.0 oz unsweetened soymilk</li>
+</ul>
+<p>The starter was mixed with:</p>
+<ul>
+<li> 1.6 oz tap water</li>
+<li>0.2 oz oil</li>
+<li>1 drop liquid soy lecithin</li>
+</ul>
+<p>Once the starter was dispersed and broken up into the water, I added:</p>
+<ul>
+<li>4.0 oz bread flour (King Arthur brand)</li>
+<li>0.3 oz sugar</li>
+<li>0.1 oz salt (Next time I make these, I plan on omiting this salt, because the original recipe calls for unsalted butter, but they don&#8217;t make unsalted Earth Balance, so my final product was very salty)</li>
+<li>To one of the doughs, I added 0.2 oz vital wheat gluten at this stage.</li>
+</ul>
+<p>This addition was mixed at a slow speed for 6 minutes, then on a slightly faster speed for 6 minutes, then allowed to rest for 5 minutes. (I used a 6 quart kitchenaid mixer and a dough hook.)</p>
+<p>Using a dough hook, then switching halfway through to a paddle attachment, I mixed the following into my dough, a small amount at a time, frequently scraping the sides of the bowl:</p>
+<ul>
+<li>4.0 oz Earth balance buttery stick (one stick)</li>
+</ul>
+<p>Once all of the margarine was incorporated, I mixed the dough about 5 minutes more on a low speed, scraping the bowl as needed.  Each dough was placed in a bowl, covered with saran wrap, and allowed to ferment, chilled, overnight.</p>
+<p>The next day, I formed each dough into balls and put them in a mini muffin pan. I put 5 mini-brioches made from the dough without the added gluten on one side of my muffin pan and 6 mini-brioches made from the dough with the added gluten on the other side. (to remind myself which side had &#8220;less&#8221; gluten.) The remaining dough I formed into balls and placed next to each other in a mini-loaf pan. I covered all the formed dough with saran wrap, and put it outside to proof for about 5 hours, then brought it inside to proof at room temperature  for about 1 hour. I baked the brioches at 400 F until they were golden brown, and then let them cool.</p>
+<p>Both doughs looked like they had formed reasonably decent brioches. Neither collapsed, which was a big fear, considering all of the fat that dough had to hold up. However, the brioche with the extra gluten rose considerably higher, looked fluffier, and had a much more resilient structure.</p>
+<p>Both of these brioches weighed 21 grams, but the brioche on the left has added gluten protein to make up for missing egg protein. The brioche on the right does not.</p>
+<p><img src="http://farm3.static.flickr.com/2362/2169971399_c0dda31a03.jpg?v=0" height="512" width="384" /></p>
+<p>These are the same brioches opened up:</p>
+<p><img src="http://farm3.static.flickr.com/2002/2169971331_a1dbf3d381.jpg?v=0" height="513" width="384" /></p>
+<p>The brioche with extra gluten also has a more resilient structure than the brioche without extra gluten. This is the loaf with both doughs baked side by side. I poked each side with equal pressure, and the extra gluten containing brioche bounced back much quicker and more completely.</p>
+<p><img src="http://farm3.static.flickr.com/2007/2170791768_5fd4eb6585.jpg?v=0" height="287" width="384" /></p>
+<p>Poke!</p>
+<p><img src="http://farm3.static.flickr.com/2289/2170791814_8db52a97d6.jpg?v=0" height="286" width="382" /></p>
+<p>Added gluten brioche wins!</p>
+<p><img src="http://farm3.static.flickr.com/2408/2169995251_121f7f889b.jpg?v=0" height="287" width="383" /></p>
+<p>So, in conclusion:</p>
+<p>Its good to know that even in rich yeast breads containing a 1:1 flour to fat ratio, that egg protein isn&#8217;t totally nessasary to keep the bread from collapsing, and it is even better to know that a little gluten can make a vegan rich dough even nicer, have better volume, and be more resilient than otherwise.</p>
+<p>Also, on a less technical note, these vegan brioches were really good. I can&#8217;t say I&#8217;ve ever even had brioche before, but they reminded me of another buttery yeast dough: croissants! They sure are rich and flakey, but you know, these are MUCH easier to make than croissants! No rolling and folding! I plan on making them again, for sure. If anyone tries this, make sure you omit the salt though, unless you happen to find unsalted vegan margarine, in which case you should tell ME where to find it.)</p>
+			</div>
+
+		<p class="category">Posted in <a href="http://parsnipparsimony.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> |    <a href="http://parsnipparsimony.wordpress.com/2008/01/05/some-experiments-involving-vegan-brioche/#comments" title="Comment on Some experiments involving vegan&nbsp;brioche">7 Comments &#187;</a></p>
+		</div>
+
+	
+		<div class="post-20 post type-post status-publish format-standard hentry category-uncategorized tag-booze-cake tag-cake tag-food-that-looks-like-other-food tag-new-years-eve-2008 tag-rum" id="post-20">
+			<h2><a href="http://parsnipparsimony.wordpress.com/2008/01/04/booze-cake-2008/" rel="bookmark" title="Permanent link to Booze Cake,&nbsp;2008.">Booze Cake,&nbsp;2008.</a></h2>
+			<p class="date">Posted by <a href="http://">Susie</a> on January 4, 2008</p>
+			<div class="entry">
+				<p><img src="http://farm3.static.flickr.com/2210/2161159741_f26942a794_b.jpg" height="320" width="429" /></p>
+<p>Last new years eve, I decided that I was going to try to see how much alcohol I could fit in a cake. The idea I started with was an extrapolation of your classic jello shot: It looks like a normal dessert, but really its not just water thats gelled, there is a bit of ethanol hiding in there too,  and boy do you get drunk off of it.</p>
+<p>My go-to, base-everything-off-of frosting is this recipe that was in one of my mom&#8217;s cooking magazines when I was little. I don&#8217;t really know the specifics of the original recipe, but I do know that it called for one cup of milk to be thickened with 5TBS of flour, then beaten with one cup of fat and one cup of powdered sugar.  This is a very versatile recipe for me: I can come up with all sorts of interesting frostings by knowing that as long as I have one cup of water-based &#8220;stuff&#8221; that has been thickened to &#8220;thick pudding&#8221; consistency somehow, then whip it up with a cup of whatever solid fat (margarine, shortening, sometimes I even throw some melted chocolate in), and about 130 g of sugar, I will get a structurally successful, fluffy as heck, frosting.</p>
+<p>Last year&#8217;s booze cake was an attempt to provide the cup of thickened water based &#8220;stuff&#8221; as well as the sugar by using a vegan jello shot kind of thing. <a href="http://www.postpunkkitchen.com/forum/viewtopic.php?id=17280">It worked pretty well.</a></p>
+<p>This year&#8217;s cake had higher ambitions. I had plans to attend a new years party at <a href="http://letsgetsconed.blogspot.com/">Jess&#8217;s</a>, and it was going to be <a href="http://www.youtube.com/watch?v=JYomg92hDUU"><i>SO</i> vegan</a>. I decided to skip the vegan jello mix this time, and wanted to find out if I could use pregelatinized starch to thicken my rum without having to cook it and lose valuable alcohol in the process. For some reason, the grocery store did not carry straight-up pregelatinized starch, but they did have Jell-o brand instant pudding, and upon close inspection of the ingredients list, I found that it was vegan. So I decided to use that.</p>
+<p><b>The cake layers </b><br />
+In the past, if I was making a cake for an important occasion, often I would jump at the chance to get some experimenting done while I was at it. However, I have come to realize that my cake-veganizing method must be off somehow, because I kept ending up with hard, dense cakes and having no choice but to serve them for the special event. NO MORE!, I decided. The thing is, vegan cake recipes are really good, and so I figure that unless I want to make a cake specifically for the purpose of experimentation, then I should probably stick with a good, reliable, vegan cake recipe. For this years booze cake, I decided to go with a tried and true <a href="http://www.pakupaku.info/sweets/mixnmatch.shtml">Kitteekake</a>, because if there is one person I trust when it comes to cake (or&#8230;anything else, now that I think about it), it is Kittee. I printed out her <a href="http://www.pakupaku.info/sweets/choc_cupcakes.shtml">chocolate cake recipe</a>, and because it was for booze cake and a &#8220;fancy dessert&#8221; party, I made a few adjustments accordingly. I found out that making flavor adjustments on a vegan recipe is much more fun and satisfying than making veganization adjustments.  Here are the changes I made:</p>
+<ul>
+<li>Instead of the 2 cups of cold water, I used one 12 oz bottle of stout beer mixed with 1/2 cup of water. (Its booze cake! How could I NOT add stout?)</li>
+</ul>
+<ul>
+<li>I used extra dark cocoa powder instead of regular</li>
+</ul>
+<ul>
+<li>I added one cup (122g) of finely chopped, then toasted, hazelnuts to the dry ingredient mixture.</li>
+</ul>
+<ul>
+<li>I cut the amount of vinegar called for down to 1 teaspoon, to allow for the acidity of the stout.</li>
+</ul>
+<p>The hazelnuts and stout gave it a very deep flavor. I can&#8217;t believe I&#8217;ve never put chopped nuts into cake batter before! Not only was it beautiful seeing the light flecks of the nuts against the dark cake, but I really like the crunch they provided. It smelled amazingly hazelnutty when this cake was in the oven, too.  Sure enough, Kittee&#8217;s cake-genius came through and I ended up with a high-rising, tender, moist, and perfect cake structure and texture. THANK YOU KITTEE! The altered recipe gave me two perfectly sized 8&#8243; layers, which I cut in half to make four 1/2 inch thick layers.</p>
+<p><b>The Good Part (The booze frosting) </b></p>
+<p>(I used a double recipe for my four-layer cake)</p>
+<p><b>Frosting Ingredients:</b></p>
+<p><img src="http://farm3.static.flickr.com/2388/2161159485_194ebfcd97_o.jpg" height="515" width="289" /></p>
+<p>(I ended up just using the Bacardi, not the Monarch.)</p>
+<ul>
+<li><b></b> 2 large (155g each) packages Jell-o brand instant vanilla pudding mix</li>
+<li>Slightly more than 1/2 C 151 proof rum (100g)</li>
+<li>Slightly less than 1/2 C unsweetened soymilk (122g)</li>
+<li>1/2 C raspberry jam (153g)</li>
+<li>Juice of one lemon (51g)</li>
+<li>1 C (2 sticks, ) Earth Balance brand buttery sticks (Don&#8217;t use the spread, its too soft.)</li>
+<li>1 drop ( 2g) liquid soy lecithin</li>
+</ul>
+<p><b>Frosting directions:</b></p>
+<ul>
+<li>Combine Instant pudding mix, Rum, Soymilk, Jam, and Lemon juice. Whisk until the mixture is smooth and has thickened. It should look like this:</li>
+</ul>
+<p><img src="http://farm3.static.flickr.com/2164/2161159951_0a28519563.jpg?v=0" height="238" width="424" /></p>
+<ul>
+<li> In a large mixing bowl, using a stand mixer or a hand held beater, cream the margarine with the lecithin until the lecithin has fully incorporated into the fat and the mixture has no lumps.</li>
+<li>Add the  thickened rum mixture, a spoonful at a time, and beating well between additions, until all of it has been added. Scrape the sides and bottom of the mixing bowl often.</li>
+<li>Continue beating the frosting until it becomes fluffy.</li>
+<li>Store the frosting at room temperature until it is time to frost the cake. If the frosting begins to separate, beat in a drop more soy lecithin until the emulsion comes back together.</li>
+</ul>
+<p>Finished Frosting:</p>
+<p><img src="http://farm3.static.flickr.com/2299/2161159541_d7a8c8b610_o.jpg" height="237" width="425" /></p>
+<p><b>Putting the cake together:</b></p>
+<p>I frosted this cake in a pretty normal fashion. Each layer got brushed heavily with a mixture of raspberry jam and rum, then received a layer of the (probably about 30 proof) frosting. The tops and sides were finished off with more frosting and the sides of the cake got crusted with more of the chopped toasted hazelnuts. I piped a shell border on the top of the cake,then threw some chocolate curls onto my shells. The remaining raspberry jam that was left in the jam jar after I took out what I needed for the frosting got softened in the microwave, then poured into the cavity created by the frosting shells and coaxed into place with a spatula.</p>
+<p>My friend Rory was in town for our vegan new years party, and I would like to thank her for making chocolate curls, writing down ingredient measurements, giving helpful &#8220;cake person&#8221; advise (as I am not really a cake person), eating the leftover booze frosting since I had to drive to the party, as well as holding the cake on the way there so it didn&#8217;t go splat even though we were kind of driving on a half flat tire and risked a blow out a little bit. Rory, I am ever-thankful!</p>
+<p>Here are some more pictures:</p>
+<p><img src="http://farm3.static.flickr.com/2034/2161959812_bc445f711b.jpg?v=0" height="318" width="424" /></p>
+<p><img src="http://farm3.static.flickr.com/2287/2161959890_a9cc3d2fe3.jpg?v=0" height="317" width="422" /></p>
+<p><img src="http://farm3.static.flickr.com/2412/2156927931_a979cee3c7.jpg?v=0" height="316" width="422" /></p>
+<p><img src="http://farm3.static.flickr.com/2120/2157723194_280fab7ef1.jpg?v=0" height="317" width="422" /></p>
+<p>Thanks, guys. I have another post about some brioche I made coming really soon, so stay tuned! (the thing is, its 4 AM and I&#8217;d rather sleep at this point than ramble about gluten and shortening)</p>
+<p>Goodnight, Enjoy your booze cake!</p>
+<p>PS: It was at least 20 proof. There were at least two cups of 151 proof rum in the whole cake, once you counted the rum brushed on the layers. We were seriously using champagne as a chaser for the cake. Seriously. I definitely accomplished my goal of fitting as much alcohol as possible into a cake without compromising its stuctural integrity. I think next year, I will tone it down, and use about half the rum.</p>
+<p>PPS: It would work to use one cup of any 80 proof liquor instead of the half cup of 151 and half  cup of soymilk in the frosting recipe.  If you decreased the ethanol content significantly though, I think you might end up needing much less instant pudding mix to achieve the correct consistency.</p>
+<p>PPPS: If I made this frosting again, I would probably skip the jam and lemon juice (which I added to keep the raspberry pigments from turning blue), and just use a third cup of powdered sugar or something. Or raspberry (or whatever other) flavored syrup would be even better.</p>
+			</div>
+
+		<p class="category">Posted in <a href="http://parsnipparsimony.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | Tagged: <a href="http://en.wordpress.com/tag/booze-cake/" rel="tag">Booze cake</a>, <a href="http://en.wordpress.com/tag/cake/" rel="tag">Cake</a>, <a href="http://en.wordpress.com/tag/food-that-looks-like-other-food/" rel="tag">Food that looks like other food</a>, <a href="http://en.wordpress.com/tag/new-years-eve-2008/" rel="tag">new years eve 2008</a>, <a href="http://en.wordpress.com/tag/rum/" rel="tag">Rum</a> |    <a href="http://parsnipparsimony.wordpress.com/2008/01/04/booze-cake-2008/#comments" title="Comment on Booze Cake,&nbsp;2008.">13 Comments &#187;</a></p>
+		</div>
+
+	
+		<div class="post-19 post type-post status-publish format-standard hentry category-uncategorized tag-booze-cake tag-new-years-eve-2008" id="post-19">
+			<h2><a href="http://parsnipparsimony.wordpress.com/2007/12/28/instant-pudding-mix-and-151-proof-rum/" rel="bookmark" title="Permanent link to Instant pudding mix and 151 proof&nbsp;rum&#8230;..">Instant pudding mix and 151 proof&nbsp;rum&#8230;..</a></h2>
+			<p class="date">Posted by <a href="http://">Susie</a> on December 28, 2007</p>
+			<div class="entry">
+				<p>Does thicken.</p>
+<p>Stay tuned for the consequences of these findings!</p>
+			</div>
+
+		<p class="category">Posted in <a href="http://parsnipparsimony.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | Tagged: <a href="http://en.wordpress.com/tag/booze-cake/" rel="tag">Booze cake</a>, <a href="http://en.wordpress.com/tag/new-years-eve-2008/" rel="tag">new years eve 2008</a> |    <a href="http://parsnipparsimony.wordpress.com/2007/12/28/instant-pudding-mix-and-151-proof-rum/#comments" title="Comment on Instant pudding mix and 151 proof&nbsp;rum&#8230;..">3 Comments &#187;</a></p>
+		</div>
+
+			<div class="bottomnavigation">
+			<div class="alignleft"><a href="http://parsnipparsimony.wordpress.com/page/2/" >&laquo; Previous Entries</a></div>
+			<div class="alignright"></div>
+		</div>
+	
+	</div>
+
+</div>
+<div class="clearingdiv">&nbsp;</div>
+</div>
+
+<div id="footer">
+<a href="http://wordpress.com/?ref=footer" rel="generator">Blog at WordPress.com</a>. | Theme: Andreas09 by <a href="http://andreasviklund.com/" rel="designer">Andreas Viklund</a>.</div>
+
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script type="text/javascript">_qoptions={qacct:'p-18-mFEk4J448M',labels:'language.en,type.wpcom'};</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript><p><img class="robots-nocontent" src="http://pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif?labels=language.en%2Ctype.wpcom" style="display:none" height="1" width="1" alt="" /></p></noscript>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?n&#038;ver=MU'></script>
+	<script type="text/javascript">	
+	// <![CDATA[
+	WPGroHo = {
+		data: {},
+		renderers: {},
+		syncProfileData: function( hash, id ) {
+			if ( !WPGroHo.data[hash] ) {
+				WPGroHo.data[hash] = {};
+				a = jQuery( 'div.grofile-hash-map-' + hash + ' span' ).each( function() {
+					WPGroHo.data[hash][this.className] = jQuery( this ).text();
+				} );
+			}
+
+			WPGroHo.appendProfileData( WPGroHo.data[hash], hash, id );
+		},
+		appendProfileData: function( data, hash, id ) {
+			for ( var key in data ) {
+				if ( jQuery.isFunction( WPGroHo.renderers[key] ) ) {
+					return WPGroHo.renderers[key]( data[key], hash, id, key );
+				}
+
+				jQuery( '#' + id ).find( 'h4' ).after( jQuery( '<p class="grav-extra ' + key + '" />' ).html( data[key] ) );
+			}
+		}
+	};
+	jQuery(document).ready(function($){
+		Gravatar.profile_cb = function( h, d ) {
+			WPGroHo.syncProfileData( h, d );
+		};
+		Gravatar.attach_profiles();
+	});
+	// ]]>
+	</script>
+	<div style="display:none">
+	</div>
+<script type="text/javascript" src="http://b.scorecardresearch.com/beacon.js"></script><script type="text/javascript">try{COMSCORE.beacon({c1:2,c2:7518284});}catch(e){}</script><noscript><p class="robots-nocontent"><img src="http://b.scorecardresearch.com/p?cj=1c1=2&#038;c2=7518284" alt="" style="display:none" width="1" height="1" /></p></noscript><script src="http://s.stats.wordpress.com/w.js?19" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({'blog':'2051236','v':'wpcom','user_id':'0','post':'0','subd':'parsnipparsimony'});
+ex_go({'crypt':'RDZ8LFkxbXEvdUJVfjEsMSY2NTdUZkUtOVd6W1dSK0R4U1pHdixDekRtRmJdUkdITHJmUVE1fFdOLzMvcE1Jb3gwSFJVT34vWS1aTlJkfD8lditGazRYZl8lOVhXa2QudV1KUi16Sm9BK0ExWHV0XUJSPU5kTTgrWjE5YWdQOEZ0QnxsYWo5NnoyN3xXT3pJN1VjdG1KWFhVaFZaVkFWU1tEc10yXXdIT3wt'});
+addLoadEvent(function(){linktracker_init('2051236',0);});
+	</script>
+
+</body>
+
+</html>
