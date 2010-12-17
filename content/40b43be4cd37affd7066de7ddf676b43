@@ -1,0 +1,1843 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <meta name="google-site-verification" content="QQHGUCasm7p95dBfZ4OgL4j9mYysr6VhZv7IqwpRJu8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+  <title>Streetsblog New York City  &raquo;  What&#8217;s Wrong With SAFETEA-LU &#8212; and Why the Next Bill Must Be Better</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="alternate" type="application/rss+xml" title="Streetsblog NYC" href="http://www.streetsblog.org/feed/" />
+  <link rel="alternate" type="application/atom+xml" title="Streetsblog All Posts" href="http://radar.openplans.org/streetsblog_all/atom.xml" />
+  <link rel="icon" href="http://www.streetsblog.org/wp-content/themes/woonerf/img/LSN_favicon.png" type="image/png" />
+  <link rel="shortcut icon" href="http://www.streetsblog.org/wp-content/themes/woonerf/img/LSN_favicon.png" type="image/png" />
+  <style type="text/css" media="screen">
+  /*<![CDATA[*/
+  @import'http://www.streetsblog.org/wp-content/themes/woonerf/style.css?refresh=w';
+  /*]]>*/
+  </style>
+  <!--[if (lt IE 7)&(gt IE 5.5)]>
+    <link rel="stylesheet" type="text/css" href="http://www.streetsblog.org/wp-content/themes/woonerf/fixes-old-ie.css?refresh=w" />
+    <style type="text/css" media="screen">
+      /*<![CDATA[*/
+      body { behavior: url("http://www.streetsblog.org/wp-content/themes/woonerf/csshover.htc"); }
+      /*]]>*/
+    </style>
+  <![endif]-->
+    <style type="text/css" media="screen">
+  /*<![CDATA[*/
+  @import'http://www.streetsblog.org/wp-content/themes/woonerf/sites/streetsblognyc-style.css?refresh=w';
+  /*]]>*/
+  </style>  <link rel="alternate" type="application/rss+xml" title="Streetsblog New York City &raquo; What&#8217;s Wrong With SAFETEA-LU &#8212; and Why the Next Bill Must Be Better Comments Feed" href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/feed/" />
+<link rel='stylesheet' id='wp-email-css'  href='http://www.streetsblog.org/wp-content/plugins/wp-email/email-css.css?ver=2.50' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://www.streetsblog.org/wp-content/plugins/wp-polls/polls-css.css?ver=2.50' type='text/css' media='all' />
+<link rel='stylesheet' id='NextGEN-css'  href='http://www.streetsblog.org/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://www.streetsblog.org/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.0' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.streetsblog.org/wp-includes/js/jquery/jquery.js?ver=1.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {
+	msgLoading: "L O A D I N G",
+	msgClose: "Click to Close",
+	imageCount: "1"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.streetsblog.org/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ngg_ajax = {
+	path: "http://www.streetsblog.org/wp-content/plugins/nextgen-gallery/",
+	loading: "loading"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.streetsblog.org/wp-content/plugins/nextgen-gallery/js/ngg.js?ver=2.8'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.streetsblog.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.streetsblog.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Streetsblog New York City' href='http://www.streetsblog.org' />
+<link rel='start' title='Making NYC&#8217;s Streets Safe for Hydrants &amp; Pay Phones' href='http://www.streetsblog.org/2005/10/14/making-nycs-streets-safe-for-hydrants-pay-phones/' />
+<link rel='prev' title='Streetfilms: Building Greenways and Community in the Bronx' href='http://www.streetsblog.org/2009/04/27/streetfilms-building-greenways-and-community-in-the-bronx/' />
+<link rel='next' title='Pro-Parking Policies Will Sully the Legacy of PlaNYC' href='http://www.streetsblog.org/2009/04/27/pro-parking-policies-will-sully-the-legacy-of-planyc/' />
+<meta name="generator" content="WordPress 2.8" />
+<script type="text/javascript" src="http://www.streetsblog.org/wp-content/plugins/audio-player/assets/audio-player.js?ver=20080825040617"></script>
+<script type="text/javascript">AudioPlayer.setup("http://www.streetsblog.org/wp-content/plugins/audio-player/assets/player.swf?ver=20080825040617", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<link href="http://www.streetsblog.org/wp-content/plugins/event_calendar_template/wca_styles.css" rel="stylesheet" media="all" /><!-- begin nextgen-smooth scripts -->
+          <script type="text/javascript"  src="http://www.streetsblog.org/wp-content/plugins/nextgen-smooth-gallery/SmoothGallery/scripts/mootools.v1.11.js"></script>
+          <script type="text/javascript"  src="http://www.streetsblog.org/wp-content/plugins/nextgen-smooth-gallery/SmoothGallery/scripts/jd.gallery.js"></script>
+          <script type="text/javascript"  src="http://www.streetsblog.org/wp-content/plugins/nextgen-smooth-gallery/SmoothGallery/scripts/jd.gallery.transitions.js"></script>
+          <link   type="text/css"        href="http://www.streetsblog.org/wp-content/plugins/nextgen-smooth-gallery/SmoothGallery/css/jd.gallery.css" rel="stylesheet" media="screen" />
+        <!-- end nextgen-smooth scripts -->
+       <link rel="stylesheet" type="text/css" media="screen" href="http://www.streetsblog.org/wp-content/plugins/occomment/oc-styles.css" />
+<script type="text/javascript">
+/* <![CDATA[ */
+var OpenCore = {
+    /* Comment Page Initialization.  (i.e. Logged in User query and response handling,
+     * as well as javascriptification of the page.
+     * */
+    init: function() {
+        OpenCore.unhide('oc_login');
+        var oc_login = $j('oc_login');
+        if (oc_login) {
+            oc_login.attr('href',OpenCore.oc_url + 'login?came_from_anchor=comment-form');
+            oc_login.click(OpenCore.uselogin);
+        }
+        $j('#anchor-vacuum-login').removeClass('hide');
+        // Add a script that calls our prepareform() callback.
+        OpenCore.addscript(OpenCore.oc_url + 'user.js');
+        // Prettify inline password fields
+        if( document.createElement && document.childNodes ) {
+            var passFields = $j('input[type=password].oc-js-compactPassword');
+            passFields.each(function(el) {
+                var passElem = document.createElement('input');
+                passElem.setAttribute('type','text');
+                passElem.setAttribute('value','password');
+                // We need both cases of this attribute to support all browsers...
+                passElem.setAttribute('tabindex', this.dom.tabIndex);
+                passElem.setAttribute('tabIndex', this.dom.tabIndex);
+                this.dom.parentNode.insertBefore(passElem, this.dom);
+                passElem = $j(passElem);
+                var passField = $j(this);
+                passField.hide();
+                passElem.show();
+                passElem.focus( function() {
+                    passElem.hide();
+                    passField.show();
+                    passField.focus();
+                });
+                passField.blur( function() {
+                    if (passField.dom.value != '') {
+                        return;
+                    }
+                    passElem.show();
+                    passField.hide();
+                });
+            });
+        }
+        this.addMouseOverBehavior();
+    },
+    addMouseOverBehavior: function() {
+        function _addOverBehavior(selection) {
+          selection.mouseover(function(e, el, o) { $j(this).addClass('over'); });
+          selection.mouseout(function(e, el, o) { $j(this).removeClass('over'); });
+        }
+        _addOverBehavior($j('ul#uninav > li.initiative'));
+        _addOverBehavior($j('.oc-dropdown-list li.lsi-dropdown-container'));
+    },
+    wp_url: 'http://www.streetsblog.org',
+    oc_url: 'http://www.livablestreets.com/',
+    wp_blogname: 'Streetsblog New York City',
+    memberInfo: {loggedin: false},
+    uselogin: function(e) {
+        if (OpenCore.memberInfo.loggedin) {
+            e.preventDefault();
+            OpenCore.prepareform(OpenCore.memberInfo);
+        }
+    },
+    prepareform: function(memberInfo) {
+        if (memberInfo.loggedin)
+        {
+            OpenCore.memberInfo = memberInfo;
+
+            var commentform = $j('#comment-form');
+            if (commentform) {
+                commentform.submit(OpenCore.relaysubmit);
+                // Populate and hide the classic login form, and present our interface
+                $j('#author_info').hide();
+
+                // Sice the opencore username is optional, we'll use the id if they
+                // don't have a username
+                $j('#author').val(memberInfo.name.length ? memberInfo.name : memberInfo.id);
+
+                $j('#email').val(memberInfo.email);
+
+                // In fact, for now, we force the profile URL.
+                $j('#url').val(memberInfo.memberurl);
+
+var commentbox = '<p class="oc-login">\
+Currently logged in using LivableStreets ID \
+<a href="'+OpenCore.memberInfo.profileurl +'">'+ OpenCore.memberInfo.id + '</a>\
+ | <a id="oc-link-logout" href="'+OpenCore.oc_url+'">Log out</a>\
+ | <a id="oc-link-anonymous" href="">Post anonymously</a>\
+</p>\
+<p class="oc-login">\
+<input id="oc-log-comment" type="checkbox" checked="checked" />\
+Show this comment on my profile\
+</p>';
+
+                $j('#openplans_info').append(commentbox);
+                $j('#oc-link-logout').click(OpenCore.logout);
+                $j('#oc-link-anonymous').click(OpenCore.removeinterface);
+            }
+                // Clean out the logout/login box before using it
+            $j('#anchor-vacuum-login > *').remove();
+            $j('#anchor-vacuum-login').append(OpenCore.memberInfo.topnav);
+            //OC.breatheLife(Ext.get('anchor-vacuum-login').dom);
+        }
+    },
+    logout: function(e) {
+        OpenCore.removeinterface(e);
+        OpenCore.memberInfo = {loggedin: false};
+        // In order to get the cookies necessary to actually logout, we have to add this as a script tag, even if it's not script
+        OpenCore.addscript(OpenCore.oc_url + 'logout.js');
+        e.preventDefault();
+    },
+    /* Restore and clear the classic login form. */
+    removeinterface: function(e) {
+        $j("#comment-form").unbind("submit", OpenCore.relaysubmit);
+        $j('#author').val('');
+        $j('#email').val('');
+        $j('#url').val('');
+        $j('#author_info').show();
+        $j('#openplans_info > *').remove();
+        $j('#anchor-vacuum-login > *').remove();
+        e.preventDefault();
+    },
+    /* Simple shortcut for adding a script tag to the page. */
+    addscript: function(scriptSource) {
+        if( document.createElement && document.childNodes ) {
+            var scriptElem = document.createElement('script');
+            scriptElem.setAttribute('type','text/javascript');
+            scriptElem.setAttribute('src',scriptSource);
+            document.getElementsByTagName('body')[0].appendChild(scriptElem);
+        }
+    },
+    /* Handler for comment form submission. */
+    relaysubmit: function(e) {
+        var logCheck = $j('#oc-log-comment');
+        var mcsp = $j('#mcspvalue');
+        if (mcsp) {
+            var label = $j('label[for=mcspvalue]')[0];
+            if (label) {
+                var match = label.innerHTML.match(/Spam protection: Sum of\s+([0-9()+-/*\s]+)\s*\?/);
+                if (match) {
+                    var equation = match[1];
+                    var result = eval(equation);
+                    mcsp.val(result);
+                }
+            }
+        }
+        var submitButton = $j('#submit');
+        if (submitButton && submitButton.get(0)) {
+            submitButton.attr('disabled','true');
+        }
+        if ((logCheck == undefined) || (!logCheck.attr('checked'))) {
+            return true;
+        }
+        OpenCore.unhide('oc-progress-spinner');
+        e.preventDefault();
+        // Post comment to WP first, because we care about the comment ID.
+        $j.ajax({
+            type:'POST',
+            url:$j('#comment-form').attr('action'),
+            data: $j('#comment-form').serialize(),
+            success: OpenCore.wpcomment_onsuccess,
+            error: OpenCore.wpcomment_onfailure
+            });
+        return true;
+    },
+    wpcomment_onsuccess: function(msg) {
+        // Get the URL to the new comment and include that in our form.
+        var commentids = msg.match(/<li[^>]*id="comment-(\d+)"/g);
+        if (! commentids) {
+            OpenCore.wpcomment_onfailure(msg);
+            return;
+        }
+        var commentid = commentids.slice(-1)[0].match(/<li[^>]*id="comment-(\d+)"/)[1];
+        OpenCore.commenturl = location.href.split('#')[0] + '#comment-' + commentid;
+        var commentform = $j('#comment-form');
+        var commentElem = document.createElement('input');
+        commentElem.setAttribute('type', 'hidden');
+        commentElem.setAttribute('name', 'commenturl');
+        commentElem.setAttribute('value', OpenCore.commenturl);
+        commentform.append(commentElem);
+        var blognameElem = document.createElement('input');
+        blognameElem.setAttribute('type', 'hidden');
+        blognameElem.setAttribute('name', 'blog_name');
+        blognameElem.setAttribute('value', OpenCore.wp_blogname);
+        commentform.append(blognameElem);
+
+        // Since we're acting cross-domain, which means we have to pass parameters via the URL, hence
+        // we have an implicit limit.  Since we only use excerpts anyway, we'll trim off anything more
+        // than about 1k and pass that over.
+        var commentbox = $j('#comment');
+        if (commentbox && commentbox.get(0) && commentbox.val() && commentbox.val().length > 1024) {
+            commentbox.val(commentbox.val().substr(0, 1024));
+        }
+        // Add a script tag that posts the trackback to openplans,
+        // but persevere eventually if the script source fails to load.
+        OpenCore._submittimer = setTimeout(function() {
+            OpenCore.submitstatus(false,  "Timed out while sending comment to openplans.");
+            var submitButton = $j('#submit', false);
+            if (submitButton && submitButton.get(0)) {
+                submitButton.attr('disabled','false');
+            }
+        }, 30000);
+        OpenCore.addscript(OpenCore.memberInfo.memberurl + '/trackback?' + commentform.serialize());
+        return true;
+    },
+    wpcomment_onfailure: function(msg) {
+        if (msg.responseText.indexOf('You are posting comments too quickly') != -1 ){
+            alert('You are posting comments too quickly. Slow down.');
+        } else {
+            alert('Posting comment to wordpress failed. Try again later.');
+        }
+        OpenCore.hide('oc-progress-spinner');
+    },
+    /* Callback that runs after the trackback is posted to openplans. */
+    submitstatus: function(status, msg) {
+        clearTimeout(OpenCore._submittimer);
+        if (! status) {
+            if (msg == undefined) {
+                msg = "unspecified error";
+            }
+            alert(msg);
+        };
+        OpenCore.hide('oc-progress-spinner');
+        location.href = OpenCore.commenturl;
+        // Since that's the same url with a different anchor,
+        // we have to explicitly tell the browser to reload.
+        location.reload();
+    },
+    hide: function(name) {
+        var hide = $j(name);
+        if (hide) hide.addClass('oc-hidden');
+    },
+    unhide: function(name) {
+        var unhide = $j(name);
+        if (unhide) unhide.removeClass('oc-hidden');
+    }
+}
+$j = jQuery.noConflict();
+$j(document).ready(function() {
+
+  /* Short and Sweet */
+  OpenCore.init();
+
+});
+/* ]]> */
+</script>
+
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.streetsblog.org/wp-content/plugins/wp-contact-form/contactform.css" />
+
+
+
+<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://www.streetsblog.org/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+
+<meta name='NextGEN' content='1.3.5' />
+   <script type="text/javascript">
+      var glob;
+      $j(document).ready( function() {
+         $j('.expander').each( function(i) {
+               $j(this).find('.expander_link').click( function() {
+                  $j(this).parent().find('.expander_content').toggle("fast");
+                  return false;
+               });
+               $j(this).find('.expander_close').click( function() {
+                  $j(this).parent().parent().hide("fast");
+                  return false;
+              });
+          });
+      });
+
+
+   </script>
+ 
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+                                   GS_googleAddAdSenseService("ca-pub-1211300037488378");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+  GA_googleAddSlot("ca-pub-1211300037488378", "lasb_sidebar_120x120");
+GA_googleAddSlot("ca-pub-1211300037488378", "lasb_sidebar_288x120");
+</script>
+<script type='text/javascript'>
+  GA_googleFetchAds();
+</script>
+
+
+</head>
+<body id="streetsblognyc">
+  <p class="noshow"><a href="#content">Skip to content</a></p>
+  <div id="header-ad">
+   <!-- <img src="http://www.streetsblog.org/wp-content/themes/woonerf/img/header-ad.png" /> -->
+  </div>
+  <div id="header">
+    <div class="wrap selfclear">
+
+      <ul id="topnav">
+        <li id="topnav-sblog"><a title="Streetsblog" href="http://streetsblog.org/">Streetsblog</a></li>
+        <li id="topnav-ny"><a href="http://streetsblog.org/">New York</a></li>
+        <li id="topnav-la"><a href="http://la.streetsblog.org/">Los Angeles</a></li>
+        <li id="topnav-sf"><a href="http://sf.streetsblog.org/">San Francisco</a></li>
+        <li id="topnav-dc"><a href="http://dc.streetsblog.org/">Capitol Hill</a></li>
+        <li id="topnav-net"><a href="http://streetsblog.net/">National Blog Network</a></li>
+        <li id="topnav-sfilms"><a title="Streetfilms" href="http://streetfilms.org/">Streetfilms</a></li>
+        <li id="topnav-edu"><a title="Education" href="http://streetseducation.org/">Education</a></li>
+      </ul>
+      <div id="login-area">
+        <div id="anchor-vacuum-login">
+          <div id="anchor-vacuum-signin">
+                <a href="http://www.livablestreets.com/login"><b>LOGIN</b></a>
+              </div>
+          <div id="anchor-vacuum-signup">
+            <a href="http://www.livablestreets.com/join">Sign up!</a>
+          </div>
+        </div><!-- /#anchor-vacuum-login -->
+      </div><!-- /#login-area -->
+
+      <div id="sitenav" class="selfclear">
+        <h1 id="site-logo"><a href="http://www.streetsblog.org" title="Return to the Streetsblog New York City Homepage">Streetsblog New York City</a></h1>
+        <ul id="site-menu"><li><a href="http://www.streetsblog.org">Articles</a></li><li><a href="http://www.streetsblog.org/comments/">Comments</a></li><li><a href="http://www.streetsblog.org/category/events/">Calendar</a></li><li><a href="http://www.streetsblog.org/contribute">Submit Content</a></li><li class="last"><a href="http://www.streetsblog.org/feed/">RSS</a></li></ul>
+      </div>
+
+    </div>
+  </div><!-- /#header -->
+  <div id="main" class="selfclear">
+
+   <div class="wrap selfclear">
+      <div id="content">
+
+<a href="http://www.streetsblog.org/donate/"><img style="margin-bottom: 1em;" src="http://www.streetsblog.org/wp-content/themes/woonerf/img/donate-banner2.png" /></a>
+          
+
+<div id="post-5903" class="post fullpost">
+  <div class="post-header selfclear">
+
+  
+  <span class="post-date"> <abbr title="2009-04-27T12:57:42-04:00">Monday, April 27, 2009</abbr> </span>
+
+<a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comments" class="post-comment-count"  title="Comment on What&#8217;s Wrong With SAFETEA-LU &#8212; and Why the Next Bill Must Be Better">6 Comments</a>
+ </div><!-- /.post-header -->
+
+  <div class="post-content">
+
+  <h2 class="post-title">
+    What&#8217;s Wrong With SAFETEA-LU &#8212; and Why the Next Bill Must Be Better  </h2>
+
+  <p class="post-author">
+  by <a href="http://www.streetsblog.org/author/yonah/" title="Posts by Yonah Freemark">Yonah Freemark</a>   on <abbr title="2009-04-27T12:57:42-04:00">April 27, 2009</abbr>    </p>
+  <div class="post-entry">
+
+                                                                                                                                                                                        
+
+          
+
+            <p> <em>Editor’s note: This year’s reauthorization of the federal transportation funding bill will be one of the most important opportunities in history for the nation’s advocates of livable streets, sustainable transportation and smart growth. But it’s going to be a complicated process. We’d like to demystify it for you, and to that end we’ll be featuring regular posts from Yonah Freemark, </em><em>an independent researcher currently working in
+France on comparative urban development as part of a Gordon Grand
+Fellowship from Yale University. He is also the</em><em> author of <a href="http://streetsblog.net/">Streetsblog Network</a> member blog <a href="http://thetransportpolitic.com/">The Transport Politic</a>. </em></p> 
+  <p><em>For Streetsblog, Freemark will break down the legislation, explain its progress through Congress, and fill us in on</em><em> some of the people working to shape it.</em><em> His first post looks back at the current transportation funding bill, called the &quot;Safe, Accountable, Flexible, Efficient Transportation Equity Act: A Legacy for Users&quot; (SAFETEA-LU), which was approved in late July 2005 after a year of infighting in a sharply divided Congress.</em></p> 
+  <p align="center">* * * * * * *<br /></p> 
+  <p> 
+  Ultimately, SAFETEA-LU’s greatest failing may have been its
+failure to articulate a truly multi-modal vision for the nation's surface
+transportation network. Essentially a continuation of 1950s-era policies, it repeated the same-old same-old about a need
+to complete the Interstate highway program, directing billions of dollars to state DOTs to pour asphalt and expand roadways. Nowhere did the legislation suggest a need to
+adapt to a future in which American dependence on automobiles and fossil fuels must be
+dramatically reduced. That's the challenge faced by Congress today. </p> 
+  <div style="width: 186px;" class="figure alignright"><img width="180" height="240" align="right" class="image" alt="2883223507_b86ffc3f60_m.jpg" src="http://www.streetsblog.org/wp-content/uploads/2009/04_16/2883223507_b86ffc3f60_m.jpg" /><span class="legend">Less of this, please... (Photo: <a href="http://www.flickr.com/photos/skillicorn/2883223507/">SkilliShots</a>/Flickr)</span></div>Transportation funding from Washington has been heavily <a href="http://www.streetsblog.org/2008/07/22/highway-funding-the-last-bastion-of-socialism-in-america/">weighted toward highway spending</a> ever since President Eisenhower first proposed the Interstate Highway Act in 1956. SAFETEA-LU, 2005’s federal transportation bill, was no exception. It <a href="http://www.fhwa.dot.gov/safetealu/summary.htm">provided $244.1 billion</a> over five years, its revenues raised by the federal gas tax and directed to the Highway Trust Fund, which has both highway and mass transit accounts. $40 billion a year went to highways, most of which was used to expand and upgrade the Interstate highway system; some $10 billion went annually to mass transit. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <p>The $10 billion in public transportation funds is distributed by the Federal Transit Administration (FTA) for a variety of uses. The FTA administers the urban areas program, which allocates money to metropolitan areas for transit system capital expenses, as well as a rural areas program that helps states pay for rural transit. SAFETEA-LU also included a fixed-guideways formula, aimed at keeping mostly older rail transit systems like those in Chicago or Boston in working condition. Finally, the New Starts/Small Starts program allowed the FTA to fund competitive grants for major capacity expansion such as new subway or bus rapid transit lines.<br /> </p> 
+  <div class="figure alignleft" style="width: 246px;"><img width="240" height="160" align="left" src="http://www.streetsblog.org/wp-content/uploads/2009/04_16/3056995445_ef63fe4234_m.jpg" alt="3056995445_ef63fe4234_m.jpg" class="image" /><span class="legend">...more of this... (Photo: <a>Paul Purser</a>/Flickr.)</span></div> 
+  <p>SAFETEA-LU provided for $40 billion in annual funding from the highway account, the traditional federal source for financing Interstate highways. But under the law, money from the account could actually be spent on more than just roads. Roughly $6.5 billion per year was allocated to the &quot;Surface Transportation Program.&quot; States were allowed to use this money to fund transit and &quot;bicycle transportation and pedestrian walkways.&quot; The &quot;Congestion Mitigation and Air Quality Improvement Program&quot; -- about $1.7 billion a year -- went to projects likely to reduce pollution, and specifically forbade funding &quot;a project which will result in the construction of new capacity available to single occupant vehicles.&quot;</p> 
+  <p>There's one problem, though. The federal government may allow such funds to be spent on non-auto uses, but that's rarely the case.</p> <span id="more-5903"></span> 
+  <p>That's because, while each metropolitan area has a federally-mandated <a href="http://www.nymtc.org/">Metropolitan Planning Organization</a> (MPO) whose role is to establish priorities for transportation investments, state departments of transportation have ultimate discretion over how national highway funds are used. The inevitable consequence? Asphalt-happy DOTs usually choose to invest highway funds in roads, even when MPOs advocate for improved transit or bikeways. According to <a href="http://t4america.org/platform">Transportation for America</a>, only five states -- California, New York, Oregon, Pennsylvania, and Virginia -- have taken advantage of the flexibility of these funds. The rest have spent the vast majority on auto infrastructure.</p> 
+  <p>What’s more, SAFETEA-LU made it easy for states to build roads and hard for them to build transit projects. While funds for new roads were simply distributed to states based on a formula, new transit lines had to undergo the rigorous <a href="http://www.fta.dot.gov/planning/planning_environment_5221.html">New Starts</a> process -- competing with other projects from all over the country -- before winning a share of federal dollars. There was no such required audit for road projects.<br /> </p> 
+  <p> </p> 
+  <div class="figure alignright" style="width: 256px;"><img width="250" height="154" align="right" src="http://www.streetsblog.org/wp-content/uploads/2009/04_16/150768707_f4c33289b0.jpg" alt="150768707_f4c33289b0.jpg" class="image" /><span class="legend">...and this. (Photo: <a href="http://www.flickr.com/photos/bike/150768707/">Richard Masoner</a>/Flickr).</span></div>Even more problematic is the fact that while SAFETEA-LU technically allowed New Start projects to be funded with an 80 percent federal share, just like highway projects, the FTA gave project plans <a href="http://www.fta.dot.gov/planning/newstarts/planning_environment_9063.html#IB_Local_Financial_Commitment">extra credit</a> if the local share was higher; in the competitive environment of the New Starts program, getting at least a 40 percent local match has become a de facto requirement for federal aid. As a result, communities almost always have to commit a higher percentage of their resources, in relative terms, if they want to invest in transit rather than highways.
+  
+  
+  
+  
+  
+  
+  <p>The source of all this money is another problem. Funds for surface transportation come primarily from the national gas tax, <a href="http://www.fhwa.dot.gov/reports/fifahiwy/fifahi05.htm">18.4¢ per gallon of gas</a> (24.4¢ for diesel). Until
+last year, the gas tax was a reliable source of funds, but the recent
+decrease in miles driven by Americans and an increase in fuel economy
+forced the Congress to <a href="http://www.allbusiness.com/government/government-bodies-offices-heads/11731347-1.html">authorize $8 billion</a> in emergency funds for roads from the general budget for fiscal year 2009. The same scenario is likely to occur in the coming year. </p> 
+  <p> 
+  SAFETEA-LU
+provided no alternatives to the gas tax, but the next transportation
+bill may well do so. Secretary of Transportation Ray LaHood proposed
+using a mileage tax as a new source of revenue last month, but his
+initiative was <a href="http://www.nytimes.com/2009/03/08/us/08car.html?_r=1&amp;%E2%81%9Escp=1&amp;sq=lahoodmileagegastax&amp;st=cse">quickly shot down</a>
+by the White House press secretary, who said that the tax is not and
+will not be the policy of the Obama administration. A recent U.S.
+Government Accounting Office <a href="http://www.gao.gov/products/GAO-09-435T">study</a>
+suggested that additional monies could come from increasing the gas
+tax, encouraging tolls or moving funding from dedicated revenues to the
+general budget. Congress has yet to grapple with a long-term solution to this crisis.</p> 
+  <p>Intercity rail development also fared badly under SAFETEA-LU, receiving only $100 million yearly through the legislation. Until <a href="http://www.washingtonpost.com/wp-dyn/content/article/2008/06/11/AR2008061103451.html">last year</a>, Amtrak was forced to plead to Congress every year for separate operations funding from the general fund; now, thanks to five-year guaranteed funding legislation pushed through by huge majorities in both houses of Congress, it receives $2.5 billion a year. President Obama's stimulus bill also turned things around for rail corridor construction, with <a href="http://www.npr.org/templates/story/story.php?storyId=101073906">$8 billion set aside</a> and $1.3 billion dedicated to Amtrak. This money came from general tax revenues, not the Highway Trust Fund.</p> 
+  <p>Then we have the much-maligned earmark system. Under SAFETEA-LU, thousands of appropriations worth more than <a href="http://www.nytimes.com/2005/07/30/politics/30pork.html?scp=32&amp;sq=%22transportation+bill%22&amp;st=nyt">$24 billion</a> were earmarked by congressmen for projects in their local districts. One example: Congressman Jerrold Nadler's <a href="http://www.nytimes.com/2005/08/03/nyregion/03rail.html?scp=15&amp;sq=%22transportation+bill%22&amp;st=nyt%20">$100 million</a> for the New York <a href="http://www.crossharborstudy.com/">Cross Harbor Freight Tunnel</a>, a project for which funds weren't even requested by the agency that was supposed to be sponsoring it, the Port Authority. SAFETEA-LU also famously appropriated $250 million to a Ted Stevens special: a certain &quot;<a href="http://en.wikipedia.org/wiki/Gravina_Island_Bridge">Bridge to Nowhere</a>.&quot; </p> 
+  <p>But many of the earmarks were for much smaller projects that helped communities provide citizens with more transportation options, such as bike lanes or pedestrian bridges. Congresswoman Nydia Velazquez earmarked more than $6 million for the <a href="http://www.brooklyngreenway.org/">Brooklyn Waterfront Greenway</a>, a project driven by grassroots commitment. Such infrastructure would be almost impossible to fund in any other way, given the way the law is written and state DOT reluctance to transfer highway funds to non-auto uses.</p> 
+  <p>With Congress preoccupied by important health care, immigration and economic legislation, the transportation reauthorization bill isn't grabbing headlines for the moment. But a diverse coalition of groups that see the benefits of transit use and improved bike and pedestrian infrastructure -- including public health advocates, developers, senior citizens, real estate agents and chambers of commerce -- is demanding a place at the table along with the traditionally more influential highway lobby. Over the next few months, that coalition will be fighting for a federal transportation program that provides a stable source of revenue for a balanced selection of mobility options.<br /><br /></p>    </div><!-- /.post-entry -->
+          </div><!-- /.post-content -->
+    
+</div><!-- /.post -->
+     
+<div id="comment-list-header" class="selfclear">
+
+        <h3 id="comments">6 Comments</h3>
+        <span class="last-comment-author">Last comment by <a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-69959">Paul Wisniewski</a></span>
+          <span class="leave-comment">
+                <a href="#comment-list-footer" title="Leave a comment">Leave a comment &raquo;</a>
+        </span>
+        
+</div>
+<!-- /#comment-list-header -->
+
+
+    <ol class="comment-list">
+        <li id="comment-67072" class="comment selfclear odd">
+      
+
+        <div class="credit">
+                                       <a href="http://www.livablestreets.com/people/markwalker"><img class="thumbnail" src="http://www.livablestreets.com/people/markwalker/portrait_square_fifty_thumb" alt="Post Thumbnail" /></a>
+                &nbsp;
+        </div>
+
+      <h4 class="comment-author"><a href='http://www.livablestreets.com/people/markwalker' rel='external nofollow' class='url'>Mark Walker</a></h4>
+
+      <div class="comment-content selfclear">
+
+                <p>&#8220;Funds for surface transportation come primarily from the national gas tax&#8230;. Until last year, the gas tax was a reliable source of funds, but the recent decrease in miles driven by Americans and an increase in fuel economy forced the Congress to authorize $8 billion in emergency funds for roads from the general budget for fiscal year 2009.&#8221;</p>
+<p>Doesn&#8217;t that speak volumes? If transit needs more money, the public debate is bruising and pits group against group. If highways need more money, just dip into general tax revenues, no questions asked.</p>
+              </div><!-- /.comment-content -->
+
+      <div class="comment-footer selfclear">
+
+                <span class="comment-timestamp">April 27, 2009 at 2:36 pm</span>
+                        <span class="permalink"><a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-67072" title="Comment Permalink" rel="bookmark">Link</a></span>
+
+                        <span class="comment-actions"></span>
+                <a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-67072" class="comment-number"># 1</a>
+
+  
+          </div><!-- /.comment-footer -->
+
+    </li><!-- /.comment -->
+        <li id="comment-67074" class="comment selfclear">
+      
+
+        <div class="credit">
+                                       <a href="http://www.livablestreets.com/people/Josh"><img class="thumbnail" src="http://www.livablestreets.com/people/Josh/portrait_square_fifty_thumb" alt="Post Thumbnail" /></a>
+                &nbsp;
+        </div>
+
+      <h4 class="comment-author"><a href='http://www.livablestreets.com/people/Josh' rel='external nofollow' class='url'>Josh</a></h4>
+
+      <div class="comment-content selfclear">
+
+                <p>&#8220;Ultimately, SAFETEA-LU’s greatest failing may have been its failure to articulate a truly multi-modal vision for the nation&#8217;s surface transportation network. Essentially a continuation of 1950s-era policies, it repeated the same-old same-old about a need to complete the Interstate highway program, directing billions of dollars to state DOTs to pour asphalt and expand roadways. Nowhere did the legislation suggest a need to adapt to a future in which American dependence on automobiles and fossil fuels must be dramatically reduced. That&#8217;s the challenge faced by Congress today.&#8221;</p>
+<p>Until the legislature and the general public are convinced of the need to reduce dependence on automobiles and fossil fuels in the future (and they certainly haven&#8217;t been yet), there&#8217;s no way policy will be made on that basis.</p>
+              </div><!-- /.comment-content -->
+
+      <div class="comment-footer selfclear">
+
+                <span class="comment-timestamp">April 27, 2009 at 2:57 pm</span>
+                        <span class="permalink"><a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-67074" title="Comment Permalink" rel="bookmark">Link</a></span>
+
+                        <span class="comment-actions"></span>
+                <a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-67074" class="comment-number"># 2</a>
+
+  
+          </div><!-- /.comment-footer -->
+
+    </li><!-- /.comment -->
+        <li id="comment-67163" class="comment selfclear odd">
+      
+
+        <div class="credit">
+                                       <a href="http://www.livablestreets.com/people/javaplace"><img class="thumbnail" src="http://www.livablestreets.com/people/javaplace/portrait_square_fifty_thumb" alt="Post Thumbnail" /></a>
+                &nbsp;
+        </div>
+
+      <h4 class="comment-author"><a href='http://www.livablestreets.com/people/javaplace' rel='external nofollow' class='url'>Irvin Dawid</a></h4>
+
+      <div class="comment-content selfclear">
+
+                <p>You missed the mark.  The greatest failure was of SAFETEA-LU was not raising the gas and diesel taxes, as opposed to changing how the funds were spent.  Mary Peters pushed congestion pricing through the Urban Partnerships Grant.<br />
+VMT fee will probably occur, just a matter of when.</p>
+<p>Two federal commissions (<a href="http://planetizen.com/node/36765" rel="nofollow">http://planetizen.com/node/36765</a>) were formed to deal with the funding crisis, both have reported back.</p>
+<p>Unless someone pushes the envelope &#8211; and sadly, it won&#8217;t be Obama or LaHood (Oberstar????), MAP-21 (<a href="http://planetizen.com/node/38255" rel="nofollow">http://planetizen.com/node/38255</a>) will repeat the failure</p>
+              </div><!-- /.comment-content -->
+
+      <div class="comment-footer selfclear">
+
+                <span class="comment-timestamp">April 29, 2009 at 1:17 pm</span>
+                        <span class="permalink"><a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-67163" title="Comment Permalink" rel="bookmark">Link</a></span>
+
+                        <span class="comment-actions"></span>
+                <a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-67163" class="comment-number"># 3</a>
+
+  
+          </div><!-- /.comment-footer -->
+
+    </li><!-- /.comment -->
+        <li id="comment-67409" class="comment selfclear">
+      
+
+        <div class="credit">
+                     <a href=""><img class="thumbnail" src="http://www.streetsblog.org/wp-content/themes/woonerf/img/commenter_icon_anon_50.png" alt="Post Thumbnail" /></a>
+
+                &nbsp;
+        </div>
+
+      <h4 class="comment-author">Pete</h4>
+
+      <div class="comment-content selfclear">
+
+                <p>Irvin&#8217;s right.  Mary Peters has fought tooth and nail to keep the gas tax unchanged, and state politicians don&#8217;t have the balls to piss off their contingencies.  Meanwhile the federal fund&#8217;s deficit has increased rapidly since 2001.</p>
+<p>With all the efforts to push new car sales and fund automakers, why not a weight-based federal excise tax to help ease that deficit?  Along with better oversight and/or cost caps for certain &#8220;new construction&#8221; allocations&#8230;</p>
+              </div><!-- /.comment-content -->
+
+      <div class="comment-footer selfclear">
+
+                <span class="comment-timestamp">May 5, 2009 at 3:30 am</span>
+                        <span class="permalink"><a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-67409" title="Comment Permalink" rel="bookmark">Link</a></span>
+
+                        <span class="comment-actions"></span>
+                <a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-67409" class="comment-number"># 4</a>
+
+  
+          </div><!-- /.comment-footer -->
+
+    </li><!-- /.comment -->
+        <li id="comment-67737" class="comment selfclear odd">
+      
+
+        <div class="credit">
+                     <a href=""><img class="thumbnail" src="http://www.streetsblog.org/wp-content/themes/woonerf/img/commenter_icon_anon_50.png" alt="Post Thumbnail" /></a>
+
+                &nbsp;
+        </div>
+
+      <h4 class="comment-author">Anon.</h4>
+
+      <div class="comment-content selfclear">
+
+                <p>The Cross Harbor Freight Tunnel was the reason the Port Authority was formed back in the 19th Century (you can look this up).  Oddly enough they never seem to have gotten around to actually doing their job and building it&#8230;.</p>
+<p>I say good on Nadler for supporting it.  It&#8217;s only a hundred years overdue!</p>
+              </div><!-- /.comment-content -->
+
+      <div class="comment-footer selfclear">
+
+                <span class="comment-timestamp">May 11, 2009 at 12:15 pm</span>
+                        <span class="permalink"><a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-67737" title="Comment Permalink" rel="bookmark">Link</a></span>
+
+                        <span class="comment-actions"></span>
+                <a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-67737" class="comment-number"># 5</a>
+
+  
+          </div><!-- /.comment-footer -->
+
+    </li><!-- /.comment -->
+        <li id="comment-69959" class="comment selfclear">
+      
+
+        <div class="credit">
+                     <a href=""><img class="thumbnail" src="http://www.streetsblog.org/wp-content/themes/woonerf/img/commenter_icon_anon_50.png" alt="Post Thumbnail" /></a>
+
+                &nbsp;
+        </div>
+
+      <h4 class="comment-author">Paul Wisniewski</h4>
+
+      <div class="comment-content selfclear">
+
+                <p>I know it was not the intent of the SAFETEA-LU legislation to shut down a 100% recycled paper mill in northern Arizona, but that is exactly what may result unless something is done to remove the so-called Black Liquor Subsidy that is being funded by this legislation.</p>
+<p>The Catalyst paper mill in northern Arizona (near Snowflake, to be precise) makes approximately 1000 tons per day of 100% recycled newsprint.  This represents 1000 tons per day of paper that is reclaimed and kept out of landfills.  The water our process uses is treated and goes to grow crops for use as animal feed.  On the site also is a new 25 megawatt biomass fired electrical generating plant that supplies power to the grid in Arizona.  Since we are 100% recycled, we do not make the chemical pulp that generates black liquor.  In fact, most newsprint does not even use much, if any, of the chemical pulp that is produced by the kraft (black liquor generating) process.  </p>
+<p>The Dept. of Justice last year specifically mandated that our mill, specifically, be sold as part of a merger between our former owners, Abitibi Consolidated, and Bowater Corp.  The justification for this somewhat unusual requirement was that we are a large, profitable mill that would provide a significant competitive advantage to whoever bought us.  In summary, we are a 100% recycled fiber mill which was very successfully competing in the newsprint market without any help from the government.  But now, due to the aberrant way the SAFETEA-LU legislation has been interpreted, our competitors are using their government subsidies to lower the price of their newsprint to prices below what we (or they) can produce it for in a free market, hoping to drive us out of business.  And unless something is done, they may succeed.  </p>
+<p>The dilemma in which we find ourselves is quite troubling.  Anyone in the kraft pulping industry who is honest will tell you that the black liquor subsidy is pretty much a scam.  It is indeed a sad day when right and wrong is decided by the dollar value of the corresponding decision, but I fear that day is upon us.  The reality is that kraft mills could not run unless they burn their black liquor, period, so the idea that they are substituting biofuel for fossil fuel is a pure scam.  In effect, they are simply asking for a taxpayer subsidy to do what they have always done anyhow.  But due to the enormous amount of money which they are (fraudulently, in my opinion) collecting, they have banded forces to make sure it keeps coming.  And, to reiterate, continuing to reward their dishonest claims could likely cause the shutdown of our mill.</p>
+<p>Please work to eliminate this scam, save the taxpayers’ money and remove the unfair advantage you have inadvertently given to our competitors.  We do not need nor want a bailout.  We just want the opportunity to compete fairly in the marketplace.</p>
+              </div><!-- /.comment-content -->
+
+      <div class="comment-footer selfclear">
+
+                <span class="comment-timestamp">June 11, 2009 at 6:38 pm</span>
+                        <span class="permalink"><a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-69959" title="Comment Permalink" rel="bookmark">Link</a></span>
+
+                        <span class="comment-actions"></span>
+                <a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/#comment-69959" class="comment-number"># 6</a>
+
+  
+          </div><!-- /.comment-footer -->
+
+    </li><!-- /.comment -->
+    </ol><!-- /.comment-list -->
+<div id="comment-list-footer" class="selfclear">
+  <span class="comments-open">Leave a Comment</span>
+</div><!-- /#comment-list-header -->
+
+
+
+<form id="comment-form" action="http://www.streetsblog.org/wp-comments-post.php" method="post">
+<input type="hidden" name="comment_post_ID" value="5903" />
+
+<div id="author_info">
+  <div class="formrow selfclear">
+    <label for="author">Name (<strong>required</strong>)    <a class="oc-hidden" id="oc_login" href="login">Use my LivableStreets Login</a>
+</label>
+    <input type="text" name="author" id="author" value="" size="38" />
+  </div><!-- /.formrow -->
+  <div class="formrow selfclear">
+    <label for="email">Mail (<strong>required, not displayed</strong>)</label>
+    <input type="text" name="email" id="email" value="" size="38" />
+  </div><!-- /.formrow -->
+  <div class="formrow selfclear">
+    <label for="url">Your URL</label>
+    <input type="text" name="url" id="url" value="" size="38" />
+  </div><!-- /.formrow -->
+
+  
+
+</div><!-- /#author_info -->
+<div id="openplans_info">
+</div>
+<div>
+  <label class="standalone" for="comment">Your Comment</label>  <textarea id="comment" name="comment" class="oc-js-autosave" cols="60" rows="10"></textarea>
+</div>
+
+
+	<p style="clear: both;" class="subscribe-to-comments">
+	<input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" />
+	<label for="subscribe">Subscribe to comments on this post.</label>
+	</p>
+
+
+<input id="submit" name="submit" class="submit rightwise" type="submit" value="Post Your Comment" />
+<img id="oc-progress-spinner" class="oc-hidden" src="http://www.streetsblog.org/wp-content/plugins/occomment/images/spinning_wheel_throbber.gif" />
+</form>
+            <div class="post-nav selfclear">
+      <div class="leftwise"></div>
+      <div class="rightwise"></div>
+    </div><!-- /.post-nav -->
+      </div><!-- /#content -->
+
+  <ul id="sidebar" class="with-nook">
+
+                    <li id="searchform-area" class="widget">
+                <div class="widget-content unbordered">
+                <form id="searchform" action="http://www.streetsblog.org" method="get">
+      <input type="text" name="s" class="text" value="Search Streetsblog New York City" id="s" size="25"  onblur="if(this.value=='') this.value='Search Streetsblog New York City';" onfocus="if(this.value=='Search Streetsblog New York City') this.value='';" />
+                <input id="search-submit" type="submit" value="Search" />
+  </form>
+                </div>
+          </li>
+                <li id="contact-widget" class="widget">
+  <div class="widget-content unbordered">
+    Tips, comments, questions? <a href="/contact">Contact us</a>.  </div>
+</li>
+                <li id="sidebar-nook" class="widget"><div id="nook-wrap"><div class="widget-header"><h2>Related Articles</h2></div><div id="nook-body"><div class="widget-content">
+
+<ul class="feedList last"><li class="onSB"><span class="posttitle"><a href="http://www.streetsblog.org/2009/02/18/stimulus-bill-is-a-step-forward-for-pedestrians-cyclists-cities/" rel="bookmark">Stimulus Bill Is a Step Forward for Pedestrians, Cyclists &#038; Cities</a></span><span class="meta quiet small">February 18, 2009<a class="commentcount small" href="http://www.streetsblog.org/2009/02/18/stimulus-bill-is-a-step-forward-for-pedestrians-cyclists-cities/#comments">4</a></li><li class="onSB"><span class="posttitle"><a href="http://www.streetsblog.org/2010/02/24/little-known-provision-in-senate-jobs-bill-could-spark-house-resistance/" rel="bookmark">Little-Known Provision in Senate Jobs Bill Could Spark House Resistance</a></span><span class="meta quiet small">February 24, 2010<a class="commentcount small" href="http://www.streetsblog.org/2010/02/24/little-known-provision-in-senate-jobs-bill-could-spark-house-resistance/#comments">0</a></li><li class="onSB"><span class="posttitle"><a href="http://www.streetsblog.org/2009/06/18/the-oberstar-bill-what-about-the-highways-transit-split/" rel="bookmark">The Oberstar Bill: What About the Highways-Transit Split?</a></span><span class="meta quiet small">June 18, 2009<a class="commentcount small" href="http://www.streetsblog.org/2009/06/18/the-oberstar-bill-what-about-the-highways-transit-split/#comments">1</a></li><li class="onSB"><span class="posttitle"><a href="http://www.streetsblog.org/2009/06/18/oberstar%e2%80%99s-new-transportation-bill-get-the-highlights/" rel="bookmark">Oberstar’s New Transportation Bill: Get the Highlights</a></span><span class="meta quiet small">June 18, 2009<a class="commentcount small" href="http://www.streetsblog.org/2009/06/18/oberstar%e2%80%99s-new-transportation-bill-get-the-highlights/#comments">3</a></li><li class="onSB"><span class="posttitle"><a href="http://www.streetsblog.org/2009/12/16/house-jobs-bill-mimics-the-stimulus-27-5b-for-roads-8-4b-for-transit/" rel="bookmark">House Jobs Bill Mimics the Stimulus: $27.5B for Roads, $8.4B for Transit</a></span><span class="meta quiet small">December 16, 2009<a class="commentcount small" href="http://www.streetsblog.org/2009/12/16/house-jobs-bill-mimics-the-stimulus-27-5b-for-roads-8-4b-for-transit/#comments">3</a></li></ol>  </div>
+  <div class="widget-footer">
+    <dl class="post-categories selfclear">
+      <dt>Filed under:</dt>
+      <dd><a href="http://www.streetsblog.org/category/issues-campaigns/2009-transportation-bill/" title="View all posts in 2009 Transportation Bill" rel="category tag">2009 Transportation Bill</a>,  <a href="http://www.streetsblog.org/category/issues-campaigns/gas-tax/" title="View all posts in Gas Tax" rel="category tag">Gas Tax</a>,  <a href="http://www.streetsblog.org/category/issues-campaigns/transportation-policy/" title="View all posts in Transportation Policy" rel="category tag">Transportation Policy</a></dd>
+    </dl>
+    <ul class="share-links selfclear">
+               <li class="post-email"><a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/emailpopup/" onclick="email_popup(this.href); return false;"  title="Email" rel="nofollow"><img class="WP-EmailIcon" src="http://www.streetsblog.org/wp-content/plugins/wp-email/images/email_famfamfam.png" alt="Email" title="Email" style="border: 0px;" /></a>&nbsp;<a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/emailpopup/" onclick="email_popup(this.href); return false;"  title="Email" rel="nofollow">Email</a>
+</li>
+                     <li class="post-print"><a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/print/" title="Print" rel="nofollow"><img class="WP-PrintIcon" src="http://www.streetsblog.org/wp-content/plugins/wp-print/images/printer_famfamfam.gif" alt="Print" title="Print" style="border: 0px;" /></a>&nbsp;<a href="http://www.streetsblog.org/2009/04/27/whats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better/print/" title="Print" rel="nofollow">Print</a>
+</li>
+            <li class ="post-share-without-javascript">
+           <ul class="shareList">
+         <li><a href="http://twitter.com/home?status=http%3A%2F%2Fwww.streetsblog.org%2F2009%2F04%2F27%2Fwhats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better%2F" title="Twitter"><img src="http://www.streetsblog.org/wp-content/themes/woonerf/img/twitter.gif" alt="Twitter" /></a></li>
+         <li><a href="http://del.icio.us/post?url=http%3A%2F%2Fwww.streetsblog.org%2F2009%2F04%2F27%2Fwhats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better%2F&amp;title=What%26%238217%3Bs+Wrong+With+SAFETEA-LU+%26%238212%3B+and+Why+the+Next+Bill+Must+Be+Better" title="Del.icio.us"><img src="http://www.streetsblog.org/wp-content/themes/woonerf/img/delicious.gif" alt="Del.icio.us" /></a></li>
+         <li><a href="http://digg.com/remote-submit?url=http%3A%2F%2Fwww.streetsblog.org%2F2009%2F04%2F27%2Fwhats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better%2F&amp;phase=2&amp;title=What%26%238217%3Bs+Wrong+With+SAFETEA-LU+%26%238212%3B+and+Why+the+Next+Bill+Must+Be+Better" title="Digg"><img src="http://www.streetsblog.org/wp-content/themes/woonerf/img/digg.gif" alt="Digg" /></a></li>
+         <li><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.streetsblog.org%2F2009%2F04%2F27%2Fwhats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better%2F" title="Facebook"><img src="http://www.streetsblog.org/wp-content/themes/woonerf/img/facebook.gif" alt="Facebook" /></a></li>
+         <li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fwww.streetsblog.org%2F2009%2F04%2F27%2Fwhats-wrong-with-safetea-lu-and-why-the-next-bill-must-be-better%2F&amp;title=What%26%238217%3Bs+Wrong+With+SAFETEA-LU+%26%238212%3B+and+Why+the+Next+Bill+Must+Be+Better" title="Reddit"><img src="http://www.streetsblog.org/wp-content/themes/woonerf/img/reddit.gif" alt="Reddit" /></a></li>
+     </ul>
+         </li>
+    </ul>
+  </div>
+</div></div></li><li id="word-on-the-street" class="widget"><div class="widget-header"><h2>Word On The Street</h2></div><div class="widget-content selfclear">     <blockquote id="featured-comment" class="selfclear"><span class="open-quote">&#8220;</span>Does the Times think cyclists are all on some giant group ride as we jump the lights on 41st St &amp; 8th Ave in order to avoid being crushed by yellow cabs?<span class="close-quote">&#8221;</span></blockquote>
+     <p id="featured-comment-footer">
+       <cite>&#8211; <a href = 'http://www.livablestreets.com/people/jqr'>Jonathan</a></cite>
+       <span class="comment-source">In response to "<a href="http://www.streetsblog.org/2010/12/17/todays-headlines-1042/comment-page-1/#comment-282934">Today&#039;s Headlines</a>"</span>
+     </p>
+</div></li><li class="widget"><div class="widget-header"><h2> </h2></div><div class="widget-content selfclear">			<div class="textwidget"><div id="donate">
+ <h3>DONATE NOW</h3>
+ <div class="widget-meta">Support your source for livable streets news and commentary.
+ </div>
+<div>
+<a href="http://www.streetsblog.org/donate/"><img class="aligncenter" title="give_to_streetsblog" src="http://www.streetsblog.org/wp-content/uploads/2010/10/give_to_streetsblog1.jpg" alt="give_to_streetsblog" width="169" height="47"></a>
+</div>
+ <div class="thankyou">Thank you for supporting Streetsblog!</div>
+</div></div>
+		</div></li><li class="widget"><div class="widget-header"><h2>Streetsblog Reader Survey</h2></div><div class="widget-content selfclear">			<div class="textwidget"><img src="http://www.streetsblog.org/wp-content/uploads/2010/11/sbsurvey.png" style="float:left; margin: 0 4px 3px;" /><div style="line-height:1.5em;">We want to hear from you! <a href="https://livablestreets.wufoo.com/forms/streetsblog-reader-survey/">Fill out our survey</a>, and 
+you could win a $100 Amazon Gift Card.</div></div>
+		</div></li><li class="widget"><div class="widget-header"><h2>Twitter Updates</h2></div><div class="widget-content selfclear"><div class="aktt_tweets">
+	<ul>
+		<li>PPW NIMBYs booed speech extolling neighborliness - @<a href="http://twitter.com/BrooklynSpoke" class="aktt_username">BrooklynSpoke</a> files dispatch from last night&#039;s CB6 meeting <a href="http://bit.ly/fvEjD9" rel="nofollow">http://bit.ly/fvEjD9</a> <a href="http://twitter.com/StreetsblogNYC/statuses/15835483846213632" class="aktt_tweet_time">38 mins ago</a></li>
+		<li>When was the last time the NY Times advocated for a crackdown on speeding? <a href="http://nyti.ms/iexLXo" rel="nofollow">http://nyti.ms/iexLXo</a> @<a href="http://twitter.com/5BBC" class="aktt_username">5BBC</a> #<a href="http://search.twitter.com/search?q=%23bikenyc" class="aktt_hashtag">bikenyc</a> <a href="http://twitter.com/5BBC/statuses/15745528251813888" class="aktt_tweet_reply">in reply to 5BBC</a> <a href="http://twitter.com/StreetsblogNYC/statuses/15768448864878593" class="aktt_tweet_time">5 hrs ago</a></li>
+		<li>Follow @<a href="http://twitter.com/BrooklynSpoke" class="aktt_username">BrooklynSpoke</a> tonight to see how PPW NIMBYs are dismissing all the arguments in favor of the new bike lane <a href="http://twitter.com/StreetsblogNYC/statuses/15576108065890304" class="aktt_tweet_time">17 hrs ago</a></li>
+		<li class="aktt_more_updates"><a href="http://twitter.com/StreetsblogNYC">More updates...</a></li>
+</ul></div></div></li><li class="widget">
+<script src="http://tc.streetsblog.net/includer.js?url=http://syndicatr.streetsblog.net%2Fwidget%2F9%2Fview"></script><noscript><a href="http://streetsblog.net/"><img src="http://streetsblog.net/images/widgets/streetsblog-net-badge002.gif" border="0" alt="streetsblog.net" /></a></noscript>
+</li>
+<li id="sidebar-contribute" class="widget"><div class="widget-header"><h2>Eyes on the Street</h2></div>
+    <div class="widget-content">
+      <dl>
+          </dl>
+        </div>
+    <div class="widget-footer">
+      <h3 class="contribute-Streetsblog New York City"><a href="http://www.streetsblog.org/contribute">Contribute to Streetsblog New York City</a></h3>
+		<p>
+Email <a href="mailto:tips@streetsblog.org">tips@streetsblog.org</a> or <a href="/contact/">send them anonymously</a>. Tag your photos, links, and videos with "streetsblog".		</p>
+    </div><div id="contribution-footer" class="selfclear"><span id="contributions-view-link"><a href="http://www.streetsblog.org/contribute">View all contributions &raquo;</a></span></div>
+		</li>    <li id="comment-tabs" class="widget">
+      <div class="widget-header tabs-area">
+        <ul class="tabs selfclear">   
+          <li id="js-tab-hot-topics" class ="js-toggler selected"><a href="http://www.streetsblog.org/?hot-topics">Hot<br />Topics</a></li>
+          <li id="js-tab-recent-comments" class="js-toggler"><a href="http://www.streetsblog.org/?recent-comments">Recent<br />Comments</a></li>
+          <li id="js-tab-most-emailed" class="last js-toggler"><a href="http://www.streetsblog.org/?most-emailed">Most<br />Emailed</a></li> 
+        </ul>
+      </div><!-- /.tabs-area -->
+      <div class="widget-content unbordered">
+  	    <div id="hot-topics" class="js-toggler-panel" >
+              <ul class="posts">
+         <li>
+      <h3 class="post-title">
+                 <a href="http://www.streetsblog.org/2010/12/15/nyc-will-try-replacing-access-a-ride-vehicles-with-taxis/">NYC Will Try Out Taxis to Provide Access-A-Ride Service</a>		
+      </h3>
+	
+      <div class="post-meta">
+		<a class="post-comment-count" href="http://www.streetsblog.org/2010/12/15/nyc-will-try-replacing-access-a-ride-vehicles-with-taxis/#comments" >23 Comments</a>
+        Latest by: <a href="http://www.streetsblog.org/2010/12/15/nyc-will-try-replacing-access-a-ride-vehicles-with-taxis/#comment-282947">Larry Littlefield, Today at 1:29 PM</a>
+
+      </div>
+    </li>
+        <li>
+      <h3 class="post-title">
+                 <a href="http://www.streetsblog.org/2010/12/16/todays-headlines-1041/">Today's Headlines</a>		
+      </h3>
+	
+      <div class="post-meta">
+		<a class="post-comment-count" href="http://www.streetsblog.org/2010/12/16/todays-headlines-1041/#comments" >24 Comments</a>
+        Latest by: <a href="http://www.streetsblog.org/2010/12/16/todays-headlines-1041/#comment-282914">vnm, Yesterday at 9:09 PM</a>
+
+      </div>
+    </li>
+        <li>
+      <h3 class="post-title">
+                 <a href="http://www.streetsblog.org/2010/12/17/todays-headlines-1042/">Today's Headlines</a>		
+      </h3>
+	
+      <div class="post-meta">
+		<a class="post-comment-count" href="http://www.streetsblog.org/2010/12/17/todays-headlines-1042/#comments" >17 Comments</a>
+        Latest by: <a href="http://www.streetsblog.org/2010/12/17/todays-headlines-1042/#comment-282944">Westchesterite, Today at 12:42 PM</a>
+
+      </div>
+    </li>
+        <li>
+      <h3 class="post-title">
+                 <a href="http://www.streetsblog.org/2010/12/15/nyc-mds-tackling-obesity-takes-systemic-change/">NYC MDs: Tackling Obesity Takes Systemic Change and Safer Streets</a>		
+      </h3>
+	
+      <div class="post-meta">
+		<a class="post-comment-count" href="http://www.streetsblog.org/2010/12/15/nyc-mds-tackling-obesity-takes-systemic-change/#comments" >10 Comments</a>
+        Latest by: <a href="http://www.streetsblog.org/2010/12/15/nyc-mds-tackling-obesity-takes-systemic-change/#comment-282921">matt bikes, Today at 8:13 AM</a>
+
+      </div>
+    </li>
+        <li>
+      <h3 class="post-title">
+                 <a href="http://www.streetsblog.org/2010/12/09/quick-hits-from-todays-city-council-hearing-on-bike-policy/">Quick Hits From Today's City Council Hearing on Bike Policy</a>		
+      </h3>
+	
+      <div class="post-meta">
+		<a class="post-comment-count" href="http://www.streetsblog.org/2010/12/09/quick-hits-from-todays-city-council-hearing-on-bike-policy/#comments" >47 Comments</a>
+        Latest by: <a href="http://www.streetsblog.org/2010/12/09/quick-hits-from-todays-city-council-hearing-on-bike-policy/#comment-282747">Frances Beebe, December 13</a>
+
+      </div>
+    </li>
+      </ul>
+          </div><!-- /#hot-topics -->
+        <div id="recent-comments" class="js-toggler-panel" style="display:none">
+      		  <ul class="posts">
+             	<li><a href="http://www.streetsblog.org/2010/12/15/nyc-will-try-replacing-access-a-ride-vehicles-with-taxis/#comment-282947" title="In response to 'NYC Will Try Out Taxis to Provide Access-A-Ride Service'">Larry Littlefield said:</a><br />"&#8220;That’s why the federal government required the service, not just in New York City but across the land.&#8221; Is it actually the case that everyone in the country..."</li>
+	<li><a href="http://www.streetsblog.org/2010/12/15/nyc-will-try-replacing-access-a-ride-vehicles-with-taxis/#comment-282946" title="In response to 'NYC Will Try Out Taxis to Provide Access-A-Ride Service'">rhubarbpie said:</a><br />"&#8220;Would you consider it “ableism” if I were to say that door to door service is premium service if provided by taxi/car service, and there ought to be a (but means..."</li>
+	<li><a href="http://www.streetsblog.org/2010/12/16/dot-adds-delivery-zones-to-tackle-church-avenue-double-parking/#comment-282945" title="In response to 'DOT Adds Delivery Zones to Tackle Church Avenue Double Parking'">kevd said:</a><br />"And, there are no former deputy mayors or former DOT heads / senator&#8217;s wives in Flatbush to mess it up."</li>
+	<li><a href="http://www.streetsblog.org/2010/12/17/todays-headlines-1042/#comment-282944" title="In response to 'Today&#8217;s Headlines'">Westchesterite said:</a><br />"RE: Scott Stringer on Second Avenue (from the NY Times) I&#8217;m sure journalist Michael Grynbaum doesn&#8217;t watch video on StreetFilms, but he and Stringer could teach..."</li>
+	<li><a href="http://www.streetsblog.org/2010/12/17/todays-headlines-1042/#comment-282943" title="In response to 'Today&#8217;s Headlines'">fdr said:</a><br />"&#8220;The chance of being killed by a crazed bike rider is about the same as being killed by falling space debris.&#8221; I&#8217;m sure Mrs. Gruskin will be relieved to hear that."</li>
+           </ul>
+ 	 	    </div><!-- /#recent-comments -->
+	    <div id="most-emailed" class="js-toggler-panel" style="display:none">
+			            <ol class="posts">
+              <li><a href="http://www.streetsblog.org/2008/01/28/streetfilm-brt-in-bogota/">Streetfilm: Bus Rapid Transit (BRT) in Bogotá</a> - 30 emails</li>
+<li><a href="http://www.streetsblog.org/2008/05/06/streetfilm-a-pedestrian-paradise-in-melbourne/">Streetfilm: A Pedestrian Paradise in Melbourne</a> - 29 emails</li>
+<li><a href="http://www.streetsblog.org/2008/08/12/summer-streets-bikes-and-pedestrians-get-along-fine-without-cars/">Summer Streets: Bikes and Pedestrians Get Along Fine Without Cars</a> - 28 emails</li>
+<li><a href="http://www.streetsblog.org/2008/04/22/paris-is-the-new-london-will-new-york-be-the-new-paris/">How Paris is Beating Traffic Without Congestion Pricing</a> - 24 emails</li>
+<li><a href="http://www.streetsblog.org/2008/10/08/if-the-candidates-were-trains/">If the Candidates Were Trains&#8230;</a> - 23 emails</li>
+<li><a href="http://www.streetsblog.org/2007/12/06/new-york-times-employees-say-renzo-forgot-the-bike-parking/">New York Times Employees Say Renzo Forgot the Bike Parking</a> - 20 emails</li>
+<li><a href="http://www.streetsblog.org/2008/03/25/nyc-to-launch-bus-rapid-transit-in-the-bronx/">NYC&#8217;s First Bus Rapid Transit Line Debuts in the Bronx</a> - 20 emails</li>
+<li><a href="http://www.streetsblog.org/2008/01/11/hans-monderman-in-memoriam/">Hans Monderman: In Memoriam</a> - 20 emails</li>
+<li><a href="http://www.streetsblog.org/2008/03/06/bike-network-20/">Bike Network 2.0</a> - 19 emails</li>
+<li><a href="http://www.streetsblog.org/2008/02/14/greenstreets-of-new-york-new-and-improved/">Pint-Sized Parks Make Safer Streets and Cleaner Rivers</a> - 18 emails</li>
+            </ol>
+            	   </div><!-- /#most-emailed -->
+ 	   </div><!-- /.widget-content-->
+     <div class="widget-footer selfclear">
+	   <span id="comments-page"><a href="http://www.streetsblog.org/comments/">All Comments</a></span>
+	   <span id="comments-feed"><a href="http://www.streetsblog.org/?feed=comments-rss2" class="feed" title="RSS Feed for Comments">RSS</a></span>
+     </div>
+	</li>
+	  
+<li class="widget">
+<div style="width: 287px; height: 79px; background: url(http://www.streetsblog.org/wp-content/themes/woonerf/img/NAC_T4A_sidbar_badge.gif) top left no-repeat;">
+    <a href="http://t4america.org/" alt="Transportation For America" title="Transportation For America" style="height: 100%; width: 140px; text-indent: -9999px; float: left; margin: 0 7px 0 0; padding: 0;">Transportation For America</a>
+    <a href="http://americancity.org/" alt="NEXT American City" title="NEXT American City" style="height: 100%; width: 140px; text-indent: -9999px; float: left; margin: 0; padding: 0;">NEXT American City</a>
+</div>
+</li>
+
+<li id="volunteers" class="widget">
+    <div class="widget-header"><h2>Volunteers</h2></div>
+    <div class="widget-content selfclear">
+        <h3>Interested in volunteering at the next Livable Streets event or for our latest project?</h3>
+        <p>Please <a href="/contact">contact us</a>.</p>
+    </div>
+</li>
+<li class="widget"><div class="widget-header"><h2>About Streetsblog</h2></div><div class="widget-content selfclear">
+                Streetsblog is a daily news source, online community and political mobilizer for the Livable Streets movement. We are part of a growing coalition of individuals and organizations in cities around the world working to transform our cities by reducing dependence on private automobiles and improving conditions for cyclists, pedestrians and transit riders.
+<ul class="bullet">
+  <li class="page_item current_page_item"><a href="http://www.streetsblog.org/about">More about Streetsblog</a></li>
+  <li class="page_item current_page_item"><a href="http://www.streetsblog.org/about#who">Who we are</a></li>
+  <li class="page_item current_page_item"><a href="http://www.streetsblog.org/about#comment">Comment moderation policy</a></li>
+  <li class="page_item current_page_item"><a href="http://www.streetsblog.org/about#contribute">Contribute to Streetsblog</a></li><li class="page_item current_page_item"><a href="http://www.streetsblog.org/contact">Contact us</a></li>
+</ul>
+<h3 class="mast-title"></h3>
+<dl class="masthead">
+  <dt>Streetsblog Founding Editor:</dt>
+   <dd><a href="http://www.streetsblog.org/author/aaron/">Aaron Naparstek</a></dd>
+  <dt>Publisher:</dt>
+   <dd><a href="http://openplans.org/team/#mark-gorton">Mark Gorton</a></dd>
+  <dt>Streetfilms Director:</dt>
+   <dd><a href="http://www.streetfilms.org/author/clarence/">Clarence Eckerson</a></dd>
+<h3 class="mast-title">Streetsblog New York City</h3>
+    <dt>Editor:</dt>
+    <dd><a href="http://www.streetsblog.org/author/ben-fried/">Benjamin Fried</a></dd>
+  <dt>Reporter:</dt>
+    <dd><a href="http://www.streetsblog.org/author/noah-kazis/">Noah Kazis</a></dd>
+  <dt>Contributors:</dt>
+    <dd><a href="http://www.streetsblog.org/author/john-kaehny/">John Kaehny</a></dd>
+    <dd><a href="http://www.streetsblog.org/author/ethan/">Ethan Kent</a></dd>
+    <dd><a href="http://www.streetsblog.org/author/komanoff/">Charles Komanoff</a></dd>
+    <dd><a href="http://www.streetsblog.org/author/alex-marshall/">Alex Marshall</a></dd>
+  <br />
+  <dt>Streetsblog Capitol Hill:</dt>
+   <dd><a href="http://dc.streetsblog.org/author/tanya-snyder/">Tanya Snyder</a></dd>
+  <dt>Streetsblog San Francisco:</dt>
+   <dd><a href="http://sf.streetsblog.org/author/bryan/">Bryan Goebel</a></dd>
+   <dd><a href="http://sf.streetsblog.org/author/matthew/">Matthew Roth</a></dd>
+  <dt>Streetsblog Los Angeles:</dt>
+   <dd><a href="http://la.streetsblog.org/author/damien/">Damien Newton</a></dd>
+  <dt>Streetfilms:</dt>
+   <dd><a href="http://www.streetfilms.org/author/elizabeth/">Elizabeth Press</a></dd>
+   <dd><a href="http://www.streetfilms.org/author/robin-urban-smith/">Robin Urban Smith</a></dd>
+ <dt>National Blog Network:</dt>
+   <dd><a href="http://streetsblog.net/author/angie-schmitt/">Angie Schmitt</a></dd>
+  <dt>Technology:</dt>
+   <dd><a href="http://openplans.org/team/#nick-grossman">Nick Grossman</a></dd>
+   <dd><a href="http://openplans.org/team/#chris-abraham">Chris Abraham</a></dd>
+   <dd><a href="http://openplans.org/team/#evan-carter">Evan Carter</a></dd>
+   <dd><a href="http://openplans.org/team/#andy-cochran">Andy Cochran</a></dd>
+     <dt>Streetsblog is published by:</dt>
+   <dd><a href="http://openplans.org/">OpenPlans</a></dd>
+</dl>
+                </div></li><li class="widget"><div class="widget-header"><h2>Archived Articles</h2></div><div class="widget-content selfclear">		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Select Month</option> 	<option value='http://www.streetsblog.org/2010/12/'> December 2010 </option>
+	<option value='http://www.streetsblog.org/2010/11/'> November 2010 </option>
+	<option value='http://www.streetsblog.org/2010/10/'> October 2010 </option>
+	<option value='http://www.streetsblog.org/2010/09/'> September 2010 </option>
+	<option value='http://www.streetsblog.org/2010/08/'> August 2010 </option>
+	<option value='http://www.streetsblog.org/2010/07/'> July 2010 </option>
+	<option value='http://www.streetsblog.org/2010/06/'> June 2010 </option>
+	<option value='http://www.streetsblog.org/2010/05/'> May 2010 </option>
+	<option value='http://www.streetsblog.org/2010/04/'> April 2010 </option>
+	<option value='http://www.streetsblog.org/2010/03/'> March 2010 </option>
+	<option value='http://www.streetsblog.org/2010/02/'> February 2010 </option>
+	<option value='http://www.streetsblog.org/2010/01/'> January 2010 </option>
+	<option value='http://www.streetsblog.org/2009/12/'> December 2009 </option>
+	<option value='http://www.streetsblog.org/2009/11/'> November 2009 </option>
+	<option value='http://www.streetsblog.org/2009/10/'> October 2009 </option>
+	<option value='http://www.streetsblog.org/2009/09/'> September 2009 </option>
+	<option value='http://www.streetsblog.org/2009/08/'> August 2009 </option>
+	<option value='http://www.streetsblog.org/2009/07/'> July 2009 </option>
+	<option value='http://www.streetsblog.org/2009/06/'> June 2009 </option>
+	<option value='http://www.streetsblog.org/2009/05/'> May 2009 </option>
+	<option value='http://www.streetsblog.org/2009/04/'> April 2009 </option>
+	<option value='http://www.streetsblog.org/2009/03/'> March 2009 </option>
+	<option value='http://www.streetsblog.org/2009/02/'> February 2009 </option>
+	<option value='http://www.streetsblog.org/2009/01/'> January 2009 </option>
+	<option value='http://www.streetsblog.org/2008/12/'> December 2008 </option>
+	<option value='http://www.streetsblog.org/2008/11/'> November 2008 </option>
+	<option value='http://www.streetsblog.org/2008/10/'> October 2008 </option>
+	<option value='http://www.streetsblog.org/2008/09/'> September 2008 </option>
+	<option value='http://www.streetsblog.org/2008/08/'> August 2008 </option>
+	<option value='http://www.streetsblog.org/2008/07/'> July 2008 </option>
+	<option value='http://www.streetsblog.org/2008/06/'> June 2008 </option>
+	<option value='http://www.streetsblog.org/2008/05/'> May 2008 </option>
+	<option value='http://www.streetsblog.org/2008/04/'> April 2008 </option>
+	<option value='http://www.streetsblog.org/2008/03/'> March 2008 </option>
+	<option value='http://www.streetsblog.org/2008/02/'> February 2008 </option>
+	<option value='http://www.streetsblog.org/2008/01/'> January 2008 </option>
+	<option value='http://www.streetsblog.org/2007/12/'> December 2007 </option>
+	<option value='http://www.streetsblog.org/2007/11/'> November 2007 </option>
+	<option value='http://www.streetsblog.org/2007/10/'> October 2007 </option>
+	<option value='http://www.streetsblog.org/2007/09/'> September 2007 </option>
+	<option value='http://www.streetsblog.org/2007/08/'> August 2007 </option>
+	<option value='http://www.streetsblog.org/2007/07/'> July 2007 </option>
+	<option value='http://www.streetsblog.org/2007/06/'> June 2007 </option>
+	<option value='http://www.streetsblog.org/2007/05/'> May 2007 </option>
+	<option value='http://www.streetsblog.org/2007/04/'> April 2007 </option>
+	<option value='http://www.streetsblog.org/2007/03/'> March 2007 </option>
+	<option value='http://www.streetsblog.org/2007/02/'> February 2007 </option>
+	<option value='http://www.streetsblog.org/2007/01/'> January 2007 </option>
+	<option value='http://www.streetsblog.org/2006/12/'> December 2006 </option>
+	<option value='http://www.streetsblog.org/2006/11/'> November 2006 </option>
+	<option value='http://www.streetsblog.org/2006/10/'> October 2006 </option>
+	<option value='http://www.streetsblog.org/2006/09/'> September 2006 </option>
+	<option value='http://www.streetsblog.org/2006/08/'> August 2006 </option>
+	<option value='http://www.streetsblog.org/2006/07/'> July 2006 </option>
+	<option value='http://www.streetsblog.org/2006/06/'> June 2006 </option>
+	<option value='http://www.streetsblog.org/2006/05/'> May 2006 </option>
+	<option value='http://www.streetsblog.org/2006/04/'> April 2006 </option>
+	<option value='http://www.streetsblog.org/2006/03/'> March 2006 </option>
+	<option value='http://www.streetsblog.org/2005/11/'> November 2005 </option>
+	<option value='http://www.streetsblog.org/2005/10/'> October 2005 </option>
+ </select>
+</div></li><li class="widget"><div class="widget-header"><h2>Categories</h2></div><div class="widget-content selfclear"><select name='cat' id='cat' class='postform'>
+	<option value='-1'> Select Category</option>
+	<option class="level-0" value="58">&#8220;Accidents&#8221;&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="547">&#8220;Atlantic Yards&#8221;&nbsp;&nbsp;(33)</option>
+	<option class="level-0" value="198">&#8220;Gridlock&#8221; Sam Schwartz&nbsp;&nbsp;(21)</option>
+	<option class="level-0" value="521">&#8220;Sustainable Streets&#8221;&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="666">2009 Transportation Bill&nbsp;&nbsp;(79)</option>
+	<option class="level-0" value="133">9th Avenue Renaissance&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="131">9th Street Road Diet&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="249">Aaron Naparstek&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="667">AARP&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="871">AASHTO&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="85">Ad Nauseam&nbsp;&nbsp;(55)</option>
+	<option class="level-0" value="196">Adolfo Carrion&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="324">Adrian Benepe&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="564">Adriano Espaillat&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="71">Air Quality&nbsp;&nbsp;(160)</option>
+	<option class="level-0" value="440">Al Gore&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="188">Alan Gerson&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="385">Albany Reform&nbsp;&nbsp;(68)</option>
+	<option class="level-0" value="180">Alex Marshall&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="602">Allerton&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="252">Amanda Burden&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="423">Amsterdam&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="315">Amtrak&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="1141">Andrew Cuomo&nbsp;&nbsp;(15)</option>
+	<option class="level-0" value="443">Andrew Hevesi&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="677">Andrew Lanza&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="214">Andy Wiley-Schwartz&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="642">Angela Glover Blackwell&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="322">Anthony Weiner&nbsp;&nbsp;(27)</option>
+	<option class="level-0" value="490">April Fool&#8217;s Day&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="971">APTA&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="365">Astoria&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="681">Astrid Glynn&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="426">Athens&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="556">Athletes and Celebrities&nbsp;&nbsp;(30)</option>
+	<option class="level-0" value="539">Atlanta&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="466">Australia&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="622">Baghdad&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="555">Baltimore&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="473">Bangkok&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="372">Barack Obama&nbsp;&nbsp;(63)</option>
+	<option class="level-0" value="647">Barbara Boxer&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="674">Barcelona&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="229">Battery Park City&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="409">Bay Ridge&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="209">Bayside&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="283">Bed-Stuy&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="543">Beijing&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="428">Berkeley&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="481">Berlin&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="300">Bertrand Delanoë&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="550">Bestocracy&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="381">Bettina Damiani&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="117">Bicycle Infrastructure&nbsp;&nbsp;(145)</option>
+	<option class="level-0" value="134">Bicycle Parking&nbsp;&nbsp;(143)</option>
+	<option class="level-0" value="211">Bicycle Safety&nbsp;&nbsp;(208)</option>
+	<option class="level-0" value="27">Bicycling&nbsp;&nbsp;(807)</option>
+	<option class="level-0" value="498">Bike Boulevards&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="259">Bike Boxes&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="116">Bike Lanes&nbsp;&nbsp;(286)</option>
+	<option class="level-0" value="293">Bike Sharing&nbsp;&nbsp;(62)</option>
+	<option class="level-0" value="662">Bike Snob&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="130">Bike Theft&nbsp;&nbsp;(33)</option>
+	<option class="level-0" value="166">Bill de Blasio&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="479">Block Parties&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="465">Bob Yaro&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="35">Boerum Hill&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="343">Bogotá&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="558">Bollards&nbsp;&nbsp;(23)</option>
+	<option class="level-0" value="679">Boris Johnson&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="941">Borough Park&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="478">Boston&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="578">Boulder&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="901">Brad Lander&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="685">Brazil&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="696">Brian Kavanagh&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="394">Brian Ketcham&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="654">Bridge Tolls&nbsp;&nbsp;(68)</option>
+	<option class="level-0" value="583">Brighton Beach&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="48">Brooklyn&nbsp;&nbsp;(295)</option>
+	<option class="level-0" value="173">Brooklyn Bridge&nbsp;&nbsp;(20)</option>
+	<option class="level-0" value="132">Brooklyn Greenway Initiative&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="205">Brooklyn Greenway Initiative&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="237">Brooklyn Heights&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="280">Brooklyn Public Library&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="408">Brooklyn-Queens Expressway&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="415">Brownsville&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="212">Bruce Schaller&nbsp;&nbsp;(48)</option>
+	<option class="level-0" value="411">Brussels&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="540">Bus Bulbs&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="193">Bus Rapid Transit&nbsp;&nbsp;(133)</option>
+	<option class="level-0" value="43">Buses&nbsp;&nbsp;(195)</option>
+	<option class="level-0" value="391">Bushwick&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="277">Campaign Contributions&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="194">Campaign for New York&#8217;s Future&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="1185">Canarsie&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="65">Caption Contest&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="29">Car Culture&nbsp;&nbsp;(341)</option>
+	<option class="level-0" value="1175">Car Dependence&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="30">Car-Free Parks&nbsp;&nbsp;(59)</option>
+	<option class="level-0" value="549">Car-Free Streets&nbsp;&nbsp;(92)</option>
+	<option class="level-0" value="921">Car-Sharing&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="288">Carbon Tax&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="625">Carl Heastie&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="652">Carl Kruger&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="438">Carly Clark&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="61">Carnage&nbsp;&nbsp;(325)</option>
+	<option class="level-0" value="395">Carolyn Konheim&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="580">Carroll Gardens&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="491">Cartoon Tuesday&nbsp;&nbsp;(52)</option>
+	<option class="level-0" value="701">Celebrity Cyclists&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="62">Central Park&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="295">Chad Marlow&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="197">Charles Komanoff&nbsp;&nbsp;(38)</option>
+	<option class="level-0" value="751">Charles Rangel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="270">Charles Schumer&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="272">CHEKPEDS&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="507">Chelsea&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="359">Chicago&nbsp;&nbsp;(26)</option>
+	<option class="level-0" value="464">Chicanes&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="468">China&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="57">Chinatown&nbsp;&nbsp;(38)</option>
+	<option class="level-0" value="1176">Chris Christie&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="961">Chris Dodd&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="1031">Chris Ward&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="433">Christine Berthet&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="262">Christine Quinn&nbsp;&nbsp;(37)</option>
+	<option class="level-0" value="519">Chuck Schumer&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="437">Ciclovía&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="207">Citizens Budget Commission&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="387">Citizens for NYC&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="499">City Council&nbsp;&nbsp;(119)</option>
+	<option class="level-0" value="522">CityRacks&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="250">CityStreets&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="78">Civil Rights&nbsp;&nbsp;(27)</option>
+	<option class="level-0" value="217">Clarence Eckerson&nbsp;&nbsp;(63)</option>
+	<option class="level-0" value="618">Cleveland&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="1041">Climate Bill&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="72">Climate Change&nbsp;&nbsp;(175)</option>
+	<option class="level-0" value="472">Clinton Hill&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="512">Co-Op City&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="203">Cobble Hill&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="115">Community Board Reform&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="93">Community Boards&nbsp;&nbsp;(180)</option>
+	<option class="level-0" value="461">COMMUTE&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="95">Commuting&nbsp;&nbsp;(113)</option>
+	<option class="level-0" value="658">Complete Streets&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="136">Coney Island&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="39">Confrontations&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="24">Congestion Pricing&nbsp;&nbsp;(556)</option>
+	<option class="level-0" value="670">Congress for the New Urbanism&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="1011">Contraflow Bike Lanes&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="326">Copenhagen&nbsp;&nbsp;(32)</option>
+	<option class="level-0" value="469">Corporate Buildings &amp; Bike Parking&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="73">Critical Mass&nbsp;&nbsp;(36)</option>
+	<option class="level-0" value="457">Crown Heights&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="672">Curitiba&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="811">Cy Vance&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="496">Damien Newton&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1051">Dan Burden&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="244">Dan Doctoroff&nbsp;&nbsp;(20)</option>
+	<option class="level-0" value="290">Dan Garodnick&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="215">Dani Simons&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="1179">Daniel Dromm&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="139">Daniel O&#8217;Donnell&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="627">Daniel Squadron&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="1188">David Bragdon&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="501">David Burwell&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="340">David Byrne&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="329">David Engwicht&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="538">David Gantt&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="509">David Paterson&nbsp;&nbsp;(44)</option>
+	<option class="level-0" value="195">David Weprin&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="162">David Yassky&nbsp;&nbsp;(35)</option>
+	<option class="level-0" value="312">DDC&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="624">Dean Skelos&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="333">Deborah Glick&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="424">Denmark&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="294">Denny Farrell&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="648">Denver&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="425">Department of City Planning&nbsp;&nbsp;(53)</option>
+	<option class="level-0" value="567">Department of Education&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="598">Department of Environmental Protection&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="189">Department of Health &amp; Mental Hygiene&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="186">Department of Parks &amp; Recreation&nbsp;&nbsp;(31)</option>
+	<option class="level-0" value="349">Dept. of Consumer Affairs&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="49">Development&nbsp;&nbsp;(189)</option>
+	<option class="level-0" value="533">Dick Gottfried&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="951">Distracted Driving&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="680">Dollar Vans&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="168">Domenic Recchia&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="174">Donald Shoup&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="659">Doris Matsui&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="146">DOT&nbsp;&nbsp;(567)</option>
+	<option class="level-0" value="135">Downtown Brooklyn&nbsp;&nbsp;(31)</option>
+	<option class="level-0" value="169">Downtown Brooklyn Partnership&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="308">Downtown Brooklyn Traffic Calming Project&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="286">Drum Major Institute&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="238">DUMBO&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="497">Earl Blumenauer&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="1172">East Harlem&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="1151">East River Greenway&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="393">East River Park&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="439">East Village&nbsp;&nbsp;(23)</option>
+	<option class="level-0" value="542">Economic Development Corporation&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="64">Economics&nbsp;&nbsp;(113)</option>
+	<option class="level-0" value="841">Ed Rendell&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1021">Ed Skyler&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="84">Elderly &#038; Disabled&nbsp;&nbsp;(26)</option>
+	<option class="level-0" value="791">Elections&nbsp;&nbsp;(65)</option>
+	<option class="level-0" value="531">Elizabeth Press&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="462">Elizabeth Yeampierre&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="177">Elliot &#8220;Lee&#8221; Sander&nbsp;&nbsp;(35)</option>
+	<option class="level-0" value="156">Elliot Spitzer&nbsp;&nbsp;(32)</option>
+	<option class="level-0" value="721">Emily Lloyd&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="702">Eminent Domain&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="40">Energy&nbsp;&nbsp;(136)</option>
+	<option class="level-0" value="227">Enrique Peñalosa&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="515">Environmental Defense&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="1174">Environmental Justice&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="623">Environmental Review&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="374">EPA&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="480">Eric Adams&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="309">Eric Britton&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="405">Eric Schneiderman&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="352">Ethan Kent&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="2">Events&nbsp;&nbsp;(2537)</option>
+	<option class="level-0" value="11">Eyes on the Street&nbsp;&nbsp;(213)</option>
+	<option class="level-0" value="396">Fare Hikes&nbsp;&nbsp;(33)</option>
+	<option class="level-0" value="246">FDR Drive&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="706">Federal Funding&nbsp;&nbsp;(78)</option>
+	<option class="level-0" value="703">Federal Highway Administration&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="641">Federal Stimulus&nbsp;&nbsp;(66)</option>
+	<option class="level-0" value="688">Federal Transit Administration&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="109">Ferries&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="574">Financial District&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="1186">Fixing the Great Mistake&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="638">Florent Morellet&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="1171">Flushing&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="296">Forest Hills&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="367">Fort Greene&nbsp;&nbsp;(23)</option>
+	<option class="level-0" value="821">Freight&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="397">Fresh Meadows&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="187">Gale Brewer&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="279">GAPco&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="317">Gary LaBarbera&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="170">Gary Reilly&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="353">Gary Toth&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="346">Gas Prices&nbsp;&nbsp;(62)</option>
+	<option class="level-0" value="319">Gas Tax&nbsp;&nbsp;(48)</option>
+	<option class="level-0" value="553">Gavin Newsom&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="234">Gene Russianoff&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="412">George Haikalis&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="704">George W. Bush&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="603">George Washington Bridge&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="557">Germany&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="225">GGUIP&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="383">Gil Peñalosa&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="544">Gin Yee&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="524">Glenn McAnanama&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="145">Government Organizations&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="123">Governors Island&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="304">Gowanus&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="266">Gowanus Expressway&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="157">Grand Army Plaza&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="571">Greenmarkets&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="201">Greenpoint&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="485">Greenstreets&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="271">Greenways&nbsp;&nbsp;(51)</option>
+	<option class="level-0" value="404">Greenwich Village&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="191">GreeNYC&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="458">Hakeem Jeffries&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="375">Hans Monderman&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="402">Harlem&nbsp;&nbsp;(26)</option>
+	<option class="level-0" value="614">Harry Reid&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="273">Hell&#8217;s Kitchen&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="1001">Henry Hudson Bridge&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="621">Henry Waxman&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="185">High Bridge&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="255">High Bridge Park&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="911">High-Speed Rail&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="254">Highbridge&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="646">Highway Expansion&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="575">Highway Removal&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="282">Hillary Clinton&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="143">Hiram Monserrate&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="1161">Hoboken&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="689">Holland Tunnel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="518">Horn Honking&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="682">House of Representatives&nbsp;&nbsp;(64)</option>
+	<option class="level-0" value="606">Houston&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="256">Houston Street Bike Safety Initiative&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="176">Howard Roberts&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="1184">HUD&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="274">Hudson River Greenway&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="451">Hudson River Park Trust&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="328">Hudson Yards&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="676">Hunts Point&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="221">Ian Dutton&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="467">India&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="66">Infrastructure&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="8">Interviews&nbsp;&nbsp;(31)</option>
+	<option class="level-0" value="358">Inwood&nbsp;&nbsp;(42)</option>
+	<option class="level-0" value="470">Iris Weinshall&nbsp;&nbsp;(33)</option>
+	<option class="level-0" value="5">Issues &#038; Campaigns&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="510">Istanbul&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="650">ITDP&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="142">Jackson Heights&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="673">Jaime Lerner&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="455">Jamaica&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="410">James Howard Kunstler&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="991">James Inhofe&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="771">James Langergaard&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="587">James Oberstar&nbsp;&nbsp;(36)</option>
+	<option class="level-0" value="678">James Oddo&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="330">James Tedisco&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="1061">James Vacca&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="337">Jan Gehl&nbsp;&nbsp;(37)</option>
+	<option class="level-0" value="450">Jane Jacobs&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="163">Janette Sadik-Khan&nbsp;&nbsp;(133)</option>
+	<option class="level-0" value="495">Japan&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="741">Jay Walder&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="573">Jeff Klein&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="126">Jeff Zupan&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="364">Jeffrey Dinowitz&nbsp;&nbsp;(15)</option>
+	<option class="level-0" value="640">Jerrold Nadler&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="235">Jessica Lappin&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="233">JFK Airport&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="331">Jim Brennan&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="1121">Jimmy Van Bramer&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="504">Joan Byron&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="236">Joan Millman&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="566">Joe Biden&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="281">Joe Bruno&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="164">Joe Lentol&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="527">Joel Rivera&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="535">John Corzine&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="620">John Dingell&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="241">John Kaehny&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="232">John Liu&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="453">John McCain&nbsp;&nbsp;(23)</option>
+	<option class="level-0" value="1180">John Mica&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="669">John Norquist&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="336">John Sabini&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="1081">John Samuelsen&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="213">Jon Orcutt&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="1182">Jonathan Bing&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="511">José Rivera&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="258">José Serrano&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="275">Joseph Crowley&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="370">Joseph Palmieri&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="357">Josh Benson&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="447">Joshua David&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="413">Karla Quintero&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="302">Kate Slevin&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="318">Kathryn Wylde&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="399">Keep NYC Congestion Tax Free&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="530">Ken Coughlin&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="434">Ken Livingstone&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="649">Kensington&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="665">Kevin Parker&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="417">Kheel Plan&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="545">Leading Pedestrian Intervals&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="661">Leslie Crocker Snyder&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="444">Letitia James&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="314">Lew Fidler&nbsp;&nbsp;(21)</option>
+	<option class="level-0" value="129">Light Rail&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="684">Lincoln Tunnel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="242">Linda Rosenthal&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="264">LIRR&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="639">Lisbon&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="55">Livable Streets&nbsp;&nbsp;(374)</option>
+	<option class="level-0" value="653">Livable Streets Community&nbsp;&nbsp;(35)</option>
+	<option class="level-0" value="668">Livable Streets Education&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="692">Livable Streets Events&nbsp;&nbsp;(80)</option>
+	<option class="level-0" value="644">Livable Streets Network&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="388">Liz Krueger&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="345">London&nbsp;&nbsp;(55)</option>
+	<option class="level-0" value="59">Long Island&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="416">Long Island City&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="1131">Longwood&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="363">Los Angeles&nbsp;&nbsp;(35)</option>
+	<option class="level-0" value="626">Louisville&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="90">Lower East Side&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="218">Make Music New York&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="332">Malcolm Smith&nbsp;&nbsp;(20)</option>
+	<option class="level-0" value="52">Manhattan&nbsp;&nbsp;(335)</option>
+	<option class="level-0" value="313">Manhattan Bridge&nbsp;&nbsp;(21)</option>
+	<option class="level-0" value="138">Manhattan Valley&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="554">Maps&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="339">Marc Shaw&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="223">Margaret Forgione&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="502">Mariia Zimmerman&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="240">Mark Gorton&nbsp;&nbsp;(23)</option>
+	<option class="level-0" value="532">Martin Connor&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="500">Martin Malave Dilan&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="323">Marty Markowitz&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="306">Mary Peters&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="560">Matthew Modine&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="541">Matthew Roth&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="144">Maura McCarthy&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="484">Maurice Bruet&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="226">Meatpacking District&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="584">Media Watch&nbsp;&nbsp;(66)</option>
+	<option class="level-0" value="347">Melbourne&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="801">Melissa Mark-Viverito&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="586">Melrose&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="265">Metro-North&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="276">Metropolitan Parking Association&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="483">Mexico City&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="617">Miami&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="454">Micah Kellner&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="140">Michael Bloomberg&nbsp;&nbsp;(257)</option>
+	<option class="level-0" value="831">Michael Bloomberg&#8217;s Third Term&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="307">Michael Horodniceanu&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="351">Michael O&#8217;Loughlin&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="251">Michael Primeggia&nbsp;&nbsp;(15)</option>
+	<option class="level-0" value="694">Michelle Bachmann&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="445">Michelle Schimel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="406">Midtown&nbsp;&nbsp;(75)</option>
+	<option class="level-0" value="505">Mike Heffron&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="537">Mike McMahon&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="448">Milton Puryear&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="562">Milwaukee&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="630">Minneapolis&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="460">MMR&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="563">Montreal&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="137">Morningside Heights&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="155">MTA&nbsp;&nbsp;(321)</option>
+	<option class="level-0" value="291">Municipal Art Society of New York&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="366">Myrtle Avenue Brooklyn Partnership&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="354">Myrtle Avenue Revitalization&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="615">Nancy Pelosi&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="698">National Infrastructure Bank&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="378">Neal Peirce&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="192">Neckdowns&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="310">New Mobility Agenda&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="430">New York Building Congress&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="576">New York State DOT&nbsp;&nbsp;(27)</option>
+	<option class="level-0" value="482">Newark&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="89">News&nbsp;&nbsp;(137)</option>
+	<option class="level-0" value="219">Nick Grossman&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="1187">Nick Rahall&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="600">Nick Turner&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="243">Nick Whitaker&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="604">NJTransit&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="311">Noah Budnick&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="517">Noise&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="178">NRDC&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="368">NYC Bicycle Coalition&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="382">NYC Industrial Development Agency&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="175">NYC Transit&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="384">NYCEDC&nbsp;&nbsp;(26)</option>
+	<option class="level-0" value="348">NYCPOA&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="321">NYMTC&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="181">NYPD&nbsp;&nbsp;(219)</option>
+	<option class="level-0" value="981">NYPD Crash Investigations&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="546">Oakland&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="287">Office of Long-Term Planning and Sustainability&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="179">Oil&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="761">Oliver Koppell&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="590">OMB&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="325">One-Way Streets&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="67">Op/Ed&nbsp;&nbsp;(21)</option>
+	<option class="level-0" value="695">Orrin Hatch&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="76">Out of Town&nbsp;&nbsp;(320)</option>
+	<option class="level-0" value="633">Ozone Park&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="344">Paris&nbsp;&nbsp;(27)</option>
+	<option class="level-0" value="36">Park Slope&nbsp;&nbsp;(99)</option>
+	<option class="level-0" value="230">Park Slope Neighbors&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="228">Park(ing) Day&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="552">Park(ing) Day&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="56">Parking&nbsp;&nbsp;(424)</option>
+	<option class="level-0" value="122">Parking Permits&nbsp;&nbsp;(82)</option>
+	<option class="level-0" value="75">Parks&nbsp;&nbsp;(121)</option>
+	<option class="level-0" value="199">Partnership for New York City&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="591">Paul Krugman&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="520">Paul Newell&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="253">Paul Steely White&nbsp;&nbsp;(48)</option>
+	<option class="level-0" value="608">Pedestrian Infrastructure&nbsp;&nbsp;(84)</option>
+	<option class="level-0" value="31">Pedestrian safety&nbsp;&nbsp;(448)</option>
+	<option class="level-0" value="320">Pedicabs&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="655">Pedro Espada&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="609">Pelham Bay Park&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="263">Peter Kalikow&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="432">Peter Meitzler&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="683">Peter Rivera&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="636">Peter Vallone&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="463">Philadelphia&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="708">Phoenix&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="77">Pinned&nbsp;&nbsp;(50)</option>
+	<option class="level-0" value="105">PlaNYC&nbsp;&nbsp;(105)</option>
+	<option class="level-0" value="686">Plazas&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="316">Police Misconduct&nbsp;&nbsp;(37)</option>
+	<option class="level-0" value="220">Port Authority&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="361">Portland&nbsp;&nbsp;(47)</option>
+	<option class="level-0" value="245">Project for Public Spaces&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="120">Prospect Heights&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="63">Prospect Park&nbsp;&nbsp;(51)</option>
+	<option class="level-0" value="38">Public Health&nbsp;&nbsp;(204)</option>
+	<option class="level-0" value="474">Puerto Rico&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="41">Quality of Life&nbsp;&nbsp;(283)</option>
+	<option class="level-0" value="50">Queens&nbsp;&nbsp;(93)</option>
+	<option class="level-0" value="278">Queens Chamber of Commerce&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="206">Queens Civic Congress&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="456">Queensboro Bridge&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="398">Rachel Weinberger&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="128">Rail&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="421">Randall&#8217;s Island&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="476">Randi Weingarten&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="407">Randy Cohen&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="508">Ray Kelly&nbsp;&nbsp;(31)</option>
+	<option class="level-0" value="628">Ray LaHood&nbsp;&nbsp;(32)</option>
+	<option class="level-0" value="616">REBNY&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="141">Recycling&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="202">Red Hook&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="127">Regional Plan Association&nbsp;&nbsp;(30)</option>
+	<option class="level-0" value="284">Richard Brodsky&nbsp;&nbsp;(69)</option>
+	<option class="level-0" value="301">Richard Daley&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="528">Richard Gottfried&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="299">Richard Lipsky&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="523">Richard Ravitch&nbsp;&nbsp;(26)</option>
+	<option class="level-0" value="1173">Rick Lazio&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="403">Robert Morgenthau&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="376">Robert Moses&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="629">Robert Puentes&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="449">Robert Witherwax&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="599">Rockefeller Foundation&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="292">Rohit Aggarwala&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="422">Rome&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="691">Roosevelt Island&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="699">Rosa DeLauro&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="657">Ruben Diaz Jr.&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="298">Ruben Diaz Sr.&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="452">Rudy Giuliani&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="87">Rumor Mill&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="222">Ryan Russo&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="459">Salt Lake City&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="534">Sam Adams&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="362">San Francisco&nbsp;&nbsp;(44)</option>
+	<option class="level-0" value="570">Sarah Palin&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="106">Schools&nbsp;&nbsp;(46)</option>
+	<option class="level-0" value="392">Scott Stringer&nbsp;&nbsp;(32)</option>
+	<option class="level-0" value="269">Sean Clifford&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="261">Sean Roche&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="360">Seattle&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="69">Security&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="182">Segways&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="1183">Select Bus Service&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="338">Separated Bike Path&nbsp;&nbsp;(122)</option>
+	<option class="level-0" value="891">Seth Pinsky&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="190">Sheldon Silver&nbsp;&nbsp;(74)</option>
+	<option class="level-0" value="167">Simcha Felder&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="355">Smart Growth&nbsp;&nbsp;(31)</option>
+	<option class="level-0" value="565">Smart Para-Transit&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="82">SoHo&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="427">Soho Alliance&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="731">Sonia Sotomayor&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="379">South Bronx&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="579">South Street Seaport&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="569">Spain&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="81">Sprawl&nbsp;&nbsp;(47)</option>
+	<option class="level-0" value="607">St. Louis&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="561">State Legislature&nbsp;&nbsp;(131)</option>
+	<option class="level-0" value="51">Staten Island&nbsp;&nbsp;(23)</option>
+	<option class="level-0" value="268">Staten Island Ferry&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1101">Stephen Goldsmith&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="1091">Steve Levin&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="619">Steve Spinola&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="693">Steven Chu&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="400">Stockholm&nbsp;&nbsp;(15)</option>
+	<option class="level-0" value="514">Straphangers Campaign&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="80">Street Art&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="436">Streetcars&nbsp;&nbsp;(15)</option>
+	<option class="level-0" value="46">Streetfilms&nbsp;&nbsp;(298)</option>
+	<option class="level-0" value="1">Streetsblog&nbsp;&nbsp;(159)</option>
+	<option class="level-0" value="687">Streetsblog Capitol Hill&nbsp;&nbsp;(255)</option>
+	<option class="level-0" value="589">Streetsblog.net&nbsp;&nbsp;(503)</option>
+	<option class="level-0" value="10">Studies &#038; Reports&nbsp;&nbsp;(106)</option>
+	<option class="level-0" value="110">Suburbia&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="159">Subways&nbsp;&nbsp;(40)</option>
+	<option class="level-0" value="303">Sunset Park&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="548">Superblocks&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="675">Sustainable South Bronx&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="239">SUVs&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="401">Sweden&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="414">SWIM&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="377">Sydney&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="369">Taxi and Limousine Commission&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="86">Taxis &#038; Limos&nbsp;&nbsp;(35)</option>
+	<option class="level-0" value="107">Teachers&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="1181">Technology&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="418">Ted Kheel&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="161">Teresa Toro&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="42">The Bronx&nbsp;&nbsp;(93)</option>
+	<option class="level-0" value="104">The Conscious Commuter&nbsp;&nbsp;(21)</option>
+	<option class="level-0" value="477">the Netherlands&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="526">The New York League of Conservation Voters&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="632">The Streetsie Awards&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="707">The Weekly Carnage&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="475">Time&#8217;s Up!&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="471">Times Square&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="47">Today&#8217;s Headlines&nbsp;&nbsp;(1058)</option>
+	<option class="level-0" value="781">Tom Carper&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="1177">Tom DiNapoli&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="931">Tom Farley&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="660">Tom Harkin&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="513">Tony Avella&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="419">TOPP&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="435">Toronto&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="597">Tour Buses&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="489">Traffic&nbsp;&nbsp;(81)</option>
+	<option class="level-0" value="26">Traffic Calming&nbsp;&nbsp;(186)</option>
+	<option class="level-0" value="389">Traffic Congestion Mitigation Commission&nbsp;&nbsp;(60)</option>
+	<option class="level-0" value="28">Traffic Enforcement&nbsp;&nbsp;(313)</option>
+	<option class="level-0" value="634">Traffic Justice&nbsp;&nbsp;(120)</option>
+	<option class="level-0" value="697">Trains&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="68">Transit&nbsp;&nbsp;(351)</option>
+	<option class="level-0" value="851">Transit Data&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="1178">Transit Funding&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="577">Transit-Oriented Development&nbsp;&nbsp;(32)</option>
+	<option class="level-0" value="231">Transportation Alternatives&nbsp;&nbsp;(230)</option>
+	<option class="level-0" value="881">Transportation Equity Network&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="588">Transportation for America&nbsp;&nbsp;(21)</option>
+	<option class="level-0" value="79">Transportation Policy&nbsp;&nbsp;(593)</option>
+	<option class="level-0" value="420">Triborough Bridge&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="91">Trucks&nbsp;&nbsp;(42)</option>
+	<option class="level-0" value="297">TSTC&nbsp;&nbsp;(72)</option>
+	<option class="level-0" value="700">U.S. Chamber of Commerce&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="663">U.S. DOT&nbsp;&nbsp;(60)</option>
+	<option class="level-0" value="643">U.S. Senate&nbsp;&nbsp;(91)</option>
+	<option class="level-0" value="108">Uncivil Servants&nbsp;&nbsp;(27)</option>
+	<option class="level-0" value="1071">Union Square&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="446">United Puerto Rican Organization of Sunset Park&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="53">Upper East Side&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="525">Upper Green Side&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="45">Upper West Side&nbsp;&nbsp;(60)</option>
+	<option class="level-0" value="350">Upper West Side Streets Renaissance&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="60">Urban Design&nbsp;&nbsp;(280)</option>
+	<option class="level-0" value="74">Urban Planning&nbsp;&nbsp;(194)</option>
+	<option class="level-0" value="1111">Vancouver&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="380">Vélib&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="671">Velmanette Montgomery&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="247">Verrazano Bridge&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="635">Vincent Gentile&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="267">Vincent Ignizio&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="595">Vision Zero&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="441">Vivian Cook&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="102">Walking&nbsp;&nbsp;(109)</option>
+	<option class="level-0" value="651">Walter Hook&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="334">Walter McCaffrey&nbsp;&nbsp;(15)</option>
+	<option class="level-0" value="371">Washington DC&nbsp;&nbsp;(29)</option>
+	<option class="level-0" value="96">Washington Heights&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="559">Washington Square Park&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="70">Waterfront&nbsp;&nbsp;(15)</option>
+	<option class="level-0" value="83">Waterfront&nbsp;&nbsp;(33)</option>
+	<option class="level-0" value="103">Week in Review&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="6">Weinshall Watch&nbsp;&nbsp;(47)</option>
+	<option class="level-0" value="390">West Harlem&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="260">West Village&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="184">Western Jackson Heights Alliance&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="551">Wiki Wednesday&nbsp;&nbsp;(36)</option>
+	<option class="level-0" value="183">Will Sweeney&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="536">William Colton&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="373">William Thompson&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="160">Williamsburg&nbsp;&nbsp;(55)</option>
+	<option class="level-0" value="581">Williamsburg Bridge&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="88">Word on the Street&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="664">Working Families Party&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="335">Yankee Stadium Parking Scandal&nbsp;&nbsp;(22)</option>
+	<option class="level-0" value="861">Ydanis Rodriguez&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="656">Zürich&nbsp;&nbsp;(1)</option>
+</select>
+
+<script lang='javascript'><!--
+    var dropdown = document.getElementById("cat");
+    function onCatChange() {
+		if ( dropdown.options[dropdown.selectedIndex].value > 0 ) {
+	        location.href = "http://www.streetsblog.org/?cat="+dropdown.options[dropdown.selectedIndex].value;
+		}
+    }
+    dropdown.onchange = onCatChange;
+--></script>
+
+</div></li><li class="widget"><div class="widget-header"><h2>SUBSCRIBE</h2></div><div class="widget-content selfclear">
+    <div id="subscribe">
+       To the <em>Streetsblog</em>
+       <a href="http://www.streetsblog.org/feed/" class="feed" title="RSS Feed for Comments">RSS feed</a>.
+             <hr />
+            
+      <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=Streetsblog', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+        <label for="site-email">To daily <em>Streetsblog</em> email digests</label>
+          <input type="hidden" value="Streetsblog" name="uri"/>
+          <input type="hidden" value="en_US" name="loca"/>
+          <input id="site-email" name="email" type="text" size="25" value="Your email" onblur="if(this.value=='') this.value='Your email';" onfocus="if(this.value=='Your email') this.value='';" />
+        <input class="submit" type="submit" onclick="if(this.form.email.value == 'Your email') { alert('Please enter your email'); return false; }" value="Go" />
+      </form>
+
+    </div><!-- /#subscribe -->
+
+
+    </div></li><li class="widget"><div class="widget-header"><h2>Copyright Notice</h2></div><div class="widget-content selfclear">			<div class="textwidget"><div style="line-height: 1.5em; padding: 0.5em 0;"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/"><img alt="Creative Commons License" style="border-width:0; float: right;" src="http://i.creativecommons.org/l/by-nc-nd/3.0/us/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License</a>.</div></div>
+		</div></li>
+    <li style="list-style: none">
+      <div class="author-login">
+      <a href="http://www.streetsblog.org/wp-admin/">Author Login</a>
+      </div><!-- /#author-login -->
+          </li>
+  </ul>
+
+  </div>
+</div><!-- /#main -->
+
+
+
+<div id="footer">
+    <div class="wrap selfclear">
+        <div id="credits">
+            <div class="produced-by">
+                A project of <a href="http://openplans.org/">OpenPlans</a>
+            </div>
+        </div><!-- /#credits -->
+    </div><!-- /.wrap .selfclear -->
+</div><!-- /#footer -->
+
+<!-- 49 queries occured in 0.926 seconds. -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var emailL10n = {
+	ajax_url: "http://www.streetsblog.org/wp-content/plugins/wp-email/wp-email.php",
+	max_allowed: "5",
+	text_error: "The Following Error Occurs:",
+	text_name_invalid: "- Your Name is empty/invalid",
+	text_email_invalid: "- Your Email is empty/invalid",
+	text_remarks_invalid: "- Your Remarks is invalid",
+	text_friend_names_empty: "- Friend Name(s) is empty",
+	text_friend_name_invalid: "- Friend Name is empty/invalid: ",
+	text_max_friend_names_allowed: "- Maximum 5 Friend Names allowed",
+	text_friend_emails_empty: "- Friend Email(s) is empty",
+	text_friend_email_invalid: "- Friend Email is invalid: ",
+	text_max_friend_emails_allowed: "- Maximum 5 Friend Emails allowed",
+	text_friends_tally: "- Friend Name(s) count does not tally with Friend Email(s) count",
+	text_image_verify_empty: "- Image Verification is empty"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.streetsblog.org/wp-content/plugins/wp-email/email-js.js?ver=2.50'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {
+	ajax_url: "http://www.streetsblog.org/wp-content/plugins/wp-polls/wp-polls.php",
+	text_wait: "Your last request is still being processed. Please wait a while ...",
+	text_valid: "Please choose a valid poll answer.",
+	text_multiple: "Maximum number of choices allowed: ",
+	show_loading: "1",
+	show_fading: "1"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.streetsblog.org/wp-content/plugins/wp-polls/polls-js.js?ver=2.50'></script>
+  <script src="http://www.streetsblog.org/wp-content/js/tab_helper.js" type="text/javascript"></script>
+
+  <script src="http://www.streetsblog.org/mint/?js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-6717081-8']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-6717081-12']);
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.927 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2010-12-17 14:06:16 -->
