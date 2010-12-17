@@ -1,0 +1,441 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>Airport Way South Viaduct Over Argo Railroad Yard Rehabilitation Project: Seattle Department of Transportation: Bridge Rehabilitation, Replacement and Seismic Retrofit</TITLE>
+<meta name="Title" content="Airport Way South Viaduct Over Argo Railroad Yard Rehabilitation Project: Seattle Department of Transportation: Bridge Rehabilitation, Replacement and Seismic Retrofit">
+<meta name="Description" content="Street Maintenance Program -- A vibrant Seattle through transportation excellence.">
+<meta name="Keywords" content="Seattle Department of Transportation, projects, maintenance, paving, bridge, rehab, Street Maintenance Program, Bridge Rehabilitation, Replacement and Seismic Retrofit, Airport Way South Viaduct Over Argo Railroad Yard Rehabilitation Project Rehabilitation Project">
+<meta name="originatorDepartment" content="Seattle Department of Transportation">
+<link REL="stylesheet" HREF="/transportation/css/dept_style.css" TYPE="text/css">
+<LINK href="/transportation/main.css" type=text/css rel=stylesheet>
+<script language="javascript" src="/transportation/scripts/transportation_array.js"></script>
+<SCRIPT LANGUAGE="JavaScript" SRC="/transportation/scripts/ypSlideOutMenus_new.js" TYPE="text/javascript"></SCRIPT>
+<script language="javascript" src="/transportation/js/navigation.js"></script>
+<SCRIPT language="JavaScript">
+LOC = "Airportrehab"
+</SCRIPT>
+</HEAD>
+<BODY onLoad="whatPage()" background="/2004_img/seattle_back.gif" LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<div align="center">
+<noindex>
+<script language="javascript">
+function changeFilter(whichCol){
+ if(whichCol == "Dept"){
+   document.forms[0].site.value = whichDept;
+   document.forms[0].proxystylesheet.value = whichStyle;
+ }else{
+   document.forms[0].site.value = "default_collection";
+   document.forms[0].proxystylesheet.value = "cos_frontend";
+ }
+}
+</script> 
+<style>
+image:focus {-moz-outline-style: none;}
+</style>
+<div align="center">
+<div style="display:block;position:relative;margin:0px auto;width:775px;height:70px;background-repeat:no-repeat;background-image: url(/common/images/header_background.png);background-color:#fff">
+  <div id="cityNav" style="width:765px;position:absolute;top:0px;left:0px;text-align:right;"><a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/departments/">Departments</a> | <a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/services/">Services</a> | <a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/directory/">Staff Directory</a></div>
+  <div id="cityBrand" style="width:320px;position:absolute;top:0px;left:0px;"><a href="/default.htm"><img onmouseover="this.src='/common/images/SeattleGovLogo.png'" onmouseout="this.src='/common/images/SeattleGovLogoHome.png'" src="/common/images/SeattleGovLogoHome.png" alt="Seattle.gov Home Page" border="0" width="320" height="70" /></a></div>
+  <div id="citySearch" style="width:300px;position:absolute;top:24px;left:470px;">
+		<form id="googleSearch" style="margin:0px;padding:-10px;" method="get" action="http://find.seattle.gov/search">
+		<input type="text" style="vertical-align:top;margin:0px;padding-top:5px;padding:0px;height:22px;line-height:20px;border:2px solid #d5d5d5;width:250px;" name="q" size="18" maxlength="255" value="" />
+		<input style="vertical-align:top;margin-top:0px;border:0px;height:25px;-moz-outline-style: none;" type="image" src="/common/images/go_button.png" name="btnG" value="Go" onclick="document.forms['googleSearch'].submit()"/>
+		<input type="hidden" name="site" value="default_collection"/>
+		<input type="hidden" name="client" value="cos_frontend"/>
+		<input type="hidden" name="proxystylesheet" value="cos_frontend"/>
+		<input type="hidden" name="output" value="xml_no_dtd"/>
+		</form> 
+  	<div style="font-family: Arial, Helvetica; font-size:12px !important;color:#999;width:250px;position:absolute;top:22px;left:25px;">
+      <form name="toggle" style="margin: 0px;"><input type="radio" value="main" name="searchToggle" checked="" onclick="changeFilter('Seattle')">Seattle.gov <input type="radio" value="dept" name="searchToggle" onclick="changeFilter('Dept')">This Department</form>
+    </div>
+  </div>
+</div>  
+</div>
+<script language="javascript">
+whichDept="";
+whichStyle="";
+</script>
+
+</noindex>
+
+<noindex><!--begin TransHead New Graphics Version April 2009-->
+<table width="775" height="63" border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td width="486"><a href="http://www.seattle.gov/transportation/"><img src="http://www.seattle.gov/transportation/images/TransHeader-deptName.gif" alt="Link to Transportation Home Page" width="486" height="28" border="0"></a></td>
+  <td width="98"><a href="http://www.seattle.gov/transportation/"><img src="http://www.seattle.gov/transportation/images/TransHeader-home.gif" alt="Link to Transportation Home Page" width="98" height="28" border="0"></a></td>
+  <td width="85"><a href="http://www.seattle.gov/transportation/about.htm"><img src="http://www.seattle.gov/transportation/images/TransHeader-about.gif" alt="Link to Transportation About Us Page" width="85" height="28" border="0"></a></td>
+  <td width="106"><a href="http://www.seattle.gov/transportation/contact.htm"><img src="http://www.seattle.gov/transportation/images/TransHeader-contact.gif" alt="Link to Transportation Contact Us Page" width="106" height="28" border="0"></a></td>
+</tr>
+<tr>
+  <td width="486"><img src="http://www.seattle.gov/transportation/images/TransHeader-tagline.gif" alt="A vibrant Seattle through transportation excellence" width="486" height="35" border="0"></td>
+  <td width="290" colspan="3"><img src="http://www.seattle.gov/transportation/images/TransHeader-director.gif" alt="Peter Hahn, Director" width="289" height="35" border="0"></td>
+</tr>
+</table>
+<div align="center">
+<table width="775" border="0" cellspacing="0" cellpadding="5" bordercolor="#666666" bgcolor="#FFFFFF" style="border: thin solid #A2A2D9;">
+<tr>
+
+<td align="center" onMouseOver="ypScrollMenu.showMenu2('menu1');" onMouseOut="ypScrollMenu.hideMenu2('menu1')"><p><a href="#" class="dropdown">Services</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu2');" onMouseOut="ypScrollMenu.hideMenu2('menu2');"><p><a href="http://www.seattle.gov/transportation/" class="dropdown">Projects</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu4');" onMouseOut="ypScrollMenu.hideMenu2('menu4');"><p><a href="#" class="dropdown">Planning</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu3');" onMouseOut="ypScrollMenu.hideMenu2('menu3');"><p><a href="#" class="dropdown">Resources</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/events/" class="dropdown">Events</a></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/sdotnews.htm" class="dropdown">News</a></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/siteindex.htm" class="dropdown">Site Index</a></p></td>
+
+</tr>
+</table>
+</div>
+<SCRIPT>
+function rePosx(tweakVal){
+tempX = ((document.body.offsetWidth/2) + tweakVal)
+tempX = tempX + 25
+return tempX
+}
+
+topPos = 167
+buffer = 22
+
+//id, dir, left, top, width, height, parentid, degrade, debug
+//350 //400 //300
+	var menus = [
+	new ypScrollMenu("menu1", "down", rePosx(-423), topPos, 235, eval(menuItems1.length*24)),
+
+	new ypScrollMenu("menu2", "down", rePosx(-300), topPos, 235, eval(menuItems2.length*22)), 
+	  new ypScrollMenu("menu2_Sub1", "right", rePosx(-72), topPos+buffer, 200, eval(menu2_SubItems1.length*40), "menu2"),
+	  new ypScrollMenu("menu2_Sub2", "right", rePosx(-72), topPos+buffer*2, 200, eval(menu2_SubItems2.length*33), "menu2"),
+
+	new ypScrollMenu("menu3", "down", rePosx(-67), topPos, 235, eval(menuItems3.length*20)), 
+	  new ypScrollMenu("menu3_Sub1", "right", rePosx(148), topPos, 200, eval(menu3_SubItems1.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub2", "right", rePosx(148), topPos+buffer, 200, eval(menu3_SubItems2.length*25), "menu3"),
+	  new ypScrollMenu("menu3_Sub3", "right", rePosx(148), topPos+buffer*2, 200, eval(menu3_SubItems3.length*40), "menu3"),
+	  new ypScrollMenu("menu3_Sub4", "right", rePosx(148), topPos+buffer*3, 200, eval(menu3_SubItems4.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub5", "right", rePosx(148), topPos+buffer*4, 230, eval(menu3_SubItems5.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub6", "right", rePosx(148), topPos+buffer*6, 230, eval(menu3_SubItems6.length*29), "menu3"),
+	  new ypScrollMenu("menu3_Sub7", "right", rePosx(148), topPos+buffer*7, 230, eval(menu3_SubItems7.length*29), "menu3"),
+	  new ypScrollMenu("menu3_Sub8", "right", rePosx(148), topPos+buffer*8, 230, eval(menu3_SubItems8.length*32), "menu3"),
+
+	 new ypScrollMenu("menu4", "down", rePosx(-212), topPos, 250, eval(menuItems4.length*25)), 
+	  new ypScrollMenu("menu4_Sub1", "right", rePosx(2), topPos, 200, eval(menu4_SubItems1.length*45), "menu4"),
+	  new ypScrollMenu("menu4_Sub2", "right", rePosx(2), topPos+buffer, 200, eval(menu4_SubItems2.length*45), "menu4")
+ 
+
+//	new ypScrollMenu("menu5", "down", rePosx(-20), topPos, 250, eval(menuItems5.length*20)),
+//	new ypScrollMenu("menu6", "down", rePosx(90), topPos, 250, eval(menuItems6.length*20)),
+//	new ypScrollMenu("menu7", "down", rePosx(170), topPos, 250, eval(menuItems7.length*20)),
+//	new ypScrollMenu("menu8", "down", rePosx(250), topPos, 250, eval(menuItems8.length*20))
+	];
+	document.write('<style type="text/css">' + ypScrollMenu.styleMod + '</style>');
+	for (var i = 0; i < menus.length; i++) {
+		menus[i].onactivate = new Function("document.getElementById('act" + i + "').className='active';");
+		menus[i].ontransportationctivate = new Function("document.getElementById('act" + i + "').className='';");
+	}
+
+function buildMenu(menuName,menuItems,tableWid,subMenu){
+O_tr = "<tr>"
+C_tr = "</tr>"
+C_table = "</table>"
+C_div ="</div>"
+// STYLE="width:'+tableWid+'px;"
+document.write('<div style="visibility:hidden;" id="'+menuName+'Container">')
+document.write('<div style="visibility:inherit;width:'+tableWid+'px;"  id="'+menuName+'Content" class="menu2">')
+document.write('<table width="+tableWid+" cellspacing="0" cellpadding="0" bgColor="#262626" border="0">')
+document.write('<tr><td width="+tableWid+">')
+i = 1
+do{
+//  document.write(O_tr)
+//  document.write('<td width="1" class="bgmenugreen"><img src="images/spacer.gif" width="1" height="1" alt="" /></td>')
+if(menuItems[i][2] == null){
+  document.write('<div class="menu0" style="visibility:inherit;"><a href="'+ menuItems[i][1] +'">'+menuItems[i][0]+'</a></div>')
+//FROM ABOVE
+} else {
+  //alert(menuItems[i][2])
+  document.write('<div class="menu0" style="visibility:inherit;" onMouseOver="ypScrollMenu.showMenu2(\''+menuItems[i][2]+'\');" onMouseOut="ypScrollMenu.hideMenu2(\''+menuItems[i][2]+'\');" id="'+menuItems[i][2]+'Actuator"><a href="'+menuItems[i][1]+'">'+menuItems[i][0]+'</a></div>')
+//FROM ABOVE
+}
+  i++
+  }
+while (i < menuItems.length)
+document.write('</tr></td></table>')
+
+document.write(C_div)
+document.write(C_div)
+}
+
+//menuName,menuItems,tableWid,subMenu
+
+
+buildMenu('menu1',menuItems1,'235')
+buildMenu('menu2',menuItems2,'235')
+  buildMenu('menu2_Sub1',menu2_SubItems1,'200')
+  buildMenu('menu2_Sub2',menu2_SubItems2,'200')
+buildMenu('menu3',menuItems3,'235')
+  buildMenu('menu3_Sub1',menu3_SubItems1,'200')
+  buildMenu('menu3_Sub2',menu3_SubItems2,'200')
+  buildMenu('menu3_Sub3',menu3_SubItems3,'200')
+  buildMenu('menu3_Sub4',menu3_SubItems4,'200')
+  buildMenu('menu3_Sub5',menu3_SubItems5,'210')
+  buildMenu('menu3_Sub6',menu3_SubItems6,'200')
+  buildMenu('menu3_Sub7',menu3_SubItems7,'240')
+  buildMenu('menu3_Sub8',menu3_SubItems8,'200')
+
+buildMenu('menu4',menuItems4,'250')
+  buildMenu('menu4_Sub1',menu4_SubItems1,'200')
+  buildMenu('menu4_Sub2',menu4_SubItems2,'200')
+</script>
+
+<!--end TransHead--></noindex>
+<SCRIPT language="JavaScript">
+whichDept = "transportation"
+whichStyle = "transportation_frontend"
+</SCRIPT>
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center" bgcolor="#ffffff">
+<TR>
+  <td width="185" height="100%" valign="top" bgcolor="#99cc67">
+    <img src="images/sdottopnavleft.gif" alt="" width="185" height="45" border="0"><br clear=all>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr id="stmain" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="streetmaintenance.htm">Street Maintenance Program</a></td>
+  </tr>
+  <tr id="pave" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="paving.htm">Current Paving Projects</a></td>
+  </tr>
+     <tr id="pavepast" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="pavingpast.htm">Recent Paving Projects</a></td>
+  </tr>
+    <tr id="painting" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="bridgepainting.htm">Bridge Painting Projects</a></td>
+  </tr>
+      <tr id="rehab" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="bridge_rehab.htm">Bridge Rehabilitation, Replacement and Seismic Retrofit</a></td>
+  </tr>
+       <tr id="airportrehab" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO_SUB"><a href="bridgerehab_airportargo.htm">Airport Way South Viaduct Over Argo Railroad Yard Rehabilitation Project</a></td>
+  </tr>
+      <tr id="Joserehab" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO_SUB"><a href="bridge_rehab_joserizal.htm">Jose Rizal Bridge Rehabilitation Project</a></td>
+  </tr>
+    <tr id="45rehab" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO_SUB"><a href="45th-bridge.htm">NE 45th Street Viaduct Project - West Approach Replacement </a></td>
+  </tr>
+  <tr id="rehab1" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO_SUB"><a href="bridge_rehab_duwamish.htm">E Duwamish Waterway Bridge Rehabilitation Project</a></td>
+  </tr>
+  <tr id="rehab2" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO_SUB"><a href="bridge_rehab_15th.htm">15th Avenue NE at 105th Street Bridge Rehabilitation Project</a></td>
+  </tr>
+  
+  <tr id="chip" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="chipseal.htm">Chip Sealing</a></td>
+  </tr>
+  <tr id="prangers" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="potholes/">Pothole Rangers</a></td>
+  </tr>
+    <tr id="rubber" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="rubbersidewalks.htm">Rubber Sidewalks</a></td>
+  </tr>
+  <tr id="stform" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="potholereport.htm">Street Maintenance Request Form</a></td>
+  </tr> 
+
+  </table>
+  
+    <table width="185" cellspacing="0" cellpadding="0" bgcolor="#5B5BB1">
+  <tr><td height="100%"><div align="center"><br><img src="images/greenfade.jpg" alt="" width="185" height="108" border="0"></div></td></tr></table>
+  </td>
+  <TD width="590" style="padding:10" valign="top">
+<!--START CONTENT HERE   -->
+	
+	<p class="title">Airport Way South Viaduct Over Argo Railroad Yard Rehabilitation Project</p>
+
+    <table width="95%" border="0" align="center" cellpadding="4" bgcolor="#EEEEEE" style="border: thin dashed #5b5bb1;">
+      <tr>
+        <td><!--<strong>Project Update/Construction  Update</strong>          <p>  SDOT recently completed 60% design for the project. Work will include replacement of the north and south approaches of the viaduct and seismic retrofitting and structure rehabilitation work on the mainspan of the viaduct. Construction will require a full closure of the viaduct for a period of approximately 12 - 14 months. </p>          <p> SDOT held an Open House on Wednesday, July 28 to project update and share next steps for design and plans for construction. If you were unable to attend the open house, you can view the meeting materials here: </p>          <ul>
+              <li><a href="docs/072710_AirportWayS_OH_Boards_webversion.pdf">Boards</a></li>
+              <li><a href="docs/2010_0728_CommentForm.pdf">Comment Form</a> </li>
+          </ul> -->         <p><strong> Project Update/Construction Update </strong></p>
+                <p>Beginning in early 2011, the Seattle Department of Transportation (SDOT) will complete seismic retrofitting and mainspan rehabilitation work on the Airport Way South Viaduct. Construction will require a full closure of the viaduct for approximately 12 - 14 months. All vehicles, bicyclists, and pedestrians will be detoured to 4th Avenue South. Completing this project is necessary to maintain a safe and reliable transportation corridor. </p>
+                <p>SDOT is holding two drop-in sessions for businesses and residents near the Airport Way South Viaduct. Join us to view the latest design plans, learn about construction planning, and ask specific questions. </p>
+                <p> <strong>Wednesday, November 10, 10:00 a.m. - 12:00 p.m. <br>
+                  </strong>Two Tartes Caf&eacute; and Catering <br>
+        5629 Airport Way South </p>
+                <p> <strong>Saturday, November 13, 2:00 p.m. - 4:00 p.m. <br>
+                  </strong>Calamity Jane&rsquo;s <br>
+        5701 Airport Way South </p>
+                <p> View the November <a href="docs/2010_1109_AWV_DropInSession_handouts_web.pdf">drop-in session materials.</a></p>
+                <p> Have a <a href="docs/2010_1108_AWSV_drop_in_session_CommentCards_v.pdf">question or comment</a>? Please provide your feedback!</p>
+      </td></tr></table>
+    <p><strong>Project Description</strong></p>
+    <p> The existing structure is located north of the intersection of Airport Way South and South Lucile Street. The bridge carries Airport Way South over the Argo Railroad Yard. Airport Way South is classified as a Principal Arterial and is one of many heavily traveled routes for freight traffic in the area.</p>
+  <p>Although extensively rehabilitated, the bridge has experienced significant distress because of larger loads and higher volumes. Over the years, the diaphragms over the concrete crossbeams have deteriorated and experienced large amounts of spalling. Shear cracks have developed near the ends of the pre stressed concrete girders. In some instances, the crack development near the point of bearing was so significant that a &ldquo;sister&rdquo; bent was constructed to provide an alternate bearing location for the span.</p>
+  <p align="center"><img src="images/bridge_rehab_airport_projec.jpg" width="565" height="615"></p>
+  <p><strong> Improvements include: </strong></p>
+  <ul>
+    <li>Replace the existing timber bridge approaches with structural earth walls.</li>
+       <li>Provide new detention and water quality improvements.            </li>
+       <li>The mainspan will be rehabilitated and seismically retrofitted. </li>
+       <li> Airport Way S from S Lucille Street to S Hardy Street, will be paved as part of the Airport Over Argo Bridge Rehabilitation project.&nbsp; For information about other upcoming street paving work in the Georgetown neighborhood <a href="http://www.seattle.gov/transportation/pave_georgetown_streets.htm">click here</a>. </li>
+       </ul>
+  <p><strong> Project Benefits: </strong></p>
+  <p><strong><em> Improves safety<br>
+  </em></strong> Creates a stronger, more durable bridge to serve today&rsquo;s traffic conditions.<strong></strong></p>
+  <p><strong><em> Keeps freight moving<br>
+  </em></strong> A stronger bridge improves the load-carrying capacity of this vital freight link. A more durable concrete deck and approaches will significantly reduce the frequency of major repairs and associated traffic disruptions. </p>
+  <p><strong><em> Protects an important asset<br>
+  </em></strong> Extends the bridge&rsquo;s useful life by decades. </p>
+  <p><strong><em> Reduces the City&rsquo;s maintenance backlog<br>
+  </em></strong> Contributes to the improvement of Seattle&rsquo;s transportation system, and reduces maintenance requirements </p>
+  <p><strong> Project Schedule: </strong></p>
+  <p align="center"><img src="/transportation/images/AirportWay_ProjectSchedule.jpg" width="565" height="151" alt="Project Schedule"></p>
+  <p> <strong>Construction Planning</strong> <br>
+    <br>
+    Construction will require a full closure of the  viaduct for a period of approximately 12 - 14 months. The primary  detour route will be along 4th Avenue S. See map below for more  information.   Regional  detour routes would also be established  to direct  traffic to East Marginal Way, with connections to 4th Avenue S, 1st Avenue S,  and the Alaskan Way Viaduct. These detour routes would be identified using a  program of local and regional signing, reinforced by a public information  program in advance of closures. The traffic modeling effort also indicated detour  traffic would use I-5, 15th Avenue S, and Beacon Avenue S east of the project  site.</p>
+  <p align="center"><img src="images/AirportWy_map_073010.jpg" width="525" height="303" alt="Detour Route"><br>
+    <img src="/transportation/images/Legend.jpg" width="206" height="107" alt="Legend">  </p>
+  <p><strong> Environmental Considerations </strong></p>
+  <p> Following a thorough environmental review, SDOT determined that the Airport Way South Viaduct Over Argo Railroad Yard Rehabilitation Project is not likely to result in significant adverse impacts to the environment. As a result, SDOT issued a <a href="docs/AWSV_DNS.pdf">Determination of Nonsignificance (DNS)</a>  on October 25, 2010. This decision was made after review of the project's potential impacts on several elements of the environment, summarized in the <a href="docs/AWSV_SEPAchecklist.pdf">SEPA environmental checklist</a>. </p>
+  <p><strong>Project Funding </strong></p>
+  <p>This project is funded by <a href="http://www.seattle.gov/transportation/BridgingtheGap.htm"><strong>Bridging the Gap</strong></a>, a voter-approved $365 million dollar levy for transportation maintenance and improvements.</p>
+  <p>Over the next nine years, <a href="http://www.seattle.gov/transportation/BridgingtheGap.htm"><strong>Bridging the Gap</strong></a> will address the City&rsquo;s mounting transportation problems and create a strong foundation for Seattle&rsquo;s transportation future by reducing the infrastructure backlog and investing in major transportation projects. </p>
+  <p><strong>Want to Learn More? </strong></p>
+  <p>The design team will balance the impacts of construction while achieving the project&rsquo;s goal of providing a safe and functional bridge. SDOT will work closely with the community to share project information, answer questions, and address concerns.</p>
+  <p>SDOT recently hosted an open house about the project. If you were unable to attend the open house, you can view the meeting materials here:</p>
+  <ul>
+    <li><a href="docs/072710_AirportWayS_OH_Boards_webversion.pdf">Boards</a></li>
+    <li><a href="docs/2010_0728_CommentForm.pdf">Comment Form</a> </li>
+    </ul>
+<p>For the latest news and  information, contact:</p>
+<p>Ken Lee<br>
+  Project Manager<br>
+  (206) 684-3514</p>
+  <p>Maribel Cruz<br>
+  Project Communications <br>
+  (206) 684-7963<br>
+  <a href="mailto:maribel.cruz@seattle.gov"><strong>maribel.cruz@seattle.gov</strong></a></p>
+  <p></p>
+  <p>&nbsp; </p>
+  <p>&nbsp; </p>
+  <p><br>
+  </p>
+  <!--END CONTENT HERE   -->
+</td>
+  </tr>
+</table>
+<!--end BODY TABLE-->
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+<TR>
+  <TD valign="top"><table width="775" border="0" cellspacing="0" cellpadding="5" align="center" bgcolor="#5b5bb1">
+<tr>
+  <td align="center" class="smallfooter"><a href="/transportation/">Home</a> | <a href="/transportation/about.htm">About Us</a> | <a href="/transportation/contact.htm">Contact Us</a> | <a href="http://www.seattle.gov/transportation/siteindex.htm">Site Index</a> | <a href="http://www.seattle.gov/transportation/sdotevents.htm">Events</a> | <a href="http://www.seattle.gov/transportation/sdotnews.htm">News</a> | <a href="http://www.seattle.gov/transportation/sdotfaqs.htm">FAQs</a> | <a href="http://www.seattle.gov/transportation/emailalerts.htm">E-Mail Alerts</a></td>
+</tr>
+</table></TD>
+</TR>
+</TABLE>
+<!--CITYWIDE footer-->
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+<TR>
+  <TD><noindex>
+<noindex>
+<style>
+#footerContainer {
+  width:773px;
+	*width:775px;
+  margin:0px auto;
+  border:1px solid #c8c8c8;
+  background: #e1e1e1; 
+}
+#footerContainer ul{
+	list-style: none;
+	margin: 0; padding: 0;
+	float: left;
+  height:145px
+}
+#footerContainer ul li {
+  line-height: 1.25;
+  list-style: none;
+	padding:0px;
+	margin:0px;
+	padding-left:10px;
+	width: 100%;
+	color: #000;
+}
+#footerContainer ul li h2 {
+	padding: 0px;  
+	margin: 0px;
+	margin-bottom:5px;
+	margin-top:5px;
+	font-weight: bold;
+  font-family: arial, helvetica;
+  text-transform:none;
+	font-size: 16px;
+  color:#575757;
+  background-color:transparent;
+}
+#footerContainer ul li a {
+	float: none; 
+	text-indent: 0; /*--Reset text indent--*/
+  font-family: arial, helvetica;
+  font-size:12px;
+	height: auto;
+  padding: 2px 5px 0px 15px;
+	display: block;
+	text-decoration: none;
+	color: #6d6d6d;
+	font-weight: bold;
+}
+#footerContainer ul li a:hover {color: #007dc3; font-decoration:underline}
+</style>
+<div align="center">
+  <div id="footerContainer" style="display:table;text-align:left">
+		<ul style="width:190px;">
+				<li><h2>Navigate to:</h2></li>
+				<li><a href="/">Seattle.gov Home Page</a></li>
+				<li><a href="/business/">Business In Seattle</a></li>
+				<li><a href="/living/">Living in Seattle</a></li>
+				<li><a href="/visiting/">Visiting Seattle</a></li>
+				<li><a href="/services/">City Services</a></li>
+		</ul>
+		<ul style="width:190px;border-right:1px solid #666">
+				<li><h2>&nbsp;</h2></li>
+				<li><a href="/mayor/">Mayor's Office</a></li>
+				<li><a href="/council/">City Council</a></li>
+				<li><a href="/departments/">City Departments</a></li>
+				<li> &nbsp;</li>
+				<li> &nbsp;</li>
+		</ul>
+		<ul style="width:190px;border-right:1px solid #666">
+				<li><h2>We're Here to Help...</h2></li>
+				<li><a href="/customerservice/request.htm">Questions / Complaints</a></li>
+				<li><a href="/html/citizen/faqs.htm">FAQs</a></li>
+				<li><a href="/directory/">Employee Directory</a></li>
+  			<li><a href="/customerservice/"><b style="color:#000">City Customer Service<br/> Call (206) 684-CITY</b></a></li>
+		</ul>
+		<ul style="width:190px;">
+				<li style=""><h2>Follow Us</h2></li>
+				<li><a href="/citylink">CityLink Blogs</a></li>
+				<li><a href="/html/citizen/socialmedia.htm">Social Media Sites</a></li>
+<!--		<li><a href="">ShareThis</a></li>-->
+		</ul>
+  </div>
+	<div id="footer2" style="margin:0px auto;background-color:#666;color:#eee;width:775px;height:30px;padding:0px;">
+	<ul style="list-style:none;display:inline;width:100%;margin:0px;">
+		<li style="list-style:none;margin:0;padding:0;padding-top:6px;padding-left:10px;float:left;font-family: arial, helvetica;font-size:12px;color:#e1e1e1;">&copy; Copyright 1995-2010 City of Seattle</li>
+		<li style="list-style:none;margin:0;padding:0;padding-top:6px;padding-right:10px;float:right;font-family: arial, helvetica;font-size:12px;"><a style="color:#e1e1e1;text-decoration:none" href="/pan/privacypol.htm">Privacy and Security Policy</a></li>
+	</ul>	
+	</div>
+</div>
+<br/>
+</noindex>
+</noindex></TD>
+</TR>
+</TABLE>
+</div>
+</BODY>
+</HTML>
