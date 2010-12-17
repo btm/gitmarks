@@ -1,0 +1,378 @@
+
+<html>
+<head>
+<title>GM Parts Direct: Your direct source for Genuine GM Parts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+<script language="JavaScript" src="common.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#E0DEDE" background="images/main_bkgd.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/perf2.gif','images/restoration2.gif','images/access2.gif','images/merch2.gif','images/specials2.gif','images/veh_care2.gif')">
+<script language="JavaScript"
+src="https://seal.networksolutions.com/siteseal/javascript/siteseal.js"
+type="text/javascript"></script>
+
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<a name="top"></a><form name="searchform" method="post" action="http://www.gmpartsdirect.com/results.cfm" >
+<!-- temporarily set to single part -->
+<input type="hidden" name="singlepart" value="1">
+  <table width="760" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+	  <td><table width="760" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+		    <td width="363" background="http://www.gmpartsdirect.com/images/white.gif"><a href="http://www.gmpartsdirect.com/" ><img src="http://www.gmpartsdirect.com/images/logo.gif" width="510" height="65" border="0" alt="GMPartsDirect.com" /></a></td>
+			<td width="397" align="right" valign="middle"><table border="0" cellpadding="0" cellspacing="0" background="http://www.gmpartsdirect.com/images/trans.gif">
+			    <tr align="center" valign="top" background="http://www.gmpartsdirect.com/images/trans.gif">
+			      <td width="15" class="reg">&nbsp;</td>
+			      <td valign="bottom" class="reg">&nbsp;</td>
+				  <td width="15" class="reg">&nbsp;</td>
+				  <td class="reg"><a href="http://www.gmpartsdirect.com/cart.cfm?CFID=8804978&CFTOKEN=71618429" ><img src="http://www.gmpartsdirect.com/images/cart.gif" width="24" height="18" border="0"/></a></td>
+				  <td width="5" class="reg">&nbsp;</td>
+				  <td class="reg"><a href="https://secure.gmpartsdirect.com/secure/login.cfm?action=wishlist" ><img src="http://www.gmpartsdirect.com/images/wishlist.gif" width="24" height="18" border="0"/></a></td>
+				  <td width="15" class="reg">&nbsp;</td>
+				  <td class="reg"><a href="https://secure.gmpartsdirect.com/secure/login.cfm?action=orderstatus" ><img src="http://www.gmpartsdirect.com/images/order_status.gif" width="24" height="18" border="0"/></a></td>
+				  <td width="15" class="reg">&nbsp;</td>
+				  <td class="reg"><a href="https://secure.gmpartsdirect.com/secure/login.cfm?action=editcust_" ><img src="http://www.gmpartsdirect.com/images/your_acct.gif" width="24" height="18" border="0"/></a></td>
+				  <td width="10" class="reg">&nbsp;</td>
+				</tr>
+			    <tr align="center" background="http://www.gmpartsdirect.com/images/trans.gif">
+			      <td width="15" valign="bottom">&nbsp;</td>
+			      <td valign="bottom" class="reg"></td>
+				  <td width="15" valign="bottom">&nbsp;</td>
+				  <td valign="bottom" class="reg">0 items in cart<br>
+				  <a href="https://secure.gmpartsdirect.com/secure/checkout.cfm?CFID=8804978&CFTOKEN=71618429" >check	out</a></td>
+				  <td width="5" valign="bottom">&nbsp;</td>
+				  <td valign="bottom"><a href="https://secure.gmpartsdirect.com/secure/login.cfm?action=wishlist"  class="reg">your<br>
+					wish list</a></td>
+				  <td width="15" valign="bottom">&nbsp;</td>
+				  <td valign="bottom"><a href="https://secure.gmpartsdirect.com/secure/login.cfm?action=orderstatus" " class="reg">order<br>
+					status</a></td>
+				  <td width="15" valign="bottom">&nbsp;</td>
+				  <td valign="bottom"><a href="https://secure.gmpartsdirect.com/secure/login.cfm?action=editcust_" " class="reg">your<br>
+					account</a></td>
+				  <td width="10" valign="bottom">&nbsp;</td>
+				</tr>
+			</table></td>
+		  </tr>
+	  </table></td>
+	</tr>
+    <tr>
+	  <td height="21" align="right" background="http://www.gmpartsdirect.com/images/nav_bkgd.gif"><table border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td height="21" valign="bottom" class="medred">SEARCH&nbsp;</td>
+			<td height="21" valign="bottom"><input name="partnumber" type="text" value="Enter Part #" size="20" onClick="clearBox(this);" maxlength="25"/></td>
+			<td width="1" height="21">&nbsp;</td>
+			<td height="21"><input type="image" src="http://www.gmpartsdirect.com/images/go.gif" width="30" height="21"/><a href="http://www.gmpartsdirect.com/results.cfm?specials=1"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('specials','','http://www.gmpartsdirect.com/images/upgrades2.gif',1)"><img src="http://www.gmpartsdirect.com/images/upgrades1.gif" alt="specials" name="specials" width="89" height="21" border="0" id="specials"/></a><a href="http://www.gmpartsdirect.com/perfPackages.cfm"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('perfparts','','http://www.gmpartsdirect.com/images/perf2.gif',1)"><img src="http://www.gmpartsdirect.com/images/perf1.gif" alt="performance" name="perfparts" width="89" height="21" border="0" id="perfparts"/></a><a href="http://www.gmpartsdirect.com/restoration_parts/"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('restparts','','http://www.gmpartsdirect.com/images/restoration2.gif',1)"><img src="http://www.gmpartsdirect.com/images/restoration1.gif" alt="restoration" name="restparts" width="89" height="21" border="0" id="restparts"/></a><a href="http://www.gmpartsdirect.com/accessories/"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('accessories','','http://www.gmpartsdirect.com/images/access2.gif',1)"><img src="http://www.gmpartsdirect.com/images/access1.gif" alt="accessories" name="accessories" width="89" height="21" border="0" id="accessories"/></a><a href="http://www.gmpartsdirect.com/partsvoice"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('merchandise','','http://www.gmpartsdirect.com/images/cat2.gif',1)"><img src="http://www.gmpartsdirect.com/images/cat1.gif" alt="merchandise" name="merchandise" width="89" height="21" border="0" id="merchandise"/></a><a href="http://www.gmpartsdirect.com/wheelPackages.cfm"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('wheels','','http://www.gmpartsdirect.com/images/wheels2.gif',1)"><img src="http://www.gmpartsdirect.com/images/wheels1.gif" alt="Wheels" name="wheels" width="87" height="21" border="0" id="wheels"/></a></td>
+		  </tr>
+		</table>
+	  </td>
+	</tr>
+    <tr>
+	  <td height="20" align="center" background="http://www.gmpartsdirect.com/images/dk_blue.gif" class="subnav"><a href="http://www.gmpartsdirect.com/multiSearch.cfm"  class="subnav">Advanced
+	      Search</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://secure.gmpartsdirect.com/secure/customer_service/faq.cfm"  class="subnav">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.gmpartsdirect.com/cart.cfm?CFID=8804978&CFTOKEN=71618429"  class="subnav"></a><a href="http://www.gmpartsdirect.com/cart.cfm?CFID=8804978&CFTOKEN=71618429"  class="subnav">View
+	       Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://secure.gmpartsdirect.com/secure/register.cfm"  class="subnav">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.gmpartsdirect.com/login.cfm?action=return"  class="subnav">Request
+	      a Return</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://secure.gmpartsdirect.com/secure/customer_service/"  class="subnav"></a><a href="https://secure.gmpartsdirect.com/secure/customer_service/"  class="subnav">Customer
+	      Service</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.gmpartsdirect.com/gm_warranty/" class="subnav">GM
+	      Warranty</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:customerservice@gmpartsdirect.com" class="subnav" onClick="sendEmail();">E-Mail
+	      Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.gmpartsdirect.com/tellFriend.cfm" class="subnav" >Tell
+	      a Friend</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.gmpartsdirect.com/"  class="subnav">Home</a></td>
+	</tr>
+  </table>
+</form>
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<td width="177" valign="top">
+
+
+	  <table width="177" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		  <td background="images/left_sb_top.gif"><table width="167" border="0" cellspacing="0" cellpadding="2">
+			  <tr>
+				<td class="sidebar_head">&nbsp;PART # 14160</td>
+			  </tr>
+			</table></td>
+		</tr>
+	  </table>
+	  <table width="177" border="0" cellspacing="0" cellpadding="0">
+		
+		<tr>
+		  <td align="center" background="images/l_sb_bkgd_grey.gif"><table width="170" border="0" cellpadding="5" cellspacing="0" background="images/lt_grey.gif">
+			  <tr>
+				<td align="center"><a href="results.cfm?singlepart=1&partnumber=14160"><img src="/part_images/14161.jpg" width="165" border="0"></a></td>
+			  </tr>
+			</table></td>
+		</tr>
+		<tr>
+		  <td width="177" align="center" background="images/left_sb_bkgd_white.gif"><table width="170" border="0" cellpadding="5" cellspacing="0" background="images/white.gif">
+			  <tr>
+				<td class="reg">Corvette C6 + 2005-06<br> <P>2005 - 2006 Corvette C6 Sport Edition - Dual 4 inch Pro Series Tips</td>
+			  </tr>
+			</table>
+			<span class="reg"><br>
+<a href="results.cfm?addtocart=1&addpartnumber=14160&singlepart=1&partnumber=14160"><img src="images/add_to_cart.gif" width="17" height="13" border="0"/>Buy Now</a>&nbsp;&nbsp;<a href="https://secure.gmpartsdirect.com/secure/wishlist.cfm?makeWish=1&partnumber=14160"><img src="images/add_wishlist.gif" width="17" height="13" border="0">Add to Wish List</a></span></td>
+		</tr>
+		<tr>
+		  <td background="images/left_sb_bkgd_white.gif"><img src="images/l_sb_bottom.gif" width="177" height="5"></td>
+		</tr>
+	  </table>
+	  <br>
+    </td>
+	<td width="375" align="center" valign="top" background="images/mid_bkgd.gif"><table width="328" border="0" cellpadding="0" cellspacing="0" background="images/trans.gif">
+	  <tr>
+	    <td height="75">&nbsp;</td>
+	    </tr>
+	  <tr>
+	    <td height="199" valign="top"><p class="medregselect">
+<img src="http://www.gmpartsdirect.com/part_images/Merry%20Christmas1.jpg"/>
+
+<P><B><font size=2><font color=006600>Just in time for Christmas, we have added a list of our most popular accessory items. These items are in stock and ready for prompt shipment and would make great Christmas gifts.</font color=006600><P> <a href="http://www.gmpartsdirect.com/results.cfm?singlepart=1&partnumber=christmas"title=""><font size=3>GmPartsDirect.com In-stock Accessory Christmas Idea Section</a></font size=3>
+
+<HR>
+
+<P><B><font size=2>We now sell tires and at competitive prices. Please click the below link for our tire section.<P> <a href="http://www.gmpartsdirect.com/results.cfm?singlepart=1&partnumber=tire"title=""><font size=3>GmPartsDirect.com Tire Section</a></font size=2>
+
+<hr>
+
+<P><B><font size=2>Click on the following link for our <font color=red>UPDATED</font color=red> GM crate engine section. New lower prices and free shipping on our GM Performance Crate engines.<P></B></font size=2> <a href="http://www.gmpartsdirect.com/results.cfm?singlepart=1&partnumber=engine"title=""><font size=3>GM Performance Parts crate engines</a><P></font size=3><HR>
+
+<P><B>Check out our New Monthly Specials and Liquidation items.    Liquidation sale items are discounted up to <font color=red>90%</font color=red> off.<P></B> <a href="http://www.gmpartsdirect.com/results.cfm?singlepart=1&partnumber=specials"title=""><font size=3>Monthly Specials/Liquidation</a><P></font size=3><HR>
+
+<P><B>Click on the following link for our new aftermarket section,  including Corsa Exhaust, K&N Filters, Be Cool Radiators, Kooks, MBRP Exhaust, Coast to Coast.<P></B> <a href="http://www.gmpartsdirect.com/results.cfm?singlepart=1&partnumber=aftermarketparts"title=""><font size=3>New Aftermarket Section
+</font size=3></a><P><HR>
+<br><br><B><font color="#990000"><font size=2>Please keep in mind that the Driver Side is the Left Hand Side and the Passenger Side is the Right Hand Side.</B></font size=2></font color="#990000"> 		
+		</span> </p></td>
+	    </tr>
+    </table>
+      <!--<p class="reg"><a href="register.cfm"><img src="images/track_logo-SUPERSPEEDWAY.gif" width="279" height="98" border="0"></a><br>
+        <a href="register.cfm">REGISTER NOW to win tickets to the Coca-Cola 600!</a></p>-->
+      <p><a href="partsvoice/"><img src="images/altcat_button.gif" width="343" height="19" border="0"></a></p>
+      <p>&nbsp;</p></td>
+	<td width="208" valign="top"><table width="208" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		  <td width="70" rowspan="2" align="center" valign="top" background="secure/images/r_sb_white_bkgd.gif"><table width="70" border="0" cellspacing="0" cellpadding="0">
+		    <tr>
+              <td height="35" rowspan="2" align="center" valign="top" background="secure/images/r_sb_yellow_bkgd.gif"><img src="images/r_sb_yellow_top.gif" width="70" height="2"><br>                <strong><a href="/partsvoice">Parts Catalog</a>                </strong></td>
+		      </tr>
+		    <tr> </tr>
+		    <tr>
+		      <td background="secure/images/r_sb_white_bkgd.gif"><a href="/partsvoice"><img src="images/brands.jpg" width="70" height="270" border="0"></a>
+</td>
+		      </tr>
+	      </table>		    
+		  </td>
+		  <td width="138" height="20" background="images/right_sb_top.gif" class="sidebar_head">&nbsp;Featured
+	    Parts</td>
+	    </tr>
+		<tr>
+		  <td width="138" valign="top" background="secure/images/r_sb_grey_bkgd.gif" class="sidebar_head"><table width="138" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td width="138" background="images/r_sb_yellow_bkgd.gif"><table width="138" border="0" cellpadding="4" cellspacing="0" background="images/trans.gif">
+					<tr>
+					  <td background="images/r_sb_grey_bkgd.gif"><!--<span class="right_sidebar_head_yellow">CHEVY TRUCKS</span>--></td>
+					</tr>
+				  </table></td>
+			  </tr>
+			  <tr>
+				<td width="138" background="images/r_sb_grey_bkgd.gif"><table width="138" border="0" cellpadding="4" cellspacing="0" background="secure/images/trans.gif">
+					<tr>
+					
+					  <td class="reg">
+			  
+	  <strong><a href="results.cfm?singlepart=1&partnumber=19153614">19153614</a></strong><br>
+						99-07 1500, 2500, 3500 Classic Fullsize truck upper steering column intermediate shaft<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=19166676">19166676</a></strong><br>
+						Silverado Wheel Liner Pkg Rear Set<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=19166677">19166677</a></strong><br>
+						Sierra Wheel Liner Pkg Rear Set <br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=PK93441235">PK93441235</a></strong><br>
+						SCPI to MFI upgrade kit for 5.0L or 5.7L V8 <br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=EOS">EOS</a></strong><br>
+						Engine Oil Supplement<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=19166288">19166288</a></strong><br>
+						Console Organizer<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=engine">engine</a></strong><br>
+						GM crate engines<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=pk15218254">pk15218254</a></strong><br>
+						Colorado and Canyon Resistor And Harness<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=92208704">92208704</a></strong><br>
+						Camaro Heritage Grille<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=19168767">19168767</a></strong><br>
+						Transfer Case Selector Switch<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=14169">14169</a></strong><br>
+						Corvette C6 2005-08<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=15938040">15938040</a></strong><br>
+						Rendezvous window regulator clip<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=995000">995000</a></strong><br>
+						K&N Recharger Filter Service Kit<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=15938039">15938039</a></strong><br>
+						Rendezvous window regulator clip <br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=14951">14951</a></strong><br>
+						2010 Camaro Corsa cat-back exhaust (LS3 V8)<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=pk12568332">pk12568332</a></strong><br>
+						SCPI to MFI upgrade kit for 4.3 V6  <br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=14952">14952</a></strong><br>
+						2010 Camaro Corsa cat-back exhaust (L99 V8)<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=19244710">19244710</a></strong><br>
+						2010 GM PERFORMANCE PARTS CATALOG<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=14103">14103</a></strong><br>
+						Corvette C5 (includes Z06) 1997-04<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=14111">14111</a></strong><br>
+						Corvette C5 (includes Z06) 1997-04<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=pk12456148">pk12456148</a></strong><br>
+						Grand Prix, Monte Carlo and Impala Handling Upgrade Kit<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=S7022409">S7022409</a></strong><br>
+						2010 Camaro MBRP exhaust system<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=S7018409">S7018409</a></strong><br>
+						2010 Camaro MBRP exhaust system<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=92243969">92243969</a></strong><br>
+						Camaro Ground Effects<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=3916030">3916030</a></strong><br>
+						Camaro Hurst shifter<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=633074">633074</a></strong><br>
+						K&N AirCharger Intake Kit<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=694519TP">694519TP</a></strong><br>
+						2010-2011 Camaro 6.2L V8 K&N Chrome Cold Air Intake<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=14173">14173</a></strong><br>
+						Corvette C6 Corsa exhaust<br>
+						<br>				
+				
+	  <strong><a href="results.cfm?singlepart=1&partnumber=19159438">19159438</a></strong><br>
+						DIC Switch Package<br>
+						<br>				
+				
+</td>
+					</tr>
+				  </table></td>
+			  </tr>
+			</table>		    <!--<span class="reg"><strong>&lt; <a href="#">more</a> &gt;</strong></span>-->
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2"><img src="images/r_sb_bottom.gif" width="208" height="5"></td>
+		</tr>
+	  </table>
+	  <br>
+    </td>
+  </tr>
+</table>
+<!--
+none
+-->
+<div id="Layer1" style="position:absolute; width:200px; height:46px; z-index:1; left: 192px; top: 144px;">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="343" height="37">
+    <param name="movie" value="images/404000_parts.swf">
+	 
+	<param name="quality" value="high">
+    <embed src="images/404000_parts.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="343" height="37"></embed></object></div>
+
+<table width="760" border="0" cellspacing="0" cellpadding="8">
+  <tr>
+	<td align="center" background="http://www.gmpartsdirect.com/images/dk_blue.gif" class="subnav"><a href="http://www.gmpartsdirect.com/performance_parts/frameset.cfm"  class="subnav">Performance Parts</a>  |  <a href="http://www.gmpartsdirect.com/restoration_parts/"  class="subnav">Restoration Parts</a>  |  <a href="http://www.gmpartsdirect.com/accessories/"  class="subnav">GM Accessories</a>  |  <a href="http://www.gmpartsdirect.com/results.cfm?merch=1"  class="subnav">GM Merchandise</a>  |  <a href="http://www.gmpartsdirect.com/results.cfm?specials=1"  class="subnav">Specials</a>  |  <a href="http://www.gmpartsdirect.com/vehicle_care/"  class="subnav">Vehicle Care</a>  |  <a href="http://www.gmpartsdirect.com/wheelPackages.cfm"  class="subnav">Wheels</a> | <a href="http://www.gmpartsdirect.com/gmpartsLinks.cfm"  class="subnav">Links</a> <br>
+	  <a href="http://www.gmpartsdirect.com/multiSearch.cfm"  class="subnav">Advanced
+	  Search</a>  |  <a href="https://secure.gmpartsdirect.com/secure/customer_service/faq.cfm"  class="subnav">FAQ</a> | <a href="http://www.gmpartsdirect.com/cart.cfm?CFID=8804978&CFTOKEN=71618429"  class="subnav"></a><a href="http://www.gmpartsdirect.com/cart.cfm?CFID=8804978&CFTOKEN=71618429"  class="subnav">View
+	  Cart</a>  |  <a href="http://www.gmpartsdirect.com/login.cfm?action=return"  class="subnav">Request
+	  a Return</a>  |  <a href="https://secure.gmpartsdirect.com/secure/customer_service/"  class="subnav">Customer
+	  Service</a>  |  <a href="http://www.gmpartsdirect.com/gm_warranty/"  class="subnav">GM
+	  Warranty</a>  |  <a href="mailto:customerservice@gmpartsdirect.com" class="subnav" onClick="sendEmail();">E-Mail
+	  Us</a>  | <a href="http://www.gmpartsdirect.com/tellFriend.cfm" class="subnav" >Tell
+	  a Friend</a> | <a href="http://www.gmpartsdirect.com/content/sitemap.html" class="subnav">Site Map</a> | <a href="http://www.gmpartsdirect.com/"  class="subnav">Home</a></td>
+  </tr>
+  <tr>
+	<td align="center" class="reg">&copy;1999 - 2010 Flow GM Auto Center - All Rights Reserved. GMPartsDirect.com is independently owned and operated by Flow GM Auto Center,<br>
+	  an authorized independent reseller of General Motors Parts. This site is not owned or operated by General Motors Corporation.<br />
+	  <a href="http://www.gmpartsdirect.com/site_policies/privacy.cfm" >Privacy Statement</a>  |  <a href="http://www.gmpartsdirect.com/site_policies/" >Site Policies</a>  |  <a href="http://www.gmpartsdirect.com/warranty_disclaimer" >Warranty Disclaimer</a></td></tr>
+<tr><td align="center" valign="top"><table><tr><td valign="top"><img src="images/payment_footer.jpg" alt="We accept VISA, MasterCard, and PayPal" align="top" /><img src="/images/certified-internet-dealer.gif" alt="GM Certified Internet Dealer" width="90" height="41" align="top" /><script language="JavaScript" type="text/javascript">
+SiteSeal("https://seal.networksolutions.com/images/basicsqblue.gif",
+"NETSP", "none");</script></td><td valign="top"><script src="http://sealserver.trustkeeper.net/compliance/seal_js.php?code=w6ordzctHpqOVGcB1cmBsViTpDGC2k"></script><noscript><a href="https://sealserver.trustkeeper.net/compliance/cert.php?code=w6ordzctHpqOVGcB1cmBsViTpDGC2k" target="hATW"><img src="http://sealserver.trustkeeper.net/compliance/seal.php?code=w6ordzctHpqOVGcB1cmBsViTpDGC2k" border="0" alt="Trusted Commerce" align="top"/></a></noscript></td></tr></table>
+
+<script src="https://ssl.google-analytics.com/urchin.js"
+type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-734491-1";
+urchinTracker();
+</script></td>
+  </tr>
+</body>
+</html>
