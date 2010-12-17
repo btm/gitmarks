@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="description" content="MegaTokyo the Comic" />
+	<meta name="author" content="Frederick M. Gallagher III" />
+	<meta name="generator" content="Alan J Castonguay, Robert Sherby, Jeremy Wagner-Kaiser, Shawn Morford (!! nathanbp, jrl !!)" />
+	<meta name="keywords" content="megatokyo.com, online comic, gaming, japanese animation, anime, fan art, pop culture, japan, nihongo, nihonjin, otaku, photoshop, fansubs, computer graphics, fred gallagher" />
+
+	<base href="http://megatokyo.com/" />
+
+	<title>MegaTokyo - relax, we understand j00</title>
+	<link type="image/x-icon" rel="shortcut icon" href="favicon.ico" />
+	<link type="text/css" rel="stylesheet" href="main.css" />
+	<link type="text/css" rel="stylesheet" href="index.css" />
+	
+		<link type="application/rss+xml" rel="alternate" title="Strips Only" href="rss/strips.xml" />
+	<link type="application/rss+xml" rel="alternate" title="Rants Only" href="rss/rants.xml" />
+	<link type="application/rss+xml" rel="alternate" title="Strips and Rants" href="rss/megatokyo.xml" />
+	<link type="application/rss+xml" rel="alternate" title="Status Updates" href="http://twitter.com/statuses/user_timeline/7749322.rss" />
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+	
+	<script type="text/javascript" src="index.js"></script>
+	<script type='text/javascript' src='http://akiko.megatokyo.com/adsystem/www/delivery/spcjs.php?id=1'></script>
+	<script type="text/javascript" src="resources.js"></script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-752051-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+
+</script>
+</head>
+
+<body>
+	<div id="adbar">
+		<a id="megagear-ad" href="http://www.megagear.com"><img src="parts/mt-head-left-MG.png" alt="MegaGear" /></a>
+		<!-- Beginning of Project Wonderful ad code: -->
+		<!-- Ad box ID: 51493 -->
+		<span class="glowwrap"><script type="text/javascript">
+		<!--
+		var pw_d=document;
+		pw_d.projectwonderful_adbox_id = "51493";
+		pw_d.projectwonderful_adbox_type = "1";
+		pw_d.projectwonderful_foreground_color = "";
+		pw_d.projectwonderful_background_color = "";
+		//-->
+		</script>
+		<script type="text/javascript" src="http://www.projectwonderful.com/ad_display.js"></script>
+		<noscript><map name="admap51493" id="admap51493"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&amp;c=0&amp;id=51493&amp;type=1" shape="rect" coords="0,0,468,60" title="" alt="" target="_blank" /></map>
+		<table cellpadding="0" border="0" cellspacing="0" width="468" bgcolor="#ffffff"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=51493&amp;type=1" width="468" height="60" usemap="#admap51493" border="0" alt="" /></td></tr><tr><td bgcolor="#ffffff" colspan="1"><center><a style="font-size:10px;color:#0000ff;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=51493&amp;type=1" target="_blank">Ads by Project Wonderful!  Your ad here, right now: $0</a></center></td></tr></table>
+		</noscript>
+		</span>
+		<!-- End of Project Wonderful ad code. -->
+		<a id="cologuys-ad" href="http://webhosting.cologuys.com/"><img src="parts/mt-head-right-CG.png" alt="Cologuys" title="l33t hosting - our bandwidth pimps. these guys r0x0rz" /></a>
+	</div>
+
+	<div id="banner"> <div class="blackbar"><span></span>online webcomic / manga / doujinshi</div>
+		<h1><a href="index.php"><img src="parts/mt-masthead2010.png" alt="megatokyo - relax, we understand j00" /></a></h1>
+		<ul class="nl">
+			<li><a href="faq">FAQ</a></li>
+			<li>&middot;</li>
+			<li><a href="story">story</a></li>
+			<li>&middot;</li>
+			<li><a href="characters.php">characters</a></li>
+			<li>&middot;</li>
+			<li><a href="fredarting" title="Watch Fred draw live on UStream!">fredarting</a></li>
+			<li>&middot;</li>
+			<li><a href="http://www.megagear.com" title="Buy stuff from the MegaGear store!">merchandise</a></li>
+			<li>&middot;</li>
+			<li><a href="http://forums.megatokyo.com">forums</a></li>
+			<li>&middot;</li>
+			<li><a href="community">community</a></li>
+			<li>&middot;</li>
+			<li><a href="search">search</a></li>
+		</ul>
+	</div>
+
+	<div id="comic">
+		<div class="navpanel">
+			<div class="navcontrols top">
+				<ul class="prevnext"><li class="prev"><a href="./strip/1291">Prev</a></li><li class="nextoff"><span>Next</span></li></ul>
+			</div>
+			<div id="title">"exactly why"</div>
+		</div>
+
+							<span id="strip">
+					<span id="strip-l"><span id="strip-r">
+					<span id="strip-t"><span id="strip-b">
+					<span id="strip-tr"><span id="strip-tl">
+					<span id="strip-br"><span id="strip-bl">
+					<img align="middle" src="strips/1292.gif" alt="Strip 1292" title="Comic 1292: &quot;exactly why&quot;, Chapter 10, Number 114, December 2nd, 2010" />					</span></span>
+					</span></span>
+					</span></span>
+					</span></span>
+					</span>
+					
+		<form class="navpanel" method="get" action="search.php">
+			<div style="display:none">
+				<input type="hidden" name="current" value="1292" />
+				<input type="submit" />
+			</div>
+
+			<div class="navcontrols bottom">
+				<ul id="normalprevnext" class="prevnext"><li class="prev"><a href="./strip/1291">Prev</a></li><li class="nextoff"><span>Next</span></li></ul>
+				<ul id="searchprevnext" class="prevnext"><li><input class="iehide" type="image" src="parts/nav2-prevfind.png" alt="Find Previous" name="method-fp" value="Find Previous" /></li><li class="findnextoff"><span>Find Next</span></li></ul>
+			</div>
+			<div class="search-field">Search:
+				<input type="text" name="q" id="q" value="" />
+				<input class="iehide" id="go" type="image" src="parts/nav2-go.png" alt="Go Search" />
+				<a href="search_help"><img src="parts/nav2-help.png" alt="help" title="help" /></a>
+			</div>
+			<div class="search-filter" id="search-filters">Within: <label><input type="checkbox" name="meta[]" value="Story" />Story</label><label><input type="checkbox" name="meta[]" value="Non story" />Non story</label><label><input type="checkbox" name="meta[]" value="Dead Piro Day" />Dead Piro Day</label><label><input type="checkbox" name="meta[]" value="Shirt Guy Dom" />Shirt Guy Dom</label><label><input type="checkbox" name="meta[]" value="Guest" />Guest</label></div>
+		</form>
+
+		<ul class="nl">
+			<li><a href="./strip/1">First Comic</a></li>
+			<li>&middot;</li>
+			<li id="archivelink"><a href="archive.php">Archives</a></li>
+						<li>&middot;</li>
+			<li><a href="http://www.megatokyo.it/?id=1292">Translation</a></li>
+			<li>&middot;</li>
+			<li><a href="index.php">Latest Comic</a></li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="rewrite_searchbox.js"></script>
+	<script type="text/javascript" src="navswitch.js"></script>
+
+	<div class="content" id="metabox">
+		<h2><span></span>newsbox</h2>
+		<div id="newsbox">
+		  <div id="facebook" class="leftcol">
+  		  <a href="http://www.facebook.com/pages/Megatokyo/250777389376" title="Megatokyo" ><img alt="Megatokyo on Facebook" src="http://badge.facebook.com/badge/250777389376.3850.611436821.png" /></a>
+  		</div>
+  		<div id="blogbits" class="rightcol">
+  			<a href="http://www.fredart.com/fredart/index.php3" class="leftcol"><img src="parts/fredart-big01.gif" alt="A Fredart banner" title="More of Fred's art" /></a>
+  			<a href="http://www.s-words-podcast.com/" class="rightcol"><img src="parts/s-words.jpg" alt="S-Words" title="Dom's podcast" /></a>
+  			<ul id="feed-list">
+  				<li id="feed-twitter-megatokyo"><a href="http://twitter.com/megatokyo"><img src="parts/twtmega.png" alt="Megatokyo Twitter" /></a></li>
+  				<li id="feed-megatokyo"><a href="rss/megatokyo.xml"><img src="parts/rssmega.png" alt="Megatokyo RSS feed" title="Megatokyo RSS Feed" /></a></li>
+  				<li id="feed-twitter-fredrin"><a href="http://twitter.com/fredrin"><img src="parts/twtfredrin.png" alt="Fred's Twitter" /></a></li>
+  				<li id="feed-fredart"><a href="http://fredart.com/wordpress/?feed=rss2"><img src="parts/rssfredart.png" alt="Fredart RSS Feed" title="Fredart RSS Feed" /></a></li>
+  			</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="content" id="support">
+		<h2><span></span>support</h2>
+		<div class="adinfo"><p><a href="support">Advertise on Megatokyo!</a></p></div>
+		<div id="megagear">
+			<span class="glowwrap"><script type="text/javascript"><!--// <![CDATA[
+OA_show(7);
+// ]]> --></script></span>
+	<noscript>
+		<a href="http://akiko.megatokyo.com/adsystem/adclick.php?n=a058c23f"><img src="http://akiko.megatokyo.com/adsystem/adview.php?what=zone:7&amp;n=a058c23f" alt="" /></a>	</noscript>
+			<span class="glowwrap"><script type="text/javascript"><!--// <![CDATA[
+OA_show(9);
+// ]]> --></script></span>
+	<noscript>
+		<a href="http://akiko.megatokyo.com/adsystem/adclick.php?n=a058c23f"><img src="http://akiko.megatokyo.com/adsystem/adview.php?what=zone:9&amp;n=a058c23f" alt="" /></a>	</noscript>
+		</div>
+		<div class="thewrap">
+			<div class="column leftcol">
+				<span class="glowwrap"><script type="text/javascript"><!--// <![CDATA[
+OA_show(4);
+// ]]> --></script></span>
+	<noscript>
+		<a href="http://akiko.megatokyo.com/adsystem/adclick.php?n=a63c0f77"><img src="http://akiko.megatokyo.com/adsystem/adview.php?what=zone:4&amp;n=a63c0f77" alt="" /></a>	</noscript>
+				<span class="glowwrap"><script type="text/javascript"><!--// <![CDATA[
+OA_show(3);
+// ]]> --></script></span>
+	<noscript>
+		<a href="http://akiko.megatokyo.com/adsystem/adclick.php?n=a1f95ec5"><img src="http://akiko.megatokyo.com/adsystem/adview.php?what=zone:3&amp;n=a1f95ec5" alt="" /></a>	</noscript>
+			</div>
+
+			<div class="column rightcol">
+				<span class="glowwrap"><script type="text/javascript"><!--// <![CDATA[
+OA_show(6);
+// ]]> --></script></span>
+	<noscript>
+		<a href="http://akiko.megatokyo.com/adsystem/adclick.php?n=aad50baf"><img src="http://akiko.megatokyo.com/adsystem/adview.php?what=zone:6&amp;n=aad50baf" alt="" /></a>	</noscript>
+				<span class="glowwrap"><script type="text/javascript"><!--// <![CDATA[
+OA_show(5);
+// ]]> --></script></span>
+	<noscript>
+		<a href="http://akiko.megatokyo.com/adsystem/adclick.php?n=ad741b2d"><img src="http://akiko.megatokyo.com/adsystem/adview.php?what=zone:5&amp;n=ad741b2d" alt="" /></a>	</noscript>
+			</div>
+
+		</div>
+
+		<script src="rewrite_supportbox.js" type="text/javascript"></script>
+	</div>
+
+	<div id="console">
+		<h2><span></span>console</h2>
+			<div class="leftcol">
+				<div class="mainrant" id="rant1042">
+			<div class="nameplate">
+				<span style="background-image:url(nameplates/Piro.jpg)"></span>
+				<h3>&lt; Piro &gt;</h3>
+			</div>
+
+			<div class="rantimage"><div class="ri-top"><div class="ri-bottom"><div class="ri-matte"><p><a href="http://www.megatokyo.com/scr33n/scr33n_2010-06-01_49671.png"><img src="rantimgs/1042.jpg" alt="Jack, being cute with his little car high up in the Smokey Mountains" title="Jack, being cute with his little car high up in the Smokey Mountains" /></a></p></div></div></div></div>
+
+			<h4><a href="rant/1042">"the 'good kind'"</a></h4>
+
+			<p class="date">Friday - November 19, 2010</p>			<p class="date">[<a href="mailto:piro@megatokyo.com">Piro</a>] - 20:41:37 - [<a href="rant/1042">link here</a>]</p>
+			<div class="rantbody"><p>One thing readers have probably noticed over the past six months or so is that the comic release schedule has been noticeably slower than usual, even for me. It is probably seen by most of you as nothing more than a reasonable progression down from the +/- 2 comics per week that I was managing to produce up till starting work on MT Volume 6. Honestly, I wish that was the case. There is more to it than that, and it&rsquo;s time we let readers know what&rsquo;s up.</p>
+<p>As most of you may remember, back in 2001 Sarah was starting to experience a multitude of health problems that was puzzling us as well as her doctors. One of these symptoms actually <a href="http://www.megatokyo.com/index.php?strip_id=111" title="what's with the knee brace?">showed up in a comic</a>, with Seraphim sporting the same knee brace Sarah herself was wearing at the time. It was almost a year later that she was finally diagnosed with a <a href="http://www.suite101.com/content/sjoegrens-syndrome-basic-facts-a87728" title="Sj&ouml;gren's Syndrome">chronic autoimmune disorder</a>, which she <a href="http://megatokyo.com/rant/339" title="Daaaaannng....">talked about in this rant</a> back in 2002. Over the intervening years, treatment helped a lot, so much so that it was easy to forget she was sick. She was the primary force behind the running of the MegaGear store, managing online sales and shipping as well as running our booth at conventions all over the country, and after a high risk pregnancy (three years ago last week!) gave birth to our remarkably awesome son Jack. That&rsquo;s a lot. I look back and feel more than a little sheepish about the amount I&rsquo;ve done in comparison ^^;;.<br /><br />As some of you can probably attest, it&rsquo;s not easy to bounce back from a pregnancy, especially one involving an emergency c-section. Sarah actually recovered relatively quickly... But not completely. All new parents know all about the happy exhaustion and remarkable work load that comes with a new little one, and the fact that its several years of 24hr gameplay with no pause buttons. Feeling &ldquo;ugh&rdquo; is something we both often suffered from and is usually blamed on the lack of said pause button. Things got a little easier after Jack turned two, enough that Sarah started to worry that some of her health issues may not be due to the wear and tear of the first two years of being a new parent.<br /><br />To make a long story short, the path to a diagnosis really started with a trip to the eye doctor several months ago and some concern about a small lump over her left eye. Some immediate concerns were alleviated by a CT scan that eliminated more serious concerns, but it did show swelling that could just be part of her chronic autoimmune disorder - or it could be something else. The only way to know for sure was to have a biopsy.<br /><br />Last month Sarah had a surgical biopsy on her eye (having general anesthesia for the first time which she tells me was loads and loads of fun :). While she was still moving towards waking up, the doctor came out and took me into one of the consultation rooms. I&rsquo;m pretty dense (i didn&rsquo;t really have a sense of what Sarah was worried about until she explained to me why they wanted to do the CT scan a week earlier) but at this point everyone, including Sarah and her doctors, were fairly certain that it really was just inflammation. The biopsy was just to confirm it. So I was a little taken aback when the doctor told me that the tissue really did look like lymphoma and that he was having the lab do a very quick preliminary look to see if it really was. I figured, ok, well it looks like it but it probably isn&rsquo;t, right? Less than twenty minutes later he came back out to the waiting room and told me what they were seeing. It was lymphoma. Don&rsquo;t worry, it was the &ldquo;good kind of lymphoma&rdquo; to have, he said.<br /><br />About a week later, the final test results came in and Sarah was diagnosed with <a href="http://www.suite101.com/content/malignant-lymphoma-and-autoimmune-disease-a67683" title="Malignant Lymphoma and Autoimmune Disease">a form of non-Hodgkins lymphoma</a>, a blood cancer of the lymph and immune system.<br /><br />We are focusing on the positives: As far as we know know, it has been caught early. While incurable, Lymphoma is well researched and there are treatments that can put it into remission. The Lymphoma clinic at the University of Michigan Hospital is well respected. And lets not forget - Sarah is very tough. <br /><br />Odd as it may sound, it&rsquo;s actually good *knowing*. It&rsquo;s always good to know your enemy, otherwise you are just wasting ammo. :) Nothing is worse than the limbo that comes with knowing something is wrong but not what it is. Knowing what is wrong means knowing what to do next. At least mostly what to do next.<br /><br />I&rsquo;m sure it&rsquo;s fairly obvious now why my schedule has been slow even for me lately. I&rsquo;ve been covering both the store and the comic, as well as doing my best to take care of Jack and Sarah. Add to that an enjoyable trip to Sugoicon two weeks ago and a birthday party for Jack and 14 of his little friends last weekend... Yeah, you get the idea.<br /><br />Things have started to settle down a little, I even found some time time to write a rant ^^;;. I&rsquo;m doing my best to keep it all going, and Sarah is doing ok, but we don&rsquo;t really know what the schedule for her treatment is going to be over the next few months. That brings me to the the issue of Holiday Shopping and the MegaGear store.<br /><br />We will, as always, do our very best to make sure all orders for Christmas are printed and shipped in time to be there in time for the holiday. What I ask is that if you would like to give the Gift of Megatokyo stuff for Christmas, please place your orders early!! The earlier the better. I know it&rsquo;s kinda scary to think of me being in charge of getting your orders to you in time, but I will do my best (and Sarah will probably step in and save me from time to time). <a href="http://www.megagear.com">Ordering from the MegaGear store is the best way to support us</a> and we appreciate your business.<br /><br />I am also trying to step up comic production. One per week is a little too slow. I appreciate your patience, but at least now you know that it&rsquo;s not entirely just me slipping further into ineptitude ^^;;. It&rsquo;s been a little rough recently, but things should be ok. Thank you again for your support.</p>
+<p>(Oh, if you wanted post about this where Sarah is most likely to see it, head on over to the <a href="http://www.facebook.com/pages/Megatokyo/250777389376" title="The official Megatokyo Facebook page">Megatokyo Facebook page</a> where she tends to hang out more :)</p></div>
+
+			<div class="rantnav">[<a href="./rant/1037">previous rant</a>] - [<a href="rant-archive.php">rant archive</a>]</div>
+		</div>
+			</div>
+			<div class="rightcol">
+				<div class="mainrant" id="rant1044">
+			<div class="nameplate">
+				<span style="background-image:url(nameplates/Seraphim.jpg)"></span>
+				<h3>&lt; Seraphim &gt;</h3>
+			</div>
+
+			<div class="rantimage"><div class="ri-top"><div class="ri-bottom"><div class="ri-matte"><p><a href="http://www.megatokyo.com"><img src="rantimgs/1044.png" alt="" title="" /></a></p></div></div></div></div>
+
+			<h4><a href="rant/1044">"I can haz cansur?"</a></h4>
+
+			<p class="date">Tuesday - December 7, 2010</p>			<p class="date">[<a href="mailto:seraphim@megatokyo.com">Seraphim</a>] - 09:17:07 - [<a href="rant/1044">link here</a>]</p>
+			<div class="rantbody"><p>Thanks to everyone who sent encouraging messages and good thoughts my way. I tend to be the type who imagines the worst possible scenario that is even possible. That way when the doctor says something like cancer, I brush my hand across my brow and say, "Phheeewwww, I thought it was going to be something serious Doc!" That method does make it difficult, however, to stay positive over the long haul.</p>
+<p>It has been a very long 5 months waiting for doctor appointments, tests,surgery, the pathology results... Its been stressful not being able to plan anything. Would we be able to keep our commitment to Sugoicon? Could we put a deposit on Jack's birthday party? What about the holiday sales??? We *should* be able to make it through the holidays. It is hard to say. I don't know much. I know I have a rare lymphoma that only 1000 -2000 people in the US are diagnosed with per year. I tried to research it and found a reference to it in the <em>Rare Disorder Guidebook</em>. Personally I was thinking how in the world did I get this? But the librarian in me thought it was a pretty cool book. I also found it amusing when docs try to be humorous like the articles titled <em>It's Not Rare If Its In Your Chair</em>.</p>
+<p>I can't predict what next year has in store for us. Treatment could range from daily radiation over several weeks to chemo for several months. Depending on what happens we might have to switch to once or twice a week shipping for awhile or something like that. We'll try to keep people better informed. We only had one day notice regarding my surgery so we didn't have time to warn customers and readers. After the past few months, my new personal quote is, "Cancer I can live with, its the uncertainty that's killing me."</p>
+<p>We've had a bit of resolution to the unknown since Fred's rant. I finally have an appointment scheduled on December 14th with the lymphoma oncologists for staging and a treatment plan. Last week I had a chest/abdominal/pelvic CT scan. The good news is I didn't get a call telling me that I needed to come back in - so they obviously didn't see anything unexpected or immediately threatening. In August my heart just sank when I got the ominous call after the first eye appointment telling me that 3 months was too long to wait to see the specialist and I needed to be seen "sooner". (That is doctor speak for "Sorry old girl, this isn't looking too good for you"). So not hearing anything is actually a relief. We really try to always look on the bright side of life. Can't resist a Monty Python reference.</p>
+<p>As a couple of supporters mentioned on the <a href="http://www.facebook.com/#!/pages/Megatokyo/250777389376">Facebook</a> page, the <a href="http://www.abmdr.org/Home.asp">American Bone Marrow Registry</a> is a vital resource in treating blood cancers. When chemo and other treatments have failed a bone marrow transplant can be life saving. Please consider registering with the site or signing up during a local collection drive in your area. There is a particular need for African American, Asian, Native American, and mixed ethnic populations to participate. International readers can participate in a <a href="http://www.crir.org/affiliatestemcell.php">local registry</a> in their country.   I know it is a lot to ask and possibly a huge commitment if you are ever matched to someone in the future. But the hard truth is a transplant is often the last option for patients who have exhausted all other treatments.</p>
+<p>I hope everyone is having a great holiday season!</p>
+<p></p>
+<p></p></div>
+
+			<div class="rantnav">[<a href="./rant/1043">previous rant</a>] - [<a href="rant-archive.php">rant archive</a>]</div>
+		</div>
+			</div>
+		<div class="clearer"></div>
+	</div>
+
+		<div id="credits">
+		<h2><span></span>credits</h2>
+		<p>megatokyo the comic -
+		copyright &copy; 2000 - 2010		<a href="mailto:piro@megatokyo.com">fred gallagher</a>.
+		all rights reserved.</p>
+		<p>'megatokyo' is a registered trademark of
+		<a href="http://www.fredart.com">fredart studios llc</a>.</p>
+	</div>
+</body>
+</html>
