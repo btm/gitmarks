@@ -1,0 +1,522 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>Seattle Department of Transportation: Seattle Bicycle Master Plan</TITLE>
+<meta name="Title" content="Seattle Department of Transportation: Seattle Bicycle Master Plan">
+<meta name="Description" content="Seattle Department of Transportation: SDOT's Bicycle Program has been working steadily toward developing an urban trail system to accommodate bicyclists. Urban trails include shared use paths, bike lanes, signed bike routes, arterials with wide shoulders, and pedestrian pathways. Seattle has about 28 miles of shared use paths, 22 miles of on-street, striped bike lanes, and about 90 miles of signed bike routes.">
+<meta name="Keywords" content="Seattle Bicycle Master Plan, Seattle Department of Transportation, bicycle, bike, Bicycle, Bike, Trail, trail, route, routes, map, maps, bike maps, Burke-Gilman Trail, Burke-Gilman, Bicycle Spot Improvement Program">
+<meta name="originatorDepartment" content="Seattle Department of Transportation">
+<link REL="stylesheet" HREF="/transportation/css/dept_style.css" TYPE="text/css">
+<LINK href="/transportation/main.css" type=text/css rel=stylesheet>
+<script language="javascript" src="/transportation/scripts/transportation_array.js"></script>
+<SCRIPT LANGUAGE="JavaScript" SRC="/transportation/scripts/ypSlideOutMenus_new.js" TYPE="text/javascript"></SCRIPT>
+<script language="javascript" src="/transportation/js/navigation.js"></script>
+<SCRIPT language="JavaScript">
+LOC = "bikemaster"
+</SCRIPT>
+</HEAD>
+<BODY onLoad="whatPage()" background="/2004_img/seattle_back.gif" LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<div align="center">
+<noindex>
+<script language="javascript">
+function changeFilter(whichCol){
+ if(whichCol == "Dept"){
+   document.forms[0].site.value = whichDept;
+   document.forms[0].proxystylesheet.value = whichStyle;
+ }else{
+   document.forms[0].site.value = "default_collection";
+   document.forms[0].proxystylesheet.value = "cos_frontend";
+ }
+}
+</script> 
+<style>
+image:focus {-moz-outline-style: none;}
+</style>
+<div align="center">
+<div style="display:block;position:relative;margin:0px auto;width:775px;height:70px;background-repeat:no-repeat;background-image: url(/common/images/header_background.png);background-color:#fff">
+  <div id="cityNav" style="width:765px;position:absolute;top:0px;left:0px;text-align:right;"><a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/departments/">Departments</a> | <a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/services/">Services</a> | <a style="font-family:Arial,Helvetica;font-size:12px;color:#999;text-decoration:none;font-weight:bold" href="/directory/">Staff Directory</a></div>
+  <div id="cityBrand" style="width:320px;position:absolute;top:0px;left:0px;"><a href="/default.htm"><img onmouseover="this.src='/common/images/SeattleGovLogo.png'" onmouseout="this.src='/common/images/SeattleGovLogoHome.png'" src="/common/images/SeattleGovLogoHome.png" alt="Seattle.gov Home Page" border="0" width="320" height="70" /></a></div>
+  <div id="citySearch" style="width:300px;position:absolute;top:24px;left:470px;">
+		<form id="googleSearch" style="margin:0px;padding:-10px;" method="get" action="http://find.seattle.gov/search">
+		<input type="text" style="vertical-align:top;margin:0px;padding-top:5px;padding:0px;height:22px;line-height:20px;border:2px solid #d5d5d5;width:250px;" name="q" size="18" maxlength="255" value="" />
+		<input style="vertical-align:top;margin-top:0px;border:0px;height:25px;-moz-outline-style: none;" type="image" src="/common/images/go_button.png" name="btnG" value="Go" onclick="document.forms['googleSearch'].submit()"/>
+		<input type="hidden" name="site" value="default_collection"/>
+		<input type="hidden" name="client" value="cos_frontend"/>
+		<input type="hidden" name="proxystylesheet" value="cos_frontend"/>
+		<input type="hidden" name="output" value="xml_no_dtd"/>
+		</form> 
+  	<div style="font-family: Arial, Helvetica; font-size:12px !important;color:#999;width:250px;position:absolute;top:22px;left:25px;">
+      <form name="toggle" style="margin: 0px;"><input type="radio" value="main" name="searchToggle" checked="" onclick="changeFilter('Seattle')">Seattle.gov <input type="radio" value="dept" name="searchToggle" onclick="changeFilter('Dept')">This Department</form>
+    </div>
+  </div>
+</div>  
+</div>
+<script language="javascript">
+whichDept="";
+whichStyle="";
+</script>
+
+</noindex>
+
+<noindex><!--begin TransHead New Graphics Version April 2009-->
+<table width="775" height="63" border="0" cellpadding="0" cellspacing="0">
+<tr>
+  <td width="486"><a href="http://www.seattle.gov/transportation/"><img src="http://www.seattle.gov/transportation/images/TransHeader-deptName.gif" alt="Link to Transportation Home Page" width="486" height="28" border="0"></a></td>
+  <td width="98"><a href="http://www.seattle.gov/transportation/"><img src="http://www.seattle.gov/transportation/images/TransHeader-home.gif" alt="Link to Transportation Home Page" width="98" height="28" border="0"></a></td>
+  <td width="85"><a href="http://www.seattle.gov/transportation/about.htm"><img src="http://www.seattle.gov/transportation/images/TransHeader-about.gif" alt="Link to Transportation About Us Page" width="85" height="28" border="0"></a></td>
+  <td width="106"><a href="http://www.seattle.gov/transportation/contact.htm"><img src="http://www.seattle.gov/transportation/images/TransHeader-contact.gif" alt="Link to Transportation Contact Us Page" width="106" height="28" border="0"></a></td>
+</tr>
+<tr>
+  <td width="486"><img src="http://www.seattle.gov/transportation/images/TransHeader-tagline.gif" alt="A vibrant Seattle through transportation excellence" width="486" height="35" border="0"></td>
+  <td width="290" colspan="3"><img src="http://www.seattle.gov/transportation/images/TransHeader-director.gif" alt="Peter Hahn, Director" width="289" height="35" border="0"></td>
+</tr>
+</table>
+<div align="center">
+<table width="775" border="0" cellspacing="0" cellpadding="5" bordercolor="#666666" bgcolor="#FFFFFF" style="border: thin solid #A2A2D9;">
+<tr>
+
+<td align="center" onMouseOver="ypScrollMenu.showMenu2('menu1');" onMouseOut="ypScrollMenu.hideMenu2('menu1')"><p><a href="#" class="dropdown">Services</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu2');" onMouseOut="ypScrollMenu.hideMenu2('menu2');"><p><a href="http://www.seattle.gov/transportation/" class="dropdown">Projects</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu4');" onMouseOut="ypScrollMenu.hideMenu2('menu4');"><p><a href="#" class="dropdown">Planning</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;" onMouseOver="ypScrollMenu.showMenu2('menu3');" onMouseOut="ypScrollMenu.hideMenu2('menu3');"><p><a href="#" class="dropdown">Resources</a>&nbsp;<img src="http://www.seattle.gov/transportation/images/downarrow.gif" alt="" width="12" height="9" border="0"></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/events/" class="dropdown">Events</a></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/sdotnews.htm" class="dropdown">News</a></p></td>
+
+<td align="center" style="border-left-color: #A2A2D9; border-left-style: dotted; border-left-width: thin;"><p><a href="http://www.seattle.gov/transportation/siteindex.htm" class="dropdown">Site Index</a></p></td>
+
+</tr>
+</table>
+</div>
+<SCRIPT>
+function rePosx(tweakVal){
+tempX = ((document.body.offsetWidth/2) + tweakVal)
+tempX = tempX + 25
+return tempX
+}
+
+topPos = 167
+buffer = 22
+
+//id, dir, left, top, width, height, parentid, degrade, debug
+//350 //400 //300
+	var menus = [
+	new ypScrollMenu("menu1", "down", rePosx(-423), topPos, 235, eval(menuItems1.length*24)),
+
+	new ypScrollMenu("menu2", "down", rePosx(-300), topPos, 235, eval(menuItems2.length*22)), 
+	  new ypScrollMenu("menu2_Sub1", "right", rePosx(-72), topPos+buffer, 200, eval(menu2_SubItems1.length*40), "menu2"),
+	  new ypScrollMenu("menu2_Sub2", "right", rePosx(-72), topPos+buffer*2, 200, eval(menu2_SubItems2.length*33), "menu2"),
+
+	new ypScrollMenu("menu3", "down", rePosx(-67), topPos, 235, eval(menuItems3.length*20)), 
+	  new ypScrollMenu("menu3_Sub1", "right", rePosx(148), topPos, 200, eval(menu3_SubItems1.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub2", "right", rePosx(148), topPos+buffer, 200, eval(menu3_SubItems2.length*25), "menu3"),
+	  new ypScrollMenu("menu3_Sub3", "right", rePosx(148), topPos+buffer*2, 200, eval(menu3_SubItems3.length*40), "menu3"),
+	  new ypScrollMenu("menu3_Sub4", "right", rePosx(148), topPos+buffer*3, 200, eval(menu3_SubItems4.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub5", "right", rePosx(148), topPos+buffer*4, 230, eval(menu3_SubItems5.length*32), "menu3"),
+	  new ypScrollMenu("menu3_Sub6", "right", rePosx(148), topPos+buffer*6, 230, eval(menu3_SubItems6.length*29), "menu3"),
+	  new ypScrollMenu("menu3_Sub7", "right", rePosx(148), topPos+buffer*7, 230, eval(menu3_SubItems7.length*29), "menu3"),
+	  new ypScrollMenu("menu3_Sub8", "right", rePosx(148), topPos+buffer*8, 230, eval(menu3_SubItems8.length*32), "menu3"),
+
+	 new ypScrollMenu("menu4", "down", rePosx(-212), topPos, 250, eval(menuItems4.length*25)), 
+	  new ypScrollMenu("menu4_Sub1", "right", rePosx(2), topPos, 200, eval(menu4_SubItems1.length*45), "menu4"),
+	  new ypScrollMenu("menu4_Sub2", "right", rePosx(2), topPos+buffer, 200, eval(menu4_SubItems2.length*45), "menu4")
+ 
+
+//	new ypScrollMenu("menu5", "down", rePosx(-20), topPos, 250, eval(menuItems5.length*20)),
+//	new ypScrollMenu("menu6", "down", rePosx(90), topPos, 250, eval(menuItems6.length*20)),
+//	new ypScrollMenu("menu7", "down", rePosx(170), topPos, 250, eval(menuItems7.length*20)),
+//	new ypScrollMenu("menu8", "down", rePosx(250), topPos, 250, eval(menuItems8.length*20))
+	];
+	document.write('<style type="text/css">' + ypScrollMenu.styleMod + '</style>');
+	for (var i = 0; i < menus.length; i++) {
+		menus[i].onactivate = new Function("document.getElementById('act" + i + "').className='active';");
+		menus[i].ontransportationctivate = new Function("document.getElementById('act" + i + "').className='';");
+	}
+
+function buildMenu(menuName,menuItems,tableWid,subMenu){
+O_tr = "<tr>"
+C_tr = "</tr>"
+C_table = "</table>"
+C_div ="</div>"
+// STYLE="width:'+tableWid+'px;"
+document.write('<div style="visibility:hidden;" id="'+menuName+'Container">')
+document.write('<div style="visibility:inherit;width:'+tableWid+'px;"  id="'+menuName+'Content" class="menu2">')
+document.write('<table width="+tableWid+" cellspacing="0" cellpadding="0" bgColor="#262626" border="0">')
+document.write('<tr><td width="+tableWid+">')
+i = 1
+do{
+//  document.write(O_tr)
+//  document.write('<td width="1" class="bgmenugreen"><img src="images/spacer.gif" width="1" height="1" alt="" /></td>')
+if(menuItems[i][2] == null){
+  document.write('<div class="menu0" style="visibility:inherit;"><a href="'+ menuItems[i][1] +'">'+menuItems[i][0]+'</a></div>')
+//FROM ABOVE
+} else {
+  //alert(menuItems[i][2])
+  document.write('<div class="menu0" style="visibility:inherit;" onMouseOver="ypScrollMenu.showMenu2(\''+menuItems[i][2]+'\');" onMouseOut="ypScrollMenu.hideMenu2(\''+menuItems[i][2]+'\');" id="'+menuItems[i][2]+'Actuator"><a href="'+menuItems[i][1]+'">'+menuItems[i][0]+'</a></div>')
+//FROM ABOVE
+}
+  i++
+  }
+while (i < menuItems.length)
+document.write('</tr></td></table>')
+
+document.write(C_div)
+document.write(C_div)
+}
+
+//menuName,menuItems,tableWid,subMenu
+
+
+buildMenu('menu1',menuItems1,'235')
+buildMenu('menu2',menuItems2,'235')
+  buildMenu('menu2_Sub1',menu2_SubItems1,'200')
+  buildMenu('menu2_Sub2',menu2_SubItems2,'200')
+buildMenu('menu3',menuItems3,'235')
+  buildMenu('menu3_Sub1',menu3_SubItems1,'200')
+  buildMenu('menu3_Sub2',menu3_SubItems2,'200')
+  buildMenu('menu3_Sub3',menu3_SubItems3,'200')
+  buildMenu('menu3_Sub4',menu3_SubItems4,'200')
+  buildMenu('menu3_Sub5',menu3_SubItems5,'210')
+  buildMenu('menu3_Sub6',menu3_SubItems6,'200')
+  buildMenu('menu3_Sub7',menu3_SubItems7,'240')
+  buildMenu('menu3_Sub8',menu3_SubItems8,'200')
+
+buildMenu('menu4',menuItems4,'250')
+  buildMenu('menu4_Sub1',menu4_SubItems1,'200')
+  buildMenu('menu4_Sub2',menu4_SubItems2,'200')
+</script>
+
+<!--end TransHead--></noindex>
+<SCRIPT language="JavaScript">
+whichDept = "transportation"
+whichStyle = "transportation_frontend"
+</SCRIPT>
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center" bgcolor="#ffffff">
+<TR>
+  <td width="185" height="100%" valign="top" bgcolor="#99cc67">
+    <img src="images/sdottopnavleft.gif" alt="" width="185" height="45" border="0"><br clear=all>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr id="bike" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikeprogram.htm">Bike Program</a></td>
+  </tr>
+  <tr id="bikemaps" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikemaps.htm">Bike Maps &amp; Trail Routes</a></td>
+  </tr>
+   
+    <tr id="bikemaster" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikemaster.htm">Bicycle Master Plan</a></td>
+  </tr>
+    <tr id="projects" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikeprojects.htm">Projects and Plans</a></td>
+  </tr>
+     <tr id="bikesmart" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikesmart.htm">BikeSmart</a></td>
+  </tr>
+  
+  <tr id="utrails" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/urbantrails.htm">Urban Trails System</a></td>
+  </tr>
+ 
+  
+  <tr id="racks" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikeracks.htm">Bike Racks</a></td>
+  </tr>
+    <tr id="parking" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikeparking.htm">On-Street Bike Parking</a></td>
+  </tr>
+  <tr id="bikeinfo" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikeinfo.htm">Bike Information</a></td>
+  </tr>
+  <tr id="bmp_photos" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bmp_imp_photos.htm">Bicycle Master Plan Implementation Photos</a></td>
+  </tr>
+    <tr id="sharrows" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/sharrows.htm">Sharrows</a></td>
+  </tr>
+      <tr id="bikebox" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="bikeboxes.htm">Bike Boxes</a></td>
+  </tr>
+     <tr id="bikesmart" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikesmart.htm">Bike Smart</a></td>
+  </tr>
+    <tr id="bikespot" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikespot.htm">Bicycle Spot Improvement Program</a></td>
+  </tr>
+  <tr id="manners" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/biketrail.htm ">Bicycle Trail Etiquette</a></td>
+  </tr>
+      <tr id="codes" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikecode.htm ">Bicycle Traffic Codes</a></td>
+  </tr>
+<!--   <tr id="fremontbike" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikefremont.htm">Fremont Bike Lanes</a></td>
+  </tr> -->
+  <tr id="links" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/transportation/bikeresources.htm">Contacts, Links and Resources</a></td>
+  </tr>
+   <tr id="sbab" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/sbab/">Seattle Bicycle Advisory Board</a></td>
+  </tr>
+    <tr id="wbr" ONMOUSEOVER="cOn(this)" onmouseout="cOut(this)">
+    <td class="TIERTWO"><a href="http://www.seattle.gov/waytogo/default.htm">Walk, Bike, Ride Options</a></td>
+  </tr>
+  </table>
+
+  
+    <table width="185" cellspacing="0" cellpadding="0" bgcolor="#5B5BB1">
+  <tr><td height="100%"><div align="center"><br><img src="images/greenfade.jpg" alt="" width="185" height="108" border="0"></div></td></tr></table>
+  </td>
+  <TD width="590" style="padding:10" valign="top">
+<!--START CONTENT HERE   -->
+	
+	<p class="title">Seattle Bicycle Master Plan </p>
+	<p> Last updated: September 2010 </p>
+	<p>	<table width="90%" border="0" cellspacing="2" cellpadding="2" align="center" style="border: thin dashed #5b5bb1;">
+	<tr><td><div align="center">
+	  <p> Read our <a href="http://www.seattle.gov/transportation/docs/BMP%20Progress%20Report%20FINAL_Mar%202010.pdf">2010 Bicycle Progress Report</a> to learn more about efforts to encourage more people to bike</p>
+	  <p><a href="http://walkbikeride.seattle.gov/" target="_blank"><img src="images/wbr_100.gif" width="100" height="82" border="0"></a><br>
+	        </p>
+	</div></td>
+	</tr>
+	</table></p><br>
+    <strong>Read The Full Bike Master Plan Here:</strong><br><br>
+
+	<table width="150" border="0" cellspacing="2" cellpadding="2" align="right" style="border: thin dashed #5b5bb1;">
+<tr>
+    <td><b>Download the full master plan document: </b> <br> <br>
+
+<a href="docs/bmp/final/BikeMasterPlanCOMPLETE.pdf">Bicycle Master Plan </a>
+<br>
+<br>
+For an overview of what is proposed in the plan, look at the recommended facility maps:
+<br><br>
+<a href="docs/bmp/FoldOutMap_Facilities_North_052907.pdf">North Seattle Map</a><br>
+<a href="docs/bmp/RecommendedBicycleFacilities&Routes_South_062007.pdf">South Seattle Map</a></td>
+    <br>
+</tr>
+</table>
+
+ 
+<!-- <b>The Full Draft Plan is available for comment:</b><br> <b><font color="#FF0000">NOTE:</font></b> The deadline for comments has been extended until  5 pm, May 18th, 2007<br> -->
+<ul>
+<li> <a href="docs/bmp/final/TOC.pdf">Table of Contents</a>
+
+<li> <a href="docs/bmp/final/Acknowledgements.pdf">Acknowledgments</a>
+<li>  <a href="docs/bmp/final/ExecutiveSummary.pdf">Executive Summary</a>
+<li> <a href="docs/bmp/final/Chapter1.pdf">Chapter 1: Introduction</a>
+<li> <a href="docs/bmp/final/Chapter2.pdf">Chapter 2: Goals Objectives, and Policy Framework</a>
+<li> <a href="docs/bmp/final/Chapter3.pdf">Chapter 3: Bicycle Facility Network </a>
+<li> <a href="docs/bmp/final/Chapter4.pdf">Chapter 4: Support Facilities </a>
+<li> <a href="docs/bmp/final/Chapter5.pdf">Chapter 5: Education, Enforcement, and Encouragement </a>
+<li> <a href="docs/bmp/final/Chapter6.pdf">Chapter 6: Implementation</a> 
+<li> <a href="docs/bmp/final/Chapter7.pdf">Chapter 7: Performance Measures</a> 
+<br>
+<br>
+<li> <a href="docs/bmp/final/AppendixA.pdf">Appendix A: Existing Conditions for Bicycling</a> 
+<li> <a href="docs/bmp/final/AppendixB.pdf">Appendix B: List of Meetings Held During the Planning Process</a> 
+<li> <a href="docs/bmp/final/AppendixC.pdf">Appendix C: key Locations for Co-ordinating Bicycle Facility Design with Future Rapid Transit Service</a> 
+<li> <a href="docs/bmp/final/AppendixD.pdf">Appendix D: Key Locations for Co-ordinating Bicycle Facility Design with Freight Transportation</a> 
+<li> <a href="docs/bmp/final/AppendixE.pdf">Appendix E: Bicycle Facility Descriptions</a> 
+<li> <a href="docs/bmp/final/AppendixF.pdf">Appendix F: Guidance for Retrofitting Seattle Streets to Create Dedicated Bicycle Facilities</a> 
+<li> <a href="docs/bmp/final/AppendixG.pdf">Appendix G: Bicycle Route Signage and Wayfinding Protocol</a>
+<li> <a href="docs/bmp/final/AppendixH.pdf">Appendix H: Roadway Crossing Design for Bicycles</a>
+<li> <a href="docs/bmp/final/AppendixI.pdf">Appendix I: Bicycle Facility Recommendations for Key Corridors and Focus Areas</a> 
+<li> <a href="docs/bmp/final/AppendixJ.pdf">Appendix J: Bicycle and Transit Integration in Seattle</a> 
+<li> <a href="docs/bmp/final/AppendixK.pdf">Appendix K: City of Seattle Bicycle Parking Requirements</a> 
+<li> <a href="docs/bmp/final/AppendixL.pdf">Appendix L: Partners for Bicycle Programs</a> 
+<li> <a href="docs/bmp/final/AppendixM.pdf">Appendix M: Key Components of Bicycle Education Programs</a>
+<li> <a href="docs/bmp/final/AppendixN.pdf">Appendix N: Integration of Bicycle Recommendations into Other Transportation Plans and Guidelines.</a> 
+<li> <a href="docs/bmp/final/AppendixO.pdf">Appendix O: Cost Estimates</a> 
+</ul>
+
+
+
+
+<p><b>Questions?  Email to <a href="mailto:walkandbike@seattle.gov">walkandbike@seattle.gov</a> or call 206-684-7583.</b>    </p>
+<p><br>
+      </p>
+      <a name="faq"></a>
+      <strong>Bicycle Master Plan FAQ&rsquo;s </strong>
+</p>
+<p><strong> What is the Bicycle Master Plan? </strong></p>
+<p>  The Bicycle Master Plan is a planning document that will be used to guide future improvements to Seattle&rsquo;s bicycle network. The focus for the master plan is on the evaluation of arterial streets for the implementation of bicycle facilities and to encourage more bicycling throughout the City of Seattle. Also included is a plan and schedule for completing the trails network such as the Burke-Gilman Trail.</p>
+<p><strong> What elements does the plan include? </strong></p>
+<p>The major elements of the city&rsquo;s bicycle system addressed by the plan are: </p>
+<p> <strong>Implementation Strategy </strong>: Seattle &rsquo;s Bicycle Master Plan is a working document that provides city staff and partner agencies with a series of specific action items to guide implementation of the plan.<strong></strong></p>
+<p> <strong>Bike Facilities:</strong> The plan recommends specific streets to be re-painted to accommodate bike lanes, sharrows or wide curb lanes. Implementation of these facilities will create a well connected bicycle network to better connect existing bicycle routes, neighborhoods, schools, parks. The plan also provides recommendations for key intersection improvements, improved bicycle parking, end of trip amenities and bicycle integration with transit.</p>
+<p> Way-finding sign system : The plan addresses the need for regional and local connectivity by recommending routes that benefit from the addition of way-finding signage to help cyclists more easily navigate through the city. The plan includes recommendations for signed bike routes on City streets and trails.</p>
+<p> <strong>Policy evaluation :</strong> The plan includes specific recommendations on policies, integration of the bicycle master plan into other planning documents and provides guidance for operating procedures regarding traffic operations, education, enforcement and access to transit and schools.</p>
+<p> <strong>Design guidelines :</strong> The plan provides specific design suggestions on roadway design to accommodate bicycles. These guidelines will help establish city-wide consistency for all future additions to the existing bicycle network.</p>
+<p> <strong>Maintenance strategy : </strong>This portion of the plan serves as a guide for keeping city bike facilities in optimum condition. The planning team has worked with city staff to determine a city-wide maintenance schedule as well as how bicycle facility maintenance and construction can be piggy-backed on other Department of Transportation and Parks Department programs.</p>
+<p><strong>Performance measures : </strong>This segment of the plan addresses what data should be collected and what benchmarks must be met over the next 10 years. These measures will help to gage the effectiveness of the plan and to determine if its scope has been met accordingly.</p>
+<p><strong> Who was involved in drafting the master plan? </strong></p>
+<p>Toole Design Group of Maryland is a multi-modal planning and design firm hired by the City of Seattle to draft the plan. To learn more about Toole visit: <a href="http://www.tooledesign.com/" target="_blank">http://www.tooledesign.com/</a></p>
+<p>Additionally, Toole worked in partnership with city bicycle program staff and a Citizens Advisory Board with representatives from organizations such as:</p>
+<blockquote>
+  <p>Bicycle Alliance of Washington <br>
+      Cascade Bicycle Club <br>
+      Feet First <br>
+      National Parks Service <br>
+      Puget Sound Regional Council <br>
+      Seattle Bicycle Advisory Board <br>
+      Transportation Choices </p>
+</blockquote><p><strong> What was the planning process and time line? </strong></p>
+<p><strong> Existing data review : May-July 2006 </strong></p>
+<p>The foundation for the master plan is based in existing data. The team reviewed many existing documents such as maps, transportation studies, neighborhood plans, comprehensive plans, citizen requests and initiatives to identify needs etc. This review is included in an existing conditions chapter of the plan.</p>
+<p><strong> Public process : June 2006-2007 </strong></p>
+<p>The planning team, city staff and Citizens Advisory Board hosted 3 public meetings in 3 different locations throughout the city.</p>
+<p>Aug 29, 2006 - The first public meeting was an opportunity for the planning team to learn from citizens about their bicycling experiences, opinions and advice through a series of workshops. It was also a chance for citizens to learn more about the planning process. </p>
+<p>December 5 and 7, 2006 - The second meeting was a presentation of the draft plan and provided the public with an opportunity to review and comment on the draft plan prior to finalization of the document. </p>
+<p>In addition to the public meetings, an on-line survey was available to collect suggestions from the public regarding existing conditions and recommendations on the best and worst facilities for bikes.</p>
+<p>The consultant also gathered input from and provided information to the public through attendance at monthly Citizen Advisory Board meetings and through meetings with representatives of the Bike Alliance of Washington, the Cascade Bicycle Club, and the Seattle Bicycle Advisory Board. </p>
+<p><strong> Arterial streets evaluation : June-September 2006 </strong></p>
+<p>Relevant city arterial streets, determined by the existing data review and public input were further analyzed for potential addition of bike facilities using GIS (Geographic Information Systems) analysis and field evaluation. This study arterial network was further refined to develop a comprehensive and continuous bicycle network appropriately distributed throughout the City.</p>
+<p><strong> Policy and maintenance strategy development : July-October 2006 </strong></p>
+<p>During this phase, the planning team met with city, state and local agencies to evaluate facilities policy and maintenance issues that improve or degrade the climate for bicycling in the City of Seattle such as zoning, parking regulations and other policies. The specific recommendations are included in the final plan.</p>
+<p><strong> Develop design guidelines: October 2006-January 2007 </strong></p>
+<p>A Bicycle Facility Design Chapter (Appendix F) was drafted to complement existing city design standards and can function as a stand alone document to the master plan.</p>
+<p><strong> Drafting of plan: October 2006-January 2007 </strong></p>
+<p>The final draft plan was completed by compilation of all of the aforementioned segments.</p>
+<p><strong> What will be the outcome of the master planning process? </strong></p>
+<p>The planning process has resulted in a document that will guide the creation of specific bicycle facilities on city streets. The plan will include guidelines and maps that can be used by the city and the public to guide the process of implementation. The final plan is available for download on the city&rsquo;s website. </p>
+<p><strong> When will the plan be implemented? </strong></p>
+<p>The drafting of the plan is complete and the final plan (available for download on our website) will go to City Council for adoption at end of 2007 or beginning of 2008. Implementation of the recommendations in the plan will occur over the next 10 years pending funding.</p>
+<p><strong> How can I make suggestions and get my ideas considered? </strong></p>
+<p> Although the public comment period has ended for the creation of the planning document, we encourage you to contact us with questions, comments and concerns. Tell us about your specific concerns by sending us an email or by phone. You can contact the Seattle Pedestrian and Bicycle Program at <strong><a href="mailto:walkandbike@seattle.gov">walkandbike@seattle.gov</a></strong> or by phone at 206-684-7583. <br>
+    <br>
+    <strong>How do I learn more about the Bicycle Master Plan? </strong><br>
+    <br>
+  See the document and maps posted on the bicycle program website. If you have questions or would like more information on the Bicycle Master Plan project, please contact the Seattle Pedestrian and Bicycle Program by email at <a href="mailto:walkandbike@seattle.gov"><strong>walkandbike@seattle.gov</strong></a> or by phone at 206-684-7583.</p>
+<p> <br>
+  <br>
+
+
+
+
+
+
+
+
+
+	
+  <!--END CONTENT HERE   -->
+	</p>
+</td>
+  </tr>
+</table>
+<!--end BODY TABLE-->
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+<TR>
+  <TD valign="top"><table width="775" border="0" cellspacing="0" cellpadding="5" align="center" bgcolor="#5b5bb1">
+<tr>
+  <td align="center" class="smallfooter"><a href="/transportation/">Home</a> | <a href="/transportation/about.htm">About Us</a> | <a href="/transportation/contact.htm">Contact Us</a> | <a href="http://www.seattle.gov/transportation/siteindex.htm">Site Index</a> | <a href="http://www.seattle.gov/transportation/sdotevents.htm">Events</a> | <a href="http://www.seattle.gov/transportation/sdotnews.htm">News</a> | <a href="http://www.seattle.gov/transportation/sdotfaqs.htm">FAQs</a> | <a href="http://www.seattle.gov/transportation/emailalerts.htm">E-Mail Alerts</a></td>
+</tr>
+</table></TD>
+</TR>
+</TABLE>
+<!--CITYWIDE footer-->
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+<TR>
+  <TD><noindex>
+<noindex>
+<style>
+#footerContainer {
+  width:773px;
+	*width:775px;
+  margin:0px auto;
+  border:1px solid #c8c8c8;
+  background: #e1e1e1; 
+}
+#footerContainer ul{
+	list-style: none;
+	margin: 0; padding: 0;
+	float: left;
+  height:145px
+}
+#footerContainer ul li {
+  line-height: 1.25;
+  list-style: none;
+	padding:0px;
+	margin:0px;
+	padding-left:10px;
+	width: 100%;
+	color: #000;
+}
+#footerContainer ul li h2 {
+	padding: 0px;  
+	margin: 0px;
+	margin-bottom:5px;
+	margin-top:5px;
+	font-weight: bold;
+  font-family: arial, helvetica;
+  text-transform:none;
+	font-size: 16px;
+  color:#575757;
+  background-color:transparent;
+}
+#footerContainer ul li a {
+	float: none; 
+	text-indent: 0; /*--Reset text indent--*/
+  font-family: arial, helvetica;
+  font-size:12px;
+	height: auto;
+  padding: 2px 5px 0px 15px;
+	display: block;
+	text-decoration: none;
+	color: #6d6d6d;
+	font-weight: bold;
+}
+#footerContainer ul li a:hover {color: #007dc3; font-decoration:underline}
+</style>
+<div align="center">
+  <div id="footerContainer" style="display:table;text-align:left">
+		<ul style="width:190px;">
+				<li><h2>Navigate to:</h2></li>
+				<li><a href="/">Seattle.gov Home Page</a></li>
+				<li><a href="/business/">Business In Seattle</a></li>
+				<li><a href="/living/">Living in Seattle</a></li>
+				<li><a href="/visiting/">Visiting Seattle</a></li>
+				<li><a href="/services/">City Services</a></li>
+		</ul>
+		<ul style="width:190px;border-right:1px solid #666">
+				<li><h2>&nbsp;</h2></li>
+				<li><a href="/mayor/">Mayor's Office</a></li>
+				<li><a href="/council/">City Council</a></li>
+				<li><a href="/departments/">City Departments</a></li>
+				<li> &nbsp;</li>
+				<li> &nbsp;</li>
+		</ul>
+		<ul style="width:190px;border-right:1px solid #666">
+				<li><h2>We're Here to Help...</h2></li>
+				<li><a href="/customerservice/request.htm">Questions / Complaints</a></li>
+				<li><a href="/html/citizen/faqs.htm">FAQs</a></li>
+				<li><a href="/directory/">Employee Directory</a></li>
+  			<li><a href="/customerservice/"><b style="color:#000">City Customer Service<br/> Call (206) 684-CITY</b></a></li>
+		</ul>
+		<ul style="width:190px;">
+				<li style=""><h2>Follow Us</h2></li>
+				<li><a href="/citylink">CityLink Blogs</a></li>
+				<li><a href="/html/citizen/socialmedia.htm">Social Media Sites</a></li>
+<!--		<li><a href="">ShareThis</a></li>-->
+		</ul>
+  </div>
+	<div id="footer2" style="margin:0px auto;background-color:#666;color:#eee;width:775px;height:30px;padding:0px;">
+	<ul style="list-style:none;display:inline;width:100%;margin:0px;">
+		<li style="list-style:none;margin:0;padding:0;padding-top:6px;padding-left:10px;float:left;font-family: arial, helvetica;font-size:12px;color:#e1e1e1;">&copy; Copyright 1995-2010 City of Seattle</li>
+		<li style="list-style:none;margin:0;padding:0;padding-top:6px;padding-right:10px;float:right;font-family: arial, helvetica;font-size:12px;"><a style="color:#e1e1e1;text-decoration:none" href="/pan/privacypol.htm">Privacy and Security Policy</a></li>
+	</ul>	
+	</div>
+</div>
+<br/>
+</noindex>
+</noindex></TD>
+</TR>
+</TABLE>
+</div>
+</BODY>
+</HTML>
