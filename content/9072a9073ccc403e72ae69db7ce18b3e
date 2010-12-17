@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Canoe and Kayak Bicycle Trailer</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="A large selection of bike trailers and joggers to connect to your bicycle. Cargo trailers, canoe trailers, and child trailer are sold online" />
+<meta name="keywords" content="bike, bicycle, trailer, kid, ,children, trailers, child, jogger, stroller, canoe, special needs, dog, pet, cargo, wike" />
+<link rel="stylesheet" href="css/slimbox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/wike_03_09.css" media="screen" />
+<script type="text/javascript" src="scripts/swfobject.js"></script>
+<script type="text/javascript" src="scripts/mootools-release-1.11.js"></script>
+<script type="text/javascript" src="scripts/slimbox.js"></script>
+
+</head>
+<body>
+
+<div id="topheader">
+<h1>Wike Bicycle Trailers</h1>
+<h1>Bike Trailers and Bike Joggers</h1>
+</div>
+
+<div id="main">
+	
+	<div id="navbar">
+<div class="menu">
+<ul id="menu">
+	<li class="first"><a class="drop" href="child_trailers.php">Child Trailers<!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li class="sub"><a href="child_softie_suspension_bicycle_trailer.php">$599.00 Softie Suspension Bike Trailer</a></li>
+			<li class="sub"><a href="child_premium_double_bicycle_trailer.php">$499.00 Premium Double Bike Trailer</a></li>
+			<li class="sub"><a href="child_premium_single_bicycle_trailer.php">$449.00 Premium Single Bike Trailer</a></li>
+			<li class="sub"><a href="child_moonlite_bicycle_trailer.php">$369.00 Moonlite Bike Trailer</a></li>
+			<li class="sub"><a href="child_XP_bicycle_trailer.php">$249.00 XP Bike Trailer</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+	<li><a class="drop" href="special_needs_trailers.php">Special Needs Trailers<!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li class="sub"><a href="special_needs_large_bicycle_trailer.php">$699.00 Large Special Needs Bike Trailer</a></li>
+			<li class="sub"><a href="special_needs_extra_large_bicycle_trailer.php">$799.00 Extra Large Special Needs Bike Trailer</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+	<li><a class="drop" href="pet_trailers.php">Pet Trailers<!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li class="sub"><a href="pet_bicycle_trailer_standard.php">$299.00 Standard Wagalong Pet Bike Trailer</a></li>
+			<li class="sub"><a href="pet_bicycle_trailer_large.php">$399.00 Large Wagalong Pet Bike Trailer</a></li>
+		</ul>
+
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+	<li><a class="drop" href="cargo_trailers.php">Cargo Trailers<!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li class="sub"><a href="cargo_economy_bicycle_trailer.php">$99.00  Economy Bike Trailer</a></li>
+			<li class="sub"><a href="cargo_speedy_shopper.php">$99.00  Speedy Cart</a></li>
+			<li class="sub"><a href="cargo_diy_kit_bicycle_trailer.php">$129.00  DIY Cargo Bike Trailer Kit</a></li>
+			<li class="sub"><a href="cargo_mobile_ad.php">$149.00  Promotion Sign Trailer Systems</a></li>
+			<li class="sub"><a href="cargo_large_bicycle_trailer.php">$229.00  Heavy Duty Flatbed Trailer</a></li>
+			<li class="sub"><a href="cargo_shopper_bicycle_trailer.php">$249.00  Shopper Bike Trailer</a></li>
+			<li class="sub"><a href="cargo_lockable_large_bicycle_trailer.php">$499.00  Large Lockable Bike Trailer</a></li>
+			<li class="sub"><a href="cargo_park_pioneer_bicycle_trailer.php">$599.00  Landscaping Bike Trailer</a></li>		
+			
+			
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+
+	<li><a class="drop" href="sport_trailers.php">Sport Trailers<!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li class="sub"><a href="sport_golf_bicycle_trailer.php">$129.00 Golf Bike Trailer</a></li>
+			<li class="sub"><a href="sport_touring_bicycle_trailer.php">$299.00 Touring Tourite Bike Trailer</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+
+	
+		<li><a class="drop" href="canoe_trailers.php">Canoe Trailers<!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li class="sub"><a href="canoe_woody_wagon_bicycle_trailer.php">$199.00 Woody Wagon Canoe Bike Trailer</a></li>
+			<li class="sub"><a href="canoe_wanoe_bicycle_cart.php">$99.00 Wike Wanoe Cart</a></li>
+			<li class="sub"><a href="canoe_woody_hitch.php">$119.00 Wike Woody Hitch and Towing Assembly</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+	
+	<li><a class="drop" href="about.php">About Us<!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li class="sub"><a href="team.php">The Wike Team</a></li>
+			<li class="sub"><a href="history.php">Wike History</a></li>
+			<li class="sub"><a href="why.php">Why We Do It</a></li>
+			<li class="sub"><a href="research.php">Research and Development</a></li>
+			<li class="sub"><a href="contact.php">Contact Us</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+	
+	<li><a class="drop" href="reviews.php">Reviews<!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li class="sub"><a href="review_mother_earth_news.php">Wike Softie - Mother Earth News</a></li>
+			<li class="sub"><a href="review_gear_review.php">Wike Deluxe (Premium Double) - Gear Review</a></li>
+			<li class="sub"><a href="review_adventure_cycling.php">Wike Moonlite - Adventure Cycling</a></li>
+			<li class="sub"><a href="review_bicycling_magazine.php">Wike Moonlite - Bicycling Magazine</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+
+	<li><a class="drop" href="parts_and_support.php">Parts and Support<!--[if gte IE 7]><!--></a><!--<![endif]-->
+		<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li class="sub"><a href="return_warranty.php">Return Policy and Warranty</a></li>
+			<li class="sub"><a href="order_parts.php">Order Parts</a></li>
+			<li class="sub"><a href="bike_trailer_faq.php">FAQ</a></li>
+			<li class="sub"><a href="product_compare.php">Product Comparison</a></li>
+			<li class="sub"><a href="bike_trailer_safety.php">Bike Trailer Safety</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+
+	<li><a href="index.php">Home</a></li>
+</ul>
+</div>
+	</div>
+	
+	<div id="banner">
+	<div id="bannerleft">
+	<h1>The Wike Woody Wagon Canoe Trailer</h1>
+	<p>Road to the water is easier than ever. Only $199!</p>
+	<a href="order_canoe_woody.php"><img src="graphics/main/buildandprice.png" alt="Buy the Wike Woody Wagon Canoe Trailer Now" /></a></div>
+	<div id="bannerright">
+		<div id="flashcontent">
+		<p>You need to upgrade your Flash Player to version 7 or turn javascript on to see this content.</p>
+		
+	</div>
+		<script type="text/javascript">
+window.addEvent('load', function(){
+  var movie = new SWFObject("slideshows/canoe/woody_container.swf", "Wike Woody Wagon", "460", "350", "9", "#FFFFFF");
+  movie.addParam("wmode", "transparent");
+  movie.write("flashcontent");
+});
+</script>
+</div>
+	</div>
+		
+	<div id="topdoubleleftcol">
+	<h1>The Wike Woody Wagon Canoe Trailer</h1>
+	<h2>About the Trailer</h2>
+	<p>Our canoe trailer allows you to pull your canoe or kayak with your bicycle. Consists of two components: the yoke connects the front of your boat with a universal joint to the bicycle seat post, the second is a two wheeled cart the supports the boat. The width of the cart is adjusted one time to fit your canoe or kayak. Both the yoke and the cart a padded. Our ultra-light design is made of aluminum and stainless steel with 20" bicycle wheels which can easily be removed for storage. The Woody Wagon is built in our factory by our <a href="team.php" alt="The Wike team" title="The Wike Team">team</a> of professionals. We ship the Wike Woody Wagon Bicycle Trailer directly to you and you can only purchase it in our secure online store. <a class="buy" href="order_canoe_woody.php">Buy it now!</a></p>
+	<h2>Features</h2>
+	<p>The following features are included on every Wike Woody Wagon:</p>
+	<ul>
+	<li>Padded two piece Yoke with quick connect.</li>
+	<li>Padded three piece portage cart with quick connects</li>
+	<li>Flexible elastomer hitch to allow for universal bicycle movement</li>
+	<li>Total weight 13lbs.</li>
+	<li>Carrying capacity 100 lbs.</li>
+	<li>Maximum boat width 36" with stock kit (call customer service for wider kit)</li>
+	<li>Made of lightweight aluminum.</li>
+	<li>20" bicycle wheels.</li></ul>
+	<h2>Testimonials</h2>
+	<p></p>
+	<img src="images/yakcycleottawasmall.jpg">
+	<p>Thank you so much for promptly sending me the parts for my boat trailer. I was so distraught when someone stole the parts last weekend and I thought I’d be out of a trailer for a while.
+	Having this trailer has greatly enhanced my life, encouraging me to use my kayak more since it has made it really easy for me to go down to the river anytime I want to. I’ve towed my boat all over and across Ottawa, even though the busy downtown streets with relative ease. Attached is a picture of my set up at Victoria Island, my favourite place to put in right within view of Parliament Hill. I modified the towing assembly to fit my kayak specifically with hooks.
+	All the best to you and your team,
+	Glenn Gobuyan, Ottawa
+	<p>Darren ready to roll
+	<img src="images/kayakdarren.jpg"> 
+</p>
+	
+	</ul>
+	</div>
+
+	
+	<div id="toprightcol">
+		<h2>Available Accessories</h2>
+	<p>Extra bike hitches are found on parts page</p>
+	
+	<h3>Canoe Pack - $50</h3>
+	<a href="graphics/accessories/large/canoe_pack_large.jpg" rel="lightbox" title="Canoe Pack - Bag your Woody Wagon and hop into your canoe."><img src="graphics/accessories/thumbs/canoe_pack_thumb.jpg" alt="Canoe Pack" /></a><p>Canoe pack with shoulder strap. Holds cart with wheels and yoke in a tidy velcro closing bag to be strapped into the canoe while underway.</p>
+	
+	<h3>Extra Axles - $15</h3>
+	<a href="graphics/accessories/large/canoe_extra_axle_large.jpg" rel="lightbox" title="Extra Axles - Use the same Woody Wagon for more than one boat."><img src="graphics/accessories/thumbs/canoe_extra_axle_thumb.jpg" alt="Extra Axles" /></a><p>Do you have a canoe and a kayak? Or two different sized canoes? Buy extra axles and use your Woody Wagon with different boats. We cut axles to suit the width of your boat.</p>
+	
+	<h3>20" Alloy wheel Upgrade - $45</h3>
+	<a href="graphics/accessories/large/large_cargo_alloy_wheels_large.jpg" rel="lightbox" title="Alloy Wheels for long life."><img src="graphics/accessories/thumbs/large_cargo_alloy_wheels_thumb.jpg" alt="Alloy wheels" /></a><p>Upgrade to a pair of push button alloy wheels. These wheels last longer and look great!</p>
+</div>
+	<div id="horiztwo">
+
+
+</div>
+	<div id="footer">
+	Copyright, © 2008 Pi Manufacturing Inc. | Site design and development by <a href="http://www.messagerocket.com">Message Rocket</a> 
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-980583-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script></body>
+</html>
