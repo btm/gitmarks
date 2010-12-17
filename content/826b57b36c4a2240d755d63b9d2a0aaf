@@ -1,0 +1,2102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- $Revision: 1.43 $ -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>
+SSL VPN Client (SVC) on ASA with ASDM Configuration Example - Cisco Systems
+</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+    <meta name="concept" content="Cisco ASA 5500 Series Adaptive Security Appliances"/>
+    <meta name="fb:app_id" content="156494687694418"/>
+    <meta name="accessLevel" content="Guest"/>
+    <meta name="country" content="US"/>
+    <meta name="og:description" content="Secure Socket Layer (SSL) Virtual Private Network (VPN) technology allows you to connect securely from any location to an internal corporate network using one of these methods: "/>
+    <meta name="primaryObjectId" content="ccmigration:09186a008071c428"/>
+    <meta name="og:title" content="SSL VPN Client (SVC) on ASA with ASDM Configuration Example"/>
+    <meta name="og:url" content="http://www.cisco.com/en/US/products/ps6120/products_configuration_example09186a008071c428.shtml"/>
+    <meta name="docType" content="TSD Products Configuration Example"/>
+    <meta name="language" content="en"/>
+    <meta name="contentType" content="cisco.com#US#postSales"/>
+    <meta name="iaPath" content="cisco.com#Products#Cisco Products#Security#Multi-Function Security#Multi-Function Security Appliances#Cisco ASA 5500 Series Adaptive Security Appliances"/>
+    <meta name="ioProblemType" content="Configuration"/>
+    <meta name="Acronym" content="CISCO ASA 5580,CISCO 5520,5580,CISCO ASA 5510,CISCO 5550,ASA5505,ASA5540,CISCO5580,ASA 5520,CISCO 5540,ASA5510,5550,ASA 5580,ASA,5520,CISCO5540,ASA 5550,CISCO5510,CISCO 5510,CISCO 5505,ASA5550,CISCO5505,ASA 5540,CISCO ASA 5540,CISCO 5580,CISCO ASA 5520,5540,5510,ASA 5505,CISCO ASA 5505,CISCO ASA 5550,ASA 5510,5505,CISCO5520,CISCO5550,ASA5580,ASA5520"/>
+    <meta name="ioContentSource" content="PAWS"/>
+    <meta name="description" content="Secure Socket Layer (SSL) Virtual Private Network (VPN) technology allows you to connect securely from any location to an internal corporate network using one of these methods: "/>
+    <meta name="locale" content="US"/>
+    <meta name="og:type" content="website"/>
+    <meta name="og:site_name" content="Cisco"/>
+    <meta name="secondaryConcept" content="Cisco Adaptive Security Device Manager"/>
+    <meta name="secondaryConcept" content="Cisco SSL VPN Client"/>
+    <meta name="date" content="Thu Dec 07 00:00:00 PST 2006"/>
+    <meta name="docRequest" content="/en/US/products/ps6120/products_configuration_example09186a008071c428.shtml"/>
+    <link rel="canonical" href="http://www.cisco.com/en/US/products/ps6120/products_configuration_example09186a008071c428.shtml"/>
+    <meta name="title" content="SSL VPN Client (SVC) on ASA with ASDM Configuration Example"/>
+    
+    
+    <script type="text/javascript" src="/web/fw/j/masterbrand.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/web/fw/c/masterbrand.min.css" />
+    <link rel="stylesheet" type="text/css" href="/web/fw/w/cl/cl.min.css" />
+    
+    
+    <link rel="search" type="application/opensearchdescription+xml" title="Search Cisco.com" href="http://www.cisco.com/web/tsweb/searchplugins/cdc_search.xml" />
+    <script type="text/javascript">cdc.util.useBackpack=true;</script>
+  </head>
+
+  <body id="w1x" class="cdc-fw"><!--googleoff: index--><!--googleoff: snippet -->
+    <!--[if gte IE 9]><div id="gte-ie9" class="ie"><![endif]-->
+    <!--[if IE 8]><div id="ie8" class="ie"><![endif]-->
+    <!--[if IE 7]><div id="ie7" class="ie ie67"><![endif]-->
+    <!--[if lte IE 6]><div id="ie6" class="ie ie67"><![endif]--> 
+
+    
+
+    <div id="fw-mb">
+      <div id="fw-mb-w1">
+        
+    
+<div id="fw-banner">
+<div id="fw-banner-w1"><!-- skiplinks -->
+<div id="fw-mbsk">
+<p><a href="/" tabindex="3">Home</a> <a href="#content">Skip to content</a> <a href="#hinav">Skip to navigation</a> <a href="#pagefooter">Skip to footer</a></p>
+</div>
+
+<!-- logo -->
+<div id="fw-mbl">
+<p><a href="/en/US/hmpgs/index.html">Cisco.com Worldwide Home</a></p>
+</div>
+
+<!-- megamenus -->
+<div id="fw-mm">
+<table class="mm-items" cellspacing="0" summary="">
+<tr>
+<td class="mm-item" id="products-mm-item"><a href="http://www.cisco.com/en/US/products/index.html" class="mm-link">Products &amp; Services</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#products-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="support-mm-item"><a href="http://www.cisco.com/cisco/web/support/index.html" class="mm-link">Support</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#support-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="ordering-mm-item"><a href="http://www.cisco.com/en/US/ordering/index.shtml" class="mm-link">How to Buy</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#ordering-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="training-mm-item"><a href="http://www.cisco.com/en/US/learning/index.html" class="mm-link">Training &amp; Events</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#training-mm-menu" class="mm-reflink">(menu)</a> </td>
+<td class="mm-item" id="partner-mm-item"><a href="http://www.cisco.com/en/US/partners/index.html" class="mm-link">Partners</a> <a href="http://www.cisco.com/web/fw/co/menu-content.html#partner-mm-menu" class="mm-reflink">(menu)</a> </td>
+</tr>
+</table>
+</div>
+
+<!-- end #fw-mm -->
+<!-- search -->
+<span class="search-entitlement">Guest</span> 
+
+<div id="fw-mbs">
+<form name="sitewidesearch" action="http://tools.cisco.com/search/JSP/search-results.get" method="get" id="sitewidesearch"><label for="searchPhrase" name="search" id="search">Search</label> 
+
+<p class="field-button"><input type="text" tabindex="1" name="strQueryText" class="field-button-field" id="searchPhrase" value="" autocomplete="off"> <input type="submit" tabindex="2" value="Search" class="field-button-button" id="go"></p>
+
+<input type="hidden" value="cisco.com" name="Search All cisco.com"> <input type="hidden" value="en" name="language"> <input type="hidden" value="US" name="country"> <input type="hidden" value="f" name="thissection"> <input type="hidden" value="Guest" name="accessLevel"></form>
+</div>
+
+<!-- end #fw-mbs -->
+<script type="text/javascript">
+          if ((typeof cdc.search) == "undefined"){
+             cdc.search = new Object();
+          }
+          cdc.search.country = "US";
+          cdc.search.language = "en";
+        
+</script>
+
+ <!-- toolbar -->
+ 
+
+<div id="fw-ft-basic">
+<div class="ft-toolbar">
+<div class="ft-group ft-country-lang-group">
+<div class="ft-sect ft-country"><a href="http://cisco.com/en/US/swassets/sw274/sitewide_country_language_selector.html" class="ft-label"><span class="ft-country-name">Worldwide</span> <span class="ft-country-change">[change]</span></a></div>
+</div>
+
+<div class="ft-group ft-guest-group">
+<div class="ft-sect ft-login"><a href="/cgi-bin/login" class="ft-label">Log In</a></div>
+
+<div class="ft-sect ft-account"><a href="http://www.cisco.com/web/siteassets/account/index.html" class="ft-label">Account</a></div>
+
+<div class="ft-sect ft-register"><a href="http://tools.cisco.com/RPF/register/register.do" class="ft-label">Register</a></div>
+
+<div class="ft-sect"><a href="http://www.cisco.com/cisco/psn/web/workspace" class="ft-label">My Cisco</a></div>
+</div>
+</div>
+
+<!-- end #ft-toolbar -->
+</div>
+
+<!-- end #fw-ft-basic -->
+</div>
+
+<!-- end #fw-banner-w1 -->
+</div>
+
+<!-- end #fw-banner -->
+<!-- END MasterBrand Banner SSI (guest) -->
+
+  
+
+        
+        <div id="mb-title-nav-bar" class="clearfix">
+          <div id="framework-content-titles"><!--googleon: index--><!--googleon: snippet-->
+            <h1 class="title-section">Cisco ASA 5500 Series Adaptive Security Appliances</h1>
+            <h2 class="title-page">SSL VPN Client (SVC) on ASA with ASDM Configuration Example</h2><!--googleoff: index--><!--googleoff: snippet-->
+          </div>
+        </div> <!-- end #mb-title-nav-bar -->
+        
+
+        <table id="framework-base-main" cellspacing="0" cellpadding="0" border="0" summary="">
+          <tr>
+            <td id="framework-column-left" valign="top"><a name="hinav"></a>
+              <div class="hinav"><h3>Hierarchical Navigation</h3><ul class="outer"><li><a href="/en/US/hmpgs/index.html" class="parent">HOME</a><ul><li><a href="/en/US/support/index.html" class="parent">SUPPORT</a><ul><li><a href="/cisco/web/psa/configure.html?mode=prod" class="parent">PRODUCT SUPPORT</a><ul><li><a href="/cisco/web/psa/configure.html?mode=prod&amp;level0=268438162" class="parent">SECURITY</a><ul><li><a href="/en/US/products/ps6120/tsd_products_support_series_home.html" class="parent">CISCO ASA 5500 SERIES ADAPTIVE SECURITY APPLIANCES</a><ul><li><a href="/en/US/products/ps6120/tsd_products_support_configure.html" class="parent">CONFIGURE</a><ul><li><a href="/en/US/products/ps6120/prod_configuration_examples_list.html" class="parent">CONFIGURATION EXAMPLES AND TECHNOTES</a><ul><li><strong><a href="/en/US/products/ps6120/products_configuration_example09186a008071c428.shtml" class="selected">SSL VPN Client (SVC) on ASA with ASDM Configuration Example</a></strong></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div>
+              
+              
+              
+              
+
+<!-- begin embedded feedback form -->
+<a name="anchor_to_feedback"></a> 
+
+<script type="text/javascript" src="http://www.cisco.com/public/support/feedback/js/tt/right/main_cdc.js">
+</script>
+
+<!-- end feedback form -->
+
+
+              
+              
+              
+              
+              
+            </td> <!-- end #framework-column-left -->
+
+            <td id="framework-column-center">
+              <!-- temporary place for c1 and c2 -->
+              
+              
+
+              <table cellspacing="0" id="framework-base-content">
+                <tr>
+                  <td id="framework-column-main"><a name="content"></a><!--googleon: index--><!--googleon: snippet-->
+                    <div id="framework-content-main">
+                      <!-- Start of the actual text content -->
+
+                      <table id="content-right-top" align="right" border="0" cellspacing="0" cellpadding="0" summary="">
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                      </table>
+
+                      <?xml version="1.0" encoding="UTF-8"?>
+<div class="contentMargins"><span class="content">
+<!-- META NAME="audience" CONTENT="support" -->
+<!-- META NAME="contributors" CONTENT="null" -->
+<!-- META NAME="coverage" CONTENT="US" -->
+<!-- META NAME="creator" CONTENT="wishaw" -->
+<!-- META NAME="date.created" CONTENT="06-20-2006" -->
+<!-- META NAME="date.modified" CONTENT="12-07-2006" -->
+<!-- META NAME="identifier" CONTENT="/en/US/products/ps6120/products_configuration_example09186a008071c428.shtml" -->
+<!-- META NAME="language" CONTENT="US_EN" -->
+<!-- META NAME="maintainers" CONTENT="cco-techtips" -->
+<!-- META NAME="reviewers" CONTENT="pseran, wishaw, prabnaga, snallasa, balinem" -->
+<!-- META NAME="publishers" CONTENT="delynch, jaowens, jvaglia" -->
+<!-- META NAME="security" CONTENT="External" -->
+<!-- META NAME="size" CONTENT="36689" -->
+<!-- META NAME="Description" CONTENT="Secure Socket Layer (SSL) Virtual Private Network (VPN) technology allows you to connect securely from any location to an internal corporate network using one of these methods: " -->
+<!-- META NAME="subject.primary" CONTENT="Products:Cisco Products:Security:Multi-Function Security:Multi-Function Security Appliances:Cisco ASA 5500 Series Adaptive Security Appliances" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Security:Multi-Function Security:Multi-Function Security Management:Cisco Adaptive Security Device Manager" -->
+<!-- META NAME="subject.secondary" CONTENT="Products:Cisco Products:Security:Virtual Private Networks (VPN):Cisco VPN Clients:Cisco SSL VPN Client" -->
+<!-- META NAME="title" CONTENT="SSL VPN Client (SVC) on ASA with ASDM Configuration Example" -->
+<!-- META NAME="type.information" CONTENT="Product Configuration Example" -->
+<!-- META NAME="type.problem" CONTENT="Configuration" -->
+<!-- META NAME="roadMap" CONTENT="Security and VPN" -->
+<!-- META NAME="document.id" CONTENT="70511" --><table width='100%'><tr height='20px'><td><H3>Document ID: 70511</H3></td><td  aligh='right' width='200px' class="noPrint"><!--googleoff: all--><!-- AddThis Button BEGIN --><script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script> <div class="addthis_toolbox addthis_default_style"><a class="addthis_button_print" title="Print"></a><a class="addthis_button_email" title="Email"></a><a class="addthis_button_favorites" title="Save to Favorites" ></a>           <a class="addthis_button_google"></a><a class="addthis_button_twitter"></a><a class="addthis_button_facebook"></a>           <span class="addthis_separator">|</span><a href="http://www.addthis.com/bookmark.php?v=250&amp;username=ciscosupport" class="addthis_button_expanded">More</a></div><br/><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?username=ciscosupport"></script><!-- AddThis Button END --><!--googleon: all--> </td></tr></table> <!--StartReplaceDivFrame--><!--PAWS:StartOFRelatedDocumentsSection--><!--googleoff: all--><link href="http://www.cisco.com/web/fw/c/painted_libra.css" rel="stylesheet" type="text/css"  ></link>  <style type="text/css">@media print {.noPrint { position:absolute; display: none; }}</style><script language="JavaScript">function toggle(obj) {  var el = document.getElementById(obj); el.style.display = (el.style.display != 'none' ? 'none' : '' ); }  </script> <div class="module-sidebar-xsl noPrint"  style="text-align:left"> <table class="noPrint" id="content-right-top"  border="0" cellspacing="0" cellpadding="0" summary=""><tr> <td valign="top" ><div><h3 class="main-header">Downloads</h3> <a href="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa.pdf" class="contentlink" target="_blank"> SSL VPN Client (SVC) on ASA with ASDM Configuration Example <img src="http://www.cisco.com/swa/i/icon_pdf.gif" height="16" width="20" /></a> <br style='line-height: 5px;'><br style='line-height: 5px;'><h3 class="main-header">Related Documents</h3><ul id="relatedDocumentsUL"></ul><div id="firstFiveDcosRelDocs"><UL id="relatedDocumentsDefaultUL"><script type="text/javascript" src="http://www.cisco.com/image/gif/paws/101/parseXml.json"></script> <SCRIPT LANGUAGE="JavaScript"> doSearch('205','6','SSL VPN Client (SVC) on ASA with ASDM Configuration Example'); </SCRIPT><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6120/products_configuration_example09186a008071c428.shtml">SSL VPN Client (SVC) on ASA with ASDM Configuration Example </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6120/products_configuration_example09186a008072462a.shtml">Thin-Client SSL VPN (WebVPN) on ASA with ASDM Configuration Example </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6496/products_configuration_example09186a0080720346.shtml">SSL VPN Client (SVC) on IOS with SDM Configuration Example </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6496/products_configuration_example09186a008096fcf5.shtml">ASA 7.2(2): SSL VPN Client (SVC) for Public Internet VPN on a Stick Configuration Example </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6120/products_configuration_example09186a00806ea271.shtml">Clientless SSL VPN (WebVPN) on ASA Configuration Example </a></li></UL> </div> <br style='line-height: 3px;'><a style='font-size: 12px;font-family: Arial;font-weight: bold;text-decoration:underline;' target="_blank" href="http://tools.cisco.com/search/JSP/search-results.get?strQueryText=SSL VPN Client (SVC) on ASA with ASDM Configuration Example">More...</a><br style='line-height: 5px;'><br style='line-height: 5px;'><h3 class="main-header">Related Products/Technology</h3><div id="firstFiveDcos"><UL><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6496/tsd_products_support_configure.html?referring_site=smartnav">Cisco SSL VPN Client </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6120/tsd_products_support_configure.html?referring_site=smartnav">Cisco ASA 5500 Series Adaptive Security Appliances </a></li><li>&#8226; <a target="_blank" href="http://www.cisco.com/en/US/products/ps6121/tsd_products_support_configure.html?referring_site=smartnav">Cisco Adaptive Security Device Manager </a></li></UL></div><br style='line-height: 7px;'><h3 class="main-header" id='discussionMainHead' style="DISPLAY: none" >Related Discussion</h3><div id="discussionURLS"><script> function addDiscutionURLs(ciscoReadWrite){if(typeof(ciscoReadWrite)=='undefined' || ciscoReadWrite == null){  toggle('discussionMainHead'); return;}var threadFlag='false'; var ciscoThreads=ciscoReadWrite.threads; var out=""; var discURLs = new String();discURLs = discURLs+'<ul>';var disCount=0; for (var wordss in ciscoThreads){ if(disCount>=5){break;}disCount=disCount+1; out=ciscoThreads[wordss]; var name = out['name']; var url = out['url']; threadFlag = 'true';  discURLs = discURLs +'<li>&#8226; <a href="'+url+'">'+name+'</a></li>'; } discURLs = discURLs+'</ul>';document.getElementById('discussionURLS').innerHTML = discURLs;if(threadFlag=='true'){ toggle('discussionMainHead'); } } function toggle(obj) {  var el = document.getElementById(obj); el.style.display = (el.style.display != 'none' ? 'none' : '' ); }</script> </div><br style='line-height: 7px;'></div></td></tr></table></div><!--googleon: all--><!--PAWS:EndOFRelatedDocumentsSection-->
+
+<br />
+
+<!-- <script language="JavaScript" src="http://www.cisco.com/public/support/feedback/js/tt/right/main.js">&nbsp;</script> -->
+
+<table>
+<tr>
+<td align="left" valign="top">
+<div style="width:95%" class="module-sidebar-xsl">
+<h2 class="main-header">Contents</h2>
+<b>
+<a href="#intro">Introduction</a>
+</b>
+<br />
+<b>
+<a href="#prereq">Prerequisites</a>
+</b>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#reqs">Requirements</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#hw">Components Used</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#diag">Network Diagram</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#preconfig">Preconfiguration Tasks</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#conv">Conventions</a>
+<br />
+<b>
+<a href="#configuresvc">Configure the SSL VPN Client on an ASA</a>
+</b>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#step1">Step 1. Enable WebVPN Access on the ASA</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#step2">Step 2. Install and Enable the SSL VPN Client on the ASA</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#step3">Step 3. Enable SVC Installation on Clients</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#step4">Step 4. Enable Rekey Parameter</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#results">Results</a>
+<br />
+<b>
+<a href="#customizing">Customize Your Configuration</a>
+</b>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#custom_step1">Step 1. Create a Custom Group Policy</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#custom_step2">Step 2. Create a Custom Tunnel Group</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#custom_step3">Step 3. Create a User and Add That User to Your Custom Group Policy</a>
+<br />
+<b>
+<a href="#veri">Verify</a>
+</b>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#authentication">Authentication</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#configuration">Configuration</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#verifycommands">Commands</a>
+<br />
+<b>
+<a href="#tshoot">Troubleshoot</a>
+</b>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#svc">SVC Error</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#securesess">Has the SVC established a secure session with the ASA?</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#logs">Are secure sessions being established and terminated successfully?</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#dsfg">Check the IP Pool in WebVPN Profile</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#tips">Tips</a>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#comm">Commands</a>
+<br />
+<b>
+<a href="#NetPro">Cisco Support Community - Featured Conversations</a>
+</b>
+<br />
+<b>
+<a href="#related">Related Information</a>
+</b>
+<br />
+</div>
+</td>
+</tr>
+</table> 
+    <h2>
+<a name="intro">Introduction</a>
+</h2> 
+ 
+  <p>Secure Socket Layer (SSL) Virtual Private Network (VPN) technology
+	 allows you to connect securely from any location to an internal corporate
+	 network using one of these methods: </p> <ul> 
+  <li> 
+	 <p> <b>Clientless SSL VPN (WebVPN)</b>&#8212;Provides a remote
+		client that requires an SSL-enabled Web browser to access HTTP or HTTPS Web
+		servers on a corporate local-area network (LAN). In addition, clientless SSL
+		VPN provides access for Windows file browsing through the Common Internet File
+		System (CIFS) protocol. Outlook Web Access (OWA) is an example of HTTP
+		access.</p> 
+	 <p>Refer to
+		<a href="http://www.cisco.com/en/US/products/ps6120/products_configuration_example09186a00806ea271.shtml">Clientless
+		SSL VPN (WebVPN) on ASA Configuration Example</a> in order to learn more
+		about the Clientless SSL VPN.</p>
+</li> 
+  <li> 
+	 <p>
+<b>Thin-Client SSL VPN (Port Forwarding)</b>&#8212;Provides a
+		remote client that downloads a small Java-based applet and allows secure access
+		for Transmission Control Protocol (TCP) applications that use static port
+		numbers. Post Office Protocol (POP3), Simple Mail Transfer Protocol (SMTP),
+		Internet Message Access Protocol (IMAP), secure shell (ssh), and Telnet are
+		examples of secure access. Because files on the local machine change, users
+		must have local administrative privileges to use this method. This method of
+		SSL VPN does not work with applications that use dynamic port assignments, such
+		as some file transfer protocol (FTP) applications.</p> 
+	 <p>Refer to
+		<a href="http://www.cisco.com/en/US/products/ps6120/products_configuration_example09186a008072462a.shtml">Thin-Client
+		SSL VPN (WebVPN) on ASA with ASDM Configuration Example</a> in order to
+		learn more about the Thin-Client SSL VPN.</p> 
+	  
+		<p>
+<b>Note:&nbsp;</b>User Datagram Protocol (UDP) is not supported.</p> 
+	 </li> 
+  <li> 
+	 <p>
+<b>SSL VPN Client (Tunnel Mode)</b>&#8212;Downloads a small
+		client to the remote workstation and allows full secure access to resources on
+		an internal corporate network. You can download the SSL VPN Client (SVC) to a
+		remote workstation permanently, or you can remove the client once the secure
+		session is closed.</p>
+</li>
+</ul> 
+  <p>This document describes how to configure the SVC on an Adaptive
+	 Security Appliance (ASA) using the Adaptive Security Device Manager (ASDM). The
+	 command lines that result from this configuration are listed in the
+	 <a href="#results">Results</a> section.</p> 
+  <h2>
+<a name="prereq">Prerequisites</a>
+</h2> 
+<h3>
+<a name="reqs">Requirements</a>
+</h3> 
+  <p> Before you attempt this configuration, ensure that you meet these
+	 requirements:</p> <ul> 
+  <li> 
+	 <p>SVC starts support from Cisco Adaptive Security Appliance Software
+		Version 7.1 and later</p>
+</li> 
+  <li> 
+	 <p>Local administrative privileges on all remote
+		workstations</p>
+</li> 
+  <li> 
+	 <p>Java and ActiveX controls on the remote workstation</p>
+	 </li> 
+  <li> 
+	 <p>Port 443 is not blocked anywhere along the connection
+		path</p>
+</li>
+</ul> 
+ 
+<h3>
+<a name="hw">Components Used</a>
+</h3> 
+  <p>The information in this document is based on these software and
+	 hardware versions: </p> <ul> 
+  <li> 
+	 <p>Cisco Adaptive Security Appliance Software Version
+		7.2(1)</p>
+</li> 
+  <li> 
+	 <p>Cisco Adaptive Security Device Manager 5.2(1)</p>
+</li> 
+  <li> 
+	 <p>Cisco Adaptive Security Appliance 5510 series</p> </li> 
+  <li> 
+	 <p>Microsoft Windows XP Professional SP
+		2</p>
+</li>
+</ul> 
+  <p>The information in this document was developed in a lab environment.
+	 All devices used in this document started were reset to their default
+	 configuration. If your network is live, make sure you understand the potential
+	 impact of any command. All IP addresses used in this configuration were
+	 selected from RFC 1918 addresses in a lab environment; these IP addresses are
+	 not routable on the Internet and are for test purposes only.</p> 
+ 
+<h3>
+<a name="diag">Network Diagram</a>
+</h3> 
+  <p>This document uses the network configuration described in this
+	 section.</p> 
+  <p>A remote user connects to the IP address of the ASA with an SSL-enabled
+	 Web browser. After successful authentication, the SVC is downloaded to the
+	 client computer, and the user can use an encrypted secure session for full
+	 access to all the permitted resources on the corporate network.</p> 
+   
+	 <p>
+<img alt="sslvpnclient_asa01.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa01.gif" usemap="" />
+</p>
+	 
+   
+ 
+<h3>
+<a name="preconfig">Preconfiguration Tasks</a>
+</h3> 
+  <p>Before you begin, complete these tasks:</p> <ul> 
+  <li> 
+	 <p>Refer to
+		<a href="http://www.cisco.com/en/US/docs/security/asa/asa72/configuration/guide/mgaccess.html#wp1047288">Allowing
+		HTTPS Access for ASDM</a> in order to allow the ASA to be configured by the
+		ASDM.</p> 
+	 <p>To access the ASDM application, from your management station, use an
+		SSL-enabled Web browser and enter the IP address of the ASA device. For
+		example: <b>https://<i>inside_ip_address,</i>
+</b> where
+		<i>inside_ip_address</i> is the address of the ASA. Once ASDM is
+		loaded, you can begin configuration of the SVC.</p>
+</li> 
+  <li> 
+	 <p>Download the SSL VPN Client package (sslclient-win*.pkg) from the
+		<a href="http://www.cisco.com/pcgi-bin/tablebuild.pl/sslvpnclient">Cisco
+		Software Download </a>
+           (<font size="-1 ">
+<a href="http://tools.cisco.com/RPF/register/register.do">registered</a> customers only</font>)
+         website to the local hard drive of the management
+		station from which you access the ASDM application.</p>
+	 </li>
+</ul> 
+  <p> WebVPN and ASDM cannot be enabled on the same ASA interface unless you
+	 change the port numbers. If you want the two technologies to use the same port
+	 (port 443) on the same device, you can enable ASDM on the
+	 <i>inside</i> interface and enable WebVPN on the
+	 <i>outside</i> interface. </p> 
+ 
+<h3>
+<a name="conv">Conventions</a>
+</h3> 
+  <p>For more information about document conventions, refer to the
+	 <a href="http://www.cisco.com/en/US/tech/tk801/tk36/technologies_tech_note09186a0080121ac5.shtml">Cisco
+	 Technical Tips Conventions</a>.</p> 
+
+<h2>
+<a name="configuresvc">Configure the SSL VPN Client on an ASA</a>
+</h2> 
+ 
+  <p>To configure the SSL VPN Client on an ASA, complete these steps:</p>
+  
+ 
+ <ol type="1"> 
+  <li> 
+	 <p>
+<a href="#step1">Enable WebVPN Access on the
+		ASA</a>
+</p>
+</li> 
+  <li> 
+	 <p>
+<a href="#step2">Install and Enable the SSL VPN Client on the
+		ASA</a>
+</p>
+</li> 
+  <li> 
+	 <p>
+<a href="#step3">Enable SVC Installation on
+		Clients</a>
+</p>
+</li> 
+  <li> 
+	 <p>
+<a href="#step4">Enable Rekey
+		Parameters</a>
+</p>
+</li> </ol> 
+ 
+<h3>
+<a name="step1">Step 1. Enable WebVPN Access on the ASA</a>
+</h3> 
+   
+  <p>To enable WebVPN access on the ASA, complete these
+	 steps:</p>
+<ol type="1"> 
+  <li> 
+		<p>Within the ASDM application, click <b>Configuration</b>,
+		  and then click <b>VPN</b>.</p> 
+  </li> 
+  <li> 
+		<p>Expand <b>WebVPN</b>, and choose <b>WebVPN
+		  Access</b>.</p> 
+	 <p>
+<img alt="sslvpnclient_asa02.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa02.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Select the interface for which you want to enable WebVPN, and click
+		  <b>Enable.</b>
+</p> 
+  </li>
+</ol> 
+ 
+<h3>
+<a name="step2">Step 2. Install and Enable the SSL VPN Client on the ASA</a>
+</h3>  
+  <p>To install and enable the SSL VPN Client on the ASA, complete these
+	 steps:</p>  <ol type="1"> 
+  <li> 
+		<p>Click <b>Configuration</b>, and then click
+		  <b>VPN</b>.</p> 
+  </li> 
+  <li> 
+		<p>In the navigation pane, expand <b>WebVPN</b>, and choose
+		  <b>SSL VPN Client</b>.</p> 
+	 <p>
+<img alt="sslvpnclient_asa03.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa03.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click <b>Add</b>.</p> 
+	  
+		<p>The Add SSL VPN Client Image dialog box appears.</p> 
+	  
+	 <p>
+<img alt="sslvpnclient_asa04a.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa04a.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click the <b>Upload</b> button.</p> 
+	  
+	  
+		<p> The Upload Image dialog box appears.</p> 
+	  
+	 <p>
+<img alt="sslvpnclient_asa04b.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa04b.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click the <b>Browse Local Files</b> button to locate a
+		  file on your local computer, or click the <b>Browse Flash</b> button
+		  to locate a file on the flash file system.</p> 
+  </li> 
+  <li> 
+		<p> Locate the client image file to upload, and click
+		  <b>OK</b>.</p> 
+	  
+  </li> 
+  <li> 
+		<p>Click <b>Upload File</b>, and then click
+		  <b>Close</b>.</p> 
+  </li> 
+  <li> 
+		<p>Once the client image is loaded to flash, check the <b>Enable
+		  SSL VPN Client</b> check box, and then click
+		  <b>Apply</b>.</p> 
+	  
+	 <p>
+<img alt="sslvpnclient_asa05.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa05.gif" usemap="" />
+</p>
+		
+		 
+		  <p>
+<b>Note:&nbsp;</b>If you receive an error message, verify that WebVPN access is
+			 enabled. In the navigation pane, expand <b>WebVPN</b>, and choose
+			 <b>WebVPN Access</b>. Select the interface for which you want to
+			 configure access, and click<b> Enable</b>.</p> 
+		<p>
+<img alt="sslvpnclient_asa06.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa06.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click <b>Save</b>, and then click <b>Yes</b> to
+		  accept the changes.</p> 
+  </li> </ol> 
+ 
+<h3>
+<a name="step3">Step 3. Enable SVC Installation on Clients</a>
+</h3> 
+   
+  <p>To enable SVC installation on clients, complete these
+	 steps:</p> <ol type="1"> 
+  <li> 
+		<p>In the navigation pane, expand <b>IP Address
+		  Management</b>, and choose <b>IP Pools</b>.
+		  </p> 
+	 <p>
+<img alt="sslvpnclient_asa07.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa07.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click <b>Add</b>, enter values in the Name, Starting IP
+		  Address, Ending IP Address, and Subnet Mask fields. The IP addresses that you
+		  enter for the Starting IP Address and Ending IP Address fields must come from
+		  subnets on your internal network.</p> 
+	 <p>
+<img alt="sslvpnclient_asa08.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa08.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click <b>OK</b>, and then click
+		  <b>Apply</b>.</p> 
+  </li> 
+  <li> 
+		<p>Click <b>Save</b>, and then click <b>Yes</b> to
+		  accept the changes.</p> 
+  </li> 
+  <li> 
+		<p>In the navigation pane, expand <b>IP Address
+		  Management</b>, and choose
+		  <b>Assignment</b>.</p> 
+  </li> 
+  <li> 
+		<p>Check the <b>Use internal address pools</b> check box,
+		  and then uncheck the <b>Use authentication server </b>and <b>Use
+		  DHCP</b> check boxes.</p> 
+	 <p>
+<img alt="sslvpnclient_asa09.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa09.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click <b>Apply</b>.</p> 
+  </li> 
+  <li> 
+		<p>Click <b>Save</b>, and then click <b>Yes</b> to
+		  accept the changes.</p> 
+  </li> 
+  <li> 
+		<p>In the navigation pane, expand <b>General</b>, and choose
+		  <b>Tunnel Group</b>.</p> 
+  </li> 
+  <li> 
+		<p>Select the tunnel group you want to manage, and click
+		  <b>Edit</b>.</p> 
+	  
+	 <p>
+<img alt="sslvpnclient_asa10.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa10.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click the <b>Client Address Assignment</b> tab, and
+		  select the newly created IP address pool from the Available Pools
+		  list.</p> 
+	 <p>
+<img alt="sslvpnclient_asa11.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa11.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click <b>Add</b>, and then click
+		  <b>OK</b>.</p> 
+  </li> 
+  <li> 
+		<p>In the ASDM application window, click
+		  <b>Apply</b>.</p> 
+  </li> 
+  <li> 
+		<p>Click <b>Save</b>, and then click <b>Yes</b> to
+		  accept the changes.</p> 
+  </li>
+</ol> 
+ 
+<h3>
+<a name="step4">Step 4. Enable Rekey Parameter</a>
+</h3> 
+  <p>To enable rekey parameters:</p>
+<ol type="1"> 
+  <li> 
+		<p>In the navigation pane, expand <b>General</b>, and choose
+		  <b>Group Policy</b>.</p> 
+  </li> 
+  <li> 
+		<p>Select the policy you want to apply to this group of clients, and
+		  click <b>Edit</b>.</p> 
+	  
+	 <p>
+<img alt="sslvpnclient_asa12.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa12.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Under the General tab, uncheck the <b>Tunneling Protocols
+		  Inherit</b> check box, and check the <b>WebVPN </b>check
+		  box.</p> 
+	 <p>
+<img alt="sslvpnclient_asa13.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa13.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click the <b>WebVPN</b> tab, click the <b>SSLVPN
+		  Client</b> tab, and choose these options:</p> 
+	 <ol type="a"> 
+	 <li> 
+		  <p>For the Use SSL VPN Client option, uncheck the
+			 <b>Inherit</b> check box, and click the <b>Optional</b>
+			 radio button.</p> 
+		 
+		  <p>This choice allows the remote client to choose whether or not to
+			 download the SVC. The <i>Always</i> choice ensures that the SVC
+			 is downloaded to the remote workstation during each SSL VPN connection.</p> 
+		 
+	 </li> 
+	 <li> 
+		  <p>For the Keep Installer on Client System option, uncheck the
+			 <b>Inherit</b> check box, and click the <b>Yes</b> radio
+			 button.</p> 
+		 
+		  <p>This action allows the SVC software to remain on the client
+			 machine; therefore, the ASA is not required to download the SVC software to the
+			 client each time a connection is made. This option is a good choice for remote
+			 users who often access the corporate network.</p> 
+		 
+	 </li> 
+	 <li> 
+		  <p>For the Renegotiation Interval option, uncheck the
+			 <b>Inherit</b> box, uncheck the <b>Unlimited</b> check box,
+			 and enter the number of minutes until rekey.</p> 
+		 
+		  <p>Security is enhanced by setting limits on the length of time a
+			 key is valid.</p> 
+		 
+	 </li> 
+	 <li> 
+		  <p>For the Renegotiation Method option, uncheck the
+			 <b>Inherit</b> check box, and click the <b>SSL</b> radio
+			 button. Renegotiation can use the present SSL tunnel or a new tunnel created
+			 expressly for renegotiation.</p> 
+		 
+		  <p>Your SSL VPN Client attributes should be configured as shown in
+			 this image:</p> 
+		 
+		<p>
+<img alt="sslvpnclient_asa14.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa14.gif" usemap="" />
+</p>
+		  
+		 
+	 </li>
+</ol> 
+  </li> 
+  <li> 
+		<p>Click <b>OK</b>, and then click
+		  <b>Apply</b>.</p> 
+  </li> 
+  <li> 
+		<p>Click <b>Save</b>, and then click <b>Yes</b> to
+		  accept the changes.</p> 
+  </li>
+</ol> 
+ 
+<h3>
+<a name="results">Results</a>
+</h3> 
+  <p>The ASDM creates these command-line configurations:</p> 
+  <a name="pix" />
+<table bgcolor="#FFFFFF" cellpadding="3" cellspacing="1" border="1" width="60%"> 
+		<tr>
+<th height="" width="" bgcolor="CCCCFF" colspan="1" rowspan="1"> 
+			 <p>ciscoasa</p>
+</th> 
+		</tr> 
+		<tr> 
+		  <td height="" width="" bgcolor="FFFFFF" colspan="1" rowspan="1"> 
+			 <pre>ciscoasa(config)#<b>show run</b>
+ASA Version 7.2(1) 
+!
+hostname ciscoasa
+domain-name cisco.com
+enable password 9jNfZuG3TC5tCVH0 encrypted
+names
+dns-guard
+!
+interface Ethernet0/0
+ nameif outside
+ security-level 0
+ ip address 172.22.1.160 255.255.255.0 
+!
+interface Ethernet0/1
+ nameif inside
+ security-level 100
+ ip address 10.2.2.1 255.255.255.0 
+passwd 2KFQnbNIdI.2KYOU encrypted
+ftp mode passive
+dns server-group DefaultDNS
+ domain-name cisco.com
+no pager
+logging enable
+logging asdm informational
+mtu outside 1500
+mtu inside 1500
+mtu DMZ1 1500
+mtu Mgt 1500
+ip local pool CorporateNet 10.2.2.50-10.2.2.60 mask 255.255.255.0
+icmp permit any outside
+asdm image disk0:/asdm521.bin
+no asdm history enable
+arp timeout 14400
+global (outside) 1 interface
+nat (inside) 1 0 0
+route outside 0.0.0.0 0.0.0.0 172.22.1.1 1
+timeout xlate 3:00:00
+timeout conn 1:00:00 half-closed 0:10:00 udp 0:02:00 icmp 0:00:02
+timeout sunrpc 0:10:00 h323 0:05:00 h225 1:00:00 mgcp 0:05:00 mgcp-pat 0:05:00
+timeout sip 0:30:00 sip_media 0:02:00 sip-invite 0:03:00 sip-disconnect 0:02:00
+timeout uauth 0:05:00 absolute
+!
+<i>
+<font color="#0000ff">!--- Group Policy Statements</font>
+</i>
+group-policy GroupPolicy1 internal
+group-policy GroupPolicy1 attributes
+ vpn-tunnel-protocol IPSec l2tp-ipsec webvpn
+<i>
+<font color="#0000ff">!--- Enable the SVC for WebVPN</font>
+</i>
+ webvpn
+  svc enable
+  svc keep-installer installed
+  svc rekey time 30
+  svc rekey method ssl
+!
+username cisco password 53QNetqK.Kqqfshe encrypted privilege 15
+!
+http server enable
+http 10.2.2.0 255.255.255.0 inside
+!
+no snmp-server location
+no snmp-server contact
+snmp-server enable traps snmp authentication linkup linkdown coldstart
+<i>
+<font color="#0000ff">!--- Tunnel Group and Group Policy using the defaults here</font>
+</i>
+tunnel-group DefaultWEBVPNGroup general-attributes
+ address-pool CorporateNet
+ default-group-policy GroupPolicy1
+!
+no vpn-addr-assign aaa
+no vpn-addr-assign dhcp
+!
+telnet timeout 5
+ssh 172.22.1.0 255.255.255.0 outside
+ssh timeout 5
+console timeout 0
+!
+class-map inspection_default
+ match default-inspection-traffic
+!
+policy-map type inspect dns preset_dns_map
+ parameters
+  message-length maximum 512
+policy-map global_policy
+ class inspection_default
+  inspect dns preset_dns_map 
+  inspect ftp 
+  inspect h323 h225 
+  inspect h323 ras 
+  inspect rsh 
+  inspect rtsp 
+  inspect esmtp 
+  inspect sqlnet 
+  inspect skinny 
+  inspect sunrpc 
+  inspect xdmcp 
+  inspect sip 
+  inspect netbios 
+  inspect tftp 
+!
+service-policy global_policy global
+<i>
+<font color="#0000ff">!--- Enable webvpn and the select the SVC client</font>
+</i>
+webvpn
+ enable outside
+ svc image disk0:/sslclient-win-1.1.1.164.pkg 1
+ svc enable
+<i>
+<font color="#0000ff">!--- Provide list for access to resources</font>
+</i>
+ url-list ServerList "E-Commerce Server1" http://10.2.2.2 1
+ url-list ServerList "BrowseServer" cifs://10.2.2.2 2
+ tunnel-group-list enable
+
+prompt hostname context 
+Cryptochecksum:80a1890a95580dca11e3aee200173f5f
+: end</pre>
+</td> 
+		</tr> 
+  </table>
+<p /> 
+ <h2>
+<a name="customizing">Customize Your Configuration</a>
+</h2> 
+ 
+  <p>The procedures described in <a href="#configuresvc">Configure the
+	 SSL VPN Client on an ASA</a> use the ASA default names for group policy
+	 (<i>GroupPolicy1</i>) and tunnel group
+	 (<i>DefaultWebVPNGroup</i>) as shown in this image:</p> 
+  <p>
+<img alt="sslvpnclient_asa15.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa15.gif" usemap="" />
+</p>
+  
+  <p>This procedure describes how to create your own custom group policies
+	 and tunnel groups and link them together in accordance with the security
+	 policies of your organization.</p> 
+  <p>To customize your configuration, complete these steps:</p> 
+  <ol type="1"> 
+  <li> 
+	 <p>
+<a href="#custom_step1">Create a Custom Group
+		Policy</a>
+</p>
+</li> 
+  <li> 
+	 <p>
+<a href="#custom_step2">Create a Custom Tunnel
+		Group</a>
+</p>
+</li> 
+  <li> 
+	 <p>
+<a href="#custom_step3">Create a User and Add That User to Your
+		Custom Group Policy</a>
+</p>
+</li>
+</ol> 
+ 
+<h3>
+<a name="custom_step1">Step 1. Create a Custom Group Policy</a>
+</h3> 
+   
+  <p> To create a custom group policy, complete these steps:
+	 </p>
+<ol type="1"> 
+  <li> 
+		<p>Click <b>Configuration</b>, and then click
+		  <b>VPN</b>.</p> 
+  </li> 
+  <li> 
+		<p>Expand <b>General</b>, and choose <b>Group
+		  Policy</b>.</p> 
+  </li> 
+  <li> 
+		<p>Click <b>Add</b>, and choose <b>Internal Group
+		  Policy</b>.</p> 
+  </li> 
+  <li> 
+		<p>In the Name field, enter a name for your group
+		  policy.</p> 
+	  
+		<p>In this example, the group policy name has been changed to
+		  <i>SalesGroupPolicy</i>.</p> 
+	  
+	 <p>
+<img alt="sslvpnclient_asa16.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa16.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Under the General tab, uncheck the <b>Tunneling Protocols
+		  Inherit</b> check box, and check the <b>WebVPN</b> check
+		  box.</p> 
+  </li> 
+  <li> 
+		<p>Click the <b>WebVPN</b> tab, and then click the
+		  <b>SSLVPN Client</b> tab.</p> 
+	  
+		<p>In this dialog box, you can also make choices for the behavior of
+		  the SSL VPN Client.</p> 
+	  
+	 <p>
+<img alt="sslvpnclient_asa17.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa17.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click <b>OK</b>, and then click
+		  <b>Apply</b>.</p> 
+  </li> 
+  <li> 
+		<p> Click <b>Save</b>, and then click <b>Yes</b>
+		  to accept the changes.</p> 
+  </li>
+</ol> 
+ 
+<h3>
+<a name="custom_step2">Step 2. Create a Custom Tunnel Group</a>
+</h3> 
+   
+  <p>To create a custom tunnel group, complete these steps:</p>
+  <ol type="1"> 
+  <li> 
+		<p>Click the <b>Configuration</b> button, and then click
+		  <b>VPN</b>.</p> 
+  </li> 
+  <li> 
+		<p>Expand <b>General</b>, and choose <b>Tunnel
+		  Group</b>.</p>
+<p>
+<img alt="sslvpnclient_asa18.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa18.gif" usemap="" />
+</p>
+	 
+  </li> 
+  <li> 
+		<p>Click <b>Add</b>, and choose <b>WebVPN
+		  Access</b>.</p> 
+  </li> 
+  <li> 
+		<p>In the Name field, enter a name for your tunnel
+		  group.</p> 
+	  
+		<p> In this example, the tunnel group name has been changed to
+		  <i>SalesForceGroup</i>.</p> 
+	  
+  </li> 
+  <li> 
+		<p>Click the <b>Group Policy</b> drop-down arrow, and choose
+		  your newly created group policy.</p> 
+	  
+		<p>Your group policy and tunnel group are now linked.</p> 
+	  
+	 <p>
+<img alt="sslvpnclient_asa19.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa19.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click the <b>Client Address Assignment</b> tab, and enter
+		  DHCP Server information or select from a locally created IP pool.</p> 
+	  
+	 <p>
+<img alt="sslvpnclient_asa20.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa20.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click <b>OK</b>, and then click
+		  <b>Apply</b>.</p> 
+  </li> 
+  <li> 
+		<p>Click <b>Save</b>, and then click <b>Yes</b> to
+		  accept the changes. </p> 
+  </li>
+</ol> 
+ 
+<h3>
+<a name="custom_step3">Step 3. Create a User and Add That User to Your Custom Group Policy</a>
+</h3> 
+  <p>To create a user and add that user to your custom group policy,
+	 complete these steps:</p>
+<ol type="1"> 
+  <li> 
+		<p>Click <b>Configuration</b>, and then click
+		  <b>VPN</b>.</p> 
+  </li> 
+  <li> 
+		<p>Expand <b>General</b>, and choose
+		  <b>Users</b>.</p> 
+	 <p>
+<img alt="sslvpnclient_asa21.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa21.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click <b>Add</b>, and enter user name and password
+		  information.</p> 
+	 <p>
+<img alt="sslvpnclient_asa22.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa22.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click the <b>VPN Policy</b> tab. Ensure that your newly
+		  created group policy displays in the Group Policy field.</p> 
+	  
+		<p>This user inherits all the characteristics of the new group policy.
+		  </p> 
+	  
+	 <p>
+<img alt="sslvpnclient_asa23.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa23.gif" usemap="" />
+</p>
+		
+	  
+  </li> 
+  <li> 
+		<p>Click <b>OK</b>, and then click
+		  <b>Apply</b>.</p> 
+  </li> 
+  <li> 
+		<p>Click <b>Save</b>, and then click <b>Yes</b> to
+		  accept the changes.</p> 
+  </li>
+</ol> 
+ <h2>
+<a name="veri">Verify</a>
+</h2> 
+ 
+  <p>Use this section to confirm that your configuration works
+	 properly.</p> 
+ 
+<h3>
+<a name="authentication">Authentication</a>
+</h3> 
+  <p>Authentication for SSL VPN clients is accomplished using one of these
+	 methods:</p> <ul> 
+  <li> 
+	 <p>Cisco Secure ACS Server (Radius)</p>
+</li> 
+  <li> 
+	 <p>NT Domain</p>
+</li> 
+  <li> 
+	 <p>Active Directory</p>
+</li> 
+  <li> 
+	 <p>One-Time Passwords</p>
+</li> 
+  <li> 
+	 <p>Digital Certificates</p>
+</li> 
+  <li> 
+	 <p>Smartcards</p>
+</li> 
+  <li> 
+	 <p>Local AAA Authentication</p>
+</li>
+</ul> 
+  <p>This documentation uses a local account created on the ASA
+	 device.</p> 
+   
+	 <p>
+<b>Note:&nbsp;</b>If an Adaptive Security Appliance has multiple trustpoints that share
+		the same CA, only one of these trustpoints that share the CA can be used to
+		validate user certificates.</p> 
+  
+ 
+<h3>
+<a name="configuration">Configuration</a>
+</h3> 
+  <p>To connect to the ASA with a remote client, enter
+	 <b>https://ASA_outside_address</b> into the address field of an
+	 SSL-enabled Web browser. <i>ASA_outside_address</i> is the
+	 outside IP address of your ASA. If your configuration is successful, the Cisco
+	 Systems SSL VPN Client window appears.</p> 
+  <p>
+<img alt="sslvpnclient_asa24.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa24.gif" usemap="" />
+</p>
+  
+   
+	 <p>
+<b>Note:&nbsp;</b>The Cisco Systems SSL VPN Client window appears only after you accept
+		the certificate from the ASA and after the SSL VPN Client is downloaded to the
+		remote station. If the window does not appear, make sure it is not
+		minimized.</p> 
+   
+ 
+<h3>
+<a name="verifycommands">Commands</a>
+</h3> 
+  <p>Several <b>show</b> commands are associated with
+	 WebVPN. You can execute these commands at the command-line interface (CLI) to
+	 show statistics and other information. For detailed information about
+	 <b>show</b> commands, refer to
+	 <a href="http://www.cisco.com/en/US/docs/ios/12_4t/12_4t11/htwebvpn.html#wp1056952">Verifying
+	 WebVPN Configurations</a>.</p> 
+   
+	 <p>
+<b>Note:&nbsp;</b>The
+		<a href="https://www.cisco.com/cgi-bin/Support/OutputInterpreter/home.pl">Output Interpreter Tool</a>
+           (<font size="-1 ">
+<a href="http://tools.cisco.com/RPF/register/register.do">registered</a> customers only</font>)
+         (OIT) supports certain
+		<b>show</b> commands. Use the OIT to view an analysis of
+		<b>show</b> command output.</p> 
+   
+<h2>
+<a name="tshoot">Troubleshoot</a>
+</h2> 
+ 
+  <p>Use this section to troubleshoot your configuration.</p> 
+ 
+<h3>
+<a name="svc">SVC Error</a>
+</h3> 
+  <p>
+<b>Problem</b>
+</p> 
+  <p>You might receive this error message during the authentication:</p> 
+  <blockquote>
+<pre>"The SSl VPN connection to the remote peer was disrupted
+and could not be automatically re-estabilished. A new connection requires
+re-authentication and must be restarted manually. Close all sensitive networked
+applications."</pre>
+</blockquote> 
+  <p>
+<b>Solution</b>
+</p> 
+  <p>If a firewall service is running on your PC, it can disrupt the
+	 authentication. Stop the service and reconnect the client.</p>
+
+<h3>
+<a name="securesess">Has the SVC established a secure session with the ASA?</a>
+</h3>  
+  <p>To ensure the SSL VPN Client has established a secure session with the
+	 ASA:</p> <ol type="1"> 
+  <li> 
+		<p>Click <b>Monitoring</b>.</p> 
+  </li> 
+  <li> 
+		<p>Expand <b>VPN Statistics</b>, and choose
+		  <b>Sessions</b>. </p> 
+  </li> 
+  <li> 
+		<p>From the Filter By drop-down menu, choose <b>SSL VPN
+		  Client</b>, and click the <b>Filter</b> button.</p> 
+		<p>Your configuration should appear in the sessions
+		  list.</p>
+<p>
+<img alt="sslvpnclient_asa25.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa25.gif" usemap="" />
+</p>
+	 
+  </li>
+</ol> 
+ 
+<h3>
+<a name="logs">Are secure sessions being established and terminated successfully?</a>
+</h3>  
+  <p>You can view the real-time logs to ensure sessions are being
+	 established and terminated successfully. To view session logs:</p>
+   <ol type="1"> 
+  <li> 
+		<p>Click <b>Monitoring</b>, and then click
+		  <b>Logging</b>.</p> 
+  </li> 
+  <li> 
+		<p>Choose the <b>Real-time Log Viewer</b> or <b>Log
+		  Buffer</b>, and then click <b>View</b>.</p> 
+		<p>
+<img alt="sslvpnclient_asa26.gif" border="0" src="http://www.cisco.com/image/gif/paws/70511/sslvpnclient_asa26.gif" usemap="" />
+</p>
+		
+		 
+		  <p>
+<b>Note:&nbsp;</b>To display only sessions from a specific address, filter by
+			 address.</p> 
+		 
+  </li>
+</ol> 
+ 
+<h3>
+<a name="dsfg">Check the IP Pool in WebVPN Profile</a>
+</h3> 
+  <blockquote>
+<pre>%ASA-3-722020: Group group User user-name IP IP_address  No address 
+available for SVC connection</pre>
+</blockquote> 
+  <p>No addresses are available to assign to the SVC connection. Therefore,
+	 assign the IP pool address in the profile.</p> 
+  <p>If you create the new connection profile, then configure an alias or
+	 group-url in order to access this connection profile. If not, all the SSL
+	 attempts will hit the default WebVPN connection profile that did not have an IP
+	 pool tied to it. Set this up to use the default connection profile and put an
+	 IP pool on it. </p>
+
+<h3>
+<a name="tips">Tips</a>
+</h3>
+<ul> 
+  <li> 
+	 <p>Make sure routing works properly with the IP address pool that you
+		assign to your remote clients. This IP address pool should come from a subnet
+		on your LAN. You can also use a DHCP server or Authentication Server to assign
+		IP addresses.</p>
+</li> 
+  <li> 
+	 <p>The ASA creates a default tunnel group
+		(<i>DefaultWebVPNGroup</i>) and a default group policy
+		(<i>GroupPolicy1</i>). If you create new groups and policies,
+		make sure you apply values in accordance with the security policies of your
+		network.</p>
+</li> 
+  <li> 
+	 <p>If you want to enable Windows file browsing through CIFS, enter a
+		WINS (NBNS) server under <b>Configuration &gt; VPN &gt; WebVPN &gt;
+		Servers and URLs</b>. This technology uses the CIFS
+		selection.</p>
+</li>
+</ul> 
+ 
+<h3>
+<a name="comm">Commands</a>
+</h3> 
+  <p>Several <b>debug</b> commands are associated with
+	 WebVPN. For detailed information about these commands, refer to
+	 <a href="http://www.cisco.com/en/US/docs/ios/12_4t/12_4t11/htwebvpn.html#wp1057044">Using WebVPN
+	 Debug Commands</a>.</p> 
+   
+	 <p>
+<b>Note:&nbsp;</b>The use of <b>debug</b> commands can adversely
+		impact your Cisco device. Before you use <b>debug</b>
+		commands, refer to
+		<a href="http://www.cisco.com/en/US/tech/tk801/tk379/technologies_tech_note09186a008017874c.shtml">Important
+		Information on Debug Commands</a>.</p> 
+   
+  
+<h2>
+<a name="NetPro">Cisco Support Community - Featured Conversations</a>
+</h2>
+<!--googleoff: all-->
+<concept>
+<Para>
+<a href="https://supportforums.cisco.com/index.jspa">Cisco Support Community</a> is a forum for you to ask and answer questions, share suggestions, and collaborate with your peers.  Below are just some of the most recent and relevant conversations happening right now.</Para>
+<p />
+<script>
+			function addorModifyReadWrite(ciscoReadWrite){
+			var ciscoThreads=ciscoReadWrite.threads; 		
+			for (var wordss in ciscoThreads){ 
+				ciscoThreads[wordss]['url'] = ciscoThreads[wordss]['url'] + "?referring_site=smartnav";
+				ciscoReadWrite.threads[wordss]['url'] = ciscoThreads[wordss]['url'];
+			}
+			addDiscutionURLs(ciscoReadWrite);
+			}
+		</script>
+<div style="margin-left: 0px;" id="ciscoReadWrite">&amp;nbsp;</div>
+<script type="text/javascript" src="https://supportforums.cisco.com/externalcommunitydataservice.jspa?numThreads=10&amp;communityId=1&amp;q=SSL+||+VPN+||+Client+||+SVC+||+on+||+ASA+||+with+||+ASDM+||+Configuration+||+Example">&amp;nbsp;</script>
+<script>
+		var ciscoReadWrites = new ReadWriteModule();
+		ciscoReadWrites.init(); 
+		addorModifyReadWrite(ciscoReadWrites);
+		</script>
+</concept>
+<!--googleon: all-->
+<hr />
+<h2>
+<a name="related">Related Information</a>
+</h2>
+<ul> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/en/US/products/ps6120/products_configuration_example09186a00806ea271.shtml?referring_site=bodynav">Clientless
+		SSL VPN (WebVPN) on ASA Configuration Example</a> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/en/US/products/ps6120/products_configuration_example09186a008072462a.shtml?referring_site=bodynav">Thin-Client
+		SSL VPN (WebVPN) on ASA with ASDM Configuration Example</a> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/en/US/products/ps6120/products_configuration_example09186a008067e9ff.shtml?referring_site=bodynav">ASA
+		with WebVPN and Single Sign-on using ASDM and NTLMv1 Configuration
+		Example</a> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/en/US/products/ps6120/tsd_products_support_series_home.html?referring_site=bodynav">Cisco ASA
+		5500 Series Adaptive Security Appliances</a> 
+  </b>
+</li> 
+  <li>
+<b> 
+	 <a target="_blank" href="http://www.cisco.com/cisco/web/support/index.html?referring_site=bodynav">Technical Support &amp;
+		Documentation - Cisco Systems</a> 
+  </b>
+</li> 
+</ul> <p xmlns:cal="xalan://java.util.GregorianCalendar" />
+
+<p xmlns:cal="xalan://java.util.GregorianCalendar" />
+
+<p xmlns:cal="xalan://java.util.GregorianCalendar" />
+<font xmlns:cal="xalan://java.util.GregorianCalendar" size="-1">
+
+</font>
+<!-- PIDLMD --><hr width=100%><table width=100%><tr><td align=left>Updated: Dec 07, 2006</td><td align=right>Document ID: 70511</td></tr></table><hr width=100%><!-- PIDLMD -->
+</span></div>
+
+                      <table id="content-right-bottom" align="right" border="0" cellspacing="0" cellpadding="0" summary="">
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                        <tr><td valign="top" align="right"></td></tr>
+                      </table>
+
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+
+                      <!-- End of the actual text content --><!--googleoff: index--><!--googleoff: snippet-->
+                    </div> <!-- end #framework-content-main -->
+                  </td> <!-- end #framework-column-main -->
+
+                  <td id="framework-column-right">
+                    <div id="framework-content-right">
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                    </div> <!-- end #framework-content-right -->
+                  </td> <!-- end #framework-column-right -->
+                </tr>
+              </table> <!-- end #framework-base-content -->
+            </td> <!-- end #framework-column-center -->
+          </tr>
+        </table> <!-- end #framework-base-main -->
+
+        
+        
+    
+<div id="ff">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://newsroom.cisco.com/dlls/index.html">News &amp; Alerts</a></h3>
+
+<ul>
+<li><a href="http://newsroom.cisco.com/dlls/index.html">News@Cisco</a></li>
+
+<li><a href="http://blogs.cisco.com/">Blogs</a></li>
+
+<li><a href="http://www.cisco.com/offer/subctr/nl/190612_1">Newsletters</a></li>
+
+<li><a href="http://www.cisco.com/en/US/support/tsd_products_field_notice_summary.html">Field Notices</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/products_security_advisories_listing.html">Security Advisories</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/pub/software/portal/select.html?i=!ch">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff -->
+<div id="ff-hidden" style="display:none;">
+<div id="ff-collaboration">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/ns1007/index.html">Collaboration</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/products/ps10692/Products_Sub_Category_Home.html">Conferencing</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10684/Products_Sub_Category_Home.html">Customer Care</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10683/Products_Sub_Category_Home.html">Enterprise Social Software</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10691/Products_Sub_Category_Home.html">IP Communications</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10682/Products_Sub_Category_Home.html">Messaging</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10685/Products_Sub_Category_Home.html">Mobile Applications</a></li>
+
+<li><a href="http://www.cisco.com/en/US/products/ps10693/Products_Sub_Category_Home.html">Telepresence</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/web/download/index.html">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff-collaboration -->
+<div id="ff-data-center">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/index.html">Data Center and Virtualization</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/products.html">Products and Solutions</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/networking_solutions_customer_success_stories_list.html">Case Studies</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns743/networking_solutions_program_home.html">Design Zone</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/ecosystem.html">Technology Partnerships</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/ns394/ns224/services.html">Data Center Services</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/web/download/index.html">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff-data-center -->
+<div id="ff-borderless-networks">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/ns1015/index.html">Borderless Networks</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/products.html">Product Portfolio</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/architecture.html">Architecture</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/services.html">Services</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/solutions.html">Solutions</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns1015/industries.html">Industries</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/netsol/index.html">Solutions For</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/en/US/netsol/ns340/networking_solutions_large_enterprise_home.html">Enterprise</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+
+<li><a href="http://www.cisco.com/en/US/netsol/ns341/networking_solutions_service_provider_home.html">Service Provider</a></li>
+
+<li><a href="http://home.cisco.com/">Home</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://www.cisco.com/web/strategy/index.html">Industries</a></h3>
+
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="http://www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.cisco.com/web/solutions/cmsg/index.html">Media and Entertainment (Cisco Eos)</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/trec/index.html">Real Estate</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Partner</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/support/index.html">Support</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/cisco/web/download/index.html">Downloads</a></li>
+
+<li><a href="http://www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/communities/index.html">Communities</a></h3>
+
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+
+<li><a href="http://developer.cisco.com/">Developer Network</a></li>
+
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+
+<li><a href="https://supportforums.cisco.com/index.jspa">Support (NetPro)</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/en/US/about/index.html">About Cisco</a></h3>
+
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/index.html">Corporate Social Responsibility</a></li>
+
+<li><a href="http://www.cisco.com/web/about/citizenship/environment/index.html">Environmental Sustainability</a></li>
+
+<li><a href="http://videolounge.cisco.com/">Human Network</a></li>
+
+<li><a href="http://www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Career Opportunities</a></li>
+</ul>
+</div>
+
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/web/offers/index.html">Offers</a></h3>
+
+<ul>
+<li><a href="http://www.cisco.com/web/offers/index.html">Special Offers</a></li>
+
+<li><a href="http://www.cisco.com/web/ordering/ciscocapital/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div>
+
+<!-- end .ffoot-col .last-col -->
+</div>
+
+<!-- end .ffoot -->
+</div>
+
+<!-- end #ff-borderless-networks -->
+</div>
+
+<!-- end #ff-hidden -->
+<script type="text/javascript">
+cdc.ff.init();
+</script>
+
+<!-- END MasterBrand FatFooter SSI (generic plus hubs)(guest) -->
+
+  
+        <!-- $Revision: 1.5 $ -->
+<a name="pagefooter"></a>
+<div id="framework-footer">
+	<div id="footer-nav">
+	
+	<a href="/web/siteassets/contacts/index.html">Contacts</a> | 
+	<a href="http://tools.cisco.com/cdc/feedbk/public/FeedbackAction.cdcfdb">Feedback</a> | 
+	<a href="/web/help/index.html">Help</a> | 
+	<a href="/web/siteassets/sitemap/index.html">Site Map</a> | 
+	
+	</div>
+	<div id="footer-legal"><a href="/web/siteassets/legal/terms_condition.html">Terms &amp; Conditions</a> |
+     <a href="/web/siteassets/legal/privacy.html">Privacy Statement</a> |
+     <a href="/web/siteassets/legal/privacy.html#cookies">Cookie Policy</a> |
+     <a href="/web/siteassets/legal/trademark.html">Trademarks</a></div>
+	
+</div>		
+
+
+      </div><!-- end #fw-mb-w1 -->
+    </div><!-- end #fw-mb -->
+
+    
+    <!--[if IE]></div><![endif]-->
+    
+    
+
+  </body>
+</html>
