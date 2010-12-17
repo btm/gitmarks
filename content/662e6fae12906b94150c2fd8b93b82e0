@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Refresh" content="300; URL=ivrminigagedata.html">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KCWLRD WLRD - USGS River Gage Data (A)</title>
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td valign="top" width="50"><a href="http://www.kingcounty.gov/environment/waterandland/flooding/warning-system.aspx"><img src="kclogo-pdasize.gif" alt="King County, Washington" height="43" width="50" border="0"></a></td>
+<td width="10"></td><td>KC WLRD - USGS River Gauge Data 'A'<br>12/17/2010 8:32:52 AM</td>
+</tr></table>
+NOTE: This is provisional data supplied by USGS
+<table>
+<tr><th align="left">Gauge</th><th>Date</th><th>Flow</th><th>Stage</th><th>Trend</th></tr>
+<tr><td colspan="5" bgcolor="black"><strong><font color="#FFFFFF">Snoqualmie Basin &nbsp;&nbsp;&nbsp;(phase 0)</font></strong></td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12142000">N Fork</a></td><td bgcolor="#dddddd">12/17 08:15</td><td align="right">599</td><td bgcolor="#dddddd" align="right">3.81</td><td align="right">-10</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12141300">Mid Fork</a></td><td bgcolor="#dddddd">12/17 08:15</td><td align="right">1500</td><td bgcolor="#dddddd" align="right">4.02</td><td align="right">-20</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12143400">S Fork</a></td><td bgcolor="#dddddd">12/17 08:15</td><td align="right">380</td><td bgcolor="#dddddd" align="right">10.97</td><td align="right">-8</td></tr>
+
+<tr><td align="left">SumForks</td><td bgcolor="#dddddd">12/17 08:15</td><td align="right">2479</td><td bgcolor="#dddddd" align="right">--</td><td align="right">-38</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12144500">Snoqualmie</a></td><td bgcolor="#dddddd">12/17 07:30</td><td align="right">3900</td><td bgcolor="#dddddd" align="right">6.83</td><td align="right">-60</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12149000">Carnation</a></td><td bgcolor="#dddddd">12/17 08:15</td><td align="right">6500</td><td bgcolor="#dddddd" align="right">48.77</td><td align="right">-80</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12150400">Duvall</a></td><td bgcolor="#dddddd">12/17 07:00</td><td align="right">--</td><td bgcolor="#dddddd" align="right">30.24</td><td align="right">-0.13</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12134500">Gold Bar</a></td><td bgcolor="#dddddd">12/17 07:30</td><td align="right">5070</td><td bgcolor="#dddddd" align="right">7.21</td><td align="right">-70</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12145500">RagingRvr</a></td><td bgcolor="#dddddd">12/17 07:30</td><td align="right">316</td><td bgcolor="#dddddd" align="right">12.23</td><td align="right">+3</td></tr>
+
+<tr><td colspan="5" bgcolor="black"><strong><font color="#FFFFFF">Tolt River &nbsp;&nbsp;&nbsp;(phase 0)</font></strong></td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12147500">N Fork</a></td><td bgcolor="#dddddd">12/17 08:15</td><td align="right">485</td><td bgcolor="#dddddd" align="right">4.99</td><td align="right">-4</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12148000">S Fork</a></td><td bgcolor="#dddddd">12/17 07:30</td><td align="right">336</td><td bgcolor="#dddddd" align="right">3.09</td><td align="right">0</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12148500">Carnation</a></td><td bgcolor="#dddddd">12/17 08:15</td><td align="right">1160</td><td bgcolor="#dddddd" align="right">6.48</td><td align="right">-10</td></tr>
+
+<tr><td colspan="5" bgcolor="black"><strong><font color="#FFFFFF">Issaquah Creek &nbsp;&nbsp;&nbsp;(phase 0)</font></strong></td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12120600">Hobart</a></td><td bgcolor="#dddddd">12/17 07:45</td><td align="right">116</td><td bgcolor="#dddddd" align="right">4.39</td><td align="right">-0.02</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12121600">@ Mouth</a></td><td bgcolor="#dddddd">12/17 07:15</td><td align="right">429</td><td bgcolor="#dddddd" align="right">5.79</td><td align="right">+11</td></tr>
+
+<tr><td colspan="5" bgcolor="black"><strong><font color="#FFFFFF">Cedar River &nbsp;&nbsp;&nbsp;(phase 1)</font></strong></td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12117500">Landsburg</a></td><td bgcolor="#dddddd">12/17 08:00</td><td align="right">1730</td><td bgcolor="#dddddd" align="right">3.28</td><td align="right">+10</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12119000">Renton</a></td><td bgcolor="#dddddd">12/17 08:15</td><td align="right">2170</td><td bgcolor="#dddddd" align="right">10.57</td><td align="right">+30</td></tr>
+
+<tr><td colspan="5" bgcolor="black"><strong><font color="#FFFFFF">Green River &nbsp;&nbsp;&nbsp;(phase 0)</font></strong></td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12106700">Palmer</a></td><td bgcolor="#dddddd">12/17 08:00</td><td align="right">2170</td><td bgcolor="#dddddd" align="right">8.45</td><td align="right">0</td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12113000">Auburn</a></td><td bgcolor="#dddddd">12/17 07:45</td><td align="right">3720</td><td bgcolor="#dddddd" align="right">57.63</td><td align="right">-20</td></tr>
+
+<tr><td colspan="5" bgcolor="black"><strong><font color="#FFFFFF">White River &nbsp;&nbsp;&nbsp;(phase 0)</font></strong></td></tr>
+
+<tr><td align="left"><a href="http://waterdata.usgs.gov/wa/nwis/uv/?site_no=12099200">@ Boise Cr</a></td><td bgcolor="#dddddd">12/17 07:30</td><td align="right">2490</td><td bgcolor="#dddddd" align="right">41.95</td><td align="right">-100</td></tr>
+
+
+</table>
+<br><a href="http://green.kingcounty.gov/wlr/fwcas/usgs_minigagedata.html">(click for alternate PDA format 'B')</A>
+<br><br><a href="http://www.kingcounty.gov/environment/waterandland/flooding/warning-system.aspx">(Full-size KC Flood Website)</A>
+</body>
+</html>
