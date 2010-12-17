@@ -1,0 +1,949 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+	<title>No One Knows What the F*** They're Doing (or "The 3 Types of Knowledge")</title>
+	<meta name="viewport" content="width=848">
+	<meta name="if:Elsewhere" content="0">
+	<meta name="text:Elsewhere 1 Name" content="">
+	<meta name="text:Elsewhere 1 URL" content="">
+	<meta name="text:Elsewhere 2 Name" content="">
+	<meta name="text:Elsewhere 2 URL" content="">
+	<meta name="text:Elsewhere 3 Name" content="">
+	<meta name="text:Elsewhere 3 URL" content="">
+	<meta name="text:Tagline" content="Your awesome tagline">
+	<meta name="text:Disqus Shortname" content="" />
+        <meta name="google-site-verification" content="lPkJY_nZbES1mesDbx1p8U5E_KUQCw2MUOAu5pW672M" />
+	<link rel="shortcut icon" href="http://30.media.tumblr.com/avatar_5f7192cbff4d_16.png">
+	<link rel="alternate" href="http://jangosteve.com/rss" type="application/rss+xml">
+	<link rel="stylesheet" href="http://static.tumblr.com/j8lh0bq/A1Ukkwf8p/reset.css" type="text/css">
+	<link rel="stylesheet" href="http://static.tumblr.com/j8lh0bq/Nunksbfhp/oldie.css" type="text/css">
+	<style type="text/css" media="screen">
+	#disqus_thread {
+	    margin: 0 0 30px 0 !important;
+	}
+	
+		#header h1 a { font-size: 60px; }
+.note { display: block; background: #ffffcc; padding: 10px; margin: 15px 0; }
+	</style>
+</head>
+<body>
+<div id="main">
+
+<div id="inner">
+
+<div id="header">	
+	<h1><a href="/">The Blog of Steve Schwartz</a></h1>
+	<div class="tagline">The only certain path to failure is not trying.</div>
+</div>
+
+<div id="sidebar">
+	<div id="inner-sidebar">
+		<div id="authorbox">
+<a href="http://jangosteve.com/rss" rel="alternate" type="application/rss+xml"><img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/jangosteve" rel="alternate" type="application/rss+xml">Subscribe to the RSS Feed</a><br />
+or <a href="http://feedburner.google.com/fb/a/mailverify?uri=jangosteve&amp;loc=en_US">Subscribe by Email</a>
+<br /><br />
+<a href="http://twitter.com/jangosteve">Follow @jangosteve on Twitter</a>
+<br />
+<a href="http://www.linkedin.com/in/jangosteve">Connect with Steve on LinkedIn</a>
+<br /><br />
+    		<h3>About the author</h3>
+			<img src="http://29.media.tumblr.com/avatar_5f7192cbff4d_48.png" class="profilepic" alt="The Blog of Steve Schwartz">
+			Steve Schwartz is the owner of <a href="http://www.alfajango.com">Alfa Jango, LLC</a> (web-based software) and the creator of <a href="http://www.ratemystudentrental.com">RateMyStudentRental</a> (on- and off-campus student housing) and <a href="http://www.leadnuke.com">LeadNuke</a> (B2B sales lead generation by monitoring online conversations).<br />
+<br />
+He is a runaway Mechanical/Electrical Engineer turned Hacker who enjoys writing, racing cars, playing soccer, skateboarding, and desperately trying to rock out on guitar.<br />
+<br />
+Steve was raised in Wilmington, NC and currently lives in Ann Arbor, MI.<br />
+<br />
+<a href="http://jangosteve.com/post/302989447/my-new-personal-blog">...read more about the author</a><br />
+<br />
+Popular posts:<br />
+<ul><br />
+<li><a href="http://jangosteve.com/post/380926251/no-one-knows-what-theyre-doing">No One Knows What the F*** They’re Doing (or “The 3 Types of Knowledge”)</a></li><br />
+<li><a href="http://jangosteve.com/post/413955281/unless-youre-changing-it-quit-your-bitchin">Unless You’re Changing It, Quit Your Bitchin’</a></li><br />
+<li><a href="http://jangosteve.com/post/850643524/the-science-behind-having-a-bad-day">The Science Behind “Having a Bad Day” (and how to solve it)</a></li></ul>
+			<div class="clear"></div>
+		</div>
+		
+	</div>
+</div>
+
+<div id="entries">
+
+
+
+
+
+
+
+
+<div id="post-380926251" class="entry text">
+	
+<h2><a href="http://jangosteve.com/post/380926251/no-one-knows-what-theyre-doing" rel="permalink">No One Knows What the F*** They&#8217;re Doing (or &#8220;The 3 Types of Knowledge&#8221;)</a></h2>
+<p>
+<script type="text/javascript">
+    tweetcount_url = 'http://jangosteve.com/post/380926251/no-one-knows-what-theyre-doing';
+    tweetcount_title = 'No One Knows What the F*** They\u2019re Doing (or \u201cThe 3 Types of Knowledge\u201d)';
+    tweetcount_src = 'RT @jangosteve:';
+    tweetcount_via = false;
+    tweetcount_links = false;
+    tweetcount_size = 'small';
+</script>
+<script type="text/javascript" src="http://widgets.backtype.com/tweetcount.js"></script>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fjangosteve.com%2Fpost%2F380926251%2Fno-one-knows-what-theyre-doing&amp;layout=standard&amp;show_faces=false&amp;width=350&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:visible; width:350px; height:21px;" allowTransparency="true"></iframe>
+</p>
+
+	<div class="content"><p class="note">Be sure to check out <a href="http://jangosteve.com/post/397223481/disturbing-misinterpretations-no-one-knows">my follow-up to this post</a>, clarifying and addressing a few misinterpretations that have been making their way around the internet.</p>
+<h2>Feeling Like a Fraud</h2>
+<p><img align="right" width="300" src="http://media.tumblr.com/tumblr_kxlsuyCbII1qaukck.jpg"/></p>
+<p>Have you ever received praise, or even an award, for being great at something despite having no clue what you&#8217;re doing? Do you feel like a fraud, wondering what sort of voodoo you&#8217;ve unwittingly conjured up to make people think you know what you&#8217;re doing, when the reality is quite the contrary?</p>
+<p>I recently had a conversation with my girlfriend (going to school for her nursing degree) when she expressed her confusion with some praise she had received from her professor. Her professor had told her that she was the best nursing student she had had in years. &#8220;But how the hell could that be true?&#8221; she asked me. See, she sometimes struggles studying, is often worried about doing poorly on exams, and stresses about all of the things she doesn&#8217;t quite understand or can&#8217;t quite remember. At the same time,  she sees other people stroll into test-time confident and carefree. She sees others never asking questions and always seeming to just &#8220;get it&#8221;. By comparison, how could she possibly be any professor&#8217;s &#8220;best student in years?&#8221;</p>
+<p>I could see she was distressed. Lucky for her, I could relate. In fact, one of many similar experiences I&#8217;ve encountered occurred just over a year ago. I had entered a competition called the <a href="http://www.gleq.org">Great Lakes Entrepreneur&#8217;s Quest (GLEQ)</a>, which is a business plan competition for new business ideas and up-and-coming companies. My company had not won any awards at the competition that year. There were over 100 companies that entered, with nearly 500 total participants. Then during the awards ceremony they announced a brand new award that they were going to start giving out, the Spirit of Entrepreneurship Award, which would go to one individual who they felt exhibited the qualities of a great entrepreneur outside of just being able to write a good business plan. And the winner of the inaugural award was me. I was startled, confused, and amazed. If they had said my name half a second earlier, the person in front of me would have had a mouthful of Coke in their hair.</p>
+<p>How could I win such an award, being in a room with so many great entrepreneurs and so many exciting companies and business ideas? There were companies in the competition already making a million dollars in yearly revenue (eligibility for the competition required that your company be making less that $3 million annually). By comparison, I wasn&#8217;t even making enough to quit my day job yet. I had to fake a doctor&#8217;s appointment that day just to attend the awards ceremony. Don&#8217;t these other people know what they&#8217;re doing more than I?</p>
+<p>The answer to that question is the title of this post. No one knows what the fuck they&#8217;re doing. Not me, not those guys making bank, not anyone.</p>
+<h2>The 3 Types of Knowledge</h2>
+<p>To really understand how it is that no one knows what they&#8217;re doing, we need to understand the three fundamental categories of information.</p>
+<p>There&#8217;s the <em>shit you know</em>, the <em>shit you know you don&#8217;t know</em>, and the <em>shit you don&#8217;t know you don&#8217;t know</em>.</p>
+<p><img src="http://media.tumblr.com/tumblr_kxldz31eZQ1qaukck.png" align="middle" alt="NOTE: this chart is certainly not to scale; the red slice is unimaginably large"/></p>
+<p><em>Note: this chart is not to scale; the red slice is unimaginably large.</em></p>
+<h3>Imagine being lost in the woods.</h3>
+<p><img height="210" width="140" src="http://media.tumblr.com/tumblr_kxlefsuxjU1qaukck.jpg" align="left"/>An example of <em>shit you know </em>would be knowing that it&#8217;s okay to eat an apple should you come across an apple tree (however unlikely that may be).</p>
+<p><img height="200" width="150" src="http://media.tumblr.com/tumblr_kxlegokVrq1qaukck.jpg" align="right"/>An example of the <em>shit you know you don&#8217;t know</em> would be wondering if you can eat these berries. As a result, you may decide to play it safe and keep moving, or you may decide to eat one now, see if you get sick, and if not, eat some more.</p>
+<p><img width="150" src="http://media.tumblr.com/tumblr_kxlhod0tAS1qaukck.jpg" align="left"/>For an example of <em>shit you don&#8217;t know that you don&#8217;t know</em>, imagine if you were raised in an extremely sheltered environment, and you were never taught that some plants are poisonous. Finding yourself suddenly stranded in the wild, you would probably just start eating plants at random as you become hungry, without thinking twice. Pretty soon you would likely fall sick and die from dysentery or mycetism.</p>
+<p>As illustrated by this example, you can see that the only dangerous category is the <em>shit you don&#8217;t know that you don&#8217;t know </em>(excluding extreme situations of life and death, where only the first category [<em>shit you know</em>] could save you). The same goes for any profession.</p>
+<p>If I&#8217;m an engineer designing a bridge, I know that I need to account for that location&#8217;s climate when choosing the materials for building the bridge&#8230; this is stuff I know. I may not know exactly which materials have stress limits within boundaries set by the climate, but I can look it up&#8230; this is stuff I know that I don&#8217;t know. However, if I were a Veterinarian, and someone asked me to design a bridge, I may not even realize that different materials are affected differently by environmental factors&#8230; this would be stuff I don&#8217;t know that I don&#8217;t know. And in this situation, someone would probably die.</p>
+<p>In my girlfriend&#8217;s case, say she&#8217;s a nurse that needs to administer a drug to a patient. If she knows that the prescribed drug reacts negatively with another drug the patient is taking, she knows not to administer the drug. If she remembers that the drug has twenty side effects and tends to react with other drugs, she knows to either look it up or ask someone else who knows, perhaps a doctor, before administering it. The only dangerous scenario could be not realizing that there could be any side-effects or reactions, and thus administering the drug without any second thoughts. Again, the only dangerous category is the <em>shit you don&#8217;t know that you don&#8217;t know</em>.</p>
+<h2>Wisdom and the Art of Being <em>Not Dangerous</em></h2>
+<p>Along these lines, &#8220;wisdom&#8221; may be defined as the ability to not be dangerous. So what then is the point of education and experience? Your professors and teachers (and typical exam structure) would lead you to believe that you must cram as much information as possible into the <em>shit you know</em> category.</p>
+<p><img src="http://media.tumblr.com/tumblr_kxlesvVoT61qaukck.png"/></p>
+<p>I am going to be bold and suggest that this is wrong. The goal isn&#8217;t to put as much as possible into the first category, it&#8217;s to take as much as possible out of the third category.</p>
+<p><img src="http://media.tumblr.com/tumblr_kxlezdRbXO1qaukck.png"/></p>
+<p>Now whether this means putting it into the first or the second category isn&#8217;t as important, as long as it&#8217;s not in the third category. In other words, the goal is to be <em>not dangerous</em>.</p>
+<h2>Everyone is as Clueless as You, If Not More</h2>
+<p>This is where the disconnect is. This is why you, my girlfriend, and myself at times feel like a fraud amidst praise and recognition. We feel that we have no clue what we&#8217;re doing, yet we see others confident and able. Surely they&#8217;re the ones that deserve the praise and recognition.</p>
+<p>Here&#8217;s the secret though. Those other people fall into one of two categories, and neither one of those categories is more knowledgeable or able than you are.</p>
+<p>1) They have figured out everything written here, and thus, are on an even playing field as you. They deserve it no more (and no less) than you do. They (and you) have a very large <em>shit you know you don&#8217;t know</em> category. Not only that, but they (and you) can only imagine how immense the <em>shit you don&#8217;t know you don&#8217;t know</em> category is (since it&#8217;s impossible to know by virtue of being the stuff you don&#8217;t know about). It&#8217;s easy to see how small the s<em>hit you know</em> category is by comparison. And it is this awareness that makes them (and you) feel so clueless at times.</p>
+<p>2) They legitimately think they know everything. The thing is, they don&#8217;t. These people are usually very egotistical (not to be confused with simply having a healthy ego) and don&#8217;t realize how little they really know. In other words, they have far more in the third category (<em>shit they don&#8217;t know they don&#8217;t know</em>), and far less in the second category (<em>shit they know they don&#8217;t know</em>). The first category is probably more or less the same.</p>
+<p>One thing to note about this second type of confident people is that they are dangerous in two ways. For one, they exhibit a much larger third category as discussed above. They can be likened to a stereotypical teenager in thinking they know everything and not realizing how much there really is to know. However, unlike teenagers, they have a tendency to make others think they know what they&#8217;re doing, which makes others tend to rely on them. It causes others to put them in charge of things it <em>seems</em> like they know how to handle. And of course, since these people legitimately think they know how to handle these things, they are likely not to look it up or defer to people who actually know. As you can imagine, this causes their potential to be dangerous much more real than that of teenagers.</p>
+<h2>The Reason You Feel Like a Fraud</h2>
+<p>The real reason you feel like a fraud is because you have been successful in taking a lot of information out of the third category and put it into the second category; you know of a lot of stuff you don&#8217;t know. The good news is that this makes you very <em>not dangerous</em>. The bad news is that it also makes you feel dumb and helpless a lot of the time.</p>
+<h2>Relax, Be Realistic, You Can Do It</h2>
+<p>I hope that this helps if you find yourself sometimes feeling conflicted, recognizing the contradiction between your abilities and what other people say about your abilities. When you find yourself in a situation where you don&#8217;t know what you&#8217;re doing, don&#8217;t be afraid to ask for help. Don&#8217;t ever feel ashamed for not understanding something, even it seems like it should be obvious; if you don&#8217;t understand it, then it&#8217;s not obvious, plain and simple.</p>
+<p><img align="right" src="http://media.tumblr.com/tumblr_kxlflmi3091qaukck.jpg"/>In fact, if you never feel clueless, and you always know better than everyone else, please let me know, so that I can be aware of how dangerous you are.</p>
+<h2><em>Update: Rumsfeld, Dunning-Kruger, The Black Swan, and Hacker News</em></h2>
+<p>Since writing this, I&#8217;ve been pointed to Donald Rumsfeld&#8217;s poem, <em>The Unknown</em>, which quite concisely describes the <em>3 Types of Knowledge</em> I&#8217;ve written of here.</p>
+<blockquote><strong>The Unknown<br/></strong>As we know, <br/>There are known knowns. <br/>There are things we know we know. <br/>We also know <br/>There are known unknowns. <br/>That is to say <br/>We know there are some things <br/>We do not know. <br/>But there are also unknown unknowns, <br/>The ones we don&#8217;t know <br/>We don&#8217;t know.
+<p><em>—Feb. 12, 2002, Department of Defense news briefing</em></p>
+</blockquote>
+<p>Reformatted by <a href="http://www.slate.com/id/2081042/">The Slate</a>.</p>
+<p>Another related idea that has since been pointed out to me is the<a href="http://en.wikipedia.org/wiki/DunningKruger_effect"> Dunning-Kruger Effect</a>, which describes a bias in people&#8217;s consciousness in which they reach erroneous conclusions and lack the ability to realize or recognize it.</p>
+<p>Also, I&#8217;ve been told that <a href="http://en.wikipedia.org/wiki/The_Black_Swan_(Taleb_book)">The Black Swan, by Nassim Nicholas Taleb</a>, though it discusses the impact and improbability of random events and uncertainty in history, also describes some similar ideas. I have not yet read this book though, so I cannot comment much beyond that.</p>
+<p>And for some really good relavent discussion on this post, check out the <a href="http://news.ycombinator.com/item?id=1121775">thread on Hacker News</a>.</p>
+<h2><em>Update: Sub-categories of Knowledge</em></h2>
+<p>As a few people have pointed out in the comments and <a href="http://news.ycombinator.com/item?id=1122053">on Hacker News</a>, there are also a few sub-categories of knowledge that are worth mentioning.</p>
+<p><em>Shit you don&#8217;t know you know</em>:</p>
+<p>This is most closely a sub-category of the shit you know you know (1st category), but for one detail&#8230; you don&#8217;t realize that you know it. This category delves into the Freudian theories of the subconscious.</p>
+<p><em>Shit you know you don&#8217;t know *anymore*</em>, a.k.a. the shit you know you forgot:</p>
+<p>This is a sub-category of the <em>shit you know you don&#8217;t know</em> (2nd category). As has been humorously pointed out, this is one of the main ways your second category grows to its overwhelming size as you get older.</p>
+<p><em>Shit you think you know, but don&#8217;t:</em></p>
+<p>This is a sub-category of the <em>shit you don&#8217;t know you don&#8217;t know</em> (3rd category). This is the most dangerous of all knowledge. This is mis-knowledge.</p>
+<h2><em>Update: Comments are Disappearing</em></h2>
+<p>As many have pointed out, the comments keep disappearing from this post. There have been MANY great comments, and I&#8217;m working with Disqus to get this issue resolved, so that they show up again. The comments are NOT being deleted, and hopefully they&#8217;ll be back up shortly.</p>
+<p class="note">As of now (Feb 18, 2010), this post has received over 150 great comments and over 750 reactions on Twitter. However, Disqus seems to be experiencing a lot of problems and isn&#8217;t displaying them on this page.</p>
+<p class="note">Update 2: The comments are fixed!</p>
+<p class="note">Thank you everyone for all of your awesome feedback.</p></div>
+	<div class="meta">
+<p>
+Tuesday, February 9, 2010 &mdash; <a href="http://jangosteve.com/post/380926251/no-one-knows-what-theyre-doing#notes">242 notes</a>&nbsp;&nbsp;&nbsp;(<a href="http://jangosteve.com/post/380926251/no-one-knows-what-theyre-doing#disqus_thread"></a>)
+</p><p>
+<script type="text/javascript">
+    tweetcount_url = 'http://jangosteve.com/post/380926251/no-one-knows-what-theyre-doing';
+    tweetcount_title = 'No One Knows What the F*** They\u2019re Doing (or \u201cThe 3 Types of Knowledge\u201d)';
+    tweetcount_src = 'RT @jangosteve:';
+    tweetcount_via = false;
+    tweetcount_links = false;
+    tweetcount_size = 'small';
+</script>
+<script type="text/javascript" src="http://widgets.backtype.com/tweetcount.js"></script>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fjangosteve.com%2Fpost%2F380926251%2Fno-one-knows-what-theyre-doing&amp;layout=standard&amp;show_faces=false&amp;width=350&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:visible; width:350px; height:21px;" allowTransparency="true"></iframe>
+</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript" src="http://disqus.com/forums/jangosteve/embed.js"></script>
+<noscript><a href="http://jangosteve.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+
+
+
+
+<div id="notes">
+	
+<ol class="notes">
+    <!-- START NOTES -->
+                    
+        <li class="
+            note
+            like                            tumblelog_male-enhancement-store                                    without_commentary        ">        
+                                                <a href="http://male-enhancement-store.tumblr.com/" title="male enhancement review"><img src="http://24.media.tumblr.com/avatar_046f7f154bcf_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://male-enhancement-store.tumblr.com/" title="male enhancement review">male-enhancement-store</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_creation-sites-web                                    without_commentary        ">        
+                                                <a href="http://creationsitesinternet.wordpress.com/" title="Creation de site internet"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://creationsitesinternet.wordpress.com/" title="Creation de site internet">creation-sites-web</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_valise-maternit--1                                    without_commentary        ">        
+                                                <a href="http://valise-maternit--1.tumblr.com/" title="Valise Maternit&eacute;"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://valise-maternit--1.tumblr.com/" title="Valise Maternit&eacute;">valise-maternit--1</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_annonce-immobilier                                    without_commentary        ">        
+                                                <a href="http://www.tracecarte-immobilier.fr/" title="Annonces immobili&egrave;res"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.tracecarte-immobilier.fr/" title="Annonces immobili&egrave;res">annonce-immobilier</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_cosmetique-bio-                                    without_commentary        ">        
+                                                <a href="http://www.pulpedevie.fr/" title="Cosmetique biologique"><img src="http://27.media.tumblr.com/avatar_13d012ed5384_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.pulpedevie.fr/" title="Cosmetique biologique">cosmetique-bio-</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_recomendaciones-bolsa                                    without_commentary        ">        
+                                                <a href="http://www.recomendaciones-bolsa.com/" title="Recomendaciones de Bolsa"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.recomendaciones-bolsa.com/" title="Recomendaciones de Bolsa">recomendaciones-bolsa</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_accounts-wow                                    without_commentary        ">        
+                                                <a href="http://www.wowaccounts.org/" title="Untitled"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.wowaccounts.org/" title="Untitled">accounts-wow</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_film-streaming-gratuit                                    without_commentary        ">        
+                                                <a href="http://streamovie.tv/" title="Films Gratuits en Streaming"><img src="http://30.media.tumblr.com/avatar_0da49c2982fc_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://streamovie.tv/" title="Films Gratuits en Streaming">film-streaming-gratuit</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_buzzyou                                    without_commentary        ">        
+                                                <a href="http://01buzz.fr/" title="Buzz actus et vid&eacute;os humeur"><img src="http://27.media.tumblr.com/avatar_c6fc4a294f56_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://01buzz.fr/" title="Buzz actus et vid&eacute;os humeur">buzzyou</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_huile-argan                                    without_commentary        ">        
+                                                <a href="http://www.huile-argan.net/" title="Huile d&#039;Argan"><img src="http://24.media.tumblr.com/avatar_88cda776290a_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.huile-argan.net/" title="Huile d&#039;Argan">huile-argan</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_vlc-free-download-for-mac                                    without_commentary        ">        
+                                                <a href="http://vlc-free-download-for-mac.tumblr.com/" title="Vlc Free Download for Mac"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://vlc-free-download-for-mac.tumblr.com/" title="Vlc Free Download for Mac">vlc-free-download-for-mac</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_hoover-steamvac                                    without_commentary        ">        
+                                                <a href="http://www.hooversteamvac.net/" title="Untitled"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.hooversteamvac.net/" title="Untitled">hoover-steamvac</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_sole-f80                                    without_commentary        ">        
+                                                <a href="http://solef80.net/" title="Untitled"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://solef80.net/" title="Untitled">sole-f80</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_ihistoryradio                                    without_commentary        ">        
+                                                <a href="http://www.ihistoryradio.com/" title="history radio"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.ihistoryradio.com/" title="history radio">ihistoryradio</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_hdmi-splitter                                    without_commentary        ">        
+                                                <a href="http://besthdmisplitters.com/" title="hdmi splitter"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://besthdmisplitters.com/" title="hdmi splitter">hdmi-splitter</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_pharmacie-ligne                                    without_commentary        ">        
+                                                <a href="http://www.pharma-fr.com/" title="pharmacie en ligne"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.pharma-fr.com/" title="pharmacie en ligne">pharmacie-ligne</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_paris-turf                                    without_commentary        ">        
+                                                <a href="http://www.paris-turf-ligne.com/" title="Paris Turf"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.paris-turf-ligne.com/" title="Paris Turf">paris-turf</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_paris-en-ligne1                                    without_commentary        ">        
+                                                <a href="http://www.sporttopnews.fr/" title="Parier en ligne"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.sporttopnews.fr/" title="Parier en ligne">paris-en-ligne1</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_bergal                                    without_commentary        ">        
+                                                <a href="http://bergal.tumblr.com/" title="bergal"><img src="http://24.media.tumblr.com/avatar_50ad3d0a44c4_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://bergal.tumblr.com/" title="bergal">bergal</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_gagner-argent-gratuitement                                    without_commentary        ">        
+                                                <a href="http://www.complement-argent.fr/" title="Gagner Argent"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.complement-argent.fr/" title="Gagner Argent">gagner-argent-gratuitement</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_casino-en-ligne2                                    without_commentary        ">        
+                                                <a href="http://www.casinostopnews.fr/" title="Casino en ligne"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.casinostopnews.fr/" title="Casino en ligne">casino-en-ligne2</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_technische-uebersetzung                                    without_commentary        ">        
+                                                <a href="http://profischnell.com/" title="Unbetitelt"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://profischnell.com/" title="Unbetitelt">technische-uebersetzung</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_casino-en-ligne-bonus                                    without_commentary        ">        
+                                                <a href="http://www.casinos-en-ligne.info/" title="Casino en ligne"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.casinos-en-ligne.info/" title="Casino en ligne">casino-en-ligne-bonus</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_martynqlol                                    without_commentary        ">        
+                                                <a href="http://martynqlol.tumblr.com/" title="Fuck Yeah Martynq!"><img src="http://27.media.tumblr.com/avatar_f9aec6cf4898_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://martynqlol.tumblr.com/" title="Fuck Yeah Martynq!">martynqlol</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_dolcesportlive                                    without_commentary        ">        
+                                                <a href="http://www.dolcesportlive.com/" title="Dolce Sport Live"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.dolcesportlive.com/" title="Dolce Sport Live">dolcesportlive</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_meciurilive                                    without_commentary        ">        
+                                                <a href="http://www.livemeciuri.com/" title="Meciuri Live"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.livemeciuri.com/" title="Meciuri Live">meciurilive</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_itcomputer                                    without_commentary        ">        
+                                                <a href="http://itcomputerzone.com/" title="News"><img src="http://30.media.tumblr.com/avatar_1942f8ffc820_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://itcomputerzone.com/" title="News">itcomputer</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_alfonzine12                                    without_commentary        ">        
+                                                <a href="http://pentron.pisz.pl/" title="my super blog"><img src="http://30.media.tumblr.com/avatar_37fd9379db29_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://pentron.pisz.pl/" title="my super blog">alfonzine12</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_johsepponioma                                    without_commentary        ">        
+                                                <a href="http://okalne.pisz.pl/" title="my portrait"><img src="http://25.media.tumblr.com/avatar_e26d6f52734d_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://okalne.pisz.pl/" title="my portrait">johsepponioma</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_olyviavia                                    without_commentary        ">        
+                                                <a href="http://qruitana.pisz.pl/" title="sick brain"><img src="http://25.media.tumblr.com/avatar_e822f72eb78c_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://qruitana.pisz.pl/" title="sick brain">olyviavia</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_momento000                                    without_commentary        ">        
+                                                <a href="http://trod.pisz.pl/" title="memento moris"><img src="http://30.media.tumblr.com/avatar_5adb840cfa9f_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://trod.pisz.pl/" title="memento moris">momento000</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_scrabble-word-finder                                    without_commentary        ">        
+                                                <a href="http://wordfinder.scrabblecheat.org/" title="Scrabble Word Finder"><img src="http://30.media.tumblr.com/avatar_f0fd029bc57c_16.png" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://wordfinder.scrabblecheat.org/" title="Scrabble Word Finder">scrabble-word-finder</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_pro-soccer                                    without_commentary        ">        
+                                                <a href="http://soccerborn.com/" title="Pro soccer"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://soccerborn.com/" title="Pro soccer">pro-soccer</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_video-humour-blog                                    without_commentary        ">        
+                                                <a href="http://monq.biz/" title="Blog Vid&eacute;o Humour &amp; Culture"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://monq.biz/" title="Blog Vid&eacute;o Humour &amp; Culture">video-humour-blog</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_buy-v                                    without_commentary        ">        
+                                                <a href="http://www.buyviagra.org/" title="Buy V"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.buyviagra.org/" title="Buy V">buy-v</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_wholesale-ribbon                                    without_commentary        ">        
+                                                <a href="http://www.bbcrafts.com/" title="wholesale ribbon"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.bbcrafts.com/" title="wholesale ribbon">wholesale-ribbon</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_magic--tricks                                    without_commentary        ">        
+                                                <a href="http://www.magicgeek.com/" title="magic tricks"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.magicgeek.com/" title="magic tricks">magic--tricks</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_hemorrhoid                                    without_commentary        ">        
+                                                <a href="http://hemorrhoid.com/" title="Hemorrhoid"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://hemorrhoid.com/" title="Hemorrhoid">hemorrhoid</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            like                            tumblelog_yoyo-store                                    without_commentary        ">        
+                                                <a href="http://www.yoyocrazy.com/" title="Yoyo store"><img src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt=""/></a>
+                                
+                <span class="action">                
+                                        
+                                            <a href="http://www.yoyocrazy.com/" title="Yoyo store">yoyo-store</a> liked this                                    </span>
+                
+                <div class="clear"></div>
+                        
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            reblog                            tumblelog_rezultate-live                                    with_commentary        ">        
+                   
+                                                            <a href="http://www.1x2live.ro/" title="Rezultate Live"><img
+                        src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt="" /></a>
+                                        
+                    <span class="action">
+                                                                                
+                                                                                                                                                                                    <a href="http://www.1x2live.ro/" class="tumblelog" title="Rezultate Live">rezultate-live</a> reblogged this from <a href="http://jangosteve.com/" class="source_tumblelog" title="The Blog of Steve Schwartz">jangosteve</a> and added:                                                                                                                                                                                    </span>
+                    <div class="clear"></div>
+                    
+                                            <blockquote>
+                            <a href="http://www.1x2live.ro/post/1199222825" title="View post">
+                                true! We’re all                            </a>
+                        </blockquote>
+                                        
+                                                            
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            reblog                            tumblelog_auto-hibride                                    without_commentary        ">        
+                   
+                                                            <a href="http://www.auto-my.ro/" title="auto hibride"><img
+                        src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt="" /></a>
+                                        
+                    <span class="action">
+                                                                                
+                                                                                                                                                                                    <a href="http://www.auto-my.ro/" class="tumblelog" title="auto hibride">auto-hibride</a> reblogged this from <a href="http://jangosteve.com/" class="source_tumblelog" title="The Blog of Steve Schwartz">jangosteve</a>                                                                                                                                                                                    </span>
+                    <div class="clear"></div>
+                    
+                                        
+                                                            
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            reblog                            tumblelog_auto-dealers                                    without_commentary        ">        
+                   
+                                                            <a href="http://www.auto-my.com/" title="auto dealers"><img
+                        src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt="" /></a>
+                                        
+                    <span class="action">
+                                                                                
+                                                                                                                                                                                    <a href="http://www.auto-my.com/" class="tumblelog" title="auto dealers">auto-dealers</a> reblogged this from <a href="http://jangosteve.com/" class="source_tumblelog" title="The Blog of Steve Schwartz">jangosteve</a>                                                                                                                                                                                    </span>
+                    <div class="clear"></div>
+                    
+                                        
+                                                            
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            reblog                            tumblelog_autovit                                    without_commentary        ">        
+                   
+                                                            <a href="http://www.auto-tip.ro/" title="autovit"><img
+                        src="http://28.media.tumblr.com/avatar_b6b64b57fdb2_16.png" class="avatar" alt="" /></a>
+                                        
+                    <span class="action">
+                                                                                
+                                                                                                                                                                                    <a href="http://www.auto-tip.ro/" class="tumblelog" title="autovit">autovit</a> reblogged this from <a href="http://jangosteve.com/" class="source_tumblelog" title="The Blog of Steve Schwartz">jangosteve</a>                                                                                                                                                                                    </span>
+                    <div class="clear"></div>
+                    
+                                        
+                                                            
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            reblog                            tumblelog_pariuri-sportive-online                                    without_commentary        ">        
+                   
+                                                            <a href="http://pariuri.omnibet.ro/" title="Pariuri sportive online"><img
+                        src="http://assets.tumblr.com/images/default_avatar_16.gif" class="avatar" alt="" /></a>
+                                        
+                    <span class="action">
+                                                                                
+                                                                                                                                                                                    <a href="http://pariuri.omnibet.ro/" class="tumblelog" title="Pariuri sportive online">pariuri-sportive-online</a> reblogged this from <a href="http://jangosteve.com/" class="source_tumblelog" title="The Blog of Steve Schwartz">jangosteve</a>                                                                                                                                                                                    </span>
+                    <div class="clear"></div>
+                    
+                                        
+                                                            
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            reblog                            tumblelog_richisageek                                    without_commentary        ">        
+                   
+                                                            <a href="http://blog.bowforiamroot.net/" title="Working from home"><img
+                        src="http://25.media.tumblr.com/avatar_1ef97776cc4a_16.png" class="avatar" alt="" /></a>
+                                        
+                    <span class="action">
+                                                                                
+                                                                                                                                                                                    <a href="http://blog.bowforiamroot.net/" class="tumblelog" title="Working from home">richisageek</a> reblogged this from <a href="http://jangosteve.com/" class="source_tumblelog" title="The Blog of Steve Schwartz">jangosteve</a>                                                                                                                                                                                    </span>
+                    <div class="clear"></div>
+                    
+                                        
+                                                            
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            reblog                            tumblelog_isallcaps                                    without_commentary        ">        
+                   
+                                                            <a href="http://kim.isallcaps.com/" title="kim is ALL CAPS"><img
+                        src="http://24.media.tumblr.com/avatar_23b7b4a18775_16.png" class="avatar" alt="" /></a>
+                                        
+                    <span class="action">
+                                                                                
+                                                                                                                                                                                    <a href="http://kim.isallcaps.com/" class="tumblelog" title="kim is ALL CAPS">isallcaps</a> reblogged this from <a href="http://jangosteve.com/" class="source_tumblelog" title="The Blog of Steve Schwartz">jangosteve</a>                                                                                                                                                                                    </span>
+                    <div class="clear"></div>
+                    
+                                        
+                                                            
+                        
+                    </li> 
+                    
+        <li class="
+            note
+            reblog                            tumblelog_thehighroadshortcut                                    without_commentary        ">        
+                   
+                                                            <a href="http://thehighroadshortcut.tumblr.com/" title="The High Road Shortcut"><img
+                        src="http://25.media.tumblr.com/avatar_bd00a2e03711_16.png" class="avatar" alt="" /></a>
+                                        
+                    <span class="action">
+                                                                                
+                                                                                                                                                                                    <a href="http://thehighroadshortcut.tumblr.com/" class="tumblelog" title="The High Road Shortcut">thehighroadshortcut</a> reblogged this from <a href="http://jangosteve.com/" class="source_tumblelog" title="The Blog of Steve Schwartz">jangosteve</a>                                                                                                                                                                                    </span>
+                    <div class="clear"></div>
+                    
+                                        
+                                                            
+                        
+                    </li> 
+        
+        
+    <!-- END NOTES -->
+</ol>
+</div>
+
+
+
+
+	<div class="page-navigation">
+		<div class="left"><a href="http://jangosteve.com/post/308589695">&larr; Previous post</a></div>
+		<div class="right"><a href="http://jangosteve.com/post/384183134">Next post &rarr;</a></div>
+		<div class="clear"></div>
+	</div>
+
+
+</div>
+
+<div class="clear"></div>
+</div>
+
+<div id="footer">
+	<form class="search-footer" action="/search" method="get">
+	    <input class="search-query" type="text" name="q" value=""><input class="button" type="submit" value="Search">
+	</form>
+	<div class="actual-footer">
+		<p><a href="http://jangosteve.com/rss">RSS</a>, <a href="/archive">Archive</a>. We love <a href="http://www.tumblr.com/">Tumblr</a>. Theme (<a href="http://www.tumblr.com/theme/3292">Stationery</a>) by <a href="http://thijsjacobs.com/">Thijs</a></p>
+	</div>
+	<div class="clear"></div>
+</div>
+
+</div>
+
+
+<script type="text/javascript">var disqus_url = "http://jangosteve.com/post/380926251/no-one-knows-what-theyre-doing"; var disqus_title ="No One Knows What the F*** They&#8217;re Doing (or &#8220;The 3 Types of Knowledge&#8221;)";</script><div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/jangosteve/embed.js"></script><noscript><a href="http://disqus.com/forums/jangosteve/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a><script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/jangosteve/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2467935-9");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- BEGIN TUMBLR CODE --><iframe src="http://assets.tumblr.com/iframe.html?8&src=http%3A%2F%2Fjangosteve.com%2Fpost%2F380926251%2Fno-one-knows-what-theyre-doing&amp;pid=380926251&amp;rk=dpxnR6AT&amp;lang=en_US&amp;name=jangosteve" scrolling="no" width="324" height="25" frameborder="0" style="position:absolute; z-index:1337; top:0px; right:0px; border:0px; background-color:transparent; overflow:hidden;" id="tumblr_controls"></iframe><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><script type="text/javascript">_qoptions={qacct:"p-19UtqE8ngoZbM"};</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script><noscript><img src="http://pixel.quantserve.com/pixel/p-19UtqE8ngoZbM.gif" style="display:none; border-width:0px; height:1px; width:1px;" alt=""/></noscript><!-- END TUMBLR CODE --></body>
+</html>
