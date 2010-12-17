@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+	<title>The Adventures of Dr. McNinja </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="http://drmcninja.com/wp-content/themes/comicpress-v/style.css" type="text/css" media="screen" />
+	<link rel="alternate" type="application/rss+xml" title="The Adventures of Dr. McNinja RSS Feed" href="http://drmcninja.com/feed" />
+	<link rel="alternate" type="application/atom+xml" title="The Adventures of Dr. McNinja Atom Feed" href="http://drmcninja.com/feed/atom" />
+	<link rel="pingback" href="http://drmcninja.com/xmlrpc.php" />
+		<meta name='robots' content='noindex,nofollow' />
+<script type='text/javascript' src='http://drmcninja.com/wp-includes/js/jquery/jquery.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://drmcninja.com/mcninja-js.php?ver=1.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://drmcninja.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://drmcninja.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='The Adventures of Dr. McNinja' href='http://drmcninja.com' />
+<meta name="generator" content="WordPress 2.8.6" />
+<link rel="stylesheet" href="http://drmcninja.com/wp-content/plugins/organize-series/orgSeries.css" type="text/css" media="screen" />	<!--[if lt IE 7]><script type="text/javascript" src="http://drmcninja.com/wp-content/themes/comicpress-v/ie6submenus.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div id="page"><!-- Defines entire site width - Ends in Footer -->
+
+<div id="header">
+    <div id="headerwrap">
+        <a href="http://drmcninja.com"><img src="http://drmcninja.com/mcninja-images/slipheader.jpg" alt="The Adventures of Dr. McNinja" /></a>
+    </div>
+<a href="/newreaders.php" class="newreader">
+<div>
+</div>
+</a>
+    <div class="header-ad">
+<!-- Beginning of Project Wonderful ad code: -->
+<!-- Ad box ID: 44712 -->
+<script type="text/javascript">
+<!--
+var pw_d=document;
+pw_d.projectwonderful_adbox_id = "44712";
+pw_d.projectwonderful_adbox_type = "5";
+pw_d.projectwonderful_foreground_color = "";
+pw_d.projectwonderful_background_color = "";
+//-->
+</script>
+<script type="text/javascript" src="http://www.projectwonderful.com/ad_display.js"></script>
+<noscript><map name="admap44712" id="admap44712"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&amp;c=0&amp;id=44712&amp;type=5" shape="rect" coords="0,0,728,90" title="" alt="" target="_blank" rel="nofollow" /></map>
+<table cellpadding="0" border="0" cellspacing="0" width="728" bgcolor="#ffffff"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=44712&amp;type=5" width="728" height="90" usemap="#admap44712" border="0" alt="" /></td></tr><tr><td bgcolor="#ffffff" colspan="1"><center><a style="font-size:10px;color:#0000ff;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=44712&amp;type=5" target="_blank">Ads by Project Wonderful!  Your ad could be here, right now.</a></center></td></tr><tr><td colspan="1" valign="top" width="728" bgcolor="#000000" style="height:3px;font-size:1px;padding:0px;max-height:3px;"></td></tr></table>
+</noscript>
+<!-- End of Project Wonderful ad code. -->    </div>
+</div>
+
+    <div class="clear"></div>
+	
+
+
+	<div id="column">
+	
+					<div id="comic-head" class="prepostnav"><a href="http://drmcninja.com/archives/comic/20p53" style="" class="prev"><img src="http://drmcninja.com/mcninja-images/previous.jpg" alt="Go to previous page"></a><span class="sel"><form action="/index.php" method="get"><select name="series_select" id="series_select" disabled="true" style="visibility:hidden;">\t<option class="issue-one-half" value="5">Issue One Half</option>\n\t<option class="issue-1" value="6">Meet the Doctor and His Friendly Staff</option>\n\t<option class="issue-2" value="7">So What IS a McNinja?</option>\n\t<option class="issue-3" value="8">There is a Raptor in My Office</option>\n\t<option class="issue-4" value="9">D.A.R.E To Resist Ninja Drugs and Ninja Violence Part 1</option>\n\t<option class="issue-4-part-2" value="10">D.A.R.E To Resist Ninja Drugs and Ninja Violence Part 2</option>\n\t<option class="dr-mcguestravaganza-07" value="12">Dr. McGuestravaganza '07</option>\n\t<option class="issue-5" value="13">Revenge of the Hundred Dead Ninja</option>\n\t<option class="issue-6" value="14">I Told You That Story So I Could Tell You This One</option>\n\t<option class="issue-7" value="15">Spooky Stuff</option>\n\t<option class="issue-8" value="16">Punch Dracula</option>\n\t<option class="dr-mcguestravaganza-08" value="17">Dr. McGuestravaganza '08</option>\n\t<option class="issue-9" value="18">Monster Mart</option>\n\t<option class="issue-10" value="19">Death Volley</option>\n\t<option class="issue-11" value="20">Doc Gets Rad</option>\n\t<option class="dr-mcgueststravaganza-09" value="21">Dr. McGueststravaganza '09</option>\n\t<option class="issue-12" value="22">Army of One</option>\n\t<option class="issue-13" value="59">Judy Gets a Kitten</option>\n\t<option class="issue-14" value="62">Stolen Pizza - Stolen Lives</option>\n\t<option class="issue-15" value="68" selected="selected">Space Savers</option>\n</select><select name="page_select" id="page_select"><option value="20p1">1</option><option value="20p2">2</option><option value="20p3">3</option><option value="20p4">4</option><option value="20p5">5</option><option value="20p6">6</option><option value="20p7">7</option><option value="20p8">8</option><option value="20p9">9</option><option value="20p10">10</option><option value="20p11">11</option><option value="20p12">12</option><option value="20p13">13</option><option value="20p14">14</option><option value="20p15">15</option><option value="20p16">16</option><option value="20p17">17</option><option value="20p18">18</option><option value="20p19">19</option><option value="20p20">20</option><option value="20p21">21</option><option value="20p22">22</option><option value="20p23">23</option><option value="20p24">24</option><option value="20p25">25</option><option value="20p26">26</option><option value="20p27">27</option><option value="20p28">28</option><option value="20p29">29</option><option value="20p30">30</option><option value="20p31">31</option><option value="20p32">32</option><option value="20p33">33</option><option value="20p34">34</option><option value="20p35">35</option><option value="20p36">36</option><option value="20p37">37</option><option value="20p38">38</option><option value="20p39">39</option><option value="20p40">40</option><option value="20p41">41</option><option value="20p42">42</option><option value="20p43">43</option><option value="20p44">44</option><option value="20p45">45</option><option value="20p46">46</option><option value="20p47">47</option><option value="20p48">48</option><option value="20p49">49</option><option value="20p50">50</option><option value="20p51">51</option><option value="20p52">52</option><option value="20p53">53</option><option value="20p54" selected="true">54</option></select><input type="submit" value="Go" /></span></form></div>
+			<div id="comic">
+				<img src="http://drmcninja.com/comics/2010-12-17-20p54.jpg" alt="20p54" title="SOCKO!" />
+			</div>
+			<div id="comic-foot"></div>
+		
+					<div class="post-comic-head"></div>
+			<div class="post-comic">
+				<div class="postpostnav">
+<a href="http://drmcninja.com/archives/comic/20p53" style="" class="prev"><img src="http://drmcninja.com/mcninja-images/previous.jpg" alt="Go to previous page"></a><span class="sel"><form action="/index.php" method="get"><select name="series_select" id="series_select" disabled="true" style="visibility:hidden;">\t<option class="issue-one-half" value="5">Issue One Half</option>\n\t<option class="issue-1" value="6">Meet the Doctor and His Friendly Staff</option>\n\t<option class="issue-2" value="7">So What IS a McNinja?</option>\n\t<option class="issue-3" value="8">There is a Raptor in My Office</option>\n\t<option class="issue-4" value="9">D.A.R.E To Resist Ninja Drugs and Ninja Violence Part 1</option>\n\t<option class="issue-4-part-2" value="10">D.A.R.E To Resist Ninja Drugs and Ninja Violence Part 2</option>\n\t<option class="dr-mcguestravaganza-07" value="12">Dr. McGuestravaganza '07</option>\n\t<option class="issue-5" value="13">Revenge of the Hundred Dead Ninja</option>\n\t<option class="issue-6" value="14">I Told You That Story So I Could Tell You This One</option>\n\t<option class="issue-7" value="15">Spooky Stuff</option>\n\t<option class="issue-8" value="16">Punch Dracula</option>\n\t<option class="dr-mcguestravaganza-08" value="17">Dr. McGuestravaganza '08</option>\n\t<option class="issue-9" value="18">Monster Mart</option>\n\t<option class="issue-10" value="19">Death Volley</option>\n\t<option class="issue-11" value="20">Doc Gets Rad</option>\n\t<option class="dr-mcgueststravaganza-09" value="21">Dr. McGueststravaganza '09</option>\n\t<option class="issue-12" value="22">Army of One</option>\n\t<option class="issue-13" value="59">Judy Gets a Kitten</option>\n\t<option class="issue-14" value="62">Stolen Pizza - Stolen Lives</option>\n\t<option class="issue-15" value="68" selected="selected">Space Savers</option>\n</select><select name="page_select" id="page_select"><option value="20p1">1</option><option value="20p2">2</option><option value="20p3">3</option><option value="20p4">4</option><option value="20p5">5</option><option value="20p6">6</option><option value="20p7">7</option><option value="20p8">8</option><option value="20p9">9</option><option value="20p10">10</option><option value="20p11">11</option><option value="20p12">12</option><option value="20p13">13</option><option value="20p14">14</option><option value="20p15">15</option><option value="20p16">16</option><option value="20p17">17</option><option value="20p18">18</option><option value="20p19">19</option><option value="20p20">20</option><option value="20p21">21</option><option value="20p22">22</option><option value="20p23">23</option><option value="20p24">24</option><option value="20p25">25</option><option value="20p26">26</option><option value="20p27">27</option><option value="20p28">28</option><option value="20p29">29</option><option value="20p30">30</option><option value="20p31">31</option><option value="20p32">32</option><option value="20p33">33</option><option value="20p34">34</option><option value="20p35">35</option><option value="20p36">36</option><option value="20p37">37</option><option value="20p38">38</option><option value="20p39">39</option><option value="20p40">40</option><option value="20p41">41</option><option value="20p42">42</option><option value="20p43">43</option><option value="20p44">44</option><option value="20p45">45</option><option value="20p46">46</option><option value="20p47">47</option><option value="20p48">48</option><option value="20p49">49</option><option value="20p50">50</option><option value="20p51">51</option><option value="20p52">52</option><option value="20p53">53</option><option value="20p54" selected="true">54</option></select><input type="submit" value="Go" /></span></form>				</div>
+				<!--<div class="comicdate">
+					December 17th, 2010				</div>-->
+				<div class="clear"></div>
+								<!--<h2>
+					<a href="http://drmcninja.com/archives/comic/20p54" rel="bookmark" title="Permanent Link to 20p54">20p54</a>
+				</h2>-->
+				<div class="entry">
+					<p>There was a page on Thursday as well! Make sure you read it, lest this one make less sense.</p>
+				</div>
+								<div class="tags">
+					 
+				</div>
+				<div class="comment-link">
+									</div>
+				<br class="clear-margins" />
+			</div>
+			<div class="post-comic-foot">
+			</div>
+		
+		<div id="blogwrapper">
+		<div id="blogheader">
+		<img src="/mcninja-images/news.jpg" />
+		<a href="http://topatoco.com/raptorbandit"><img src="/mcninja-images/storead-newspost.jpg" /></a>
+		</div>
+
+	
+			<div class="post-head"></div>
+		<div class="post" id="post-1835">
+			<h3>
+				<a href="http://drmcninja.com/archives/news/updates" rel="bookmark" title="Permanent Link to Updates">Updates</a>
+			</h3>
+			<div class="postdate">
+				December 13th, 2010			</div>
+			<div class="entry">
+				<p>Hello friends! Two short things!</p>
+<p>1) Mondays exciting page shall appear deep in the night.<strong> EDIT: NOPE</strong> Alright that doesn&#8217;t seem to be happening. Sorry about the delay. <strong>I will be sure there are still three pages this week.</strong></p>
+<p>I was packing up the files to send to Dark Horse for <strong>The Adventures of Dr. McNinja: Night Powers</strong>, when it turned out about twenty of the pages were struck by a faulty hard drive. So throughout the weekend, Anthony and I worked to recolor all of those pages. So I&#8217;m just catching up on everything right now. Thank you for understanding!</p>
+<p>2) <a href="http://topatoco.com/hey">TopatoCo</a> has bumped up their Christmas ordering deadlines. Please see the previous news post for the updated schedule.</p>
+			</div> 
+			<div class="tags">
+							</div>
+			<div class="comment-link">
+							</div>
+			<div class="clear-margins"><br /></div>
+		</div>
+		<div class="post-foot"></div>
+			<div class="post-head"></div>
+		<div class="post" id="post-1831">
+			<h3>
+				<a href="http://drmcninja.com/archives/news/christmas-ordering-deadlines" rel="bookmark" title="Permanent Link to Christmas Ordering Deadlines">Christmas Ordering Deadlines</a>
+			</h3>
+			<div class="postdate">
+				December 10th, 2010			</div>
+			<div class="entry">
+				<p>If you are interested in buying some <a href="http://www.topatoco.com/merchant.mvc?Screen=CTGY&amp;Store_Code=TO&amp;Category_Code=RB">Raptor Bandit Industries</a> products for your loved ones this Christmas, you might be interested in knowing dates that you have to order stuff by!</p>
+<p><strong>Do you need to get your order before <span style="color: red;">December 24</span>? When ordering through TopatoCo and you select&#8230;</strong></p>
+<p><span style="color: #0000ff;"><strong>&#8230; INTERNATIONAL EXPRESS, USA STANDARD/FIRST CLASS </strong>order by December 14th</span></p>
+<p><span style="color: #339900;"><strong>&#8230; USPS DOMESTIC PRIORITY:</strong> December 16<br />
+</span><span style="color: #339900;"><strong>&#8230; USPS EXPRESS:</strong> December 20</span></p>
+<p><span style="color: #800000;"><strong>&#8230; UPS GROUND:</strong> December 16, but you may be able to push it depending on where you live. <a href="http://topatoco.com/help/shipping.html"><strong><span style="text-decoration: underline;"><span style="color: #990000;">Refer to the map to be sure</span></span></strong>.</a></span></p>
+<p><span style="color: #ff0000;"><strong>&#8230; UPS 3-DAY, 2-DAY, AND OVERNIGHT</strong> will all be shipped on the next day until December 21.</span></p>
+<p><span style="color: #000000;">After that you&#8217;re pooched. It&#8217;s the ole &#8220;Print out a picture, stick it in a box and say &#8216;You&#8217;re getting this!&#8217;&#8221; <em>(Which honestly I have given and received, and I think is totally fine.)</em></span></p>
+<p><span style="color: #000000;"><em>-Christopher</em></span></p>
+<p><span style="color: #000000;">PS: And thank you so much for thinking of me when it comes to your holiday shopping. I hope the stuff I make helps make your friends and family happy.</span></p>
+			</div> 
+			<div class="tags">
+				&#9492; Tags: <a href="http://drmcninja.com/archives/tag/christmas" rel="tag">christmas</a>, <a href="http://drmcninja.com/archives/tag/deadlines" rel="tag">deadlines</a>, <a href="http://drmcninja.com/archives/tag/papas-gotta-eat" rel="tag">papa's gotta eat</a>, <a href="http://drmcninja.com/archives/tag/topatoco" rel="tag">topatoco</a>, <a href="http://drmcninja.com/archives/tag/trample-free-christmas" rel="tag">trample free christmas</a>			</div>
+			<div class="comment-link">
+							</div>
+			<div class="clear-margins"><br /></div>
+		</div>
+		<div class="post-foot"></div>
+			<div class="post-head"></div>
+		<div class="post" id="post-1801">
+			<h3>
+				<a href="http://drmcninja.com/archives/news/customized-books-and-battle-magnets" rel="bookmark" title="Permanent Link to Neckties and BATTLE MAGNETS!">Neckties and BATTLE MAGNETS!</a>
+			</h3>
+			<div class="postdate">
+				November 22nd, 2010			</div>
+			<div class="entry">
+				<p>I am proud to unveil the super fun new <a href="http://www.topatoco.com/merchant.mvc?Screen=CTGY&amp;Store_Code=TO&amp;Category_Code=RB">Dr. McNinja <strong><em>BATTLE MAGNETS!</em></strong></a> Make Dr. McNinja surf on Robo-Dracula while slicing open a zombie ninja! Let King Radical kick Judy in the head! <em>Hold up your report card with Gordito and Yoshi. </em>The power is yours. <strong><em><a href="http://www.topatoco.com/merchant.mvc?Screen=CTGY&amp;Store_Code=TO&amp;Category_Code=RB">BATTLE MAGNETS.</a></em></strong></p>
+<p>There are two sets! If you buy both, you get a MYSTERY BONUS CHARACTER.</p>
+<p><a href="http://www.topatoco.com/merchant.mvc?Screen=CTGY&amp;Store_Code=TO&amp;Category_Code=RB"><img class="aligncenter size-full wp-image-1802" title="rb-magnets-01" src="http://drmcninja.com/wp-content/uploads/rb-magnets-01.jpg" alt="rb-magnets-01" width="650" height="413" /></a><a href="http://www.topatoco.com/merchant.mvc?Screen=CTGY&amp;Store_Code=TO&amp;Category_Code=RB"><img class="aligncenter size-full wp-image-1803" title="rb-magnets-02" src="http://drmcninja.com/wp-content/uploads/rb-magnets-02.jpg" alt="rb-magnets-02" width="650" height="448" /></a></p>
+<p>&#8211;</p>
+<p>I am also astounded to find out that today <a href="http://www.topatoco.com/merchant.mvc?Screen=CTGY&amp;Store_Code=TO&amp;Category_Code=RB">Raptor Bandit Industries brand neckwear has hit the shelves!</a> It&#8217;s 100% silk, and a super classy way to sneak some fun into your workday attire. Personally, I think I&#8217;m going to wear this tie all the time now.</p>
+<p><a href="http://www.topatoco.com/merchant.mvc?Screen=CTGY&amp;Store_Code=TO&amp;Category_Code=RB"><img class="aligncenter size-full wp-image-1806" title="rb-bandit-tie-pic" src="http://drmcninja.com/wp-content/uploads/rb-bandit-tie-pic.jpg" alt="rb-bandit-tie-pic" width="650" height="459" /></a></p>
+<p><em>-Christopher</em></p>
+			</div> 
+			<div class="tags">
+							</div>
+			<div class="comment-link">
+							</div>
+			<div class="clear-margins"><br /></div>
+		</div>
+		<div class="post-foot"></div>
+			<div class="post-head"></div>
+		<div class="post" id="post-1777">
+			<h3>
+				<a href="http://drmcninja.com/archives/news/judy-and-ice-cream-cake" rel="bookmark" title="Permanent Link to Judy and Ice Cream Cake">Judy and Ice Cream Cake</a>
+			</h3>
+			<div class="postdate">
+				November 10th, 2010			</div>
+			<div class="entry">
+				<p><img class="aligncenter size-full wp-image-1778" title="Judy-and-Ice-Cream-Cake" src="http://drmcninja.com/wp-content/uploads/Judy-and-Ice-Cream-Cake.jpg" alt="Judy-and-Ice-Cream-Cake" width="500" height="481" /></p>
+<p>That is all. Thank you to Samiran for the source photo!</p>
+<p><em>-Christopher</em></p>
+			</div> 
+			<div class="tags">
+							</div>
+			<div class="comment-link">
+							</div>
+			<div class="clear-margins"><br /></div>
+		</div>
+		<div class="post-foot"></div>
+			<div class="post-head"></div>
+		<div class="post" id="post-1767">
+			<h3>
+				<a href="http://drmcninja.com/archives/news/a-weekend-of-webcomics-awaits" rel="bookmark" title="Permanent Link to A Weekend of Webcomics Awaits!">A Weekend of Webcomics Awaits!</a>
+			</h3>
+			<div class="postdate">
+				November 3rd, 2010			</div>
+			<div class="entry">
+				<p style="text-align: center;"><a href="http://webcomicsweekend.com/"><img class="aligncenter" title="Webcomics Bird" src="http://www.webcomicsweekend.com/webcomicsweekend2.gif" alt="" width="555" height="150" /></a></p>
+<p style="text-align: left; ">This weekend, Anthony  and I will be at the 2nd ever <a href="http://webcomicsweekend.com/">New England Webcomics Weekend!</a> I loved this event last year, and I<em> think</em> I&#8217;ll feel the same about this year. The deal is essentially this. All of your favorite webcomic creators decided to make their own show. That&#8217;s it. Info is flying out of <a href="http://webcomicsweekend.com/">NEWW HQ</a>, and most recently the programming guide has been released, as well as information on places to eat, and the Friday Night Pub Crawl.</p>
+<p style="text-align: left; ">This NEWW we are blessed with a visit by The Once And Future King of Comics, Great Britain&#8217;s own <a href="http://scarygoround.com/">John Allison</a>. I&#8217;m pleased to announce that I&#8217;ll be interviewing Mr. Allison live at NEWW, and I MIGHT just open it up to audience questions. So dress in your finest, and think really hard of your best questions.</p>
+<p style="text-align: left; ">If you&#8217;re attending the pub crawl on Friday, keep an eye on the Twitters, and on the look out for stickers bearing the NEWW Bird.</p>
+<p style="text-align: left; "><strong>DON&#8217;T BE SHY.</strong></p>
+<p style="text-align: left; "><em>-Christopher</em></p>
+			</div> 
+			<div class="tags">
+				&#9492; Tags: <a href="http://drmcninja.com/archives/tag/anthony" rel="tag">anthony</a>, <a href="http://drmcninja.com/archives/tag/im-hungry" rel="tag">i'm hungry</a>, <a href="http://drmcninja.com/archives/tag/neww" rel="tag">neww</a>, <a href="http://drmcninja.com/archives/tag/what-do-we-have-to-eat-in-here" rel="tag">what do we have to eat in here</a>			</div>
+			<div class="comment-link">
+							</div>
+			<div class="clear-margins"><br /></div>
+		</div>
+		<div class="post-foot"></div>
+			<div class="post-head"></div>
+		<div class="post" id="post-1756">
+			<h3>
+				<a href="http://drmcninja.com/archives/news/dr-mcween" rel="bookmark" title="Permanent Link to Dr. McWeen">Dr. McWeen</a>
+			</h3>
+			<div class="postdate">
+				November 1st, 2010			</div>
+			<div class="entry">
+				<p><img class="aligncenter size-large wp-image-1757" title="DrMcPumkin" src="http://drmcninja.com/wp-content/uploads/DrMcPumkin-1024x682.jpg" alt="DrMcPumkin" width="1024" height="682" /></p>
+<p>Every year I am delighted to see The Adventures of Dr. McNinja incorporated into your Halloween festivities. I would like to show them all off on the website, but depending on the <em>enthusiasm</em> of each year, it can be slightly daunting. Thankfully, <strong><em>Social Media</em></strong> has come to the rescue. If you&#8217;d like to see or share your McNinja costumes or pumpkins or WHATEVER, make use of <a href="http://twitter.com/#search?q=%23drmcween">Twitter with hash tag #drmcween</a>. There are already a few sweet Dr. McNinja costumes already posted! And thanks to Brian Sueksdor for doing the pumpkin above!</p>
+<p><em>-Christopher</em></p>
+<p>PS: THIS weekend is&#8230; <a href="http://webcomicsweekend.com/">THE WEBCOMICS WEEKEND!</a> I hope to see you there.</p>
+			</div> 
+			<div class="tags">
+				&#9492; Tags: <a href="http://drmcninja.com/archives/tag/ghosts-and-goblins" rel="tag">ghosts and goblins</a>			</div>
+			<div class="comment-link">
+							</div>
+			<div class="clear-margins"><br /></div>
+		</div>
+		<div class="post-foot"></div>
+			<div class="post-head"></div>
+		<div class="post" id="post-1748">
+			<h3>
+				<a href="http://drmcninja.com/archives/news/fanart-friday-and-more" rel="bookmark" title="Permanent Link to Fanart Friday and more!">Fanart Friday and more!</a>
+			</h3>
+			<div class="postdate">
+				October 29th, 2010			</div>
+			<div class="entry">
+				<p><!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica} p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px} -->I have some lovely new fan creations to show off this week.</p>
+<p>First is a ghost wizard by Alex Sarunac.</p>
+<p><img class="aligncenter size-full wp-image-1749" title="ghostwizard" src="http://drmcninja.com/wp-content/uploads/ghostwizard.jpg" alt="ghostwizard" width="600" height="800" /></p>
+<p>Next up, a crossover comic by <a href="http://bobadventures.comicgenesis.com/">Jim Cleaveland.</a></p>
+<p><img class="aligncenter size-full wp-image-1750" title="McNinj 2" src="http://drmcninja.com/wp-content/uploads/McNinj-2.jpg" alt="McNinj 2" width="750" height="1539" /></p>
+<p>And finally&#8230; DR. MCNINJA LEGOS, by <a href="http://www.blocktales.thecomicseries.com/">RJ Prentice.</a></p>
+<p><img class="aligncenter size-full wp-image-1751" title="Dr McNinja Part 1" src="http://drmcninja.com/wp-content/uploads/Dr-McNinja-Part-1.jpg" alt="Dr McNinja Part 1" width="616" height="462" /></p>
+<p>Thanks, dudes!</p>
+<p>&#8211;</p>
+<p>Moving on, you remember my dog, Commissioner James Gordon, yes? (Photo by <a href="http://georgebaier.com/">GBIV</a>)</p>
+<p><img class="aligncenter" title="Gordon" src="http://sphotos.ak.fbcdn.net/hphotos-ak-snc3/hs056.snc3/14358_1185741007228_1339369006_30524764_8130523_n.jpg" alt="" width="604" height="402" /></p>
+<p>Well it seems he has inspired a band/evil twin, <a href="http://commissionerjamsgordon.com/">Commissioner JAMS Gordon</a>! You should check out the jams. They&#8217;re good jams.</p>
+<p>&#8211;</p>
+<p>Benito Cereno (who you might know is the fellow I entrust to write <a href="http://www.topatoco.com/merchant.mvc?Screen=CTGY&amp;Store_Code=TO&amp;Category_Code=RB-BOOKS">book exclusive Dr. McNinja tales</a>) has a new comic series out in stores now, and it is AWESOME.</p>
+<p><img class="aligncenter" title="Guarding the Globe" src="http://imagecomics.com/gallery2/g2data_373ph4nt/albums/comics/2010-10/GOTG_cover02_001.jpg" alt="" width="585" height="900" /></p>
+<p><a href="http://imagecomics.com/fivepagepreview.php?title=guardingtheglobe02a&amp;page=cover&amp;doubles=">GUARDING THE GLOBE</a> (click for preview) has some sweet as hell looking action, super funny dialogue, and some of my favorite new characters in comics. Plus it&#8217;s in the Invincible universe, and man oh man do I love Invincible. Stop by your local comic shop, or get it for your ipad or something.</p>
+<p>&#8211;</p>
+<p>Finally, I would like to say THANK YOU to everyone who bought <em><a href="http://machineofdeath.net/a/">Machine of Death</a></em> this week, particularly on Tuesday.</p>
+<p><img class="aligncenter" title="Numbah One" src="http://machineofdeath.net/a/wp-content/uploads/2010/10/Picture-6-500x191.png" alt="" width="500" height="191" /></p>
+<p>You made <em>Machine of Death</em> the NUMBER ONE AMAZON BEST SELLER, and while has dropped in rank since it&#8217;s debut day, it&#8217;s still on the top list. I&#8217;m really proud to have contributed to the book, and moments like this make me truly grateful to be a creator in the age of the internet.</p>
+<p><em>- Christopher</em></p>
+<p>PS: While the new Dr. McNinja book won&#8217;t be out until spring… I have got some really fun new merchandise coming out over the course of the next month. I&#8217;m not talking prints or t-shirts either (Okay one of the four things is a shirt). Stay tuned.</p>
+<p>PPS: Thanks for being cool about us missing two updates this month! I had a lot of non-comic work, plus I&#8217;m still getting used to inking. I appreciate not getting emails with the subject line &#8220;WHERE&#8217;S THE PAGE YOU LAZY TURD MAN&#8221;</p>
+			</div> 
+			<div class="tags">
+				&#9492; Tags: <a href="http://drmcninja.com/archives/tag/fanart-friday" rel="tag">fanart friday</a>, <a href="http://drmcninja.com/archives/tag/lazy-turd-man" rel="tag">lazy turd man</a>, <a href="http://drmcninja.com/archives/tag/machine-of-death" rel="tag">machine of death</a>, <a href="http://drmcninja.com/archives/tag/plug" rel="tag">plug</a>			</div>
+			<div class="comment-link">
+							</div>
+			<div class="clear-margins"><br /></div>
+		</div>
+		<div class="post-foot"></div>
+			<div class="post-head"></div>
+		<div class="post" id="post-1742">
+			<h3>
+				<a href="http://drmcninja.com/archives/news/best-sellers-and-worst-sellers" rel="bookmark" title="Permanent Link to Best sellers and worst sellers!">Best sellers and worst sellers!</a>
+			</h3>
+			<div class="postdate">
+				October 25th, 2010			</div>
+			<div class="entry">
+				<p><a href="http://www.topatoco.com/merchant.mvc?Screen=CTGY&amp;Store_Code=TO&amp;Category_Code=CLEARANCE"><img class="aligncenter" title="Clearance" src="http://www.topatoco.com/graphics/00000001/banner-clearance.gif" alt="" width="650" height="66" /></a></p>
+<p>From now until Halloween, now&#8217;s the time for GOOD TIMES and GREAT SAVINGS over at the <a href="http://www.topatoco.com/merchant.mvc?Screen=CTGY&amp;Store_Code=TO&amp;Category_Code=CLEARANCE">TopatoCo brand T-Shirt Euthanizing Hut</a>. All the last chance items now start at a mere $15! Check out dem bargains.</p>
+<p><a href="http://machineofdeath.net/a/mod-day"><img class="aligncenter" src="http://machineofdeath.net/a/wp-content/uploads/2010/10/mod_468x60.jpg" alt="" width="468" height="60" /></a></p>
+<p>In the realm of entertaining items for you to read, I have WONDERFUL NEWS! A book so very long in the making is finally on sale. <a href="http://machineofdeath.net/a/mod-day">THE MACHINE OF DEATH</a>, a fiction anthology with short stories by many of your favorite internet folks! David Malki! Ryan North! Randall Munroe! Yahtzee Croshaw! AND THATS NOT ALL. Many of your favorite webcartoonists and artists provided the illustrations! (Including myself.) This Tuesday, we&#8217;d like to try and make the book an <a href="http://www.amazon.com/Machine-Death-collection-stories-people/dp/0982167121">Amazon best seller</a> for JUST ONE DAY. <a href="http://machineofdeath.net/a/mod-day">Please check out the website for more info.</a></p>
+			</div> 
+			<div class="tags">
+				&#9492; Tags: <a href="http://drmcninja.com/archives/tag/euthanizing-hut" rel="tag">euthanizing hut</a>, <a href="http://drmcninja.com/archives/tag/machine-of-death" rel="tag">machine of death</a>, <a href="http://drmcninja.com/archives/tag/sale" rel="tag">sale</a>, <a href="http://drmcninja.com/archives/tag/topatoco" rel="tag">topatoco</a>			</div>
+			<div class="comment-link">
+							</div>
+			<div class="clear-margins"><br /></div>
+		</div>
+		<div class="post-foot"></div>
+			<div class="post-head"></div>
+		<div class="post" id="post-1730">
+			<h3>
+				<a href="http://drmcninja.com/archives/news/big-news-for-important-times" rel="bookmark" title="Permanent Link to Big News for Important Times">Big News for Important Times</a>
+			</h3>
+			<div class="postdate">
+				October 11th, 2010			</div>
+			<div class="entry">
+				<p>Let&#8217;s get this first one out of the way. Due to the exhaustive nature of New York Comic Con, there will be no Dr. McNinja comic today. Updates resume on Wednesday.</p>
+<p><strong>HOWEVER</strong></p>
+<p>Anthony and I collaborated on a <a href="http://scarygoround.com/?date=20101011">Bad Machinery guest comic</a> that just so happens to have gone up today! It is about the magic wishing pencil that caused all sorts of problems in the Bad Machinery issue that just wrapped up.</p>
+<p><strong>AND NOW THE BIG NEWS</strong></p>
+<p><a href="http://www.comicsalliance.com/2010/10/08/adventures-of-dr-mcninja-dark-horse/"><img class="aligncenter" src="http://www.blogcdn.com/www.comicsalliance.com/media/2010/10/dhmcninja.jpg" alt="" width="500" height="435" /></a></p>
+<p>This weekend at New York Comic Con, Dark Horse announced that they will be publishing<strong><em> Night Powers, </em><span style="font-weight: normal;">Volume 4 of </span><em>The Adventures of Dr. McNinja. <span style="font-weight: normal;">(<span style="font-style: normal;">Oddly enough, no the Axe Cop crossover had nothing to do with it. Dark Horse just has good taste in webcomics. See also their Achewood, Perry Bible Fellowship, and Wondermark collections.)</span></span></em></strong></p>
+<p>For more information, sneak peeks, and entertaining tidbits, <a href="http://www.comicsalliance.com/2010/10/08/adventures-of-dr-mcninja-dark-horse/">check my interview with Comics Alliance! </a></p>
+<p><em>-Christopher</em></p>
+<p><em><a href="http://topatoco.com/raptorbandit"><img class="aligncenter size-full wp-image-1590" title="posterad" src="http://drmcninja.com/wp-content/uploads/posterad.jpg" alt="posterad" width="624" height="68" /></a><br />
+</em></p>
+			</div> 
+			<div class="tags">
+				&#9492; Tags: <a href="http://drmcninja.com/archives/tag/bad-machinery" rel="tag">bad machinery</a>, <a href="http://drmcninja.com/archives/tag/dark-horse" rel="tag">dark horse</a>, <a href="http://drmcninja.com/archives/tag/dr-mcninjas-chest-hair" rel="tag">Dr. McNinja's chest hair</a>, <a href="http://drmcninja.com/archives/tag/guest-comic" rel="tag">guest comic</a>, <a href="http://drmcninja.com/archives/tag/interview" rel="tag">interview</a>, <a href="http://drmcninja.com/archives/tag/night-powers" rel="tag">night powers</a>, <a href="http://drmcninja.com/archives/tag/volume-4" rel="tag">volume 4</a>			</div>
+			<div class="comment-link">
+							</div>
+			<div class="clear-margins"><br /></div>
+		</div>
+		<div class="post-foot"></div>
+			<div class="post-head"></div>
+		<div class="post" id="post-1719">
+			<h3>
+				<a href="http://drmcninja.com/archives/news/new-york-comic-con" rel="bookmark" title="Permanent Link to New York Comic Con">New York Comic Con</a>
+			</h3>
+			<div class="postdate">
+				October 3rd, 2010			</div>
+			<div class="entry">
+				<p><img class="aligncenter size-full wp-image-1720" title="knockknock" src="http://drmcninja.com/wp-content/uploads/knockknock.jpg" alt="knockknock" width="757" height="867" />Tell your friends! Tell your enemies!<a href="http://www.newyorkcomiccon.com/"> We look forward to seeing you there <strong>this coming weekend!</strong></a></p>
+			</div> 
+			<div class="tags">
+				&#9492; Tags: <a href="http://drmcninja.com/archives/tag/anthony" rel="tag">anthony</a>, <a href="http://drmcninja.com/archives/tag/appearances" rel="tag">appearances</a>, <a href="http://drmcninja.com/archives/tag/comic-sans" rel="tag">comic sans</a>			</div>
+			<div class="comment-link">
+							</div>
+			<div class="clear-margins"><br /></div>
+		</div>
+		<div class="post-foot"></div>
+		<div class="pagenav">
+		<div class="pagenav-right"></div>
+		<div class="pagenav-left"><a href="http://drmcninja.com/page/2" >&darr; Previous Entries</a></div>
+		<div class="clear"></div>
+	</div>	
+	
+</div>
+</div>
+
+<div id="sidebar">
+
+	<ul>
+
+		<li id="text-441306501" class="widget widget_text">			<div class="textwidget"><a href="/issues/"><img src="/mcninja-images/ARCHIVE.jpg" alt="Archived Issues" /></a></div>
+		</li>
+<li id="text-163165071" class="widget widget_text">			<div class="textwidget"><a href="/?feed=rss2"><img src="/mcninja-images/RSSFEED.jpg" alt="The Dr. McNinja RSS feed" /></a></div>
+		</li>
+<li id="text-163162711" class="widget widget_text">			<div class="textwidget"><a href="http://topatoco.com/raptorbandit">
+<img src="/wp-content/uploads/battlemagnets.jpg"  /></a>
+<a href="http://topatoco.com/raptorbandit"><img src="/wp-content/uploads/necktiead2.jpg" />
+</a>
+<a href="http://drmcninja.com/archives/uncategorized/original-art"><img src="/wp-content/uploads/originalart1.jpg" />
+</a>
+</div>
+		</li>
+<li id="text-163187201" class="widget widget_text">			<div class="textwidget"><!-- Beginning of Project Wonderful ad code: -->
+<!-- Ad box ID: 44713 -->
+<script type="text/javascript">
+<!--
+var pw_d=document;
+pw_d.projectwonderful_adbox_id = "44713";
+pw_d.projectwonderful_adbox_type = "3";
+pw_d.projectwonderful_foreground_color = "";
+pw_d.projectwonderful_background_color = "";
+//-->
+</script>
+<script type="text/javascript" src="http://www.projectwonderful.com/ad_display.js"></script>
+<noscript><map name="admap44713" id="admap44713"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&amp;c=0&amp;id=44713&amp;type=3" shape="rect" coords="0,0,160,600" title="" alt="" target="_blank" rel="nofollow" /></map>
+<table cellpadding="0" border="0" cellspacing="0" width="160" bgcolor="#ffffff"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=44713&amp;type=3" width="160" height="600" usemap="#admap44713" border="0" alt="" /></td></tr><tr><td bgcolor="#ffffff" colspan="1"><center><a style="font-size:10px;color:#0000ff;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=44713&amp;type=3" target="_blank">Ads by Project Wonderful!  Your ad could be here, right now.</a></center></td></tr><tr><td colspan="1" valign="top" width="160" bgcolor="#000000" style="height:3px;font-size:1px;padding:0px;max-height:3px;"></td></tr></table>
+</noscript>
+<!-- End of Project Wonderful ad code. --></div>
+		</li>
+<li id="text-163149442" class="widget widget_text">			<div class="textwidget"><img src="/mcninja-images/CONTACTUS.jpg" />
+<br />
+<b>Writer/Artist - Christopher Hastings</b> <i>chris(at)drmcninja(dawt)com</i><br />
+<b>Colorist - Anthony Clark</b> <i>nedroid(at)gmail(doot)com</i><br />
+</div>
+		</li>
+<li id="text-163049971" class="widget widget_text">			<div class="textwidget"><p><img src="/mcninja-images/APPEARANCES.jpg" /><br />
+<br />No more for 2010.</p>
+</div>
+		</li>
+<li id="text-411303401" class="widget widget_text">			<div class="textwidget"><img src="/mcninja-images/TWITTER.jpg" />
+<br />
+Christopher - <a href="http://www.twitter.com/drhastings">@drhastings</a><br />
+Anthony - <a href="http://www.twitter.com/nedroid">@nedroid</a><br /></div>
+		</li>
+<li id="text-441362051" class="widget widget_text">			<div class="textwidget"><img src="/mcninja-images/MISC.jpg" />
+<br />
+<a href="http://www.boxofbaskets.com/drmcninja/phpBB3/">Unofficial Forum</a><br />
+<a href="http://www.facebook.com/group.php?gid=2204501455">Facebook Group</a><br />
+<a href="http://en.wikipedia.org/wiki/Dr._McNinja">Wikipedia</a><br />
+<a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/Ptitlehpgydodt1jb7?from=Main.TheAdventuresOfDrMcNinja">TV Tropes</a><br />
+<br />
+<a href="http://nedroid.com">Anthony's Website</a><br />
+<a href="http://www.carlymonardo.com/">Former colorist Carly's Website</a><br />
+<a href="http://www.kentarcher.deviantart.com/">Former inker Kent's Website</a><br /><br />
+
+GUEST COMICS<br />
+<a href="http://www.animalshaveproblemstoo.com/view.php?id=240">Animals Have Problems Too</a><br />
+<a href="http://scarygoround.com/index.php?date=20101011">Bad Machinery</a><br />
+<a href="http://www.qwantz.com/index.pl?comic=993">Dinosaur Comics</a><br />
+<a href="http://www.gastrophobia.com/index.php?date=2010-02-10">GastroPhobia</a><br />
+Goats <a href="http://goats.com/archive/060728.html">1</a> and <a href="http://goats.com/archive/070524.html">2</a><br />
+<a href="http://www.moovok.co.uk/gsp/index.php?date=2008-05-06">Guest Strip Project</a><br />
+<a href="http://hatesong.com/2007/03/19/guest-strip-chris-hastingskent-archer-pt-1/">Hate Song</a><br />
+<a href="http://horribleville.com/d/20081130.html">Horribleville</a><br />
+Questionable Content <a href="http://questionablecontent.net/view.php?comic=670">1</a> and <a href="http://questionablecontent.net/view.php?comic=939">2</a><br />
+<a href="http://samandfuzzy.com/archive.php?comicID=713">Sam and Fuzzy</a><br />
+<a href="http://scarygoround.com/?date=20070523">Scary Go Round</a><br />
+<a href="http://www.whiteninjacomics.com/guest/2000/drmcninja.shtml">White Ninja</a><br />
+Wondermark <a href="http://www.wondermark.com/d/207.html">1, </a> <a href="http://wondermark.com/guest-hastings/">2</a><br /></div>
+		</li>
+<li id="text-612685821" class="widget widget_text">			<div class="textwidget"><img src="/mcninja-images/LINKS.jpg"/></div>
+		</li>
+<li id="linkcat-23" class="widget widget_links"><h2 class="widgettitle">blogroll1</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.fleen.com/">Fleen</a></li>
+<li><a href="http://thecareercookbook.com/" title="The Career Cookbook">The Career Cookbook</a></li>
+<li><a href="http://topatoco.com">TopatoCo</a></li>
+<li><a href="http://webcomics.com">Webcomics.com</a></li>
+
+	</ul>
+</li>
+
+<li id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">blogroll2</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://asofterworld.com" title="A Softer World">A Softer World</a></li>
+<li><a href="http://achewood.com" title="Achewood">Achewood</a></li>
+<li><a href="http://scarygoround.com" title="Bad Machinery">Bad Machinery</a></li>
+<li><a href="http://chainsawsuit.com" title="Chainsawsuit">Chainsawsuit</a></li>
+<li><a href="http://tcimh.com" title="Creatures in My Head">Creatures in My Head</a></li>
+<li><a href="http://chewbac.ca" title="Dinosaur Comics">Dinosaur Comics</a></li>
+<li><a href="http://gastrophobia.com" title="Gastrophobia">Gastrophobia</a></li>
+<li><a href="http://goats.com" title="Goats">Goats</a></li>
+<li><a href="http://gunshowcomic.com" title="Gun Show">Gun Show</a></li>
+<li><a href="http://gunnerkrigg.com/index2.php" title="Gunnerkrigg Court">Gunnerkrigg Court</a></li>
+<li><a href="http://harkavagrant.com" title="Hark! A Vagrant">Hark! A Vagrant</a></li>
+<li><a href="http://frontalot.com/index.php/">MC Frontalot</a></li>
+<li><a href="http://mspaintadventures.com" title="MSPaint Adventures">MSPaint Adventures</a></li>
+<li><a href="http://octopuspie.com" title="Octopus Pie">Octopus Pie</a></li>
+<li><a href="http://overcompensating.com" title="Overcompensating">Overcompensating</a></li>
+<li><a href="http://questionablecontent.net" title="Questionable Content">Questionable Content</a></li>
+<li><a href="http://samandfuzzy.com" title="Sam and Fuzzy">Sam and Fuzzy</a></li>
+<li><a href="http://smbc-comics.com" title="Saturday Morning Breakfast Cereal">Saturday Morning Breakfast Cereal</a></li>
+<li><a href="http://wondermark.com" title="Wondermark">Wondermark</a></li>
+
+	</ul>
+</li>
+
+<li id="linkcat-24" class="widget widget_links"><h2 class="widgettitle">blogroll3</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://maximumfun.org" title="Maximum Fun">Maximum Fun</a></li>
+<li><a href="http://www.wnyc.org/shows/radiolab" title="Radiolab">Radiolab</a></li>
+
+	</ul>
+</li>
+
+
+	</ul>
+
+</div>
+
+<div class="clear"></div><!-- Clears floated columns and sidebars -->
+
+<div id="footer">
+	<p>
+		The Adventures of Dr. McNinja is written and drawn by Christopher Hastings, and colored by Anthony Clark. Dr. McNinja painting by <a href="http://www.zombiemariachis.com/">Josh Hass</a>.
+	</p>
+	<p>
+		All content unless otherwise specified is copyright Christopher Hastings 2003 - 2010. Site powered by <a href="http://wordpress.org/">WordPress</a> with <a href="http://comicpress.org/">ComicPress</a>
+		| Subscribe: <a href="http://drmcninja.com/feed">RSS Feed</a>
+		<!-- 56 queries. 0.598 seconds. -->
+	</p>
+</div>
+ 
+</div><!-- Ends "page" -->
+ 
+	<script type='text/javascript'><!--
+var seriesdropdown = document.getElementById("orgseries_dropdown");
+if (seriesdropdown) { 
+ function onSeriesChange() {
+		if ( seriesdropdown.options[seriesdropdown.selectedIndex].value > 0 ) {
+			location.href = "http://drmcninja.com/series/"+seriesdropdown.options[seriesdropdown.selectedIndex].attributes.getNamedItem('class').value;
+		}
+    }
+    seriesdropdown.onchange = onSeriesChange;
+}
+--></script>
+	
+</body>
+
+</html>
