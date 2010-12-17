@@ -1,0 +1,466 @@
+<html lang="en">
+<head>
+<link rel="STYLESHEET" type="text/css" href="/main.css">
+<!-- #BeginEditable "doctitle" --> <!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="rating" content="general">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="author" content="National Weather Service Telecommunication Operations Center Web Team">
+<meta name="robot" content="all">
+<meta name="Content-Language" content="en-US">
+<meta NAME="AUTHOR" CONTENT="NWS/Office of Systems Operations, Systems Operations Center, Silver Spring, MD; July 22, 1999">
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<meta NAME="KEYWORDS" CONTENT="METAR Data Access, METAR reports">
+<title> METAR Data Access </title>
+<meta HTTP-EQUIV="Window-target" CONTENT="_top">
+ 
+<base TARGET="_top">
+ 
+<script TYPE="text/javascript" LANGUAGE="JAVASCRIPT">
+<!--
+function init() {
+if (top.frames.length!=0)
+top.location=self.document.location; 
+}
+//-->
+ </script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" rightmargin="0" marginwidth="0" marginheight="0">
+<table cellspacing="0" cellpadding="0" border="0" width="100%"
+ background="/images/topbanner.jpg">
+<tr>
+<td align="right"><a href="#contents"><img src="/images/skipgraphic.gif"
+ alt="Skip Navigation Link" width="1" height="1" border="0"></a><a
+ href="http://www.nws.noaa.gov"><span
+ class="nwslink">www.weather.gov</span></a>&nbsp;</td>
+</tr>
+</table>
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+<td rowspan="2"><a href="http://www.noaa.gov"><img src="/images/noaaleft.jpg"
+ alt="NOAA logo - Select to go to the NOAA homepage" width="85" height="78"
+ border="0"></a></td>
+<td align="left"><img src="/officenames/top_nws_title.jpg" alt="National Weather Service
+ Headquarters Office" width="500" height="20" border="0"></td>
+<td rowspan="2" width="100%" background="/images/wfo_bkgrnd.jpg">&nbsp;</td>
+<td rowspan="2" align="right"><img src="/images/nwsright.jpg" alt="NWS logo"
+ width="85" height="78" border="0"></td>
+</tr>
+
+<tr>
+<td><img src="/officenames/iws_name.jpg" alt="Internet Weather Source"
+ width="500" height="58" border="0"></td>
+</tr>
+</table>
+
+<table cellspacing="0" cellpadding="0" border="0"
+ background="/images/navbkgrnd.gif" width="100%">
+<tr>
+<td align="left" valign="top" width="94"><img src="/images/navbarleft.jpg" alt="" width="94"
+ height="23" border="0"></td>
+<td class="nav" width="10%" align="center" id=menuitem><a href="http://weather.gov/sitemap.html">Site
+ Map</a></td>
+<td class="nav" width="10%" align="right" id=menuitem><a
+ href="http://weather.gov/pa/">News</a></td>
+<td class="nav" width="19%" align="right" id=menuitem><a
+ href="http://www.nws.noaa.gov/organization.html">Organization</a></td>
+
+<!-- Start NWS Search section -->
+<td class="yellow" align="right" width="20%">
+<form action="http://www.firstgov.gov/fgsearch/index.jsp" name="query">
+<label for="search">Search</label>&nbsp;</td>
+<td align="left" class="searchinput" width="20%" nowrap>
+<input type="hidden" name="parsed" value="true">
+<input type="hidden" name="rn" value="3">
+<input type="hidden" name="in0" value="domain">
+<input type="hidden" name="dom0" value="nws.noaa.gov, weather.gov, wrh.noaa.gov, srh.noaa.gov, crh.noaa.gov, prh.noaa.gov,
+arh.noaa.gov, alaska.net/~nwsar, erh.noaa.gov, ncep.noaa.gov, spc.noaa.gov, nhc.noaa.gov, sec.noaa.gov, aviationweather.gov,
+aviationweather.noaa.gov, weather.noaa.gov, roc.noaa.gov, nohrsc.nws.gov, nwstc.noaa.gov, wdtb.noaa.gov, npmoc.navy.mil,
+ndbc.noaa.gov">
+<input type="text" name="mw0" value="Enter Search Here" id="search" size="20" maxlength="256">&nbsp;<input type="submit"
+name="Go2" value="Go"></td>
+<td width="10%"></form>&nbsp;</td>
+<td align="right" valign="bottom" width="24"><img src="/images/navbarendcap.jpg" alt="" width="24" height="23" border="0"></td>
+</tr>
+</table>
+<!-- BEGIN LEFT MARGIN TEXT HERE -->
+<table BORDER="0" CELLSPACING="0">
+  <tr VALIGN="top"> 
+    
+<td BGCOLOR="#0a2390" WIDTH="130" BORDERCOLOR="#003399"
+			CLASS="white" ID="menuitem" height="2244"> <br>
+      <br>
+<br>
+      <center>
+<h3><A href="/">IWS<br>Home</a></h3>      <br>
+      <A href="http://weather.gov">NWS Home</A><br><br>
+
+
+      <br><A href="http://weather.noaa.gov/radar/">Radar Graphics</a><br><br>
+            <br><A Href="http://weather.noaa.gov/fax/">Weather Maps</A>
+	  <BR><br><br>
+	  <A HREF="http://weather.noaa.gov/international.html">International<br>
+Current<br>Conditions</A>
+	  <br>
+<br><br>
+	  <A HREF="coded.html">Aviation Weather</A>
+	  <br><br><br>
+      <A HREF="http://www.nws.noaa.gov/om/marine/home.htm">Marine Weather</a>
+	  </center>
+    </td>
+    <!-- END LEFT MARGIN TEXT HERE -->
+    
+<td VALIGN="top" WIDTH="600" height="2244"> &nbsp; 
+<b> &nbsp; <A href="/">IWS Home</a> > <A HREF="coded.html"> Aviation Weather</a> > METAR Data Access </b>
+<!-- END BREAD CRUMBS HERE -->
+      
+<!-- START BODY OF TEXT HERE -->
+<br>
+<br>
+      
+<table BORDER="0" CELLPADDING="5" width="580" >
+        <tr> 
+          <td height="194"> 
+            
+<h1>METAR Data Access</h1>
+Current and recent METAR reports from around the world are available from the NWS either through this presentation or via anonymous FTP at <A
+						  HREF="ftp://tgftp.nws.noaa.gov/data/observations/metar">
+						   ftp://tgftp.nws.noaa.gov/data/observations/metar</A>. METAR observations are
+						  available as <A HREF="#reports"> individual reports</A> or in <A
+						  HREF="#files"> cycle files</A>. The information available here is represented in
+							a <A HREF="http://www.nws.noaa.gov/tg/code.html">meteorological code</A> ,
+							however, extensive information is available about the  
+							<A HREF="http://metar.noaa.gov">METAR Code</A> furnished by NESDIS.
+							<br>
+<br>
+<B><A NAME="reports">Individual Reports</A></B>
+<BR><BR>
+To display the most recent METAR report for one ore more observing locations, enter the <B>four-character</B> ICAO 
+Location Indicators in the field below, separated by one or more blanks.
+<BR><BR>
+Enter one or more <B>four-character</B> ICAO Location Indicators below.<BR> Make sure to enter one or more spaces between each indicator:
+<br>
+<FORM NAME="textbox" METHOD="post" ACTION="/mgetmetar.php">
+<INPUT TYPE="TEXT" NAME="cccc" SIZE="20" ALIGN="MIDDLE"><br>
+<INPUT TYPE="SUBMIT" NAME="Submit" VALUE="SUBMIT" ALIGN="MIDDLE"> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<INPUT TYPE="RESET" NAME="Clear" VALUE="CLEAR" ALIGN="MIDDLE"></form>
+<BR><BR><BR>
+<B><A NAME="files">Cycle Files</A></B>
+<BR><BR>
+Hourly files containing METAR reports
+						  are available here and via &nbsp;
+						  <A HREF="ftp://tgftp.nws.noaa.gov/data/observations/metar/cycles/"> anonymous
+						  FTP</A> from weather.noaa.gov in the /data/observations/metar/cycles directory.
+						  Files are named hhZ.TXT where hh is the cycle hour of all the METAR reports
+						  found in that file. (See the METAR Cycle discussion below.)
+<P><FONT FACE="Arial">All reports received are placed in
+						  these files as they are received. The files are updated approximately every
+						  five minutes as data becomes available. Reports may be duplicated within the
+						  files and multiple reports received from a station may appear in a file. SPECI
+						  reports are also included in the file.</FONT></P> 
+						
+<P>Cycle files are deleted ten minutes
+						  before the start of cycle, for example, the file 15Z.TXT will be deleted at
+						  1435Z in preparation for receipt of new data. This means that data up to 23
+						  hours old is available.
+<BR><BR><BR>
+<B>File Format</B>
+<BR><BR>
+Each cycle file contains multiple reports in the following format:
+<pre>observation time
+report...
+
+
+observation time
+report...
+.
+.
+.</pre>
+where:<BR>
+<i>observation time</i> is the extrapolated time of the observation in the form<br> 
+<B>yyyy/mm/dd hh:mm<BR></B><i>report</i> is the METAR observation spanning one or more lines.<br> 
+The end of the report is delimited by a blank line.
+<BR><BR><BR>
+<B>Files</B>
+<BR><BR>
+Data files are available for the past 4 observing cycles and are identified by cycle. <BR>
+ 
+The current time is <B><FONT FACE="Arial" color="#FF0000" size="-1">
+<!--#exec cmd="/afs/nwstg/services/weather.noaa.gov/cgi-bin/gmt_time.pl"--></font>
+</B>, 
+<font face="arial" size="-1">therefore the METAR observing cycle is</font> <B><font face="Arial" color="#FF0000" size="-1"> 
+<!--#exec cmd="/afs/nwstg/services/weather.noaa.gov/cgi-bin/metar_ob_cycle.pl"-->
+</font>
+</B>.
+<BR>
+ <font face="arial" size="-1">The current cycle file may be unavailable or incomplete until the end of the cycle.</font><br><br>
+<TABLE BORDER="1" CELLSPACING="5" CELLPADDING="5" VALIGN="MIDDLE"> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/00Z.TXT">00Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/01Z.TXT">01Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/02Z.TXT">02Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/03Z.TXT">03Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/04Z.TXT">04Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/05Z.TXT">05Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/06Z.TXT">06Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/07Z.TXT">07Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/08Z.TXT">08Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/09Z.TXT">09Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/10Z.TXT">10Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/11Z.TXT">11Z</A></FONT></TD>
+							 
+						  </TR> 
+						  <TR> 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/12Z.TXT">12Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/13Z.TXT">13Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/14Z.TXT">14Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/15Z.TXT">15Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/16Z.TXT">16Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/17Z.TXT">17Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/18Z.TXT">18Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/19Z.TXT">19Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/20Z.TXT">20Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/21Z.TXT">21Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/22Z.TXT">22Z</A></FONT></TD>
+							 
+							 <TD><FONT FACE="Arial"><A
+								HREF="http://weather.noaa.gov/pub/data/observations/metar/cycles/23Z.TXT">23Z</A></FONT></TD>
+							 
+						  </TR> 
+						</TABLE>
+<BR><BR>
+<B><FONT FACE="Arial" size="-1">A Discussion of METAR Cycles</font></B><BR><BR>
+<font face="Arial, Helvetica, sans-serif" size="-1">In the U.S., METAR reports are taken once an hour between 50 minutes past the hour and 
+the top of the (next) hour. All the observations taken within this time are considered to be for the same 
+cycle. For example, observations taken between 1150Z and 1200Z are all 
+considered to be 12Z observations. In reality, observations may be taken a 
+little earlier or a little later. In addition, observations taken due to 
+changing conditions, known as SPECI reports, are also considered to occur for a 
+given cycle. Our rule of thumb is that all reports taken between 
+(<B>hh</B>-1)45Z to <B>hh</B>44Z are considered to be for the <B>hh</B> cycle. 
+The following table summarizes the relationship between observation time and cycle type:</font>
+<br>
+<br>
+<TABLE BORDER="1" CELLSPACING="5" CELLPADDING="5"
+						 VALIGN="MIDDLE"> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD ROWSPAN="2"><FONT FACE="Arial">Observation<BR>
+								Cycle</FONT></TD> 
+							 <TD COLSPAN="2"><FONT FACE="Arial">Observation<BR>
+								Range</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">From</FONT></TD> 
+							 <TD><FONT FACE="Arial">To</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">00Z</FONT></TD> 
+							 <TD ALIGN="CENTER" VALIGN="MIDDLE"><FONT
+								FACE="Arial">2345</FONT></TD> 
+							 <TD ALIGN="CENTER" VALIGN="MIDDLE"><FONT
+								FACE="Arial">0044</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">01Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">0045</FONT></TD> 
+							 <TD><FONT FACE="Arial">0144</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">02Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">0145</FONT></TD> 
+							 <TD><FONT FACE="Arial">0244</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">03Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">0245</FONT></TD> 
+							 <TD><FONT FACE="Arial">0344</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">04Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">0345</FONT></TD> 
+							 <TD><FONT FACE="Arial">0444</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">05Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">0445</FONT></TD> 
+							 <TD><FONT FACE="Arial">0544</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">06Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">0545</FONT></TD> 
+							 <TD><FONT FACE="Arial">0644</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">07Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">0645</FONT></TD> 
+							 <TD><FONT FACE="Arial">0744</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">08Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">0745</FONT></TD> 
+							 <TD><FONT FACE="Arial">0844</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">09Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">0845</FONT></TD> 
+							 <TD><FONT FACE="Arial">0944</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">10Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">0945</FONT></TD> 
+							 <TD><FONT FACE="Arial">1044</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">11Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">1045</FONT></TD> 
+							 <TD><FONT FACE="Arial">1144</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">12Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">1145</FONT></TD> 
+							 <TD><FONT FACE="Arial">1244</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">13Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">1245</FONT></TD> 
+							 <TD><FONT FACE="Arial">1344</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">14Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">1345</FONT></TD> 
+							 <TD><FONT FACE="Arial">1444</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">15Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">1445</FONT></TD> 
+							 <TD><FONT FACE="Arial">1544</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">16Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">1545</FONT></TD> 
+							 <TD><FONT FACE="Arial">1644</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">17Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">1645</FONT></TD> 
+							 <TD><FONT FACE="Arial">1744</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">18Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">1745</FONT></TD> 
+							 <TD><FONT FACE="Arial">1844</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">19Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">1845</FONT></TD> 
+							 <TD><FONT FACE="Arial">1944</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">20Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">1945</FONT></TD> 
+							 <TD><FONT FACE="Arial">2044</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">21Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">2045</FONT></TD> 
+							 <TD><FONT FACE="Arial">2144</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">22Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">2145</FONT></TD> 
+							 <TD><FONT FACE="Arial">2244</FONT></TD> 
+						  </TR> 
+						  <TR ALIGN="CENTER" VALIGN="MIDDLE"> 
+							 <TD><FONT FACE="Arial">23Z</FONT></TD> 
+							 <TD><FONT FACE="Arial">2245</FONT></TD> 
+							 <TD ALIGN="CENTER" VALIGN="MIDDLE"><FONT
+								FACE="Arial">2344</FONT></TD> 
+						  </TR> 
+						</TABLE>
+						<br><br>
+						<FONT FACE="Arial" size="-1">Please note that outside of the
+				  U.S., METAR observations may be taken on different schedules. For our purposes,
+				  we include non-U.S. observations within the same file structure.</font>
+				  </td></tr></table>		
+</td>
+          </tr>
+        </table>
+		
+<!-- END BODY OF TEXT HERE -->
+<!-- footer -->
+<table width="80%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+    <td colspan="3"> 
+      <HR>
+    </td>
+  </tr>
+  <tr valign="TOP"> 
+    <td class="gray"> <a href="http://www.doc.gov"><span class="gray">US Dept 
+      of Commerce</span></a><br>
+      <a href="http://www.noaa.gov"><span class="gray">National Oceanic and Atmospheric 
+      Administration</span></a><br>
+      National Weather Service<br>
+      Office of the Chief Information Officer (OCIO13)<BR>
+      1325 East West Highway<br>
+      Silver Spring, MD 20910<br>
+      Page last modified: November 19, 2004<br>
+      Page Author: <a href="mailto:nws.isg@noaa.gov"><span class="gray">Internet 
+      Services Group</span></a></td>
+    <td><a href="http://weather.gov/disclaimer.html"><span class="gray">Disclaimer</span></a><br>
+      <a href="http://weather.gov/feedback.shtml"><span class="gray">Feedback</span></a> </td>
+    <td align="right"><a href="http://weather.gov/notice.html"><span class="gray">Privacy Policy</span></a><br>
+      <a href="http://weather.gov/credits.html"><span class="gray">Credits</span></a> </td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
